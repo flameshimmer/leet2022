@@ -151,12 +151,43 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BinarySearch.cpp" />
+    <ClCompile Include="ClimbingStairs.cpp" />
+    <ClCompile Include="Combinations.cpp" />
+    <ClCompile Include="FirstBadVersion.cpp" />
+    <ClCompile Include="FloodFill.cpp" />
     <ClCompile Include="Helpers.cpp" />
+    <ClCompile Include="HouseRobber.cpp" />
     <ClCompile Include="Leet2022.cpp" />
+    <ClCompile Include="LetterCasePermutation.cpp" />
     <ClCompile Include="ListNode.cpp" />
+    <ClCompile Include="LongestSubstringWithoutRepeatingCharacters.cpp" />
+    <ClCompile Include="MaxAreaofIsland.cpp" />
+    <ClCompile Include="MergeTwoBinaryTrees.cpp" />
+    <ClCompile Include="MergeTwoSortedLists.cpp" />
+    <ClCompile Include="MiddleoftheLinkedList.cpp" />
+    <ClCompile Include="MoveZeroes.cpp" />
+    <ClCompile Include="NumberofOneBits.cpp" />
+    <ClCompile Include="PermutationinString.cpp" />
+    <ClCompile Include="Permutations.cpp" />
+    <ClCompile Include="PopulatingNextRightPointersinEachNode.cpp" />
+    <ClCompile Include="PowerofTwo.cpp" />
+    <ClCompile Include="RemoveNthNodeFromEndofList.cpp" />
+    <ClCompile Include="ReverseBits.cpp" />
+    <ClCompile Include="ReverseLinkedList.cpp" />
+    <ClCompile Include="ReverseString.cpp" />
+    <ClCompile Include="ReverseWordsinaStringIII.cpp" />
+    <ClCompile Include="RotateArray.cpp" />
+    <ClCompile Include="RottingOranges.cpp" />
+    <ClCompile Include="SearchInsertPosition.cpp" />
+    <ClCompile Include="SingleNumber.cpp" />
+    <ClCompile Include="SquaresofaSortedArray.cpp" />
     <ClCompile Include="stdafx.cpp" />
     <ClCompile Include="Test.cpp" />
     <ClCompile Include="TreeHelpers.cpp" />
+    <ClCompile Include="Triangle.cpp" />
+    <ClCompile Include="TwoSumIIInputArrayIsSorted.cpp" />
+    <ClCompile Include="ZeroOneMatrix.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Solution2022.h" />

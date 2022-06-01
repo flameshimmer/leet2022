@@ -39,6 +39,99 @@
     <ClCompile Include="TreeHelpers.cpp">
       <Filter>Helpers</Filter>
     </ClCompile>
+    <ClCompile Include="BinarySearch.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="ClimbingStairs.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="Combinations.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="FirstBadVersion.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="FloodFill.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="HouseRobber.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="LetterCasePermutation.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="LongestSubstringWithoutRepeatingCharacters.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="MaxAreaofIsland.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="MergeTwoBinaryTrees.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="MergeTwoSortedLists.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="MiddleoftheLinkedList.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveZeroes.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="NumberofOneBits.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="PermutationinString.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="Permutations.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="PopulatingNextRightPointersinEachNode.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerofTwo.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoveNthNodeFromEndofList.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="ReverseBits.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="ReverseLinkedList.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="ReverseString.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="ReverseWordsinaStringIII.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="RotateArray.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="RottingOranges.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchInsertPosition.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleNumber.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="SquaresofaSortedArray.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangle.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="TwoSumIIInputArrayIsSorted.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="ZeroOneMatrix.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Solution2022.h">
