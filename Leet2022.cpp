@@ -20,10 +20,13 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::BinarySearch::Main();
 	//Solution2022::FirstBadVersion::Main();
 	//Solution2022::SearchInsertPosition::Main();
-	
+
+
+	// 6/2/2022
 	//Solution2022::SquaresofaSortedArray::Main();
 	//Solution2022::RotateArray::Main();
 	//Solution2022::MoveZeroes::Main();
+	
 	//Solution2022::TwoSumIIInputArrayIsSorted::Main();
 	//Solution2022::ReverseString::Main();
 	//Solution2022::ReverseWordsinaStringIII::Main();
