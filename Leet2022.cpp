@@ -39,11 +39,13 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::PermutationinString::Main();
 	//Solution2022::FloodFill::Main();
 	
+	// 6/5/2022
 	//Solution2022::MaxAreaofIsland::Main();
 	//Solution2022::MergeTwoBinaryTrees::Main();
 	//Solution2022::PopulatingNextRightPointersinEachNode::Main();
 	//Solution2022::ZeroOneMatrix::Main();
-	//Solution2022::RottingOranges::Main();
+	Solution2022::RottingOranges::Main();
+	
 	//Solution2022::MergeTwoSortedLists::Main();
 	//Solution2022::ReverseLinkedList::Main();
 	//Solution2022::Combinations::Main();
