@@ -56,10 +56,11 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::LetterCasePermutation::Main();
 	//Solution2022::ClimbingStairs::Main();
 	
-	
+	//6/8/2022
 	//Solution2022::HouseRobber::Main();
 	//Solution2022::Triangle::Main();
 	//Solution2022::PowerofTwo::Main();
+	
 	//Solution2022::NumberofOneBits::Main();
 	//Solution2022::ReverseBits::Main();
 	//Solution2022::SingleNumber::Main();
