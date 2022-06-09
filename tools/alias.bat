@@ -6,6 +6,7 @@ DOSKEY ....=cd ../../..
 DOSKEY dt=cd C:\Users\flame\OneDrive\Desktop
 DOSKEY dl=cd C:\Users\flame\OneDrive\Download
 DOSKEY leet=cd C:\Users\flame\OneDrive\Desktop\2022\Leet2022
+DOSKEY tools=cd C:\Users\flame\OneDrive\Desktop\2022\Leet2022\tools
 DOSKEY code=cd C:\Users\flame\OneDrive\Desktop\code
 DOSKEY me=notepad C:\Users\flame\OneDrive\Desktop\2022\Leet2022\tools\alias.bat
 DOSKEY reload=C:\Users\flame\OneDrive\Desktop\2022\Leet2022\tools\alias.bat
