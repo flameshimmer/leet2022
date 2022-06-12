@@ -1,0 +1,21 @@
+{
+  "name": "webParser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "parse.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.4",
+    "async-batch": "^1.1.2",
+    "fs": "^0.0.1-security",
+    "json": "^11.0.0",
+    "puppeteer": "^2.1.1",
+    "request": "^2.88.0",
+    "uuid": "^3.3.3"
+  }
+}

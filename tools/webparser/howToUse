@@ -1,0 +1,5 @@
+1. node parseAllProblemUrls.js ---> download all problem name and urls with most frequent page sorting order
+2. perl genUrls.pl ---> parse all urls into folder allProblemUrls
+3. node parseProblem.js ---> run headless mode withtout chrome debug to get all problem info without needing to sign in. 
+4. node parseProblem.js ---> run debug mode with chrome debug to get all problem info needing to sign in. 
+5. perl genSolutionFiles.pl ---> generate c++ problem declaration and empty files 
