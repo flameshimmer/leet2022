@@ -19,5 +19,6 @@ DOSKEY gp=git push
 DOSKEY open=start $*
 DOSKEY addall="git add -A"
 DOSKEY commit=git commit -m  $*
-alias fm="perl format.pl"
+DOSKEY fm="perl format.pl"
+DOSKEY kc="taskkill /F /IM chrome.exe"
 DOSKEY run=perl run.pl

@@ -4,40 +4,56 @@ const fs = require('fs');
 require('events').EventEmitter.defaultMaxListeners = 500;
 
 let unfinishedFileName = 'problems/unfinished';
-// processPage('allProblemUrls');
- processUnfinished();
 
-async function processUnfinished() {
-    let unfinished = (fs.readFileSync(unfinishedFileName).toString()).split("\r");
-    console.log(unfinished.length);
-    //fs.writeFileSync(unfinishedFileName, '');
-    
-    var tasks = [];
-    for (var i = 0; i<unfinished.length; i++) {
-    	//console.log("!!!unfinished" + i +  ": " + unfinished[i]);
-        var info = unfinished[i].split(",");
-        var name = info[0];
-        var url = info[1];
-        tasks.push([url, name, true]);
-    } 
-	const asyncBatch = require('async-batch').default;
-    await asyncBatch(tasks, GetItemLink, 3);
-}
+//processPage('allProblemUrls');
+processUnfinished();
 
 
 async function processPage(urlFileName) {
     let allUrls = fs.readFileSync(urlFileName) + '';
     var urls = allUrls.split("\n");
 
-    fs.writeFileSync('problems/unfinished', '');
-    var tasks = [];
-    for (var i in urls) {
+    // fs.writeFileSync('problems/unfinished', '');
+    // var tasks = [];
+ //    for (var i = 842; i<urls.length; i++) {
+ //        var url = urls[i];
+ //        tasks.push([url, 'mostFrequent_'+i, false]);
+ //    } 
+	// const asyncBatch = require('async-batch').default;
+ //    await asyncBatch(tasks, GetItemLink, 3);	
+     for (var i = 2091; i<urls.length; i++) {
         var url = urls[i];
-        tasks.push([url, 'mostFrequent_'+i, false]);
+        await GetItemLink([url, 'mostFrequent_'+i, false]);
     } 
-	const asyncBatch = require('async-batch').default;
-    await asyncBatch(tasks, GetItemLink, 10);	
 }
+
+async function processUnfinished() {
+    let unfinished = (fs.readFileSync(unfinishedFileName).toString()).split("\r");
+    console.log(unfinished.length);
+    
+    // var tasks = [];
+    // for (var i = 0; i<unfinished.length; i++) {
+    //     var info = unfinished[i].split(",");
+    //     var name = info[0];
+    //     var url = info[1];
+    //     tasks.push([url, name, true]);
+    // } 
+    // const asyncBatch = require('async-batch').default;
+    // await asyncBatch(tasks, GetItemLink, 3);
+     for (var i = 0; i<unfinished.length; i++) {
+        var info = unfinished[i].split(",");
+        var name = info[0];
+        var url = info[1];
+        try {
+            await GetItemLink([url, name, true]);
+        } catch(e) {
+            // Did you forget to update teh wsChromeEndpoint???
+            console.log(e);
+            return;
+        }
+    }     
+}
+
 
 async function GetItemLink(task) {
 	var url = task[0];
@@ -51,7 +67,7 @@ async function GetItemLink(task) {
        var browser = await puppeteer.launch({headless: true});
         if (connectWithChromeSession) {
             // Open in current browser: https://medium.com/@jaredpotter1/connecting-puppeteer-to-existing-chrome-window-8a10828149e0
-            const wsChromeEndpointurl = 'ws://127.0.0.1:9222/devtools/browser/1ed08d20-2e19-4f01-8b32-00f9408befc5';
+            const wsChromeEndpointurl = 'ws://127.0.0.1:9222/devtools/browser/1b748e15-88f1-4d38-82ad-e1c465ab55bd';
             var browser = await puppeteer.connect({
                 browserWSEndpoint: wsChromeEndpointurl,
                 headless: false,
@@ -92,7 +108,11 @@ async function GetItemLink(task) {
 
     let data = JSON.stringify(await scrape());
     if (data == '{}') {
-    	fs.appendFileSync('problems/unfinished', name + ',' + url);
+        if (!connectWithChromeSession) {
+            fs.appendFileSync('problems/unfinished', name + ',' + url);
+        } else {
+            fs.appendFileSync('problems/unfinished_2', name + ',' + url);
+        }
     }
 
     fs.writeFileSync('problems/data_' + name, data + "\n");

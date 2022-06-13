@@ -2,4 +2,9 @@
 2. perl genUrls.pl ---> parse all urls into folder allProblemUrls
 3. node parseProblem.js ---> run headless mode withtout chrome debug to get all problem info without needing to sign in. 
 4. node parseProblem.js ---> run debug mode with chrome debug to get all problem info needing to sign in. 
-5. perl genSolutionFiles.pl ---> generate c++ problem declaration and empty files 
+5. perl genSolutionFiles.pl ---> generate c++ problem declaration and empty files into cpps folder
+6. include cpps/* into the vs solutions. out1 and out2 has the declariation of namespaces.  
+
+
+step 3 and 4 currently is running into some issues. 
+problemGen folder content is now deprecated. 

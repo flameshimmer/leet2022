@@ -1,0 +1,1 @@
+{"title":"504. Base 7","description":"Given an integer num, return a string of its base 7 representation.\n\n \n\nExample 1:\n\nInput: num = 100\nOutput: \"202\"\n\n\nExample 2:\n\nInput: num = -7\nOutput: \"-10\"\n\n\n \n\nConstraints:\n\n-107 <= num <= 107","functionSig":"1\nclass Solution {\n2\npublic:\n3\n    string convertToBase7(int num) {\n4\n        \n5\n    }\n6\n};"}

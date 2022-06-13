@@ -66,6 +66,7 @@ for my $json (@jsons)
 		$title =~ s/8/Eight/g;
 		$title =~ s/9/Nine/g;
 		$title =~ s/0/Zero/g;
+		$title =~ s/\?/QuestionMark/g;
 		print "$title\n";
 		print OUT1 "//Solution2022::". $title."::Main();\n";
 		print OUT2 "namespace ". $title."{ void Main(); }\n";
