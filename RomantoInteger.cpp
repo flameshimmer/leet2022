@@ -49,7 +49,28 @@ namespace Solution2022
 	namespace RomantoInteger
 	{
 	    int romanToInt(string s) {
-	        
+			int len = s.size();
+			int result = 0;
+			if (len == 0) { return result; }
+
+			unordered_map<char, int> v;
+			v['I'] = 1;
+			v['V'] = 5;
+			v['X'] = 10;
+			v['L'] = 50;
+			v['C'] = 100;
+			v['D'] = 500;
+			v['M'] = 1000;
+
+			for (int i = 0; i < len; i++) {
+				if (i + 1 < len && v[s[i]] < v[s[i + 1]]) {
+					result -= v[s[i]];
+				}
+				else {
+					result += v[s[i]];
+				}
+			}
+			return result;
 	    }
 
 		void Main() {

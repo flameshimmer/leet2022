@@ -66,11 +66,15 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::ReverseBits::Main();
 	//Solution2022::SingleNumber::Main();
 
+	//6/13/2022
+	//Solution2022::TwoSum::Main();
+	//Solution2022::RomantoInteger::Main();
+	//Solution2022::LRUCache::Main();
+
 	//---------------------------------------
-//Solution2022::MaximumErasureValue::Main();
-//Solution2022::TwoSum::Main();
 //Solution2022::DesignInMemoryFileSystem::Main();
 //Solution2022::SerializeandDeserializeBinaryTree::Main();
+//Solution2022::MaximumErasureValue::Main();
 //Solution2022::EscapeTheGhosts::Main();
 //Solution2022::SimilarRGBColor::Main();
 //Solution2022::SoupServings::Main();
@@ -1179,7 +1183,6 @@ int _tmain(int argc, _TCHAR* argv[])
 //Solution2022::RemoveMaxNumberofEdgestoKeepGraphFullyTraversable::Main();
 //Solution2022::ClosestDessertCost::Main();
 //Solution2022::CountNicePairsinanArray::Main();
-//Solution2022::LRUCache::Main();
 //Solution2022::InsertDeleteGetRandomO::Main();
 //Solution2022::LongestSubstringwithAtMostTwoDistinctCharacters::Main();
 //Solution2022::CreateTargetArrayintheGivenOrder::Main();
@@ -1381,7 +1384,6 @@ int _tmain(int argc, _TCHAR* argv[])
 //Solution2022::FindModeinBinarySearchTree::Main();
 //Solution2022::LongestArithmeticSubsequence::Main();
 //Solution2022::MinimumCosttoSetCookingTime::Main();
-//Solution2022::RomantoInteger::Main();
 //Solution2022::ReconstructOriginalDigitsfromEnglish::Main();
 //Solution2022::MaxConsecutiveOnes::Main();
 //Solution2022::SequenceReconstruction::Main();

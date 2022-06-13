@@ -40,18 +40,44 @@ namespace Solution2022
 {
 	namespace LRUCache
 	{
-	class LRUCache {
-	    LRUCache(int capacity) {
-	        
-	    }
-	    
-	    int get(int key) {
-	        
-	    }
-	    
-	    void put(int key, int value) {
-	        
-	    }
+		class LRUCache {
+		private:
+			int capacity_;
+			list<int> keyList_;
+			unordered_map<int, pair<list<int>::iterator, int>> map_;
+
+			void moveToFront(int key) {
+				keyList_.erase(map_[key].first);
+				keyList_.push_front(key);
+				map_[key].first = keyList_.begin();
+			}
+
+		public:
+			LRUCache(int capacity) {
+				capacity_ = capacity;
+			}
+
+			int get(int key) {
+				if (map_.find(key) == map_.end()) { return -1; }
+				moveToFront(key);
+				return map_[key].second;
+			}
+
+			void put(int key, int value) {
+				if (map_.find(key) != map_.end()) {
+					moveToFront(key);
+					map_[key].second = value;
+				}
+				else {
+					keyList_.push_front(key);
+					map_[key] = { keyList_.begin(), value };
+					if (keyList_.size() > capacity_) {
+						map_.erase(keyList_.back());
+						keyList_.pop_back();
+					}
+				}
+			}
+		}
 	​
 	/**
 	 * Your LRUCache object will be instantiated and called as such:

@@ -33,8 +33,45 @@ namespace Solution2022
 {
 	namespace TwoSum
 	{
-	    vector<int> twoSum(vector<int>& nums, int target) {
-	        
+		vector<int> twoSumWithHash(vector<int>& nums, int target) {
+			int len = nums.size();
+			unordered_map<int, int> map;
+			for (int i = 0; i < len; i++) {
+				if (map.find(target - nums[i]) != map.end()) {
+					return { map[target - nums[i]], i };
+				}
+				map[nums[i]] = i;
+			}
+			return {};
+		}
+
+	    vector<int> twoSumWithSort(vector<int>& nums, int target) {
+			int len = nums.size();
+			vector<int> result;
+
+			vector<pair<int, int>> n;
+			for (int i = 0; i < len; i++) {
+				n.push_back({nums[i], i});
+			}
+			sort(n.begin(), n.end());
+		
+			int start = 0;
+			int end = len - 1;
+			while (start < end) {
+				int sum = n[start].first + n[end].first;
+				if (sum == target) {
+					result.push_back(n[start].second);
+					result.push_back(n[end].second);
+					return result;
+				}
+				else if (sum < target) {
+					start++;
+				}
+				else {
+					end--;
+				}
+			}
+			return result;
 	    }
 
 		void Main() {
