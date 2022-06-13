@@ -132,6 +132,15 @@
     <ClCompile Include="ZeroOneMatrix.cpp">
       <Filter>Solution2022</Filter>
     </ClCompile>
+    <ClCompile Include="TwoSum.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="RomantoInteger.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="LRUCache.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Solution2022.h">

@@ -162,6 +162,7 @@
     <ClCompile Include="LetterCasePermutation.cpp" />
     <ClCompile Include="ListNode.cpp" />
     <ClCompile Include="LongestSubstringWithoutRepeatingCharacters.cpp" />
+    <ClCompile Include="LRUCache.cpp" />
     <ClCompile Include="MaxAreaofIsland.cpp" />
     <ClCompile Include="MergeTwoBinaryTrees.cpp" />
     <ClCompile Include="MergeTwoSortedLists.cpp" />
@@ -177,6 +178,7 @@
     <ClCompile Include="ReverseLinkedList.cpp" />
     <ClCompile Include="ReverseString.cpp" />
     <ClCompile Include="ReverseWordsinaStringIII.cpp" />
+    <ClCompile Include="RomantoInteger.cpp" />
     <ClCompile Include="RotateArray.cpp" />
     <ClCompile Include="RottingOranges.cpp" />
     <ClCompile Include="SearchInsertPosition.cpp" />
@@ -186,6 +188,7 @@
     <ClCompile Include="Test.cpp" />
     <ClCompile Include="TreeHelpers.cpp" />
     <ClCompile Include="Triangle.cpp" />
+    <ClCompile Include="TwoSum.cpp" />
     <ClCompile Include="TwoSumIIInputArrayIsSorted.cpp" />
     <ClCompile Include="ZeroOneMatrix.cpp" />
   </ItemGroup>
