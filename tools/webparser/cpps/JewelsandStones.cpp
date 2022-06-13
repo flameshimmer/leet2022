@@ -25,9 +25,12 @@ namespace Solution2022
 {
 	namespace JewelsandStones
 	{
+/*
 	    int numJewelsInStones(string jewels, string stones) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

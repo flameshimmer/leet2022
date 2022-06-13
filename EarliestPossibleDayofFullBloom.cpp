@@ -61,9 +61,12 @@ namespace Solution2022
 {
 	namespace EarliestPossibleDayofFullBloom
 	{
+/*
 	    int earliestFullBloom(vector<int>& plantTime, vector<int>& growTime) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

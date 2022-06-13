@@ -36,9 +36,12 @@ namespace Solution2022
 {
 	namespace MakeSumDivisiblebyP
 	{
+/*
 	    int minSubarray(vector<int>& nums, int p) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

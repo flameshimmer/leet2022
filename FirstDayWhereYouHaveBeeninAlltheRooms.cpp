@@ -52,9 +52,12 @@ namespace Solution2022
 {
 	namespace FirstDayWhereYouHaveBeeninAlltheRooms
 	{
+/*
 	    int firstDayBeenInAllRooms(vector<int>& nextVisit) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

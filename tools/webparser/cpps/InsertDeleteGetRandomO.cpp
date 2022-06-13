@@ -44,6 +44,7 @@ namespace Solution2022
 {
 	namespace InsertDeleteGetRandomO
 	{
+/*
 	class RandomizedSet {
 	    RandomizedSet() {
 	        
@@ -68,6 +69,8 @@ namespace Solution2022
 	 * bool param_2 = obj->remove(val);
 	 * int param_3 = obj->getRandom();
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

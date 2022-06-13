@@ -30,9 +30,12 @@ namespace Solution2022
 {
 	namespace NumberComplement
 	{
+/*
 	    int findComplement(int num) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

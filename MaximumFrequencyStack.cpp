@@ -44,6 +44,7 @@ namespace Solution2022
 {
 	namespace MaximumFrequencyStack
 	{
+/*
 	class FreqStack {
 	    FreqStack() {
 	        
@@ -63,6 +64,8 @@ namespace Solution2022
 	 * obj->push(val);
 	 * int param_2 = obj->pop();
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

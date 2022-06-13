@@ -44,6 +44,7 @@ namespace Solution2022
 {
 	namespace ImplementQueueusingStacks
 	{
+/*
 	class MyQueue {
 	    MyQueue() {
 	        
@@ -73,6 +74,8 @@ namespace Solution2022
 	 * int param_3 = obj->peek();
 	 * bool param_4 = obj->empty();
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

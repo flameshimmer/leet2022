@@ -43,6 +43,7 @@ namespace Solution2022
 {
 	namespace FindMedianfromDataStream
 	{
+/*
 	class MedianFinder {
 	    MedianFinder() {
 	        
@@ -62,6 +63,8 @@ namespace Solution2022
 	 * obj->addNum(num);
 	 * double param_2 = obj->findMedian();
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

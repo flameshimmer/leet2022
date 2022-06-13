@@ -39,9 +39,12 @@ namespace Solution2022
 {
 	namespace FindAllLonelyNumbersintheArray
 	{
+/*
 	    vector<int> findLonely(vector<int>& nums) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

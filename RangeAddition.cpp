@@ -26,9 +26,12 @@ namespace Solution2022
 {
 	namespace RangeAddition
 	{
+/*
 	    vector<int> getModifiedArray(int length, vector<vector<int>>& updates) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

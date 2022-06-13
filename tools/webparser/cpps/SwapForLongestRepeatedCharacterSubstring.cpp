@@ -31,9 +31,12 @@ namespace Solution2022
 {
 	namespace SwapForLongestRepeatedCharacterSubstring
 	{
+/*
 	    int maxRepOpt1(string text) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -42,9 +42,12 @@ namespace Solution2022
 {
 	namespace LongerContiguousSegmentsofOnesthanZeros
 	{
+/*
 	    bool checkZeroOnes(string s) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

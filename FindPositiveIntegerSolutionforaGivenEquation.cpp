@@ -54,6 +54,7 @@ namespace Solution2022
 {
 	namespace FindPositiveIntegerSolutionforaGivenEquation
 	{
+/*
 	/*
 	 * // This is the custom function interface.
 	 * // You should not implement it, or speculate about its implementation
@@ -69,6 +70,8 @@ namespace Solution2022
 	    vector<vector<int>> findSolution(CustomFunction& customfunction, int z) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

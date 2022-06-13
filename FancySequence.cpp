@@ -43,6 +43,7 @@ namespace Solution2022
 {
 	namespace FancySequence
 	{
+/*
 	class Fancy {
 	    Fancy() {
 	        
@@ -72,6 +73,8 @@ namespace Solution2022
 	 * obj->multAll(m);
 	 * int param_4 = obj->getIndex(idx);
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

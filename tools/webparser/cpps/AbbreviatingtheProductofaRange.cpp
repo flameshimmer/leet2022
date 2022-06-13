@@ -52,9 +52,12 @@ namespace Solution2022
 {
 	namespace AbbreviatingtheProductofaRange
 	{
+/*
 	    string abbreviateProduct(int left, int right) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

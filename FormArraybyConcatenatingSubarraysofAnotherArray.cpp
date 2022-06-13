@@ -48,9 +48,12 @@ namespace Solution2022
 {
 	namespace FormArraybyConcatenatingSubarraysofAnotherArray
 	{
+/*
 	    bool canChoose(vector<vector<int>>& groups, vector<int>& nums) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

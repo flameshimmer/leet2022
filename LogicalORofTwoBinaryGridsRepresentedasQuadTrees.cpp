@@ -69,6 +69,7 @@ namespace Solution2022
 {
 	namespace LogicalORofTwoBinaryGridsRepresentedasQuadTrees
 	{
+/*
 	/*
 	// Definition for a QuadTree node.
 	class Node {
@@ -106,6 +107,8 @@ namespace Solution2022
 	        bottomRight = _bottomRight;
 	    }
 	*/
+
+*/
 
 		void Main() {
 			string test = "tst test test";

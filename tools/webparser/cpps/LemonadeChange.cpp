@@ -40,9 +40,12 @@ namespace Solution2022
 {
 	namespace LemonadeChange
 	{
+/*
 	    bool lemonadeChange(vector<int>& bills) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

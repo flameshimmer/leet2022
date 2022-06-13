@@ -28,6 +28,7 @@ namespace Solution2022
 {
 	namespace DeleteNodeinaLinkedList
 	{
+/*
 	/**
 	 * Definition for singly-linked list.
 	 * struct ListNode {
@@ -39,6 +40,8 @@ namespace Solution2022
 	    void deleteNode(ListNode* node) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

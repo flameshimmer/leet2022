@@ -47,9 +47,12 @@ namespace Solution2022
 {
 	namespace ArithmeticSubarrays
 	{
+/*
 	    vector<bool> checkArithmeticSubarrays(vector<int>& nums, vector<int>& l, vector<int>& r) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

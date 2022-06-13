@@ -50,6 +50,7 @@ namespace Solution2022
 {
 	namespace DesignLinkedList
 	{
+/*
 	class MyLinkedList {
 	    MyLinkedList() {
 	        
@@ -84,6 +85,8 @@ namespace Solution2022
 	 * obj->addAtIndex(index,val);
 	 * obj->deleteAtIndex(index);
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

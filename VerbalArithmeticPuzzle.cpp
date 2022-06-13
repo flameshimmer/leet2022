@@ -39,9 +39,12 @@ namespace Solution2022
 {
 	namespace VerbalArithmeticPuzzle
 	{
+/*
 	    bool isSolvable(vector<string>& words, string result) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

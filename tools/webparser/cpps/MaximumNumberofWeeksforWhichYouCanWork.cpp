@@ -55,9 +55,12 @@ namespace Solution2022
 {
 	namespace MaximumNumberofWeeksforWhichYouCanWork
 	{
+/*
 	    long long numberOfWeeks(vector<int>& milestones) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

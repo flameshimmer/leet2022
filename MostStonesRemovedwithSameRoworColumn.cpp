@@ -45,9 +45,12 @@ namespace Solution2022
 {
 	namespace MostStonesRemovedwithSameRoworColumn
 	{
+/*
 	    int removeStones(vector<vector<int>>& stones) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

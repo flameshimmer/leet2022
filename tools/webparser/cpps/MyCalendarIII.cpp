@@ -37,6 +37,7 @@ namespace Solution2022
 {
 	namespace MyCalendarIII
 	{
+/*
 	class MyCalendarThree {
 	    MyCalendarThree() {
 	        
@@ -51,6 +52,8 @@ namespace Solution2022
 	 * MyCalendarThree* obj = new MyCalendarThree();
 	 * int param_1 = obj->book(start,end);
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

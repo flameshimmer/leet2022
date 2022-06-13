@@ -34,9 +34,12 @@ namespace Solution2022
 {
 	namespace ShortestWaytoFormString
 	{
+/*
 	    int shortestWay(string source, string target) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -37,9 +37,12 @@ namespace Solution2022
 {
 	namespace ColoringABorder
 	{
+/*
 	    vector<vector<int>> colorBorder(vector<vector<int>>& grid, int row, int col, int color) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -31,9 +31,12 @@ namespace Solution2022
 {
 	namespace LongestMountaininArray
 	{
+/*
 	    int longestMountain(vector<int>& arr) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

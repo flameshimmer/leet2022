@@ -59,9 +59,12 @@ namespace Solution2022
 {
 	namespace MaximumTotalBeautyoftheGardens
 	{
+/*
 	    long long maximumBeauty(vector<int>& flowers, long long newFlowers, int target, int full, int partial) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

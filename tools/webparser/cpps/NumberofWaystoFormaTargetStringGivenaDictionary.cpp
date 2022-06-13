@@ -46,9 +46,12 @@ namespace Solution2022
 {
 	namespace NumberofWaystoFormaTargetStringGivenaDictionary
 	{
+/*
 	    int numWays(vector<string>& words, string target) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

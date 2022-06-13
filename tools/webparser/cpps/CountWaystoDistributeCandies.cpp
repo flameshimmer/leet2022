@@ -49,9 +49,12 @@ namespace Solution2022
 {
 	namespace CountWaystoDistributeCandies
 	{
+/*
 	    int waysToDistribute(int n, int k) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

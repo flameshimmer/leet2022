@@ -33,9 +33,12 @@ namespace Solution2022
 {
 	namespace SmallestStringWithAGivenNumericValue
 	{
+/*
 	    string getSmallestString(int n, int k) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

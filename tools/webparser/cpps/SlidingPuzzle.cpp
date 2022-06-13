@@ -41,9 +41,12 @@ namespace Solution2022
 {
 	namespace SlidingPuzzle
 	{
+/*
 	    int slidingPuzzle(vector<vector<int>>& board) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

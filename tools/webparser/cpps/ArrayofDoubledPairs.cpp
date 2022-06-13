@@ -28,9 +28,12 @@ namespace Solution2022
 {
 	namespace ArrayofDoubledPairs
 	{
+/*
 	    bool canReorderDoubled(vector<int>& arr) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

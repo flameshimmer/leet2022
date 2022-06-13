@@ -40,9 +40,12 @@ namespace Solution2022
 {
 	namespace CinemaSeatAllocation
 	{
+/*
 	    int maxNumberOfFamilies(int n, vector<vector<int>>& reservedSeats) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

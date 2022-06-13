@@ -32,9 +32,12 @@ namespace Solution2022
 {
 	namespace PowerfulIntegers
 	{
+/*
 	    vector<int> powerfulIntegers(int x, int y, int bound) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

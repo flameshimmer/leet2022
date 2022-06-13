@@ -27,9 +27,12 @@ namespace Solution2022
 {
 	namespace AverageSalaryExcludingtheMinimumandMaximumSalary
 	{
+/*
 	    double average(vector<int>& salary) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

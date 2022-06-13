@@ -34,9 +34,12 @@ namespace Solution2022
 {
 	namespace FindMinimuminRotatedSortedArrayII
 	{
+/*
 	    int findMin(vector<int>& nums) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

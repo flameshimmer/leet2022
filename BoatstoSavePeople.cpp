@@ -30,9 +30,12 @@ namespace Solution2022
 {
 	namespace BoatstoSavePeople
 	{
+/*
 	    int numRescueBoats(vector<int>& people, int limit) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

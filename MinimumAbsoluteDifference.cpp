@@ -31,9 +31,12 @@ namespace Solution2022
 {
 	namespace MinimumAbsoluteDifference
 	{
+/*
 	    vector<vector<int>> minimumAbsDifference(vector<int>& arr) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

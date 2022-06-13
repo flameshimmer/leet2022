@@ -43,9 +43,12 @@ namespace Solution2022
 {
 	namespace DecodeWays
 	{
+/*
 	    int numDecodings(string s) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

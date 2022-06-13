@@ -35,6 +35,7 @@ namespace Solution2022
 {
 	namespace MaximumSumBSTinBinaryTree
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -49,6 +50,8 @@ namespace Solution2022
 	    int maxSumBST(TreeNode* root) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

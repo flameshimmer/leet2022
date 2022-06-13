@@ -40,9 +40,12 @@ namespace Solution2022
 {
 	namespace KthSmallestInstructions
 	{
+/*
 	    string kthSmallestPath(vector<int>& destination, int k) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

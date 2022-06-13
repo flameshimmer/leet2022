@@ -45,6 +45,7 @@ namespace Solution2022
 {
 	namespace AllOoneDataStructure
 	{
+/*
 	class AllOne {
 	    AllOne() {
 	        
@@ -74,6 +75,8 @@ namespace Solution2022
 	 * string param_3 = obj->getMaxKey();
 	 * string param_4 = obj->getMinKey();
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

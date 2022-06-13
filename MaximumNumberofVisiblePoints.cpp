@@ -47,9 +47,12 @@ namespace Solution2022
 {
 	namespace MaximumNumberofVisiblePoints
 	{
+/*
 	    int visiblePoints(vector<vector<int>>& points, int angle, vector<int>& location) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -89,6 +89,7 @@ namespace Solution2022
 {
 	namespace DesignUndergroundSystem
 	{
+/*
 	class UndergroundSystem {
 	    UndergroundSystem() {
 	        
@@ -113,6 +114,8 @@ namespace Solution2022
 	 * obj->checkOut(id,stationName,t);
 	 * double param_3 = obj->getAverageTime(startStation,endStation);
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

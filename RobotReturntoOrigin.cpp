@@ -36,9 +36,12 @@ namespace Solution2022
 {
 	namespace RobotReturntoOrigin
 	{
+/*
 	    bool judgeCircle(string moves) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

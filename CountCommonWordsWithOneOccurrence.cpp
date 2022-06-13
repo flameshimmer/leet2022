@@ -39,9 +39,12 @@ namespace Solution2022
 {
 	namespace CountCommonWordsWithOneOccurrence
 	{
+/*
 	    int countWords(vector<string>& words1, vector<string>& words2) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

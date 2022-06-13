@@ -28,9 +28,12 @@ namespace Solution2022
 {
 	namespace SelfCrossing
 	{
+/*
 	    bool isSelfCrossing(vector<int>& distance) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

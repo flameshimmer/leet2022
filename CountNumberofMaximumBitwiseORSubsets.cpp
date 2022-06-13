@@ -44,9 +44,12 @@ namespace Solution2022
 {
 	namespace CountNumberofMaximumBitwiseORSubsets
 	{
+/*
 	    int countMaxOrSubsets(vector<int>& nums) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -47,9 +47,12 @@ namespace Solution2022
 {
 	namespace RemovingMinimumandMaximumFromArray
 	{
+/*
 	    int minimumDeletions(vector<int>& nums) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

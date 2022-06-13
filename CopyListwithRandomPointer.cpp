@@ -41,6 +41,7 @@ namespace Solution2022
 {
 	namespace CopyListwithRandomPointer
 	{
+/*
 	/*
 	// Definition for a Node.
 	class Node {
@@ -58,6 +59,8 @@ namespace Solution2022
 	    Node* copyRandomList(Node* head) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

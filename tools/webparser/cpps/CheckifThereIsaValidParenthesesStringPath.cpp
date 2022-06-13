@@ -42,9 +42,12 @@ namespace Solution2022
 {
 	namespace CheckifThereIsaValidParenthesesStringPath
 	{
+/*
 	    bool hasValidPath(vector<vector<char>>& grid) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

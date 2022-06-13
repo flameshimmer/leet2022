@@ -45,9 +45,12 @@ namespace Solution2022
 {
 	namespace PeopleWhoseListofFavoriteCompaniesIsNotaSubsetofAnotherList
 	{
+/*
 	    vector<int> peopleIndexes(vector<vector<string>>& favoriteCompanies) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

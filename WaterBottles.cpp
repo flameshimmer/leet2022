@@ -28,9 +28,12 @@ namespace Solution2022
 {
 	namespace WaterBottles
 	{
+/*
 	    int numWaterBottles(int numBottles, int numExchange) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

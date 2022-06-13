@@ -24,9 +24,12 @@ namespace Solution2022
 {
 	namespace CountPrimes
 	{
+/*
 	    int countPrimes(int n) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

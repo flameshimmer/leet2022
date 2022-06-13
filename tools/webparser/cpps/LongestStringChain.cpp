@@ -41,9 +41,12 @@ namespace Solution2022
 {
 	namespace LongestStringChain
 	{
+/*
 	    int longestStrChain(vector<string>& words) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

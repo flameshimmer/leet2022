@@ -46,6 +46,7 @@ namespace Solution2022
 {
 	namespace DesignanOrderedStream
 	{
+/*
 	class OrderedStream {
 	    OrderedStream(int n) {
 	        
@@ -60,6 +61,8 @@ namespace Solution2022
 	 * OrderedStream* obj = new OrderedStream(n);
 	 * vector<string> param_1 = obj->insert(idKey,value);
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

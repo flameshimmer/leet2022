@@ -32,9 +32,12 @@ namespace Solution2022
 {
 	namespace CheckIfTwoStringArraysareEquivalent
 	{
+/*
 	    bool arrayStringsAreEqual(vector<string>& word1, vector<string>& word2) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

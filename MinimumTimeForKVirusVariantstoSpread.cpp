@@ -46,9 +46,12 @@ namespace Solution2022
 {
 	namespace MinimumTimeForKVirusVariantstoSpread
 	{
+/*
 	    int minDayskVariants(vector<vector<int>>& points, int k) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

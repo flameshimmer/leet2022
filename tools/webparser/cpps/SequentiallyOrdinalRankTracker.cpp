@@ -87,6 +87,7 @@ namespace Solution2022
 {
 	namespace SequentiallyOrdinalRankTracker
 	{
+/*
 	class SORTracker {
 	    SORTracker() {
 	        
@@ -106,6 +107,8 @@ namespace Solution2022
 	 * obj->add(name,score);
 	 * string param_2 = obj->get();
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

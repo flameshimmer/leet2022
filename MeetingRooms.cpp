@@ -21,9 +21,12 @@ namespace Solution2022
 {
 	namespace MeetingRooms
 	{
+/*
 	    bool canAttendMeetings(vector<vector<int>>& intervals) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

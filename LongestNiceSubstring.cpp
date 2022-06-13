@@ -35,9 +35,12 @@ namespace Solution2022
 {
 	namespace LongestNiceSubstring
 	{
+/*
 	    string longestNiceSubstring(string s) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

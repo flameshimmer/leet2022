@@ -38,6 +38,7 @@ namespace Solution2022
 {
 	namespace SortLinkedListAlreadySortedUsingAbsoluteValues
 	{
+/*
 	/**
 	 * Definition for singly-linked list.
 	 * struct ListNode {
@@ -51,6 +52,8 @@ namespace Solution2022
 	    ListNode* sortLinkedList(ListNode* head) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

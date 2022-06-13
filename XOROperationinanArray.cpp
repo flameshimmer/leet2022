@@ -27,9 +27,12 @@ namespace Solution2022
 {
 	namespace XOROperationinanArray
 	{
+/*
 	    int xorOperation(int n, int start) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

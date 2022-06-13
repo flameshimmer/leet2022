@@ -24,9 +24,12 @@ namespace Solution2022
 {
 	namespace CheckiftheSentenceIsPangram
 	{
+/*
 	    bool checkIfPangram(string sentence) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

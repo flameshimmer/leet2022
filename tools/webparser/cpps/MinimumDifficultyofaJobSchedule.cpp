@@ -38,9 +38,12 @@ namespace Solution2022
 {
 	namespace MinimumDifficultyofaJobSchedule
 	{
+/*
 	    int minDifficulty(vector<int>& jobDifficulty, int d) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -35,9 +35,12 @@ namespace Solution2022
 {
 	namespace RegularExpressionMatching
 	{
+/*
 	    bool isMatch(string s, string p) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

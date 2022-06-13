@@ -30,9 +30,12 @@ namespace Solution2022
 {
 	namespace SmallestIntegerDivisiblebyK
 	{
+/*
 	    int smallestRepunitDivByK(int k) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

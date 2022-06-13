@@ -70,6 +70,7 @@ namespace Solution2022
 {
 	namespace IntersectionofTwoLinkedLists
 	{
+/*
 	/**
 	 * Definition for singly-linked list.
 	 * struct ListNode {
@@ -81,6 +82,8 @@ namespace Solution2022
 	    ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

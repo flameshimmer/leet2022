@@ -47,6 +47,7 @@ namespace Solution2022
 {
 	namespace StreamofCharacters
 	{
+/*
 	class StreamChecker {
 	    StreamChecker(vector<string>& words) {
 	        
@@ -61,6 +62,8 @@ namespace Solution2022
 	 * StreamChecker* obj = new StreamChecker(words);
 	 * bool param_1 = obj->query(letter);
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

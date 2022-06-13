@@ -34,9 +34,12 @@ namespace Solution2022
 {
 	namespace ShortestSubarraytobeRemovedtoMakeArraySorted
 	{
+/*
 	    int findLengthOfShortestSubarray(vector<int>& arr) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

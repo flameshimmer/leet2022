@@ -30,6 +30,7 @@ namespace Solution2022
 {
 	namespace MovingAveragefromDataStream
 	{
+/*
 	class MovingAverage {
 	    MovingAverage(int size) {
 	        
@@ -44,6 +45,8 @@ namespace Solution2022
 	 * MovingAverage* obj = new MovingAverage(size);
 	 * double param_1 = obj->next(val);
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

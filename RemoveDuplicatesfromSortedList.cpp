@@ -21,6 +21,7 @@ namespace Solution2022
 {
 	namespace RemoveDuplicatesfromSortedList
 	{
+/*
 	/**
 	 * Definition for singly-linked list.
 	 * struct ListNode {
@@ -34,6 +35,8 @@ namespace Solution2022
 	    ListNode* deleteDuplicates(ListNode* head) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

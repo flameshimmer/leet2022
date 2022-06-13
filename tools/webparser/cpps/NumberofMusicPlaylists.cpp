@@ -33,9 +33,12 @@ namespace Solution2022
 {
 	namespace NumberofMusicPlaylists
 	{
+/*
 	    int numMusicPlaylists(int n, int goal, int k) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

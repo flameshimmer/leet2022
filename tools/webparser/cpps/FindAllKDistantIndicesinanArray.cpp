@@ -37,9 +37,12 @@ namespace Solution2022
 {
 	namespace FindAllKDistantIndicesinanArray
 	{
+/*
 	    vector<int> findKDistantIndices(vector<int>& nums, int key, int k) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

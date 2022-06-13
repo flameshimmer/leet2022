@@ -25,9 +25,12 @@ namespace Solution2022
 {
 	namespace SearchaTwoDMatrix
 	{
+/*
 	    bool searchMatrix(vector<vector<int>>& matrix, int target) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

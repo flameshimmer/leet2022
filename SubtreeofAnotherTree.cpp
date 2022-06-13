@@ -26,6 +26,7 @@ namespace Solution2022
 {
 	namespace SubtreeofAnotherTree
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -40,6 +41,8 @@ namespace Solution2022
 	    bool isSubtree(TreeNode* root, TreeNode* subRoot) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

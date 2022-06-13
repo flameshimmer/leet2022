@@ -33,9 +33,12 @@ namespace Solution2022
 {
 	namespace MinimumRoundstoCompleteAllTasks
 	{
+/*
 	    int minimumRounds(vector<int>& tasks) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

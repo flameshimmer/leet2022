@@ -51,9 +51,12 @@ namespace Solution2022
 {
 	namespace LastMomentBeforeAllAntsFallOutofaPlank
 	{
+/*
 	    int getLastMoment(int n, vector<int>& left, vector<int>& right) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -36,9 +36,12 @@ namespace Solution2022
 {
 	namespace CardFlippingGame
 	{
+/*
 	    int flipgame(vector<int>& fronts, vector<int>& backs) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -26,9 +26,12 @@ namespace Solution2022
 {
 	namespace FlipGame
 	{
+/*
 	    vector<string> generatePossibleNextMoves(string currentState) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -47,6 +47,7 @@ namespace Solution2022
 {
 	namespace RLEIterator
 	{
+/*
 	class RLEIterator {
 	    RLEIterator(vector<int>& encoding) {
 	        
@@ -61,6 +62,8 @@ namespace Solution2022
 	 * RLEIterator* obj = new RLEIterator(encoding);
 	 * int param_1 = obj->next(n);
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

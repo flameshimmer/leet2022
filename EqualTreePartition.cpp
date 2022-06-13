@@ -23,6 +23,7 @@ namespace Solution2022
 {
 	namespace EqualTreePartition
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -37,6 +38,8 @@ namespace Solution2022
 	    bool checkEqualTree(TreeNode* root) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

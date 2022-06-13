@@ -22,9 +22,12 @@ namespace Solution2022
 {
 	namespace DistantBarcodes
 	{
+/*
 	    vector<int> rearrangeBarcodes(vector<int>& barcodes) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

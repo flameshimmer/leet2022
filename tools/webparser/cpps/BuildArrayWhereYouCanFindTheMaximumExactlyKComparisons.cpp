@@ -38,9 +38,12 @@ namespace Solution2022
 {
 	namespace BuildArrayWhereYouCanFindTheMaximumExactlyKComparisons
 	{
+/*
 	    int numOfArrays(int n, int m, int k) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

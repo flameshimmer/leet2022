@@ -44,9 +44,12 @@ namespace Solution2022
 {
 	namespace SortIntegersbyThePowerValue
 	{
+/*
 	    int getKth(int lo, int hi, int k) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -33,9 +33,12 @@ namespace Solution2022
 {
 	namespace CountVowelsPermutation
 	{
+/*
 	    int countVowelPermutation(int n) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

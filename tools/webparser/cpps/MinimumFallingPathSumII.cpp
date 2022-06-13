@@ -30,9 +30,12 @@ namespace Solution2022
 {
 	namespace MinimumFallingPathSumII
 	{
+/*
 	    int minFallingPathSum(vector<vector<int>>& grid) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

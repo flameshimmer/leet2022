@@ -21,9 +21,12 @@ namespace Solution2022
 {
 	namespace StrobogrammaticNumberII
 	{
+/*
 	    vector<string> findStrobogrammatic(int n) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

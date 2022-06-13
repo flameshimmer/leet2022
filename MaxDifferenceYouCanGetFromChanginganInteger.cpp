@@ -32,9 +32,12 @@ namespace Solution2022
 {
 	namespace MaxDifferenceYouCanGetFromChanginganInteger
 	{
+/*
 	    int maxDiff(int num) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

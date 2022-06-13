@@ -28,9 +28,12 @@ namespace Solution2022
 {
 	namespace LongestWordinDictionary
 	{
+/*
 	    string longestWord(vector<string>& words) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

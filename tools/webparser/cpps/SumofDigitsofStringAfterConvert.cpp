@@ -45,9 +45,12 @@ namespace Solution2022
 {
 	namespace SumofDigitsofStringAfterConvert
 	{
+/*
 	    int getLucky(string s, int k) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

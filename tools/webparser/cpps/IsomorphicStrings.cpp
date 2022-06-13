@@ -29,9 +29,12 @@ namespace Solution2022
 {
 	namespace IsomorphicStrings
 	{
+/*
 	    bool isIsomorphic(string s, string t) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

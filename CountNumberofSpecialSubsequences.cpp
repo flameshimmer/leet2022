@@ -44,9 +44,12 @@ namespace Solution2022
 {
 	namespace CountNumberofSpecialSubsequences
 	{
+/*
 	    int countSpecialSubsequences(vector<int>& nums) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

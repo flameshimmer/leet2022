@@ -28,6 +28,7 @@ namespace Solution2022
 {
 	namespace MaximumAverageSubtree
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -42,6 +43,8 @@ namespace Solution2022
 	    double maximumAverageSubtree(TreeNode* root) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

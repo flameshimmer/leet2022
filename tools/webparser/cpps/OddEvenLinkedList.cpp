@@ -26,6 +26,7 @@ namespace Solution2022
 {
 	namespace OddEvenLinkedList
 	{
+/*
 	/**
 	 * Definition for singly-linked list.
 	 * struct ListNode {
@@ -39,6 +40,8 @@ namespace Solution2022
 	    ListNode* oddEvenList(ListNode* head) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

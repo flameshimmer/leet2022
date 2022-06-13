@@ -37,9 +37,12 @@ namespace Solution2022
 {
 	namespace FairDistributionofCookies
 	{
+/*
 	    int distributeCookies(vector<int>& cookies, int k) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

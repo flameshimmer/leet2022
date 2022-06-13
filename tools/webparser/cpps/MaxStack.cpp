@@ -47,6 +47,7 @@ namespace Solution2022
 {
 	namespace MaxStack
 	{
+/*
 	class MaxStack {
 	    MaxStack() {
 	        
@@ -81,6 +82,8 @@ namespace Solution2022
 	 * int param_4 = obj->peekMax();
 	 * int param_5 = obj->popMax();
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -34,9 +34,12 @@ namespace Solution2022
 {
 	namespace SearchinRotatedSortedArray
 	{
+/*
 	    int search(vector<int>& nums, int target) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

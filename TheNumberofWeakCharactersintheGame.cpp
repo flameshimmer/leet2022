@@ -38,9 +38,12 @@ namespace Solution2022
 {
 	namespace TheNumberofWeakCharactersintheGame
 	{
+/*
 	    int numberOfWeakCharacters(vector<vector<int>>& properties) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

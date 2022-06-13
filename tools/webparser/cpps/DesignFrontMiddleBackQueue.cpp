@@ -48,6 +48,7 @@ namespace Solution2022
 {
 	namespace DesignFrontMiddleBackQueue
 	{
+/*
 	class FrontMiddleBackQueue {
 	    FrontMiddleBackQueue() {
 	        
@@ -86,6 +87,8 @@ namespace Solution2022
 	 * int param_4 = obj->popFront();
 	 * int param_5 = obj->popMiddle();
 	 * int param_6 = obj->popBack();
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -39,9 +39,12 @@ namespace Solution2022
 {
 	namespace ValidTicTacToeState
 	{
+/*
 	    bool validTicTacToe(vector<string>& board) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

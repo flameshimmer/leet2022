@@ -43,9 +43,12 @@ namespace Solution2022
 {
 	namespace MaximumCostofTripWithKHighways
 	{
+/*
 	    int maximumCost(int n, vector<vector<int>>& highways, int k) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

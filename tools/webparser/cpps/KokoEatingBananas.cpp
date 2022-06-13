@@ -33,9 +33,12 @@ namespace Solution2022
 {
 	namespace KokoEatingBananas
 	{
+/*
 	    int minEatingSpeed(vector<int>& piles, int h) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

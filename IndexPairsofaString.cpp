@@ -27,9 +27,12 @@ namespace Solution2022
 {
 	namespace IndexPairsofaString
 	{
+/*
 	    vector<vector<int>> indexPairs(string text, vector<string>& words) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

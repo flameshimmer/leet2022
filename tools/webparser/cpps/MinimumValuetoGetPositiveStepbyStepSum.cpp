@@ -38,9 +38,12 @@ namespace Solution2022
 {
 	namespace MinimumValuetoGetPositiveStepbyStepSum
 	{
+/*
 	    int minStartValue(vector<int>& nums) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

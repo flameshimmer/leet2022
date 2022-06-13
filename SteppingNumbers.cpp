@@ -22,9 +22,12 @@ namespace Solution2022
 {
 	namespace SteppingNumbers
 	{
+/*
 	    vector<int> countSteppingNumbers(int low, int high) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

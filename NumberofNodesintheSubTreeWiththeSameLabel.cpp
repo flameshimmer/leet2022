@@ -49,9 +49,12 @@ namespace Solution2022
 {
 	namespace NumberofNodesintheSubTreeWiththeSameLabel
 	{
+/*
 	    vector<int> countSubTrees(int n, vector<vector<int>>& edges, string labels) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

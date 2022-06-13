@@ -40,9 +40,12 @@ namespace Solution2022
 {
 	namespace ExpressiveWords
 	{
+/*
 	    int expressiveWords(string s, vector<string>& words) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

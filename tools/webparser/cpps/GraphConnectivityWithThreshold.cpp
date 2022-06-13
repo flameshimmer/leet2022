@@ -61,9 +61,12 @@ namespace Solution2022
 {
 	namespace GraphConnectivityWithThreshold
 	{
+/*
 	    vector<bool> areConnected(int n, int threshold, vector<vector<int>>& queries) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

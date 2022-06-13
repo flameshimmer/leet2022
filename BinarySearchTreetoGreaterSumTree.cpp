@@ -32,6 +32,7 @@ namespace Solution2022
 {
 	namespace BinarySearchTreetoGreaterSumTree
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -46,6 +47,8 @@ namespace Solution2022
 	    TreeNode* bstToGst(TreeNode* root) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

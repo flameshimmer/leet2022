@@ -22,9 +22,12 @@ namespace Solution2022
 {
 	namespace CountingElements
 	{
+/*
 	    int countElements(vector<int>& arr) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

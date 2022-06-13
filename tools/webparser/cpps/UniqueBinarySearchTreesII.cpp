@@ -20,6 +20,7 @@ namespace Solution2022
 {
 	namespace UniqueBinarySearchTreesII
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -34,6 +35,8 @@ namespace Solution2022
 	    vector<TreeNode*> generateTrees(int n) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

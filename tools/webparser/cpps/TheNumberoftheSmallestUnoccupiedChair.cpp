@@ -50,9 +50,12 @@ namespace Solution2022
 {
 	namespace TheNumberoftheSmallestUnoccupiedChair
 	{
+/*
 	    int smallestChair(vector<vector<int>>& times, int targetFriend) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

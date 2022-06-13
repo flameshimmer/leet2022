@@ -61,9 +61,12 @@ namespace Solution2022
 {
 	namespace ProcessRestrictedFriendRequests
 	{
+/*
 	    vector<bool> friendRequests(int n, vector<vector<int>>& restrictions, vector<vector<int>>& requests) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

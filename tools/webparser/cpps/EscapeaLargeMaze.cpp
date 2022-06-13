@@ -39,9 +39,12 @@ namespace Solution2022
 {
 	namespace EscapeaLargeMaze
 	{
+/*
 	    bool isEscapePossible(vector<vector<int>>& blocked, vector<int>& source, vector<int>& target) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

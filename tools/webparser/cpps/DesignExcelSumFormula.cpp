@@ -77,6 +77,7 @@ namespace Solution2022
 {
 	namespace DesignExcelSumFormula
 	{
+/*
 	class Excel {
 	    Excel(int height, char width) {
 	        
@@ -101,6 +102,8 @@ namespace Solution2022
 	 * int param_2 = obj->get(row,column);
 	 * int param_3 = obj->sum(row,column,numbers);
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

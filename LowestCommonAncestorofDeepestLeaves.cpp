@@ -44,6 +44,7 @@ namespace Solution2022
 {
 	namespace LowestCommonAncestorofDeepestLeaves
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -58,6 +59,8 @@ namespace Solution2022
 	    TreeNode* lcaDeepestLeaves(TreeNode* root) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

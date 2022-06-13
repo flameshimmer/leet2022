@@ -49,9 +49,12 @@ namespace Solution2022
 {
 	namespace ThekStrongestValuesinanArray
 	{
+/*
 	    vector<int> getStrongest(vector<int>& arr, int k) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

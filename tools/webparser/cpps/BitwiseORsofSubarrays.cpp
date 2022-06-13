@@ -34,9 +34,12 @@ namespace Solution2022
 {
 	namespace BitwiseORsofSubarrays
 	{
+/*
 	    int subarrayBitwiseORs(vector<int>& arr) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

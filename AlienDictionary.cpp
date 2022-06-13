@@ -36,9 +36,12 @@ namespace Solution2022
 {
 	namespace AlienDictionary
 	{
+/*
 	    string alienOrder(vector<string>& words) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

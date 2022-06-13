@@ -36,9 +36,12 @@ namespace Solution2022
 {
 	namespace CountNumberofTeams
 	{
+/*
 	    int numTeams(vector<int>& rating) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

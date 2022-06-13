@@ -59,9 +59,12 @@ namespace Solution2022
 {
 	namespace ProcessTasksUsingServers
 	{
+/*
 	    vector<int> assignTasks(vector<int>& servers, vector<int>& tasks) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

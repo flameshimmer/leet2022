@@ -40,9 +40,12 @@ namespace Solution2022
 {
 	namespace SortFeaturesbyPopularity
 	{
+/*
 	    vector<string> sortFeatures(vector<string>& features, vector<string>& responses) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

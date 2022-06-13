@@ -37,9 +37,12 @@ namespace Solution2022
 {
 	namespace GoatLatin
 	{
+/*
 	    string toGoatLatin(string sentence) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

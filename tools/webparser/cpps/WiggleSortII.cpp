@@ -25,9 +25,12 @@ namespace Solution2022
 {
 	namespace WiggleSortII
 	{
+/*
 	    void wiggleSort(vector<int>& nums) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

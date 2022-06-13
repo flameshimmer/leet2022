@@ -34,9 +34,12 @@ namespace Solution2022
 {
 	namespace MinimumDominoRotationsForEqualRow
 	{
+/*
 	    int minDominoRotations(vector<int>& tops, vector<int>& bottoms) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

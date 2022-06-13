@@ -74,6 +74,7 @@ namespace Solution2022
 {
 	namespace DesignaFileSharingSystem
 	{
+/*
 	class FileSharing {
 	    FileSharing(int m) {
 	        
@@ -98,6 +99,8 @@ namespace Solution2022
 	 * obj->leave(userID);
 	 * vector<int> param_3 = obj->request(userID,chunkID);
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -35,9 +35,12 @@ namespace Solution2022
 {
 	namespace ReplaceWords
 	{
+/*
 	    string replaceWords(vector<string>& dictionary, string sentence) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -28,9 +28,12 @@ namespace Solution2022
 {
 	namespace LongestPalindrome
 	{
+/*
 	    int longestPalindrome(string s) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -42,9 +42,12 @@ namespace Solution2022
 {
 	namespace MinimumCosttoConnectSticks
 	{
+/*
 	    int connectSticks(vector<int>& sticks) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

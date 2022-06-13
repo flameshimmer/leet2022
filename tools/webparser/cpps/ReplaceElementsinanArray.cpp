@@ -41,9 +41,12 @@ namespace Solution2022
 {
 	namespace ReplaceElementsinanArray
 	{
+/*
 	    vector<int> arrayChange(vector<int>& nums, vector<vector<int>>& operations) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

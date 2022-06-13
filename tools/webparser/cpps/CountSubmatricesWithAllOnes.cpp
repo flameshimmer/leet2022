@@ -36,9 +36,12 @@ namespace Solution2022
 {
 	namespace CountSubmatricesWithAllOnes
 	{
+/*
 	    int numSubmat(vector<vector<int>>& mat) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

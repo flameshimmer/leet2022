@@ -22,6 +22,7 @@ namespace Solution2022
 {
 	namespace MostFrequentSubtreeSum
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -36,6 +37,8 @@ namespace Solution2022
 	    vector<int> findFrequentTreeSum(TreeNode* root) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

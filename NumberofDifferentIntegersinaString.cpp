@@ -37,9 +37,12 @@ namespace Solution2022
 {
 	namespace NumberofDifferentIntegersinaString
 	{
+/*
 	    int numDifferentIntegers(string word) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

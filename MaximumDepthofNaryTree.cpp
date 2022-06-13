@@ -23,6 +23,7 @@ namespace Solution2022
 {
 	namespace MaximumDepthofNaryTree
 	{
+/*
 	/*
 	// Definition for a Node.
 	class Node {
@@ -44,6 +45,8 @@ namespace Solution2022
 	    int maxDepth(Node* root) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -29,9 +29,12 @@ namespace Solution2022
 {
 	namespace PartitionLabels
 	{
+/*
 	    vector<int> partitionLabels(string s) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

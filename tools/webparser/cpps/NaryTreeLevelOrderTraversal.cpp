@@ -21,6 +21,7 @@ namespace Solution2022
 {
 	namespace NaryTreeLevelOrderTraversal
 	{
+/*
 	/*
 	// Definition for a Node.
 	class Node {
@@ -42,6 +43,8 @@ namespace Solution2022
 	    vector<vector<int>> levelOrder(Node* root) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

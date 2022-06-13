@@ -77,9 +77,12 @@ namespace Solution2022
 {
 	namespace MaximumVacationDays
 	{
+/*
 	    int maxVacationDays(vector<vector<int>>& flights, vector<vector<int>>& days) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

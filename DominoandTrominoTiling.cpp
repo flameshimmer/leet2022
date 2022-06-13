@@ -25,9 +25,12 @@ namespace Solution2022
 {
 	namespace DominoandTrominoTiling
 	{
+/*
 	    int numTilings(int n) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -21,6 +21,7 @@ namespace Solution2022
 {
 	namespace UnivaluedBinaryTree
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -35,6 +36,8 @@ namespace Solution2022
 	    bool isUnivalTree(TreeNode* root) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -55,9 +55,12 @@ namespace Solution2022
 {
 	namespace ClosestNodetoPathinTree
 	{
+/*
 	    vector<int> closestNode(int n, vector<vector<int>>& edges, vector<vector<int>>& query) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

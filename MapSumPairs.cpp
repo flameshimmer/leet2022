@@ -36,6 +36,7 @@ namespace Solution2022
 {
 	namespace MapSumPairs
 	{
+/*
 	class MapSum {
 	    MapSum() {
 	        
@@ -55,6 +56,8 @@ namespace Solution2022
 	 * obj->insert(key,val);
 	 * int param_2 = obj->sum(prefix);
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

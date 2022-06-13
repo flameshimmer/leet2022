@@ -41,9 +41,12 @@ namespace Solution2022
 {
 	namespace MinimumNumberofSwapstoMaketheStringBalanced
 	{
+/*
 	    int minSwaps(string s) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

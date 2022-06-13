@@ -35,9 +35,12 @@ namespace Solution2022
 {
 	namespace RemoveAllOccurrencesofaSubstring
 	{
+/*
 	    string removeOccurrences(string s, string part) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

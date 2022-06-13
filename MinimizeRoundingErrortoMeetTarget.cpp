@@ -36,9 +36,12 @@ namespace Solution2022
 {
 	namespace MinimizeRoundingErrortoMeetTarget
 	{
+/*
 	    string minimizeError(vector<string>& prices, int target) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

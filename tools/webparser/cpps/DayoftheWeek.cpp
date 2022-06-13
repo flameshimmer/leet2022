@@ -26,9 +26,12 @@ namespace Solution2022
 {
 	namespace DayoftheWeek
 	{
+/*
 	    string dayOfTheWeek(int day, int month, int year) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

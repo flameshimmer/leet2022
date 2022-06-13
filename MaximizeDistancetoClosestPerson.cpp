@@ -40,9 +40,12 @@ namespace Solution2022
 {
 	namespace MaximizeDistancetoClosestPerson
 	{
+/*
 	    int maxDistToClosest(vector<int>& seats) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

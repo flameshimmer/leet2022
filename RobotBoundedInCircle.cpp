@@ -64,9 +64,12 @@ namespace Solution2022
 {
 	namespace RobotBoundedInCircle
 	{
+/*
 	    bool isRobotBounded(string instructions) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

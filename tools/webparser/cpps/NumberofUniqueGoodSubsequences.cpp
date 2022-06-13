@@ -41,9 +41,12 @@ namespace Solution2022
 {
 	namespace NumberofUniqueGoodSubsequences
 	{
+/*
 	    int numberOfUniqueGoodSubsequences(string binary) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

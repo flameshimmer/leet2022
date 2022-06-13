@@ -35,9 +35,12 @@ namespace Solution2022
 {
 	namespace NumberofSetsofKNonOverlappingLineSegments
 	{
+/*
 	    int numberOfSets(int n, int k) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

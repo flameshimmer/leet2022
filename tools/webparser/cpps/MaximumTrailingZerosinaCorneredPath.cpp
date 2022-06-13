@@ -47,9 +47,12 @@ namespace Solution2022
 {
 	namespace MaximumTrailingZerosinaCorneredPath
 	{
+/*
 	    int maxTrailingZeros(vector<vector<int>>& grid) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

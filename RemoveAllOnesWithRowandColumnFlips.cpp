@@ -34,9 +34,12 @@ namespace Solution2022
 {
 	namespace RemoveAllOnesWithRowandColumnFlips
 	{
+/*
 	    bool removeOnes(vector<vector<int>>& grid) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

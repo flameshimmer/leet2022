@@ -23,9 +23,12 @@ namespace Solution2022
 {
 	namespace ValidPalindromeIII
 	{
+/*
 	    bool isValidPalindrome(string s, int k) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

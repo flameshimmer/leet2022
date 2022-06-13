@@ -50,9 +50,12 @@ namespace Solution2022
 {
 	namespace GridIllumination
 	{
+/*
 	    vector<int> gridIllumination(int n, vector<vector<int>>& lamps, vector<vector<int>>& queries) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

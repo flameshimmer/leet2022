@@ -52,9 +52,12 @@ namespace Solution2022
 {
 	namespace FindDuplicateFileinSystem
 	{
+/*
 	    vector<vector<string>> findDuplicate(vector<string>& paths) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

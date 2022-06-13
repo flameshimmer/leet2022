@@ -24,9 +24,12 @@ namespace Solution2022
 {
 	namespace AdvantageShuffle
 	{
+/*
 	    vector<int> advantageCount(vector<int>& nums1, vector<int>& nums2) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

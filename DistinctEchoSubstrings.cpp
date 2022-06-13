@@ -23,9 +23,12 @@ namespace Solution2022
 {
 	namespace DistinctEchoSubstrings
 	{
+/*
 	    int distinctEchoSubstrings(string text) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -44,9 +44,12 @@ namespace Solution2022
 {
 	namespace MaximumNumberofConsecutiveValuesYouCanMake
 	{
+/*
 	    int getMaximumConsecutive(vector<int>& coins) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

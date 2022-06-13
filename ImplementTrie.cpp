@@ -36,6 +36,7 @@ namespace Solution2022
 {
 	namespace ImplementTrie
 	{
+/*
 	class Trie {
 	    Trie() {
 	        
@@ -60,6 +61,8 @@ namespace Solution2022
 	 * bool param_2 = obj->search(word);
 	 * bool param_3 = obj->startsWith(prefix);
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

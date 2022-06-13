@@ -40,6 +40,7 @@ namespace Solution2022
 {
 	namespace DeletetheMiddleNodeofaLinkedList
 	{
+/*
 	/**
 	 * Definition for singly-linked list.
 	 * struct ListNode {
@@ -53,6 +54,8 @@ namespace Solution2022
 	    ListNode* deleteMiddle(ListNode* head) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

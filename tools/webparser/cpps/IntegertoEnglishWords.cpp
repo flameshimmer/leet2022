@@ -22,9 +22,12 @@ namespace Solution2022
 {
 	namespace IntegertoEnglishWords
 	{
+/*
 	    string numberToWords(int num) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -40,9 +40,12 @@ namespace Solution2022
 {
 	namespace StampingtheGrid
 	{
+/*
 	    bool possibleToStamp(vector<vector<int>>& grid, int stampHeight, int stampWidth) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

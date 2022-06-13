@@ -62,6 +62,7 @@ namespace Solution2022
 {
 	namespace FindElementsinaContaminatedBinaryTree
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -87,6 +88,8 @@ namespace Solution2022
 	 * FindElements* obj = new FindElements(root);
 	 * bool param_1 = obj->find(target);
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

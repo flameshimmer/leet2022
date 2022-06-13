@@ -33,9 +33,12 @@ namespace Solution2022
 {
 	namespace MaximumWhiteTilesCoveredbyaCarpet
 	{
+/*
 	    int maximumWhiteTiles(vector<vector<int>>& tiles, int carpetLen) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

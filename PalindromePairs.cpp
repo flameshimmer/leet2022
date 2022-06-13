@@ -28,9 +28,12 @@ namespace Solution2022
 {
 	namespace PalindromePairs
 	{
+/*
 	    vector<vector<int>> palindromePairs(vector<string>& words) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

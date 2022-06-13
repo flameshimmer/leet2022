@@ -37,6 +37,7 @@ namespace Solution2022
 {
 	namespace InorderSuccessorinBSTII
 	{
+/*
 	/*
 	// Definition for a Node.
 	class Node {
@@ -49,6 +50,8 @@ namespace Solution2022
 	    Node* inorderSuccessor(Node* node) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

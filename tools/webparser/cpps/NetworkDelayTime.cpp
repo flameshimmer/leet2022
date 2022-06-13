@@ -34,9 +34,12 @@ namespace Solution2022
 {
 	namespace NetworkDelayTime
 	{
+/*
 	    int networkDelayTime(vector<vector<int>>& times, int n, int k) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

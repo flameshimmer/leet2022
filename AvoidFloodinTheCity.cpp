@@ -55,9 +55,12 @@ namespace Solution2022
 {
 	namespace AvoidFloodinTheCity
 	{
+/*
 	    vector<int> avoidFlood(vector<int>& rains) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

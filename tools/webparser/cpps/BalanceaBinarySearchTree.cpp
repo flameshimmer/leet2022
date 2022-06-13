@@ -24,6 +24,7 @@ namespace Solution2022
 {
 	namespace BalanceaBinarySearchTree
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -38,6 +39,8 @@ namespace Solution2022
 	    TreeNode* balanceBST(TreeNode* root) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

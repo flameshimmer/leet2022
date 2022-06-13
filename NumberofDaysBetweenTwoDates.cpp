@@ -20,9 +20,12 @@ namespace Solution2022
 {
 	namespace NumberofDaysBetweenTwoDates
 	{
+/*
 	    int daysBetweenDates(string date1, string date2) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -55,6 +55,7 @@ namespace Solution2022
 {
 	namespace RandomPickwithWeight
 	{
+/*
 	    Solution(vector<int>& w) {
 	        
 	    }
@@ -68,6 +69,8 @@ namespace Solution2022
 	 * Solution* obj = new Solution(w);
 	 * int param_1 = obj->pickIndex();
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

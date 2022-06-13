@@ -32,6 +32,7 @@ namespace Solution2022
 {
 	namespace ChangetheRootofaBinaryTree
 	{
+/*
 	/*
 	// Definition for a Node.
 	class Node {
@@ -44,6 +45,8 @@ namespace Solution2022
 	    Node* flipBinaryTree(Node* root, Node * leaf) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

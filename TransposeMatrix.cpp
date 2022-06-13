@@ -24,9 +24,12 @@ namespace Solution2022
 {
 	namespace TransposeMatrix
 	{
+/*
 	    vector<vector<int>> transpose(vector<vector<int>>& matrix) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

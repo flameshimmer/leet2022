@@ -33,6 +33,7 @@ namespace Solution2022
 {
 	namespace PrefixandSuffixSearch
 	{
+/*
 	class WordFilter {
 	    WordFilter(vector<string>& words) {
 	        
@@ -47,6 +48,8 @@ namespace Solution2022
 	 * WordFilter* obj = new WordFilter(words);
 	 * int param_1 = obj->f(prefix,suffix);
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

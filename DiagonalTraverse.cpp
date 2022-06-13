@@ -23,9 +23,12 @@ namespace Solution2022
 {
 	namespace DiagonalTraverse
 	{
+/*
 	    vector<int> findDiagonalOrder(vector<vector<int>>& mat) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

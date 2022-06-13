@@ -46,9 +46,12 @@ namespace Solution2022
 {
 	namespace MinimumCostForTickets
 	{
+/*
 	    int mincostTickets(vector<int>& days, vector<int>& costs) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

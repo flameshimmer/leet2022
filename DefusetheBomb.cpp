@@ -41,9 +41,12 @@ namespace Solution2022
 {
 	namespace DefusetheBomb
 	{
+/*
 	    vector<int> decrypt(vector<int>& code, int k) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

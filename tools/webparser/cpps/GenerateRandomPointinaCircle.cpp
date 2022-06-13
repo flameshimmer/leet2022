@@ -32,6 +32,7 @@ namespace Solution2022
 {
 	namespace GenerateRandomPointinaCircle
 	{
+/*
 	    Solution(double radius, double x_center, double y_center) {
 	        
 	    }
@@ -45,6 +46,8 @@ namespace Solution2022
 	 * Solution* obj = new Solution(radius, x_center, y_center);
 	 * vector<double> param_1 = obj->randPoint();
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

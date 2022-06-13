@@ -32,6 +32,7 @@ namespace Solution2022
 {
 	namespace GuessNumberHigherorLower
 	{
+/*
 	/** 
 	 * Forward declaration of guess API.
 	 * @param  num   your guess
@@ -44,6 +45,8 @@ namespace Solution2022
 	    int guessNumber(int n) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -48,6 +48,7 @@ namespace Solution2022
 {
 	namespace AddTwoPolynomialsRepresentedasLinkedLists
 	{
+/*
 	/**
 	 * Definition for polynomial singly-linked list.
 	 * struct PolyNode {
@@ -62,6 +63,8 @@ namespace Solution2022
 	    PolyNode* addPoly(PolyNode* poly1, PolyNode* poly2) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

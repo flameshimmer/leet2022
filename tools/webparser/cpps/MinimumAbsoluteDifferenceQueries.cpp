@@ -54,9 +54,12 @@ namespace Solution2022
 {
 	namespace MinimumAbsoluteDifferenceQueries
 	{
+/*
 	    vector<int> minDifference(vector<int>& nums, vector<vector<int>>& queries) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

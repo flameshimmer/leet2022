@@ -49,9 +49,12 @@ namespace Solution2022
 {
 	namespace CanYouEatYourFavoriteCandyonYourFavoriteDayQuestionMark
 	{
+/*
 	    vector<bool> canEat(vector<int>& candiesCount, vector<vector<int>>& queries) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

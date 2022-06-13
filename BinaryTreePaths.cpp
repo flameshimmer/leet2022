@@ -20,6 +20,7 @@ namespace Solution2022
 {
 	namespace BinaryTreePaths
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -34,6 +35,8 @@ namespace Solution2022
 	    vector<string> binaryTreePaths(TreeNode* root) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

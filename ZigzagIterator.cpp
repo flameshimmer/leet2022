@@ -44,6 +44,7 @@ namespace Solution2022
 {
 	namespace ZigzagIterator
 	{
+/*
 	class ZigzagIterator {
 	    ZigzagIterator(vector<int>& v1, vector<int>& v2) {
 	        
@@ -62,6 +63,8 @@ namespace Solution2022
 	 * ZigzagIterator i(v1, v2);
 	 * while (i.hasNext()) cout << i.next();
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

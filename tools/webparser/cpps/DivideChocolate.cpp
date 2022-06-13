@@ -34,9 +34,12 @@ namespace Solution2022
 {
 	namespace DivideChocolate
 	{
+/*
 	    int maximizeSweetness(vector<int>& sweetness, int k) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

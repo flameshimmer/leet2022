@@ -39,9 +39,12 @@ namespace Solution2022
 {
 	namespace CombinationSumIII
 	{
+/*
 	    vector<vector<int>> combinationSum3(int k, int n) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

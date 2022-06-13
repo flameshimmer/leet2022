@@ -24,9 +24,12 @@ namespace Solution2022
 {
 	namespace LongestLineofConsecutiveOneinMatrix
 	{
+/*
 	    int longestLine(vector<vector<int>>& mat) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

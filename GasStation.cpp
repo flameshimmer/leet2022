@@ -46,9 +46,12 @@ namespace Solution2022
 {
 	namespace GasStation
 	{
+/*
 	    int canCompleteCircuit(vector<int>& gas, vector<int>& cost) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

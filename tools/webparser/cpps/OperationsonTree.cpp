@@ -67,6 +67,7 @@ namespace Solution2022
 {
 	namespace OperationsonTree
 	{
+/*
 	class LockingTree {
 	    LockingTree(vector<int>& parent) {
 	        
@@ -91,6 +92,8 @@ namespace Solution2022
 	 * bool param_2 = obj->unlock(num,user);
 	 * bool param_3 = obj->upgrade(num,user);
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

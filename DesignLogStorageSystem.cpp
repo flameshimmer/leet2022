@@ -54,6 +54,7 @@ namespace Solution2022
 {
 	namespace DesignLogStorageSystem
 	{
+/*
 	class LogSystem {
 	    LogSystem() {
 	        
@@ -73,6 +74,8 @@ namespace Solution2022
 	 * obj->put(id,timestamp);
 	 * vector<int> param_2 = obj->retrieve(start,end,granularity);
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

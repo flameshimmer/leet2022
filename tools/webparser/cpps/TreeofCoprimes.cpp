@@ -46,9 +46,12 @@ namespace Solution2022
 {
 	namespace TreeofCoprimes
 	{
+/*
 	    vector<int> getCoprimes(vector<int>& nums, vector<vector<int>>& edges) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

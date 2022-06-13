@@ -26,6 +26,7 @@ namespace Solution2022
 {
 	namespace FindNearestRightNodeinBinaryTree
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -40,6 +41,8 @@ namespace Solution2022
 	    TreeNode* findNearestRightNode(TreeNode* root, TreeNode* u) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

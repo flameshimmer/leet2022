@@ -36,9 +36,12 @@ namespace Solution2022
 {
 	namespace MaximumScoreFromRemovingSubstrings
 	{
+/*
 	    int maximumGain(string s, int x, int y) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -50,9 +50,12 @@ namespace Solution2022
 {
 	namespace RotatingtheBox
 	{
+/*
 	    vector<vector<char>> rotateTheBox(vector<vector<char>>& box) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

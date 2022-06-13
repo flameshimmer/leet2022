@@ -59,9 +59,12 @@ namespace Solution2022
 {
 	namespace RemoveColoredPiecesifBothNeighborsaretheSameColor
 	{
+/*
 	    bool winnerOfGame(string colors) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

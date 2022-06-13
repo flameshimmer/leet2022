@@ -32,9 +32,12 @@ namespace Solution2022
 {
 	namespace SimilarRGBColor
 	{
+/*
 	    string similarRGB(string color) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -46,9 +46,12 @@ namespace Solution2022
 {
 	namespace RemoveOutermostParentheses
 	{
+/*
 	    string removeOuterParentheses(string s) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

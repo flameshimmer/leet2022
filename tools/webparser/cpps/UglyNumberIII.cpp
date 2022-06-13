@@ -28,9 +28,12 @@ namespace Solution2022
 {
 	namespace UglyNumberIII
 	{
+/*
 	    int nthUglyNumber(int n, int a, int b, int c) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -48,6 +48,7 @@ namespace Solution2022
 {
 	namespace DesignCircularDeque
 	{
+/*
 	class MyCircularDeque {
 	    MyCircularDeque(int k) {
 	        
@@ -86,6 +87,8 @@ namespace Solution2022
 	    }
 	​
 	/**
+
+*/
 
 		void Main() {
 			string test = "tst test test";

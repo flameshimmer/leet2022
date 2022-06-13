@@ -40,9 +40,12 @@ namespace Solution2022
 {
 	namespace VowelsofAllSubstrings
 	{
+/*
 	    long long countVowels(string word) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

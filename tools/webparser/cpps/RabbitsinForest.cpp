@@ -31,9 +31,12 @@ namespace Solution2022
 {
 	namespace RabbitsinForest
 	{
+/*
 	    int numRabbits(vector<int>& answers) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

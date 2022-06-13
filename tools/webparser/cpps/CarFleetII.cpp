@@ -37,9 +37,12 @@ namespace Solution2022
 {
 	namespace CarFleetII
 	{
+/*
 	    vector<double> getCollisionTimes(vector<vector<int>>& cars) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

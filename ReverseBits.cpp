@@ -31,24 +31,18 @@
 //Constraints:
 //The input must be a binary string of length 32
 // 
-//Follow up: If this function is called many times, how would you optimize it? 
+//Follow up: If this function is called many times, how would you optimize it?
 
 namespace Solution2022
 {
 	namespace ReverseBits
 	{
-		uint32_t reverseBits(uint32_t n) {
-			int start = 0;
-			int end = 31;
-			while (start < end) {
-				if (((n >> start) & 1) ^ ((n >> end) & 1)) {
-					n ^= (1 << start) | (1 << end);
-				}
-				start++;
-				end--;
-			}
-			return n;
-		}
+/*
+	    uint32_t reverseBits(uint32_t n) {
+	        
+	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

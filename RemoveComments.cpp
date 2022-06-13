@@ -76,9 +76,12 @@ namespace Solution2022
 {
 	namespace RemoveComments
 	{
+/*
 	    vector<string> removeComments(vector<string>& source) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

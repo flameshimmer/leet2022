@@ -27,9 +27,12 @@ namespace Solution2022
 {
 	namespace Hexspeak
 	{
+/*
 	    string toHexspeak(string num) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

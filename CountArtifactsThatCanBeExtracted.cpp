@@ -51,9 +51,12 @@ namespace Solution2022
 {
 	namespace CountArtifactsThatCanBeExtracted
 	{
+/*
 	    int digArtifacts(int n, vector<vector<int>>& artifacts, vector<vector<int>>& dig) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

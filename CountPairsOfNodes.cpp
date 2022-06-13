@@ -42,9 +42,12 @@ namespace Solution2022
 {
 	namespace CountPairsOfNodes
 	{
+/*
 	    vector<int> countPairs(int n, vector<vector<int>>& edges, vector<int>& queries) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

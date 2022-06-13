@@ -53,9 +53,12 @@ namespace Solution2022
 {
 	namespace ProductofTwoRunLengthEncodedArrays
 	{
+/*
 	    vector<vector<int>> findRLEArray(vector<vector<int>>& encoded1, vector<vector<int>>& encoded2) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

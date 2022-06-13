@@ -42,9 +42,12 @@ namespace Solution2022
 {
 	namespace MaximumAreaofaPieceofCakeAfterHorizontalandVerticalCuts
 	{
+/*
 	    int maxArea(int h, int w, vector<int>& horizontalCuts, vector<int>& verticalCuts) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

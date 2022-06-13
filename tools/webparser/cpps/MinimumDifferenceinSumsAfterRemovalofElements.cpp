@@ -47,9 +47,12 @@ namespace Solution2022
 {
 	namespace MinimumDifferenceinSumsAfterRemovalofElements
 	{
+/*
 	    long long minimumDifference(vector<int>& nums) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

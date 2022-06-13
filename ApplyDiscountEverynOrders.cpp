@@ -76,6 +76,7 @@ namespace Solution2022
 {
 	namespace ApplyDiscountEverynOrders
 	{
+/*
 	class Cashier {
 	    Cashier(int n, int discount, vector<int>& products, vector<int>& prices) {
 	        
@@ -90,6 +91,8 @@ namespace Solution2022
 	 * Cashier* obj = new Cashier(n, discount, products, prices);
 	 * double param_1 = obj->getBill(product,amount);
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

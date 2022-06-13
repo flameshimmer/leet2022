@@ -46,9 +46,12 @@ namespace Solution2022
 {
 	namespace RemoveMaxNumberofEdgestoKeepGraphFullyTraversable
 	{
+/*
 	    int maxNumEdgesToRemove(int n, vector<vector<int>>& edges) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

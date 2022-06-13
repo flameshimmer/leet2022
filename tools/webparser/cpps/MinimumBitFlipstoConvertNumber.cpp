@@ -39,9 +39,12 @@ namespace Solution2022
 {
 	namespace MinimumBitFlipstoConvertNumber
 	{
+/*
 	    int minBitFlips(int start, int goal) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

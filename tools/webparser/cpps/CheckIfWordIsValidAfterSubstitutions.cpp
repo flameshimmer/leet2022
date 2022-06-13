@@ -37,9 +37,12 @@ namespace Solution2022
 {
 	namespace CheckIfWordIsValidAfterSubstitutions
 	{
+/*
 	    bool isValid(string s) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

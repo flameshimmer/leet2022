@@ -37,9 +37,12 @@ namespace Solution2022
 {
 	namespace TransformtoChessboard
 	{
+/*
 	    int movesToChessboard(vector<vector<int>>& board) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

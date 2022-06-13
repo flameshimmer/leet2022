@@ -27,9 +27,12 @@ namespace Solution2022
 {
 	namespace StringTransformsIntoAnotherString
 	{
+/*
 	    bool canConvert(string str1, string str2) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

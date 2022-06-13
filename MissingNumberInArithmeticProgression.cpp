@@ -25,9 +25,12 @@ namespace Solution2022
 {
 	namespace MissingNumberInArithmeticProgression
 	{
+/*
 	    int missingNumber(vector<int>& arr) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

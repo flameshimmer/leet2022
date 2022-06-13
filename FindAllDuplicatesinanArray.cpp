@@ -29,9 +29,12 @@ namespace Solution2022
 {
 	namespace FindAllDuplicatesinanArray
 	{
+/*
 	    vector<int> findDuplicates(vector<int>& nums) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

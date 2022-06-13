@@ -28,9 +28,12 @@ namespace Solution2022
 {
 	namespace MagicSquaresInGrid
 	{
+/*
 	    int numMagicSquaresInside(vector<vector<int>>& grid) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

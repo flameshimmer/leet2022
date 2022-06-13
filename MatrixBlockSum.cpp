@@ -25,9 +25,12 @@ namespace Solution2022
 {
 	namespace MatrixBlockSum
 	{
+/*
 	    vector<vector<int>> matrixBlockSum(vector<vector<int>>& mat, int k) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

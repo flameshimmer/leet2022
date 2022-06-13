@@ -26,6 +26,7 @@ namespace Solution2022
 {
 	namespace CheckCompletenessofaBinaryTree
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -40,6 +41,8 @@ namespace Solution2022
 	    bool isCompleteTree(TreeNode* root) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

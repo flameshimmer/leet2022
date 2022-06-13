@@ -39,9 +39,12 @@ namespace Solution2022
 {
 	namespace AllPathsfromSourceLeadtoDestination
 	{
+/*
 	    bool leadsToDestination(int n, vector<vector<int>>& edges, int source, int destination) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

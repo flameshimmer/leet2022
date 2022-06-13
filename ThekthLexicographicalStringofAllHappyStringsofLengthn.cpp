@@ -38,9 +38,12 @@ namespace Solution2022
 {
 	namespace ThekthLexicographicalStringofAllHappyStringsofLengthn
 	{
+/*
 	    string getHappyString(int n, int k) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

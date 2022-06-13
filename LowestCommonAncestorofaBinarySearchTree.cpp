@@ -33,6 +33,7 @@ namespace Solution2022
 {
 	namespace LowestCommonAncestorofaBinarySearchTree
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -46,6 +47,8 @@ namespace Solution2022
 	    TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

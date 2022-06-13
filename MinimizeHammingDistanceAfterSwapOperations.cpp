@@ -47,9 +47,12 @@ namespace Solution2022
 {
 	namespace MinimizeHammingDistanceAfterSwapOperations
 	{
+/*
 	    int minimumHammingDistance(vector<int>& source, vector<int>& target, vector<vector<int>>& allowedSwaps) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

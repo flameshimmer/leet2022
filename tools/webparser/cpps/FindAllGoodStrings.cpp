@@ -38,9 +38,12 @@ namespace Solution2022
 {
 	namespace FindAllGoodStrings
 	{
+/*
 	    int findGoodStrings(int n, string s1, string s2, string evil) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

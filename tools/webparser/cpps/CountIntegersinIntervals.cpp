@@ -50,6 +50,7 @@ namespace Solution2022
 {
 	namespace CountIntegersinIntervals
 	{
+/*
 	class CountIntervals {
 	    CountIntervals() {
 	        
@@ -69,6 +70,8 @@ namespace Solution2022
 	 * obj->add(left,right);
 	 * int param_2 = obj->count();
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -25,6 +25,7 @@ namespace Solution2022
 {
 	namespace ReverseLinkedListII
 	{
+/*
 	/**
 	 * Definition for singly-linked list.
 	 * struct ListNode {
@@ -38,6 +39,8 @@ namespace Solution2022
 	    ListNode* reverseBetween(ListNode* head, int left, int right) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

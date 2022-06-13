@@ -26,9 +26,12 @@ namespace Solution2022
 {
 	namespace CheckifAllCharactersHaveEqualNumberofOccurrences
 	{
+/*
 	    bool areOccurrencesEqual(string s) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

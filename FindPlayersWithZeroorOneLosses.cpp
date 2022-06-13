@@ -41,9 +41,12 @@ namespace Solution2022
 {
 	namespace FindPlayersWithZeroorOneLosses
 	{
+/*
 	    vector<vector<int>> findWinners(vector<vector<int>>& matches) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

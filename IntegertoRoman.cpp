@@ -46,9 +46,12 @@ namespace Solution2022
 {
 	namespace IntegertoRoman
 	{
+/*
 	    string intToRoman(int num) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

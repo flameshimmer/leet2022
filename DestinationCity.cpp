@@ -40,9 +40,12 @@ namespace Solution2022
 {
 	namespace DestinationCity
 	{
+/*
 	    string destCity(vector<vector<string>>& paths) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

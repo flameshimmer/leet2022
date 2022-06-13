@@ -34,9 +34,12 @@ namespace Solution2022
 {
 	namespace MinimumCosttoMoveChipstoTheSamePosition
 	{
+/*
 	    int minCostToMoveChips(vector<int>& position) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

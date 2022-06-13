@@ -26,9 +26,12 @@ namespace Solution2022
 {
 	namespace HandshakesThatDontCross
 	{
+/*
 	    int numberOfWays(int numPeople) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

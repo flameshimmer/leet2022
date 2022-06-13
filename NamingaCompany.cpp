@@ -46,9 +46,12 @@ namespace Solution2022
 {
 	namespace NamingaCompany
 	{
+/*
 	    long long distinctNames(vector<string>& ideas) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -49,9 +49,12 @@ namespace Solution2022
 {
 	namespace FindAndReplaceinString
 	{
+/*
 	    string findReplaceString(string s, vector<int>& indices, vector<string>& sources, vector<string>& targets) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

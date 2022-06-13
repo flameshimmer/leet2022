@@ -25,9 +25,12 @@ namespace Solution2022
 {
 	namespace FindKClosestElements
 	{
+/*
 	    vector<int> findClosestElements(vector<int>& arr, int k, int x) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

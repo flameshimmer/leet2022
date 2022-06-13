@@ -27,9 +27,12 @@ namespace Solution2022
 {
 	namespace RepeatedSubstringPattern
 	{
+/*
 	    bool repeatedSubstringPattern(string s) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

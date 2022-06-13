@@ -21,9 +21,12 @@ namespace Solution2022
 {
 	namespace NthDigit
 	{
+/*
 	    int findNthDigit(int n) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

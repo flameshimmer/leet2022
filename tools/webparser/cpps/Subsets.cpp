@@ -23,9 +23,12 @@ namespace Solution2022
 {
 	namespace Subsets
 	{
+/*
 	    vector<vector<int>> subsets(vector<int>& nums) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

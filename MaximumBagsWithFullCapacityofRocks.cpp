@@ -47,9 +47,12 @@ namespace Solution2022
 {
 	namespace MaximumBagsWithFullCapacityofRocks
 	{
+/*
 	    int maximumBags(vector<int>& capacity, vector<int>& rocks, int additionalRocks) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

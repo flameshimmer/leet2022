@@ -47,9 +47,12 @@ namespace Solution2022
 {
 	namespace CutOffTreesforGolfEvent
 	{
+/*
 	    int cutOffTree(vector<vector<int>>& forest) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

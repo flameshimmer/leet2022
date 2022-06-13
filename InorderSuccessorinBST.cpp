@@ -28,6 +28,7 @@ namespace Solution2022
 {
 	namespace InorderSuccessorinBST
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -40,6 +41,8 @@ namespace Solution2022
 	    TreeNode* inorderSuccessor(TreeNode* root, TreeNode* p) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

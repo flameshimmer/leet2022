@@ -28,9 +28,12 @@ namespace Solution2022
 {
 	namespace NumberofMatchingSubsequences
 	{
+/*
 	    int numMatchingSubseq(string s, vector<string>& words) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

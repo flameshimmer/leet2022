@@ -37,9 +37,12 @@ namespace Solution2022
 {
 	namespace BestTeamWithNoConflicts
 	{
+/*
 	    int bestTeamScore(vector<int>& scores, vector<int>& ages) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

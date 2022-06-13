@@ -43,9 +43,12 @@ namespace Solution2022
 {
 	namespace SplitTwoStringstoMakePalindrome
 	{
+/*
 	    bool checkPalindromeFormation(string a, string b) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

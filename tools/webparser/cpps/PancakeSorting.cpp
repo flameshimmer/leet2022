@@ -41,9 +41,12 @@ namespace Solution2022
 {
 	namespace PancakeSorting
 	{
+/*
 	    vector<int> pancakeSort(vector<int>& arr) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

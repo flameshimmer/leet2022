@@ -47,9 +47,12 @@ namespace Solution2022
 {
 	namespace CompareVersionNumbers
 	{
+/*
 	    int compareVersion(string version1, string version2) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

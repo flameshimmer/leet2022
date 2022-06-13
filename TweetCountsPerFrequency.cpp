@@ -58,6 +58,7 @@ namespace Solution2022
 {
 	namespace TweetCountsPerFrequency
 	{
+/*
 	class TweetCounts {
 	    TweetCounts() {
 	        
@@ -77,6 +78,8 @@ namespace Solution2022
 	 * obj->recordTweet(tweetName,time);
 	 * vector<int> param_2 = obj->getTweetCountsPerFrequency(freq,tweetName,startTime,endTime);
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

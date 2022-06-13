@@ -36,9 +36,12 @@ namespace Solution2022
 {
 	namespace ReconstructItinerary
 	{
+/*
 	    vector<string> findItinerary(vector<vector<string>>& tickets) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -28,9 +28,12 @@ namespace Solution2022
 {
 	namespace MinimumDeletionstoMakeStringBalanced
 	{
+/*
 	    int minimumDeletions(string s) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

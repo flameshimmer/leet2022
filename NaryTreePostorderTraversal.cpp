@@ -25,6 +25,7 @@ namespace Solution2022
 {
 	namespace NaryTreePostorderTraversal
 	{
+/*
 	/*
 	// Definition for a Node.
 	class Node {
@@ -46,6 +47,8 @@ namespace Solution2022
 	    vector<int> postorder(Node* root) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

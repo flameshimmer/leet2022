@@ -53,9 +53,12 @@ namespace Solution2022
 {
 	namespace AmountofNewAreaPaintedEachDay
 	{
+/*
 	    vector<int> amountPainted(vector<vector<int>>& paint) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -58,6 +58,7 @@ namespace Solution2022
 {
 	namespace StockPriceFluctuation
 	{
+/*
 	class StockPrice {
 	    StockPrice() {
 	        
@@ -87,6 +88,8 @@ namespace Solution2022
 	 * int param_3 = obj->maximum();
 	 * int param_4 = obj->minimum();
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -45,6 +45,7 @@ namespace Solution2022
 {
 	namespace EvenOddTree
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -59,6 +60,8 @@ namespace Solution2022
 	    bool isEvenOddTree(TreeNode* root) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

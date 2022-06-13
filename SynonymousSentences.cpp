@@ -32,9 +32,12 @@ namespace Solution2022
 {
 	namespace SynonymousSentences
 	{
+/*
 	    vector<string> generateSentences(vector<vector<string>>& synonyms, string text) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

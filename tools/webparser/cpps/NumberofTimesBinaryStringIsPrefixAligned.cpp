@@ -40,9 +40,12 @@ namespace Solution2022
 {
 	namespace NumberofTimesBinaryStringIsPrefixAligned
 	{
+/*
 	    int numTimesAllBlue(vector<int>& flips) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

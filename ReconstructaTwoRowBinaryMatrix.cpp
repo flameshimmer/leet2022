@@ -35,9 +35,12 @@ namespace Solution2022
 {
 	namespace ReconstructaTwoRowBinaryMatrix
 	{
+/*
 	    vector<vector<int>> reconstructMatrix(int upper, int lower, vector<int>& colsum) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

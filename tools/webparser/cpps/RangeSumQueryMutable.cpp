@@ -36,6 +36,7 @@ namespace Solution2022
 {
 	namespace RangeSumQueryMutable
 	{
+/*
 	class NumArray {
 	    NumArray(vector<int>& nums) {
 	        
@@ -55,6 +56,8 @@ namespace Solution2022
 	 * obj->update(index,val);
 	 * int param_2 = obj->sumRange(left,right);
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

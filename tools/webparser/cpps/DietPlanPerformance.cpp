@@ -45,9 +45,12 @@ namespace Solution2022
 {
 	namespace DietPlanPerformance
 	{
+/*
 	    int dietPlanPerformance(vector<int>& calories, int k, int lower, int upper) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

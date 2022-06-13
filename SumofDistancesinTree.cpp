@@ -36,9 +36,12 @@ namespace Solution2022
 {
 	namespace SumofDistancesinTree
 	{
+/*
 	    vector<int> sumOfDistancesInTree(int n, vector<vector<int>>& edges) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -85,9 +85,12 @@ namespace Solution2022
 {
 	namespace MaximumGoodPeopleBasedonStatements
 	{
+/*
 	    int maximumGood(vector<vector<int>>& statements) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

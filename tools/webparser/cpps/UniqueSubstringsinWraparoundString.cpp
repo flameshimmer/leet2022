@@ -31,9 +31,12 @@ namespace Solution2022
 {
 	namespace UniqueSubstringsinWraparoundString
 	{
+/*
 	    int findSubstringInWraproundString(string p) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

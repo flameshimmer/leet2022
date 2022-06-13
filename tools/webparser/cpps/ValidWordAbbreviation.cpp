@@ -40,9 +40,12 @@ namespace Solution2022
 {
 	namespace ValidWordAbbreviation
 	{
+/*
 	    bool validWordAbbreviation(string word, string abbr) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

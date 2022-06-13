@@ -31,9 +31,12 @@ namespace Solution2022
 {
 	namespace MinimumIndexSumofTwoLists
 	{
+/*
 	    vector<string> findRestaurant(vector<string>& list1, vector<string>& list2) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

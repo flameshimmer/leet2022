@@ -26,6 +26,7 @@ namespace Solution2022
 {
 	namespace ConstructBinaryTreefromInorderandPostorderTraversal
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -40,6 +41,8 @@ namespace Solution2022
 	    TreeNode* buildTree(vector<int>& inorder, vector<int>& postorder) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

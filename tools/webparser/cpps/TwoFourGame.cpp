@@ -34,9 +34,12 @@ namespace Solution2022
 {
 	namespace TwoFourGame
 	{
+/*
 	    bool judgePoint24(vector<int>& cards) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

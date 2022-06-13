@@ -56,9 +56,12 @@ namespace Solution2022
 {
 	namespace CountUnhappyFriends
 	{
+/*
 	    int unhappyFriends(int n, vector<vector<int>>& preferences, vector<vector<int>>& pairs) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

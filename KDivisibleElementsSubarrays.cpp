@@ -42,9 +42,12 @@ namespace Solution2022
 {
 	namespace KDivisibleElementsSubarrays
 	{
+/*
 	    int countDistinct(vector<int>& nums, int k, int p) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

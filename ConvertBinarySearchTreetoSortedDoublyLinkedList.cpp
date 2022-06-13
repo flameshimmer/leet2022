@@ -31,6 +31,7 @@ namespace Solution2022
 {
 	namespace ConvertBinarySearchTreetoSortedDoublyLinkedList
 	{
+/*
 	/*
 	// Definition for a Node.
 	class Node {
@@ -56,6 +57,8 @@ namespace Solution2022
 	    Node* treeToDoublyList(Node* root) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

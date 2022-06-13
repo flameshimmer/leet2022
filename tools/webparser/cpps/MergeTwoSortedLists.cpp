@@ -27,6 +27,7 @@ namespace Solution2022
 {
 	namespace MergeTwoSortedLists
 	{
+/*
 	/**
 	 * Definition for singly-linked list.
 	 * struct ListNode {
@@ -40,6 +41,8 @@ namespace Solution2022
 	    ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

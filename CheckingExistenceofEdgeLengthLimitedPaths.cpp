@@ -45,9 +45,12 @@ namespace Solution2022
 {
 	namespace CheckingExistenceofEdgeLengthLimitedPaths
 	{
+/*
 	    vector<bool> distanceLimitedPathsExist(int n, vector<vector<int>>& edgeList, vector<vector<int>>& queries) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

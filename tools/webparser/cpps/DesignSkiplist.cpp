@@ -53,6 +53,7 @@ namespace Solution2022
 {
 	namespace DesignSkiplist
 	{
+/*
 	class Skiplist {
 	    Skiplist() {
 	        
@@ -77,6 +78,8 @@ namespace Solution2022
 	 * obj->add(num);
 	 * bool param_3 = obj->erase(num);
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -40,6 +40,7 @@ namespace Solution2022
 {
 	namespace InsertintoaSortedCircularLinkedList
 	{
+/*
 	/*
 	// Definition for a Node.
 	class Node {
@@ -62,6 +63,8 @@ namespace Solution2022
 	    Node* insert(Node* head, int insertVal) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

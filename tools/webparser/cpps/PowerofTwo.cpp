@@ -28,9 +28,12 @@ namespace Solution2022
 {
 	namespace PowerofTwo
 	{
+/*
 	    bool isPowerOfTwo(int n) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

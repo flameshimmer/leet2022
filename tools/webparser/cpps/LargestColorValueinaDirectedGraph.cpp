@@ -37,9 +37,12 @@ namespace Solution2022
 {
 	namespace LargestColorValueinaDirectedGraph
 	{
+/*
 	    int largestPathValue(string colors, vector<vector<int>>& edges) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

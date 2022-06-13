@@ -30,9 +30,12 @@ namespace Solution2022
 {
 	namespace LineReflection
 	{
+/*
 	    bool isReflected(vector<vector<int>>& points) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

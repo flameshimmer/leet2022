@@ -26,9 +26,12 @@ namespace Solution2022
 {
 	namespace RemoveInvalidParentheses
 	{
+/*
 	    vector<string> removeInvalidParentheses(string s) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

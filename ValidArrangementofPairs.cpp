@@ -47,9 +47,12 @@ namespace Solution2022
 {
 	namespace ValidArrangementofPairs
 	{
+/*
 	    vector<vector<int>> validArrangement(vector<vector<int>>& pairs) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

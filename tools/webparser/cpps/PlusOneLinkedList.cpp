@@ -24,6 +24,7 @@ namespace Solution2022
 {
 	namespace PlusOneLinkedList
 	{
+/*
 	/**
 	 * Definition for singly-linked list.
 	 * struct ListNode {
@@ -37,6 +38,8 @@ namespace Solution2022
 	    ListNode* plusOne(ListNode* head) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

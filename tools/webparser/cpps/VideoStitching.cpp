@@ -41,9 +41,12 @@ namespace Solution2022
 {
 	namespace VideoStitching
 	{
+/*
 	    int videoStitching(vector<vector<int>>& clips, int time) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

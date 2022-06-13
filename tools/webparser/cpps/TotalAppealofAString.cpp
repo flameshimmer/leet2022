@@ -43,9 +43,12 @@ namespace Solution2022
 {
 	namespace TotalAppealofAString
 	{
+/*
 	    long long appealSum(string s) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -46,6 +46,7 @@ namespace Solution2022
 {
 	namespace SerializeandDeserializeNaryTree
 	{
+/*
 	/*
 	// Definition for a Node.
 	class Node {
@@ -78,6 +79,8 @@ namespace Solution2022
 	// Your Codec object will be instantiated and called as such:
 	// Codec codec;
 	// codec.deserialize(codec.serialize(root));
+
+*/
 
 		void Main() {
 			string test = "tst test test";

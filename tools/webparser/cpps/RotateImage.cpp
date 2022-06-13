@@ -23,9 +23,12 @@ namespace Solution2022
 {
 	namespace RotateImage
 	{
+/*
 	    void rotate(vector<vector<int>>& matrix) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

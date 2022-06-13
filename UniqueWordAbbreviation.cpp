@@ -54,6 +54,7 @@ namespace Solution2022
 {
 	namespace UniqueWordAbbreviation
 	{
+/*
 	class ValidWordAbbr {
 	    ValidWordAbbr(vector<string>& dictionary) {
 	        
@@ -68,6 +69,8 @@ namespace Solution2022
 	 * ValidWordAbbr* obj = new ValidWordAbbr(dictionary);
 	 * bool param_1 = obj->isUnique(word);
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

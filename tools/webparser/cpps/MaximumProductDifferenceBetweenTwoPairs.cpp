@@ -32,9 +32,12 @@ namespace Solution2022
 {
 	namespace MaximumProductDifferenceBetweenTwoPairs
 	{
+/*
 	    int maxProductDifference(vector<int>& nums) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

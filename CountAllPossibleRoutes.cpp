@@ -50,9 +50,12 @@ namespace Solution2022
 {
 	namespace CountAllPossibleRoutes
 	{
+/*
 	    int countRoutes(vector<int>& locations, int start, int finish, int fuel) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

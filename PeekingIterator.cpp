@@ -44,6 +44,7 @@ namespace Solution2022
 {
 	namespace PeekingIterator
 	{
+/*
 	/*
 	 * Below is the interface for Iterator, which is already defined for you.
 	 * **DO NOT** modify the interface for Iterator.
@@ -83,6 +84,8 @@ namespace Solution2022
 	    }
 	    
 	    bool hasNext() const {
+
+*/
 
 		void Main() {
 			string test = "tst test test";

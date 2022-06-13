@@ -48,9 +48,12 @@ namespace Solution2022
 {
 	namespace MinimumLimitofBallsinaBag
 	{
+/*
 	    int minimumSize(vector<int>& nums, int maxOperations) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

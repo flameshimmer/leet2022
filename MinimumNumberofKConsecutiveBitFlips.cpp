@@ -35,9 +35,12 @@ namespace Solution2022
 {
 	namespace MinimumNumberofKConsecutiveBitFlips
 	{
+/*
 	    int minKBitFlips(vector<int>& nums, int k) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

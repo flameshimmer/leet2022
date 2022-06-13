@@ -58,9 +58,12 @@ namespace Solution2022
 {
 	namespace NumberofValidMoveCombinationsOnChessboard
 	{
+/*
 	    int countCombinations(vector<string>& pieces, vector<vector<int>>& positions) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

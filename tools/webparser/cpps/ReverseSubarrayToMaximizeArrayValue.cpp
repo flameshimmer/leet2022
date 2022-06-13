@@ -25,9 +25,12 @@ namespace Solution2022
 {
 	namespace ReverseSubarrayToMaximizeArrayValue
 	{
+/*
 	    int maxValueAfterReverse(vector<int>& nums) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

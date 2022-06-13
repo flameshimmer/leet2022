@@ -28,9 +28,12 @@ namespace Solution2022
 {
 	namespace IntegerReplacement
 	{
+/*
 	    int integerReplacement(int n) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

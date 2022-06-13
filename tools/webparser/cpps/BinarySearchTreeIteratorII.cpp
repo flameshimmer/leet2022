@@ -57,6 +57,7 @@ namespace Solution2022
 {
 	namespace BinarySearchTreeIteratorII
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -93,6 +94,8 @@ namespace Solution2022
 	 * Your BSTIterator object will be instantiated and called as such:
 	 * BSTIterator* obj = new BSTIterator(root);
 	 * bool param_1 = obj->hasNext();
+
+*/
 
 		void Main() {
 			string test = "tst test test";

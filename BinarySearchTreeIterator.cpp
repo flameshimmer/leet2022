@@ -47,6 +47,7 @@ namespace Solution2022
 {
 	namespace BinarySearchTreeIterator
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -77,6 +78,8 @@ namespace Solution2022
 	 * int param_1 = obj->next();
 	 * bool param_2 = obj->hasNext();
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

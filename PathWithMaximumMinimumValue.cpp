@@ -30,9 +30,12 @@ namespace Solution2022
 {
 	namespace PathWithMaximumMinimumValue
 	{
+/*
 	    int maximumMinimumPath(vector<vector<int>>& grid) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

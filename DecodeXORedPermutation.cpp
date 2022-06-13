@@ -27,9 +27,12 @@ namespace Solution2022
 {
 	namespace DecodeXORedPermutation
 	{
+/*
 	    vector<int> decode(vector<int>& encoded) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -43,6 +43,7 @@ namespace Solution2022
 {
 	namespace DesignHitCounter
 	{
+/*
 	class HitCounter {
 	    HitCounter() {
 	        
@@ -62,6 +63,8 @@ namespace Solution2022
 	 * obj->hit(timestamp);
 	 * int param_2 = obj->getHits(timestamp);
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

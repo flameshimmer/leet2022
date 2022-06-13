@@ -41,6 +41,7 @@ namespace Solution2022
 {
 	namespace MaximumBinaryTree
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -55,6 +56,8 @@ namespace Solution2022
 	    TreeNode* constructMaximumBinaryTree(vector<int>& nums) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

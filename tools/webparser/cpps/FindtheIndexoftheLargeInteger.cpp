@@ -47,6 +47,7 @@ namespace Solution2022
 {
 	namespace FindtheIndexoftheLargeInteger
 	{
+/*
 	/**
 	 * // This is the ArrayReader's API interface.
 	 * // You should not implement it, or speculate about its implementation
@@ -66,6 +67,8 @@ namespace Solution2022
 	    int getIndex(ArrayReader &reader) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

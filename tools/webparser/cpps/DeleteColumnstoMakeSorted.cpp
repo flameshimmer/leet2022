@@ -49,9 +49,12 @@ namespace Solution2022
 {
 	namespace DeleteColumnstoMakeSorted
 	{
+/*
 	    int minDeletionSize(vector<string>& strs) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

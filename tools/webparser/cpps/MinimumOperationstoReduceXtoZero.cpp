@@ -34,9 +34,12 @@ namespace Solution2022
 {
 	namespace MinimumOperationstoReduceXtoZero
 	{
+/*
 	    int minOperations(vector<int>& nums, int x) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

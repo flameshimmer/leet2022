@@ -24,9 +24,12 @@ namespace Solution2022
 {
 	namespace FindtheDifference
 	{
+/*
 	    char findTheDifference(string s, string t) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

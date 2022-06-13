@@ -28,6 +28,7 @@ namespace Solution2022
 {
 	namespace RootEqualsSumofChildren
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -42,6 +43,8 @@ namespace Solution2022
 	    bool checkTree(TreeNode* root) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

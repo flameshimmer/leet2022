@@ -37,9 +37,12 @@ namespace Solution2022
 {
 	namespace NumberofPairsofInterchangeableRectangles
 	{
+/*
 	    long long interchangeableRectangles(vector<vector<int>>& rectangles) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

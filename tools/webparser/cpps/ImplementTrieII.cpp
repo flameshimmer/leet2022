@@ -48,6 +48,7 @@ namespace Solution2022
 {
 	namespace ImplementTrieII
 	{
+/*
 	class Trie {
 	    Trie() {
 	        
@@ -77,6 +78,8 @@ namespace Solution2022
 	 * int param_3 = obj->countWordsStartingWith(prefix);
 	 * obj->erase(word);
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

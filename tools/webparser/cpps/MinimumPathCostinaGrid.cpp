@@ -47,9 +47,12 @@ namespace Solution2022
 {
 	namespace MinimumPathCostinaGrid
 	{
+/*
 	    int minPathCost(vector<vector<int>>& grid, vector<vector<int>>& moveCost) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

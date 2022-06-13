@@ -31,9 +31,12 @@ namespace Solution2022
 {
 	namespace ANumberAfteraDoubleReversal
 	{
+/*
 	    bool isSameAfterReversals(int num) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

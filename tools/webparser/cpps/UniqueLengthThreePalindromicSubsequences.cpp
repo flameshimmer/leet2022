@@ -42,9 +42,12 @@ namespace Solution2022
 {
 	namespace UniqueLengthThreePalindromicSubsequences
 	{
+/*
 	    int countPalindromicSubsequence(string s) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

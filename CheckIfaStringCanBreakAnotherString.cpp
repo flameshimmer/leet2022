@@ -35,9 +35,12 @@ namespace Solution2022
 {
 	namespace CheckIfaStringCanBreakAnotherString
 	{
+/*
 	    bool checkIfCanBreak(string s1, string s2) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

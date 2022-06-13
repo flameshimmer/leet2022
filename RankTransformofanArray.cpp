@@ -31,9 +31,12 @@ namespace Solution2022
 {
 	namespace RankTransformofanArray
 	{
+/*
 	    vector<int> arrayRankTransform(vector<int>& arr) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -26,9 +26,12 @@ namespace Solution2022
 {
 	namespace MinimumKnightMoves
 	{
+/*
 	    int minKnightMoves(int x, int y) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

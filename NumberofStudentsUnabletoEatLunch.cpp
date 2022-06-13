@@ -53,9 +53,12 @@ namespace Solution2022
 {
 	namespace NumberofStudentsUnabletoEatLunch
 	{
+/*
 	    int countStudents(vector<int>& students, vector<int>& sandwiches) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

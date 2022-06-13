@@ -45,9 +45,12 @@ namespace Solution2022
 {
 	namespace ChampagneTower
 	{
+/*
 	    double champagneTower(int poured, int query_row, int query_glass) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

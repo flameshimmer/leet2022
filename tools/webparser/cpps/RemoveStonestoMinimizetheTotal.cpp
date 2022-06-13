@@ -37,9 +37,12 @@ namespace Solution2022
 {
 	namespace RemoveStonestoMinimizetheTotal
 	{
+/*
 	    int minStoneSum(vector<int>& piles, int k) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

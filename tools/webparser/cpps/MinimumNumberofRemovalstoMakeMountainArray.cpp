@@ -30,9 +30,12 @@ namespace Solution2022
 {
 	namespace MinimumNumberofRemovalstoMakeMountainArray
 	{
+/*
 	    int minimumMountainRemovals(vector<int>& nums) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

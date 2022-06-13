@@ -25,9 +25,12 @@ namespace Solution2022
 {
 	namespace LongestSubstringwithAtLeastKRepeatingCharacters
 	{
+/*
 	    int longestSubstring(string s, int k) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

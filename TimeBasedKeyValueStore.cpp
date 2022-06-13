@@ -44,6 +44,7 @@ namespace Solution2022
 {
 	namespace TimeBasedKeyValueStore
 	{
+/*
 	class TimeMap {
 	    TimeMap() {
 	        
@@ -63,6 +64,8 @@ namespace Solution2022
 	 * obj->set(key,value,timestamp);
 	 * string param_2 = obj->get(key,timestamp);
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -39,9 +39,12 @@ namespace Solution2022
 {
 	namespace SoupServings
 	{
+/*
 	    double soupServings(int n) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

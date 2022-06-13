@@ -28,9 +28,12 @@ namespace Solution2022
 {
 	namespace MinimumConsecutiveCardstoPickUp
 	{
+/*
 	    int minimumCardPickup(vector<int>& cards) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

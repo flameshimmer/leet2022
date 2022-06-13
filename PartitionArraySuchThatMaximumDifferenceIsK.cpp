@@ -58,9 +58,12 @@ namespace Solution2022
 {
 	namespace PartitionArraySuchThatMaximumDifferenceIsK
 	{
+/*
 	    int partitionArray(vector<int>& nums, int k) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

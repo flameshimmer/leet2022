@@ -32,6 +32,7 @@ namespace Solution2022
 {
 	namespace PathSumII
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -46,6 +47,8 @@ namespace Solution2022
 	    vector<vector<int>> pathSum(TreeNode* root, int targetSum) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

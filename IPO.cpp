@@ -44,9 +44,12 @@ namespace Solution2022
 {
 	namespace IPO
 	{
+/*
 	    int findMaximizedCapital(int k, int w, vector<int>& profits, vector<int>& capital) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

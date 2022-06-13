@@ -34,9 +34,12 @@ namespace Solution2022
 {
 	namespace ArrayNesting
 	{
+/*
 	    int arrayNesting(vector<int>& nums) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

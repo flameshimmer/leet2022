@@ -52,6 +52,7 @@ namespace Solution2022
 {
 	namespace DesignaStackWithIncrementOperation
 	{
+/*
 	class CustomStack {
 	    CustomStack(int maxSize) {
 	        
@@ -76,6 +77,8 @@ namespace Solution2022
 	 * int param_2 = obj->pop();
 	 * obj->increment(k,val);
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

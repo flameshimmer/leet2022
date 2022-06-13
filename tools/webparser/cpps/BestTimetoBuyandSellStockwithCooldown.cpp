@@ -29,9 +29,12 @@ namespace Solution2022
 {
 	namespace BestTimetoBuyandSellStockwithCooldown
 	{
+/*
 	    int maxProfit(vector<int>& prices) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

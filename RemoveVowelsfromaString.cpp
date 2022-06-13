@@ -20,9 +20,12 @@ namespace Solution2022
 {
 	namespace RemoveVowelsfromaString
 	{
+/*
 	    string removeVowels(string s) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

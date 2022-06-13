@@ -30,9 +30,12 @@ namespace Solution2022
 {
 	namespace CountGoodTriplets
 	{
+/*
 	    int countGoodTriplets(vector<int>& arr, int a, int b, int c) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

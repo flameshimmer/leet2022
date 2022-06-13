@@ -29,9 +29,12 @@ namespace Solution2022
 {
 	namespace AllocateMailboxes
 	{
+/*
 	    int minDistance(vector<int>& houses, int k) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

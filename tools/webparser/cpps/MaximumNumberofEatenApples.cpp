@@ -40,9 +40,12 @@ namespace Solution2022
 {
 	namespace MaximumNumberofEatenApples
 	{
+/*
 	    int eatenApples(vector<int>& apples, vector<int>& days) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

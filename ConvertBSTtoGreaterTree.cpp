@@ -33,6 +33,7 @@ namespace Solution2022
 {
 	namespace ConvertBSTtoGreaterTree
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -47,6 +48,8 @@ namespace Solution2022
 	    TreeNode* convertBST(TreeNode* root) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

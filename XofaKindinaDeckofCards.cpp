@@ -25,9 +25,12 @@ namespace Solution2022
 {
 	namespace XofaKindinaDeckofCards
 	{
+/*
 	    bool hasGroupsSizeX(vector<int>& deck) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

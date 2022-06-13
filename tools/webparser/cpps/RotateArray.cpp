@@ -33,6 +33,7 @@ namespace Solution2022
 {
 	namespace RotateArray
 	{
+/*
 	        void reverseArray(vector<int>& a, int start, int end) {
 	            while (start < end) {
 	                int temp = a[start];
@@ -52,6 +53,8 @@ namespace Solution2022
 	            reverseArray(nums, t, len - 1);
 	            reverseArray(nums, 0, len - 1);
 	        }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

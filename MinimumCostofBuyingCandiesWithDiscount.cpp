@@ -50,9 +50,12 @@ namespace Solution2022
 {
 	namespace MinimumCostofBuyingCandiesWithDiscount
 	{
+/*
 	    int minimumCost(vector<int>& cost) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

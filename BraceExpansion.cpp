@@ -31,9 +31,12 @@ namespace Solution2022
 {
 	namespace BraceExpansion
 	{
+/*
 	    vector<string> expand(string s) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -43,9 +43,12 @@ namespace Solution2022
 {
 	namespace MakeArrayNondecreasingorNonincreasing
 	{
+/*
 	    int convertArray(vector<int>& nums) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

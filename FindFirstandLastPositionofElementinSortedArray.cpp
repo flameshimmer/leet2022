@@ -28,9 +28,12 @@ namespace Solution2022
 {
 	namespace FindFirstandLastPositionofElementinSortedArray
 	{
+/*
 	    vector<int> searchRange(vector<int>& nums, int target) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

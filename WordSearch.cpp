@@ -36,9 +36,12 @@ namespace Solution2022
 {
 	namespace WordSearch
 	{
+/*
 	    bool exist(vector<vector<char>>& board, string word) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

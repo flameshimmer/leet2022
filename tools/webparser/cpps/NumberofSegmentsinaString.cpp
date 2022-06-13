@@ -23,9 +23,12 @@ namespace Solution2022
 {
 	namespace NumberofSegmentsinaString
 	{
+/*
 	    int countSegments(string s) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -58,9 +58,12 @@ namespace Solution2022
 {
 	namespace CountPositionsonStreetWithRequiredBrightness
 	{
+/*
 	    int meetRequirement(int n, vector<vector<int>>& lights, vector<int>& requirement) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

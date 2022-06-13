@@ -25,9 +25,12 @@ namespace Solution2022
 {
 	namespace CountNegativeNumbersinaSortedMatrix
 	{
+/*
 	    int countNegatives(vector<vector<int>>& grid) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

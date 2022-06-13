@@ -28,9 +28,12 @@ namespace Solution2022
 {
 	namespace SpiralMatrixIII
 	{
+/*
 	    vector<vector<int>> spiralMatrixIII(int rows, int cols, int rStart, int cStart) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -24,6 +24,7 @@ namespace Solution2022
 {
 	namespace LongestUnivaluePath
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -38,6 +39,8 @@ namespace Solution2022
 	    int longestUnivaluePath(TreeNode* root) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

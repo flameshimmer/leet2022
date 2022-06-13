@@ -37,6 +37,7 @@ namespace Solution2022
 {
 	namespace BinaryTreeColoringGame
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -51,6 +52,8 @@ namespace Solution2022
 	    bool btreeGameWinningMove(TreeNode* root, int n, int x) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

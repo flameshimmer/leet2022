@@ -52,6 +52,7 @@ namespace Solution2022
 {
 	namespace CloneGraph
 	{
+/*
 	/*
 	// Definition for a Node.
 	class Node {
@@ -74,6 +75,8 @@ namespace Solution2022
 	    Node* cloneGraph(Node* node) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -20,9 +20,12 @@ namespace Solution2022
 {
 	namespace AddBinary
 	{
+/*
 	    string addBinary(string a, string b) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

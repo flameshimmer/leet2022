@@ -40,6 +40,7 @@ namespace Solution2022
 {
 	namespace RandomFlipMatrix
 	{
+/*
 	    Solution(int m, int n) {
 	        
 	    }
@@ -58,6 +59,8 @@ namespace Solution2022
 	 * vector<int> param_1 = obj->flip();
 	 * obj->reset();
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

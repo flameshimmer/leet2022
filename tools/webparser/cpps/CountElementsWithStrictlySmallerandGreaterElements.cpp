@@ -30,9 +30,12 @@ namespace Solution2022
 {
 	namespace CountElementsWithStrictlySmallerandGreaterElements
 	{
+/*
 	    int countElements(vector<int>& nums) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

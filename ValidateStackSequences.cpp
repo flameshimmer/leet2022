@@ -30,9 +30,12 @@ namespace Solution2022
 {
 	namespace ValidateStackSequences
 	{
+/*
 	    bool validateStackSequences(vector<int>& pushed, vector<int>& popped) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -54,9 +54,12 @@ namespace Solution2022
 {
 	namespace GameofNim
 	{
+/*
 	    bool nimGame(vector<int>& piles) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

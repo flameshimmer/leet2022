@@ -28,9 +28,12 @@ namespace Solution2022
 {
 	namespace PascalsTriangleII
 	{
+/*
 	    vector<int> getRow(int rowIndex) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

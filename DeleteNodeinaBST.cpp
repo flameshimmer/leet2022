@@ -38,6 +38,7 @@ namespace Solution2022
 {
 	namespace DeleteNodeinaBST
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -52,6 +53,8 @@ namespace Solution2022
 	    TreeNode* deleteNode(TreeNode* root, int key) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

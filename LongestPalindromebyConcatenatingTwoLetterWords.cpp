@@ -42,9 +42,12 @@ namespace Solution2022
 {
 	namespace LongestPalindromebyConcatenatingTwoLetterWords
 	{
+/*
 	    int longestPalindrome(vector<string>& words) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -46,9 +46,12 @@ namespace Solution2022
 {
 	namespace MinimumNumberofWorkSessionstoFinishtheTasks
 	{
+/*
 	    int minSessions(vector<int>& tasks, int sessionTime) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

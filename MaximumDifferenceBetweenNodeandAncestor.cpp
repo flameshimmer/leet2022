@@ -30,6 +30,7 @@ namespace Solution2022
 {
 	namespace MaximumDifferenceBetweenNodeandAncestor
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -44,6 +45,8 @@ namespace Solution2022
 	    int maxAncestorDiff(TreeNode* root) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

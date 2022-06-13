@@ -28,9 +28,12 @@ namespace Solution2022
 {
 	namespace NumberofDifferentSubsequencesGCDs
 	{
+/*
 	    int countDifferentSubsequenceGCDs(vector<int>& nums) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

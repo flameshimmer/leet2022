@@ -45,9 +45,12 @@ namespace Solution2022
 {
 	namespace TwoFurthestHousesWithDifferentColors
 	{
+/*
 	    int maxDistance(vector<int>& colors) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

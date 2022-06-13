@@ -65,6 +65,7 @@ namespace Solution2022
 {
 	namespace DinnerPlateStacks
 	{
+/*
 	class DinnerPlates {
 	    DinnerPlates(int capacity) {
 	        
@@ -89,6 +90,8 @@ namespace Solution2022
 	 * int param_2 = obj->pop();
 	 * int param_3 = obj->popAtStack(index);
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

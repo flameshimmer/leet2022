@@ -25,6 +25,7 @@ namespace Solution2022
 {
 	namespace KthSmallestElementinaBST
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -39,6 +40,8 @@ namespace Solution2022
 	    int kthSmallest(TreeNode* root, int k) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

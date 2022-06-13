@@ -41,6 +41,7 @@ namespace Solution2022
 {
 	namespace DesignALeaderboard
 	{
+/*
 	class Leaderboard {
 	    Leaderboard() {
 	        
@@ -65,6 +66,8 @@ namespace Solution2022
 	 * int param_2 = obj->top(K);
 	 * obj->reset(playerId);
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

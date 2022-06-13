@@ -27,9 +27,12 @@ namespace Solution2022
 {
 	namespace MinimumMovestoEqualArrayElementsII
 	{
+/*
 	    int minMoves2(vector<int>& nums) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

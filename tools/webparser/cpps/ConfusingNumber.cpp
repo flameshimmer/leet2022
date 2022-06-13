@@ -35,9 +35,12 @@ namespace Solution2022
 {
 	namespace ConfusingNumber
 	{
+/*
 	    bool confusingNumber(int n) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -38,9 +38,12 @@ namespace Solution2022
 {
 	namespace FindingThreeDigitEvenNumbers
 	{
+/*
 	    vector<int> findEvenNumbers(vector<int>& digits) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -37,9 +37,12 @@ namespace Solution2022
 {
 	namespace DistributeCandies
 	{
+/*
 	    int distributeCandies(vector<int>& candyType) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

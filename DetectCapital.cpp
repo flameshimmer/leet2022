@@ -24,9 +24,12 @@ namespace Solution2022
 {
 	namespace DetectCapital
 	{
+/*
 	    bool detectCapitalUse(string word) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

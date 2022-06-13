@@ -32,9 +32,12 @@ namespace Solution2022
 {
 	namespace SplitaStringinBalancedStrings
 	{
+/*
 	    int balancedStringSplit(string s) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

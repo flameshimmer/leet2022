@@ -42,6 +42,7 @@ namespace Solution2022
 {
 	namespace ImplementStackusingQueues
 	{
+/*
 	class MyStack {
 	    MyStack() {
 	        
@@ -71,6 +72,8 @@ namespace Solution2022
 	 * int param_3 = obj->top();
 	 * bool param_4 = obj->empty();
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

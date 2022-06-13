@@ -32,9 +32,12 @@ namespace Solution2022
 {
 	namespace DetermineColorofaChessboardSquare
 	{
+/*
 	    bool squareIsWhite(string coordinates) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

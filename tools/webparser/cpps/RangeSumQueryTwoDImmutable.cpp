@@ -37,6 +37,7 @@ namespace Solution2022
 {
 	namespace RangeSumQueryTwoDImmutable
 	{
+/*
 	class NumMatrix {
 	    NumMatrix(vector<vector<int>>& matrix) {
 	        
@@ -51,6 +52,8 @@ namespace Solution2022
 	 * NumMatrix* obj = new NumMatrix(matrix);
 	 * int param_1 = obj->sumRegion(row1,col1,row2,col2);
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

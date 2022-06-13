@@ -39,9 +39,12 @@ namespace Solution2022
 {
 	namespace PrimeNumberofSetBitsinBinaryRepresentation
 	{
+/*
 	    int countPrimeSetBits(int left, int right) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

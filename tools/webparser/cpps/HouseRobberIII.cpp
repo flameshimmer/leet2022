@@ -28,6 +28,7 @@ namespace Solution2022
 {
 	namespace HouseRobberIII
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -42,6 +43,8 @@ namespace Solution2022
 	    int rob(TreeNode* root) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

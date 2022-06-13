@@ -36,9 +36,12 @@ namespace Solution2022
 {
 	namespace NumberofVisiblePeopleinaQueue
 	{
+/*
 	    vector<int> canSeePersonsCount(vector<int>& heights) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

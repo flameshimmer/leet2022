@@ -45,9 +45,12 @@ namespace Solution2022
 {
 	namespace FindingtheUsersActiveMinutes
 	{
+/*
 	    vector<int> findingUsersActiveMinutes(vector<vector<int>>& logs, int k) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

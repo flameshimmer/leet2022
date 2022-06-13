@@ -31,9 +31,12 @@ namespace Solution2022
 {
 	namespace ShortestPathwithAlternatingColors
 	{
+/*
 	    vector<int> shortestAlternatingPaths(int n, vector<vector<int>>& redEdges, vector<vector<int>>& blueEdges) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

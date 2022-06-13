@@ -31,9 +31,12 @@ namespace Solution2022
 {
 	namespace DifferentWaystoAddParentheses
 	{
+/*
 	    vector<int> diffWaysToCompute(string expression) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -43,9 +43,12 @@ namespace Solution2022
 {
 	namespace MinimumNumberofArrowstoBurstBalloons
 	{
+/*
 	    int findMinArrowShots(vector<vector<int>>& points) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

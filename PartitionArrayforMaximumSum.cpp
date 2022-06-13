@@ -29,9 +29,12 @@ namespace Solution2022
 {
 	namespace PartitionArrayforMaximumSum
 	{
+/*
 	    int maxSumAfterPartitioning(vector<int>& arr, int k) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -32,9 +32,12 @@ namespace Solution2022
 {
 	namespace RectangleOverlap
 	{
+/*
 	    bool isRectangleOverlap(vector<int>& rec1, vector<int>& rec2) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

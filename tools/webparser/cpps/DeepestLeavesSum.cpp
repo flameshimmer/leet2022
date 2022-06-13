@@ -19,6 +19,7 @@ namespace Solution2022
 {
 	namespace DeepestLeavesSum
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -33,6 +34,8 @@ namespace Solution2022
 	    int deepestLeavesSum(TreeNode* root) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

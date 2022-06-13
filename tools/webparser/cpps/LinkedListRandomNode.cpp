@@ -38,6 +38,7 @@ namespace Solution2022
 {
 	namespace LinkedListRandomNode
 	{
+/*
 	/**
 	 * Definition for singly-linked list.
 	 * struct ListNode {
@@ -61,6 +62,8 @@ namespace Solution2022
 	 * Solution* obj = new Solution(head);
 	 * int param_1 = obj->getRandom();
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

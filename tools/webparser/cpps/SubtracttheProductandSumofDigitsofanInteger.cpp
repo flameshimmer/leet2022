@@ -27,9 +27,12 @@ namespace Solution2022
 {
 	namespace SubtracttheProductandSumofDigitsofanInteger
 	{
+/*
 	    int subtractProductAndSum(int n) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

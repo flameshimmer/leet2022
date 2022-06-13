@@ -61,6 +61,7 @@ namespace Solution2022
 {
 	namespace InsertDeleteGetRandomODuplicatesallowed
 	{
+/*
 	class RandomizedCollection {
 	    RandomizedCollection() {
 	        
@@ -85,6 +86,8 @@ namespace Solution2022
 	 * bool param_2 = obj->remove(val);
 	 * int param_3 = obj->getRandom();
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -32,9 +32,12 @@ namespace Solution2022
 {
 	namespace FourSumII
 	{
+/*
 	    int fourSumCount(vector<int>& nums1, vector<int>& nums2, vector<int>& nums3, vector<int>& nums4) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

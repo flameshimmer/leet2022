@@ -37,6 +37,7 @@ namespace Solution2022
 {
 	namespace CheckIfaStringIsaValidSequencefromRoottoLeavesPathinaBinaryTree
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -51,6 +52,8 @@ namespace Solution2022
 	    bool isValidSequence(TreeNode* root, vector<int>& arr) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

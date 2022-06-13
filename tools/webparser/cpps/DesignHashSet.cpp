@@ -34,6 +34,7 @@ namespace Solution2022
 {
 	namespace DesignHashSet
 	{
+/*
 	class MyHashSet {
 	    MyHashSet() {
 	        
@@ -58,6 +59,8 @@ namespace Solution2022
 	 * obj->remove(key);
 	 * bool param_3 = obj->contains(key);
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

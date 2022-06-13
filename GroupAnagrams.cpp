@@ -27,9 +27,12 @@ namespace Solution2022
 {
 	namespace GroupAnagrams
 	{
+/*
 	    vector<vector<string>> groupAnagrams(vector<string>& strs) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

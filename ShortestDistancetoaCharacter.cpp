@@ -33,9 +33,12 @@ namespace Solution2022
 {
 	namespace ShortestDistancetoaCharacter
 	{
+/*
 	    vector<int> shortestToChar(string s, char c) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

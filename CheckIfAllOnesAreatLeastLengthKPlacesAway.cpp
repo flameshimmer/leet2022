@@ -23,9 +23,12 @@ namespace Solution2022
 {
 	namespace CheckIfAllOnesAreatLeastLengthKPlacesAway
 	{
+/*
 	    bool kLengthApart(vector<int>& nums, int k) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

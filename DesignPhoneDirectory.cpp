@@ -40,6 +40,7 @@ namespace Solution2022
 {
 	namespace DesignPhoneDirectory
 	{
+/*
 	class PhoneDirectory {
 	    PhoneDirectory(int maxNumbers) {
 	        
@@ -64,6 +65,8 @@ namespace Solution2022
 	 * bool param_2 = obj->check(number);
 	 * obj->release(number);
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

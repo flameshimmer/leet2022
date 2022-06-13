@@ -26,9 +26,12 @@ namespace Solution2022
 {
 	namespace DailyTemperatures
 	{
+/*
 	    vector<int> dailyTemperatures(vector<int>& temperatures) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

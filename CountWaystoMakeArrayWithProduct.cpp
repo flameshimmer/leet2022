@@ -32,9 +32,12 @@ namespace Solution2022
 {
 	namespace CountWaystoMakeArrayWithProduct
 	{
+/*
 	    vector<int> waysToFillArray(vector<vector<int>>& queries) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

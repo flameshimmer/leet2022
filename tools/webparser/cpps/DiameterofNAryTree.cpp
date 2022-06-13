@@ -29,6 +29,7 @@ namespace Solution2022
 {
 	namespace DiameterofNAryTree
 	{
+/*
 	/*
 	// Definition for a Node.
 	class Node {
@@ -50,6 +51,8 @@ namespace Solution2022
 	    int diameter(Node* root) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

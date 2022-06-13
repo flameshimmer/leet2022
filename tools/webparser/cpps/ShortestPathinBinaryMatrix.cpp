@@ -32,9 +32,12 @@ namespace Solution2022
 {
 	namespace ShortestPathinBinaryMatrix
 	{
+/*
 	    int shortestPathBinaryMatrix(vector<vector<int>>& grid) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

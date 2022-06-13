@@ -37,9 +37,12 @@ namespace Solution2022
 {
 	namespace CountUnguardedCellsintheGrid
 	{
+/*
 	    int countUnguarded(int m, int n, vector<vector<int>>& guards, vector<vector<int>>& walls) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

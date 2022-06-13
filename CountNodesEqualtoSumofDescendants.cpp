@@ -33,6 +33,7 @@ namespace Solution2022
 {
 	namespace CountNodesEqualtoSumofDescendants
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -47,6 +48,8 @@ namespace Solution2022
 	    int equalToDescendants(TreeNode* root) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

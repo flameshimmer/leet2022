@@ -27,9 +27,12 @@ namespace Solution2022
 {
 	namespace ReverseOnlyLetters
 	{
+/*
 	    string reverseOnlyLetters(string s) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

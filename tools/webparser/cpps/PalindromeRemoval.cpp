@@ -25,9 +25,12 @@ namespace Solution2022
 {
 	namespace PalindromeRemoval
 	{
+/*
 	    int minimumMoves(vector<int>& arr) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

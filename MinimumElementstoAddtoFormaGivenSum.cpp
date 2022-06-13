@@ -29,9 +29,12 @@ namespace Solution2022
 {
 	namespace MinimumElementstoAddtoFormaGivenSum
 	{
+/*
 	    int minElements(vector<int>& nums, int limit, int goal) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

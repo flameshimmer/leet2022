@@ -45,6 +45,7 @@ namespace Solution2022
 {
 	namespace ProductoftheLastKNumbers
 	{
+/*
 	class ProductOfNumbers {
 	    ProductOfNumbers() {
 	        
@@ -64,6 +65,8 @@ namespace Solution2022
 	 * obj->add(num);
 	 * int param_2 = obj->getProduct(k);
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -27,9 +27,12 @@ namespace Solution2022
 {
 	namespace BinaryPrefixDivisibleByFive
 	{
+/*
 	    vector<bool> prefixesDivBy5(vector<int>& nums) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

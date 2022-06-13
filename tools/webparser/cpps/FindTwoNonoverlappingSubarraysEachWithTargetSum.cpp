@@ -35,9 +35,12 @@ namespace Solution2022
 {
 	namespace FindTwoNonoverlappingSubarraysEachWithTargetSum
 	{
+/*
 	    int minSumOfLengths(vector<int>& arr, int target) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -49,6 +49,7 @@ namespace Solution2022
 {
 	namespace DesignInMemoryFileSystem
 	{
+/*
 	class FileSystem {
 	    FileSystem() {
 	        
@@ -78,6 +79,8 @@ namespace Solution2022
 	 * obj->addContentToFile(filePath,content);
 	 * string param_4 = obj->readContentFromFile(filePath);
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

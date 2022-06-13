@@ -33,9 +33,12 @@ namespace Solution2022
 {
 	namespace WordPatternII
 	{
+/*
 	    bool wordPatternMatch(string pattern, string s) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

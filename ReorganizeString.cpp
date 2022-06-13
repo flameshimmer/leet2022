@@ -21,9 +21,12 @@ namespace Solution2022
 {
 	namespace ReorganizeString
 	{
+/*
 	    string reorganizeString(string s) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

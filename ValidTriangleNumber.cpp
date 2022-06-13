@@ -24,9 +24,12 @@ namespace Solution2022
 {
 	namespace ValidTriangleNumber
 	{
+/*
 	    int triangleNumber(vector<int>& nums) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

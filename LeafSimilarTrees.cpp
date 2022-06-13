@@ -27,6 +27,7 @@ namespace Solution2022
 {
 	namespace LeafSimilarTrees
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -41,6 +42,8 @@ namespace Solution2022
 	    bool leafSimilar(TreeNode* root1, TreeNode* root2) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

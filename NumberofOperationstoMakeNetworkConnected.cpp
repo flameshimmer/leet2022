@@ -39,9 +39,12 @@ namespace Solution2022
 {
 	namespace NumberofOperationstoMakeNetworkConnected
 	{
+/*
 	    int makeConnected(int n, vector<vector<int>>& connections) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

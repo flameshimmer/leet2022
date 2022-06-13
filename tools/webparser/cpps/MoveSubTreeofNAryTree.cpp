@@ -52,6 +52,7 @@ namespace Solution2022
 {
 	namespace MoveSubTreeofNAryTree
 	{
+/*
 	/*
 	// Definition for a Node.
 	class Node {
@@ -73,6 +74,8 @@ namespace Solution2022
 	    Node* moveSubTree(Node* root, Node* p, Node* q) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

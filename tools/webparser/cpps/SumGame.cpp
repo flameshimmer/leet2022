@@ -48,9 +48,12 @@ namespace Solution2022
 {
 	namespace SumGame
 	{
+/*
 	    bool sumGame(string num) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

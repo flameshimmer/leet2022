@@ -48,6 +48,7 @@ namespace Solution2022
 {
 	namespace DesignanExpressionTreeWithEvaluateFunction
 	{
+/*
 	/**
 	 * This is the interface for the expression tree Node.
 	 * You should not remove it, and you can define some classes to implement it.
@@ -78,6 +79,8 @@ namespace Solution2022
 	 * Node* expTree = obj->buildTree(postfix);
 	 * int ans = expTree->evaluate();
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

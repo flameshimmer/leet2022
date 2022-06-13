@@ -34,6 +34,7 @@ namespace Solution2022
 {
 	namespace DeleteLeavesWithaGivenValue
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -48,6 +49,8 @@ namespace Solution2022
 	    TreeNode* removeLeafNodes(TreeNode* root, int target) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

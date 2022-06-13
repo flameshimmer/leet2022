@@ -43,9 +43,12 @@ namespace Solution2022
 {
 	namespace NumberofLinesToWriteString
 	{
+/*
 	    vector<int> numberOfLines(vector<int>& widths, string s) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

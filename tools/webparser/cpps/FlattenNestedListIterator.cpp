@@ -39,6 +39,7 @@ namespace Solution2022
 {
 	namespace FlattenNestedListIterator
 	{
+/*
 	/**
 	 * // This is the interface that allows for creating nested lists.
 	 * // You should not implement it, or speculate about its implementation
@@ -74,6 +75,8 @@ namespace Solution2022
 	 * Your NestedIterator object will be instantiated and called as such:
 	 * NestedIterator i(nestedList);
 	 * while (i.hasNext()) cout << i.next();
+
+*/
 
 		void Main() {
 			string test = "tst test test";

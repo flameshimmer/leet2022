@@ -50,9 +50,12 @@ namespace Solution2022
 {
 	namespace MaximumBuildingHeight
 	{
+/*
 	    int maxBuilding(int n, vector<vector<int>>& restrictions) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

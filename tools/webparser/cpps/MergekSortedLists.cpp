@@ -37,6 +37,7 @@ namespace Solution2022
 {
 	namespace MergekSortedLists
 	{
+/*
 	/**
 	 * Definition for singly-linked list.
 	 * struct ListNode {
@@ -50,6 +51,8 @@ namespace Solution2022
 	    ListNode* mergeKLists(vector<ListNode*>& lists) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

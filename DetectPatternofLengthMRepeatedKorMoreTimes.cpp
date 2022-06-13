@@ -37,9 +37,12 @@ namespace Solution2022
 {
 	namespace DetectPatternofLengthMRepeatedKorMoreTimes
 	{
+/*
 	    bool containsPattern(vector<int>& arr, int m, int k) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

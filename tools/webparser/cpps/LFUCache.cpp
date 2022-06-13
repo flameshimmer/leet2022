@@ -61,6 +61,7 @@ namespace Solution2022
 {
 	namespace LFUCache
 	{
+/*
 	class LFUCache {
 	    LFUCache(int capacity) {
 	        
@@ -80,6 +81,8 @@ namespace Solution2022
 	 * int param_1 = obj->get(key);
 	 * obj->put(key,value);
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

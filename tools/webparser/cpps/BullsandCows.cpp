@@ -44,9 +44,12 @@ namespace Solution2022
 {
 	namespace BullsandCows
 	{
+/*
 	    string getHint(string secret, string guess) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

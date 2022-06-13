@@ -40,9 +40,12 @@ namespace Solution2022
 {
 	namespace FindtheKthLargestIntegerintheArray
 	{
+/*
 	    string kthLargestNumber(vector<string>& nums, int k) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

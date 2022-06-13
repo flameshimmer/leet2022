@@ -81,9 +81,12 @@ namespace Solution2022
 {
 	namespace ExclusiveTimeofFunctions
 	{
+/*
 	    vector<int> exclusiveTime(int n, vector<string>& logs) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

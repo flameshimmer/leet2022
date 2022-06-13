@@ -43,6 +43,7 @@ namespace Solution2022
 {
 	namespace RangeModule
 	{
+/*
 	class RangeModule {
 	    RangeModule() {
 	        
@@ -67,6 +68,8 @@ namespace Solution2022
 	 * bool param_2 = obj->queryRange(left,right);
 	 * obj->removeRange(left,right);
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

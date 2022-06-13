@@ -32,6 +32,7 @@ namespace Solution2022
 {
 	namespace SnapshotArray
 	{
+/*
 	class SnapshotArray {
 	    SnapshotArray(int length) {
 	        
@@ -56,6 +57,8 @@ namespace Solution2022
 	 * int param_2 = obj->snap();
 	 * int param_3 = obj->get(index,snap_id);
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

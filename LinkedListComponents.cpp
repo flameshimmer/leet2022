@@ -31,6 +31,7 @@ namespace Solution2022
 {
 	namespace LinkedListComponents
 	{
+/*
 	/**
 	 * Definition for singly-linked list.
 	 * struct ListNode {
@@ -44,6 +45,8 @@ namespace Solution2022
 	    int numComponents(ListNode* head, vector<int>& nums) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

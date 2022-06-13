@@ -46,9 +46,12 @@ namespace Solution2022
 {
 	namespace MinimizeResultbyAddingParenthesestoExpression
 	{
+/*
 	    string minimizeResult(string expression) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

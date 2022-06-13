@@ -38,9 +38,12 @@ namespace Solution2022
 {
 	namespace DungeonGame
 	{
+/*
 	    int calculateMinimumHP(vector<vector<int>>& dungeon) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -51,6 +51,7 @@ namespace Solution2022
 {
 	namespace BoundaryofBinaryTree
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -65,6 +66,8 @@ namespace Solution2022
 	    vector<int> boundaryOfBinaryTree(TreeNode* root) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

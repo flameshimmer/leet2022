@@ -33,7 +33,10 @@ namespace Solution2022
 {
 	namespace \$\$PROBLEM\$\$
 	{
+/*
 \$\$CODE\$\$
+*/
+
 		void Main() {
 			string test = \"tst test test\";
 			print(test);

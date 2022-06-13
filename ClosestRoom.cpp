@@ -48,9 +48,12 @@ namespace Solution2022
 {
 	namespace ClosestRoom
 	{
+/*
 	    vector<int> closestRoom(vector<vector<int>>& rooms, vector<vector<int>>& queries) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

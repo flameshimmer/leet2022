@@ -56,6 +56,7 @@ namespace Solution2022
 {
 	namespace WalkingRobotSimulationII
 	{
+/*
 	class Robot {
 	    Robot(int width, int height) {
 	        
@@ -80,6 +81,8 @@ namespace Solution2022
 	 * vector<int> param_2 = obj->getPos();
 	 * string param_3 = obj->getDir();
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

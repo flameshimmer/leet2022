@@ -43,9 +43,12 @@ namespace Solution2022
 {
 	namespace MaximumPerformanceofaTeam
 	{
+/*
 	    int maxPerformance(int n, vector<int>& speed, vector<int>& efficiency, int k) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

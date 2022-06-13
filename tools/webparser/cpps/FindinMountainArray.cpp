@@ -37,6 +37,7 @@ namespace Solution2022
 {
 	namespace FindinMountainArray
 	{
+/*
 	/**
 	 * // This is the MountainArray's API interface.
 	 * // You should not implement it, or speculate about its implementation
@@ -50,6 +51,8 @@ namespace Solution2022
 	    int findInMountainArray(int target, MountainArray &mountainArr) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

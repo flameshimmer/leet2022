@@ -34,6 +34,7 @@ namespace Solution2022
 {
 	namespace IteratorforCombination
 	{
+/*
 	class CombinationIterator {
 	    CombinationIterator(string characters, int combinationLength) {
 	        
@@ -53,6 +54,8 @@ namespace Solution2022
 	 * string param_1 = obj->next();
 	 * bool param_2 = obj->hasNext();
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

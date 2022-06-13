@@ -36,6 +36,7 @@ namespace Solution2022
 {
 	namespace CompleteBinaryTreeInserter
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -66,6 +67,8 @@ namespace Solution2022
 	 * int param_1 = obj->insert(val);
 	 * TreeNode* param_2 = obj->get_root();
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

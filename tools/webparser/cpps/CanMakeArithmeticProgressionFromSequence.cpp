@@ -26,9 +26,12 @@ namespace Solution2022
 {
 	namespace CanMakeArithmeticProgressionFromSequence
 	{
+/*
 	    bool canMakeArithmeticProgression(vector<int>& arr) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -37,9 +37,12 @@ namespace Solution2022
 {
 	namespace BestTimetoBuyandSellStockII
 	{
+/*
 	    int maxProfit(vector<int>& prices) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

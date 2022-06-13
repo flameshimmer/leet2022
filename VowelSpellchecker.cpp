@@ -52,9 +52,12 @@ namespace Solution2022
 {
 	namespace VowelSpellchecker
 	{
+/*
 	    vector<string> spellchecker(vector<string>& wordlist, vector<string>& queries) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

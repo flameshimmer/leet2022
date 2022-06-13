@@ -32,9 +32,12 @@ namespace Solution2022
 {
 	namespace ShiftingLetters
 	{
+/*
 	    string shiftingLetters(string s, vector<int>& shifts) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

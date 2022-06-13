@@ -80,9 +80,12 @@ namespace Solution2022
 {
 	namespace TheTimeWhentheNetworkBecomesIdle
 	{
+/*
 	    int networkBecomesIdle(vector<vector<int>>& edges, vector<int>& patience) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

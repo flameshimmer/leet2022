@@ -37,9 +37,12 @@ namespace Solution2022
 {
 	namespace NumberofWaystoSplitaString
 	{
+/*
 	    int numWays(string s) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

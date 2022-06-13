@@ -20,6 +20,7 @@ namespace Solution2022
 {
 	namespace RotateList
 	{
+/*
 	/**
 	 * Definition for singly-linked list.
 	 * struct ListNode {
@@ -33,6 +34,8 @@ namespace Solution2022
 	    ListNode* rotateRight(ListNode* head, int k) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

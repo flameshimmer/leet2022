@@ -29,9 +29,12 @@ namespace Solution2022
 {
 	namespace FindLongestAwesomeSubstring
 	{
+/*
 	    int longestAwesome(string s) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -35,9 +35,12 @@ namespace Solution2022
 {
 	namespace PushDominoes
 	{
+/*
 	    string pushDominoes(string dominoes) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -40,6 +40,7 @@ namespace Solution2022
 {
 	namespace LeftmostColumnwithatLeastaOne
 	{
+/*
 	/**
 	 * // This is the BinaryMatrix's API interface.
 	 * // You should not implement it, or speculate about its implementation
@@ -53,6 +54,8 @@ namespace Solution2022
 	    int leftMostColumnWithOne(BinaryMatrix &binaryMatrix) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -28,6 +28,7 @@ namespace Solution2022
 {
 	namespace MergeInBetweenLinkedLists
 	{
+/*
 	/**
 	 * Definition for singly-linked list.
 	 * struct ListNode {
@@ -41,6 +42,8 @@ namespace Solution2022
 	    ListNode* mergeInBetween(ListNode* list1, int a, int b, ListNode* list2) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

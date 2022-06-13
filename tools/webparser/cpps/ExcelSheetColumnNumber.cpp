@@ -34,9 +34,12 @@ namespace Solution2022
 {
 	namespace ExcelSheetColumnNumber
 	{
+/*
 	    int titleToNumber(string columnTitle) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

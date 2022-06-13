@@ -45,9 +45,12 @@ namespace Solution2022
 {
 	namespace MergeSortedArray
 	{
+/*
 	    void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

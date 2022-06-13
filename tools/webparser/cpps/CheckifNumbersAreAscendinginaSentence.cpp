@@ -42,9 +42,12 @@ namespace Solution2022
 {
 	namespace CheckifNumbersAreAscendinginaSentence
 	{
+/*
 	    bool areNumbersAscending(string s) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

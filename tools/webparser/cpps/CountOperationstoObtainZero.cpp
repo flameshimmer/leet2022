@@ -39,9 +39,12 @@ namespace Solution2022
 {
 	namespace CountOperationstoObtainZero
 	{
+/*
 	    int countOperations(int num1, int num2) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

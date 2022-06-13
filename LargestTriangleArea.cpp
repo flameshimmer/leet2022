@@ -24,9 +24,12 @@ namespace Solution2022
 {
 	namespace LargestTriangleArea
 	{
+/*
 	    double largestTriangleArea(vector<vector<int>>& points) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

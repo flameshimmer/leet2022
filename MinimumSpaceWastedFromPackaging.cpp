@@ -54,9 +54,12 @@ namespace Solution2022
 {
 	namespace MinimumSpaceWastedFromPackaging
 	{
+/*
 	    int minWastedSpace(vector<int>& packages, vector<vector<int>>& boxes) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

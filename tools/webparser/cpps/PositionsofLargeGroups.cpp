@@ -35,9 +35,12 @@ namespace Solution2022
 {
 	namespace PositionsofLargeGroups
 	{
+/*
 	    vector<vector<int>> largeGroupPositions(string s) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

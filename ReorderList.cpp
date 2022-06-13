@@ -24,6 +24,7 @@ namespace Solution2022
 {
 	namespace ReorderList
 	{
+/*
 	/**
 	 * Definition for singly-linked list.
 	 * struct ListNode {
@@ -37,6 +38,8 @@ namespace Solution2022
 	    void reorderList(ListNode* head) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

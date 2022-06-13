@@ -39,9 +39,12 @@ namespace Solution2022
 {
 	namespace MostVisitedSectorinaCircularTrack
 	{
+/*
 	    vector<int> mostVisited(int n, vector<int>& rounds) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

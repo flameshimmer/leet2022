@@ -25,9 +25,12 @@ namespace Solution2022
 {
 	namespace SudokuSolver
 	{
+/*
 	    void solveSudoku(vector<vector<char>>& board) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -45,6 +45,7 @@ namespace Solution2022
 {
 	namespace OnlineElection
 	{
+/*
 	class TopVotedCandidate {
 	    TopVotedCandidate(vector<int>& persons, vector<int>& times) {
 	        
@@ -59,6 +60,8 @@ namespace Solution2022
 	 * TopVotedCandidate* obj = new TopVotedCandidate(persons, times);
 	 * int param_1 = obj->q(t);
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

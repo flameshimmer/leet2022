@@ -33,9 +33,12 @@ namespace Solution2022
 {
 	namespace PossibleBipartition
 	{
+/*
 	    bool possibleBipartition(int n, vector<vector<int>>& dislikes) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -37,6 +37,7 @@ namespace Solution2022
 {
 	namespace CheckIfTwoExpressionTreesareEquivalent
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct Node {
@@ -51,6 +52,8 @@ namespace Solution2022
 	    bool checkEquivalence(Node* root1, Node* root2) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

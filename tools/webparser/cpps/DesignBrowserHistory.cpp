@@ -56,6 +56,7 @@ namespace Solution2022
 {
 	namespace DesignBrowserHistory
 	{
+/*
 	class BrowserHistory {
 	    BrowserHistory(string homepage) {
 	        
@@ -80,6 +81,8 @@ namespace Solution2022
 	 * string param_2 = obj->back(steps);
 	 * string param_3 = obj->forward(steps);
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

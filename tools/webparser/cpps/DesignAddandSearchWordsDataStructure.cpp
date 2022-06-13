@@ -37,6 +37,7 @@ namespace Solution2022
 {
 	namespace DesignAddandSearchWordsDataStructure
 	{
+/*
 	class WordDictionary {
 	    WordDictionary() {
 	        
@@ -56,6 +57,8 @@ namespace Solution2022
 	 * obj->addWord(word);
 	 * bool param_2 = obj->search(word);
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

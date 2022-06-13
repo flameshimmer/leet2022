@@ -39,9 +39,12 @@ namespace Solution2022
 {
 	namespace FindtheKBeautyofaNumber
 	{
+/*
 	    int divisorSubstrings(int num, int k) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

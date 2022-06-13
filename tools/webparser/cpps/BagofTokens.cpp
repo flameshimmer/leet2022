@@ -46,9 +46,12 @@ namespace Solution2022
 {
 	namespace BagofTokens
 	{
+/*
 	    int bagOfTokensScore(vector<int>& tokens, int power) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

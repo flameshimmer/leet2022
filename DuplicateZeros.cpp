@@ -27,9 +27,12 @@ namespace Solution2022
 {
 	namespace DuplicateZeros
 	{
+/*
 	    void duplicateZeros(vector<int>& arr) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

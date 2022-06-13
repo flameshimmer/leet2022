@@ -53,9 +53,12 @@ namespace Solution2022
 {
 	namespace TheEarliestandLatestRoundsWherePlayersCompete
 	{
+/*
 	    vector<int> earliestAndLatest(int n, int firstPlayer, int secondPlayer) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

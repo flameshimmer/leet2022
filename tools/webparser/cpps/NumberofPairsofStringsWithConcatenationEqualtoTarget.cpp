@@ -43,9 +43,12 @@ namespace Solution2022
 {
 	namespace NumberofPairsofStringsWithConcatenationEqualtoTarget
 	{
+/*
 	    int numOfPairs(vector<string>& nums, string target) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -39,6 +39,7 @@ namespace Solution2022
 {
 	namespace FlattenTwoDVector
 	{
+/*
 	class Vector2D {
 	    Vector2D(vector<vector<int>>& vec) {
 	        
@@ -58,6 +59,8 @@ namespace Solution2022
 	 * int param_1 = obj->next();
 	 * bool param_2 = obj->hasNext();
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

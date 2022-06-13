@@ -36,9 +36,12 @@ namespace Solution2022
 {
 	namespace LonelyPixelII
 	{
+/*
 	    int findBlackPixel(vector<vector<char>>& picture, int target) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

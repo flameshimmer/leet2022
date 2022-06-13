@@ -27,6 +27,7 @@ namespace Solution2022
 {
 	namespace SplitBST
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -41,6 +42,8 @@ namespace Solution2022
 	    vector<TreeNode*> splitBST(TreeNode* root, int target) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

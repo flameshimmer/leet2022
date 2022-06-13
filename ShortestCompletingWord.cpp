@@ -43,9 +43,12 @@ namespace Solution2022
 {
 	namespace ShortestCompletingWord
 	{
+/*
 	    string shortestCompletingWord(string licensePlate, vector<string>& words) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -33,9 +33,12 @@ namespace Solution2022
 {
 	namespace LicenseKeyFormatting
 	{
+/*
 	    string licenseKeyFormatting(string s, int k) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

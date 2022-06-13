@@ -31,9 +31,12 @@ namespace Solution2022
 {
 	namespace BestMeetingPoint
 	{
+/*
 	    int minTotalDistance(vector<vector<int>>& grid) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

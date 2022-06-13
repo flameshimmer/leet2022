@@ -47,9 +47,12 @@ namespace Solution2022
 {
 	namespace LoudandRich
 	{
+/*
 	    vector<int> loudAndRich(vector<vector<int>>& richer, vector<int>& quiet) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

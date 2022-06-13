@@ -41,9 +41,12 @@ namespace Solution2022
 {
 	namespace ShortestPathtoGetFood
 	{
+/*
 	    int getFood(vector<vector<char>>& grid) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

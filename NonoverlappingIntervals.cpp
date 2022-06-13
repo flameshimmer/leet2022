@@ -32,9 +32,12 @@ namespace Solution2022
 {
 	namespace NonoverlappingIntervals
 	{
+/*
 	    int eraseOverlapIntervals(vector<vector<int>>& intervals) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

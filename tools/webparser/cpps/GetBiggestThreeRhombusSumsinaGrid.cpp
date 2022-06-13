@@ -47,9 +47,12 @@ namespace Solution2022
 {
 	namespace GetBiggestThreeRhombusSumsinaGrid
 	{
+/*
 	    vector<int> getBiggestThree(vector<vector<int>>& grid) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

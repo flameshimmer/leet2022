@@ -34,9 +34,12 @@ namespace Solution2022
 {
 	namespace FindaValueofaMysteriousFunctionClosesttoTarget
 	{
+/*
 	    int closestToTarget(vector<int>& arr, int target) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

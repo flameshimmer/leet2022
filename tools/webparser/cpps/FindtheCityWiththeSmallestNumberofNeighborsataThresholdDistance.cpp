@@ -47,9 +47,12 @@ namespace Solution2022
 {
 	namespace FindtheCityWiththeSmallestNumberofNeighborsataThresholdDistance
 	{
+/*
 	    int findTheCity(int n, vector<vector<int>>& edges, int distanceThreshold) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

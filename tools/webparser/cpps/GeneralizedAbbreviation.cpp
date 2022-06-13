@@ -33,9 +33,12 @@ namespace Solution2022
 {
 	namespace GeneralizedAbbreviation
 	{
+/*
 	    vector<string> generateAbbreviations(string word) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

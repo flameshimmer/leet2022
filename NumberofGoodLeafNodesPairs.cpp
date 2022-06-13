@@ -33,6 +33,7 @@ namespace Solution2022
 {
 	namespace NumberofGoodLeafNodesPairs
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -47,6 +48,8 @@ namespace Solution2022
 	    int countPairs(TreeNode* root, int distance) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

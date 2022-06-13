@@ -44,9 +44,12 @@ namespace Solution2022
 {
 	namespace MinimumNumberofKeypresses
 	{
+/*
 	    int minimumKeypresses(string s) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -60,9 +60,12 @@ namespace Solution2022
 {
 	namespace ExecutionofAllSuffixInstructionsStayinginaGrid
 	{
+/*
 	    vector<int> executeInstructions(int n, vector<int>& startPos, string s) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

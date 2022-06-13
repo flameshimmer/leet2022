@@ -30,6 +30,7 @@ namespace Solution2022
 {
 	namespace FindModeinBinarySearchTree
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -44,6 +45,8 @@ namespace Solution2022
 	    vector<int> findMode(TreeNode* root) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

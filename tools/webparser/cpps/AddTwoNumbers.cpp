@@ -31,6 +31,7 @@ namespace Solution2022
 {
 	namespace AddTwoNumbers
 	{
+/*
 	/**
 	 * Definition for singly-linked list.
 	 * struct ListNode {
@@ -44,6 +45,8 @@ namespace Solution2022
 	    ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

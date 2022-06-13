@@ -27,9 +27,12 @@ namespace Solution2022
 {
 	namespace ShuffleString
 	{
+/*
 	    string restoreString(string s, vector<int>& indices) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

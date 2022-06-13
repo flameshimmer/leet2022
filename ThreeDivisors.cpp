@@ -22,9 +22,12 @@ namespace Solution2022
 {
 	namespace ThreeDivisors
 	{
+/*
 	    bool isThree(int n) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

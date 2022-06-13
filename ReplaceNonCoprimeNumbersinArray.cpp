@@ -50,9 +50,12 @@ namespace Solution2022
 {
 	namespace ReplaceNonCoprimeNumbersinArray
 	{
+/*
 	    vector<int> replaceNonCoprimes(vector<int>& nums) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

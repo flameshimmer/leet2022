@@ -39,9 +39,12 @@ namespace Solution2022
 {
 	namespace FinalPricesWithaSpecialDiscountinaShop
 	{
+/*
 	    vector<int> finalPrices(vector<int>& prices) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

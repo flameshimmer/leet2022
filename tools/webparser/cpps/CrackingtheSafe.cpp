@@ -43,9 +43,12 @@ namespace Solution2022
 {
 	namespace CrackingtheSafe
 	{
+/*
 	    string crackSafe(int n, int k) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

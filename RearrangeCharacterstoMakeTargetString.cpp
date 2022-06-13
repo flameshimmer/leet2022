@@ -43,9 +43,12 @@ namespace Solution2022
 {
 	namespace RearrangeCharacterstoMakeTargetString
 	{
+/*
 	    int rearrangeCharacters(string s, string target) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

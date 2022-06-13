@@ -51,9 +51,12 @@ namespace Solution2022
 {
 	namespace FindtheLongestValidObstacleCourseatEachPosition
 	{
+/*
 	    vector<int> longestObstacleCourseAtEachPosition(vector<int>& obstacles) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

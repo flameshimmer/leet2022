@@ -37,6 +37,7 @@ namespace Solution2022
 {
 	namespace NumberofRecentCalls
 	{
+/*
 	class RecentCounter {
 	    RecentCounter() {
 	        
@@ -51,6 +52,8 @@ namespace Solution2022
 	 * RecentCounter* obj = new RecentCounter();
 	 * int param_1 = obj->ping(t);
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

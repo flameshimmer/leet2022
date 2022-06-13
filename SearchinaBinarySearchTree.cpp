@@ -23,6 +23,7 @@ namespace Solution2022
 {
 	namespace SearchinaBinarySearchTree
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -37,6 +38,8 @@ namespace Solution2022
 	    TreeNode* searchBST(TreeNode* root, int val) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

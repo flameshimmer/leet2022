@@ -49,6 +49,7 @@ namespace Solution2022
 {
 	namespace DesignTwitter
 	{
+/*
 	class Twitter {
 	    Twitter() {
 	        
@@ -78,6 +79,8 @@ namespace Solution2022
 	 * obj->follow(followerId,followeeId);
 	 * obj->unfollow(followerId,followeeId);
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

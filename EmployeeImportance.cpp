@@ -39,6 +39,7 @@ namespace Solution2022
 {
 	namespace EmployeeImportance
 	{
+/*
 	/*
 	// Definition for Employee.
 	class Employee {
@@ -50,6 +51,8 @@ namespace Solution2022
 	    int getImportance(vector<Employee*> employees, int id) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

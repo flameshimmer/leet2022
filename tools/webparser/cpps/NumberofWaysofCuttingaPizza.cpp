@@ -39,9 +39,12 @@ namespace Solution2022
 {
 	namespace NumberofWaysofCuttingaPizza
 	{
+/*
 	    int ways(vector<string>& pizza, int k) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

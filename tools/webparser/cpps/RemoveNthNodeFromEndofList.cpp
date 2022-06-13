@@ -28,6 +28,7 @@ namespace Solution2022
 {
 	namespace RemoveNthNodeFromEndofList
 	{
+/*
 	/**
 	 * Definition for singly-linked list.
 	 * struct ListNode {
@@ -41,6 +42,8 @@ namespace Solution2022
 	    ListNode* removeNthFromEnd(ListNode* head, int n) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -36,9 +36,12 @@ namespace Solution2022
 {
 	namespace NumberofSmoothDescentPeriodsofaStock
 	{
+/*
 	    long long getDescentPeriods(vector<int>& prices) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -23,6 +23,7 @@ namespace Solution2022
 {
 	namespace InvertBinaryTree
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -37,6 +38,8 @@ namespace Solution2022
 	    TreeNode* invertTree(TreeNode* root) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

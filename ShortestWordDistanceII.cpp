@@ -35,6 +35,7 @@ namespace Solution2022
 {
 	namespace ShortestWordDistanceII
 	{
+/*
 	class WordDistance {
 	    WordDistance(vector<string>& wordsDict) {
 	        
@@ -49,6 +50,8 @@ namespace Solution2022
 	 * WordDistance* obj = new WordDistance(wordsDict);
 	 * int param_1 = obj->shortest(word1,word2);
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

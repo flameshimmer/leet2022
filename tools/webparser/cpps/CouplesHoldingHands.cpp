@@ -32,9 +32,12 @@ namespace Solution2022
 {
 	namespace CouplesHoldingHands
 	{
+/*
 	    int minSwapsCouples(vector<int>& row) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -29,9 +29,12 @@ namespace Solution2022
 {
 	namespace LatestTimebyReplacingHiddenDigits
 	{
+/*
 	    string maximumTime(string time) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

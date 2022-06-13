@@ -41,6 +41,7 @@ namespace Solution2022
 {
 	namespace ImplementMagicDictionary
 	{
+/*
 	class MagicDictionary {
 	    MagicDictionary() {
 	        
@@ -60,6 +61,8 @@ namespace Solution2022
 	 * obj->buildDict(dictionary);
 	 * bool param_2 = obj->search(searchWord);
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

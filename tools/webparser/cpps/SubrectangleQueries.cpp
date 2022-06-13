@@ -73,6 +73,7 @@ namespace Solution2022
 {
 	namespace SubrectangleQueries
 	{
+/*
 	class SubrectangleQueries {
 	    SubrectangleQueries(vector<vector<int>>& rectangle) {
 	        
@@ -92,6 +93,8 @@ namespace Solution2022
 	 * obj->updateSubrectangle(row1,col1,row2,col2,newValue);
 	 * int param_2 = obj->getValue(row,col);
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

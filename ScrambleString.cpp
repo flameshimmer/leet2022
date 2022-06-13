@@ -47,9 +47,12 @@ namespace Solution2022
 {
 	namespace ScrambleString
 	{
+/*
 	    bool isScramble(string s1, string s2) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

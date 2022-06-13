@@ -26,9 +26,12 @@ namespace Solution2022
 {
 	namespace MaximumProductSubarray
 	{
+/*
 	    int maxProduct(vector<int>& nums) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

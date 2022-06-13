@@ -25,9 +25,12 @@ namespace Solution2022
 {
 	namespace JumpGame
 	{
+/*
 	    bool canJump(vector<int>& nums) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

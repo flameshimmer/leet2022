@@ -37,9 +37,12 @@ namespace Solution2022
 {
 	namespace SmallestIndexWithEqualValue
 	{
+/*
 	    int smallestEqual(vector<int>& nums) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

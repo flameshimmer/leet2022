@@ -40,9 +40,12 @@ namespace Solution2022
 {
 	namespace RestoretheArrayFromAdjacentPairs
 	{
+/*
 	    vector<int> restoreArray(vector<vector<int>>& adjacentPairs) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

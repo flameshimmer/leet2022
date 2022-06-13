@@ -35,9 +35,12 @@ namespace Solution2022
 {
 	namespace MaximumNumberofWordsYouCanType
 	{
+/*
 	    int canBeTypedWords(string text, string brokenLetters) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

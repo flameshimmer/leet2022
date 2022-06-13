@@ -33,9 +33,12 @@ namespace Solution2022
 {
 	namespace NumberOfRectanglesThatCanFormTheLargestSquare
 	{
+/*
 	    int countGoodRectangles(vector<vector<int>>& rectangles) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -31,9 +31,12 @@ namespace Solution2022
 {
 	namespace LargestMagicSquare
 	{
+/*
 	    int largestMagicSquare(vector<vector<int>>& grid) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

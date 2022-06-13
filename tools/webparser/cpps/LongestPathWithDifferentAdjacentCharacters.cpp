@@ -37,9 +37,12 @@ namespace Solution2022
 {
 	namespace LongestPathWithDifferentAdjacentCharacters
 	{
+/*
 	    int longestPath(vector<int>& parent, string s) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

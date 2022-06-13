@@ -22,9 +22,12 @@ namespace Solution2022
 {
 	namespace SubarraySumEqualsK
 	{
+/*
 	    int subarraySum(vector<int>& nums, int k) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

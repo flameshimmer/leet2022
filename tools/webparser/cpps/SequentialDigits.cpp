@@ -21,9 +21,12 @@ namespace Solution2022
 {
 	namespace SequentialDigits
 	{
+/*
 	    vector<int> sequentialDigits(int low, int high) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

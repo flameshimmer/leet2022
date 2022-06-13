@@ -29,9 +29,12 @@ namespace Solution2022
 {
 	namespace ProductofArrayExceptSelf
 	{
+/*
 	    vector<int> productExceptSelf(vector<int>& nums) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

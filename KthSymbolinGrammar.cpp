@@ -36,9 +36,12 @@ namespace Solution2022
 {
 	namespace KthSymbolinGrammar
 	{
+/*
 	    int kthGrammar(int n, int k) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

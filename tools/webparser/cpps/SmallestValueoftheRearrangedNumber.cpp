@@ -30,9 +30,12 @@ namespace Solution2022
 {
 	namespace SmallestValueoftheRearrangedNumber
 	{
+/*
 	    long long smallestNumber(long long num) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

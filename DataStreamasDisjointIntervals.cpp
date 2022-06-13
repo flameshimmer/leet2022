@@ -41,6 +41,7 @@ namespace Solution2022
 {
 	namespace DataStreamasDisjointIntervals
 	{
+/*
 	class SummaryRanges {
 	    SummaryRanges() {
 	        
@@ -60,6 +61,8 @@ namespace Solution2022
 	 * obj->addNum(val);
 	 * vector<vector<int>> param_2 = obj->getIntervals();
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

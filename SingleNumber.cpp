@@ -28,13 +28,12 @@ namespace Solution2022
 {
 	namespace SingleNumber
 	{
-		int singleNumber(vector<int>& nums) {
-			int result = 0;
-			for (int v : nums) {
-				result = result ^ v;
-			}
-			return result;
-		}
+/*
+	    int singleNumber(vector<int>& nums) {
+	        
+	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

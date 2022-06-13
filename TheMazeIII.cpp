@@ -58,9 +58,12 @@ namespace Solution2022
 {
 	namespace TheMazeIII
 	{
+/*
 	    string findShortestWay(vector<vector<int>>& maze, vector<int>& ball, vector<int>& hole) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -49,9 +49,12 @@ namespace Solution2022
 {
 	namespace MinimumNumberofDaystoMakemBouquets
 	{
+/*
 	    int minDays(vector<int>& bloomDay, int m, int k) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

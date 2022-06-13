@@ -31,9 +31,12 @@ namespace Solution2022
 {
 	namespace KthSmallestPrimeFraction
 	{
+/*
 	    vector<int> kthSmallestPrimeFraction(vector<int>& arr, int k) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

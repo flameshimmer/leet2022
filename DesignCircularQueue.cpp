@@ -52,6 +52,7 @@ namespace Solution2022
 {
 	namespace DesignCircularQueue
 	{
+/*
 	class MyCircularQueue {
 	    MyCircularQueue(int k) {
 	        
@@ -90,6 +91,8 @@ namespace Solution2022
 	 * int param_4 = obj->Rear();
 	 * bool param_5 = obj->isEmpty();
 	 * bool param_6 = obj->isFull();
+
+*/
 
 		void Main() {
 			string test = "tst test test";

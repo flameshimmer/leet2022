@@ -45,9 +45,12 @@ namespace Solution2022
 {
 	namespace MaximumNumberofPointswithCost
 	{
+/*
 	    long long maxPoints(vector<vector<int>>& points) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

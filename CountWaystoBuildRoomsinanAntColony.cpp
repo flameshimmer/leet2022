@@ -41,9 +41,12 @@ namespace Solution2022
 {
 	namespace CountWaystoBuildRoomsinanAntColony
 	{
+/*
 	    int waysToBuildRooms(vector<int>& prevRoom) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

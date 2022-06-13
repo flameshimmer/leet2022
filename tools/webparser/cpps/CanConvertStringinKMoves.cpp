@@ -42,9 +42,12 @@ namespace Solution2022
 {
 	namespace CanConvertStringinKMoves
 	{
+/*
 	    bool canConvertString(string s, string t, int k) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

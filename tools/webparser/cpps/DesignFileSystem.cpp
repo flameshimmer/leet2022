@@ -48,6 +48,7 @@ namespace Solution2022
 {
 	namespace DesignFileSystem
 	{
+/*
 	class FileSystem {
 	    FileSystem() {
 	        
@@ -67,6 +68,8 @@ namespace Solution2022
 	 * bool param_1 = obj->createPath(path,value);
 	 * int param_2 = obj->get(path);
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

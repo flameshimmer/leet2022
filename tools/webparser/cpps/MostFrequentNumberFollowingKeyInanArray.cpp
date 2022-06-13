@@ -38,9 +38,12 @@ namespace Solution2022
 {
 	namespace MostFrequentNumberFollowingKeyInanArray
 	{
+/*
 	    int mostFrequent(vector<int>& nums, int key) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

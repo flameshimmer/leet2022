@@ -34,9 +34,12 @@ namespace Solution2022
 {
 	namespace PeakIndexinaMountainArray
 	{
+/*
 	    int peakIndexInMountainArray(vector<int>& arr) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -44,9 +44,12 @@ namespace Solution2022
 {
 	namespace NumberofUniqueFlavorsAfterSharingKCandies
 	{
+/*
 	    int shareCandies(vector<int>& candies, int k) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

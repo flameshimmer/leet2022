@@ -46,9 +46,12 @@ namespace Solution2022
 {
 	namespace EvaluateDivision
 	{
+/*
 	    vector<double> calcEquation(vector<vector<string>>& equations, vector<double>& values, vector<vector<string>>& queries) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

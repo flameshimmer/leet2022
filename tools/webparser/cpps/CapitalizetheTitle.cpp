@@ -42,9 +42,12 @@ namespace Solution2022
 {
 	namespace CapitalizetheTitle
 	{
+/*
 	    string capitalizeTitle(string title) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

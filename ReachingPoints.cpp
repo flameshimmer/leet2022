@@ -31,9 +31,12 @@ namespace Solution2022
 {
 	namespace ReachingPoints
 	{
+/*
 	    bool reachingPoints(int sx, int sy, int tx, int ty) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

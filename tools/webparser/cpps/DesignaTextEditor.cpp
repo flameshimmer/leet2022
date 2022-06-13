@@ -73,6 +73,7 @@ namespace Solution2022
 {
 	namespace DesignaTextEditor
 	{
+/*
 	class TextEditor {
 	    TextEditor() {
 	        
@@ -102,6 +103,8 @@ namespace Solution2022
 	 * string param_3 = obj->cursorLeft(k);
 	 * string param_4 = obj->cursorRight(k);
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

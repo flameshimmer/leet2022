@@ -33,6 +33,7 @@ namespace Solution2022
 {
 	namespace MiniParser
 	{
+/*
 	/**
 	 * // This is the interface that allows for creating nested lists.
 	 * // You should not implement it, or speculate about its implementation
@@ -65,6 +66,8 @@ namespace Solution2022
 	    NestedInteger deserialize(string s) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

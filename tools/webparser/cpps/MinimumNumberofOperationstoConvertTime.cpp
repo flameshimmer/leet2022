@@ -34,9 +34,12 @@ namespace Solution2022
 {
 	namespace MinimumNumberofOperationstoConvertTime
 	{
+/*
 	    int convertTime(string current, string correct) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

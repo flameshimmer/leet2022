@@ -40,9 +40,12 @@ namespace Solution2022
 {
 	namespace SumofScoresofBuiltStrings
 	{
+/*
 	    long long sumScores(string s) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

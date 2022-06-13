@@ -39,9 +39,12 @@ namespace Solution2022
 {
 	namespace FindNearestPointThatHastheSameXorYCoordinate
 	{
+/*
 	    int nearestValidPoint(int x, int y, vector<vector<int>>& points) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

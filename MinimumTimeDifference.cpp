@@ -20,9 +20,12 @@ namespace Solution2022
 {
 	namespace MinimumTimeDifference
 	{
+/*
 	    int findMinDifference(vector<string>& timePoints) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

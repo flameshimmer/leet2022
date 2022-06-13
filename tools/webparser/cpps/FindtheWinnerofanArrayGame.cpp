@@ -36,9 +36,12 @@ namespace Solution2022
 {
 	namespace FindtheWinnerofanArrayGame
 	{
+/*
 	    int getWinner(vector<int>& arr, int k) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

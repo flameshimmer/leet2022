@@ -61,6 +61,7 @@ namespace Solution2022
 {
 	namespace DesignanATMMachine
 	{
+/*
 	class ATM {
 	    ATM() {
 	        
@@ -80,6 +81,8 @@ namespace Solution2022
 	 * obj->deposit(banknotesCount);
 	 * vector<int> param_2 = obj->withdraw(amount);
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

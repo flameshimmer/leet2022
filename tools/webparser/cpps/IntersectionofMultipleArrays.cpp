@@ -29,9 +29,12 @@ namespace Solution2022
 {
 	namespace IntersectionofMultipleArrays
 	{
+/*
 	    vector<int> intersection(vector<vector<int>>& nums) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

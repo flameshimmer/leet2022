@@ -30,9 +30,12 @@ namespace Solution2022
 {
 	namespace LongestPalindromicSubsequenceII
 	{
+/*
 	    int longestPalindromeSubseq(string s) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

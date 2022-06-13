@@ -45,9 +45,12 @@ namespace Solution2022
 {
 	namespace MaximizetheConfusionofanExam
 	{
+/*
 	    int maxConsecutiveAnswers(string answerKey, int k) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

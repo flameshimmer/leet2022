@@ -38,9 +38,12 @@ namespace Solution2022
 {
 	namespace MinimumTimetoCompleteTrips
 	{
+/*
 	    long long minimumTime(vector<int>& time, int totalTrips) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

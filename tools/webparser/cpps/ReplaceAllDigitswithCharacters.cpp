@@ -37,9 +37,12 @@ namespace Solution2022
 {
 	namespace ReplaceAllDigitswithCharacters
 	{
+/*
 	    string replaceDigits(string s) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

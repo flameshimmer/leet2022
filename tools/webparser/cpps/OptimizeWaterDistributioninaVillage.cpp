@@ -53,9 +53,12 @@ namespace Solution2022
 {
 	namespace OptimizeWaterDistributioninaVillage
 	{
+/*
 	    int minCostToSupplyWater(int n, vector<int>& wells, vector<vector<int>>& pipes) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

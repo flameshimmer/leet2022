@@ -46,9 +46,12 @@ namespace Solution2022
 {
 	namespace TheSkylineProblem
 	{
+/*
 	    vector<vector<int>> getSkyline(vector<vector<int>>& buildings) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

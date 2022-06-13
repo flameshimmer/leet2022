@@ -24,9 +24,12 @@ namespace Solution2022
 {
 	namespace SumofDigitsinBaseK
 	{
+/*
 	    int sumBase(int n, int k) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

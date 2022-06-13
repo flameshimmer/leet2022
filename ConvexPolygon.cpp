@@ -26,9 +26,12 @@ namespace Solution2022
 {
 	namespace ConvexPolygon
 	{
+/*
 	    bool isConvex(vector<vector<int>>& points) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

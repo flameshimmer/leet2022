@@ -37,9 +37,12 @@ namespace Solution2022
 {
 	namespace ReverseBits
 	{
+/*
 	    uint32_t reverseBits(uint32_t n) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

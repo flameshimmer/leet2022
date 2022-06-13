@@ -38,9 +38,12 @@ namespace Solution2022
 {
 	namespace SuccessfulPairsofSpellsandPotions
 	{
+/*
 	    vector<int> successfulPairs(vector<int>& spells, vector<int>& potions, long long success) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

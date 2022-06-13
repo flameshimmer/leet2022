@@ -22,9 +22,12 @@ namespace Solution2022
 {
 	namespace LargestOneBorderedSquare
 	{
+/*
 	    int largest1BorderedSquare(vector<vector<int>>& grid) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

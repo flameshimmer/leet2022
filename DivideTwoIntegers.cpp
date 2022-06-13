@@ -31,9 +31,12 @@ namespace Solution2022
 {
 	namespace DivideTwoIntegers
 	{
+/*
 	    int divide(int dividend, int divisor) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

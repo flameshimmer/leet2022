@@ -26,9 +26,12 @@ namespace Solution2022
 {
 	namespace MatchstickstoSquare
 	{
+/*
 	    bool makesquare(vector<int>& matchsticks) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

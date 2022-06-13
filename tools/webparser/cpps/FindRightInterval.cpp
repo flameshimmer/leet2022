@@ -40,9 +40,12 @@ namespace Solution2022
 {
 	namespace FindRightInterval
 	{
+/*
 	    vector<int> findRightInterval(vector<vector<int>>& intervals) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

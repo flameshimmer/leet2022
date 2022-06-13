@@ -29,9 +29,12 @@ namespace Solution2022
 {
 	namespace ValidMountainArray
 	{
+/*
 	    bool validMountainArray(vector<int>& arr) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

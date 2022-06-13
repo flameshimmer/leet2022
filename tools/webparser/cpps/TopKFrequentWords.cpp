@@ -32,9 +32,12 @@ namespace Solution2022
 {
 	namespace TopKFrequentWords
 	{
+/*
 	    vector<string> topKFrequent(vector<string>& words, int k) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

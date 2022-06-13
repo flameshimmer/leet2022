@@ -31,9 +31,12 @@ namespace Solution2022
 {
 	namespace NumberofPathswithMaxScore
 	{
+/*
 	    vector<int> pathsWithMaxScore(vector<string>& board) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

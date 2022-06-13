@@ -39,9 +39,12 @@ namespace Solution2022
 {
 	namespace RearrangeArrayElementsbySign
 	{
+/*
 	    vector<int> rearrangeArray(vector<int>& nums) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -32,9 +32,12 @@ namespace Solution2022
 {
 	namespace MinimumOneBitOperationstoMakeIntegersZero
 	{
+/*
 	    int minimumOneBitOperations(int n) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

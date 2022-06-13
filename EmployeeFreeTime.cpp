@@ -31,6 +31,7 @@ namespace Solution2022
 {
 	namespace EmployeeFreeTime
 	{
+/*
 	/*
 	// Definition for an Interval.
 	class Interval {
@@ -48,6 +49,8 @@ namespace Solution2022
 	    vector<Interval> employeeFreeTime(vector<vector<Interval>> schedule) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

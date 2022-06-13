@@ -33,9 +33,12 @@ namespace Solution2022
 {
 	namespace MatrixDiagonalSum
 	{
+/*
 	    int diagonalSum(vector<vector<int>>& mat) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

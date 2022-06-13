@@ -35,9 +35,12 @@ namespace Solution2022
 {
 	namespace CheckifArrayIsSortedandRotated
 	{
+/*
 	    bool check(vector<int>& nums) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

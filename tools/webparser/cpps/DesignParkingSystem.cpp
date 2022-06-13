@@ -40,6 +40,7 @@ namespace Solution2022
 {
 	namespace DesignParkingSystem
 	{
+/*
 	class ParkingSystem {
 	    ParkingSystem(int big, int medium, int small) {
 	        
@@ -54,6 +55,8 @@ namespace Solution2022
 	 * ParkingSystem* obj = new ParkingSystem(big, medium, small);
 	 * bool param_1 = obj->addCar(carType);
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

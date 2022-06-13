@@ -25,9 +25,12 @@ namespace Solution2022
 {
 	namespace MonotoneIncreasingDigits
 	{
+/*
 	    int monotoneIncreasingDigits(int n) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

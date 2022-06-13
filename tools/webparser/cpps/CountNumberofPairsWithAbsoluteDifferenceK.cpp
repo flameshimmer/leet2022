@@ -38,9 +38,12 @@ namespace Solution2022
 {
 	namespace CountNumberofPairsWithAbsoluteDifferenceK
 	{
+/*
 	    int countKDifference(vector<int>& nums, int k) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

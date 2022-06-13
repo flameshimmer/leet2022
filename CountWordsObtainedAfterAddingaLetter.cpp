@@ -55,9 +55,12 @@ namespace Solution2022
 {
 	namespace CountWordsObtainedAfterAddingaLetter
 	{
+/*
 	    int wordCount(vector<string>& startWords, vector<string>& targetWords) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

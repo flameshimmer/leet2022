@@ -39,9 +39,12 @@ namespace Solution2022
 {
 	namespace UniqueMorseCodeWords
 	{
+/*
 	    int uniqueMorseRepresentations(vector<string>& words) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

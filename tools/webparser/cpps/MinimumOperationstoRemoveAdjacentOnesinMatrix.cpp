@@ -37,9 +37,12 @@ namespace Solution2022
 {
 	namespace MinimumOperationstoRemoveAdjacentOnesinMatrix
 	{
+/*
 	    int minimumOperations(vector<vector<int>>& grid) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

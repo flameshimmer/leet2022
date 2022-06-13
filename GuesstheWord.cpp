@@ -43,6 +43,7 @@ namespace Solution2022
 {
 	namespace GuesstheWord
 	{
+/*
 	/**
 	 * // This is the Master's API interface.
 	 * // You should not implement it, or speculate about its implementation
@@ -54,6 +55,8 @@ namespace Solution2022
 	    void findSecretWord(vector<string>& wordlist, Master& master) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

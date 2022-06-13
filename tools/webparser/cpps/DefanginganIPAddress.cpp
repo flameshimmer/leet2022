@@ -19,9 +19,12 @@ namespace Solution2022
 {
 	namespace DefanginganIPAddress
 	{
+/*
 	    string defangIPaddr(string address) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

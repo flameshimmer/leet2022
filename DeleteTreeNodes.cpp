@@ -29,9 +29,12 @@ namespace Solution2022
 {
 	namespace DeleteTreeNodes
 	{
+/*
 	    int deleteTreeNodes(int nodes, vector<int>& parent, vector<int>& value) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

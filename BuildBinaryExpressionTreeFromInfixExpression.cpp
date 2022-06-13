@@ -54,6 +54,7 @@ namespace Solution2022
 {
 	namespace BuildBinaryExpressionTreeFromInfixExpression
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct Node {
@@ -68,6 +69,8 @@ namespace Solution2022
 	    Node* expTree(string s) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -21,6 +21,7 @@ namespace Solution2022
 {
 	namespace IncreasingOrderSearchTree
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -35,6 +36,8 @@ namespace Solution2022
 	    TreeNode* increasingBST(TreeNode* root) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

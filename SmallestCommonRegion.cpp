@@ -40,9 +40,12 @@ namespace Solution2022
 {
 	namespace SmallestCommonRegion
 	{
+/*
 	    string findSmallestRegion(vector<vector<string>>& regions, string region1, string region2) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

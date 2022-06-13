@@ -58,9 +58,12 @@ namespace Solution2022
 {
 	namespace MaximumPathQualityofaGraph
 	{
+/*
 	    int maximalPathQuality(vector<int>& values, vector<vector<int>>& edges, int maxTime) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

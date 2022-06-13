@@ -31,9 +31,12 @@ namespace Solution2022
 {
 	namespace HandofStraights
 	{
+/*
 	    bool isNStraightHand(vector<int>& hand, int groupSize) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -26,9 +26,12 @@ namespace Solution2022
 {
 	namespace MaximumEqualFrequency
 	{
+/*
 	    int maxEqualFreq(vector<int>& nums) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

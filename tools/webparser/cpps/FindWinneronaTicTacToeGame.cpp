@@ -45,9 +45,12 @@ namespace Solution2022
 {
 	namespace FindWinneronaTicTacToeGame
 	{
+/*
 	    string tictactoe(vector<vector<int>>& moves) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

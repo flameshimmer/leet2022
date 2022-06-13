@@ -39,9 +39,12 @@ namespace Solution2022
 {
 	namespace CourseScheduleIII
 	{
+/*
 	    int scheduleCourse(vector<vector<int>>& courses) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

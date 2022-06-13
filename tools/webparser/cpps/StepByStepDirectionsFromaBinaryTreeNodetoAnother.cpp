@@ -35,6 +35,7 @@ namespace Solution2022
 {
 	namespace StepByStepDirectionsFromaBinaryTreeNodetoAnother
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -49,6 +50,8 @@ namespace Solution2022
 	    string getDirections(TreeNode* root, int startValue, int destValue) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

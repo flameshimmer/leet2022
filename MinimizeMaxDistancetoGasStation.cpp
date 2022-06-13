@@ -28,9 +28,12 @@ namespace Solution2022
 {
 	namespace MinimizeMaxDistancetoGasStation
 	{
+/*
 	    double minmaxGasDist(vector<int>& stations, int k) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

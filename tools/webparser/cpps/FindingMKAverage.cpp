@@ -53,6 +53,7 @@ namespace Solution2022
 {
 	namespace FindingMKAverage
 	{
+/*
 	class MKAverage {
 	    MKAverage(int m, int k) {
 	        
@@ -72,6 +73,8 @@ namespace Solution2022
 	 * obj->addElement(num);
 	 * int param_2 = obj->calculateMKAverage();
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -41,9 +41,12 @@ namespace Solution2022
 {
 	namespace CrawlerLogFolder
 	{
+/*
 	    int minOperations(vector<string>& logs) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

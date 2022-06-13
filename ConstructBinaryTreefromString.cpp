@@ -29,6 +29,7 @@ namespace Solution2022
 {
 	namespace ConstructBinaryTreefromString
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -43,6 +44,8 @@ namespace Solution2022
 	    TreeNode* str2tree(string s) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

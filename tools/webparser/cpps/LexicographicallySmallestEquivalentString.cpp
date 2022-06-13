@@ -47,9 +47,12 @@ namespace Solution2022
 {
 	namespace LexicographicallySmallestEquivalentString
 	{
+/*
 	    string smallestEquivalentString(string s1, string s2, string baseStr) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

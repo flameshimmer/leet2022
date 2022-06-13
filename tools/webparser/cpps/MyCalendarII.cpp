@@ -42,6 +42,7 @@ namespace Solution2022
 {
 	namespace MyCalendarII
 	{
+/*
 	class MyCalendarTwo {
 	    MyCalendarTwo() {
 	        
@@ -56,6 +57,8 @@ namespace Solution2022
 	 * MyCalendarTwo* obj = new MyCalendarTwo();
 	 * bool param_1 = obj->book(start,end);
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -28,9 +28,12 @@ namespace Solution2022
 {
 	namespace SingleNumber
 	{
+/*
 	    int singleNumber(vector<int>& nums) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

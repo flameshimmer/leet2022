@@ -36,9 +36,12 @@ namespace Solution2022
 {
 	namespace ComplementofBaseOneZeroInteger
 	{
+/*
 	    int bitwiseComplement(int n) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

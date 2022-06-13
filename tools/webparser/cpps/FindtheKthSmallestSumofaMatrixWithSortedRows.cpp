@@ -35,9 +35,12 @@ namespace Solution2022
 {
 	namespace FindtheKthSmallestSumofaMatrixWithSortedRows
 	{
+/*
 	    int kthSmallest(vector<vector<int>>& mat, int k) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

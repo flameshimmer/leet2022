@@ -33,9 +33,12 @@ namespace Solution2022
 {
 	namespace MaximumNumberofOnes
 	{
+/*
 	    int maximumNumberOfOnes(int width, int height, int sideLength, int maxOnes) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

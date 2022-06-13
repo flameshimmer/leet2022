@@ -31,9 +31,12 @@ namespace Solution2022
 {
 	namespace DivideArrayIntoEqualPairs
 	{
+/*
 	    bool divideArray(vector<int>& nums) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -39,6 +39,7 @@ namespace Solution2022
 {
 	namespace LinkedListCycleII
 	{
+/*
 	/**
 	 * Definition for singly-linked list.
 	 * struct ListNode {
@@ -50,6 +51,8 @@ namespace Solution2022
 	    ListNode *detectCycle(ListNode *head) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

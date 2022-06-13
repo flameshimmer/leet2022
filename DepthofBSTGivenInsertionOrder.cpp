@@ -42,9 +42,12 @@ namespace Solution2022
 {
 	namespace DepthofBSTGivenInsertionOrder
 	{
+/*
 	    int maxDepthBST(vector<int>& order) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

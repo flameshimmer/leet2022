@@ -48,9 +48,12 @@ namespace Solution2022
 {
 	namespace RingsandRods
 	{
+/*
 	    int countPoints(string rings) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

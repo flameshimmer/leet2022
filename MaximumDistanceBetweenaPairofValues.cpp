@@ -39,9 +39,12 @@ namespace Solution2022
 {
 	namespace MaximumDistanceBetweenaPairofValues
 	{
+/*
 	    int maxDistance(vector<int>& nums1, vector<int>& nums2) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

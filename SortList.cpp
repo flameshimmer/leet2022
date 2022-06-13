@@ -27,6 +27,7 @@ namespace Solution2022
 {
 	namespace SortList
 	{
+/*
 	/**
 	 * Definition for singly-linked list.
 	 * struct ListNode {
@@ -40,6 +41,8 @@ namespace Solution2022
 	    ListNode* sortList(ListNode* head) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

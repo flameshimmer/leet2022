@@ -57,6 +57,7 @@ namespace Solution2022
 {
 	namespace SimpleBankSystem
 	{
+/*
 	class Bank {
 	    Bank(vector<long long>& balance) {
 	        
@@ -81,6 +82,8 @@ namespace Solution2022
 	 * bool param_2 = obj->deposit(account,money);
 	 * bool param_3 = obj->withdraw(account,money);
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

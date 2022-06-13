@@ -32,9 +32,12 @@ namespace Solution2022
 {
 	namespace GenerateaStringWithCharactersThatHaveOddCounts
 	{
+/*
 	    string generateTheString(int n) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

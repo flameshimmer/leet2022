@@ -30,9 +30,12 @@ namespace Solution2022
 {
 	namespace FibonacciNumber
 	{
+/*
 	    int fib(int n) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

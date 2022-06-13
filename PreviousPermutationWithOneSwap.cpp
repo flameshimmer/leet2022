@@ -29,9 +29,12 @@ namespace Solution2022
 {
 	namespace PreviousPermutationWithOneSwap
 	{
+/*
 	    vector<int> prevPermOpt1(vector<int>& arr) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

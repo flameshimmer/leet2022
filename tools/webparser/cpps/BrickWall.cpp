@@ -31,9 +31,12 @@ namespace Solution2022
 {
 	namespace BrickWall
 	{
+/*
 	    int leastBricks(vector<vector<int>>& wall) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -45,9 +45,12 @@ namespace Solution2022
 {
 	namespace LargestNumberAfterMutatingSubstring
 	{
+/*
 	    string maximumNumber(string num, vector<int>& change) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

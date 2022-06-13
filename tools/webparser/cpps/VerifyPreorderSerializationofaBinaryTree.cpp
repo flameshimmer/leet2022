@@ -36,9 +36,12 @@ namespace Solution2022
 {
 	namespace VerifyPreorderSerializationofaBinaryTree
 	{
+/*
 	    bool isValidSerialization(string preorder) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -47,9 +47,12 @@ namespace Solution2022
 {
 	namespace NumberOfWaysToReconstructATree
 	{
+/*
 	    int checkWays(vector<vector<int>>& pairs) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

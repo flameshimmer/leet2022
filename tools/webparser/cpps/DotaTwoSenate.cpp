@@ -54,9 +54,12 @@ namespace Solution2022
 {
 	namespace DotaTwoSenate
 	{
+/*
 	    string predictPartyVictory(string senate) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -23,6 +23,7 @@ namespace Solution2022
 {
 	namespace TwoSumIVInputisaBST
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -37,6 +38,8 @@ namespace Solution2022
 	    bool findTarget(TreeNode* root, int k) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

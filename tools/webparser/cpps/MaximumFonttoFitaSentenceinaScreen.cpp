@@ -53,6 +53,7 @@ namespace Solution2022
 {
 	namespace MaximumFonttoFitaSentenceinaScreen
 	{
+/*
 	/**
 	 * // This is the FontInfo's API interface.
 	 * // You should not implement it, or speculate about its implementation
@@ -68,6 +69,8 @@ namespace Solution2022
 	    int maxFont(string text, int w, int h, vector<int>& fonts, FontInfo fontInfo) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

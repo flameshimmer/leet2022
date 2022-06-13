@@ -30,9 +30,12 @@ namespace Solution2022
 {
 	namespace CountBinarySubstrings
 	{
+/*
 	    int countBinarySubstrings(string s) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -33,9 +33,12 @@ namespace Solution2022
 {
 	namespace CourseSchedule
 	{
+/*
 	    bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

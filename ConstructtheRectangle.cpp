@@ -36,9 +36,12 @@ namespace Solution2022
 {
 	namespace ConstructtheRectangle
 	{
+/*
 	    vector<int> constructRectangle(int area) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

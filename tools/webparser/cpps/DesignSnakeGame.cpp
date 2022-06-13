@@ -52,6 +52,7 @@ namespace Solution2022
 {
 	namespace DesignSnakeGame
 	{
+/*
 	class SnakeGame {
 	    SnakeGame(int width, int height, vector<vector<int>>& food) {
 	        
@@ -66,6 +67,8 @@ namespace Solution2022
 	 * SnakeGame* obj = new SnakeGame(width, height, food);
 	 * int param_1 = obj->move(direction);
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

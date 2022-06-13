@@ -37,9 +37,12 @@ namespace Solution2022
 {
 	namespace SplitConcatenatedStrings
 	{
+/*
 	    string splitLoopedString(vector<string>& strs) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

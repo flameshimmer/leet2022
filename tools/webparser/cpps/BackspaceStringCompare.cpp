@@ -31,9 +31,12 @@ namespace Solution2022
 {
 	namespace BackspaceStringCompare
 	{
+/*
 	    bool backspaceCompare(string s, string t) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

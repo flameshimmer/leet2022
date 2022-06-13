@@ -32,9 +32,12 @@ namespace Solution2022
 {
 	namespace MinimumSizeSubarraySum
 	{
+/*
 	    int minSubArrayLen(int target, vector<int>& nums) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -35,6 +35,7 @@ namespace Solution2022
 {
 	namespace LinkedListinBinaryTree
 	{
+/*
 	/**
 	 * Definition for singly-linked list.
 	 * struct ListNode {
@@ -59,6 +60,8 @@ namespace Solution2022
 	    bool isSubPath(ListNode* head, TreeNode* root) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

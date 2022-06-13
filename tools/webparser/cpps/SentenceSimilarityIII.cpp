@@ -41,9 +41,12 @@ namespace Solution2022
 {
 	namespace SentenceSimilarityIII
 	{
+/*
 	    bool areSentencesSimilar(string sentence1, string sentence2) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

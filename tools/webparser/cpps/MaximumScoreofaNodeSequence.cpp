@@ -46,9 +46,12 @@ namespace Solution2022
 {
 	namespace MaximumScoreofaNodeSequence
 	{
+/*
 	    int maximumScore(vector<int>& scores, vector<vector<int>>& edges) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

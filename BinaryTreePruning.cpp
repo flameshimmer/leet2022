@@ -28,6 +28,7 @@ namespace Solution2022
 {
 	namespace BinaryTreePruning
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -42,6 +43,8 @@ namespace Solution2022
 	    TreeNode* pruneTree(TreeNode* root) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -21,6 +21,7 @@ namespace Solution2022
 {
 	namespace MaximumDepthofBinaryTree
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -35,6 +36,8 @@ namespace Solution2022
 	    int maxDepth(TreeNode* root) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -36,9 +36,12 @@ namespace Solution2022
 {
 	namespace NumberOfCornerRectangles
 	{
+/*
 	    int countCornerRectangles(vector<vector<int>>& grid) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

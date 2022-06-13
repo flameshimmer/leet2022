@@ -77,6 +77,7 @@ namespace Solution2022
 {
 	namespace ThroneInheritance
 	{
+/*
 	class ThroneInheritance {
 	    ThroneInheritance(string kingName) {
 	        
@@ -101,6 +102,8 @@ namespace Solution2022
 	 * obj->death(name);
 	 * vector<string> param_3 = obj->getInheritanceOrder();
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

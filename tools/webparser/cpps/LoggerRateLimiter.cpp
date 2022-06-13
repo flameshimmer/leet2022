@@ -41,6 +41,7 @@ namespace Solution2022
 {
 	namespace LoggerRateLimiter
 	{
+/*
 	class Logger {
 	    Logger() {
 	        
@@ -55,6 +56,8 @@ namespace Solution2022
 	 * Logger* obj = new Logger();
 	 * bool param_1 = obj->shouldPrintMessage(timestamp,message);
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

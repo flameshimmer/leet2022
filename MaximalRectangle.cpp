@@ -27,9 +27,12 @@ namespace Solution2022
 {
 	namespace MaximalRectangle
 	{
+/*
 	    int maximalRectangle(vector<vector<char>>& matrix) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

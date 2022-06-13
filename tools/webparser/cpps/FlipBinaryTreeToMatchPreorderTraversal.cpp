@@ -42,6 +42,7 @@ namespace Solution2022
 {
 	namespace FlipBinaryTreeToMatchPreorderTraversal
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -56,6 +57,8 @@ namespace Solution2022
 	    vector<int> flipMatchVoyage(TreeNode* root, vector<int>& voyage) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

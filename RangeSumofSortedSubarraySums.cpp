@@ -37,9 +37,12 @@ namespace Solution2022
 {
 	namespace RangeSumofSortedSubarraySums
 	{
+/*
 	    int rangeSum(vector<int>& nums, int n, int left, int right) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

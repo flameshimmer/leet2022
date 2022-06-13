@@ -22,9 +22,12 @@ namespace Solution2022
 {
 	namespace FindCommonCharacters
 	{
+/*
 	    vector<string> commonChars(vector<string>& words) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

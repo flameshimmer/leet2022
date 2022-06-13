@@ -49,9 +49,12 @@ namespace Solution2022
 {
 	namespace StoneGameVI
 	{
+/*
 	    int stoneGameVI(vector<int>& aliceValues, vector<int>& bobValues) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

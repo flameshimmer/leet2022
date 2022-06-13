@@ -31,9 +31,12 @@ namespace Solution2022
 {
 	namespace StringMatchinginanArray
 	{
+/*
 	    vector<string> stringMatching(vector<string>& words) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

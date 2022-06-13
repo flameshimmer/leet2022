@@ -30,9 +30,12 @@ namespace Solution2022
 {
 	namespace SurroundedRegions
 	{
+/*
 	    void solve(vector<vector<char>>& board) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

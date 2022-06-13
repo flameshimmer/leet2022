@@ -25,9 +25,12 @@ namespace Solution2022
 {
 	namespace ZeroOneMatrix
 	{
+/*
 	    vector<vector<int>> updateMatrix(vector<vector<int>>& mat) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

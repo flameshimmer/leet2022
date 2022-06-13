@@ -25,9 +25,12 @@ namespace Solution2022
 {
 	namespace LonelyPixelI
 	{
+/*
 	    int findLonelyPixel(vector<vector<char>>& picture) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

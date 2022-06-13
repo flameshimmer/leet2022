@@ -26,9 +26,12 @@ namespace Solution2022
 {
 	namespace FizzBuzz
 	{
+/*
 	    vector<string> fizzBuzz(int n) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

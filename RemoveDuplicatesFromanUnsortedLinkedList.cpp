@@ -30,6 +30,7 @@ namespace Solution2022
 {
 	namespace RemoveDuplicatesFromanUnsortedLinkedList
 	{
+/*
 	/**
 	 * Definition for singly-linked list.
 	 * struct ListNode {
@@ -43,6 +44,8 @@ namespace Solution2022
 	    ListNode* deleteDuplicatesUnsorted(ListNode* head) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

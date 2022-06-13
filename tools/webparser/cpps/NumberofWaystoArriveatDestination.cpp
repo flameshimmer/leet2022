@@ -43,9 +43,12 @@ namespace Solution2022
 {
 	namespace NumberofWaystoArriveatDestination
 	{
+/*
 	    int countPaths(int n, vector<vector<int>>& roads) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

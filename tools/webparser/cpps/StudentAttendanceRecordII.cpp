@@ -38,9 +38,12 @@ namespace Solution2022
 {
 	namespace StudentAttendanceRecordII
 	{
+/*
 	    int checkRecord(int n) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

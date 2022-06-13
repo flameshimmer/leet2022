@@ -31,9 +31,12 @@ namespace Solution2022
 {
 	namespace CheckIfItIsaGoodArray
 	{
+/*
 	    bool isGoodArray(vector<int>& nums) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

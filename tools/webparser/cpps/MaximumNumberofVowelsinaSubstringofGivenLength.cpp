@@ -29,9 +29,12 @@ namespace Solution2022
 {
 	namespace MaximumNumberofVowelsinaSubstringofGivenLength
 	{
+/*
 	    int maxVowels(string s, int k) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

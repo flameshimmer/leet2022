@@ -43,9 +43,12 @@ namespace Solution2022
 {
 	namespace FindLatestGroupofSizeM
 	{
+/*
 	    int findLatestStep(vector<int>& arr, int m) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

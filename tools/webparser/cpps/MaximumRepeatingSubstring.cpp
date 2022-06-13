@@ -33,9 +33,12 @@ namespace Solution2022
 {
 	namespace MaximumRepeatingSubstring
 	{
+/*
 	    int maxRepeating(string sequence, string word) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

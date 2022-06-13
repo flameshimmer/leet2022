@@ -31,6 +31,7 @@ namespace Solution2022
 {
 	namespace RemoveZeroSumConsecutiveNodesfromLinkedList
 	{
+/*
 	/**
 	 * Definition for singly-linked list.
 	 * struct ListNode {
@@ -44,6 +45,8 @@ namespace Solution2022
 	    ListNode* removeZeroSumSublists(ListNode* head) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

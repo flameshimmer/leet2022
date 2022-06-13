@@ -35,9 +35,12 @@ namespace Solution2022
 {
 	namespace PatchingArray
 	{
+/*
 	    int minPatches(vector<int>& nums, int n) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

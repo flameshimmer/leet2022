@@ -83,6 +83,7 @@ namespace Solution2022
 {
 	namespace ReadNCharactersGivenreadFourIICallMultipleTimes
 	{
+/*
 	/**
 	 * The read4 API is defined in the parent class Reader4.
 	 *     int read4(char *buf4);
@@ -96,6 +97,8 @@ namespace Solution2022
 	    int read(char *buf, int n) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

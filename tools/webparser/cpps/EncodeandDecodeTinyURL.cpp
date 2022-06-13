@@ -32,6 +32,7 @@ namespace Solution2022
 {
 	namespace EncodeandDecodeTinyURL
 	{
+/*
 	​
 	    // Encodes a URL to a shortened URL.
 	    string encode(string longUrl) {
@@ -46,6 +47,8 @@ namespace Solution2022
 	// Your Solution object will be instantiated and called as such:
 	// Solution solution;
 	// solution.decode(solution.encode(url));
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -37,9 +37,12 @@ namespace Solution2022
 {
 	namespace KnightProbabilityinChessboard
 	{
+/*
 	    double knightProbability(int n, int k, int row, int column) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

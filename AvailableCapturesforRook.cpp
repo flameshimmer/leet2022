@@ -36,9 +36,12 @@ namespace Solution2022
 {
 	namespace AvailableCapturesforRook
 	{
+/*
 	    int numRookCaptures(vector<vector<char>>& board) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

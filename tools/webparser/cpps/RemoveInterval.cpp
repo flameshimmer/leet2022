@@ -32,9 +32,12 @@ namespace Solution2022
 {
 	namespace RemoveInterval
 	{
+/*
 	    vector<vector<int>> removeInterval(vector<vector<int>>& intervals, vector<int>& toBeRemoved) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

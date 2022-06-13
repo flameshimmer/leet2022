@@ -36,9 +36,12 @@ namespace Solution2022
 {
 	namespace GroupthePeopleGiventheGroupSizeTheyBelongTo
 	{
+/*
 	    vector<vector<int>> groupThePeople(vector<int>& groupSizes) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

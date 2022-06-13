@@ -52,9 +52,12 @@ namespace Solution2022
 {
 	namespace ValidSudoku
 	{
+/*
 	    bool isValidSudoku(vector<vector<char>>& board) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

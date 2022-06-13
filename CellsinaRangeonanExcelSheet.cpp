@@ -40,9 +40,12 @@ namespace Solution2022
 {
 	namespace CellsinaRangeonanExcelSheet
 	{
+/*
 	    vector<string> cellsInRange(string s) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

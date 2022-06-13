@@ -34,9 +34,12 @@ namespace Solution2022
 {
 	namespace WordBreakII
 	{
+/*
 	    vector<string> wordBreak(string s, vector<string>& wordDict) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

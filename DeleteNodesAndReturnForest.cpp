@@ -25,6 +25,7 @@ namespace Solution2022
 {
 	namespace DeleteNodesAndReturnForest
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -39,6 +40,8 @@ namespace Solution2022
 	    vector<TreeNode*> delNodes(TreeNode* root, vector<int>& to_delete) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

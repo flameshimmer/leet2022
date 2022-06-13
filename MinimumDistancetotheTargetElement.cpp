@@ -36,9 +36,12 @@ namespace Solution2022
 {
 	namespace MinimumDistancetotheTargetElement
 	{
+/*
 	    int getMinDistance(vector<int>& nums, int target, int start) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

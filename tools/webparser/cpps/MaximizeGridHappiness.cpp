@@ -60,9 +60,12 @@ namespace Solution2022
 {
 	namespace MaximizeGridHappiness
 	{
+/*
 	    int getMaxGridHappiness(int m, int n, int introvertsCount, int extrovertsCount) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

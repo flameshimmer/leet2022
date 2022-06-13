@@ -30,6 +30,7 @@ namespace Solution2022
 {
 	namespace NestedListWeightSumII
 	{
+/*
 	/**
 	 * // This is the interface that allows for creating nested lists.
 	 * // You should not implement it, or speculate about its implementation
@@ -62,6 +63,8 @@ namespace Solution2022
 	    int depthSumInverse(vector<NestedInteger>& nestedList) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -67,6 +67,7 @@ namespace Solution2022
 {
 	namespace DesignSearchAutocompleteSystem
 	{
+/*
 	class AutocompleteSystem {
 	    AutocompleteSystem(vector<string>& sentences, vector<int>& times) {
 	        
@@ -81,6 +82,8 @@ namespace Solution2022
 	 * AutocompleteSystem* obj = new AutocompleteSystem(sentences, times);
 	 * vector<string> param_1 = obj->input(c);
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

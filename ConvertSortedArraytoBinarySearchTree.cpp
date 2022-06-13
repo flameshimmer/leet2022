@@ -25,6 +25,7 @@ namespace Solution2022
 {
 	namespace ConvertSortedArraytoBinarySearchTree
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -39,6 +40,8 @@ namespace Solution2022
 	    TreeNode* sortedArrayToBST(vector<int>& nums) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

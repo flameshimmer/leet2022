@@ -32,9 +32,12 @@ namespace Solution2022
 {
 	namespace MinimumPossibleIntegerAfteratMostKAdjacentSwapsOnDigits
 	{
+/*
 	    string minInteger(string num, int k) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

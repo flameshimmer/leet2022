@@ -38,9 +38,12 @@ namespace Solution2022
 {
 	namespace FindEventualSafeStates
 	{
+/*
 	    vector<int> eventualSafeNodes(vector<vector<int>>& graph) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -30,9 +30,12 @@ namespace Solution2022
 {
 	namespace NumberofWaystoBuyPensandPencils
 	{
+/*
 	    long long waysToBuyPensPencils(int total, int cost1, int cost2) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

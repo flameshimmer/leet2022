@@ -19,9 +19,12 @@ namespace Solution2022
 {
 	namespace SumofTwoIntegers
 	{
+/*
 	    int getSum(int a, int b) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

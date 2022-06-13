@@ -51,9 +51,12 @@ namespace Solution2022
 {
 	namespace MinimumCosttoChangetheFinalValueofExpression
 	{
+/*
 	    int minOperationsToFlip(string expression) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -54,9 +54,12 @@ namespace Solution2022
 {
 	namespace StoneGameIX
 	{
+/*
 	    bool stoneGameIX(vector<int>& stones) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

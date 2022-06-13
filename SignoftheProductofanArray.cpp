@@ -33,9 +33,12 @@ namespace Solution2022
 {
 	namespace SignoftheProductofanArray
 	{
+/*
 	    int arraySign(vector<int>& nums) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

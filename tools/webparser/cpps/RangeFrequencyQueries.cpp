@@ -38,6 +38,7 @@ namespace Solution2022
 {
 	namespace RangeFrequencyQueries
 	{
+/*
 	class RangeFreqQuery {
 	    RangeFreqQuery(vector<int>& arr) {
 	        
@@ -52,6 +53,8 @@ namespace Solution2022
 	 * RangeFreqQuery* obj = new RangeFreqQuery(arr);
 	 * int param_1 = obj->query(left,right,value);
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

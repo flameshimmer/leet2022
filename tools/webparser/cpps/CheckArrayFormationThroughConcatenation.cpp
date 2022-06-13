@@ -36,9 +36,12 @@ namespace Solution2022
 {
 	namespace CheckArrayFormationThroughConcatenation
 	{
+/*
 	    bool canFormArray(vector<int>& arr, vector<vector<int>>& pieces) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

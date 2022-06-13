@@ -47,9 +47,12 @@ namespace Solution2022
 {
 	namespace FindtheWinneroftheCircularGame
 	{
+/*
 	    int findTheWinner(int n, int k) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

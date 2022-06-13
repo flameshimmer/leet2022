@@ -25,9 +25,12 @@ namespace Solution2022
 {
 	namespace Permutations
 	{
+/*
 	    vector<vector<int>> permute(vector<int>& nums) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

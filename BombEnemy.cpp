@@ -25,9 +25,12 @@ namespace Solution2022
 {
 	namespace BombEnemy
 	{
+/*
 	    int maxKilledEnemies(vector<vector<char>>& grid) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

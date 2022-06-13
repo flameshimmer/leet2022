@@ -36,6 +36,7 @@ namespace Solution2022
 {
 	namespace NumberofShipsinaRectangle
 	{
+/*
 	/**
 	 * // This is Sea's API interface.
 	 * // You should not implement it, or speculate about its implementation
@@ -48,6 +49,8 @@ namespace Solution2022
 	    int countShips(Sea sea, vector<int> topRight, vector<int> bottomLeft) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

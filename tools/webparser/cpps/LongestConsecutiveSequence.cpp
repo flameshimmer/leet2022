@@ -23,9 +23,12 @@ namespace Solution2022
 {
 	namespace LongestConsecutiveSequence
 	{
+/*
 	    int longestConsecutive(vector<int>& nums) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

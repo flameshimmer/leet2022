@@ -47,9 +47,12 @@ namespace Solution2022
 {
 	namespace CuttingRibbons
 	{
+/*
 	    int maxLength(vector<int>& ribbons, int k) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

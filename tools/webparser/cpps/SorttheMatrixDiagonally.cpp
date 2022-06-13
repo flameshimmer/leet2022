@@ -27,9 +27,12 @@ namespace Solution2022
 {
 	namespace SorttheMatrixDiagonally
 	{
+/*
 	    vector<vector<int>> diagonalSort(vector<vector<int>>& mat) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

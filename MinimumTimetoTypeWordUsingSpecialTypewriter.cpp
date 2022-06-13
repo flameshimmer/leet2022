@@ -56,9 +56,12 @@ namespace Solution2022
 {
 	namespace MinimumTimetoTypeWordUsingSpecialTypewriter
 	{
+/*
 	    int minTimeToType(string word) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

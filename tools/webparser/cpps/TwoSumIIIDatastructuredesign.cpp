@@ -32,6 +32,7 @@ namespace Solution2022
 {
 	namespace TwoSumIIIDatastructuredesign
 	{
+/*
 	class TwoSum {
 	    TwoSum() {
 	        
@@ -51,6 +52,8 @@ namespace Solution2022
 	 * obj->add(number);
 	 * bool param_2 = obj->find(value);
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

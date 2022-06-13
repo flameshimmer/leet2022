@@ -28,9 +28,12 @@ namespace Solution2022
 {
 	namespace FindPermutation
 	{
+/*
 	    vector<int> findPermutation(string s) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

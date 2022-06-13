@@ -39,6 +39,7 @@ namespace Solution2022
 {
 	namespace ExamRoom
 	{
+/*
 	class ExamRoom {
 	    ExamRoom(int n) {
 	        
@@ -58,6 +59,8 @@ namespace Solution2022
 	 * int param_1 = obj->seat();
 	 * obj->leave(p);
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

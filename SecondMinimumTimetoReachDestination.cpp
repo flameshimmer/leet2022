@@ -63,9 +63,12 @@ namespace Solution2022
 {
 	namespace SecondMinimumTimetoReachDestination
 	{
+/*
 	    int secondMinimum(int n, vector<vector<int>>& edges, int time, int change) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -45,9 +45,12 @@ namespace Solution2022
 {
 	namespace NumberofIslandsII
 	{
+/*
 	    vector<int> numIslands2(int m, int n, vector<vector<int>>& positions) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

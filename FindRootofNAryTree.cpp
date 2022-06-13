@@ -46,6 +46,7 @@ namespace Solution2022
 {
 	namespace FindRootofNAryTree
 	{
+/*
 	/*
 	// Definition for a Node.
 	class Node {
@@ -67,6 +68,8 @@ namespace Solution2022
 	    Node* findRoot(vector<Node*> tree) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

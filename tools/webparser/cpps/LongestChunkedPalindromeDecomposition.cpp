@@ -34,9 +34,12 @@ namespace Solution2022
 {
 	namespace LongestChunkedPalindromeDecomposition
 	{
+/*
 	    int longestDecomposition(string text) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

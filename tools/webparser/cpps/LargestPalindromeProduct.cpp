@@ -21,9 +21,12 @@ namespace Solution2022
 {
 	namespace LargestPalindromeProduct
 	{
+/*
 	    int largestPalindrome(int n) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

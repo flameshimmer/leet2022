@@ -39,9 +39,12 @@ namespace Solution2022
 {
 	namespace DecodedStringatIndex
 	{
+/*
 	    string decodeAtIndex(string s, int k) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

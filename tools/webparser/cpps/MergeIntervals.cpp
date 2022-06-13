@@ -24,9 +24,12 @@ namespace Solution2022
 {
 	namespace MergeIntervals
 	{
+/*
 	    vector<vector<int>> merge(vector<vector<int>>& intervals) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

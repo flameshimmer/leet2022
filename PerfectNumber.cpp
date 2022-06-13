@@ -24,9 +24,12 @@ namespace Solution2022
 {
 	namespace PerfectNumber
 	{
+/*
 	    bool checkPerfectNumber(int num) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

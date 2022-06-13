@@ -56,6 +56,7 @@ namespace Solution2022
 {
 	namespace MergeBSTstoCreateSingleBST
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -70,6 +71,8 @@ namespace Solution2022
 	    TreeNode* canMerge(vector<TreeNode*>& trees) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

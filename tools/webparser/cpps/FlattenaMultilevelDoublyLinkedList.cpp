@@ -62,6 +62,7 @@ namespace Solution2022
 {
 	namespace FlattenaMultilevelDoublyLinkedList
 	{
+/*
 	/*
 	// Definition for a Node.
 	class Node {
@@ -74,6 +75,8 @@ namespace Solution2022
 	    Node* flatten(Node* head) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

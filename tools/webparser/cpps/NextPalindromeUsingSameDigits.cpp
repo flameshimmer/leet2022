@@ -30,9 +30,12 @@ namespace Solution2022
 {
 	namespace NextPalindromeUsingSameDigits
 	{
+/*
 	    string nextPalindrome(string num) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

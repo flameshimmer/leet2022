@@ -34,9 +34,12 @@ namespace Solution2022
 {
 	namespace RemoveBoxes
 	{
+/*
 	    int removeBoxes(vector<int>& boxes) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

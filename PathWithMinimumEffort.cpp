@@ -41,9 +41,12 @@ namespace Solution2022
 {
 	namespace PathWithMinimumEffort
 	{
+/*
 	    int minimumEffortPath(vector<vector<int>>& heights) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

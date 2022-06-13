@@ -23,9 +23,12 @@ namespace Solution2022
 {
 	namespace IntersectionofThreeSortedArrays
 	{
+/*
 	    vector<int> arraysIntersection(vector<int>& arr1, vector<int>& arr2, vector<int>& arr3) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

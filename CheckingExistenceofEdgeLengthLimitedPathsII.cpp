@@ -47,6 +47,7 @@ namespace Solution2022
 {
 	namespace CheckingExistenceofEdgeLengthLimitedPathsII
 	{
+/*
 	class DistanceLimitedPathsExist {
 	    DistanceLimitedPathsExist(int n, vector<vector<int>>& edgeList) {
 	        
@@ -61,6 +62,8 @@ namespace Solution2022
 	 * DistanceLimitedPathsExist* obj = new DistanceLimitedPathsExist(n, edgeList);
 	 * bool param_1 = obj->query(p,q,limit);
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -33,6 +33,7 @@ namespace Solution2022
 {
 	namespace CousinsinBinaryTree
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -47,6 +48,8 @@ namespace Solution2022
 	    bool isCousins(TreeNode* root, int x, int y) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -25,9 +25,12 @@ namespace Solution2022
 {
 	namespace RelativeSortArray
 	{
+/*
 	    vector<int> relativeSortArray(vector<int>& arr1, vector<int>& arr2) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

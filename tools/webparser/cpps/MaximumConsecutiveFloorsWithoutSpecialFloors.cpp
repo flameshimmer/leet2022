@@ -34,9 +34,12 @@ namespace Solution2022
 {
 	namespace MaximumConsecutiveFloorsWithoutSpecialFloors
 	{
+/*
 	    int maxConsecutive(int bottom, int top, vector<int>& special) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

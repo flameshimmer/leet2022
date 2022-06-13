@@ -23,9 +23,12 @@ namespace Solution2022
 {
 	namespace LargestRectangleinHistogram
 	{
+/*
 	    int largestRectangleArea(vector<int>& heights) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

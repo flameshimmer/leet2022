@@ -44,9 +44,12 @@ namespace Solution2022
 {
 	namespace FurthestBuildingYouCanReach
 	{
+/*
 	    int furthestBuilding(vector<int>& heights, int bricks, int ladders) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

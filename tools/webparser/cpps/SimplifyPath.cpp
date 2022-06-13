@@ -44,9 +44,12 @@ namespace Solution2022
 {
 	namespace SimplifyPath
 	{
+/*
 	    string simplifyPath(string path) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

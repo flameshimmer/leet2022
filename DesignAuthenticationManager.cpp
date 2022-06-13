@@ -63,6 +63,7 @@ namespace Solution2022
 {
 	namespace DesignAuthenticationManager
 	{
+/*
 	class AuthenticationManager {
 	    AuthenticationManager(int timeToLive) {
 	        
@@ -87,6 +88,8 @@ namespace Solution2022
 	 * obj->renew(tokenId,currentTime);
 	 * int param_3 = obj->countUnexpiredTokens(currentTime);
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

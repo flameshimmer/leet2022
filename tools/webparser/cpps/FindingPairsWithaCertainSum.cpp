@@ -48,6 +48,7 @@ namespace Solution2022
 {
 	namespace FindingPairsWithaCertainSum
 	{
+/*
 	class FindSumPairs {
 	    FindSumPairs(vector<int>& nums1, vector<int>& nums2) {
 	        
@@ -67,6 +68,8 @@ namespace Solution2022
 	 * obj->add(index,val);
 	 * int param_2 = obj->count(tot);
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

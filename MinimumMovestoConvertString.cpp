@@ -36,9 +36,12 @@ namespace Solution2022
 {
 	namespace MinimumMovestoConvertString
 	{
+/*
 	    int minimumMoves(string s) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

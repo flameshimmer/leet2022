@@ -24,9 +24,12 @@ namespace Solution2022
 {
 	namespace PerfectSquares
 	{
+/*
 	    int numSquares(int n) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

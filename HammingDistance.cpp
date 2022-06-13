@@ -25,9 +25,12 @@ namespace Solution2022
 {
 	namespace HammingDistance
 	{
+/*
 	    int hammingDistance(int x, int y) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

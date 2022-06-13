@@ -37,9 +37,12 @@ namespace Solution2022
 {
 	namespace LargestCombinationWithBitwiseANDGreaterThanZero
 	{
+/*
 	    int largestCombination(vector<int>& candidates) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -26,9 +26,12 @@ namespace Solution2022
 {
 	namespace SpecialPositionsinaBinaryMatrix
 	{
+/*
 	    int numSpecial(vector<vector<int>>& mat) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

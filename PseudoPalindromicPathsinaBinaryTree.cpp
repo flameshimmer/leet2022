@@ -37,6 +37,7 @@ namespace Solution2022
 {
 	namespace PseudoPalindromicPathsinaBinaryTree
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -51,6 +52,8 @@ namespace Solution2022
 	    int pseudoPalindromicPaths (TreeNode* root) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

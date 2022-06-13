@@ -38,9 +38,12 @@ namespace Solution2022
 {
 	namespace GCDSortofanArray
 	{
+/*
 	    bool gcdSort(vector<int>& nums) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

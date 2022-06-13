@@ -62,9 +62,12 @@ namespace Solution2022
 {
 	namespace MinimumSkipstoArriveatMeetingOnTime
 	{
+/*
 	    int minSkips(vector<int>& dist, int speed, int hoursBefore) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

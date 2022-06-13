@@ -31,9 +31,12 @@ namespace Solution2022
 {
 	namespace EliminationGame
 	{
+/*
 	    int lastRemaining(int n) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

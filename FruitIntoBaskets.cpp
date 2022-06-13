@@ -40,9 +40,12 @@ namespace Solution2022
 {
 	namespace FruitIntoBaskets
 	{
+/*
 	    int totalFruit(vector<int>& fruits) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -27,9 +27,12 @@ namespace Solution2022
 {
 	namespace SmallestGoodBase
 	{
+/*
 	    string smallestGoodBase(string n) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

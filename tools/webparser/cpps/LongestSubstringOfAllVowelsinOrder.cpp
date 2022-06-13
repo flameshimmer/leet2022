@@ -36,9 +36,12 @@ namespace Solution2022
 {
 	namespace LongestSubstringOfAllVowelsinOrder
 	{
+/*
 	    int longestBeautifulSubstring(string word) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

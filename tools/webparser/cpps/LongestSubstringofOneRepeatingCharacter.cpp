@@ -45,9 +45,12 @@ namespace Solution2022
 {
 	namespace LongestSubstringofOneRepeatingCharacter
 	{
+/*
 	    vector<int> longestRepeating(string s, string queryCharacters, vector<int>& queryIndices) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

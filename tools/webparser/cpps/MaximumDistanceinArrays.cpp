@@ -29,9 +29,12 @@ namespace Solution2022
 {
 	namespace MaximumDistanceinArrays
 	{
+/*
 	    int maxDistance(vector<vector<int>>& arrays) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

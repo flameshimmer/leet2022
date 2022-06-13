@@ -21,6 +21,7 @@ namespace Solution2022
 {
 	namespace ClosestBinarySearchTreeValue
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -35,6 +36,8 @@ namespace Solution2022
 	    int closestValue(TreeNode* root, double target) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

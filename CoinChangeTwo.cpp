@@ -36,9 +36,12 @@ namespace Solution2022
 {
 	namespace CoinChangeTwo
 	{
+/*
 	    int change(int amount, vector<int>& coins) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

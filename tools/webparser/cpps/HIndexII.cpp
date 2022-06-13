@@ -33,9 +33,12 @@ namespace Solution2022
 {
 	namespace HIndexII
 	{
+/*
 	    int hIndex(vector<int>& citations) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

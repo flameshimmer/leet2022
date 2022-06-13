@@ -23,9 +23,12 @@ namespace Solution2022
 {
 	namespace PalindromicSubstrings
 	{
+/*
 	    int countSubstrings(string s) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

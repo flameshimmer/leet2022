@@ -27,9 +27,12 @@ namespace Solution2022
 {
 	namespace OutofBoundaryPaths
 	{
+/*
 	    int findPaths(int m, int n, int maxMove, int startRow, int startColumn) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

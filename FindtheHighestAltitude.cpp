@@ -27,9 +27,12 @@ namespace Solution2022
 {
 	namespace FindtheHighestAltitude
 	{
+/*
 	    int largestAltitude(vector<int>& gain) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

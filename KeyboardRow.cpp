@@ -30,9 +30,12 @@ namespace Solution2022
 {
 	namespace KeyboardRow
 	{
+/*
 	    vector<string> findWords(vector<string>& words) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

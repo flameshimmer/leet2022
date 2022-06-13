@@ -58,6 +58,7 @@ namespace Solution2022
 {
 	namespace BookingConcertTicketsinGroups
 	{
+/*
 	class BookMyShow {
 	    BookMyShow(int n, int m) {
 	        
@@ -77,6 +78,8 @@ namespace Solution2022
 	 * vector<int> param_1 = obj->gather(k,maxRow);
 	 * bool param_2 = obj->scatter(k,maxRow);
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

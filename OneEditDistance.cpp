@@ -26,9 +26,12 @@ namespace Solution2022
 {
 	namespace OneEditDistance
 	{
+/*
 	    bool isOneEditDistance(string s, string t) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

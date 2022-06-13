@@ -31,9 +31,12 @@ namespace Solution2022
 {
 	namespace AddBoldTaginString
 	{
+/*
 	    string addBoldTag(string s, vector<string>& words) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

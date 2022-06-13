@@ -38,6 +38,7 @@ namespace Solution2022
 {
 	namespace DesignHashMap
 	{
+/*
 	class MyHashMap {
 	    MyHashMap() {
 	        
@@ -62,6 +63,8 @@ namespace Solution2022
 	 * int param_2 = obj->get(key);
 	 * obj->remove(key);
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

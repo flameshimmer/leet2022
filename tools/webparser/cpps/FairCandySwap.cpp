@@ -36,9 +36,12 @@ namespace Solution2022
 {
 	namespace FairCandySwap
 	{
+/*
 	    vector<int> fairCandySwap(vector<int>& aliceSizes, vector<int>& bobSizes) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

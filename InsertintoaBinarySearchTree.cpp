@@ -31,6 +31,7 @@ namespace Solution2022
 {
 	namespace InsertintoaBinarySearchTree
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -45,6 +46,8 @@ namespace Solution2022
 	    TreeNode* insertIntoBST(TreeNode* root, int val) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

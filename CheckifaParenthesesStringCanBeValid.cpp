@@ -44,9 +44,12 @@ namespace Solution2022
 {
 	namespace CheckifaParenthesesStringCanBeValid
 	{
+/*
 	    bool canBeValid(string s, string locked) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

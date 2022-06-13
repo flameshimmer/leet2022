@@ -52,9 +52,12 @@ namespace Solution2022
 {
 	namespace SnakesandLadders
 	{
+/*
 	    int snakesAndLadders(vector<vector<int>>& board) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

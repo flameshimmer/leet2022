@@ -38,9 +38,12 @@ namespace Solution2022
 {
 	namespace RichestCustomerWealth
 	{
+/*
 	    int maximumWealth(vector<vector<int>>& accounts) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

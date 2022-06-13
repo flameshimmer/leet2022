@@ -38,9 +38,12 @@ namespace Solution2022
 {
 	namespace MinimumNumberofFlipstoMaketheBinaryStringAlternating
 	{
+/*
 	    int minFlips(string s) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

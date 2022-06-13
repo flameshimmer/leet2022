@@ -43,9 +43,12 @@ namespace Solution2022
 {
 	namespace FindtheDistanceValueBetweenTwoArrays
 	{
+/*
 	    int findTheDistanceValue(vector<int>& arr1, vector<int>& arr2, int d) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

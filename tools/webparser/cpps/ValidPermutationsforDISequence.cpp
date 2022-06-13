@@ -34,9 +34,12 @@ namespace Solution2022
 {
 	namespace ValidPermutationsforDISequence
 	{
+/*
 	    int numPermsDISequence(string s) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

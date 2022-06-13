@@ -45,9 +45,12 @@ namespace Solution2022
 {
 	namespace CheckWhetherTwoStringsareAlmostEquivalent
 	{
+/*
 	    bool checkAlmostEquivalent(string word1, string word2) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

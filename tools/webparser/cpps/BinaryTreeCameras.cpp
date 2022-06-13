@@ -25,6 +25,7 @@ namespace Solution2022
 {
 	namespace BinaryTreeCameras
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -39,6 +40,8 @@ namespace Solution2022
 	    int minCameraCover(TreeNode* root) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

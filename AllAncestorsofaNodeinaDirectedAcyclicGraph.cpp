@@ -47,9 +47,12 @@ namespace Solution2022
 {
 	namespace AllAncestorsofaNodeinaDirectedAcyclicGraph
 	{
+/*
 	    vector<vector<int>> getAncestors(int n, vector<vector<int>>& edges) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

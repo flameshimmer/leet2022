@@ -48,9 +48,12 @@ namespace Solution2022
 {
 	namespace CourseScheduleIV
 	{
+/*
 	    vector<bool> checkIfPrerequisite(int numCourses, vector<vector<int>>& prerequisites, vector<vector<int>>& queries) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

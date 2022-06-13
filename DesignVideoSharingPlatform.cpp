@@ -110,6 +110,7 @@ namespace Solution2022
 {
 	namespace DesignVideoSharingPlatform
 	{
+/*
 	class VideoSharingPlatform {
 	    VideoSharingPlatform() {
 	        
@@ -147,6 +148,8 @@ namespace Solution2022
 	 * Your VideoSharingPlatform object will be instantiated and called as such:
 	 * VideoSharingPlatform* obj = new VideoSharingPlatform();
 	 * int param_1 = obj->upload(video);
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -31,9 +31,12 @@ namespace Solution2022
 {
 	namespace CheckIfaStringContainsAllBinaryCodesofSizeK
 	{
+/*
 	    bool hasAllCodes(string s, int k) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

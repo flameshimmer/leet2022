@@ -41,6 +41,7 @@ namespace Solution2022
 {
 	namespace EncodeNaryTreetoBinaryTree
 	{
+/*
 	/*
 	// Definition for a Node.
 	class Node {
@@ -77,6 +78,8 @@ namespace Solution2022
 	    
 	    // Decodes your binary tree to an n-ary tree.
 	    Node* decode(TreeNode* root) {
+
+*/
 
 		void Main() {
 			string test = "tst test test";

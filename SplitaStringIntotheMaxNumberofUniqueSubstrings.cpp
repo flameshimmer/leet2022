@@ -33,9 +33,12 @@ namespace Solution2022
 {
 	namespace SplitaStringIntotheMaxNumberofUniqueSubstrings
 	{
+/*
 	    int maxUniqueSplit(string s) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

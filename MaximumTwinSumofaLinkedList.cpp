@@ -43,6 +43,7 @@ namespace Solution2022
 {
 	namespace MaximumTwinSumofaLinkedList
 	{
+/*
 	/**
 	 * Definition for singly-linked list.
 	 * struct ListNode {
@@ -56,6 +57,8 @@ namespace Solution2022
 	    int pairSum(ListNode* head) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

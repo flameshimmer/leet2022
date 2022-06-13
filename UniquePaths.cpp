@@ -30,9 +30,12 @@ namespace Solution2022
 {
 	namespace UniquePaths
 	{
+/*
 	    int uniquePaths(int m, int n) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

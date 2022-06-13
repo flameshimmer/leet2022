@@ -78,6 +78,7 @@ namespace Solution2022
 {
 	namespace MinimumPathCostinaHiddenGrid
 	{
+/*
 	/**
 	 * // This is the GridMaster's API interface.
 	 * // You should not implement it, or speculate about its implementation
@@ -92,6 +93,8 @@ namespace Solution2022
 	    int findShortestPath(GridMaster &master) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

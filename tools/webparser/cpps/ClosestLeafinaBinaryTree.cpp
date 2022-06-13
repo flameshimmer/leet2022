@@ -34,6 +34,7 @@ namespace Solution2022
 {
 	namespace ClosestLeafinaBinaryTree
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -48,6 +49,8 @@ namespace Solution2022
 	    int findClosestLeaf(TreeNode* root, int k) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

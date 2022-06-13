@@ -28,9 +28,12 @@ namespace Solution2022
 {
 	namespace DIStringMatch
 	{
+/*
 	    vector<int> diStringMatch(string s) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

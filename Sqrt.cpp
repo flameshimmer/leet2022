@@ -25,9 +25,12 @@ namespace Solution2022
 {
 	namespace Sqrt
 	{
+/*
 	    int mySqrt(int x) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

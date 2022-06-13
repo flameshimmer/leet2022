@@ -27,9 +27,12 @@ namespace Solution2022
 {
 	namespace LetterCombinationsofaPhoneNumber
 	{
+/*
 	    vector<string> letterCombinations(string digits) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

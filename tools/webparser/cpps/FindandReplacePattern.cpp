@@ -31,9 +31,12 @@ namespace Solution2022
 {
 	namespace FindandReplacePattern
 	{
+/*
 	    vector<string> findAndReplacePattern(vector<string>& words, string pattern) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

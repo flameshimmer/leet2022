@@ -75,6 +75,7 @@ namespace Solution2022
 {
 	namespace DesignMovieRentalSystem
 	{
+/*
 	class MovieRentingSystem {
 	    MovieRentingSystem(int n, vector<vector<int>>& entries) {
 	        
@@ -104,6 +105,8 @@ namespace Solution2022
 	 * obj->drop(shop,movie);
 	 * vector<vector<int>> param_4 = obj->report();
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

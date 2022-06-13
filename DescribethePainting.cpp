@@ -64,9 +64,12 @@ namespace Solution2022
 {
 	namespace DescribethePainting
 	{
+/*
 	    vector<vector<long long>> splitPainting(vector<vector<int>>& segments) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

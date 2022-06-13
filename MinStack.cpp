@@ -36,6 +36,7 @@ namespace Solution2022
 {
 	namespace MinStack
 	{
+/*
 	class MinStack {
 	    MinStack() {
 	        
@@ -65,6 +66,8 @@ namespace Solution2022
 	 * int param_3 = obj->top();
 	 * int param_4 = obj->getMin();
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

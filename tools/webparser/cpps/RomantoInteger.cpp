@@ -48,9 +48,12 @@ namespace Solution2022
 {
 	namespace RomantoInteger
 	{
+/*
 	    int romanToInt(string s) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

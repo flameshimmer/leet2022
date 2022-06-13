@@ -24,9 +24,12 @@ namespace Solution2022
 {
 	namespace TrappingRainWater
 	{
+/*
 	    int trap(vector<int>& height) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

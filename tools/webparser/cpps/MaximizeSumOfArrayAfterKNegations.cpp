@@ -32,9 +32,12 @@ namespace Solution2022
 {
 	namespace MaximizeSumOfArrayAfterKNegations
 	{
+/*
 	    int largestSumAfterKNegations(vector<int>& nums, int k) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -23,9 +23,12 @@ namespace Solution2022
 {
 	namespace SelfDividingNumbers
 	{
+/*
 	    vector<int> selfDividingNumbers(int left, int right) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

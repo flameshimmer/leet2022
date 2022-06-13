@@ -31,9 +31,12 @@ namespace Solution2022
 {
 	namespace WordAbbreviation
 	{
+/*
 	    vector<string> wordsAbbreviation(vector<string>& words) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

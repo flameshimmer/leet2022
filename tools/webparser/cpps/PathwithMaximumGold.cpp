@@ -42,9 +42,12 @@ namespace Solution2022
 {
 	namespace PathwithMaximumGold
 	{
+/*
 	    int getMaximumGold(vector<vector<int>>& grid) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

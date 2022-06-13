@@ -40,9 +40,12 @@ namespace Solution2022
 {
 	namespace CanIWin
 	{
+/*
 	    bool canIWin(int maxChoosableInteger, int desiredTotal) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

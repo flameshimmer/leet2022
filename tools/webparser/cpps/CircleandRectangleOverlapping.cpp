@@ -32,9 +32,12 @@ namespace Solution2022
 {
 	namespace CircleandRectangleOverlapping
 	{
+/*
 	    bool checkOverlap(int radius, int xCenter, int yCenter, int x1, int y1, int x2, int y2) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

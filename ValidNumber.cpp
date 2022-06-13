@@ -40,9 +40,12 @@ namespace Solution2022
 {
 	namespace ValidNumber
 	{
+/*
 	    bool isNumber(string s) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

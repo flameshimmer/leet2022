@@ -36,9 +36,12 @@ namespace Solution2022
 {
 	namespace MinimumNumberofOperationstoMoveAllBallstoEachBox
 	{
+/*
 	    vector<int> minOperations(string boxes) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

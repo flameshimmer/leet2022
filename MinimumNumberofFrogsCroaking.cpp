@@ -36,9 +36,12 @@ namespace Solution2022
 {
 	namespace MinimumNumberofFrogsCroaking
 	{
+/*
 	    int minNumberOfFrogs(string croakOfFrogs) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

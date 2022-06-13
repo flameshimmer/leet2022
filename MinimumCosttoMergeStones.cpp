@@ -41,9 +41,12 @@ namespace Solution2022
 {
 	namespace MinimumCosttoMergeStones
 	{
+/*
 	    int mergeStones(vector<int>& stones, int k) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -20,6 +20,7 @@ namespace Solution2022
 {
 	namespace AllElementsinTwoBinarySearchTrees
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -34,6 +35,8 @@ namespace Solution2022
 	    vector<int> getAllElements(TreeNode* root1, TreeNode* root2) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

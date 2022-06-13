@@ -36,9 +36,12 @@ namespace Solution2022
 {
 	namespace MostCommonWord
 	{
+/*
 	    string mostCommonWord(string paragraph, vector<string>& banned) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -62,6 +62,7 @@ namespace Solution2022
 {
 	namespace RobotRoomCleaner
 	{
+/*
 	/**
 	 * // This is the robot's control interface.
 	 * // You should not implement it, or speculate about its implementation
@@ -84,6 +85,8 @@ namespace Solution2022
 	    void cleanRoom(Robot& robot) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -44,6 +44,7 @@ namespace Solution2022
 {
 	namespace RandomPointinNonoverlappingRectangles
 	{
+/*
 	    Solution(vector<vector<int>>& rects) {
 	        
 	    }
@@ -57,6 +58,8 @@ namespace Solution2022
 	 * Solution* obj = new Solution(rects);
 	 * vector<int> param_1 = obj->pick();
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

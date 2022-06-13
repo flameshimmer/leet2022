@@ -43,9 +43,12 @@ namespace Solution2022
 {
 	namespace AddMinimumNumberofRungs
 	{
+/*
 	    int addRungs(vector<int>& rungs, int dist) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -42,9 +42,12 @@ namespace Solution2022
 {
 	namespace CheckifMoveisLegal
 	{
+/*
 	    bool checkMove(vector<vector<char>>& board, int rMove, int cMove, char color) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

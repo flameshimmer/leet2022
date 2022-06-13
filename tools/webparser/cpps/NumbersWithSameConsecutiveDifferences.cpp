@@ -26,9 +26,12 @@ namespace Solution2022
 {
 	namespace NumbersWithSameConsecutiveDifferences
 	{
+/*
 	    vector<int> numsSameConsecDiff(int n, int k) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

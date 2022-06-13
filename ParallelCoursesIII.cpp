@@ -54,9 +54,12 @@ namespace Solution2022
 {
 	namespace ParallelCoursesIII
 	{
+/*
 	    int minimumTime(int n, vector<vector<int>>& relations, vector<int>& time) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

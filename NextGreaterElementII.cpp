@@ -26,9 +26,12 @@ namespace Solution2022
 {
 	namespace NextGreaterElementII
 	{
+/*
 	    vector<int> nextGreaterElements(vector<int>& nums) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

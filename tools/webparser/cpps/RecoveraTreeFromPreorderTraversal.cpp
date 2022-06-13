@@ -29,6 +29,7 @@ namespace Solution2022
 {
 	namespace RecoveraTreeFromPreorderTraversal
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -43,6 +44,8 @@ namespace Solution2022
 	    TreeNode* recoverFromPreorder(string traversal) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

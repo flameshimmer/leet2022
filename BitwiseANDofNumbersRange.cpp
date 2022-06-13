@@ -23,9 +23,12 @@ namespace Solution2022
 {
 	namespace BitwiseANDofNumbersRange
 	{
+/*
 	    int rangeBitwiseAnd(int left, int right) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

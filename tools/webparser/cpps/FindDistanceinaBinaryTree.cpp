@@ -31,6 +31,7 @@ namespace Solution2022
 {
 	namespace FindDistanceinaBinaryTree
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -45,6 +46,8 @@ namespace Solution2022
 	    int findDistance(TreeNode* root, int p, int q) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

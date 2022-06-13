@@ -50,9 +50,12 @@ namespace Solution2022
 {
 	namespace MinimumOperationstoConvertNumber
 	{
+/*
 	    int minimumOperations(vector<int>& nums, int start, int goal) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

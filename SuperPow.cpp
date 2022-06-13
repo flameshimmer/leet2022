@@ -26,9 +26,12 @@ namespace Solution2022
 {
 	namespace SuperPow
 	{
+/*
 	    int superPow(int a, vector<int>& b) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

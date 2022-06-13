@@ -27,9 +27,12 @@ namespace Solution2022
 {
 	namespace ContainsDuplicateIII
 	{
+/*
 	    bool containsNearbyAlmostDuplicate(vector<int>& nums, int k, int t) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

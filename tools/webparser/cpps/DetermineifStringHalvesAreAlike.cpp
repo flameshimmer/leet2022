@@ -30,9 +30,12 @@ namespace Solution2022
 {
 	namespace DetermineifStringHalvesAreAlike
 	{
+/*
 	    bool halvesAreAlike(string s) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

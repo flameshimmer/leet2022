@@ -27,9 +27,12 @@ namespace Solution2022
 {
 	namespace FactorCombinations
 	{
+/*
 	    vector<vector<int>> getFactors(int n) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

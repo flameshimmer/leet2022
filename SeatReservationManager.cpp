@@ -48,6 +48,7 @@ namespace Solution2022
 {
 	namespace SeatReservationManager
 	{
+/*
 	class SeatManager {
 	    SeatManager(int n) {
 	        
@@ -67,6 +68,8 @@ namespace Solution2022
 	 * int param_1 = obj->reserve();
 	 * obj->unreserve(seatNumber);
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

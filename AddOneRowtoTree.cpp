@@ -36,6 +36,7 @@ namespace Solution2022
 {
 	namespace AddOneRowtoTree
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -50,6 +51,8 @@ namespace Solution2022
 	    TreeNode* addOneRow(TreeNode* root, int val, int depth) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

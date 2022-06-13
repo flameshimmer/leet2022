@@ -42,9 +42,12 @@ namespace Solution2022
 {
 	namespace MaximizetheBeautyoftheGarden
 	{
+/*
 	    int maximumBeauty(vector<int>& flowers) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

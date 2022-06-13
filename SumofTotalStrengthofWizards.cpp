@@ -58,9 +58,12 @@ namespace Solution2022
 {
 	namespace SumofTotalStrengthofWizards
 	{
+/*
 	    int totalStrength(vector<int>& strength) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

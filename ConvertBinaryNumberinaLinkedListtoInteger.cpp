@@ -24,6 +24,7 @@ namespace Solution2022
 {
 	namespace ConvertBinaryNumberinaLinkedListtoInteger
 	{
+/*
 	/**
 	 * Definition for singly-linked list.
 	 * struct ListNode {
@@ -37,6 +38,8 @@ namespace Solution2022
 	    int getDecimalValue(ListNode* head) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

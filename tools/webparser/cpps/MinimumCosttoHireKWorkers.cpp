@@ -33,9 +33,12 @@ namespace Solution2022
 {
 	namespace MinimumCosttoHireKWorkers
 	{
+/*
 	    double mincostToHireWorkers(vector<int>& quality, vector<int>& wage, int k) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

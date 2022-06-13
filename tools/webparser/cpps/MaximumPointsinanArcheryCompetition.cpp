@@ -48,9 +48,12 @@ namespace Solution2022
 {
 	namespace MaximumPointsinanArcheryCompetition
 	{
+/*
 	    vector<int> maximumBobPoints(int numArrows, vector<int>& aliceArrows) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

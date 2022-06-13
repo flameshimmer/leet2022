@@ -45,9 +45,12 @@ namespace Solution2022
 {
 	namespace MaximumElementAfterDecreasingandRearranging
 	{
+/*
 	    int maximumElementAfterDecrementingAndRearranging(vector<int>& arr) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

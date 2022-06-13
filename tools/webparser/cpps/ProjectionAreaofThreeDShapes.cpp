@@ -34,9 +34,12 @@ namespace Solution2022
 {
 	namespace ProjectionAreaofThreeDShapes
 	{
+/*
 	    int projectionArea(vector<vector<int>>& grid) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -36,9 +36,12 @@ namespace Solution2022
 {
 	namespace CheckifStringIsDecomposableIntoValueEqualSubstrings
 	{
+/*
 	    bool isDecomposable(string s) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

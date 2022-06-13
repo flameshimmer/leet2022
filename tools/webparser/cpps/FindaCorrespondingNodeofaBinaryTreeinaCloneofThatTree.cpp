@@ -36,6 +36,7 @@ namespace Solution2022
 {
 	namespace FindaCorrespondingNodeofaBinaryTreeinaCloneofThatTree
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -49,6 +50,8 @@ namespace Solution2022
 	    TreeNode* getTargetCopy(TreeNode* original, TreeNode* cloned, TreeNode* target) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -33,9 +33,12 @@ namespace Solution2022
 {
 	namespace KeepMultiplyingFoundValuesbyTwo
 	{
+/*
 	    int findFinalValue(vector<int>& nums, int original) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

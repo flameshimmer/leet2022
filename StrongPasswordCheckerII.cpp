@@ -38,9 +38,12 @@ namespace Solution2022
 {
 	namespace StrongPasswordCheckerII
 	{
+/*
 	    bool strongPasswordCheckerII(string password) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

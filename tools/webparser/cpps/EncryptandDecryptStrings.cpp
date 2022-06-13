@@ -66,6 +66,7 @@ namespace Solution2022
 {
 	namespace EncryptandDecryptStrings
 	{
+/*
 	class Encrypter {
 	    Encrypter(vector<char>& keys, vector<string>& values, vector<string>& dictionary) {
 	        
@@ -85,6 +86,8 @@ namespace Solution2022
 	 * string param_1 = obj->encrypt(word1);
 	 * int param_2 = obj->decrypt(word2);
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

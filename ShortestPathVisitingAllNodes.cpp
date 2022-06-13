@@ -30,9 +30,12 @@ namespace Solution2022
 {
 	namespace ShortestPathVisitingAllNodes
 	{
+/*
 	    int shortestPathLength(vector<vector<int>>& graph) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

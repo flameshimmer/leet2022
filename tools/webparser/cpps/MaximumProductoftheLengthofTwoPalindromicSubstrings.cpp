@@ -33,9 +33,12 @@ namespace Solution2022
 {
 	namespace MaximumProductoftheLengthofTwoPalindromicSubstrings
 	{
+/*
 	    long long maxProduct(string s) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

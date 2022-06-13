@@ -33,9 +33,12 @@ namespace Solution2022
 {
 	namespace LargestPlusSign
 	{
+/*
 	    int orderOfLargestPlusSign(int n, vector<vector<int>>& mines) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -19,9 +19,12 @@ namespace Solution2022
 {
 	namespace SpiralMatrixII
 	{
+/*
 	    vector<vector<int>> generateMatrix(int n) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

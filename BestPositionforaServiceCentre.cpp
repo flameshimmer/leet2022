@@ -33,9 +33,12 @@ namespace Solution2022
 {
 	namespace BestPositionforaServiceCentre
 	{
+/*
 	    double getMinDistSum(vector<vector<int>>& positions) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -29,9 +29,12 @@ namespace Solution2022
 {
 	namespace MinimumSumofFourDigitNumberAfterSplittingDigits
 	{
+/*
 	    int minimumSum(int num) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

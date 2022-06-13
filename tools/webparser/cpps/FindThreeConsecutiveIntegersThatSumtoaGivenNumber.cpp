@@ -23,9 +23,12 @@ namespace Solution2022
 {
 	namespace FindThreeConsecutiveIntegersThatSumtoaGivenNumber
 	{
+/*
 	    vector<long long> sumOfThree(long long num) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -35,9 +35,12 @@ namespace Solution2022
 {
 	namespace HouseRobberII
 	{
+/*
 	    int rob(vector<int>& nums) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -41,6 +41,7 @@ namespace Solution2022
 {
 	namespace LowestCommonAncestorofaBinaryTreeIII
 	{
+/*
 	/*
 	// Definition for a Node.
 	class Node {
@@ -53,6 +54,8 @@ namespace Solution2022
 	    Node* lowestCommonAncestor(Node* p, Node * q) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

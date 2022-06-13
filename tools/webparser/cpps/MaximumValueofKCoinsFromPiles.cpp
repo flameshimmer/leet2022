@@ -33,9 +33,12 @@ namespace Solution2022
 {
 	namespace MaximumValueofKCoinsFromPiles
 	{
+/*
 	    int maxValueOfCoins(vector<vector<int>>& piles, int k) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

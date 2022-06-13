@@ -33,9 +33,12 @@ namespace Solution2022
 {
 	namespace SmallestRectangleEnclosingBlackPixels
 	{
+/*
 	    int minArea(vector<vector<char>>& image, int x, int y) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

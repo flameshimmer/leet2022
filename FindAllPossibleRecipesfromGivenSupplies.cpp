@@ -55,9 +55,12 @@ namespace Solution2022
 {
 	namespace FindAllPossibleRecipesfromGivenSupplies
 	{
+/*
 	    vector<string> findAllRecipes(vector<string>& recipes, vector<vector<string>>& ingredients, vector<string>& supplies) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

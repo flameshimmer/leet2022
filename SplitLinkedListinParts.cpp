@@ -34,6 +34,7 @@ namespace Solution2022
 {
 	namespace SplitLinkedListinParts
 	{
+/*
 	/**
 	 * Definition for singly-linked list.
 	 * struct ListNode {
@@ -47,6 +48,8 @@ namespace Solution2022
 	    vector<ListNode*> splitListToParts(ListNode* head, int k) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

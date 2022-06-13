@@ -44,9 +44,12 @@ namespace Solution2022
 {
 	namespace RevealCardsInIncreasingOrder
 	{
+/*
 	    vector<int> deckRevealedIncreasing(vector<int>& deck) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

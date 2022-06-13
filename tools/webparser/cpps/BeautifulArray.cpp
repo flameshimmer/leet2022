@@ -23,9 +23,12 @@ namespace Solution2022
 {
 	namespace BeautifulArray
 	{
+/*
 	    vector<int> beautifulArray(int n) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

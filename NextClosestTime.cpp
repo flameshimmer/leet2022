@@ -31,9 +31,12 @@ namespace Solution2022
 {
 	namespace NextClosestTime
 	{
+/*
 	    string nextClosestTime(string time) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

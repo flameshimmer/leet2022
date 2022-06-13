@@ -43,9 +43,12 @@ namespace Solution2022
 {
 	namespace PathsinMazeThatLeadtoSameRoom
 	{
+/*
 	    int numberOfPaths(int n, vector<vector<int>>& corridors) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

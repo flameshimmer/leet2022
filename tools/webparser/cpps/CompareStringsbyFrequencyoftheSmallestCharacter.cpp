@@ -33,9 +33,12 @@ namespace Solution2022
 {
 	namespace CompareStringsbyFrequencyoftheSmallestCharacter
 	{
+/*
 	    vector<int> numSmallerByFrequency(vector<string>& queries, vector<string>& words) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

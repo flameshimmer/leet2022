@@ -33,9 +33,12 @@ namespace Solution2022
 {
 	namespace BuildingsWithanOceanView
 	{
+/*
 	    vector<int> findBuildings(vector<int>& heights) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

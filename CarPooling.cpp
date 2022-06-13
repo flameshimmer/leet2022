@@ -30,9 +30,12 @@ namespace Solution2022
 {
 	namespace CarPooling
 	{
+/*
 	    bool carPooling(vector<vector<int>>& trips, int capacity) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

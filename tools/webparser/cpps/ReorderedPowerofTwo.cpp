@@ -21,9 +21,12 @@ namespace Solution2022
 {
 	namespace ReorderedPowerofTwo
 	{
+/*
 	    bool reorderedPowerOf2(int n) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

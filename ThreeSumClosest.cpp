@@ -24,9 +24,12 @@ namespace Solution2022
 {
 	namespace ThreeSumClosest
 	{
+/*
 	    int threeSumClosest(vector<int>& nums, int target) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

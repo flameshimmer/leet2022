@@ -28,6 +28,7 @@ namespace Solution2022
 {
 	namespace SerializeandDeserializeBST
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -55,6 +56,8 @@ namespace Solution2022
 	// string tree = ser->serialize(root);
 	// TreeNode* ans = deser->deserialize(tree);
 	// return ans;
+
+*/
 
 		void Main() {
 			string test = "tst test test";

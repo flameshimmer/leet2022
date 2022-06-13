@@ -29,9 +29,12 @@ namespace Solution2022
 {
 	namespace MaximumNumberofOccurrencesofaSubstring
 	{
+/*
 	    int maxFreq(string s, int maxLetters, int minSize, int maxSize) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

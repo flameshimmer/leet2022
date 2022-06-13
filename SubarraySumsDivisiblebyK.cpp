@@ -24,9 +24,12 @@ namespace Solution2022
 {
 	namespace SubarraySumsDivisiblebyK
 	{
+/*
 	    int subarraysDivByK(vector<int>& nums, int k) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

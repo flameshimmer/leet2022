@@ -45,6 +45,7 @@ namespace Solution2022
 {
 	namespace DetectSquares
 	{
+/*
 	class DetectSquares {
 	    DetectSquares() {
 	        
@@ -64,6 +65,8 @@ namespace Solution2022
 	 * obj->add(point);
 	 * int param_2 = obj->count(point);
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

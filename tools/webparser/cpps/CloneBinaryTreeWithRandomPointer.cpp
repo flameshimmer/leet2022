@@ -40,6 +40,7 @@ namespace Solution2022
 {
 	namespace CloneBinaryTreeWithRandomPointer
 	{
+/*
 	/**
 	 * Definition for a Node.
 	 * struct Node {
@@ -56,6 +57,8 @@ namespace Solution2022
 	    NodeCopy* copyRandomBinaryTree(Node* root) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

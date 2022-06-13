@@ -38,6 +38,7 @@ namespace Solution2022
 {
 	namespace DesignMostRecentlyUsedQueue
 	{
+/*
 	class MRUQueue {
 	    MRUQueue(int n) {
 	        
@@ -52,6 +53,8 @@ namespace Solution2022
 	 * MRUQueue* obj = new MRUQueue(n);
 	 * int param_1 = obj->fetch(k);
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

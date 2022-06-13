@@ -22,9 +22,12 @@ namespace Solution2022
 {
 	namespace CheckifBinaryStringHasatMostOneSegmentofOnes
 	{
+/*
 	    bool checkOnesSegment(string s) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

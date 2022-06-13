@@ -34,9 +34,12 @@ namespace Solution2022
 {
 	namespace MinimumOperationstoMakeaSubsequence
 	{
+/*
 	    int minOperations(vector<int>& target, vector<int>& arr) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

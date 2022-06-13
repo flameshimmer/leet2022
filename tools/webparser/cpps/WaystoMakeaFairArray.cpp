@@ -41,9 +41,12 @@ namespace Solution2022
 {
 	namespace WaystoMakeaFairArray
 	{
+/*
 	    int waysToMakeFair(vector<int>& nums) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

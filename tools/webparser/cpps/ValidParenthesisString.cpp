@@ -30,9 +30,12 @@ namespace Solution2022
 {
 	namespace ValidParenthesisString
 	{
+/*
 	    bool checkValidString(string s) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

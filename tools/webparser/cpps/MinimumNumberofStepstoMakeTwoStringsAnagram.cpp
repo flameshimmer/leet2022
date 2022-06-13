@@ -32,9 +32,12 @@ namespace Solution2022
 {
 	namespace MinimumNumberofStepstoMakeTwoStringsAnagram
 	{
+/*
 	    int minSteps(string s, string t) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

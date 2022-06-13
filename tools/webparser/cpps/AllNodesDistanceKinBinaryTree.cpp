@@ -27,6 +27,7 @@ namespace Solution2022
 {
 	namespace AllNodesDistanceKinBinaryTree
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -39,6 +40,8 @@ namespace Solution2022
 	    vector<int> distanceK(TreeNode* root, TreeNode* target, int k) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

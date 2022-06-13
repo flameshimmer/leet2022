@@ -36,6 +36,7 @@ namespace Solution2022
 {
 	namespace OnlineMajorityElementInSubarray
 	{
+/*
 	class MajorityChecker {
 	    MajorityChecker(vector<int>& arr) {
 	        
@@ -50,6 +51,8 @@ namespace Solution2022
 	 * MajorityChecker* obj = new MajorityChecker(arr);
 	 * int param_1 = obj->query(left,right,threshold);
 	 */
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -33,9 +33,12 @@ namespace Solution2022
 {
 	namespace GoalParserInterpretation
 	{
+/*
 	    string interpret(string command) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

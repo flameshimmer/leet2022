@@ -41,9 +41,12 @@ namespace Solution2022
 {
 	namespace MinimumGeneticMutation
 	{
+/*
 	    int minMutation(string start, string end, vector<string>& bank) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

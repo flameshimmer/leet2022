@@ -38,6 +38,7 @@ namespace Solution2022
 {
 	namespace PopulatingNextRightPointersinEachNode
 	{
+/*
 	/*
 	// Definition for a Node.
 	class Node {
@@ -57,6 +58,8 @@ namespace Solution2022
 	    Node* connect(Node* root) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

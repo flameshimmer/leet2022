@@ -53,9 +53,12 @@ namespace Solution2022
 {
 	namespace MinimizedMaximumofProductsDistributedtoAnyStore
 	{
+/*
 	    int minimizedMaximum(int n, vector<int>& quantities) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

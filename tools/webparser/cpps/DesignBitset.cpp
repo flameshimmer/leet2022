@@ -52,6 +52,7 @@ namespace Solution2022
 {
 	namespace DesignBitset
 	{
+/*
 	class Bitset {
 	    Bitset(int size) {
 	        
@@ -89,6 +90,8 @@ namespace Solution2022
 	 * Your Bitset object will be instantiated and called as such:
 	 * Bitset* obj = new Bitset(size);
 	 * obj->fix(idx);
+
+*/
 
 		void Main() {
 			string test = "tst test test";

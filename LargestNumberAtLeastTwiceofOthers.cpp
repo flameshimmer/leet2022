@@ -33,9 +33,12 @@ namespace Solution2022
 {
 	namespace LargestNumberAtLeastTwiceofOthers
 	{
+/*
 	    int dominantIndex(vector<int>& nums) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

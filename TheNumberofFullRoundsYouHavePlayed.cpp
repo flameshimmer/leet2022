@@ -42,9 +42,12 @@ namespace Solution2022
 {
 	namespace TheNumberofFullRoundsYouHavePlayed
 	{
+/*
 	    int numberOfRounds(string loginTime, string logoutTime) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

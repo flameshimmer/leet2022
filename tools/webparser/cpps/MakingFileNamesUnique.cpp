@@ -45,9 +45,12 @@ namespace Solution2022
 {
 	namespace MakingFileNamesUnique
 	{
+/*
 	    vector<string> getFolderNames(vector<string>& names) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

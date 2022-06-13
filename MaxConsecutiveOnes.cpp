@@ -22,9 +22,12 @@ namespace Solution2022
 {
 	namespace MaxConsecutiveOnes
 	{
+/*
 	    int findMaxConsecutiveOnes(vector<int>& nums) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

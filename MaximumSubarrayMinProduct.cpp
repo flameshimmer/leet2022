@@ -43,9 +43,12 @@ namespace Solution2022
 {
 	namespace MaximumSubarrayMinProduct
 	{
+/*
 	    int maxSumMinProduct(vector<int>& nums) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -41,9 +41,12 @@ namespace Solution2022
 {
 	namespace MaximumScorefromPerformingMultiplicationOperations
 	{
+/*
 	    int maximumScore(vector<int>& nums, vector<int>& multipliers) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

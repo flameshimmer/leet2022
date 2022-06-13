@@ -27,6 +27,7 @@ namespace Solution2022
 {
 	namespace MergeTwoBinaryTrees
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -41,6 +42,8 @@ namespace Solution2022
 	    TreeNode* mergeTrees(TreeNode* root1, TreeNode* root2) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

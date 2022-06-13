@@ -36,6 +36,7 @@ namespace Solution2022
 {
 	namespace MergeNodesinBetweenZeros
 	{
+/*
 	/**
 	 * Definition for singly-linked list.
 	 * struct ListNode {
@@ -49,6 +50,8 @@ namespace Solution2022
 	    ListNode* mergeNodes(ListNode* head) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

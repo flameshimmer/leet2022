@@ -55,9 +55,12 @@ namespace Solution2022
 {
 	namespace MinimumSpeedtoArriveonTime
 	{
+/*
 	    int minSpeedOnTime(vector<int>& dist, double hour) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

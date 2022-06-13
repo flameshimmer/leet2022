@@ -46,9 +46,12 @@ namespace Solution2022
 {
 	namespace MaximumSplitofPositiveEvenIntegers
 	{
+/*
 	    vector<long long> maximumEvenSplit(long long finalSum) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

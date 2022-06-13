@@ -37,9 +37,12 @@ namespace Solution2022
 {
 	namespace ReverseWordsinaString
 	{
+/*
 	    string reverseWords(string s) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

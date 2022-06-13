@@ -19,9 +19,12 @@ namespace Solution2022
 {
 	namespace SortanArray
 	{
+/*
 	    vector<int> sortArray(vector<int>& nums) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

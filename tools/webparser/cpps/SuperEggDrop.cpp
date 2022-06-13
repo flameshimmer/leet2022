@@ -38,9 +38,12 @@ namespace Solution2022
 {
 	namespace SuperEggDrop
 	{
+/*
 	    int superEggDrop(int k, int n) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

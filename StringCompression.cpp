@@ -41,9 +41,12 @@ namespace Solution2022
 {
 	namespace StringCompression
 	{
+/*
 	    int compress(vector<char>& chars) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

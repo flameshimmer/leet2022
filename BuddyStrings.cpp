@@ -33,9 +33,12 @@ namespace Solution2022
 {
 	namespace BuddyStrings
 	{
+/*
 	    bool buddyStrings(string s, string goal) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

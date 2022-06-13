@@ -45,9 +45,12 @@ namespace Solution2022
 {
 	namespace NumberofRestrictedPathsFromFirsttoLastNode
 	{
+/*
 	    int countRestrictedPaths(int n, vector<vector<int>>& edges) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

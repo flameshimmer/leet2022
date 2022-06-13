@@ -28,9 +28,12 @@ namespace Solution2022
 {
 	namespace MinimumWindowSubsequence
 	{
+/*
 	    string minWindow(string s1, string s2) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

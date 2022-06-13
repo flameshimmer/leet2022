@@ -28,9 +28,12 @@ namespace Solution2022
 {
 	namespace SetIntersectionSizeAtLeastTwo
 	{
+/*
 	    int intersectionSizeTwo(vector<vector<int>>& intervals) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

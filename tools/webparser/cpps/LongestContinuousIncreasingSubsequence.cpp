@@ -33,9 +33,12 @@ namespace Solution2022
 {
 	namespace LongestContinuousIncreasingSubsequence
 	{
+/*
 	    int findLengthOfLCIS(vector<int>& nums) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

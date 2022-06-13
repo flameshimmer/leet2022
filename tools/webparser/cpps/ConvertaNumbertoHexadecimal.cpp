@@ -24,9 +24,12 @@ namespace Solution2022
 {
 	namespace ConvertaNumbertoHexadecimal
 	{
+/*
 	    string toHex(int num) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

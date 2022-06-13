@@ -30,9 +30,12 @@ namespace Solution2022
 {
 	namespace SwapAdjacentinLRString
 	{
+/*
 	    bool canTransform(string start, string end) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

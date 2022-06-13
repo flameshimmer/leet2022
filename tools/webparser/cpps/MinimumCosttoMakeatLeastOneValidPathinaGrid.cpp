@@ -49,9 +49,12 @@ namespace Solution2022
 {
 	namespace MinimumCosttoMakeatLeastOneValidPathinaGrid
 	{
+/*
 	    int minCost(vector<vector<int>>& grid) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

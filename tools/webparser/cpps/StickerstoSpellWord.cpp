@@ -42,9 +42,12 @@ namespace Solution2022
 {
 	namespace StickerstoSpellWord
 	{
+/*
 	    int minStickers(vector<string>& stickers, string target) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

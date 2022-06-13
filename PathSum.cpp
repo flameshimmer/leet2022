@@ -33,6 +33,7 @@ namespace Solution2022
 {
 	namespace PathSum
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -47,6 +48,8 @@ namespace Solution2022
 	    bool hasPathSum(TreeNode* root, int targetSum) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

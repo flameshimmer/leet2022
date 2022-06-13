@@ -41,9 +41,12 @@ namespace Solution2022
 {
 	namespace NextGreaterNumericallyBalancedNumber
 	{
+/*
 	    int nextBeautifulNumber(int n) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

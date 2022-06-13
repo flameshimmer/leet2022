@@ -29,6 +29,7 @@ namespace Solution2022
 {
 	namespace SerializeandDeserializeBinaryTree
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -53,6 +54,8 @@ namespace Solution2022
 	// Your Codec object will be instantiated and called as such:
 	// Codec ser, deser;
 	// TreeNode* ans = deser.deserialize(ser.serialize(root));
+
+*/
 
 		void Main() {
 			string test = "tst test test";

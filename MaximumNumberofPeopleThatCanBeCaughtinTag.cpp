@@ -44,9 +44,12 @@ namespace Solution2022
 {
 	namespace MaximumNumberofPeopleThatCanBeCaughtinTag
 	{
+/*
 	    int catchMaximumAmountofPeople(vector<int>& team, int dist) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -25,6 +25,7 @@ namespace Solution2022
 {
 	namespace RemoveLinkedListElements
 	{
+/*
 	/**
 	 * Definition for singly-linked list.
 	 * struct ListNode {
@@ -38,6 +39,8 @@ namespace Solution2022
 	    ListNode* removeElements(ListNode* head, int val) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

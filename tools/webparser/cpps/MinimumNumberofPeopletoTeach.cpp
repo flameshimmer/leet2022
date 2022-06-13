@@ -43,9 +43,12 @@ namespace Solution2022
 {
 	namespace MinimumNumberofPeopletoTeach
 	{
+/*
 	    int minimumTeachings(int n, vector<vector<int>>& languages, vector<vector<int>>& friendships) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

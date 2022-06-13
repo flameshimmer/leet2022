@@ -28,9 +28,12 @@ namespace Solution2022
 {
 	namespace UglyNumber
 	{
+/*
 	    bool isUgly(int n) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

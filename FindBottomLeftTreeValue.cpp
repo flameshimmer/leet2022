@@ -20,6 +20,7 @@ namespace Solution2022
 {
 	namespace FindBottomLeftTreeValue
 	{
+/*
 	/**
 	 * Definition for a binary tree node.
 	 * struct TreeNode {
@@ -34,6 +35,8 @@ namespace Solution2022
 	    int findBottomLeftValue(TreeNode* root) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

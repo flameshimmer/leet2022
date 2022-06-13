@@ -40,9 +40,12 @@ namespace Solution2022
 {
 	namespace JumpGameIX
 	{
+/*
 	    long long minCost(vector<int>& nums, vector<int>& costs) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -38,6 +38,7 @@ namespace Solution2022
 {
 	namespace PrintImmutableLinkedListinReverse
 	{
+/*
 	/**
 	 * // This is the ImmutableListNode's API interface.
 	 * // You should not implement it, or speculate about its implementation.
@@ -51,6 +52,8 @@ namespace Solution2022
 	    void printLinkedListInReverse(ImmutableListNode* head) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

@@ -59,6 +59,7 @@ namespace Solution2022
 {
 	namespace FindtheMinimumandMaximumNumberofNodesBetweenCriticalPoints
 	{
+/*
 	/**
 	 * Definition for singly-linked list.
 	 * struct ListNode {
@@ -72,6 +73,8 @@ namespace Solution2022
 	    vector<int> nodesBetweenCriticalPoints(ListNode* head) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

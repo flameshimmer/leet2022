@@ -34,9 +34,12 @@ namespace Solution2022
 {
 	namespace MaxChunksToMakeSorted
 	{
+/*
 	    int maxChunksToSorted(vector<int>& arr) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

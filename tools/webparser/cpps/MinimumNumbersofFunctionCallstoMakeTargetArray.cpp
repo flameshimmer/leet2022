@@ -40,9 +40,12 @@ namespace Solution2022
 {
 	namespace MinimumNumbersofFunctionCallstoMakeTargetArray
 	{
+/*
 	    int minOperations(vector<int>& nums) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";

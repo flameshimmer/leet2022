@@ -40,9 +40,12 @@ namespace Solution2022
 {
 	namespace ReorderDatainLogFiles
 	{
+/*
 	    vector<string> reorderLogFiles(vector<string>& logs) {
 	        
 	    }
+
+*/
 
 		void Main() {
 			string test = "tst test test";
