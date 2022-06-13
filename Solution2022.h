@@ -106,7 +106,7 @@ namespace Solution2022
 	namespace AverageofLevelsinBinaryTree { void Main(); }
 	namespace MinimumSubsequenceinNonIncreasingOrder { void Main(); }
 	namespace HTMLEntityParser { void Main(); }
-	namespace NumberofWaystoPaintN×ThreeGrid { void Main(); }
+	namespace NumberofWaystoPaintNByThreeGrid { void Main(); }
 	namespace MaxDifferenceYouCanGetFromChanginganInteger { void Main(); }
 	namespace CheckIfaStringCanBreakAnotherString { void Main(); }
 	namespace DisplayTableofFoodOrdersinaRestaurant { void Main(); }
@@ -481,7 +481,7 @@ namespace Solution2022
 	namespace FourSum { void Main(); }
 	namespace KnightDialer { void Main(); }
 	namespace ShortestUnsortedContinuousSubarray { void Main(); }
-	namespace FilterRestaurantsbyVeganFriendly, PriceandDistance { void Main(); }
+	namespace FilterRestaurantsbyVeganFriendlyPriceandDistance { void Main(); }
 	namespace RottingOranges { void Main(); }
 	namespace RemoveDuplicateLetters { void Main(); }
 	namespace WildcardMatching { void Main(); }
@@ -1797,7 +1797,7 @@ namespace Solution2022
 	namespace NumberofFlowersinFullBloom { void Main(); }
 	namespace MyCalendarII { void Main(); }
 	namespace NumberofLinesToWriteString { void Main(); }
-	namespace ElementAppearingMoreThanTwoFive% InSortedArray{ void Main(); }
+	namespace ElementAppearingMoreThanTwoFivePercentInSortedArray { void Main(); }
 	namespace DecompressRunLengthEncodedList { void Main(); }
 	namespace BeautifulArrangementII { void Main(); }
 	namespace GroupsofSpecialEquivalentStrings { void Main(); }

@@ -103,7 +103,7 @@
 //Solution2022::AverageofLevelsinBinaryTree::Main();
 //Solution2022::MinimumSubsequenceinNonIncreasingOrder::Main();
 //Solution2022::HTMLEntityParser::Main();
-//Solution2022::NumberofWaystoPaintN×ThreeGrid::Main();
+//Solution2022::NumberofWaystoPaintNByThreeGrid::Main();
 //Solution2022::MaxDifferenceYouCanGetFromChanginganInteger::Main();
 //Solution2022::CheckIfaStringCanBreakAnotherString::Main();
 //Solution2022::DisplayTableofFoodOrdersinaRestaurant::Main();
@@ -478,7 +478,7 @@
 //Solution2022::FourSum::Main();
 //Solution2022::KnightDialer::Main();
 //Solution2022::ShortestUnsortedContinuousSubarray::Main();
-//Solution2022::FilterRestaurantsbyVeganFriendly,PriceandDistance::Main();
+//Solution2022::FilterRestaurantsbyVeganFriendlyPriceandDistance::Main();
 //Solution2022::RottingOranges::Main();
 //Solution2022::RemoveDuplicateLetters::Main();
 //Solution2022::WildcardMatching::Main();
@@ -1794,7 +1794,7 @@
 //Solution2022::NumberofFlowersinFullBloom::Main();
 //Solution2022::MyCalendarII::Main();
 //Solution2022::NumberofLinesToWriteString::Main();
-//Solution2022::ElementAppearingMoreThanTwoFive%InSortedArray::Main();
+//Solution2022::ElementAppearingMoreThanTwoFivePercentInSortedArray::Main();
 //Solution2022::DecompressRunLengthEncodedList::Main();
 //Solution2022::BeautifulArrangementII::Main();
 //Solution2022::GroupsofSpecialEquivalentStrings::Main();

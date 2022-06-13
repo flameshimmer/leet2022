@@ -32,7 +32,7 @@ namespace Solution2022
 			return (n > 0) && (n & (n - 1)) == 0;
 		}
 
-		bool isPowerOfTwo(int n) {
+		bool isPowerOfTwoLog(int n) {
 			double d = log10(n) / log10(2);
 			return n > 0 && floor(d) == ceil(d);
 		}
