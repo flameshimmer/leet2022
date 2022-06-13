@@ -56,12 +56,11 @@ namespace Solution2022
 {
 	namespace AverageWaitingTime
 	{
-/*
-	    double averageWaitingTime(vector<vector<int>>& customers) {
-	        
-	    }
 
-*/
+	//    double averageWaitingTime(vector<vector<int>>& customers) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

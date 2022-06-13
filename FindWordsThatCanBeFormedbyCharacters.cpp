@@ -27,12 +27,11 @@ namespace Solution2022
 {
 	namespace FindWordsThatCanBeFormedbyCharacters
 	{
-/*
-	    int countCharacters(vector<string>& words, string chars) {
-	        
-	    }
 
-*/
+	//    int countCharacters(vector<string>& words, string chars) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

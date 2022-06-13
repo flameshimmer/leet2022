@@ -48,12 +48,11 @@ namespace Solution2022
 {
 	namespace CountNumberofRectanglesContainingEachPoint
 	{
-/*
-	    vector<int> countRectangles(vector<vector<int>>& rectangles, vector<vector<int>>& points) {
-	        
-	    }
 
-*/
+	//    vector<int> countRectangles(vector<vector<int>>& rectangles, vector<vector<int>>& points) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -26,12 +26,11 @@ namespace Solution2022
 {
 	namespace MaximumGap
 	{
-/*
-	    int maximumGap(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int maximumGap(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

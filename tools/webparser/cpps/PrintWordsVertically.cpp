@@ -37,12 +37,11 @@ namespace Solution2022
 {
 	namespace PrintWordsVertically
 	{
-/*
-	    vector<string> printVertically(string s) {
-	        
-	    }
 
-*/
+	//    vector<string> printVertically(string s) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -42,12 +42,11 @@ namespace Solution2022
 {
 	namespace MaximumNumberofBallsinaBox
 	{
-/*
-	    int countBalls(int lowLimit, int highLimit) {
-	        
-	    }
 
-*/
+	//    int countBalls(int lowLimit, int highLimit) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

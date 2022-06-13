@@ -26,12 +26,11 @@ namespace Solution2022
 {
 	namespace UniqueSubstringsWithEqualDigitFrequency
 	{
-/*
-	    int equalDigitFrequency(string s) {
-	        
-	    }
 
-*/
+	//    int equalDigitFrequency(string s) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

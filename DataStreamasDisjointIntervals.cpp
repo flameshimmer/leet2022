@@ -41,28 +41,27 @@ namespace Solution2022
 {
 	namespace DataStreamasDisjointIntervals
 	{
-/*
-	class SummaryRanges {
-	    SummaryRanges() {
-	        
-	    }
-	    
-	    void addNum(int val) {
-	        
-	    }
-	    
-	    vector<vector<int>> getIntervals() {
-	        
-	    }
-	​
-	/**
-	 * Your SummaryRanges object will be instantiated and called as such:
-	 * SummaryRanges* obj = new SummaryRanges();
-	 * obj->addNum(val);
-	 * vector<vector<int>> param_2 = obj->getIntervals();
-	 */
 
-*/
+	//class SummaryRanges {
+	//    SummaryRanges() {
+	//        
+	//    }
+	//    
+	//    void addNum(int val) {
+	//        
+	//    }
+	//    
+	//    vector<vector<int>> getIntervals() {
+	//        
+	//    }
+	//​
+	///**
+	// * Your SummaryRanges object will be instantiated and called as such:
+	// * SummaryRanges* obj = new SummaryRanges();
+	// * obj->addNum(val);
+	// * vector<vector<int>> param_2 = obj->getIntervals();
+	// */
+
 
 		void Main() {
 			string test = "tst test test";

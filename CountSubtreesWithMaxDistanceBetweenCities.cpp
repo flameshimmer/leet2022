@@ -44,12 +44,11 @@ namespace Solution2022
 {
 	namespace CountSubtreesWithMaxDistanceBetweenCities
 	{
-/*
-	    vector<int> countSubgraphsForEachDiameter(int n, vector<vector<int>>& edges) {
-	        
-	    }
 
-*/
+	//    vector<int> countSubgraphsForEachDiameter(int n, vector<vector<int>>& edges) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

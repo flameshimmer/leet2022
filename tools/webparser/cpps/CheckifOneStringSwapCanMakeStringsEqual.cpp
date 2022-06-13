@@ -33,12 +33,11 @@ namespace Solution2022
 {
 	namespace CheckifOneStringSwapCanMakeStringsEqual
 	{
-/*
-	    bool areAlmostEqual(string s1, string s2) {
-	        
-	    }
 
-*/
+	//    bool areAlmostEqual(string s1, string s2) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

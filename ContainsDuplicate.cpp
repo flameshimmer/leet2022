@@ -24,12 +24,11 @@ namespace Solution2022
 {
 	namespace ContainsDuplicate
 	{
-/*
-	    bool containsDuplicate(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    bool containsDuplicate(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

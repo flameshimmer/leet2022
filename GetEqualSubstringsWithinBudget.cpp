@@ -37,12 +37,11 @@ namespace Solution2022
 {
 	namespace GetEqualSubstringsWithinBudget
 	{
-/*
-	    int equalSubstring(string s, string t, int maxCost) {
-	        
-	    }
 
-*/
+	//    int equalSubstring(string s, string t, int maxCost) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

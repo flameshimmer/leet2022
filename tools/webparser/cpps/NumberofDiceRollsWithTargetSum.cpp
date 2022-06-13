@@ -31,12 +31,11 @@ namespace Solution2022
 {
 	namespace NumberofDiceRollsWithTargetSum
 	{
-/*
-	    int numRollsToTarget(int n, int k, int target) {
-	        
-	    }
 
-*/
+	//    int numRollsToTarget(int n, int k, int target) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

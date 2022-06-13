@@ -24,12 +24,11 @@ namespace Solution2022
 {
 	namespace MultiplyStrings
 	{
-/*
-	    string multiply(string num1, string num2) {
-	        
-	    }
 
-*/
+	//    string multiply(string num1, string num2) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

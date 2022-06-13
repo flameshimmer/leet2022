@@ -35,12 +35,11 @@ namespace Solution2022
 {
 	namespace NumberofClosedIslands
 	{
-/*
-	    int closedIsland(vector<vector<int>>& grid) {
-	        
-	    }
 
-*/
+	//    int closedIsland(vector<vector<int>>& grid) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

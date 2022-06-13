@@ -49,12 +49,11 @@ namespace Solution2022
 {
 	namespace PutBoxesIntotheWarehouseI
 	{
-/*
-	    int maxBoxesInWarehouse(vector<int>& boxes, vector<int>& warehouse) {
-	        
-	    }
 
-*/
+	//    int maxBoxesInWarehouse(vector<int>& boxes, vector<int>& warehouse) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

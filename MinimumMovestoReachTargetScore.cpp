@@ -43,12 +43,11 @@ namespace Solution2022
 {
 	namespace MinimumMovestoReachTargetScore
 	{
-/*
-	    int minMoves(int target, int maxDoubles) {
-	        
-	    }
 
-*/
+	//    int minMoves(int target, int maxDoubles) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

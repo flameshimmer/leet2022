@@ -57,12 +57,11 @@ namespace Solution2022
 {
 	namespace GroupsofStrings
 	{
-/*
-	    vector<int> groupStrings(vector<string>& words) {
-	        
-	    }
 
-*/
+	//    vector<int> groupStrings(vector<string>& words) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

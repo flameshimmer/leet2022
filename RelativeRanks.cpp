@@ -33,12 +33,11 @@ namespace Solution2022
 {
 	namespace RelativeRanks
 	{
-/*
-	    vector<string> findRelativeRanks(vector<int>& score) {
-	        
-	    }
 
-*/
+	//    vector<string> findRelativeRanks(vector<int>& score) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

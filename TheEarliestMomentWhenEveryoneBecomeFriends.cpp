@@ -46,12 +46,11 @@ namespace Solution2022
 {
 	namespace TheEarliestMomentWhenEveryoneBecomeFriends
 	{
-/*
-	    int earliestAcq(vector<vector<int>>& logs, int n) {
-	        
-	    }
 
-*/
+	//    int earliestAcq(vector<vector<int>>& logs, int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

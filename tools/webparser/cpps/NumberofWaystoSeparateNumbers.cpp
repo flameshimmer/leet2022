@@ -34,12 +34,11 @@ namespace Solution2022
 {
 	namespace NumberofWaystoSeparateNumbers
 	{
-/*
-	    int numberOfCombinations(string num) {
-	        
-	    }
 
-*/
+	//    int numberOfCombinations(string num) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

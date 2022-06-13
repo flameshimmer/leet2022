@@ -34,12 +34,11 @@ namespace Solution2022
 {
 	namespace CheckIfaWordOccursAsaPrefixofAnyWordinaSentence
 	{
-/*
-	    int isPrefixOfWord(string sentence, string searchWord) {
-	        
-	    }
 
-*/
+	//    int isPrefixOfWord(string sentence, string searchWord) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

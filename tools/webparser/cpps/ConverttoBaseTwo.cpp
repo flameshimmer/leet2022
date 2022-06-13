@@ -29,12 +29,11 @@ namespace Solution2022
 {
 	namespace ConverttoBaseTwo
 	{
-/*
-	    string baseNeg2(int n) {
-	        
-	    }
 
-*/
+	//    string baseNeg2(int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -24,12 +24,11 @@ namespace Solution2022
 {
 	namespace TwoSumLessThanK
 	{
-/*
-	    int twoSumLessThanK(vector<int>& nums, int k) {
-	        
-	    }
 
-*/
+	//    int twoSumLessThanK(vector<int>& nums, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

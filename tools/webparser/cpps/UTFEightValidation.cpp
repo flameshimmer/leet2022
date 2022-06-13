@@ -47,12 +47,11 @@ namespace Solution2022
 {
 	namespace UTFEightValidation
 	{
-/*
-	    bool validUtf8(vector<int>& data) {
-	        
-	    }
 
-*/
+	//    bool validUtf8(vector<int>& data) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

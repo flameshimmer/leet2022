@@ -37,12 +37,11 @@ namespace Solution2022
 {
 	namespace LongestCommonSubsequenceBetweenSortedArrays
 	{
-/*
-	    vector<int> longestCommonSubsequence(vector<vector<int>>& arrays) {
-	        
-	    }
 
-*/
+	//    vector<int> longestCommonSubsequence(vector<vector<int>>& arrays) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

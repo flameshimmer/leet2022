@@ -44,22 +44,21 @@ namespace Solution2022
 {
 	namespace RandomPointinNonoverlappingRectangles
 	{
-/*
-	    Solution(vector<vector<int>>& rects) {
-	        
-	    }
-	    
-	    vector<int> pick() {
-	        
-	    }
-	​
-	/**
-	 * Your Solution object will be instantiated and called as such:
-	 * Solution* obj = new Solution(rects);
-	 * vector<int> param_1 = obj->pick();
-	 */
 
-*/
+	//    Solution(vector<vector<int>>& rects) {
+	//        
+	//    }
+	//    
+	//    vector<int> pick() {
+	//        
+	//    }
+	//​
+	///**
+	// * Your Solution object will be instantiated and called as such:
+	// * Solution* obj = new Solution(rects);
+	// * vector<int> param_1 = obj->pick();
+	// */
+
 
 		void Main() {
 			string test = "tst test test";

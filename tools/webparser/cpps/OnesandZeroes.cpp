@@ -30,12 +30,11 @@ namespace Solution2022
 {
 	namespace OnesandZeroes
 	{
-/*
-	    int findMaxForm(vector<string>& strs, int m, int n) {
-	        
-	    }
 
-*/
+	//    int findMaxForm(vector<string>& strs, int m, int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

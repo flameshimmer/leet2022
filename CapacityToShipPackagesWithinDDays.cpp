@@ -51,12 +51,11 @@ namespace Solution2022
 {
 	namespace CapacityToShipPackagesWithinDDays
 	{
-/*
-	    int shipWithinDays(vector<int>& weights, int days) {
-	        
-	    }
 
-*/
+	//    int shipWithinDays(vector<int>& weights, int days) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

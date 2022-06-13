@@ -33,12 +33,11 @@ namespace Solution2022
 {
 	namespace ReplaceAllQuestionMarkstoAvoidConsecutiveRepeatingCharacters
 	{
-/*
-	    string modifyString(string s) {
-	        
-	    }
 
-*/
+	//    string modifyString(string s) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

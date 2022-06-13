@@ -48,12 +48,11 @@ namespace Solution2022
 {
 	namespace IncrementalMemoryLeak
 	{
-/*
-	    vector<int> memLeak(int memory1, int memory2) {
-	        
-	    }
 
-*/
+	//    vector<int> memLeak(int memory1, int memory2) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

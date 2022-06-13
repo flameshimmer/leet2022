@@ -24,12 +24,11 @@ namespace Solution2022
 {
 	namespace NumberofEquivalentDominoPairs
 	{
-/*
-	    int numEquivDominoPairs(vector<vector<int>>& dominoes) {
-	        
-	    }
 
-*/
+	//    int numEquivDominoPairs(vector<vector<int>>& dominoes) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -77,12 +77,11 @@ namespace Solution2022
 {
 	namespace StringtoInteger
 	{
-/*
-	    int myAtoi(string s) {
-	        
-	    }
 
-*/
+	//    int myAtoi(string s) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

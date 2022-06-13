@@ -47,12 +47,11 @@ namespace Solution2022
 {
 	namespace ParallelCoursesII
 	{
-/*
-	    int minNumberOfSemesters(int n, vector<vector<int>>& relations, int k) {
-	        
-	    }
 
-*/
+	//    int minNumberOfSemesters(int n, vector<vector<int>>& relations, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

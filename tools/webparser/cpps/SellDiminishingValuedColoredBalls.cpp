@@ -39,12 +39,11 @@ namespace Solution2022
 {
 	namespace SellDiminishingValuedColoredBalls
 	{
-/*
-	    int maxProfit(vector<int>& inventory, int orders) {
-	        
-	    }
 
-*/
+	//    int maxProfit(vector<int>& inventory, int orders) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

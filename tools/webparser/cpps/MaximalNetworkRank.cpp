@@ -41,12 +41,11 @@ namespace Solution2022
 {
 	namespace MaximalNetworkRank
 	{
-/*
-	    int maximalNetworkRank(int n, vector<vector<int>>& roads) {
-	        
-	    }
 
-*/
+	//    int maximalNetworkRank(int n, vector<vector<int>>& roads) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

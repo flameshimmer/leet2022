@@ -36,12 +36,11 @@ namespace Solution2022
 {
 	namespace CountingBits
 	{
-/*
-	    vector<int> countBits(int n) {
-	        
-	    }
 
-*/
+	//    vector<int> countBits(int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -28,12 +28,11 @@ namespace Solution2022
 {
 	namespace FractiontoRecurringDecimal
 	{
-/*
-	    string fractionToDecimal(int numerator, int denominator) {
-	        
-	    }
 
-*/
+	//    string fractionToDecimal(int numerator, int denominator) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

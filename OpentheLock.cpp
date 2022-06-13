@@ -49,12 +49,11 @@ namespace Solution2022
 {
 	namespace OpentheLock
 	{
-/*
-	    int openLock(vector<string>& deadends, string target) {
-	        
-	    }
 
-*/
+	//    int openLock(vector<string>& deadends, string target) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

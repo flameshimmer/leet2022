@@ -57,12 +57,11 @@ namespace Solution2022
 {
 	namespace IPtoCIDR
 	{
-/*
-	    vector<string> ipToCIDR(string ip, int n) {
-	        
-	    }
 
-*/
+	//    vector<string> ipToCIDR(string ip, int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

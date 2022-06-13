@@ -57,45 +57,44 @@ namespace Solution2022
 {
 	namespace BinarySearchTreeIteratorII
 	{
-/*
-	/**
-	 * Definition for a binary tree node.
-	 * struct TreeNode {
-	 *     int val;
-	 *     TreeNode *left;
-	 *     TreeNode *right;
-	 *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
-	 *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
-	 *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
-	 * };
-	 */
-	class BSTIterator {
-	    BSTIterator(TreeNode* root) {
-	        
-	    }
-	    
-	    bool hasNext() {
-	        
-	    }
-	    
-	    int next() {
-	        
-	    }
-	    
-	    bool hasPrev() {
-	        
-	    }
-	    
-	    int prev() {
-	        
-	    }
-	​
-	/**
-	 * Your BSTIterator object will be instantiated and called as such:
-	 * BSTIterator* obj = new BSTIterator(root);
-	 * bool param_1 = obj->hasNext();
 
-*/
+	///**
+	// * Definition for a binary tree node.
+	// * struct TreeNode {
+	// *     int val;
+	// *     TreeNode *left;
+	// *     TreeNode *right;
+	// *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+	// *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+	// *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+	// * };
+	// */
+	//class BSTIterator {
+	//    BSTIterator(TreeNode* root) {
+	//        
+	//    }
+	//    
+	//    bool hasNext() {
+	//        
+	//    }
+	//    
+	//    int next() {
+	//        
+	//    }
+	//    
+	//    bool hasPrev() {
+	//        
+	//    }
+	//    
+	//    int prev() {
+	//        
+	//    }
+	//​
+	///**
+	// * Your BSTIterator object will be instantiated and called as such:
+	// * BSTIterator* obj = new BSTIterator(root);
+	// * bool param_1 = obj->hasNext();
+
 
 		void Main() {
 			string test = "tst test test";

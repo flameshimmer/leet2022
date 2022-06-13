@@ -28,12 +28,11 @@ namespace Solution2022
 {
 	namespace PartitionArrayintoDisjointIntervals
 	{
-/*
-	    int partitionDisjoint(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int partitionDisjoint(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

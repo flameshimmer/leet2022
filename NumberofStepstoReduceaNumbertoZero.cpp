@@ -36,12 +36,11 @@ namespace Solution2022
 {
 	namespace NumberofStepstoReduceaNumbertoZero
 	{
-/*
-	    int numberOfSteps(int num) {
-	        
-	    }
 
-*/
+	//    int numberOfSteps(int num) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

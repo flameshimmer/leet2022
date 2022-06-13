@@ -35,12 +35,11 @@ namespace Solution2022
 {
 	namespace MinimumNumberofFlipstoConvertBinaryMatrixtoZeroMatrix
 	{
-/*
-	    int minFlips(vector<vector<int>>& mat) {
-	        
-	    }
 
-*/
+	//    int minFlips(vector<vector<int>>& mat) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

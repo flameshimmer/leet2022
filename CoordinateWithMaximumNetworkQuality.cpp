@@ -52,12 +52,11 @@ namespace Solution2022
 {
 	namespace CoordinateWithMaximumNetworkQuality
 	{
-/*
-	    vector<int> bestCoordinate(vector<vector<int>>& towers, int radius) {
-	        
-	    }
 
-*/
+	//    vector<int> bestCoordinate(vector<vector<int>>& towers, int radius) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

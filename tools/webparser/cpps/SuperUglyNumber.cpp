@@ -30,12 +30,11 @@ namespace Solution2022
 {
 	namespace SuperUglyNumber
 	{
-/*
-	    int nthSuperUglyNumber(int n, vector<int>& primes) {
-	        
-	    }
 
-*/
+	//    int nthSuperUglyNumber(int n, vector<int>& primes) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

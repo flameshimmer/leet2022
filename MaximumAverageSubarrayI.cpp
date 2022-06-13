@@ -24,12 +24,11 @@ namespace Solution2022
 {
 	namespace MaximumAverageSubarrayI
 	{
-/*
-	    double findMaxAverage(vector<int>& nums, int k) {
-	        
-	    }
 
-*/
+	//    double findMaxAverage(vector<int>& nums, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -28,12 +28,11 @@ namespace Solution2022
 {
 	namespace WallsandGates
 	{
-/*
-	    void wallsAndGates(vector<vector<int>>& rooms) {
-	        
-	    }
 
-*/
+	//    void wallsAndGates(vector<vector<int>>& rooms) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

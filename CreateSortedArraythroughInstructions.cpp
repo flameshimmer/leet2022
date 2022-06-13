@@ -60,12 +60,11 @@ namespace Solution2022
 {
 	namespace CreateSortedArraythroughInstructions
 	{
-/*
-	    int createSortedArray(vector<int>& instructions) {
-	        
-	    }
 
-*/
+	//    int createSortedArray(vector<int>& instructions) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

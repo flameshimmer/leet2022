@@ -36,21 +36,20 @@ namespace Solution2022
 {
 	namespace NumberofShipsinaRectangle
 	{
-/*
-	/**
-	 * // This is Sea's API interface.
-	 * // You should not implement it, or speculate about its implementation
-	 * class Sea {
-	 *   public:
-	 *     bool hasShips(vector<int> topRight, vector<int> bottomLeft);
-	 * };
-	 */
-	​
-	    int countShips(Sea sea, vector<int> topRight, vector<int> bottomLeft) {
-	        
-	    }
 
-*/
+	///**
+	// * // This is Sea's API interface.
+	// * // You should not implement it, or speculate about its implementation
+	// * class Sea {
+	// *   public:
+	// *     bool hasShips(vector<int> topRight, vector<int> bottomLeft);
+	// * };
+	// */
+	//​
+	//    int countShips(Sea sea, vector<int> topRight, vector<int> bottomLeft) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

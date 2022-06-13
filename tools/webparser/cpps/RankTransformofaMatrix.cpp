@@ -44,12 +44,11 @@ namespace Solution2022
 {
 	namespace RankTransformofaMatrix
 	{
-/*
-	    vector<vector<int>> matrixRankTransform(vector<vector<int>>& matrix) {
-	        
-	    }
 
-*/
+	//    vector<vector<int>> matrixRankTransform(vector<vector<int>>& matrix) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -54,23 +54,22 @@ namespace Solution2022
 {
 	namespace BuildBinaryExpressionTreeFromInfixExpression
 	{
-/*
-	/**
-	 * Definition for a binary tree node.
-	 * struct Node {
-	 *     char val;
-	 *     Node *left;
-	 *     Node *right;
-	 *     Node() : val(' '), left(nullptr), right(nullptr) {}
-	 *     Node(char x) : val(x), left(nullptr), right(nullptr) {}
-	 *     Node(char x, Node *left, Node *right) : val(x), left(left), right(right) {}
-	 * };
-	 */
-	    Node* expTree(string s) {
-	        
-	    }
 
-*/
+	///**
+	// * Definition for a binary tree node.
+	// * struct Node {
+	// *     char val;
+	// *     Node *left;
+	// *     Node *right;
+	// *     Node() : val(' '), left(nullptr), right(nullptr) {}
+	// *     Node(char x) : val(x), left(nullptr), right(nullptr) {}
+	// *     Node(char x, Node *left, Node *right) : val(x), left(left), right(right) {}
+	// * };
+	// */
+	//    Node* expTree(string s) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

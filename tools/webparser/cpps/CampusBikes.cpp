@@ -45,12 +45,11 @@ namespace Solution2022
 {
 	namespace CampusBikes
 	{
-/*
-	    vector<int> assignBikes(vector<vector<int>>& workers, vector<vector<int>>& bikes) {
-	        
-	    }
 
-*/
+	//    vector<int> assignBikes(vector<vector<int>>& workers, vector<vector<int>>& bikes) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

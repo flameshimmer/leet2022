@@ -35,12 +35,11 @@ namespace Solution2022
 {
 	namespace MissingElementinSortedArray
 	{
-/*
-	    int missingElement(vector<int>& nums, int k) {
-	        
-	    }
 
-*/
+	//    int missingElement(vector<int>& nums, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

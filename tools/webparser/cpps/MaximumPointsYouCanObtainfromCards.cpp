@@ -38,12 +38,11 @@ namespace Solution2022
 {
 	namespace MaximumPointsYouCanObtainfromCards
 	{
-/*
-	    int maxScore(vector<int>& cardPoints, int k) {
-	        
-	    }
 
-*/
+	//    int maxScore(vector<int>& cardPoints, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

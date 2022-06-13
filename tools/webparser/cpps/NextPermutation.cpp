@@ -38,12 +38,11 @@ namespace Solution2022
 {
 	namespace NextPermutation
 	{
-/*
-	    void nextPermutation(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    void nextPermutation(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

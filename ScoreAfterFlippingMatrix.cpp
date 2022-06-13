@@ -28,12 +28,11 @@ namespace Solution2022
 {
 	namespace ScoreAfterFlippingMatrix
 	{
-/*
-	    int matrixScore(vector<vector<int>>& grid) {
-	        
-	    }
 
-*/
+	//    int matrixScore(vector<vector<int>>& grid) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

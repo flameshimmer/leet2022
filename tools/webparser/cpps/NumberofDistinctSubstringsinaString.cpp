@@ -25,12 +25,11 @@ namespace Solution2022
 {
 	namespace NumberofDistinctSubstringsinaString
 	{
-/*
-	    int countDistinct(string s) {
-	        
-	    }
 
-*/
+	//    int countDistinct(string s) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

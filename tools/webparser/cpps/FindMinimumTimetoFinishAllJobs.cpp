@@ -30,12 +30,11 @@ namespace Solution2022
 {
 	namespace FindMinimumTimetoFinishAllJobs
 	{
-/*
-	    int minimumTimeRequired(vector<int>& jobs, int k) {
-	        
-	    }
 
-*/
+	//    int minimumTimeRequired(vector<int>& jobs, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

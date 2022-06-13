@@ -50,12 +50,11 @@ namespace Solution2022
 {
 	namespace MinimumSidewayJumps
 	{
-/*
-	    int minSideJumps(vector<int>& obstacles) {
-	        
-	    }
 
-*/
+	//    int minSideJumps(vector<int>& obstacles) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

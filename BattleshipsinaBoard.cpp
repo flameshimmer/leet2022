@@ -30,12 +30,11 @@ namespace Solution2022
 {
 	namespace BattleshipsinaBoard
 	{
-/*
-	    int countBattleships(vector<vector<char>>& board) {
-	        
-	    }
 
-*/
+	//    int countBattleships(vector<vector<char>>& board) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

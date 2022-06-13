@@ -47,12 +47,11 @@ namespace Solution2022
 {
 	namespace TheMaze
 	{
-/*
-	    bool hasPath(vector<vector<int>>& maze, vector<int>& start, vector<int>& destination) {
-	        
-	    }
 
-*/
+	//    bool hasPath(vector<vector<int>>& maze, vector<int>& start, vector<int>& destination) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

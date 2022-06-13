@@ -43,12 +43,11 @@ namespace Solution2022
 {
 	namespace FindSubstringWithGivenHashValue
 	{
-/*
-	    string subStrHash(string s, int power, int modulo, int k, int hashValue) {
-	        
-	    }
 
-*/
+	//    string subStrHash(string s, int power, int modulo, int k, int hashValue) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

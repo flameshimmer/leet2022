@@ -32,12 +32,11 @@ namespace Solution2022
 {
 	namespace MaximumAscendingSubarraySum
 	{
-/*
-	    int maxAscendingSum(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int maxAscendingSum(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

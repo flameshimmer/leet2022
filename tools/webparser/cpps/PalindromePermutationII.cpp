@@ -22,12 +22,11 @@ namespace Solution2022
 {
 	namespace PalindromePermutationII
 	{
-/*
-	    vector<string> generatePalindromes(string s) {
-	        
-	    }
 
-*/
+	//    vector<string> generatePalindromes(string s) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -27,12 +27,11 @@ namespace Solution2022
 {
 	namespace MaxAreaofIsland
 	{
-/*
-	    int maxAreaOfIsland(vector<vector<int>>& grid) {
-	        
-	    }
 
-*/
+	//    int maxAreaOfIsland(vector<vector<int>>& grid) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

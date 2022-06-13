@@ -61,28 +61,27 @@ namespace Solution2022
 {
 	namespace LFUCache
 	{
-/*
-	class LFUCache {
-	    LFUCache(int capacity) {
-	        
-	    }
-	    
-	    int get(int key) {
-	        
-	    }
-	    
-	    void put(int key, int value) {
-	        
-	    }
-	​
-	/**
-	 * Your LFUCache object will be instantiated and called as such:
-	 * LFUCache* obj = new LFUCache(capacity);
-	 * int param_1 = obj->get(key);
-	 * obj->put(key,value);
-	 */
 
-*/
+	//class LFUCache {
+	//    LFUCache(int capacity) {
+	//        
+	//    }
+	//    
+	//    int get(int key) {
+	//        
+	//    }
+	//    
+	//    void put(int key, int value) {
+	//        
+	//    }
+	//​
+	///**
+	// * Your LFUCache object will be instantiated and called as such:
+	// * LFUCache* obj = new LFUCache(capacity);
+	// * int param_1 = obj->get(key);
+	// * obj->put(key,value);
+	// */
+
 
 		void Main() {
 			string test = "tst test test";

@@ -33,12 +33,11 @@ namespace Solution2022
 {
 	namespace FindKthSmallestPairDistance
 	{
-/*
-	    int smallestDistancePair(vector<int>& nums, int k) {
-	        
-	    }
 
-*/
+	//    int smallestDistancePair(vector<int>& nums, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

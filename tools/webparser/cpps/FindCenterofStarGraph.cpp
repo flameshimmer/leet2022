@@ -30,12 +30,11 @@ namespace Solution2022
 {
 	namespace FindCenterofStarGraph
 	{
-/*
-	    int findCenter(vector<vector<int>>& edges) {
-	        
-	    }
 
-*/
+	//    int findCenter(vector<vector<int>>& edges) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

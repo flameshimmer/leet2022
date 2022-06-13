@@ -46,12 +46,11 @@ namespace Solution2022
 {
 	namespace BeforeandAfterPuzzle
 	{
-/*
-	    vector<string> beforeAndAfterPuzzles(vector<string>& phrases) {
-	        
-	    }
 
-*/
+	//    vector<string> beforeAndAfterPuzzles(vector<string>& phrases) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

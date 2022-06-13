@@ -36,12 +36,11 @@ namespace Solution2022
 {
 	namespace MaximumBinaryStringAfterChange
 	{
-/*
-	    string maximumBinaryString(string binary) {
-	        
-	    }
 
-*/
+	//    string maximumBinaryString(string binary) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

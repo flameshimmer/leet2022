@@ -61,12 +61,11 @@ namespace Solution2022
 {
 	namespace CheckifanOriginalStringExistsGivenTwoEncodedStrings
 	{
-/*
-	    bool possiblyEquals(string s1, string s2) {
-	        
-	    }
 
-*/
+	//    bool possiblyEquals(string s1, string s2) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

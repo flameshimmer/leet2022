@@ -30,12 +30,11 @@ namespace Solution2022
 {
 	namespace BrokenCalculator
 	{
-/*
-	    int brokenCalc(int startValue, int target) {
-	        
-	    }
 
-*/
+	//    int brokenCalc(int startValue, int target) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

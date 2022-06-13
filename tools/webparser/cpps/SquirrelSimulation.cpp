@@ -39,12 +39,11 @@ namespace Solution2022
 {
 	namespace SquirrelSimulation
 	{
-/*
-	    int minDistance(int height, int width, vector<int>& tree, vector<int>& squirrel, vector<vector<int>>& nuts) {
-	        
-	    }
 
-*/
+	//    int minDistance(int height, int width, vector<int>& tree, vector<int>& squirrel, vector<vector<int>>& nuts) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

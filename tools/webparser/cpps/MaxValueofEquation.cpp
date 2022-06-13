@@ -35,12 +35,11 @@ namespace Solution2022
 {
 	namespace MaxValueofEquation
 	{
-/*
-	    int findMaxValueOfEquation(vector<vector<int>>& points, int k) {
-	        
-	    }
 
-*/
+	//    int findMaxValueOfEquation(vector<vector<int>>& points, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

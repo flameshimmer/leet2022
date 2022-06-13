@@ -36,12 +36,11 @@ namespace Solution2022
 {
 	namespace FindKthLargestXORCoordinateValue
 	{
-/*
-	    int kthLargestValue(vector<vector<int>>& matrix, int k) {
-	        
-	    }
 
-*/
+	//    int kthLargestValue(vector<vector<int>>& matrix, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

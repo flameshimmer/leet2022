@@ -35,12 +35,11 @@ namespace Solution2022
 {
 	namespace MaximumProfitinJobScheduling
 	{
-/*
-	    int jobScheduling(vector<int>& startTime, vector<int>& endTime, vector<int>& profit) {
-	        
-	    }
 
-*/
+	//    int jobScheduling(vector<int>& startTime, vector<int>& endTime, vector<int>& profit) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

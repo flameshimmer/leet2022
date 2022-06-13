@@ -28,12 +28,11 @@ namespace Solution2022
 {
 	namespace MeanofArrayAfterRemovingSomeElements
 	{
-/*
-	    double trimMean(vector<int>& arr) {
-	        
-	    }
 
-*/
+	//    double trimMean(vector<int>& arr) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

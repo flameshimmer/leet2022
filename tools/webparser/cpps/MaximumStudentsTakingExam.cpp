@@ -47,12 +47,11 @@ namespace Solution2022
 {
 	namespace MaximumStudentsTakingExam
 	{
-/*
-	    int maxStudents(vector<vector<char>>& seats) {
-	        
-	    }
 
-*/
+	//    int maxStudents(vector<vector<char>>& seats) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

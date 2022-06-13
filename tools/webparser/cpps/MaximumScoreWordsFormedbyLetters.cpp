@@ -51,12 +51,11 @@ namespace Solution2022
 {
 	namespace MaximumScoreWordsFormedbyLetters
 	{
-/*
-	    int maxScoreWords(vector<string>& words, vector<char>& letters, vector<int>& score) {
-	        
-	    }
 
-*/
+	//    int maxScoreWords(vector<string>& words, vector<char>& letters, vector<int>& score) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

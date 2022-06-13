@@ -32,12 +32,11 @@ namespace Solution2022
 {
 	namespace ExpressionAddOperators
 	{
-/*
-	    vector<string> addOperators(string num, int target) {
-	        
-	    }
 
-*/
+	//    vector<string> addOperators(string num, int target) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

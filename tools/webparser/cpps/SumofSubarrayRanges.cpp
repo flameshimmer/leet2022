@@ -45,12 +45,11 @@ namespace Solution2022
 {
 	namespace SumofSubarrayRanges
 	{
-/*
-	    long long subArrayRanges(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    long long subArrayRanges(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

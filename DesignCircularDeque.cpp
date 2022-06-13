@@ -48,47 +48,46 @@ namespace Solution2022
 {
 	namespace DesignCircularDeque
 	{
-/*
-	class MyCircularDeque {
-	    MyCircularDeque(int k) {
-	        
-	    }
-	    
-	    bool insertFront(int value) {
-	        
-	    }
-	    
-	    bool insertLast(int value) {
-	        
-	    }
-	    
-	    bool deleteFront() {
-	        
-	    }
-	    
-	    bool deleteLast() {
-	        
-	    }
-	    
-	    int getFront() {
-	        
-	    }
-	    
-	    int getRear() {
-	        
-	    }
-	    
-	    bool isEmpty() {
-	        
-	    }
-	    
-	    bool isFull() {
-	        
-	    }
-	​
-	/**
 
-*/
+	//class MyCircularDeque {
+	//    MyCircularDeque(int k) {
+	//        
+	//    }
+	//    
+	//    bool insertFront(int value) {
+	//        
+	//    }
+	//    
+	//    bool insertLast(int value) {
+	//        
+	//    }
+	//    
+	//    bool deleteFront() {
+	//        
+	//    }
+	//    
+	//    bool deleteLast() {
+	//        
+	//    }
+	//    
+	//    int getFront() {
+	//        
+	//    }
+	//    
+	//    int getRear() {
+	//        
+	//    }
+	//    
+	//    bool isEmpty() {
+	//        
+	//    }
+	//    
+	//    bool isFull() {
+	//        
+	//    }
+	//​
+	///**
+
 
 		void Main() {
 			string test = "tst test test";

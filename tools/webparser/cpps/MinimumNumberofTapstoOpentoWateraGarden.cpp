@@ -36,12 +36,11 @@ namespace Solution2022
 {
 	namespace MinimumNumberofTapstoOpentoWateraGarden
 	{
-/*
-	    int minTaps(int n, vector<int>& ranges) {
-	        
-	    }
 
-*/
+	//    int minTaps(int n, vector<int>& ranges) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -49,12 +49,11 @@ namespace Solution2022
 {
 	namespace ShoppingOffers
 	{
-/*
-	    int shoppingOffers(vector<int>& price, vector<vector<int>>& special, vector<int>& needs) {
-	        
-	    }
 
-*/
+	//    int shoppingOffers(vector<int>& price, vector<vector<int>>& special, vector<int>& needs) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

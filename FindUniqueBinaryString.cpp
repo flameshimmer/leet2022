@@ -32,12 +32,11 @@ namespace Solution2022
 {
 	namespace FindUniqueBinaryString
 	{
-/*
-	    string findDifferentBinaryString(vector<string>& nums) {
-	        
-	    }
 
-*/
+	//    string findDifferentBinaryString(vector<string>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

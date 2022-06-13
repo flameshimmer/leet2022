@@ -32,12 +32,11 @@ namespace Solution2022
 {
 	namespace CheckifAllAsAppearsBeforeAllBs
 	{
-/*
-	    bool checkString(string s) {
-	        
-	    }
 
-*/
+	//    bool checkString(string s) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

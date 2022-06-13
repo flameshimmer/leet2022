@@ -47,12 +47,11 @@ namespace Solution2022
 {
 	namespace RankTeamsbyVotes
 	{
-/*
-	    string rankTeams(vector<string>& votes) {
-	        
-	    }
 
-*/
+	//    string rankTeams(vector<string>& votes) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

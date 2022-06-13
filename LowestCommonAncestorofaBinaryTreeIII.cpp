@@ -41,21 +41,20 @@ namespace Solution2022
 {
 	namespace LowestCommonAncestorofaBinaryTreeIII
 	{
-/*
-	/*
-	// Definition for a Node.
-	class Node {
-	    int val;
-	    Node* left;
-	    Node* right;
-	    Node* parent;
-	*/
-	​
-	    Node* lowestCommonAncestor(Node* p, Node * q) {
-	        
-	    }
 
-*/
+	///*
+	//// Definition for a Node.
+	//class Node {
+	//    int val;
+	//    Node* left;
+	//    Node* right;
+	//    Node* parent;
+	//*/
+	//​
+	//    Node* lowestCommonAncestor(Node* p, Node * q) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

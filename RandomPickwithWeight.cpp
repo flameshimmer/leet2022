@@ -55,22 +55,21 @@ namespace Solution2022
 {
 	namespace RandomPickwithWeight
 	{
-/*
-	    Solution(vector<int>& w) {
-	        
-	    }
-	    
-	    int pickIndex() {
-	        
-	    }
-	​
-	/**
-	 * Your Solution object will be instantiated and called as such:
-	 * Solution* obj = new Solution(w);
-	 * int param_1 = obj->pickIndex();
-	 */
 
-*/
+	//    Solution(vector<int>& w) {
+	//        
+	//    }
+	//    
+	//    int pickIndex() {
+	//        
+	//    }
+	//​
+	///**
+	// * Your Solution object will be instantiated and called as such:
+	// * Solution* obj = new Solution(w);
+	// * int param_1 = obj->pickIndex();
+	// */
+
 
 		void Main() {
 			string test = "tst test test";

@@ -50,12 +50,11 @@ namespace Solution2022
 {
 	namespace MinimumCosttoConnectTwoGroupsofPoints
 	{
-/*
-	    int connectTwoGroups(vector<vector<int>>& cost) {
-	        
-	    }
 
-*/
+	//    int connectTwoGroups(vector<vector<int>>& cost) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

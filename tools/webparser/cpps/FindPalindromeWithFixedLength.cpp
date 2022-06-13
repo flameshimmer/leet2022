@@ -31,12 +31,11 @@ namespace Solution2022
 {
 	namespace FindPalindromeWithFixedLength
 	{
-/*
-	    vector<long long> kthPalindrome(vector<int>& queries, int intLength) {
-	        
-	    }
 
-*/
+	//    vector<long long> kthPalindrome(vector<int>& queries, int intLength) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

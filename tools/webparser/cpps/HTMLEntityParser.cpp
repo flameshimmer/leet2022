@@ -32,12 +32,11 @@ namespace Solution2022
 {
 	namespace HTMLEntityParser
 	{
-/*
-	    string entityParser(string text) {
-	        
-	    }
 
-*/
+	//    string entityParser(string text) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

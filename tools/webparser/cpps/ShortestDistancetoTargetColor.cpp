@@ -31,12 +31,11 @@ namespace Solution2022
 {
 	namespace ShortestDistancetoTargetColor
 	{
-/*
-	    vector<int> shortestDistanceColor(vector<int>& colors, vector<vector<int>>& queries) {
-	        
-	    }
 
-*/
+	//    vector<int> shortestDistanceColor(vector<int>& colors, vector<vector<int>>& queries) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

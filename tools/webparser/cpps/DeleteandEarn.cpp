@@ -34,12 +34,11 @@ namespace Solution2022
 {
 	namespace DeleteandEarn
 	{
-/*
-	    int deleteAndEarn(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int deleteAndEarn(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

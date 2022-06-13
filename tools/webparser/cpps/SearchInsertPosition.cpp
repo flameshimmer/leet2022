@@ -28,12 +28,11 @@ namespace Solution2022
 {
 	namespace SearchInsertPosition
 	{
-/*
-	    int searchInsert(vector<int>& nums, int target) {
-	        
-	    }
 
-*/
+	//    int searchInsert(vector<int>& nums, int target) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

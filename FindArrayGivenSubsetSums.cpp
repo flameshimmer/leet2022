@@ -49,12 +49,11 @@ namespace Solution2022
 {
 	namespace FindArrayGivenSubsetSums
 	{
-/*
-	    vector<int> recoverArray(int n, vector<int>& sums) {
-	        
-	    }
 
-*/
+	//    vector<int> recoverArray(int n, vector<int>& sums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

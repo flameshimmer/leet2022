@@ -21,12 +21,11 @@ namespace Solution2022
 {
 	namespace NthMagicalNumber
 	{
-/*
-	    int nthMagicalNumber(int n, int a, int b) {
-	        
-	    }
 
-*/
+	//    int nthMagicalNumber(int n, int a, int b) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

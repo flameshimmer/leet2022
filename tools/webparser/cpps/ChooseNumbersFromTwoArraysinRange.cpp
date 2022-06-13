@@ -60,12 +60,11 @@ namespace Solution2022
 {
 	namespace ChooseNumbersFromTwoArraysinRange
 	{
-/*
-	    int countSubranges(vector<int>& nums1, vector<int>& nums2) {
-	        
-	    }
 
-*/
+	//    int countSubranges(vector<int>& nums1, vector<int>& nums2) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

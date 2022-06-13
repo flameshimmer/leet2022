@@ -28,20 +28,19 @@ namespace Solution2022
 {
 	namespace DeleteNodeinaLinkedList
 	{
-/*
-	/**
-	 * Definition for singly-linked list.
-	 * struct ListNode {
-	 *     int val;
-	 *     ListNode *next;
-	 *     ListNode(int x) : val(x), next(NULL) {}
-	 * };
-	 */
-	    void deleteNode(ListNode* node) {
-	        
-	    }
 
-*/
+	///**
+	// * Definition for singly-linked list.
+	// * struct ListNode {
+	// *     int val;
+	// *     ListNode *next;
+	// *     ListNode(int x) : val(x), next(NULL) {}
+	// * };
+	// */
+	//    void deleteNode(ListNode* node) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

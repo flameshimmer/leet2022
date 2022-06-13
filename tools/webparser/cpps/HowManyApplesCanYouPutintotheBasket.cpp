@@ -25,12 +25,11 @@ namespace Solution2022
 {
 	namespace HowManyApplesCanYouPutintotheBasket
 	{
-/*
-	    int maxNumberOfApples(vector<int>& weight) {
-	        
-	    }
 
-*/
+	//    int maxNumberOfApples(vector<int>& weight) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -44,12 +44,11 @@ namespace Solution2022
 {
 	namespace MaximumSumObtainedofAnyPermutation
 	{
-/*
-	    int maxSumRangeQuery(vector<int>& nums, vector<vector<int>>& requests) {
-	        
-	    }
 
-*/
+	//    int maxSumRangeQuery(vector<int>& nums, vector<vector<int>>& requests) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

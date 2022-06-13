@@ -21,12 +21,11 @@ namespace Solution2022
 {
 	namespace CountOddNumbersinanIntervalRange
 	{
-/*
-	    int countOdds(int low, int high) {
-	        
-	    }
 
-*/
+	//    int countOdds(int low, int high) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

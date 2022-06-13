@@ -44,12 +44,11 @@ namespace Solution2022
 {
 	namespace NumberofValidWordsinaSentence
 	{
-/*
-	    int countValidWords(string sentence) {
-	        
-	    }
 
-*/
+	//    int countValidWords(string sentence) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

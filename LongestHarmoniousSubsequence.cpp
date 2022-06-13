@@ -30,12 +30,11 @@ namespace Solution2022
 {
 	namespace LongestHarmoniousSubsequence
 	{
-/*
-	    int findLHS(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int findLHS(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -30,12 +30,11 @@ namespace Solution2022
 {
 	namespace LargestSubstringBetweenTwoEqualCharacters
 	{
-/*
-	    int maxLengthBetweenEqualCharacters(string s) {
-	        
-	    }
 
-*/
+	//    int maxLengthBetweenEqualCharacters(string s) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

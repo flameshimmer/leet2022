@@ -47,12 +47,11 @@ namespace Solution2022
 {
 	namespace SenderWithLargestWordCount
 	{
-/*
-	    string largestWordCount(vector<string>& messages, vector<string>& senders) {
-	        
-	    }
 
-*/
+	//    string largestWordCount(vector<string>& messages, vector<string>& senders) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

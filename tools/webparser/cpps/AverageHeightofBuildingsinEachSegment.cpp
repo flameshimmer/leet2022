@@ -76,12 +76,11 @@ namespace Solution2022
 {
 	namespace AverageHeightofBuildingsinEachSegment
 	{
-/*
-	    vector<vector<int>> averageHeightOfBuildings(vector<vector<int>>& buildings) {
-	        
-	    }
 
-*/
+	//    vector<vector<int>> averageHeightOfBuildings(vector<vector<int>>& buildings) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

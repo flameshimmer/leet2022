@@ -37,12 +37,11 @@ namespace Solution2022
 {
 	namespace MinimumNumberofIncrementsonSubarraystoFormaTargetArray
 	{
-/*
-	    int minNumberOperations(vector<int>& target) {
-	        
-	    }
 
-*/
+	//    int minNumberOperations(vector<int>& target) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

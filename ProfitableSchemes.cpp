@@ -37,12 +37,11 @@ namespace Solution2022
 {
 	namespace ProfitableSchemes
 	{
-/*
-	    int profitableSchemes(int n, int minProfit, vector<int>& group, vector<int>& profit) {
-	        
-	    }
 
-*/
+	//    int profitableSchemes(int n, int minProfit, vector<int>& group, vector<int>& profit) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

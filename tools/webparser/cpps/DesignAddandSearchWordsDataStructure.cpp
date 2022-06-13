@@ -37,28 +37,27 @@ namespace Solution2022
 {
 	namespace DesignAddandSearchWordsDataStructure
 	{
-/*
-	class WordDictionary {
-	    WordDictionary() {
-	        
-	    }
-	    
-	    void addWord(string word) {
-	        
-	    }
-	    
-	    bool search(string word) {
-	        
-	    }
-	​
-	/**
-	 * Your WordDictionary object will be instantiated and called as such:
-	 * WordDictionary* obj = new WordDictionary();
-	 * obj->addWord(word);
-	 * bool param_2 = obj->search(word);
-	 */
 
-*/
+	//class WordDictionary {
+	//    WordDictionary() {
+	//        
+	//    }
+	//    
+	//    void addWord(string word) {
+	//        
+	//    }
+	//    
+	//    bool search(string word) {
+	//        
+	//    }
+	//​
+	///**
+	// * Your WordDictionary object will be instantiated and called as such:
+	// * WordDictionary* obj = new WordDictionary();
+	// * obj->addWord(word);
+	// * bool param_2 = obj->search(word);
+	// */
+
 
 		void Main() {
 			string test = "tst test test";

@@ -30,12 +30,11 @@ namespace Solution2022
 {
 	namespace CountArrayPairsDivisiblebyK
 	{
-/*
-	    long long countPairs(vector<int>& nums, int k) {
-	        
-	    }
 
-*/
+	//    long long countPairs(vector<int>& nums, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

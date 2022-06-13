@@ -42,12 +42,11 @@ namespace Solution2022
 {
 	namespace StampingTheSequence
 	{
-/*
-	    vector<int> movesToStamp(string stamp, string target) {
-	        
-	    }
 
-*/
+	//    vector<int> movesToStamp(string stamp, string target) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

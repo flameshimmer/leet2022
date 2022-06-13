@@ -42,12 +42,11 @@ namespace Solution2022
 {
 	namespace HeightChecker
 	{
-/*
-	    int heightChecker(vector<int>& heights) {
-	        
-	    }
 
-*/
+	//    int heightChecker(vector<int>& heights) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

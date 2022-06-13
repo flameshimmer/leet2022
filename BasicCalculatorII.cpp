@@ -35,12 +35,11 @@ namespace Solution2022
 {
 	namespace BasicCalculatorII
 	{
-/*
-	    int calculate(string s) {
-	        
-	    }
 
-*/
+	//    int calculate(string s) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

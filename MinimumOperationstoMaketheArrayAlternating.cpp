@@ -36,12 +36,11 @@ namespace Solution2022
 {
 	namespace MinimumOperationstoMaketheArrayAlternating
 	{
-/*
-	    int minimumOperations(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int minimumOperations(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

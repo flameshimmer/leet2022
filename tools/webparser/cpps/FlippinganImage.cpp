@@ -31,12 +31,11 @@ namespace Solution2022
 {
 	namespace FlippinganImage
 	{
-/*
-	    vector<vector<int>> flipAndInvertImage(vector<vector<int>>& image) {
-	        
-	    }
 
-*/
+	//    vector<vector<int>> flipAndInvertImage(vector<vector<int>>& image) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

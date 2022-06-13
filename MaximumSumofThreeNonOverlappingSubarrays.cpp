@@ -28,12 +28,11 @@ namespace Solution2022
 {
 	namespace MaximumSumofThreeNonOverlappingSubarrays
 	{
-/*
-	    vector<int> maxSumOfThreeSubarrays(vector<int>& nums, int k) {
-	        
-	    }
 
-*/
+	//    vector<int> maxSumOfThreeSubarrays(vector<int>& nums, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

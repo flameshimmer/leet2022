@@ -32,21 +32,20 @@ namespace Solution2022
 {
 	namespace SearchinaSortedArrayofUnknownSize
 	{
-/*
-	/**
-	 * // This is the ArrayReader's API interface.
-	 * // You should not implement it, or speculate about its implementation
-	 * class ArrayReader {
-	 *   public:
-	 *     int get(int index);
-	 * };
-	 */
-	​
-	    int search(const ArrayReader& reader, int target) {
-	        
-	    }
 
-*/
+	///**
+	// * // This is the ArrayReader's API interface.
+	// * // You should not implement it, or speculate about its implementation
+	// * class ArrayReader {
+	// *   public:
+	// *     int get(int index);
+	// * };
+	// */
+	//​
+	//    int search(const ArrayReader& reader, int target) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -39,12 +39,11 @@ namespace Solution2022
 {
 	namespace NumberofWaystoSelectBuildings
 	{
-/*
-	    long long numberOfWays(string s) {
-	        
-	    }
 
-*/
+	//    long long numberOfWays(string s) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

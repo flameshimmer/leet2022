@@ -42,12 +42,11 @@ namespace Solution2022
 {
 	namespace MinimumLengthofStringAfterDeletingSimilarEnds
 	{
-/*
-	    int minimumLength(string s) {
-	        
-	    }
 
-*/
+	//    int minimumLength(string s) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

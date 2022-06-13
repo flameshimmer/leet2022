@@ -37,12 +37,11 @@ namespace Solution2022
 {
 	namespace RemoveOneElementtoMaketheArrayStrictlyIncreasing
 	{
-/*
-	    bool canBeIncreasing(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    bool canBeIncreasing(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

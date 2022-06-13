@@ -40,12 +40,11 @@ namespace Solution2022
 {
 	namespace EvaluateReversePolishNotation
 	{
-/*
-	    int evalRPN(vector<string>& tokens) {
-	        
-	    }
 
-*/
+	//    int evalRPN(vector<string>& tokens) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -26,12 +26,11 @@ namespace Solution2022
 {
 	namespace TrappingRainWaterII
 	{
-/*
-	    int trapRainWater(vector<vector<int>>& heightMap) {
-	        
-	    }
 
-*/
+	//    int trapRainWater(vector<vector<int>>& heightMap) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

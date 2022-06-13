@@ -47,12 +47,11 @@ namespace Solution2022
 {
 	namespace MaximumGeneticDifferenceQuery
 	{
-/*
-	    vector<int> maxGeneticDifference(vector<int>& parents, vector<vector<int>>& queries) {
-	        
-	    }
 
-*/
+	//    vector<int> maxGeneticDifference(vector<int>& parents, vector<vector<int>>& queries) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

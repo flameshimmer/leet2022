@@ -49,12 +49,11 @@ namespace Solution2022
 {
 	namespace CounttheHiddenSequences
 	{
-/*
-	    int numberOfArrays(vector<int>& differences, int lower, int upper) {
-	        
-	    }
 
-*/
+	//    int numberOfArrays(vector<int>& differences, int lower, int upper) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

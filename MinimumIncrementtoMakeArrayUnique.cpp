@@ -26,12 +26,11 @@ namespace Solution2022
 {
 	namespace MinimumIncrementtoMakeArrayUnique
 	{
-/*
-	    int minIncrementForUnique(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int minIncrementForUnique(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

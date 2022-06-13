@@ -41,12 +41,11 @@ namespace Solution2022
 {
 	namespace MinimumJumpstoReachHome
 	{
-/*
-	    int minimumJumps(vector<int>& forbidden, int a, int b, int x) {
-	        
-	    }
 
-*/
+	//    int minimumJumps(vector<int>& forbidden, int a, int b, int x) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

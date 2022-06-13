@@ -40,12 +40,11 @@ namespace Solution2022
 {
 	namespace CountSquareSubmatriceswithAllOnes
 	{
-/*
-	    int countSquares(vector<vector<int>>& matrix) {
-	        
-	    }
 
-*/
+	//    int countSquares(vector<vector<int>>& matrix) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

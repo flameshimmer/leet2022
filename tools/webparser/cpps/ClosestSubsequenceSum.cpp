@@ -35,12 +35,11 @@ namespace Solution2022
 {
 	namespace ClosestSubsequenceSum
 	{
-/*
-	    int minAbsDifference(vector<int>& nums, int goal) {
-	        
-	    }
 
-*/
+	//    int minAbsDifference(vector<int>& nums, int goal) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -48,12 +48,11 @@ namespace Solution2022
 {
 	namespace CountCollisionsonaRoad
 	{
-/*
-	    int countCollisions(string directions) {
-	        
-	    }
 
-*/
+	//    int countCollisions(string directions) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

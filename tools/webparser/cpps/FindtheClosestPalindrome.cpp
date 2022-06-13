@@ -27,12 +27,11 @@ namespace Solution2022
 {
 	namespace FindtheClosestPalindrome
 	{
-/*
-	    string nearestPalindromic(string n) {
-	        
-	    }
 
-*/
+	//    string nearestPalindromic(string n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

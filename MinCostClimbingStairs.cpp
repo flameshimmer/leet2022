@@ -33,12 +33,11 @@ namespace Solution2022
 {
 	namespace MinCostClimbingStairs
 	{
-/*
-	    int minCostClimbingStairs(vector<int>& cost) {
-	        
-	    }
 
-*/
+	//    int minCostClimbingStairs(vector<int>& cost) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

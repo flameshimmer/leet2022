@@ -38,23 +38,22 @@ namespace Solution2022
 {
 	namespace OnlineStockSpan
 	{
-/*
-	class StockSpanner {
-	    StockSpanner() {
-	        
-	    }
-	    
-	    int next(int price) {
-	        
-	    }
-	​
-	/**
-	 * Your StockSpanner object will be instantiated and called as such:
-	 * StockSpanner* obj = new StockSpanner();
-	 * int param_1 = obj->next(price);
-	 */
 
-*/
+	//class StockSpanner {
+	//    StockSpanner() {
+	//        
+	//    }
+	//    
+	//    int next(int price) {
+	//        
+	//    }
+	//​
+	///**
+	// * Your StockSpanner object will be instantiated and called as such:
+	// * StockSpanner* obj = new StockSpanner();
+	// * int param_1 = obj->next(price);
+	// */
+
 
 		void Main() {
 			string test = "tst test test";

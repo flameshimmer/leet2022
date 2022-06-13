@@ -33,12 +33,11 @@ namespace Solution2022
 {
 	namespace PathSumIV
 	{
-/*
-	    int pathSum(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int pathSum(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -26,12 +26,11 @@ namespace Solution2022
 {
 	namespace NumberofGoodPairs
 	{
-/*
-	    int numIdenticalPairs(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int numIdenticalPairs(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -42,12 +42,11 @@ namespace Solution2022
 {
 	namespace MinimumCosttoCutaStick
 	{
-/*
-	    int minCost(int n, vector<int>& cuts) {
-	        
-	    }
 
-*/
+	//    int minCost(int n, vector<int>& cuts) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

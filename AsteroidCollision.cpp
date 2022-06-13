@@ -34,12 +34,11 @@ namespace Solution2022
 {
 	namespace AsteroidCollision
 	{
-/*
-	    vector<int> asteroidCollision(vector<int>& asteroids) {
-	        
-	    }
 
-*/
+	//    vector<int> asteroidCollision(vector<int>& asteroids) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

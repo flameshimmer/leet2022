@@ -27,12 +27,11 @@ namespace Solution2022
 {
 	namespace StrobogrammaticNumber
 	{
-/*
-	    bool isStrobogrammatic(string num) {
-	        
-	    }
 
-*/
+	//    bool isStrobogrammatic(string num) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

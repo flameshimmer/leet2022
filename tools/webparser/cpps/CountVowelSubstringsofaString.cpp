@@ -38,12 +38,11 @@ namespace Solution2022
 {
 	namespace CountVowelSubstringsofaString
 	{
-/*
-	    int countVowelSubstrings(string word) {
-	        
-	    }
 
-*/
+	//    int countVowelSubstrings(string word) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

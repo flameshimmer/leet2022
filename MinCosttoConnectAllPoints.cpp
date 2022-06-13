@@ -29,12 +29,11 @@ namespace Solution2022
 {
 	namespace MinCosttoConnectAllPoints
 	{
-/*
-	    int minCostConnectPoints(vector<vector<int>>& points) {
-	        
-	    }
 
-*/
+	//    int minCostConnectPoints(vector<vector<int>>& points) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -26,12 +26,11 @@ namespace Solution2022
 {
 	namespace MaximumSubarraySumAfterOneOperation
 	{
-/*
-	    int maxSumAfterOperation(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int maxSumAfterOperation(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

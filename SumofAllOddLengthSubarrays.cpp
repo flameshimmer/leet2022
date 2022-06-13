@@ -41,12 +41,11 @@ namespace Solution2022
 {
 	namespace SumofAllOddLengthSubarrays
 	{
-/*
-	    int sumOddLengthSubarrays(vector<int>& arr) {
-	        
-	    }
 
-*/
+	//    int sumOddLengthSubarrays(vector<int>& arr) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

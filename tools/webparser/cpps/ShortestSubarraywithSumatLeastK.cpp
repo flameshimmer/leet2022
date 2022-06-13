@@ -27,12 +27,11 @@ namespace Solution2022
 {
 	namespace ShortestSubarraywithSumatLeastK
 	{
-/*
-	    int shortestSubarray(vector<int>& nums, int k) {
-	        
-	    }
 
-*/
+	//    int shortestSubarray(vector<int>& nums, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

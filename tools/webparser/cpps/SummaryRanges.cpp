@@ -38,12 +38,11 @@ namespace Solution2022
 {
 	namespace SummaryRanges
 	{
-/*
-	    vector<string> summaryRanges(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    vector<string> summaryRanges(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

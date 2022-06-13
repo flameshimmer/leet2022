@@ -20,12 +20,11 @@ namespace Solution2022
 {
 	namespace MeetingRoomsII
 	{
-/*
-	    int minMeetingRooms(vector<vector<int>>& intervals) {
-	        
-	    }
 
-*/
+	//    int minMeetingRooms(vector<vector<int>>& intervals) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

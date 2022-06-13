@@ -30,12 +30,11 @@ namespace Solution2022
 {
 	namespace SingleRowKeyboard
 	{
-/*
-	    int calculateTime(string keyboard, string word) {
-	        
-	    }
 
-*/
+	//    int calculateTime(string keyboard, string word) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

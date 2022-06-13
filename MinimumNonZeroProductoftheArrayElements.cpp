@@ -49,12 +49,11 @@ namespace Solution2022
 {
 	namespace MinimumNonZeroProductoftheArrayElements
 	{
-/*
-	    int minNonZeroProduct(int p) {
-	        
-	    }
 
-*/
+	//    int minNonZeroProduct(int p) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -32,12 +32,11 @@ namespace Solution2022
 {
 	namespace SimilarStringGroups
 	{
-/*
-	    int numSimilarGroups(vector<string>& strs) {
-	        
-	    }
 
-*/
+	//    int numSimilarGroups(vector<string>& strs) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

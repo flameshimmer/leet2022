@@ -39,20 +39,19 @@ namespace Solution2022
 {
 	namespace EmployeeImportance
 	{
-/*
-	/*
-	// Definition for Employee.
-	class Employee {
-	    int id;
-	    int importance;
-	    vector<int> subordinates;
-	*/
-	​
-	    int getImportance(vector<Employee*> employees, int id) {
-	        
-	    }
 
-*/
+	///*
+	//// Definition for Employee.
+	//class Employee {
+	//    int id;
+	//    int importance;
+	//    vector<int> subordinates;
+	//*/
+	//​
+	//    int getImportance(vector<Employee*> employees, int id) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -28,12 +28,11 @@ namespace Solution2022
 {
 	namespace BinaryWatch
 	{
-/*
-	    vector<string> readBinaryWatch(int turnedOn) {
-	        
-	    }
 
-*/
+	//    vector<string> readBinaryWatch(int turnedOn) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

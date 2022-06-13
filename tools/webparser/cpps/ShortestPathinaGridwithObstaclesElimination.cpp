@@ -33,12 +33,11 @@ namespace Solution2022
 {
 	namespace ShortestPathinaGridwithObstaclesElimination
 	{
-/*
-	    int shortestPath(vector<vector<int>>& grid, int k) {
-	        
-	    }
 
-*/
+	//    int shortestPath(vector<vector<int>>& grid, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

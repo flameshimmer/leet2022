@@ -43,20 +43,19 @@ namespace Solution2022
 {
 	namespace GuesstheWord
 	{
-/*
-	/**
-	 * // This is the Master's API interface.
-	 * // You should not implement it, or speculate about its implementation
-	 * class Master {
-	 *   public:
-	 *     int guess(string word);
-	 * };
-	 */
-	    void findSecretWord(vector<string>& wordlist, Master& master) {
-	        
-	    }
 
-*/
+	///**
+	// * // This is the Master's API interface.
+	// * // You should not implement it, or speculate about its implementation
+	// * class Master {
+	// *   public:
+	// *     int guess(string word);
+	// * };
+	// */
+	//    void findSecretWord(vector<string>& wordlist, Master& master) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

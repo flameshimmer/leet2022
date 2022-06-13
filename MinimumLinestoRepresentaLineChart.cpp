@@ -40,12 +40,11 @@ namespace Solution2022
 {
 	namespace MinimumLinestoRepresentaLineChart
 	{
-/*
-	    int minimumLines(vector<vector<int>>& stockPrices) {
-	        
-	    }
 
-*/
+	//    int minimumLines(vector<vector<int>>& stockPrices) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -24,12 +24,11 @@ namespace Solution2022
 {
 	namespace UglyNumberII
 	{
-/*
-	    int nthUglyNumber(int n) {
-	        
-	    }
 
-*/
+	//    int nthUglyNumber(int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

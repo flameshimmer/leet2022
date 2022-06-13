@@ -41,12 +41,11 @@ namespace Solution2022
 {
 	namespace CamelcaseMatching
 	{
-/*
-	    vector<bool> camelMatch(vector<string>& queries, string pattern) {
-	        
-	    }
 
-*/
+	//    vector<bool> camelMatch(vector<string>& queries, string pattern) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -48,12 +48,11 @@ namespace Solution2022
 {
 	namespace MostBeautifulItemforEachQuery
 	{
-/*
-	    vector<int> maximumBeauty(vector<vector<int>>& items, vector<int>& queries) {
-	        
-	    }
 
-*/
+	//    vector<int> maximumBeauty(vector<vector<int>>& items, vector<int>& queries) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

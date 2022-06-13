@@ -39,12 +39,11 @@ namespace Solution2022
 {
 	namespace BuildingBoxes
 	{
-/*
-	    int minimumBoxes(int n) {
-	        
-	    }
 
-*/
+	//    int minimumBoxes(int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

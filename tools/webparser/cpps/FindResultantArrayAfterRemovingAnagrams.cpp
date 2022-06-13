@@ -46,12 +46,11 @@ namespace Solution2022
 {
 	namespace FindResultantArrayAfterRemovingAnagrams
 	{
-/*
-	    vector<string> removeAnagrams(vector<string>& words) {
-	        
-	    }
 
-*/
+	//    vector<string> removeAnagrams(vector<string>& words) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

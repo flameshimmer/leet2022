@@ -24,12 +24,11 @@ namespace Solution2022
 {
 	namespace FirstUniqueCharacterinaString
 	{
-/*
-	    int firstUniqChar(string s) {
-	        
-	    }
 
-*/
+	//    int firstUniqChar(string s) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

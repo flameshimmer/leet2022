@@ -48,12 +48,11 @@ namespace Solution2022
 {
 	namespace MaximumScoreFromRemovingStones
 	{
-/*
-	    int maximumScore(int a, int b, int c) {
-	        
-	    }
 
-*/
+	//    int maximumScore(int a, int b, int c) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -40,12 +40,11 @@ namespace Solution2022
 {
 	namespace CountLatticePointsInsideaCircle
 	{
-/*
-	    int countLatticePoints(vector<vector<int>>& circles) {
-	        
-	    }
 
-*/
+	//    int countLatticePoints(vector<vector<int>>& circles) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

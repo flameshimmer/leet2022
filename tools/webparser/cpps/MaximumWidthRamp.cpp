@@ -26,12 +26,11 @@ namespace Solution2022
 {
 	namespace MaximumWidthRamp
 	{
-/*
-	    int maxWidthRamp(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int maxWidthRamp(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

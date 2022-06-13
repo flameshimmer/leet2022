@@ -35,12 +35,11 @@ namespace Solution2022
 {
 	namespace AdditiveNumber
 	{
-/*
-	    bool isAdditiveNumber(string num) {
-	        
-	    }
 
-*/
+	//    bool isAdditiveNumber(string num) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

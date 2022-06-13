@@ -35,12 +35,11 @@ namespace Solution2022
 {
 	namespace BuildArrayfromPermutation
 	{
-/*
-	    vector<int> buildArray(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    vector<int> buildArray(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

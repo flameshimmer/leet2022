@@ -29,12 +29,11 @@ namespace Solution2022
 {
 	namespace Combinations
 	{
-/*
-	    vector<vector<int>> combine(int n, int k) {
-	        
-	    }
 
-*/
+	//    vector<vector<int>> combine(int n, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

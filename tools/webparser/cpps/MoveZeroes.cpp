@@ -24,12 +24,11 @@ namespace Solution2022
 {
 	namespace MoveZeroes
 	{
-/*
-	    void moveZeroes(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    void moveZeroes(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

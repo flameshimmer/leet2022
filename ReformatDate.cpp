@@ -30,12 +30,11 @@ namespace Solution2022
 {
 	namespace ReformatDate
 	{
-/*
-	    string reformatDate(string date) {
-	        
-	    }
 
-*/
+	//    string reformatDate(string date) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

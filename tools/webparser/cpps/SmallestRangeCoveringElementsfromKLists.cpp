@@ -29,12 +29,11 @@ namespace Solution2022
 {
 	namespace SmallestRangeCoveringElementsfromKLists
 	{
-/*
-	    vector<int> smallestRange(vector<vector<int>>& nums) {
-	        
-	    }
 
-*/
+	//    vector<int> smallestRange(vector<vector<int>>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

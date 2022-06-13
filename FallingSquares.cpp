@@ -46,12 +46,11 @@ namespace Solution2022
 {
 	namespace FallingSquares
 	{
-/*
-	    vector<int> fallingSquares(vector<vector<int>>& positions) {
-	        
-	    }
 
-*/
+	//    vector<int> fallingSquares(vector<vector<int>>& positions) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -34,12 +34,11 @@ namespace Solution2022
 {
 	namespace EncodeStringwithShortestLength
 	{
-/*
-	    string encode(string s) {
-	        
-	    }
 
-*/
+	//    string encode(string s) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

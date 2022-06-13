@@ -39,12 +39,11 @@ namespace Solution2022
 {
 	namespace PerformStringShifts
 	{
-/*
-	    string stringShift(string s, vector<vector<int>>& shift) {
-	        
-	    }
 
-*/
+	//    string stringShift(string s, vector<vector<int>>& shift) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -34,12 +34,11 @@ namespace Solution2022
 {
 	namespace UniquePathsII
 	{
-/*
-	    int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid) {
-	        
-	    }
 
-*/
+	//    int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

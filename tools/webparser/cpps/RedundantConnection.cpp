@@ -33,12 +33,11 @@ namespace Solution2022
 {
 	namespace RedundantConnection
 	{
-/*
-	    vector<int> findRedundantConnection(vector<vector<int>>& edges) {
-	        
-	    }
 
-*/
+	//    vector<int> findRedundantConnection(vector<vector<int>>& edges) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -21,12 +21,11 @@ namespace Solution2022
 {
 	namespace MaximumXORofTwoNumbersinanArray
 	{
-/*
-	    int findMaximumXOR(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int findMaximumXOR(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

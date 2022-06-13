@@ -20,23 +20,22 @@ namespace Solution2022
 {
 	namespace AllElementsinTwoBinarySearchTrees
 	{
-/*
-	/**
-	 * Definition for a binary tree node.
-	 * struct TreeNode {
-	 *     int val;
-	 *     TreeNode *left;
-	 *     TreeNode *right;
-	 *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
-	 *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
-	 *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
-	 * };
-	 */
-	    vector<int> getAllElements(TreeNode* root1, TreeNode* root2) {
-	        
-	    }
 
-*/
+	///**
+	// * Definition for a binary tree node.
+	// * struct TreeNode {
+	// *     int val;
+	// *     TreeNode *left;
+	// *     TreeNode *right;
+	// *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+	// *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+	// *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+	// * };
+	// */
+	//    vector<int> getAllElements(TreeNode* root1, TreeNode* root2) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

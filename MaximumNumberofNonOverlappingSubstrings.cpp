@@ -47,12 +47,11 @@ namespace Solution2022
 {
 	namespace MaximumNumberofNonOverlappingSubstrings
 	{
-/*
-	    vector<string> maxNumOfSubstrings(string s) {
-	        
-	    }
 
-*/
+	//    vector<string> maxNumOfSubstrings(string s) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

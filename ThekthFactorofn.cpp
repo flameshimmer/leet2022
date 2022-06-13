@@ -32,12 +32,11 @@ namespace Solution2022
 {
 	namespace ThekthFactorofn
 	{
-/*
-	    int kthFactor(int n, int k) {
-	        
-	    }
 
-*/
+	//    int kthFactor(int n, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

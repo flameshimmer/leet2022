@@ -27,12 +27,11 @@ namespace Solution2022
 {
 	namespace PercentageofLetterinString
 	{
-/*
-	    int percentageLetter(string s, char letter) {
-	        
-	    }
 
-*/
+	//    int percentageLetter(string s, char letter) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

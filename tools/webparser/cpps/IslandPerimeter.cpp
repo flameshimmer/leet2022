@@ -35,12 +35,11 @@ namespace Solution2022
 {
 	namespace IslandPerimeter
 	{
-/*
-	    int islandPerimeter(vector<vector<int>>& grid) {
-	        
-	    }
 
-*/
+	//    int islandPerimeter(vector<vector<int>>& grid) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

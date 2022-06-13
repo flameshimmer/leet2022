@@ -34,12 +34,11 @@ namespace Solution2022
 {
 	namespace FlipColumnsForMaximumNumberofEqualRows
 	{
-/*
-	    int maxEqualRowsAfterFlips(vector<vector<int>>& matrix) {
-	        
-	    }
 
-*/
+	//    int maxEqualRowsAfterFlips(vector<vector<int>>& matrix) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

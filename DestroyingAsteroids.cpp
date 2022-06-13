@@ -45,12 +45,11 @@ namespace Solution2022
 {
 	namespace DestroyingAsteroids
 	{
-/*
-	    bool asteroidsDestroyed(int mass, vector<int>& asteroids) {
-	        
-	    }
 
-*/
+	//    bool asteroidsDestroyed(int mass, vector<int>& asteroids) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

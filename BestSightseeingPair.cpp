@@ -26,12 +26,11 @@ namespace Solution2022
 {
 	namespace BestSightseeingPair
 	{
-/*
-	    int maxScoreSightseeingPair(vector<int>& values) {
-	        
-	    }
 
-*/
+	//    int maxScoreSightseeingPair(vector<int>& values) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

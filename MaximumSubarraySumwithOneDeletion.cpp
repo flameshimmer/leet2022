@@ -34,12 +34,11 @@ namespace Solution2022
 {
 	namespace MaximumSubarraySumwithOneDeletion
 	{
-/*
-	    int maximumSum(vector<int>& arr) {
-	        
-	    }
 
-*/
+	//    int maximumSum(vector<int>& arr) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

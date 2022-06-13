@@ -46,12 +46,11 @@ namespace Solution2022
 {
 	namespace CreateTargetArrayintheGivenOrder
 	{
-/*
-	    vector<int> createTargetArray(vector<int>& nums, vector<int>& index) {
-	        
-	    }
 
-*/
+	//    vector<int> createTargetArray(vector<int>& nums, vector<int>& index) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

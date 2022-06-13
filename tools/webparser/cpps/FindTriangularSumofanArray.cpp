@@ -35,12 +35,11 @@ namespace Solution2022
 {
 	namespace FindTriangularSumofanArray
 	{
-/*
-	    int triangularSum(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int triangularSum(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

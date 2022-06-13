@@ -49,12 +49,11 @@ namespace Solution2022
 {
 	namespace CheckifWordEqualsSummationofTwoWords
 	{
-/*
-	    bool isSumEqual(string firstWord, string secondWord, string targetWord) {
-	        
-	    }
 
-*/
+	//    bool isSumEqual(string firstWord, string secondWord, string targetWord) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

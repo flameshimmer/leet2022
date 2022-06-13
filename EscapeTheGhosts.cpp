@@ -45,12 +45,11 @@ namespace Solution2022
 {
 	namespace EscapeTheGhosts
 	{
-/*
-	    bool escapeGhosts(vector<vector<int>>& ghosts, vector<int>& target) {
-	        
-	    }
 
-*/
+	//    bool escapeGhosts(vector<vector<int>>& ghosts, vector<int>& target) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

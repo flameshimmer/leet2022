@@ -32,12 +32,11 @@ namespace Solution2022
 {
 	namespace LargestSumofAverages
 	{
-/*
-	    double largestSumOfAverages(vector<int>& nums, int k) {
-	        
-	    }
 
-*/
+	//    double largestSumOfAverages(vector<int>& nums, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

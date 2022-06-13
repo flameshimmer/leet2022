@@ -37,12 +37,11 @@ namespace Solution2022
 {
 	namespace CountSubIslands
 	{
-/*
-	    int countSubIslands(vector<vector<int>>& grid1, vector<vector<int>>& grid2) {
-	        
-	    }
 
-*/
+	//    int countSubIslands(vector<vector<int>>& grid1, vector<vector<int>>& grid2) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

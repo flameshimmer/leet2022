@@ -27,12 +27,11 @@ namespace Solution2022
 {
 	namespace FindtheShortestSuperstring
 	{
-/*
-	    string shortestSuperstring(vector<string>& words) {
-	        
-	    }
 
-*/
+	//    string shortestSuperstring(vector<string>& words) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

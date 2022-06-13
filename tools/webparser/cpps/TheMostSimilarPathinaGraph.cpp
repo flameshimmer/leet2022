@@ -65,12 +65,11 @@ namespace Solution2022
 {
 	namespace TheMostSimilarPathinaGraph
 	{
-/*
-	    vector<int> mostSimilar(int n, vector<vector<int>>& roads, vector<string>& names, vector<string>& targetPath) {
-	        
-	    }
 
-*/
+	//    vector<int> mostSimilar(int n, vector<vector<int>>& roads, vector<string>& names, vector<string>& targetPath) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -33,12 +33,11 @@ namespace Solution2022
 {
 	namespace CalculateMoneyinLeetcodeBank
 	{
-/*
-	    int totalMoney(int n) {
-	        
-	    }
 
-*/
+	//    int totalMoney(int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

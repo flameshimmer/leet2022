@@ -42,12 +42,11 @@ namespace Solution2022
 {
 	namespace CheckifanArrayIsConsecutive
 	{
-/*
-	    bool isConsecutive(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    bool isConsecutive(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

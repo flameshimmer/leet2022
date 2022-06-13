@@ -70,12 +70,11 @@ namespace Solution2022
 {
 	namespace DeleteDuplicateFoldersinSystem
 	{
-/*
-	    vector<vector<string>> deleteDuplicateFolder(vector<vector<string>>& paths) {
-	        
-	    }
 
-*/
+	//    vector<vector<string>> deleteDuplicateFolder(vector<vector<string>>& paths) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -37,12 +37,11 @@ namespace Solution2022
 {
 	namespace GrumpyBookstoreOwner
 	{
-/*
-	    int maxSatisfied(vector<int>& customers, vector<int>& grumpy, int minutes) {
-	        
-	    }
 
-*/
+	//    int maxSatisfied(vector<int>& customers, vector<int>& grumpy, int minutes) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

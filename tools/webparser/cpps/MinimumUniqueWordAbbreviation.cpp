@@ -54,12 +54,11 @@ namespace Solution2022
 {
 	namespace MinimumUniqueWordAbbreviation
 	{
-/*
-	    string minAbbreviation(string target, vector<string>& dictionary) {
-	        
-	    }
 
-*/
+	//    string minAbbreviation(string target, vector<string>& dictionary) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

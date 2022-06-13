@@ -36,12 +36,11 @@ namespace Solution2022
 {
 	namespace ToeplitzMatrix
 	{
-/*
-	    bool isToeplitzMatrix(vector<vector<int>>& matrix) {
-	        
-	    }
 
-*/
+	//    bool isToeplitzMatrix(vector<vector<int>>& matrix) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

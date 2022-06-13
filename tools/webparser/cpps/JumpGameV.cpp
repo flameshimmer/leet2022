@@ -42,12 +42,11 @@ namespace Solution2022
 {
 	namespace JumpGameV
 	{
-/*
-	    int maxJumps(vector<int>& arr, int d) {
-	        
-	    }
 
-*/
+	//    int maxJumps(vector<int>& arr, int d) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

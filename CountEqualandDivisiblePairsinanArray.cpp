@@ -29,12 +29,11 @@ namespace Solution2022
 {
 	namespace CountEqualandDivisiblePairsinanArray
 	{
-/*
-	    int countPairs(vector<int>& nums, int k) {
-	        
-	    }
 
-*/
+	//    int countPairs(vector<int>& nums, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

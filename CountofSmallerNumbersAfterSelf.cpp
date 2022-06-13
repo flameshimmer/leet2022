@@ -30,12 +30,11 @@ namespace Solution2022
 {
 	namespace CountofSmallerNumbersAfterSelf
 	{
-/*
-	    vector<int> countSmaller(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    vector<int> countSmaller(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

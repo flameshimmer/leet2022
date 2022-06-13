@@ -37,12 +37,11 @@ namespace Solution2022
 {
 	namespace MaximumAveragePassRatio
 	{
-/*
-	    double maxAverageRatio(vector<vector<int>>& classes, int extraStudents) {
-	        
-	    }
 
-*/
+	//    double maxAverageRatio(vector<vector<int>>& classes, int extraStudents) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

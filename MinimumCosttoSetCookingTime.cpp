@@ -62,12 +62,11 @@ namespace Solution2022
 {
 	namespace MinimumCosttoSetCookingTime
 	{
-/*
-	    int minCostSetTime(int startAt, int moveCost, int pushCost, int targetSeconds) {
-	        
-	    }
 
-*/
+	//    int minCostSetTime(int startAt, int moveCost, int pushCost, int targetSeconds) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

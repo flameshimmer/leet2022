@@ -63,12 +63,11 @@ namespace Solution2022
 {
 	namespace WalkingRobotSimulation
 	{
-/*
-	    int robotSim(vector<int>& commands, vector<vector<int>>& obstacles) {
-	        
-	    }
 
-*/
+	//    int robotSim(vector<int>& commands, vector<vector<int>>& obstacles) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -29,12 +29,11 @@ namespace Solution2022
 {
 	namespace FindLuckyIntegerinanArray
 	{
-/*
-	    int findLucky(vector<int>& arr) {
-	        
-	    }
 
-*/
+	//    int findLucky(vector<int>& arr) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

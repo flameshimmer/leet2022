@@ -25,12 +25,11 @@ namespace Solution2022
 {
 	namespace ValidAnagram
 	{
-/*
-	    bool isAnagram(string s, string t) {
-	        
-	    }
 
-*/
+	//    bool isAnagram(string s, string t) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

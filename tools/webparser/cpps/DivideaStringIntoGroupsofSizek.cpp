@@ -47,12 +47,11 @@ namespace Solution2022
 {
 	namespace DivideaStringIntoGroupsofSizek
 	{
-/*
-	    vector<string> divideString(string s, int k, char fill) {
-	        
-	    }
 
-*/
+	//    vector<string> divideString(string s, int k, char fill) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

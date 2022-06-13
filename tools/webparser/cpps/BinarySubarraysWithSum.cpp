@@ -27,12 +27,11 @@ namespace Solution2022
 {
 	namespace BinarySubarraysWithSum
 	{
-/*
-	    int numSubarraysWithSum(vector<int>& nums, int goal) {
-	        
-	    }
 
-*/
+	//    int numSubarraysWithSum(vector<int>& nums, int goal) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

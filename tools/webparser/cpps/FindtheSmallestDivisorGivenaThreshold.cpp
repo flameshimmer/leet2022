@@ -29,12 +29,11 @@ namespace Solution2022
 {
 	namespace FindtheSmallestDivisorGivenaThreshold
 	{
-/*
-	    int smallestDivisor(vector<int>& nums, int threshold) {
-	        
-	    }
 
-*/
+	//    int smallestDivisor(vector<int>& nums, int threshold) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

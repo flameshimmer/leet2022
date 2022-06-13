@@ -46,12 +46,11 @@ namespace Solution2022
 {
 	namespace FaultySensor
 	{
-/*
-	    int badSensor(vector<int>& sensor1, vector<int>& sensor2) {
-	        
-	    }
 
-*/
+	//    int badSensor(vector<int>& sensor1, vector<int>& sensor2) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

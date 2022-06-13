@@ -46,12 +46,11 @@ namespace Solution2022
 {
 	namespace BulbSwitcherII
 	{
-/*
-	    int flipLights(int n, int presses) {
-	        
-	    }
 
-*/
+	//    int flipLights(int n, int presses) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

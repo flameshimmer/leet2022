@@ -36,12 +36,11 @@ namespace Solution2022
 {
 	namespace MakeTwoArraysEqualbyReversingSubarrays
 	{
-/*
-	    bool canBeEqual(vector<int>& target, vector<int>& arr) {
-	        
-	    }
 
-*/
+	//    bool canBeEqual(vector<int>& target, vector<int>& arr) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

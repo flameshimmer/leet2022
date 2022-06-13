@@ -29,12 +29,11 @@ namespace Solution2022
 {
 	namespace PairsofSongsWithTotalDurationsDivisiblebySixZero
 	{
-/*
-	    int numPairsDivisibleBy60(vector<int>& time) {
-	        
-	    }
 
-*/
+	//    int numPairsDivisibleBy60(vector<int>& time) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

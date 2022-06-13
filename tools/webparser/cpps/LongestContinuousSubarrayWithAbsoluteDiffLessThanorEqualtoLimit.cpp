@@ -40,12 +40,11 @@ namespace Solution2022
 {
 	namespace LongestContinuousSubarrayWithAbsoluteDiffLessThanorEqualtoLimit
 	{
-/*
-	    int longestSubarray(vector<int>& nums, int limit) {
-	        
-	    }
 
-*/
+	//    int longestSubarray(vector<int>& nums, int limit) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

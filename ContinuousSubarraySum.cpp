@@ -34,12 +34,11 @@ namespace Solution2022
 {
 	namespace ContinuousSubarraySum
 	{
-/*
-	    bool checkSubarraySum(vector<int>& nums, int k) {
-	        
-	    }
 
-*/
+	//    bool checkSubarraySum(vector<int>& nums, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

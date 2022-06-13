@@ -34,12 +34,11 @@ namespace Solution2022
 {
 	namespace MinimumDifferenceBetweenHighestandLowestofKScores
 	{
-/*
-	    int minimumDifference(vector<int>& nums, int k) {
-	        
-	    }
 
-*/
+	//    int minimumDifference(vector<int>& nums, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

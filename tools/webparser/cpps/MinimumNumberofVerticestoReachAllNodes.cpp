@@ -33,12 +33,11 @@ namespace Solution2022
 {
 	namespace MinimumNumberofVerticestoReachAllNodes
 	{
-/*
-	    vector<int> findSmallestSetOfVertices(int n, vector<vector<int>>& edges) {
-	        
-	    }
 
-*/
+	//    vector<int> findSmallestSetOfVertices(int n, vector<vector<int>>& edges) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

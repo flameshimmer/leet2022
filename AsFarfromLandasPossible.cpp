@@ -30,12 +30,11 @@ namespace Solution2022
 {
 	namespace AsFarfromLandasPossible
 	{
-/*
-	    int maxDistance(vector<vector<int>>& grid) {
-	        
-	    }
 
-*/
+	//    int maxDistance(vector<vector<int>>& grid) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

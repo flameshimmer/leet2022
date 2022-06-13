@@ -39,12 +39,11 @@ namespace Solution2022
 {
 	namespace NumberofWaystoBuildSturdyBrickWall
 	{
-/*
-	    int buildWall(int height, int width, vector<int>& bricks) {
-	        
-	    }
 
-*/
+	//    int buildWall(int height, int width, vector<int>& bricks) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

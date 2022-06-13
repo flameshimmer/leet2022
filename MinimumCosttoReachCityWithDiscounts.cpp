@@ -51,12 +51,11 @@ namespace Solution2022
 {
 	namespace MinimumCosttoReachCityWithDiscounts
 	{
-/*
-	    int minimumCost(int n, vector<vector<int>>& highways, int discounts) {
-	        
-	    }
 
-*/
+	//    int minimumCost(int n, vector<vector<int>>& highways, int discounts) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

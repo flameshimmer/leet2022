@@ -36,12 +36,11 @@ namespace Solution2022
 {
 	namespace CountItemsMatchingaRule
 	{
-/*
-	    int countMatches(vector<vector<string>>& items, string ruleKey, string ruleValue) {
-	        
-	    }
 
-*/
+	//    int countMatches(vector<vector<string>>& items, string ruleKey, string ruleValue) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

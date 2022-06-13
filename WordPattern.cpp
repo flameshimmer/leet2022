@@ -29,12 +29,11 @@ namespace Solution2022
 {
 	namespace WordPattern
 	{
-/*
-	    bool wordPattern(string pattern, string s) {
-	        
-	    }
 
-*/
+	//    bool wordPattern(string pattern, string s) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

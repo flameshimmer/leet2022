@@ -31,12 +31,11 @@ namespace Solution2022
 {
 	namespace MinimumXORSumofTwoArrays
 	{
-/*
-	    int minimumXORSum(vector<int>& nums1, vector<int>& nums2) {
-	        
-	    }
 
-*/
+	//    int minimumXORSum(vector<int>& nums1, vector<int>& nums2) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

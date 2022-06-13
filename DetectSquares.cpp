@@ -45,28 +45,27 @@ namespace Solution2022
 {
 	namespace DetectSquares
 	{
-/*
-	class DetectSquares {
-	    DetectSquares() {
-	        
-	    }
-	    
-	    void add(vector<int> point) {
-	        
-	    }
-	    
-	    int count(vector<int> point) {
-	        
-	    }
-	​
-	/**
-	 * Your DetectSquares object will be instantiated and called as such:
-	 * DetectSquares* obj = new DetectSquares();
-	 * obj->add(point);
-	 * int param_2 = obj->count(point);
-	 */
 
-*/
+	//class DetectSquares {
+	//    DetectSquares() {
+	//        
+	//    }
+	//    
+	//    void add(vector<int> point) {
+	//        
+	//    }
+	//    
+	//    int count(vector<int> point) {
+	//        
+	//    }
+	//​
+	///**
+	// * Your DetectSquares object will be instantiated and called as such:
+	// * DetectSquares* obj = new DetectSquares();
+	// * obj->add(point);
+	// * int param_2 = obj->count(point);
+	// */
+
 
 		void Main() {
 			string test = "tst test test";

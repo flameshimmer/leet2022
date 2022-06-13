@@ -31,12 +31,11 @@ namespace Solution2022
 {
 	namespace CountGoodMeals
 	{
-/*
-	    int countPairs(vector<int>& deliciousness) {
-	        
-	    }
 
-*/
+	//    int countPairs(vector<int>& deliciousness) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

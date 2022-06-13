@@ -41,12 +41,11 @@ namespace Solution2022
 {
 	namespace NumberofOneBits
 	{
-/*
-	    int hammingWeight(uint32_t n) {
-	        
-	    }
 
-*/
+	//    int hammingWeight(uint32_t n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

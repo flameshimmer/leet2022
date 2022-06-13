@@ -31,12 +31,11 @@ namespace Solution2022
 {
 	namespace FindXORSumofAllPairsBitwiseAND
 	{
-/*
-	    int getXORSum(vector<int>& arr1, vector<int>& arr2) {
-	        
-	    }
 
-*/
+	//    int getXORSum(vector<int>& arr1, vector<int>& arr2) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

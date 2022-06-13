@@ -25,12 +25,11 @@ namespace Solution2022
 {
 	namespace ErecttheFence
 	{
-/*
-	    vector<vector<int>> outerTrees(vector<vector<int>>& trees) {
-	        
-	    }
 
-*/
+	//    vector<vector<int>> outerTrees(vector<vector<int>>& trees) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

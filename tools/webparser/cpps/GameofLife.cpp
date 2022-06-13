@@ -46,12 +46,11 @@ namespace Solution2022
 {
 	namespace GameofLife
 	{
-/*
-	    void gameOfLife(vector<vector<int>>& board) {
-	        
-	    }
 
-*/
+	//    void gameOfLife(vector<vector<int>>& board) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

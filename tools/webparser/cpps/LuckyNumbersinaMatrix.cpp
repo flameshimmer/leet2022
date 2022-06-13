@@ -35,12 +35,11 @@ namespace Solution2022
 {
 	namespace LuckyNumbersinaMatrix
 	{
-/*
-	    vector<int> luckyNumbers (vector<vector<int>>& matrix) {
-	        
-	    }
 
-*/
+	//    vector<int> luckyNumbers (vector<vector<int>>& matrix) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

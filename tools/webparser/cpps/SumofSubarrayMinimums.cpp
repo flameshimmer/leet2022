@@ -26,12 +26,11 @@ namespace Solution2022
 {
 	namespace SumofSubarrayMinimums
 	{
-/*
-	    int sumSubarrayMins(vector<int>& arr) {
-	        
-	    }
 
-*/
+	//    int sumSubarrayMins(vector<int>& arr) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

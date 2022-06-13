@@ -47,12 +47,11 @@ namespace Solution2022
 {
 	namespace SubtreeRemovalGamewithFibonacciTree
 	{
-/*
-	    bool findGameWinner(int n) {
-	        
-	    }
 
-*/
+	//    bool findGameWinner(int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

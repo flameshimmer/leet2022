@@ -32,12 +32,11 @@ namespace Solution2022
 {
 	namespace WildcardMatching
 	{
-/*
-	    bool isMatch(string s, string p) {
-	        
-	    }
 
-*/
+	//    bool isMatch(string s, string p) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -35,12 +35,11 @@ namespace Solution2022
 {
 	namespace NumberofGoodWaystoSplitaString
 	{
-/*
-	    int numSplits(string s) {
-	        
-	    }
 
-*/
+	//    int numSplits(string s) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

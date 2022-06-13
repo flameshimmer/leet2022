@@ -45,12 +45,11 @@ namespace Solution2022
 {
 	namespace RemovingMinimumNumberofMagicBeans
 	{
-/*
-	    long long minimumRemoval(vector<int>& beans) {
-	        
-	    }
 
-*/
+	//    long long minimumRemoval(vector<int>& beans) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

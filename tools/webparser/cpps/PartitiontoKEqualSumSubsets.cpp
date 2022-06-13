@@ -23,12 +23,11 @@ namespace Solution2022
 {
 	namespace PartitiontoKEqualSumSubsets
 	{
-/*
-	    bool canPartitionKSubsets(vector<int>& nums, int k) {
-	        
-	    }
 
-*/
+	//    bool canPartitionKSubsets(vector<int>& nums, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

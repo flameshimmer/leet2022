@@ -29,12 +29,11 @@ namespace Solution2022
 {
 	namespace TotalHammingDistance
 	{
-/*
-	    int totalHammingDistance(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int totalHammingDistance(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

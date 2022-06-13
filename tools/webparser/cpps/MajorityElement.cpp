@@ -24,12 +24,11 @@ namespace Solution2022
 {
 	namespace MajorityElement
 	{
-/*
-	    int majorityElement(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int majorityElement(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

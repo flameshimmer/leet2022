@@ -25,12 +25,11 @@ namespace Solution2022
 {
 	namespace LongestWordinDictionarythroughDeleting
 	{
-/*
-	    string findLongestWord(string s, vector<string>& dictionary) {
-	        
-	    }
 
-*/
+	//    string findLongestWord(string s, vector<string>& dictionary) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

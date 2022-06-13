@@ -39,12 +39,11 @@ namespace Solution2022
 {
 	namespace NumberofStringsThatAppearasSubstringsinWord
 	{
-/*
-	    int numOfStrings(vector<string>& patterns, string word) {
-	        
-	    }
 
-*/
+	//    int numOfStrings(vector<string>& patterns, string word) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

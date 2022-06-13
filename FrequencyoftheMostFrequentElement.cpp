@@ -38,12 +38,11 @@ namespace Solution2022
 {
 	namespace FrequencyoftheMostFrequentElement
 	{
-/*
-	    int maxFrequency(vector<int>& nums, int k) {
-	        
-	    }
 
-*/
+	//    int maxFrequency(vector<int>& nums, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -31,12 +31,11 @@ namespace Solution2022
 {
 	namespace NumberofProvinces
 	{
-/*
-	    int findCircleNum(vector<vector<int>>& isConnected) {
-	        
-	    }
 
-*/
+	//    int findCircleNum(vector<vector<int>>& isConnected) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

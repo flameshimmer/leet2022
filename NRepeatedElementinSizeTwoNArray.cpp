@@ -29,12 +29,11 @@ namespace Solution2022
 {
 	namespace NRepeatedElementinSizeTwoNArray
 	{
-/*
-	    int repeatedNTimes(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int repeatedNTimes(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -34,12 +34,11 @@ namespace Solution2022
 {
 	namespace FindKthBitinNthBinaryString
 	{
-/*
-	    char findKthBit(int n, int k) {
-	        
-	    }
 
-*/
+	//    char findKthBit(int n, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

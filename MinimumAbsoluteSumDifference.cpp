@@ -46,12 +46,11 @@ namespace Solution2022
 {
 	namespace MinimumAbsoluteSumDifference
 	{
-/*
-	    int minAbsoluteSumDiff(vector<int>& nums1, vector<int>& nums2) {
-	        
-	    }
 
-*/
+	//    int minAbsoluteSumDiff(vector<int>& nums1, vector<int>& nums2) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

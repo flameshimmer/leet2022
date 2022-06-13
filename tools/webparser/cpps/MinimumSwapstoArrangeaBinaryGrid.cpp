@@ -31,12 +31,11 @@ namespace Solution2022
 {
 	namespace MinimumSwapstoArrangeaBinaryGrid
 	{
-/*
-	    int minSwaps(vector<vector<int>>& grid) {
-	        
-	    }
 
-*/
+	//    int minSwaps(vector<vector<int>>& grid) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -23,12 +23,11 @@ namespace Solution2022
 {
 	namespace NumberofDaysinaMonth
 	{
-/*
-	    int numberOfDays(int year, int month) {
-	        
-	    }
 
-*/
+	//    int numberOfDays(int year, int month) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

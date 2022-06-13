@@ -30,12 +30,11 @@ namespace Solution2022
 {
 	namespace LongestArithmeticSubsequenceofGivenDifference
 	{
-/*
-	    int longestSubsequence(vector<int>& arr, int difference) {
-	        
-	    }
 
-*/
+	//    int longestSubsequence(vector<int>& arr, int difference) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

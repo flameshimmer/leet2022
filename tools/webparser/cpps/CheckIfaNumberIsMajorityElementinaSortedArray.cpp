@@ -27,12 +27,11 @@ namespace Solution2022
 {
 	namespace CheckIfaNumberIsMajorityElementinaSortedArray
 	{
-/*
-	    bool isMajorityElement(vector<int>& nums, int target) {
-	        
-	    }
 
-*/
+	//    bool isMajorityElement(vector<int>& nums, int target) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

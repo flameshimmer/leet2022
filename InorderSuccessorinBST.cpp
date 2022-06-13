@@ -28,21 +28,20 @@ namespace Solution2022
 {
 	namespace InorderSuccessorinBST
 	{
-/*
-	/**
-	 * Definition for a binary tree node.
-	 * struct TreeNode {
-	 *     int val;
-	 *     TreeNode *left;
-	 *     TreeNode *right;
-	 *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
-	 * };
-	 */
-	    TreeNode* inorderSuccessor(TreeNode* root, TreeNode* p) {
-	        
-	    }
 
-*/
+	///**
+	// * Definition for a binary tree node.
+	// * struct TreeNode {
+	// *     int val;
+	// *     TreeNode *left;
+	// *     TreeNode *right;
+	// *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+	// * };
+	// */
+	//    TreeNode* inorderSuccessor(TreeNode* root, TreeNode* p) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

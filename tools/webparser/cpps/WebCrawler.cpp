@@ -71,21 +71,20 @@ namespace Solution2022
 {
 	namespace WebCrawler
 	{
-/*
-	/**
-	 * // This is the HtmlParser's API interface.
-	 * // You should not implement it, or speculate about its implementation
-	 * class HtmlParser {
-	 *   public:
-	 *     vector<string> getUrls(string url);
-	 * };
-	 */
-	​
-	    vector<string> crawl(string startUrl, HtmlParser htmlParser) {
-	        
-	    }
 
-*/
+	///**
+	// * // This is the HtmlParser's API interface.
+	// * // You should not implement it, or speculate about its implementation
+	// * class HtmlParser {
+	// *   public:
+	// *     vector<string> getUrls(string url);
+	// * };
+	// */
+	//​
+	//    vector<string> crawl(string startUrl, HtmlParser htmlParser) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

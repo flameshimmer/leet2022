@@ -39,28 +39,27 @@ namespace Solution2022
 {
 	namespace ExamRoom
 	{
-/*
-	class ExamRoom {
-	    ExamRoom(int n) {
-	        
-	    }
-	    
-	    int seat() {
-	        
-	    }
-	    
-	    void leave(int p) {
-	        
-	    }
-	​
-	/**
-	 * Your ExamRoom object will be instantiated and called as such:
-	 * ExamRoom* obj = new ExamRoom(n);
-	 * int param_1 = obj->seat();
-	 * obj->leave(p);
-	 */
 
-*/
+	//class ExamRoom {
+	//    ExamRoom(int n) {
+	//        
+	//    }
+	//    
+	//    int seat() {
+	//        
+	//    }
+	//    
+	//    void leave(int p) {
+	//        
+	//    }
+	//​
+	///**
+	// * Your ExamRoom object will be instantiated and called as such:
+	// * ExamRoom* obj = new ExamRoom(n);
+	// * int param_1 = obj->seat();
+	// * obj->leave(p);
+	// */
+
 
 		void Main() {
 			string test = "tst test test";

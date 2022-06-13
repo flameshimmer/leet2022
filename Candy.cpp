@@ -32,12 +32,11 @@ namespace Solution2022
 {
 	namespace Candy
 	{
-/*
-	    int candy(vector<int>& ratings) {
-	        
-	    }
 
-*/
+	//    int candy(vector<int>& ratings) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

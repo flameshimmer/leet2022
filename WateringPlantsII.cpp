@@ -67,12 +67,11 @@ namespace Solution2022
 {
 	namespace WateringPlantsII
 	{
-/*
-	    int minimumRefill(vector<int>& plants, int capacityA, int capacityB) {
-	        
-	    }
 
-*/
+	//    int minimumRefill(vector<int>& plants, int capacityA, int capacityB) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

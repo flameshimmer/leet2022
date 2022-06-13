@@ -33,12 +33,11 @@ namespace Solution2022
 {
 	namespace SlidingWindowMaximum
 	{
-/*
-	    vector<int> maxSlidingWindow(vector<int>& nums, int k) {
-	        
-	    }
 
-*/
+	//    vector<int> maxSlidingWindow(vector<int>& nums, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

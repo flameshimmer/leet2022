@@ -36,12 +36,11 @@ namespace Solution2022
 {
 	namespace MaximumSumofTwoNonOverlappingSubarrays
 	{
-/*
-	    int maxSumTwoNoOverlap(vector<int>& nums, int firstLen, int secondLen) {
-	        
-	    }
 
-*/
+	//    int maxSumTwoNoOverlap(vector<int>& nums, int firstLen, int secondLen) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -31,12 +31,11 @@ namespace Solution2022
 {
 	namespace CountDifferentPalindromicSubsequences
 	{
-/*
-	    int countPalindromicSubsequences(string s) {
-	        
-	    }
 
-*/
+	//    int countPalindromicSubsequences(string s) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

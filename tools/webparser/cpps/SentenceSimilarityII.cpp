@@ -50,12 +50,11 @@ namespace Solution2022
 {
 	namespace SentenceSimilarityII
 	{
-/*
-	    bool areSentencesSimilarTwo(vector<string>& sentence1, vector<string>& sentence2, vector<vector<string>>& similarPairs) {
-	        
-	    }
 
-*/
+	//    bool areSentencesSimilarTwo(vector<string>& sentence1, vector<string>& sentence2, vector<vector<string>>& similarPairs) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

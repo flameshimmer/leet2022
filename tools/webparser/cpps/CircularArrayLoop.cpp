@@ -52,12 +52,11 @@ namespace Solution2022
 {
 	namespace CircularArrayLoop
 	{
-/*
-	    bool circularArrayLoop(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    bool circularArrayLoop(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

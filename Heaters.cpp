@@ -34,12 +34,11 @@ namespace Solution2022
 {
 	namespace Heaters
 	{
-/*
-	    int findRadius(vector<int>& houses, vector<int>& heaters) {
-	        
-	    }
 
-*/
+	//    int findRadius(vector<int>& houses, vector<int>& heaters) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -27,12 +27,11 @@ namespace Solution2022
 {
 	namespace DivisorGame
 	{
-/*
-	    bool divisorGame(int n) {
-	        
-	    }
 
-*/
+	//    bool divisorGame(int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

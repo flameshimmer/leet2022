@@ -52,30 +52,29 @@ namespace Solution2022
 {
 	namespace MoveSubTreeofNAryTree
 	{
-/*
-	/*
-	// Definition for a Node.
-	class Node {
-	    int val;
-	    vector<Node*> children;
-	​
-	    Node() {}
-	​
-	    Node(int _val) {
-	        val = _val;
-	    }
-	​
-	    Node(int _val, vector<Node*> _children) {
-	        val = _val;
-	        children = _children;
-	    }
-	*/
-	​
-	    Node* moveSubTree(Node* root, Node* p, Node* q) {
-	        
-	    }
 
-*/
+	///*
+	//// Definition for a Node.
+	//class Node {
+	//    int val;
+	//    vector<Node*> children;
+	//​
+	//    Node() {}
+	//​
+	//    Node(int _val) {
+	//        val = _val;
+	//    }
+	//​
+	//    Node(int _val, vector<Node*> _children) {
+	//        val = _val;
+	//        children = _children;
+	//    }
+	//*/
+	//​
+	//    Node* moveSubTree(Node* root, Node* p, Node* q) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

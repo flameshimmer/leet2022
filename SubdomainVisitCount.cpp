@@ -44,12 +44,11 @@ namespace Solution2022
 {
 	namespace SubdomainVisitCount
 	{
-/*
-	    vector<string> subdomainVisits(vector<string>& cpdomains) {
-	        
-	    }
 
-*/
+	//    vector<string> subdomainVisits(vector<string>& cpdomains) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

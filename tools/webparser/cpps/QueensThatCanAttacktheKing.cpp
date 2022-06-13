@@ -42,12 +42,11 @@ namespace Solution2022
 {
 	namespace QueensThatCanAttacktheKing
 	{
-/*
-	    vector<vector<int>> queensAttacktheKing(vector<vector<int>>& queens, vector<int>& king) {
-	        
-	    }
 
-*/
+	//    vector<vector<int>> queensAttacktheKing(vector<vector<int>>& queens, vector<int>& king) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -24,12 +24,11 @@ namespace Solution2022
 {
 	namespace StringWithoutAAAorBBB
 	{
-/*
-	    string strWithout3a3b(int a, int b) {
-	        
-	    }
 
-*/
+	//    string strWithout3a3b(int a, int b) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

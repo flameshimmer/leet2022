@@ -37,12 +37,11 @@ namespace Solution2022
 {
 	namespace MinimumOperationstoMakeaUniValueGrid
 	{
-/*
-	    int minOperations(vector<vector<int>>& grid, int x) {
-	        
-	    }
 
-*/
+	//    int minOperations(vector<vector<int>>& grid, int x) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

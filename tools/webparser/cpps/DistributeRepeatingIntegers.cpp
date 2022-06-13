@@ -40,12 +40,11 @@ namespace Solution2022
 {
 	namespace DistributeRepeatingIntegers
 	{
-/*
-	    bool canDistribute(vector<int>& nums, vector<int>& quantity) {
-	        
-	    }
 
-*/
+	//    bool canDistribute(vector<int>& nums, vector<int>& quantity) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

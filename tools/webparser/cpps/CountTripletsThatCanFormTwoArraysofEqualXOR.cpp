@@ -27,12 +27,11 @@ namespace Solution2022
 {
 	namespace CountTripletsThatCanFormTwoArraysofEqualXOR
 	{
-/*
-	    int countTriplets(vector<int>& arr) {
-	        
-	    }
 
-*/
+	//    int countTriplets(vector<int>& arr) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

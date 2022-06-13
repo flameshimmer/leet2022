@@ -20,12 +20,11 @@ namespace Solution2022
 {
 	namespace LexicographicalNumbers
 	{
-/*
-	    vector<int> lexicalOrder(int n) {
-	        
-	    }
 
-*/
+	//    vector<int> lexicalOrder(int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

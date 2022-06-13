@@ -26,12 +26,11 @@ namespace Solution2022
 {
 	namespace NQueens
 	{
-/*
-	    vector<vector<string>> solveNQueens(int n) {
-	        
-	    }
 
-*/
+	//    vector<vector<string>> solveNQueens(int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -38,12 +38,11 @@ namespace Solution2022
 {
 	namespace ZigzagConversion
 	{
-/*
-	    string convert(string s, int numRows) {
-	        
-	    }
 
-*/
+	//    string convert(string s, int numRows) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

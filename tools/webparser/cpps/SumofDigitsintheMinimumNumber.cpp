@@ -24,12 +24,11 @@ namespace Solution2022
 {
 	namespace SumofDigitsintheMinimumNumber
 	{
-/*
-	    int sumOfDigits(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int sumOfDigits(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

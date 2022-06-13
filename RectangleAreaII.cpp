@@ -32,12 +32,11 @@ namespace Solution2022
 {
 	namespace RectangleAreaII
 	{
-/*
-	    int rectangleArea(vector<vector<int>>& rectangles) {
-	        
-	    }
 
-*/
+	//    int rectangleArea(vector<vector<int>>& rectangles) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

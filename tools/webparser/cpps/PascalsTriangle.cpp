@@ -20,12 +20,11 @@ namespace Solution2022
 {
 	namespace PascalsTriangle
 	{
-/*
-	    vector<vector<int>> generate(int numRows) {
-	        
-	    }
 
-*/
+	//    vector<vector<int>> generate(int numRows) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -46,12 +46,11 @@ namespace Solution2022
 {
 	namespace NumberofWaystoDivideaLongCorridor
 	{
-/*
-	    int numberOfWays(string corridor) {
-	        
-	    }
 
-*/
+	//    int numberOfWays(string corridor) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

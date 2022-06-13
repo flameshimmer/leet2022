@@ -31,12 +31,11 @@ namespace Solution2022
 {
 	namespace RotateFunction
 	{
-/*
-	    int maxRotateFunction(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int maxRotateFunction(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -70,12 +70,11 @@ namespace Solution2022
 {
 	namespace MaskingPersonalInformation
 	{
-/*
-	    string maskPII(string s) {
-	        
-	    }
 
-*/
+	//    string maskPII(string s) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

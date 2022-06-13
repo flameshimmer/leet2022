@@ -23,12 +23,11 @@ namespace Solution2022
 {
 	namespace PartitionEqualSubsetSum
 	{
-/*
-	    bool canPartition(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    bool canPartition(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

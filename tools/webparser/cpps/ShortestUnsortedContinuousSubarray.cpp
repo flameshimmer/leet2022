@@ -30,12 +30,11 @@ namespace Solution2022
 {
 	namespace ShortestUnsortedContinuousSubarray
 	{
-/*
-	    int findUnsortedSubarray(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int findUnsortedSubarray(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -21,12 +21,11 @@ namespace Solution2022
 {
 	namespace ReversePairs
 	{
-/*
-	    int reversePairs(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int reversePairs(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

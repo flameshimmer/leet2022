@@ -42,12 +42,11 @@ namespace Solution2022
 {
 	namespace NumberofValidWordsforEachPuzzle
 	{
-/*
-	    vector<int> findNumOfValidWords(vector<string>& words, vector<string>& puzzles) {
-	        
-	    }
 
-*/
+	//    vector<int> findNumOfValidWords(vector<string>& words, vector<string>& puzzles) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

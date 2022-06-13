@@ -44,12 +44,11 @@ namespace Solution2022
 {
 	namespace MinimizetheDifferenceBetweenTargetandChosenElements
 	{
-/*
-	    int minimizeTheDifference(vector<vector<int>>& mat, int target) {
-	        
-	    }
 
-*/
+	//    int minimizeTheDifference(vector<vector<int>>& mat, int target) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -34,12 +34,11 @@ namespace Solution2022
 {
 	namespace NonnegativeIntegerswithoutConsecutiveOnes
 	{
-/*
-	    int findIntegers(int n) {
-	        
-	    }
 
-*/
+	//    int findIntegers(int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

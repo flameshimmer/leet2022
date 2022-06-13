@@ -56,12 +56,11 @@ namespace Solution2022
 {
 	namespace CountHillsandValleysinanArray
 	{
-/*
-	    int countHillValley(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int countHillValley(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

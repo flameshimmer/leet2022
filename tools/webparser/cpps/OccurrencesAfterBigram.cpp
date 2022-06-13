@@ -27,12 +27,11 @@ namespace Solution2022
 {
 	namespace OccurrencesAfterBigram
 	{
-/*
-	    vector<string> findOcurrences(string text, string first, string second) {
-	        
-	    }
 
-*/
+	//    vector<string> findOcurrences(string text, string first, string second) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -27,12 +27,11 @@ namespace Solution2022
 {
 	namespace ConcatenatedWords
 	{
-/*
-	    vector<string> findAllConcatenatedWordsInADict(vector<string>& words) {
-	        
-	    }
 
-*/
+	//    vector<string> findAllConcatenatedWordsInADict(vector<string>& words) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

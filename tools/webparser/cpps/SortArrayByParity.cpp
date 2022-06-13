@@ -23,12 +23,11 @@ namespace Solution2022
 {
 	namespace SortArrayByParity
 	{
-/*
-	    vector<int> sortArrayByParity(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    vector<int> sortArrayByParity(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

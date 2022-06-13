@@ -42,12 +42,11 @@ namespace Solution2022
 {
 	namespace CountSubstringsThatDifferbyOneCharacter
 	{
-/*
-	    int countSubstrings(string s, string t) {
-	        
-	    }
 
-*/
+	//    int countSubstrings(string s, string t) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

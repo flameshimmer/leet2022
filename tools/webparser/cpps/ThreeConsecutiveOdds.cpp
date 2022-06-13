@@ -22,12 +22,11 @@ namespace Solution2022
 {
 	namespace ThreeConsecutiveOdds
 	{
-/*
-	    bool threeConsecutiveOdds(vector<int>& arr) {
-	        
-	    }
 
-*/
+	//    bool threeConsecutiveOdds(vector<int>& arr) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

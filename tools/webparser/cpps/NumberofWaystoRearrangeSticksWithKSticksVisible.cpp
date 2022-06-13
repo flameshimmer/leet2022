@@ -38,12 +38,11 @@ namespace Solution2022
 {
 	namespace NumberofWaystoRearrangeSticksWithKSticksVisible
 	{
-/*
-	    int rearrangeSticks(int n, int k) {
-	        
-	    }
 
-*/
+	//    int rearrangeSticks(int n, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -24,12 +24,11 @@ namespace Solution2022
 {
 	namespace CheckIfItIsaStraightLine
 	{
-/*
-	    bool checkStraightLine(vector<vector<int>>& coordinates) {
-	        
-	    }
 
-*/
+	//    bool checkStraightLine(vector<vector<int>>& coordinates) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

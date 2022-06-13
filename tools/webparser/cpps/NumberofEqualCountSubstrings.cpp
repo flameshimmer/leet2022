@@ -42,12 +42,11 @@ namespace Solution2022
 {
 	namespace NumberofEqualCountSubstrings
 	{
-/*
-	    int equalCountSubstrings(string s, int count) {
-	        
-	    }
 
-*/
+	//    int equalCountSubstrings(string s, int count) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

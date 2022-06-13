@@ -37,12 +37,11 @@ namespace Solution2022
 {
 	namespace PartitionArrayIntoTwoArraystoMinimizeSumDifference
 	{
-/*
-	    int minimumDifference(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int minimumDifference(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -49,12 +49,11 @@ namespace Solution2022
 {
 	namespace FindGoodDaystoRobtheBank
 	{
-/*
-	    vector<int> goodDaysToRobBank(vector<int>& security, int time) {
-	        
-	    }
 
-*/
+	//    vector<int> goodDaysToRobBank(vector<int>& security, int time) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

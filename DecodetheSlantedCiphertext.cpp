@@ -55,12 +55,11 @@ namespace Solution2022
 {
 	namespace DecodetheSlantedCiphertext
 	{
-/*
-	    string decodeCiphertext(string encodedText, int rows) {
-	        
-	    }
 
-*/
+	//    string decodeCiphertext(string encodedText, int rows) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

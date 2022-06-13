@@ -59,12 +59,11 @@ namespace Solution2022
 {
 	namespace DecodeWaysII
 	{
-/*
-	    int numDecodings(string s) {
-	        
-	    }
 
-*/
+	//    int numDecodings(string s) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

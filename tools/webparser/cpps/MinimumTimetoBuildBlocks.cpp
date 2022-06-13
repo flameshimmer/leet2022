@@ -41,12 +41,11 @@ namespace Solution2022
 {
 	namespace MinimumTimetoBuildBlocks
 	{
-/*
-	    int minBuildTime(vector<int>& blocks, int split) {
-	        
-	    }
 
-*/
+	//    int minBuildTime(vector<int>& blocks, int split) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

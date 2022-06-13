@@ -28,12 +28,11 @@ namespace Solution2022
 {
 	namespace NumberofSubarraysofSizeKandAverageGreaterthanorEqualtoThreshold
 	{
-/*
-	    int numOfSubarrays(vector<int>& arr, int k, int threshold) {
-	        
-	    }
 
-*/
+	//    int numOfSubarrays(vector<int>& arr, int k, int threshold) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

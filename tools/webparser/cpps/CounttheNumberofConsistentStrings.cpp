@@ -33,12 +33,11 @@ namespace Solution2022
 {
 	namespace CounttheNumberofConsistentStrings
 	{
-/*
-	    int countConsistentStrings(string allowed, vector<string>& words) {
-	        
-	    }
 
-*/
+	//    int countConsistentStrings(string allowed, vector<string>& words) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

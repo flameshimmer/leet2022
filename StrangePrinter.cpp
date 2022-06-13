@@ -27,12 +27,11 @@ namespace Solution2022
 {
 	namespace StrangePrinter
 	{
-/*
-	    int strangePrinter(string s) {
-	        
-	    }
 
-*/
+	//    int strangePrinter(string s) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

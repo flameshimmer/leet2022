@@ -41,12 +41,11 @@ namespace Solution2022
 {
 	namespace TernaryExpressionParser
 	{
-/*
-	    string parseTernary(string expression) {
-	        
-	    }
 
-*/
+	//    string parseTernary(string expression) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

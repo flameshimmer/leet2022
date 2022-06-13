@@ -35,12 +35,11 @@ namespace Solution2022
 {
 	namespace NumberofFlowersinFullBloom
 	{
-/*
-	    vector<int> fullBloomFlowers(vector<vector<int>>& flowers, vector<int>& persons) {
-	        
-	    }
 
-*/
+	//    vector<int> fullBloomFlowers(vector<vector<int>>& flowers, vector<int>& persons) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -34,12 +34,11 @@ namespace Solution2022
 {
 	namespace CoinPath
 	{
-/*
-	    vector<int> cheapestJump(vector<int>& coins, int maxJump) {
-	        
-	    }
 
-*/
+	//    vector<int> cheapestJump(vector<int>& coins, int maxJump) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

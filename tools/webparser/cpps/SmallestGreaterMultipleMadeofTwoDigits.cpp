@@ -38,12 +38,11 @@ namespace Solution2022
 {
 	namespace SmallestGreaterMultipleMadeofTwoDigits
 	{
-/*
-	    int findInteger(int k, int digit1, int digit2) {
-	        
-	    }
 
-*/
+	//    int findInteger(int k, int digit1, int digit2) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

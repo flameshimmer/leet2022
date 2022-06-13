@@ -25,12 +25,11 @@ namespace Solution2022
 {
 	namespace DivideArrayIntoIncreasingSequences
 	{
-/*
-	    bool canDivideIntoSubsequences(vector<int>& nums, int k) {
-	        
-	    }
 
-*/
+	//    bool canDivideIntoSubsequences(vector<int>& nums, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -33,12 +33,11 @@ namespace Solution2022
 {
 	namespace MagneticForceBetweenTwoBalls
 	{
-/*
-	    int maxDistance(vector<int>& position, int m) {
-	        
-	    }
 
-*/
+	//    int maxDistance(vector<int>& position, int m) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

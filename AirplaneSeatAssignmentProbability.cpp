@@ -26,12 +26,11 @@ namespace Solution2022
 {
 	namespace AirplaneSeatAssignmentProbability
 	{
-/*
-	    double nthPersonGetsNthSeat(int n) {
-	        
-	    }
 
-*/
+	//    double nthPersonGetsNthSeat(int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

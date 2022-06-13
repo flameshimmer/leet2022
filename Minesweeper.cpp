@@ -46,12 +46,11 @@ namespace Solution2022
 {
 	namespace Minesweeper
 	{
-/*
-	    vector<vector<char>> updateBoard(vector<vector<char>>& board, vector<int>& click) {
-	        
-	    }
 
-*/
+	//    vector<vector<char>> updateBoard(vector<vector<char>>& board, vector<int>& click) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

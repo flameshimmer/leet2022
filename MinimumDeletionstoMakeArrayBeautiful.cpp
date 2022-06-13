@@ -34,12 +34,11 @@ namespace Solution2022
 {
 	namespace MinimumDeletionstoMakeArrayBeautiful
 	{
-/*
-	    int minDeletion(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int minDeletion(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

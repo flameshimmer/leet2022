@@ -48,12 +48,11 @@ namespace Solution2022
 {
 	namespace MinimumAverageDifference
 	{
-/*
-	    int minimumAverageDifference(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int minimumAverageDifference(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

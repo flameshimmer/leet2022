@@ -36,12 +36,11 @@ namespace Solution2022
 {
 	namespace MinimumNumberofMovestoMakePalindrome
 	{
-/*
-	    int minMovesToMakePalindrome(string s) {
-	        
-	    }
 
-*/
+	//    int minMovesToMakePalindrome(string s) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

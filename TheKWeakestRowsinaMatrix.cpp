@@ -56,12 +56,11 @@ namespace Solution2022
 {
 	namespace TheKWeakestRowsinaMatrix
 	{
-/*
-	    vector<int> kWeakestRows(vector<vector<int>>& mat, int k) {
-	        
-	    }
 
-*/
+	//    vector<int> kWeakestRows(vector<vector<int>>& mat, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

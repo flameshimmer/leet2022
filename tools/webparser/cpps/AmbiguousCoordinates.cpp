@@ -37,12 +37,11 @@ namespace Solution2022
 {
 	namespace AmbiguousCoordinates
 	{
-/*
-	    vector<string> ambiguousCoordinates(string s) {
-	        
-	    }
 
-*/
+	//    vector<string> ambiguousCoordinates(string s) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

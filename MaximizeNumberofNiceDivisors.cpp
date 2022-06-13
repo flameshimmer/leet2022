@@ -37,12 +37,11 @@ namespace Solution2022
 {
 	namespace MaximizeNumberofNiceDivisors
 	{
-/*
-	    int maxNiceDivisors(int primeFactors) {
-	        
-	    }
 
-*/
+	//    int maxNiceDivisors(int primeFactors) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

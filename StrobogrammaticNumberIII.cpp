@@ -25,12 +25,11 @@ namespace Solution2022
 {
 	namespace StrobogrammaticNumberIII
 	{
-/*
-	    int strobogrammaticInRange(string low, string high) {
-	        
-	    }
 
-*/
+	//    int strobogrammaticInRange(string low, string high) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -34,12 +34,11 @@ namespace Solution2022
 {
 	namespace PaintFence
 	{
-/*
-	    int numWays(int n, int k) {
-	        
-	    }
 
-*/
+	//    int numWays(int n, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

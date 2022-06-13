@@ -29,12 +29,11 @@ namespace Solution2022
 {
 	namespace CircularPermutationinBinaryRepresentation
 	{
-/*
-	    vector<int> circularPermutation(int n, int start) {
-	        
-	    }
 
-*/
+	//    vector<int> circularPermutation(int n, int start) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -37,12 +37,11 @@ namespace Solution2022
 {
 	namespace MinimumDeletionstoMakeCharacterFrequenciesUnique
 	{
-/*
-	    int minDeletions(string s) {
-	        
-	    }
 
-*/
+	//    int minDeletions(string s) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

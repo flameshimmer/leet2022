@@ -27,12 +27,11 @@ namespace Solution2022
 {
 	namespace MirrorReflection
 	{
-/*
-	    int mirrorReflection(int p, int q) {
-	        
-	    }
 
-*/
+	//    int mirrorReflection(int p, int q) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

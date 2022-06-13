@@ -42,12 +42,11 @@ namespace Solution2022
 {
 	namespace PrisonCellsAfterNDays
 	{
-/*
-	    vector<int> prisonAfterNDays(vector<int>& cells, int n) {
-	        
-	    }
 
-*/
+	//    vector<int> prisonAfterNDays(vector<int>& cells, int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -36,12 +36,11 @@ namespace Solution2022
 {
 	namespace FindtheTownJudge
 	{
-/*
-	    int findJudge(int n, vector<vector<int>>& trust) {
-	        
-	    }
 
-*/
+	//    int findJudge(int n, vector<vector<int>>& trust) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

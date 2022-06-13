@@ -41,12 +41,11 @@ namespace Solution2022
 {
 	namespace IntervalsBetweenIdenticalElements
 	{
-/*
-	    vector<long long> getDistances(vector<int>& arr) {
-	        
-	    }
 
-*/
+	//    vector<long long> getDistances(vector<int>& arr) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

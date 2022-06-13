@@ -31,12 +31,11 @@ namespace Solution2022
 {
 	namespace DetermineWhetherMatrixCanBeObtainedByRotation
 	{
-/*
-	    bool findRotation(vector<vector<int>>& mat, vector<vector<int>>& target) {
-	        
-	    }
 
-*/
+	//    bool findRotation(vector<vector<int>>& mat, vector<vector<int>>& target) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

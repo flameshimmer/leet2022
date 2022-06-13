@@ -30,12 +30,11 @@ namespace Solution2022
 {
 	namespace SplitArrayLargestSum
 	{
-/*
-	    int splitArray(vector<int>& nums, int m) {
-	        
-	    }
 
-*/
+	//    int splitArray(vector<int>& nums, int m) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

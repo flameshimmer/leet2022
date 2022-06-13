@@ -61,12 +61,11 @@ namespace Solution2022
 {
 	namespace LongestAbsoluteFilePath
 	{
-/*
-	    int lengthLongestPath(string input) {
-	        
-	    }
 
-*/
+	//    int lengthLongestPath(string input) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

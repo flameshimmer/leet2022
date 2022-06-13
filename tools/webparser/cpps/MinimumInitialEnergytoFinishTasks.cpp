@@ -53,12 +53,11 @@ namespace Solution2022
 {
 	namespace MinimumInitialEnergytoFinishTasks
 	{
-/*
-	    int minimumEffort(vector<vector<int>>& tasks) {
-	        
-	    }
 
-*/
+	//    int minimumEffort(vector<vector<int>>& tasks) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

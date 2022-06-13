@@ -33,12 +33,11 @@ namespace Solution2022
 {
 	namespace PalindromePartitioningIII
 	{
-/*
-	    int palindromePartition(string s, int k) {
-	        
-	    }
 
-*/
+	//    int palindromePartition(string s, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

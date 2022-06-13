@@ -34,12 +34,11 @@ namespace Solution2022
 {
 	namespace RemoveAllAdjacentDuplicatesinStringII
 	{
-/*
-	    string removeDuplicates(string s, int k) {
-	        
-	    }
 
-*/
+	//    string removeDuplicates(string s, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

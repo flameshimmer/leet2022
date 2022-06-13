@@ -35,12 +35,11 @@ namespace Solution2022
 {
 	namespace ArrayTransformation
 	{
-/*
-	    vector<int> transformArray(vector<int>& arr) {
-	        
-	    }
 
-*/
+	//    vector<int> transformArray(vector<int>& arr) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

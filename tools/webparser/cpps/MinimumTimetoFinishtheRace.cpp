@@ -50,12 +50,11 @@ namespace Solution2022
 {
 	namespace MinimumTimetoFinishtheRace
 	{
-/*
-	    int minimumFinishTime(vector<vector<int>>& tires, int changeTime, int numLaps) {
-	        
-	    }
 
-*/
+	//    int minimumFinishTime(vector<vector<int>>& tires, int changeTime, int numLaps) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

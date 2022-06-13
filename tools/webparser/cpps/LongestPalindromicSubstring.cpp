@@ -20,12 +20,11 @@ namespace Solution2022
 {
 	namespace LongestPalindromicSubstring
 	{
-/*
-	    string longestPalindrome(string s) {
-	        
-	    }
 
-*/
+	//    string longestPalindrome(string s) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

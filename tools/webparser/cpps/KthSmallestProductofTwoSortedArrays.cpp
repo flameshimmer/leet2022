@@ -44,12 +44,11 @@ namespace Solution2022
 {
 	namespace KthSmallestProductofTwoSortedArrays
 	{
-/*
-	    long long kthSmallestProduct(vector<int>& nums1, vector<int>& nums2, long long k) {
-	        
-	    }
 
-*/
+	//    long long kthSmallestProduct(vector<int>& nums1, vector<int>& nums2, long long k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

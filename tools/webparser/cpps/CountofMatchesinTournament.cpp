@@ -37,12 +37,11 @@ namespace Solution2022
 {
 	namespace CountofMatchesinTournament
 	{
-/*
-	    int numberOfMatches(int n) {
-	        
-	    }
 
-*/
+	//    int numberOfMatches(int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -27,12 +27,11 @@ namespace Solution2022
 {
 	namespace SplitArrayWithSameAverage
 	{
-/*
-	    bool splitArraySameAverage(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    bool splitArraySameAverage(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

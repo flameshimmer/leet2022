@@ -41,33 +41,32 @@ namespace Solution2022
 {
 	namespace DesignALeaderboard
 	{
-/*
-	class Leaderboard {
-	    Leaderboard() {
-	        
-	    }
-	    
-	    void addScore(int playerId, int score) {
-	        
-	    }
-	    
-	    int top(int K) {
-	        
-	    }
-	    
-	    void reset(int playerId) {
-	        
-	    }
-	​
-	/**
-	 * Your Leaderboard object will be instantiated and called as such:
-	 * Leaderboard* obj = new Leaderboard();
-	 * obj->addScore(playerId,score);
-	 * int param_2 = obj->top(K);
-	 * obj->reset(playerId);
-	 */
 
-*/
+	//class Leaderboard {
+	//    Leaderboard() {
+	//        
+	//    }
+	//    
+	//    void addScore(int playerId, int score) {
+	//        
+	//    }
+	//    
+	//    int top(int K) {
+	//        
+	//    }
+	//    
+	//    void reset(int playerId) {
+	//        
+	//    }
+	//​
+	///**
+	// * Your Leaderboard object will be instantiated and called as such:
+	// * Leaderboard* obj = new Leaderboard();
+	// * obj->addScore(playerId,score);
+	// * int param_2 = obj->top(K);
+	// * obj->reset(playerId);
+	// */
+
 
 		void Main() {
 			string test = "tst test test";

@@ -39,12 +39,11 @@ namespace Solution2022
 {
 	namespace MinimumWhiteTilesAfterCoveringWithCarpets
 	{
-/*
-	    int minimumWhiteTiles(string floor, int numCarpets, int carpetLen) {
-	        
-	    }
 
-*/
+	//    int minimumWhiteTiles(string floor, int numCarpets, int carpetLen) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -41,12 +41,11 @@ namespace Solution2022
 {
 	namespace MaximumNumberofCoinsYouCanGet
 	{
-/*
-	    int maxCoins(vector<int>& piles) {
-	        
-	    }
 
-*/
+	//    int maxCoins(vector<int>& piles) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

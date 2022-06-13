@@ -26,12 +26,11 @@ namespace Solution2022
 {
 	namespace MaximalSquare
 	{
-/*
-	    int maximalSquare(vector<vector<char>>& matrix) {
-	        
-	    }
 
-*/
+	//    int maximalSquare(vector<vector<char>>& matrix) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

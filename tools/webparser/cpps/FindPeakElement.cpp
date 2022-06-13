@@ -28,12 +28,11 @@ namespace Solution2022
 {
 	namespace FindPeakElement
 	{
-/*
-	    int findPeakElement(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int findPeakElement(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

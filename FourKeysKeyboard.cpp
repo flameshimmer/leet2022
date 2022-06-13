@@ -30,12 +30,11 @@ namespace Solution2022
 {
 	namespace FourKeysKeyboard
 	{
-/*
-	    int maxA(int n) {
-	        
-	    }
 
-*/
+	//    int maxA(int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

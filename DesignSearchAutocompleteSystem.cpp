@@ -67,23 +67,22 @@ namespace Solution2022
 {
 	namespace DesignSearchAutocompleteSystem
 	{
-/*
-	class AutocompleteSystem {
-	    AutocompleteSystem(vector<string>& sentences, vector<int>& times) {
-	        
-	    }
-	    
-	    vector<string> input(char c) {
-	        
-	    }
-	​
-	/**
-	 * Your AutocompleteSystem object will be instantiated and called as such:
-	 * AutocompleteSystem* obj = new AutocompleteSystem(sentences, times);
-	 * vector<string> param_1 = obj->input(c);
-	 */
 
-*/
+	//class AutocompleteSystem {
+	//    AutocompleteSystem(vector<string>& sentences, vector<int>& times) {
+	//        
+	//    }
+	//    
+	//    vector<string> input(char c) {
+	//        
+	//    }
+	//​
+	///**
+	// * Your AutocompleteSystem object will be instantiated and called as such:
+	// * AutocompleteSystem* obj = new AutocompleteSystem(sentences, times);
+	// * vector<string> param_1 = obj->input(c);
+	// */
+
 
 		void Main() {
 			string test = "tst test test";

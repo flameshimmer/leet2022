@@ -31,15 +31,14 @@ namespace Solution2022
 {
 	namespace FirstBadVersion
 	{
-/*
-	// The API isBadVersion is defined for you.
-	// bool isBadVersion(int version);
-	​
-	    int firstBadVersion(int n) {
-	        
-	    }
 
-*/
+	//// The API isBadVersion is defined for you.
+	//// bool isBadVersion(int version);
+	//​
+	//    int firstBadVersion(int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

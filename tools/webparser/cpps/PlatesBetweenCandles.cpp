@@ -41,12 +41,11 @@ namespace Solution2022
 {
 	namespace PlatesBetweenCandles
 	{
-/*
-	    vector<int> platesBetweenCandles(string s, vector<vector<int>>& queries) {
-	        
-	    }
 
-*/
+	//    vector<int> platesBetweenCandles(string s, vector<vector<int>>& queries) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

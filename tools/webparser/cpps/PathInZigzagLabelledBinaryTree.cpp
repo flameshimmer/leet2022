@@ -24,12 +24,11 @@ namespace Solution2022
 {
 	namespace PathInZigzagLabelledBinaryTree
 	{
-/*
-	    vector<int> pathInZigZagTree(int label) {
-	        
-	    }
 
-*/
+	//    vector<int> pathInZigZagTree(int label) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

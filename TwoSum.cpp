@@ -33,12 +33,11 @@ namespace Solution2022
 {
 	namespace TwoSum
 	{
-/*
-	    vector<int> twoSum(vector<int>& nums, int target) {
-	        
-	    }
 
-*/
+	//    vector<int> twoSum(vector<int>& nums, int target) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

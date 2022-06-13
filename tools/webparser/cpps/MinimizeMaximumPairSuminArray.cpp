@@ -33,12 +33,11 @@ namespace Solution2022
 {
 	namespace MinimizeMaximumPairSuminArray
 	{
-/*
-	    int minPairSum(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int minPairSum(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

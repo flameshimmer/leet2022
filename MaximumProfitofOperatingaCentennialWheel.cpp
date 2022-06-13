@@ -77,12 +77,11 @@ namespace Solution2022
 {
 	namespace MaximumProfitofOperatingaCentennialWheel
 	{
-/*
-	    int minOperationsMaxProfit(vector<int>& customers, int boardingCost, int runningCost) {
-	        
-	    }
 
-*/
+	//    int minOperationsMaxProfit(vector<int>& customers, int boardingCost, int runningCost) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

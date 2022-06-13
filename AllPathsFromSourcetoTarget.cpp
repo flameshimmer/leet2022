@@ -27,12 +27,11 @@ namespace Solution2022
 {
 	namespace AllPathsFromSourcetoTarget
 	{
-/*
-	    vector<vector<int>> allPathsSourceTarget(vector<vector<int>>& graph) {
-	        
-	    }
 
-*/
+	//    vector<vector<int>> allPathsSourceTarget(vector<vector<int>>& graph) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

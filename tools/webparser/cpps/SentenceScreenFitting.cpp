@@ -44,12 +44,11 @@ namespace Solution2022
 {
 	namespace SentenceScreenFitting
 	{
-/*
-	    int wordsTyping(vector<string>& sentence, int rows, int cols) {
-	        
-	    }
 
-*/
+	//    int wordsTyping(vector<string>& sentence, int rows, int cols) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

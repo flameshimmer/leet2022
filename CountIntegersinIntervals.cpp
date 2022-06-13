@@ -50,28 +50,27 @@ namespace Solution2022
 {
 	namespace CountIntegersinIntervals
 	{
-/*
-	class CountIntervals {
-	    CountIntervals() {
-	        
-	    }
-	    
-	    void add(int left, int right) {
-	        
-	    }
-	    
-	    int count() {
-	        
-	    }
-	​
-	/**
-	 * Your CountIntervals object will be instantiated and called as such:
-	 * CountIntervals* obj = new CountIntervals();
-	 * obj->add(left,right);
-	 * int param_2 = obj->count();
-	 */
 
-*/
+	//class CountIntervals {
+	//    CountIntervals() {
+	//        
+	//    }
+	//    
+	//    void add(int left, int right) {
+	//        
+	//    }
+	//    
+	//    int count() {
+	//        
+	//    }
+	//​
+	///**
+	// * Your CountIntervals object will be instantiated and called as such:
+	// * CountIntervals* obj = new CountIntervals();
+	// * obj->add(left,right);
+	// * int param_2 = obj->count();
+	// */
+
 
 		void Main() {
 			string test = "tst test test";

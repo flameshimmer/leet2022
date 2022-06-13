@@ -39,12 +39,11 @@ namespace Solution2022
 {
 	namespace ImageSmoother
 	{
-/*
-	    vector<vector<int>> imageSmoother(vector<vector<int>>& img) {
-	        
-	    }
 
-*/
+	//    vector<vector<int>> imageSmoother(vector<vector<int>>& img) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

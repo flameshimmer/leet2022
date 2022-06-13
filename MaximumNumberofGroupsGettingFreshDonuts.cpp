@@ -32,12 +32,11 @@ namespace Solution2022
 {
 	namespace MaximumNumberofGroupsGettingFreshDonuts
 	{
-/*
-	    int maxHappyGroups(int batchSize, vector<int>& groups) {
-	        
-	    }
 
-*/
+	//    int maxHappyGroups(int batchSize, vector<int>& groups) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

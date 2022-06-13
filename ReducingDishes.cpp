@@ -37,12 +37,11 @@ namespace Solution2022
 {
 	namespace ReducingDishes
 	{
-/*
-	    int maxSatisfaction(vector<int>& satisfaction) {
-	        
-	    }
 
-*/
+	//    int maxSatisfaction(vector<int>& satisfaction) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -42,12 +42,11 @@ namespace Solution2022
 {
 	namespace AddingSpacestoaString
 	{
-/*
-	    string addSpaces(string s, vector<int>& spaces) {
-	        
-	    }
 
-*/
+	//    string addSpaces(string s, vector<int>& spaces) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

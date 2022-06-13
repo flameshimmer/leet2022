@@ -22,12 +22,11 @@ namespace Solution2022
 {
 	namespace ReconstructOriginalDigitsfromEnglish
 	{
-/*
-	    string originalDigits(string s) {
-	        
-	    }
 
-*/
+	//    string originalDigits(string s) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

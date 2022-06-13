@@ -41,12 +41,11 @@ namespace Solution2022
 {
 	namespace MinimumMovestoMakeArrayComplementary
 	{
-/*
-	    int minMoves(vector<int>& nums, int limit) {
-	        
-	    }
 
-*/
+	//    int minMoves(vector<int>& nums, int limit) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

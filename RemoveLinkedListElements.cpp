@@ -25,22 +25,21 @@ namespace Solution2022
 {
 	namespace RemoveLinkedListElements
 	{
-/*
-	/**
-	 * Definition for singly-linked list.
-	 * struct ListNode {
-	 *     int val;
-	 *     ListNode *next;
-	 *     ListNode() : val(0), next(nullptr) {}
-	 *     ListNode(int x) : val(x), next(nullptr) {}
-	 *     ListNode(int x, ListNode *next) : val(x), next(next) {}
-	 * };
-	 */
-	    ListNode* removeElements(ListNode* head, int val) {
-	        
-	    }
 
-*/
+	///**
+	// * Definition for singly-linked list.
+	// * struct ListNode {
+	// *     int val;
+	// *     ListNode *next;
+	// *     ListNode() : val(0), next(nullptr) {}
+	// *     ListNode(int x) : val(x), next(nullptr) {}
+	// *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+	// * };
+	// */
+	//    ListNode* removeElements(ListNode* head, int val) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

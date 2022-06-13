@@ -26,12 +26,11 @@ namespace Solution2022
 {
 	namespace ImplementstrStr
 	{
-/*
-	    int strStr(string haystack, string needle) {
-	        
-	    }
 
-*/
+	//    int strStr(string haystack, string needle) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -24,12 +24,11 @@ namespace Solution2022
 {
 	namespace ContiguousArray
 	{
-/*
-	    int findMaxLength(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int findMaxLength(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

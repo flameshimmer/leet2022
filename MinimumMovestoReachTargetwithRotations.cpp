@@ -49,12 +49,11 @@ namespace Solution2022
 {
 	namespace MinimumMovestoReachTargetwithRotations
 	{
-/*
-	    int minimumMoves(vector<vector<int>>& grid) {
-	        
-	    }
 
-*/
+	//    int minimumMoves(vector<vector<int>>& grid) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

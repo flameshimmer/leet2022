@@ -34,12 +34,11 @@ namespace Solution2022
 {
 	namespace LongestArithmeticSubsequence
 	{
-/*
-	    int longestArithSeqLength(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int longestArithSeqLength(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

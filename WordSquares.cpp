@@ -34,12 +34,11 @@ namespace Solution2022
 {
 	namespace WordSquares
 	{
-/*
-	    vector<vector<string>> wordSquares(vector<string>& words) {
-	        
-	    }
 
-*/
+	//    vector<vector<string>> wordSquares(vector<string>& words) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

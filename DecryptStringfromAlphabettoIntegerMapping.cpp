@@ -26,12 +26,11 @@ namespace Solution2022
 {
 	namespace DecryptStringfromAlphabettoIntegerMapping
 	{
-/*
-	    string freqAlphabets(string s) {
-	        
-	    }
 
-*/
+	//    string freqAlphabets(string s) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -37,12 +37,11 @@ namespace Solution2022
 {
 	namespace MaximizeScoreAfterNOperations
 	{
-/*
-	    int maxScore(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int maxScore(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

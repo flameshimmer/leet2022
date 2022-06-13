@@ -20,12 +20,11 @@ namespace Solution2022
 {
 	namespace MinimumFactorization
 	{
-/*
-	    int smallestFactorization(int num) {
-	        
-	    }
 
-*/
+	//    int smallestFactorization(int num) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

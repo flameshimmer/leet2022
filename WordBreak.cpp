@@ -35,12 +35,11 @@ namespace Solution2022
 {
 	namespace WordBreak
 	{
-/*
-	    bool wordBreak(string s, vector<string>& wordDict) {
-	        
-	    }
 
-*/
+	//    bool wordBreak(string s, vector<string>& wordDict) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

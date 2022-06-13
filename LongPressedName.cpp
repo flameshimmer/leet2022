@@ -27,12 +27,11 @@ namespace Solution2022
 {
 	namespace LongPressedName
 	{
-/*
-	    bool isLongPressedName(string name, string typed) {
-	        
-	    }
 
-*/
+	//    bool isLongPressedName(string name, string typed) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

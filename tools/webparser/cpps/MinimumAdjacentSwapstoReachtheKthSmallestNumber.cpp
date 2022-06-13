@@ -47,12 +47,11 @@ namespace Solution2022
 {
 	namespace MinimumAdjacentSwapstoReachtheKthSmallestNumber
 	{
-/*
-	    int getMinSwaps(string num, int k) {
-	        
-	    }
 
-*/
+	//    int getMinSwaps(string num, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

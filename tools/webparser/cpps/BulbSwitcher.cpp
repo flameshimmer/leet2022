@@ -32,12 +32,11 @@ namespace Solution2022
 {
 	namespace BulbSwitcher
 	{
-/*
-	    int bulbSwitch(int n) {
-	        
-	    }
 
-*/
+	//    int bulbSwitch(int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -55,12 +55,11 @@ namespace Solution2022
 {
 	namespace RecovertheOriginalArray
 	{
-/*
-	    vector<int> recoverArray(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    vector<int> recoverArray(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

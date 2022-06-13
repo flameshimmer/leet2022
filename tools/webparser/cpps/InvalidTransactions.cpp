@@ -38,12 +38,11 @@ namespace Solution2022
 {
 	namespace InvalidTransactions
 	{
-/*
-	    vector<string> invalidTransactions(vector<string>& transactions) {
-	        
-	    }
 
-*/
+	//    vector<string> invalidTransactions(vector<string>& transactions) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

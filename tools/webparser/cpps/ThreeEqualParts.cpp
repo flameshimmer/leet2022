@@ -35,12 +35,11 @@ namespace Solution2022
 {
 	namespace ThreeEqualParts
 	{
-/*
-	    vector<int> threeEqualParts(vector<int>& arr) {
-	        
-	    }
 
-*/
+	//    vector<int> threeEqualParts(vector<int>& arr) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -32,12 +32,11 @@ namespace Solution2022
 {
 	namespace IntervalListIntersections
 	{
-/*
-	    vector<vector<int>> intervalIntersection(vector<vector<int>>& firstList, vector<vector<int>>& secondList) {
-	        
-	    }
 
-*/
+	//    vector<vector<int>> intervalIntersection(vector<vector<int>>& firstList, vector<vector<int>>& secondList) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

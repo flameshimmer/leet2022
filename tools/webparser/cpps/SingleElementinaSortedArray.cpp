@@ -22,12 +22,11 @@ namespace Solution2022
 {
 	namespace SingleElementinaSortedArray
 	{
-/*
-	    int singleNonDuplicate(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int singleNonDuplicate(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

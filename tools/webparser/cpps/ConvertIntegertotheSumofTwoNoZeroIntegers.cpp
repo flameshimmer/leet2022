@@ -26,12 +26,11 @@ namespace Solution2022
 {
 	namespace ConvertIntegertotheSumofTwoNoZeroIntegers
 	{
-/*
-	    vector<int> getNoZeroIntegers(int n) {
-	        
-	    }
 
-*/
+	//    vector<int> getNoZeroIntegers(int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

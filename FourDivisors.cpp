@@ -30,12 +30,11 @@ namespace Solution2022
 {
 	namespace FourDivisors
 	{
-/*
-	    int sumFourDivisors(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int sumFourDivisors(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

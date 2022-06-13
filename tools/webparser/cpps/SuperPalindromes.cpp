@@ -29,12 +29,11 @@ namespace Solution2022
 {
 	namespace SuperPalindromes
 	{
-/*
-	    int superpalindromesInRange(string left, string right) {
-	        
-	    }
 
-*/
+	//    int superpalindromesInRange(string left, string right) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -32,12 +32,11 @@ namespace Solution2022
 {
 	namespace PaintHouse
 	{
-/*
-	    int minCost(vector<vector<int>>& costs) {
-	        
-	    }
 
-*/
+	//    int minCost(vector<vector<int>>& costs) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

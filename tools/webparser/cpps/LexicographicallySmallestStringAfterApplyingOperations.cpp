@@ -60,12 +60,11 @@ namespace Solution2022
 {
 	namespace LexicographicallySmallestStringAfterApplyingOperations
 	{
-/*
-	    string findLexSmallestString(string s, int a, int b) {
-	        
-	    }
 
-*/
+	//    string findLexSmallestString(string s, int a, int b) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

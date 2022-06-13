@@ -30,12 +30,11 @@ namespace Solution2022
 {
 	namespace MinimumInsertionStepstoMakeaStringPalindrome
 	{
-/*
-	    int minInsertions(string s) {
-	        
-	    }
 
-*/
+	//    int minInsertions(string s) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

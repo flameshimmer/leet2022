@@ -48,12 +48,11 @@ namespace Solution2022
 {
 	namespace PyramidTransitionMatrix
 	{
-/*
-	    bool pyramidTransition(string bottom, vector<string>& allowed) {
-	        
-	    }
 
-*/
+	//    bool pyramidTransition(string bottom, vector<string>& allowed) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

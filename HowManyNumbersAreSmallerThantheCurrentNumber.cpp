@@ -32,12 +32,11 @@ namespace Solution2022
 {
 	namespace HowManyNumbersAreSmallerThantheCurrentNumber
 	{
-/*
-	    vector<int> smallerNumbersThanCurrent(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    vector<int> smallerNumbersThanCurrent(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

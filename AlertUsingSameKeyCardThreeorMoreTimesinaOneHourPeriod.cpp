@@ -41,12 +41,11 @@ namespace Solution2022
 {
 	namespace AlertUsingSameKeyCardThreeorMoreTimesinaOneHourPeriod
 	{
-/*
-	    vector<string> alertNames(vector<string>& keyName, vector<string>& keyTime) {
-	        
-	    }
 
-*/
+	//    vector<string> alertNames(vector<string>& keyName, vector<string>& keyTime) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

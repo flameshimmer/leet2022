@@ -35,12 +35,11 @@ namespace Solution2022
 {
 	namespace ReformatTheString
 	{
-/*
-	    string reformat(string s) {
-	        
-	    }
 
-*/
+	//    string reformat(string s) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

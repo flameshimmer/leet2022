@@ -35,12 +35,11 @@ namespace Solution2022
 {
 	namespace RedundantConnectionII
 	{
-/*
-	    vector<int> findRedundantDirectedConnection(vector<vector<int>>& edges) {
-	        
-	    }
 
-*/
+	//    vector<int> findRedundantDirectedConnection(vector<vector<int>>& edges) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

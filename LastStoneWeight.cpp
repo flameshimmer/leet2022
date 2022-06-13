@@ -35,12 +35,11 @@ namespace Solution2022
 {
 	namespace LastStoneWeight
 	{
-/*
-	    int lastStoneWeight(vector<int>& stones) {
-	        
-	    }
 
-*/
+	//    int lastStoneWeight(vector<int>& stones) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

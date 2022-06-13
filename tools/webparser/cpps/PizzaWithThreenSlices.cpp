@@ -35,12 +35,11 @@ namespace Solution2022
 {
 	namespace PizzaWithThreenSlices
 	{
-/*
-	    int maxSizeSlices(vector<int>& slices) {
-	        
-	    }
 
-*/
+	//    int maxSizeSlices(vector<int>& slices) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

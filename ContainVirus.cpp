@@ -49,12 +49,11 @@ namespace Solution2022
 {
 	namespace ContainVirus
 	{
-/*
-	    int containVirus(vector<vector<int>>& isInfected) {
-	        
-	    }
 
-*/
+	//    int containVirus(vector<vector<int>>& isInfected) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

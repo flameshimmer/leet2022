@@ -29,12 +29,11 @@ namespace Solution2022
 {
 	namespace FindAllAnagramsinaString
 	{
-/*
-	    vector<int> findAnagrams(string s, string p) {
-	        
-	    }
 
-*/
+	//    vector<int> findAnagrams(string s, string p) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

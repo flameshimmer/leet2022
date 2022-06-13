@@ -30,12 +30,11 @@ namespace Solution2022
 {
 	namespace DecompressRunLengthEncodedList
 	{
-/*
-	    vector<int> decompressRLElist(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    vector<int> decompressRLElist(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

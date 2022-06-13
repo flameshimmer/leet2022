@@ -37,12 +37,11 @@ namespace Solution2022
 {
 	namespace CountSubarraysWithMoreOnesThanZeros
 	{
-/*
-	    int subarraysWithMoreZerosThanOnes(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int subarraysWithMoreZerosThanOnes(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

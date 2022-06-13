@@ -34,12 +34,11 @@ namespace Solution2022
 {
 	namespace NumberofStudentsDoingHomeworkataGivenTime
 	{
-/*
-	    int busyStudent(vector<int>& startTime, vector<int>& endTime, int queryTime) {
-	        
-	    }
 
-*/
+	//    int busyStudent(vector<int>& startTime, vector<int>& endTime, int queryTime) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

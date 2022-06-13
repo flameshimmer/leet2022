@@ -37,12 +37,11 @@ namespace Solution2022
 {
 	namespace MinimumWindowSubstring
 	{
-/*
-	    string minWindow(string s, string t) {
-	        
-	    }
 
-*/
+	//    string minWindow(string s, string t) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

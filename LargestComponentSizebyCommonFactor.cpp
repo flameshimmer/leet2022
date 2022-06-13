@@ -29,12 +29,11 @@ namespace Solution2022
 {
 	namespace LargestComponentSizebyCommonFactor
 	{
-/*
-	    int largestComponentSize(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int largestComponentSize(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -38,12 +38,11 @@ namespace Solution2022
 {
 	namespace SlidingWindowMedian
 	{
-/*
-	    vector<double> medianSlidingWindow(vector<int>& nums, int k) {
-	        
-	    }
 
-*/
+	//    vector<double> medianSlidingWindow(vector<int>& nums, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

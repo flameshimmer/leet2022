@@ -47,12 +47,11 @@ namespace Solution2022
 {
 	namespace SearchSuggestionsSystem
 	{
-/*
-	    vector<vector<string>> suggestedProducts(vector<string>& products, string searchWord) {
-	        
-	    }
 
-*/
+	//    vector<vector<string>> suggestedProducts(vector<string>& products, string searchWord) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

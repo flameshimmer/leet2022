@@ -37,21 +37,20 @@ namespace Solution2022
 {
 	namespace InorderSuccessorinBSTII
 	{
-/*
-	/*
-	// Definition for a Node.
-	class Node {
-	    int val;
-	    Node* left;
-	    Node* right;
-	    Node* parent;
-	*/
-	​
-	    Node* inorderSuccessor(Node* node) {
-	        
-	    }
 
-*/
+	///*
+	//// Definition for a Node.
+	//class Node {
+	//    int val;
+	//    Node* left;
+	//    Node* right;
+	//    Node* parent;
+	//*/
+	//​
+	//    Node* inorderSuccessor(Node* node) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

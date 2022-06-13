@@ -43,12 +43,11 @@ namespace Solution2022
 {
 	namespace TimeNeededtoBuyTickets
 	{
-/*
-	    int timeRequiredToBuy(vector<int>& tickets, int k) {
-	        
-	    }
 
-*/
+	//    int timeRequiredToBuy(vector<int>& tickets, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -31,12 +31,11 @@ namespace Solution2022
 {
 	namespace RegionsCutBySlashes
 	{
-/*
-	    int regionsBySlashes(vector<string>& grid) {
-	        
-	    }
 
-*/
+	//    int regionsBySlashes(vector<string>& grid) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

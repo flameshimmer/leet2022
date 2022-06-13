@@ -30,12 +30,11 @@ namespace Solution2022
 {
 	namespace NumberofSubstringsWithOnlyOnes
 	{
-/*
-	    int numSub(string s) {
-	        
-	    }
 
-*/
+	//    int numSub(string s) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

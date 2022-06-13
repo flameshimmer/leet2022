@@ -42,12 +42,11 @@ namespace Solution2022
 {
 	namespace LongestSubsequenceRepeatedkTimes
 	{
-/*
-	    string longestSubsequenceRepeatedK(string s, int k) {
-	        
-	    }
 
-*/
+	//    string longestSubsequenceRepeatedK(string s, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

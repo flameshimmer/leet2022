@@ -50,12 +50,11 @@ namespace Solution2022
 {
 	namespace TheMazeII
 	{
-/*
-	    int shortestDistance(vector<vector<int>>& maze, vector<int>& start, vector<int>& destination) {
-	        
-	    }
 
-*/
+	//    int shortestDistance(vector<vector<int>>& maze, vector<int>& start, vector<int>& destination) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

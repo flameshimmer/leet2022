@@ -30,12 +30,11 @@ namespace Solution2022
 {
 	namespace ShortestBridge
 	{
-/*
-	    int shortestBridge(vector<vector<int>>& grid) {
-	        
-	    }
 
-*/
+	//    int shortestBridge(vector<vector<int>>& grid) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

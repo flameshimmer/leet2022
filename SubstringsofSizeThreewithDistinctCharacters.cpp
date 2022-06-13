@@ -30,12 +30,11 @@ namespace Solution2022
 {
 	namespace SubstringsofSizeThreewithDistinctCharacters
 	{
-/*
-	    int countGoodSubstrings(string s) {
-	        
-	    }
 
-*/
+	//    int countGoodSubstrings(string s) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

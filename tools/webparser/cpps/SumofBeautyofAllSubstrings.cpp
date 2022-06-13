@@ -24,12 +24,11 @@ namespace Solution2022
 {
 	namespace SumofBeautyofAllSubstrings
 	{
-/*
-	    int beautySum(string s) {
-	        
-	    }
 
-*/
+	//    int beautySum(string s) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

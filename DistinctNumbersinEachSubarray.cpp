@@ -33,12 +33,11 @@ namespace Solution2022
 {
 	namespace DistinctNumbersinEachSubarray
 	{
-/*
-	    vector<int> distinctNumbers(vector<int>& nums, int k) {
-	        
-	    }
 
-*/
+	//    vector<int> distinctNumbers(vector<int>& nums, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

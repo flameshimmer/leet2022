@@ -36,12 +36,11 @@ namespace Solution2022
 {
 	namespace CellswithOddValuesinaMatrix
 	{
-/*
-	    int oddCells(int m, int n, vector<vector<int>>& indices) {
-	        
-	    }
 
-*/
+	//    int oddCells(int m, int n, vector<vector<int>>& indices) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -40,12 +40,11 @@ namespace Solution2022
 {
 	namespace MaximizeNumberofSubsequencesinaString
 	{
-/*
-	    long long maximumSubsequenceCount(string text, string pattern) {
-	        
-	    }
 
-*/
+	//    long long maximumSubsequenceCount(string text, string pattern) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -36,12 +36,11 @@ namespace Solution2022
 {
 	namespace ConstructTargetArrayWithMultipleSums
 	{
-/*
-	    bool isPossible(vector<int>& target) {
-	        
-	    }
 
-*/
+	//    bool isPossible(vector<int>& target) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

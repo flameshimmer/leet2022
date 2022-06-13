@@ -39,12 +39,11 @@ namespace Solution2022
 {
 	namespace LongestUncommonSubsequenceI
 	{
-/*
-	    int findLUSlength(string a, string b) {
-	        
-	    }
 
-*/
+	//    int findLUSlength(string a, string b) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -30,12 +30,11 @@ namespace Solution2022
 {
 	namespace FindClosestNumbertoZero
 	{
-/*
-	    int findClosestNumber(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int findClosestNumber(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

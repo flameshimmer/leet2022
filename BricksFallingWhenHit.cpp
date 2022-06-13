@@ -67,12 +67,11 @@ namespace Solution2022
 {
 	namespace BricksFallingWhenHit
 	{
-/*
-	    vector<int> hitBricks(vector<vector<int>>& grid, vector<vector<int>>& hits) {
-	        
-	    }
 
-*/
+	//    vector<int> hitBricks(vector<vector<int>>& grid, vector<vector<int>>& hits) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

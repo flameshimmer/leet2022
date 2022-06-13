@@ -53,12 +53,11 @@ namespace Solution2022
 {
 	namespace ProbabilityofaTwoBoxesHavingTheSameNumberofDistinctBalls
 	{
-/*
-	    double getProbability(vector<int>& balls) {
-	        
-	    }
 
-*/
+	//    double getProbability(vector<int>& balls) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

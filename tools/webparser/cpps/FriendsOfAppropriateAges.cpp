@@ -38,12 +38,11 @@ namespace Solution2022
 {
 	namespace FriendsOfAppropriateAges
 	{
-/*
-	    int numFriendRequests(vector<int>& ages) {
-	        
-	    }
 
-*/
+	//    int numFriendRequests(vector<int>& ages) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

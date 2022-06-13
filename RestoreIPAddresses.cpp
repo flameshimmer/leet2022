@@ -29,12 +29,11 @@ namespace Solution2022
 {
 	namespace RestoreIPAddresses
 	{
-/*
-	    vector<string> restoreIpAddresses(string s) {
-	        
-	    }
 
-*/
+	//    vector<string> restoreIpAddresses(string s) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

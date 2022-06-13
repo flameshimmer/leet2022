@@ -36,12 +36,11 @@ namespace Solution2022
 {
 	namespace InterleavingString
 	{
-/*
-	    bool isInterleave(string s1, string s2, string s3) {
-	        
-	    }
 
-*/
+	//    bool isInterleave(string s1, string s2, string s3) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

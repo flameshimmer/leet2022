@@ -32,28 +32,27 @@ namespace Solution2022
 {
 	namespace TwoSumIIIDatastructuredesign
 	{
-/*
-	class TwoSum {
-	    TwoSum() {
-	        
-	    }
-	    
-	    void add(int number) {
-	        
-	    }
-	    
-	    bool find(int value) {
-	        
-	    }
-	​
-	/**
-	 * Your TwoSum object will be instantiated and called as such:
-	 * TwoSum* obj = new TwoSum();
-	 * obj->add(number);
-	 * bool param_2 = obj->find(value);
-	 */
 
-*/
+	//class TwoSum {
+	//    TwoSum() {
+	//        
+	//    }
+	//    
+	//    void add(int number) {
+	//        
+	//    }
+	//    
+	//    bool find(int value) {
+	//        
+	//    }
+	//​
+	///**
+	// * Your TwoSum object will be instantiated and called as such:
+	// * TwoSum* obj = new TwoSum();
+	// * obj->add(number);
+	// * bool param_2 = obj->find(value);
+	// */
+
 
 		void Main() {
 			string test = "tst test test";

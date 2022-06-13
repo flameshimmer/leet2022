@@ -40,12 +40,11 @@ namespace Solution2022
 {
 	namespace FindMissingObservations
 	{
-/*
-	    vector<int> missingRolls(vector<int>& rolls, int mean, int n) {
-	        
-	    }
 
-*/
+	//    vector<int> missingRolls(vector<int>& rolls, int mean, int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

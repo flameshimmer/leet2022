@@ -28,12 +28,11 @@ namespace Solution2022
 {
 	namespace AddStrings
 	{
-/*
-	    string addStrings(string num1, string num2) {
-	        
-	    }
 
-*/
+	//    string addStrings(string num1, string num2) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

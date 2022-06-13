@@ -36,23 +36,22 @@ namespace Solution2022
 {
 	namespace MyCalendarI
 	{
-/*
-	class MyCalendar {
-	    MyCalendar() {
-	        
-	    }
-	    
-	    bool book(int start, int end) {
-	        
-	    }
-	​
-	/**
-	 * Your MyCalendar object will be instantiated and called as such:
-	 * MyCalendar* obj = new MyCalendar();
-	 * bool param_1 = obj->book(start,end);
-	 */
 
-*/
+	//class MyCalendar {
+	//    MyCalendar() {
+	//        
+	//    }
+	//    
+	//    bool book(int start, int end) {
+	//        
+	//    }
+	//​
+	///**
+	// * Your MyCalendar object will be instantiated and called as such:
+	// * MyCalendar* obj = new MyCalendar();
+	// * bool param_1 = obj->book(start,end);
+	// */
+
 
 		void Main() {
 			string test = "tst test test";

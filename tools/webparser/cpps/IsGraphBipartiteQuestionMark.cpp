@@ -40,12 +40,11 @@ namespace Solution2022
 {
 	namespace IsGraphBipartiteQuestionMark
 	{
-/*
-	    bool isBipartite(vector<vector<int>>& graph) {
-	        
-	    }
 
-*/
+	//    bool isBipartite(vector<vector<int>>& graph) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

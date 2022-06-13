@@ -29,12 +29,11 @@ namespace Solution2022
 {
 	namespace IsSubsequence
 	{
-/*
-	    bool isSubsequence(string s, string t) {
-	        
-	    }
 
-*/
+	//    bool isSubsequence(string s, string t) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

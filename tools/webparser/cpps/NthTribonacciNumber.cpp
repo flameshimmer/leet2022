@@ -24,12 +24,11 @@ namespace Solution2022
 {
 	namespace NthTribonacciNumber
 	{
-/*
-	    int tribonacci(int n) {
-	        
-	    }
 
-*/
+	//    int tribonacci(int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

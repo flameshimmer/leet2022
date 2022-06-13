@@ -39,12 +39,11 @@ namespace Solution2022
 {
 	namespace SubstringsThatBeginandEndWiththeSameLetter
 	{
-/*
-	    long long numberOfSubstrings(string s) {
-	        
-	    }
 
-*/
+	//    long long numberOfSubstrings(string s) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

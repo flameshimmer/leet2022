@@ -40,12 +40,11 @@ namespace Solution2022
 {
 	namespace ChalkboardXORGame
 	{
-/*
-	    bool xorGame(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    bool xorGame(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

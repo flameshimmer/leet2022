@@ -36,12 +36,11 @@ namespace Solution2022
 {
 	namespace AssignCookies
 	{
-/*
-	    int findContentChildren(vector<int>& g, vector<int>& s) {
-	        
-	    }
 
-*/
+	//    int findContentChildren(vector<int>& g, vector<int>& s) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -36,12 +36,11 @@ namespace Solution2022
 {
 	namespace NumberofBurgerswithNoWasteofIngredients
 	{
-/*
-	    vector<int> numOfBurgers(int tomatoSlices, int cheeseSlices) {
-	        
-	    }
 
-*/
+	//    vector<int> numOfBurgers(int tomatoSlices, int cheeseSlices) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

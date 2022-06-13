@@ -37,12 +37,11 @@ namespace Solution2022
 {
 	namespace MinMaxGame
 	{
-/*
-	    int minMaxGame(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int minMaxGame(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

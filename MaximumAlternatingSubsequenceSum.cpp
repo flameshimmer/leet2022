@@ -36,12 +36,11 @@ namespace Solution2022
 {
 	namespace MaximumAlternatingSubsequenceSum
 	{
-/*
-	    long long maxAlternatingSum(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    long long maxAlternatingSum(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

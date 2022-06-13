@@ -42,12 +42,11 @@ namespace Solution2022
 {
 	namespace CountNumberofTexts
 	{
-/*
-	    int countTexts(string pressedKeys) {
-	        
-	    }
 
-*/
+	//    int countTexts(string pressedKeys) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

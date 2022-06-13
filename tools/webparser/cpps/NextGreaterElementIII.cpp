@@ -23,12 +23,11 @@ namespace Solution2022
 {
 	namespace NextGreaterElementIII
 	{
-/*
-	    int nextGreaterElement(int n) {
-	        
-	    }
 
-*/
+	//    int nextGreaterElement(int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

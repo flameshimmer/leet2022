@@ -61,12 +61,11 @@ namespace Solution2022
 {
 	namespace MaximumofMinimumValuesinAllSubarrays
 	{
-/*
-	    vector<int> findMaximums(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    vector<int> findMaximums(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -27,12 +27,11 @@ namespace Solution2022
 {
 	namespace LetterTilePossibilities
 	{
-/*
-	    int numTilePossibilities(string tiles) {
-	        
-	    }
 
-*/
+	//    int numTilePossibilities(string tiles) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

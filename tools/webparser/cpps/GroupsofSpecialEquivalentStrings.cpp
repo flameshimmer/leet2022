@@ -41,12 +41,11 @@ namespace Solution2022
 {
 	namespace GroupsofSpecialEquivalentStrings
 	{
-/*
-	    int numSpecialEquivGroups(vector<string>& words) {
-	        
-	    }
 
-*/
+	//    int numSpecialEquivGroups(vector<string>& words) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

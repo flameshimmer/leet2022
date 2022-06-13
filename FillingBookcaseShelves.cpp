@@ -40,12 +40,11 @@ namespace Solution2022
 {
 	namespace FillingBookcaseShelves
 	{
-/*
-	    int minHeightShelves(vector<vector<int>>& books, int shelfWidth) {
-	        
-	    }
 
-*/
+	//    int minHeightShelves(vector<vector<int>>& books, int shelfWidth) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

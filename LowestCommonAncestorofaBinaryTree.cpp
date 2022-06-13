@@ -33,21 +33,20 @@ namespace Solution2022
 {
 	namespace LowestCommonAncestorofaBinaryTree
 	{
-/*
-	/**
-	 * Definition for a binary tree node.
-	 * struct TreeNode {
-	 *     int val;
-	 *     TreeNode *left;
-	 *     TreeNode *right;
-	 *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
-	 * };
-	 */
-	    TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
-	        
-	    }
 
-*/
+	///**
+	// * Definition for a binary tree node.
+	// * struct TreeNode {
+	// *     int val;
+	// *     TreeNode *left;
+	// *     TreeNode *right;
+	// *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+	// * };
+	// */
+	//    TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

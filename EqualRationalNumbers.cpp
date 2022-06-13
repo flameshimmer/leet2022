@@ -46,12 +46,11 @@ namespace Solution2022
 {
 	namespace EqualRationalNumbers
 	{
-/*
-	    bool isRationalEqual(string s, string t) {
-	        
-	    }
 
-*/
+	//    bool isRationalEqual(string s, string t) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

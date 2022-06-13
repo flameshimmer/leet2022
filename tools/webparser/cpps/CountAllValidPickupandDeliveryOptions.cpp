@@ -30,12 +30,11 @@ namespace Solution2022
 {
 	namespace CountAllValidPickupandDeliveryOptions
 	{
-/*
-	    int countOrders(int n) {
-	        
-	    }
 
-*/
+	//    int countOrders(int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

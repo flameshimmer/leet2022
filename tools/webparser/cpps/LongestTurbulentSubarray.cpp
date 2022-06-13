@@ -35,12 +35,11 @@ namespace Solution2022
 {
 	namespace LongestTurbulentSubarray
 	{
-/*
-	    int maxTurbulenceSize(vector<int>& arr) {
-	        
-	    }
 
-*/
+	//    int maxTurbulenceSize(vector<int>& arr) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -25,12 +25,11 @@ namespace Solution2022
 {
 	namespace AddDigits
 	{
-/*
-	    int addDigits(int num) {
-	        
-	    }
 
-*/
+	//    int addDigits(int num) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

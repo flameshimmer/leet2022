@@ -26,12 +26,11 @@ namespace Solution2022
 {
 	namespace GreatestCommonDivisorofStrings
 	{
-/*
-	    string gcdOfStrings(string str1, string str2) {
-	        
-	    }
 
-*/
+	//    string gcdOfStrings(string str1, string str2) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

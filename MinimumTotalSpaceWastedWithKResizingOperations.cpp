@@ -47,12 +47,11 @@ namespace Solution2022
 {
 	namespace MinimumTotalSpaceWastedWithKResizingOperations
 	{
-/*
-	    int minSpaceWastedKResizing(vector<int>& nums, int k) {
-	        
-	    }
 
-*/
+	//    int minSpaceWastedKResizing(vector<int>& nums, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

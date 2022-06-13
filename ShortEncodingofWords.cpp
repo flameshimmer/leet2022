@@ -35,12 +35,11 @@ namespace Solution2022
 {
 	namespace ShortEncodingofWords
 	{
-/*
-	    int minimumLengthEncoding(vector<string>& words) {
-	        
-	    }
 
-*/
+	//    int minimumLengthEncoding(vector<string>& words) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

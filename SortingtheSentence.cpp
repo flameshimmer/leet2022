@@ -35,12 +35,11 @@ namespace Solution2022
 {
 	namespace SortingtheSentence
 	{
-/*
-	    string sortSentence(string s) {
-	        
-	    }
 
-*/
+	//    string sortSentence(string s) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

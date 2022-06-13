@@ -41,12 +41,11 @@ namespace Solution2022
 {
 	namespace MinimumTimetoCollectAllApplesinaTree
 	{
-/*
-	    int minTime(int n, vector<vector<int>>& edges, vector<bool>& hasApple) {
-	        
-	    }
 
-*/
+	//    int minTime(int n, vector<vector<int>>& edges, vector<bool>& hasApple) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

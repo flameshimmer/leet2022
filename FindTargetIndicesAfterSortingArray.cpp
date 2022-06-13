@@ -33,12 +33,11 @@ namespace Solution2022
 {
 	namespace FindTargetIndicesAfterSortingArray
 	{
-/*
-	    vector<int> targetIndices(vector<int>& nums, int target) {
-	        
-	    }
 
-*/
+	//    vector<int> targetIndices(vector<int>& nums, int target) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

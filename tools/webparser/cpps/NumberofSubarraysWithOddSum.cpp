@@ -30,12 +30,11 @@ namespace Solution2022
 {
 	namespace NumberofSubarraysWithOddSum
 	{
-/*
-	    int numOfSubarrays(vector<int>& arr) {
-	        
-	    }
 
-*/
+	//    int numOfSubarrays(vector<int>& arr) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

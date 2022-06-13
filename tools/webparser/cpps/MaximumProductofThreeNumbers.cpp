@@ -24,12 +24,11 @@ namespace Solution2022
 {
 	namespace MaximumProductofThreeNumbers
 	{
-/*
-	    int maximumProduct(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int maximumProduct(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

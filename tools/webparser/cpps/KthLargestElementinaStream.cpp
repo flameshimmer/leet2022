@@ -37,23 +37,22 @@ namespace Solution2022
 {
 	namespace KthLargestElementinaStream
 	{
-/*
-	class KthLargest {
-	    KthLargest(int k, vector<int>& nums) {
-	        
-	    }
-	    
-	    int add(int val) {
-	        
-	    }
-	​
-	/**
-	 * Your KthLargest object will be instantiated and called as such:
-	 * KthLargest* obj = new KthLargest(k, nums);
-	 * int param_1 = obj->add(val);
-	 */
 
-*/
+	//class KthLargest {
+	//    KthLargest(int k, vector<int>& nums) {
+	//        
+	//    }
+	//    
+	//    int add(int val) {
+	//        
+	//    }
+	//​
+	///**
+	// * Your KthLargest object will be instantiated and called as such:
+	// * KthLargest* obj = new KthLargest(k, nums);
+	// * int param_1 = obj->add(val);
+	// */
+
 
 		void Main() {
 			string test = "tst test test";

@@ -41,12 +41,11 @@ namespace Solution2022
 {
 	namespace MinimumSuffixFlips
 	{
-/*
-	    int minFlips(string target) {
-	        
-	    }
 
-*/
+	//    int minFlips(string target) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

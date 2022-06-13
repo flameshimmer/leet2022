@@ -30,12 +30,11 @@ namespace Solution2022
 {
 	namespace DegreeofanArray
 	{
-/*
-	    int findShortestSubArray(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int findShortestSubArray(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

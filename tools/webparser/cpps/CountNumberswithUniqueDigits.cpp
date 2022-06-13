@@ -21,12 +21,11 @@ namespace Solution2022
 {
 	namespace CountNumberswithUniqueDigits
 	{
-/*
-	    int countNumbersWithUniqueDigits(int n) {
-	        
-	    }
 
-*/
+	//    int countNumbersWithUniqueDigits(int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -49,12 +49,11 @@ namespace Solution2022
 {
 	namespace FindAllGroupsofFarmland
 	{
-/*
-	    vector<vector<int>> findFarmland(vector<vector<int>>& land) {
-	        
-	    }
 
-*/
+	//    vector<vector<int>> findFarmland(vector<vector<int>>& land) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

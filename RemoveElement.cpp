@@ -52,12 +52,11 @@ namespace Solution2022
 {
 	namespace RemoveElement
 	{
-/*
-	    int removeElement(vector<int>& nums, int val) {
-	        
-	    }
 
-*/
+	//    int removeElement(vector<int>& nums, int val) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

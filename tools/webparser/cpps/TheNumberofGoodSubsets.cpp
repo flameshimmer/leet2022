@@ -42,12 +42,11 @@ namespace Solution2022
 {
 	namespace TheNumberofGoodSubsets
 	{
-/*
-	    int numberOfGoodSubsets(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int numberOfGoodSubsets(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

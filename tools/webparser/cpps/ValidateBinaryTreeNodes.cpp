@@ -31,12 +31,11 @@ namespace Solution2022
 {
 	namespace ValidateBinaryTreeNodes
 	{
-/*
-	    bool validateBinaryTreeNodes(int n, vector<int>& leftChild, vector<int>& rightChild) {
-	        
-	    }
 
-*/
+	//    bool validateBinaryTreeNodes(int n, vector<int>& leftChild, vector<int>& rightChild) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -30,12 +30,11 @@ namespace Solution2022
 {
 	namespace FindtheMostCompetitiveSubsequence
 	{
-/*
-	    vector<int> mostCompetitive(vector<int>& nums, int k) {
-	        
-	    }
 
-*/
+	//    vector<int> mostCompetitive(vector<int>& nums, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

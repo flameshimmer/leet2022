@@ -40,12 +40,11 @@ namespace Solution2022
 {
 	namespace CorporateFlightBookings
 	{
-/*
-	    vector<int> corpFlightBookings(vector<vector<int>>& bookings, int n) {
-	        
-	    }
 
-*/
+	//    vector<int> corpFlightBookings(vector<vector<int>>& bookings, int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

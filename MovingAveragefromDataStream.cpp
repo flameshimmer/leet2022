@@ -30,23 +30,22 @@ namespace Solution2022
 {
 	namespace MovingAveragefromDataStream
 	{
-/*
-	class MovingAverage {
-	    MovingAverage(int size) {
-	        
-	    }
-	    
-	    double next(int val) {
-	        
-	    }
-	​
-	/**
-	 * Your MovingAverage object will be instantiated and called as such:
-	 * MovingAverage* obj = new MovingAverage(size);
-	 * double param_1 = obj->next(val);
-	 */
 
-*/
+	//class MovingAverage {
+	//    MovingAverage(int size) {
+	//        
+	//    }
+	//    
+	//    double next(int val) {
+	//        
+	//    }
+	//​
+	///**
+	// * Your MovingAverage object will be instantiated and called as such:
+	// * MovingAverage* obj = new MovingAverage(size);
+	// * double param_1 = obj->next(val);
+	// */
+
 
 		void Main() {
 			string test = "tst test test";

@@ -21,12 +21,11 @@ namespace Solution2022
 {
 	namespace ReverseString
 	{
-/*
-	    void reverseString(vector<char>& s) {
-	        
-	    }
 
-*/
+	//    void reverseString(vector<char>& s) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

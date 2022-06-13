@@ -32,12 +32,11 @@ namespace Solution2022
 {
 	namespace WaterandJugProblem
 	{
-/*
-	    bool canMeasureWater(int jug1Capacity, int jug2Capacity, int targetCapacity) {
-	        
-	    }
 
-*/
+	//    bool canMeasureWater(int jug1Capacity, int jug2Capacity, int targetCapacity) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

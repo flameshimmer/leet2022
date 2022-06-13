@@ -32,12 +32,11 @@ namespace Solution2022
 {
 	namespace RearrangeSpacesBetweenWords
 	{
-/*
-	    string reorderSpaces(string text) {
-	        
-	    }
 
-*/
+	//    string reorderSpaces(string text) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -33,12 +33,11 @@ namespace Solution2022
 {
 	namespace TwoOutofThree
 	{
-/*
-	    vector<int> twoOutOfThree(vector<int>& nums1, vector<int>& nums2, vector<int>& nums3) {
-	        
-	    }
 
-*/
+	//    vector<int> twoOutOfThree(vector<int>& nums1, vector<int>& nums2, vector<int>& nums3) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

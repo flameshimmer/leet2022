@@ -35,12 +35,11 @@ namespace Solution2022
 {
 	namespace LargestValuesFromLabels
 	{
-/*
-	    int largestValsFromLabels(vector<int>& values, vector<int>& labels, int numWanted, int useLimit) {
-	        
-	    }
 
-*/
+	//    int largestValsFromLabels(vector<int>& values, vector<int>& labels, int numWanted, int useLimit) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

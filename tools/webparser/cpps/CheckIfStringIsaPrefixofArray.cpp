@@ -29,12 +29,11 @@ namespace Solution2022
 {
 	namespace CheckIfStringIsaPrefixofArray
 	{
-/*
-	    bool isPrefixString(string s, vector<string>& words) {
-	        
-	    }
 
-*/
+	//    bool isPrefixString(string s, vector<string>& words) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

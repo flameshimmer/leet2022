@@ -31,12 +31,11 @@ namespace Solution2022
 {
 	namespace MinimumSwapstoGroupAllOnesTogether
 	{
-/*
-	    int minSwaps(vector<int>& data) {
-	        
-	    }
 
-*/
+	//    int minSwaps(vector<int>& data) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

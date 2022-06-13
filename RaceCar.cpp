@@ -37,12 +37,11 @@ namespace Solution2022
 {
 	namespace RaceCar
 	{
-/*
-	    int racecar(int target) {
-	        
-	    }
 
-*/
+	//    int racecar(int target) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

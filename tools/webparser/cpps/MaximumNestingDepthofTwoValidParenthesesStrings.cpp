@@ -37,12 +37,11 @@ namespace Solution2022
 {
 	namespace MaximumNestingDepthofTwoValidParenthesesStrings
 	{
-/*
-	    vector<int> maxDepthAfterSplit(string seq) {
-	        
-	    }
 
-*/
+	//    vector<int> maxDepthAfterSplit(string seq) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

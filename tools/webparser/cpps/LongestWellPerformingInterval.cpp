@@ -26,12 +26,11 @@ namespace Solution2022
 {
 	namespace LongestWellPerformingInterval
 	{
-/*
-	    int longestWPI(vector<int>& hours) {
-	        
-	    }
 
-*/
+	//    int longestWPI(vector<int>& hours) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -23,12 +23,11 @@ namespace Solution2022
 {
 	namespace VerifyPreorderSequenceinBinarySearchTree
 	{
-/*
-	    bool verifyPreorder(vector<int>& preorder) {
-	        
-	    }
 
-*/
+	//    bool verifyPreorder(vector<int>& preorder) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

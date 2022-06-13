@@ -37,12 +37,11 @@ namespace Solution2022
 {
 	namespace CheckIfStringIsTransformableWithSubstringSortOperations
 	{
-/*
-	    bool isTransformable(string s, string t) {
-	        
-	    }
 
-*/
+	//    bool isTransformable(string s, string t) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

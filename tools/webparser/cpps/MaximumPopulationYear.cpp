@@ -31,12 +31,11 @@ namespace Solution2022
 {
 	namespace MaximumPopulationYear
 	{
-/*
-	    int maximumPopulation(vector<vector<int>>& logs) {
-	        
-	    }
 
-*/
+	//    int maximumPopulation(vector<vector<int>>& logs) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

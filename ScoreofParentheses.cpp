@@ -28,12 +28,11 @@ namespace Solution2022
 {
 	namespace ScoreofParentheses
 	{
-/*
-	    int scoreOfParentheses(string s) {
-	        
-	    }
 
-*/
+	//    int scoreOfParentheses(string s) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

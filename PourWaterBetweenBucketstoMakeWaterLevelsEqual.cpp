@@ -44,12 +44,11 @@ namespace Solution2022
 {
 	namespace PourWaterBetweenBucketstoMakeWaterLevelsEqual
 	{
-/*
-	    double equalizeWater(vector<int>& buckets, int loss) {
-	        
-	    }
 
-*/
+	//    double equalizeWater(vector<int>& buckets, int loss) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

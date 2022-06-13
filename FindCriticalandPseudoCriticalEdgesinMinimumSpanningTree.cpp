@@ -42,12 +42,11 @@ namespace Solution2022
 {
 	namespace FindCriticalandPseudoCriticalEdgesinMinimumSpanningTree
 	{
-/*
-	    vector<vector<int>> findCriticalAndPseudoCriticalEdges(int n, vector<vector<int>>& edges) {
-	        
-	    }
 
-*/
+	//    vector<vector<int>> findCriticalAndPseudoCriticalEdges(int n, vector<vector<int>>& edges) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

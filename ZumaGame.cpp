@@ -56,12 +56,11 @@ namespace Solution2022
 {
 	namespace ZumaGame
 	{
-/*
-	    int findMinStep(string board, string hand) {
-	        
-	    }
 
-*/
+	//    int findMinStep(string board, string hand) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

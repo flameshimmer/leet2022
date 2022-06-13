@@ -56,12 +56,11 @@ namespace Solution2022
 {
 	namespace FilterRestaurantsbyVeganFriendly,PriceandDistance
 	{
-/*
-	    vector<int> filterRestaurants(vector<vector<int>>& restaurants, int veganFriendly, int maxPrice, int maxDistance) {
-	        
-	    }
 
-*/
+	//    vector<int> filterRestaurants(vector<vector<int>>& restaurants, int veganFriendly, int maxPrice, int maxDistance) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

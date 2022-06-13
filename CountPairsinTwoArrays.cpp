@@ -30,12 +30,11 @@ namespace Solution2022
 {
 	namespace CountPairsinTwoArrays
 	{
-/*
-	    long long countPairs(vector<int>& nums1, vector<int>& nums2) {
-	        
-	    }
 
-*/
+	//    long long countPairs(vector<int>& nums1, vector<int>& nums2) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

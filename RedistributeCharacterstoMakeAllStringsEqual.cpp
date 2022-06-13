@@ -29,12 +29,11 @@ namespace Solution2022
 {
 	namespace RedistributeCharacterstoMakeAllStringsEqual
 	{
-/*
-	    bool makeEqual(vector<string>& words) {
-	        
-	    }
 
-*/
+	//    bool makeEqual(vector<string>& words) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

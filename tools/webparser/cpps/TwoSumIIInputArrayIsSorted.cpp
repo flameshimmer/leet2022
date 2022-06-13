@@ -40,12 +40,11 @@ namespace Solution2022
 {
 	namespace TwoSumIIInputArrayIsSorted
 	{
-/*
-	    vector<int> twoSum(vector<int>& numbers, int target) {
-	        
-	    }
 
-*/
+	//    vector<int> twoSum(vector<int>& numbers, int target) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

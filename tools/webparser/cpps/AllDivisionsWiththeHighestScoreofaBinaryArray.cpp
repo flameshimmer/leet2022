@@ -55,12 +55,11 @@ namespace Solution2022
 {
 	namespace AllDivisionsWiththeHighestScoreofaBinaryArray
 	{
-/*
-	    vector<int> maxScoreIndices(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    vector<int> maxScoreIndices(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

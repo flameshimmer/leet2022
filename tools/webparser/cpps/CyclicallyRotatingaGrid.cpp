@@ -34,12 +34,11 @@ namespace Solution2022
 {
 	namespace CyclicallyRotatingaGrid
 	{
-/*
-	    vector<vector<int>> rotateGrid(vector<vector<int>>& grid, int k) {
-	        
-	    }
 
-*/
+	//    vector<vector<int>> rotateGrid(vector<vector<int>>& grid, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

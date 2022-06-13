@@ -37,12 +37,11 @@ namespace Solution2022
 {
 	namespace KdiffPairsinanArray
 	{
-/*
-	    int findPairs(vector<int>& nums, int k) {
-	        
-	    }
 
-*/
+	//    int findPairs(vector<int>& nums, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

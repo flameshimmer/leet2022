@@ -31,12 +31,11 @@ namespace Solution2022
 {
 	namespace CheckifAlltheIntegersinaRangeAreCovered
 	{
-/*
-	    bool isCovered(vector<vector<int>>& ranges, int left, int right) {
-	        
-	    }
 
-*/
+	//    bool isCovered(vector<vector<int>>& ranges, int left, int right) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

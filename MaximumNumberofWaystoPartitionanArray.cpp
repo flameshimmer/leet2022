@@ -43,12 +43,11 @@ namespace Solution2022
 {
 	namespace MaximumNumberofWaystoPartitionanArray
 	{
-/*
-	    int waysToPartition(vector<int>& nums, int k) {
-	        
-	    }
 
-*/
+	//    int waysToPartition(vector<int>& nums, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

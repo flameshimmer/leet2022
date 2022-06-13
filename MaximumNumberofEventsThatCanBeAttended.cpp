@@ -29,12 +29,11 @@ namespace Solution2022
 {
 	namespace MaximumNumberofEventsThatCanBeAttended
 	{
-/*
-	    int maxEvents(vector<vector<int>>& events) {
-	        
-	    }
 
-*/
+	//    int maxEvents(vector<vector<int>>& events) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

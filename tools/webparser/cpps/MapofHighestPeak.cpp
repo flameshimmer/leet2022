@@ -40,12 +40,11 @@ namespace Solution2022
 {
 	namespace MapofHighestPeak
 	{
-/*
-	    vector<vector<int>> highestPeak(vector<vector<int>>& isWater) {
-	        
-	    }
 
-*/
+	//    vector<vector<int>> highestPeak(vector<vector<int>>& isWater) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

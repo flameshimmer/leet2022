@@ -33,12 +33,11 @@ namespace Solution2022
 {
 	namespace NumberofSubmatricesThatSumtoTarget
 	{
-/*
-	    int numSubmatrixSumTarget(vector<vector<int>>& matrix, int target) {
-	        
-	    }
 
-*/
+	//    int numSubmatrixSumTarget(vector<vector<int>>& matrix, int target) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

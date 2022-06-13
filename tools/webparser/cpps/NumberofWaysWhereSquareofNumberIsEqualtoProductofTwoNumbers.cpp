@@ -36,12 +36,11 @@ namespace Solution2022
 {
 	namespace NumberofWaysWhereSquareofNumberIsEqualtoProductofTwoNumbers
 	{
-/*
-	    int numTriplets(vector<int>& nums1, vector<int>& nums2) {
-	        
-	    }
 
-*/
+	//    int numTriplets(vector<int>& nums1, vector<int>& nums2) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

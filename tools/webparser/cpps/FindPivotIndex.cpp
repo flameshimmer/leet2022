@@ -44,12 +44,11 @@ namespace Solution2022
 {
 	namespace FindPivotIndex
 	{
-/*
-	    int pivotIndex(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int pivotIndex(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

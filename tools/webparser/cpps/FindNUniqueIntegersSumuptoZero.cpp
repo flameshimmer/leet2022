@@ -24,12 +24,11 @@ namespace Solution2022
 {
 	namespace FindNUniqueIntegersSumuptoZero
 	{
-/*
-	    vector<int> sumZero(int n) {
-	        
-	    }
 
-*/
+	//    vector<int> sumZero(int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

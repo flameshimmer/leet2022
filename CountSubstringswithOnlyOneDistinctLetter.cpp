@@ -26,12 +26,11 @@ namespace Solution2022
 {
 	namespace CountSubstringswithOnlyOneDistinctLetter
 	{
-/*
-	    int countLetters(string s) {
-	        
-	    }
 
-*/
+	//    int countLetters(string s) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

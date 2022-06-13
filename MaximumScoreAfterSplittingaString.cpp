@@ -36,12 +36,11 @@ namespace Solution2022
 {
 	namespace MaximumScoreAfterSplittingaString
 	{
-/*
-	    int maxScore(string s) {
-	        
-	    }
 
-*/
+	//    int maxScore(string s) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

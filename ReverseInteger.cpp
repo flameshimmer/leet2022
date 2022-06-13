@@ -26,12 +26,11 @@ namespace Solution2022
 {
 	namespace ReverseInteger
 	{
-/*
-	    int reverse(int x) {
-	        
-	    }
 
-*/
+	//    int reverse(int x) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

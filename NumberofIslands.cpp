@@ -35,12 +35,11 @@ namespace Solution2022
 {
 	namespace NumberofIslands
 	{
-/*
-	    int numIslands(vector<vector<char>>& grid) {
-	        
-	    }
 
-*/
+	//    int numIslands(vector<vector<char>>& grid) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

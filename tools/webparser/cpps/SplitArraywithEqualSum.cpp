@@ -32,12 +32,11 @@ namespace Solution2022
 {
 	namespace SplitArraywithEqualSum
 	{
-/*
-	    bool splitArray(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    bool splitArray(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

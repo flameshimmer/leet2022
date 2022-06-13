@@ -30,12 +30,11 @@ namespace Solution2022
 {
 	namespace SortIntegersbyTheNumberofOneBits
 	{
-/*
-	    vector<int> sortByBits(vector<int>& arr) {
-	        
-	    }
 
-*/
+	//    vector<int> sortByBits(vector<int>& arr) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -40,12 +40,11 @@ namespace Solution2022
 {
 	namespace DetectCyclesinTwoDGrid
 	{
-/*
-	    bool containsCycle(vector<vector<char>>& grid) {
-	        
-	    }
 
-*/
+	//    bool containsCycle(vector<vector<char>>& grid) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

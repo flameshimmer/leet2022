@@ -45,12 +45,11 @@ namespace Solution2022
 {
 	namespace NumberofPeopleThatCanBeSeeninaGrid
 	{
-/*
-	    vector<vector<int>> seePeople(vector<vector<int>>& heights) {
-	        
-	    }
 
-*/
+	//    vector<vector<int>> seePeople(vector<vector<int>>& heights) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

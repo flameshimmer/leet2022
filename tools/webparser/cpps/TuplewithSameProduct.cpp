@@ -30,12 +30,11 @@ namespace Solution2022
 {
 	namespace TuplewithSameProduct
 	{
-/*
-	    int tupleSameProduct(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int tupleSameProduct(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

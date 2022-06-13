@@ -26,12 +26,11 @@ namespace Solution2022
 {
 	namespace ConsecutiveNumbersSum
 	{
-/*
-	    int consecutiveNumbersSum(int n) {
-	        
-	    }
 
-*/
+	//    int consecutiveNumbersSum(int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

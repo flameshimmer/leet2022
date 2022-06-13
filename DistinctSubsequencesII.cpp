@@ -33,12 +33,11 @@ namespace Solution2022
 {
 	namespace DistinctSubsequencesII
 	{
-/*
-	    int distinctSubseqII(string s) {
-	        
-	    }
 
-*/
+	//    int distinctSubseqII(string s) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

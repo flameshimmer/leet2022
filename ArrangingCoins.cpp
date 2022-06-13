@@ -24,12 +24,11 @@ namespace Solution2022
 {
 	namespace ArrangingCoins
 	{
-/*
-	    int arrangeCoins(int n) {
-	        
-	    }
 
-*/
+	//    int arrangeCoins(int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

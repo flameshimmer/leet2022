@@ -31,12 +31,11 @@ namespace Solution2022
 {
 	namespace NumberofBoomerangs
 	{
-/*
-	    int numberOfBoomerangs(vector<vector<int>>& points) {
-	        
-	    }
 
-*/
+	//    int numberOfBoomerangs(vector<vector<int>>& points) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

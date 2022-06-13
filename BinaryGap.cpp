@@ -38,12 +38,11 @@ namespace Solution2022
 {
 	namespace BinaryGap
 	{
-/*
-	    int binaryGap(int n) {
-	        
-	    }
 
-*/
+	//    int binaryGap(int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -45,12 +45,11 @@ namespace Solution2022
 {
 	namespace ReductionOperationstoMaketheArrayElementsEqual
 	{
-/*
-	    int reductionOperations(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int reductionOperations(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

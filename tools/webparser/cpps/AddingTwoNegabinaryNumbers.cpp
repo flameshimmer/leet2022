@@ -33,12 +33,11 @@ namespace Solution2022
 {
 	namespace AddingTwoNegabinaryNumbers
 	{
-/*
-	    vector<int> addNegabinary(vector<int>& arr1, vector<int>& arr2) {
-	        
-	    }
 
-*/
+	//    vector<int> addNegabinary(vector<int>& arr1, vector<int>& arr2) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

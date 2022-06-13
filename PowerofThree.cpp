@@ -27,12 +27,11 @@ namespace Solution2022
 {
 	namespace PowerofThree
 	{
-/*
-	    bool isPowerOfThree(int n) {
-	        
-	    }
 
-*/
+	//    bool isPowerOfThree(int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

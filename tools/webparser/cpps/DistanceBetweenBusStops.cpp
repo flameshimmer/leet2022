@@ -34,12 +34,11 @@ namespace Solution2022
 {
 	namespace DistanceBetweenBusStops
 	{
-/*
-	    int distanceBetweenBusStops(vector<int>& distance, int start, int destination) {
-	        
-	    }
 
-*/
+	//    int distanceBetweenBusStops(vector<int>& distance, int start, int destination) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

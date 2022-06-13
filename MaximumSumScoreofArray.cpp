@@ -34,12 +34,11 @@ namespace Solution2022
 {
 	namespace MaximumSumScoreofArray
 	{
-/*
-	    long long maximumSumScore(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    long long maximumSumScore(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

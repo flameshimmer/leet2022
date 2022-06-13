@@ -52,12 +52,11 @@ namespace Solution2022
 {
 	namespace GridGame
 	{
-/*
-	    long long gridGame(vector<vector<int>>& grid) {
-	        
-	    }
 
-*/
+	//    long long gridGame(vector<vector<int>>& grid) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

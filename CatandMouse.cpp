@@ -41,12 +41,11 @@ namespace Solution2022
 {
 	namespace CatandMouse
 	{
-/*
-	    int catMouseGame(vector<vector<int>>& graph) {
-	        
-	    }
 
-*/
+	//    int catMouseGame(vector<vector<int>>& graph) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

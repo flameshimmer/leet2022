@@ -30,12 +30,11 @@ namespace Solution2022
 {
 	namespace ConcatenationofArray
 	{
-/*
-	    vector<int> getConcatenation(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    vector<int> getConcatenation(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

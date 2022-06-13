@@ -37,12 +37,11 @@ namespace Solution2022
 {
 	namespace SplitArrayintoFibonacciSequence
 	{
-/*
-	    vector<int> splitIntoFibonacci(string num) {
-	        
-	    }
 
-*/
+	//    vector<int> splitIntoFibonacci(string num) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -49,12 +49,11 @@ namespace Solution2022
 {
 	namespace NumberofSpacesCleaningRobotCleaned
 	{
-/*
-	    int numberOfCleanRooms(vector<vector<int>>& room) {
-	        
-	    }
 
-*/
+	//    int numberOfCleanRooms(vector<vector<int>>& room) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

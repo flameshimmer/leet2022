@@ -23,12 +23,11 @@ namespace Solution2022
 {
 	namespace ValidBoomerang
 	{
-/*
-	    bool isBoomerang(vector<vector<int>>& points) {
-	        
-	    }
 
-*/
+	//    bool isBoomerang(vector<vector<int>>& points) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

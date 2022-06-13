@@ -57,12 +57,11 @@ namespace Solution2022
 {
 	namespace SequenceReconstruction
 	{
-/*
-	    bool sequenceReconstruction(vector<int>& nums, vector<vector<int>>& sequences) {
-	        
-	    }
 
-*/
+	//    bool sequenceReconstruction(vector<int>& nums, vector<vector<int>>& sequences) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

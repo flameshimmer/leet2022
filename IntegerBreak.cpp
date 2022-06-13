@@ -22,12 +22,11 @@ namespace Solution2022
 {
 	namespace IntegerBreak
 	{
-/*
-	    int integerBreak(int n) {
-	        
-	    }
 
-*/
+	//    int integerBreak(int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -34,12 +34,11 @@ namespace Solution2022
 {
 	namespace MinimumGardenPerimetertoCollectEnoughApples
 	{
-/*
-	    long long minimumPerimeter(long long neededApples) {
-	        
-	    }
 
-*/
+	//    long long minimumPerimeter(long long neededApples) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

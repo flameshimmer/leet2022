@@ -37,12 +37,11 @@ namespace Solution2022
 {
 	namespace MaximumNumberofWordsFoundinSentences
 	{
-/*
-	    int mostWordsFound(vector<string>& sentences) {
-	        
-	    }
 
-*/
+	//    int mostWordsFound(vector<string>& sentences) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

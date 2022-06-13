@@ -32,12 +32,11 @@ namespace Solution2022
 {
 	namespace MinimumNumberofDaystoDisconnectIsland
 	{
-/*
-	    int minDays(vector<vector<int>>& grid) {
-	        
-	    }
 
-*/
+	//    int minDays(vector<vector<int>>& grid) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

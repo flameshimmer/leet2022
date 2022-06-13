@@ -28,12 +28,11 @@ namespace Solution2022
 {
 	namespace SimplifiedFractions
 	{
-/*
-	    vector<string> simplifiedFractions(int n) {
-	        
-	    }
 
-*/
+	//    vector<string> simplifiedFractions(int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

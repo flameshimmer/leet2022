@@ -40,12 +40,11 @@ namespace Solution2022
 {
 	namespace RearrangeWordsinaSentence
 	{
-/*
-	    string arrangeWords(string text) {
-	        
-	    }
 
-*/
+	//    string arrangeWords(string text) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

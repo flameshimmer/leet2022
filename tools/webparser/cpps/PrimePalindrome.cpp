@@ -32,12 +32,11 @@ namespace Solution2022
 {
 	namespace PrimePalindrome
 	{
-/*
-	    int primePalindrome(int n) {
-	        
-	    }
 
-*/
+	//    int primePalindrome(int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

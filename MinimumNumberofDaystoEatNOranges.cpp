@@ -37,12 +37,11 @@ namespace Solution2022
 {
 	namespace MinimumNumberofDaystoEatNOranges
 	{
-/*
-	    int minDays(int n) {
-	        
-	    }
 
-*/
+	//    int minDays(int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

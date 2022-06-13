@@ -51,24 +51,23 @@ namespace Solution2022
 {
 	namespace EncodeandDecodeStrings
 	{
-/*
-	class Codec {
-	​
-	    // Encodes a list of strings to a single string.
-	    string encode(vector<string>& strs) {
-	        
-	    }
-	​
-	    // Decodes a single string to a list of strings.
-	    vector<string> decode(string s) {
-	        
-	    }
-	​
-	// Your Codec object will be instantiated and called as such:
-	// Codec codec;
-	// codec.decode(codec.encode(strs));
 
-*/
+	//class Codec {
+	//​
+	//    // Encodes a list of strings to a single string.
+	//    string encode(vector<string>& strs) {
+	//        
+	//    }
+	//​
+	//    // Decodes a single string to a list of strings.
+	//    vector<string> decode(string s) {
+	//        
+	//    }
+	//​
+	//// Your Codec object will be instantiated and called as such:
+	//// Codec codec;
+	//// codec.decode(codec.encode(strs));
+
 
 		void Main() {
 			string test = "tst test test";

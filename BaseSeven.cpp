@@ -18,12 +18,11 @@ namespace Solution2022
 {
 	namespace BaseSeven
 	{
-/*
-	    string convertToBase7(int num) {
-	        
-	    }
 
-*/
+	//    string convertToBase7(int num) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

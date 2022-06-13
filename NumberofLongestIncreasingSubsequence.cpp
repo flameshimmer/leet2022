@@ -25,12 +25,11 @@ namespace Solution2022
 {
 	namespace NumberofLongestIncreasingSubsequence
 	{
-/*
-	    int findNumberOfLIS(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int findNumberOfLIS(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

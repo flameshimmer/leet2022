@@ -21,12 +21,11 @@ namespace Solution2022
 {
 	namespace KthSmallestinLexicographicalOrder
 	{
-/*
-	    int findKthNumber(int n, int k) {
-	        
-	    }
 
-*/
+	//    int findKthNumber(int n, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -36,12 +36,11 @@ namespace Solution2022
 {
 	namespace KEmptySlots
 	{
-/*
-	    int kEmptySlots(vector<int>& bulbs, int k) {
-	        
-	    }
 
-*/
+	//    int kEmptySlots(vector<int>& bulbs, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

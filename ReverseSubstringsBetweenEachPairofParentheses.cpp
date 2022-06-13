@@ -32,12 +32,11 @@ namespace Solution2022
 {
 	namespace ReverseSubstringsBetweenEachPairofParentheses
 	{
-/*
-	    string reverseParentheses(string s) {
-	        
-	    }
 
-*/
+	//    string reverseParentheses(string s) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

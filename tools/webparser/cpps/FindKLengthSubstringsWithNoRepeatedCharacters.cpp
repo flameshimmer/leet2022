@@ -25,12 +25,11 @@ namespace Solution2022
 {
 	namespace FindKLengthSubstringsWithNoRepeatedCharacters
 	{
-/*
-	    int numKLenSubstrNoRepeats(string s, int k) {
-	        
-	    }
 
-*/
+	//    int numKLenSubstrNoRepeats(string s, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

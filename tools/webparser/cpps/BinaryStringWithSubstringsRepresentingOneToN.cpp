@@ -23,12 +23,11 @@ namespace Solution2022
 {
 	namespace BinaryStringWithSubstringsRepresentingOneToN
 	{
-/*
-	    bool queryString(string s, int n) {
-	        
-	    }
 
-*/
+	//    bool queryString(string s, int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

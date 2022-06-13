@@ -22,12 +22,11 @@ namespace Solution2022
 {
 	namespace LongestSubstringwithAtMostKDistinctCharacters
 	{
-/*
-	    int lengthOfLongestSubstringKDistinct(string s, int k) {
-	        
-	    }
 
-*/
+	//    int lengthOfLongestSubstringKDistinct(string s, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -46,12 +46,11 @@ namespace Solution2022
 {
 	namespace KthSmallestSubarraySum
 	{
-/*
-	    int kthSmallestSubarraySum(vector<int>& nums, int k) {
-	        
-	    }
 
-*/
+	//    int kthSmallestSubarraySum(vector<int>& nums, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

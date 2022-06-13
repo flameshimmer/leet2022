@@ -74,23 +74,22 @@ namespace Solution2022
 {
 	namespace ShortestPathinaHiddenGrid
 	{
-/*
-	/**
-	 * // This is the GridMaster's API interface.
-	 * // You should not implement it, or speculate about its implementation
-	 * class GridMaster {
-	 *   public:
-	 *     bool canMove(char direction);
-	 *     void move(char direction);
-	 *     boolean isTarget();
-	 * };
-	 */
-	​
-	    int findShortestPath(GridMaster &master) {
-	        
-	    }
 
-*/
+	///**
+	// * // This is the GridMaster's API interface.
+	// * // You should not implement it, or speculate about its implementation
+	// * class GridMaster {
+	// *   public:
+	// *     bool canMove(char direction);
+	// *     void move(char direction);
+	// *     boolean isTarget();
+	// * };
+	// */
+	//​
+	//    int findShortestPath(GridMaster &master) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

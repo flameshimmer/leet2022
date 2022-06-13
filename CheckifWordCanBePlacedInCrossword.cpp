@@ -45,12 +45,11 @@ namespace Solution2022
 {
 	namespace CheckifWordCanBePlacedInCrossword
 	{
-/*
-	    bool placeWordInCrossword(vector<vector<char>>& board, string word) {
-	        
-	    }
 
-*/
+	//    bool placeWordInCrossword(vector<vector<char>>& board, string word) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

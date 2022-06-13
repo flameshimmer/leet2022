@@ -37,12 +37,11 @@ namespace Solution2022
 {
 	namespace BuildanArrayWithStackOperations
 	{
-/*
-	    vector<string> buildArray(vector<int>& target, int n) {
-	        
-	    }
 
-*/
+	//    vector<string> buildArray(vector<int>& target, int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

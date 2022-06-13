@@ -32,12 +32,11 @@ namespace Solution2022
 {
 	namespace AddtoArrayFormofInteger
 	{
-/*
-	    vector<int> addToArrayForm(vector<int>& num, int k) {
-	        
-	    }
 
-*/
+	//    vector<int> addToArrayForm(vector<int>& num, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

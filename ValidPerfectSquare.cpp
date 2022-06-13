@@ -20,12 +20,11 @@ namespace Solution2022
 {
 	namespace ValidPerfectSquare
 	{
-/*
-	    bool isPerfectSquare(int num) {
-	        
-	    }
 
-*/
+	//    bool isPerfectSquare(int num) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

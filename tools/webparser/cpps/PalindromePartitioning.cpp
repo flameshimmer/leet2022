@@ -21,12 +21,11 @@ namespace Solution2022
 {
 	namespace PalindromePartitioning
 	{
-/*
-	    vector<vector<string>> partition(string s) {
-	        
-	    }
 
-*/
+	//    vector<vector<string>> partition(string s) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

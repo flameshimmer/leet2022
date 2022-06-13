@@ -37,12 +37,11 @@ namespace Solution2022
 {
 	namespace TwoCityScheduling
 	{
-/*
-	    int twoCitySchedCost(vector<vector<int>>& costs) {
-	        
-	    }
 
-*/
+	//    int twoCitySchedCost(vector<vector<int>>& costs) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

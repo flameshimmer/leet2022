@@ -29,12 +29,11 @@ namespace Solution2022
 {
 	namespace PartitioningIntoMinimumNumberOfDeciBinaryNumbers
 	{
-/*
-	    int minPartitions(string n) {
-	        
-	    }
 
-*/
+	//    int minPartitions(string n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -28,12 +28,11 @@ namespace Solution2022
 {
 	namespace ShuffletheArray
 	{
-/*
-	    vector<int> shuffle(vector<int>& nums, int n) {
-	        
-	    }
 
-*/
+	//    vector<int> shuffle(vector<int>& nums, int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

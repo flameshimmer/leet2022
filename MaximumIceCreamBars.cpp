@@ -37,12 +37,11 @@ namespace Solution2022
 {
 	namespace MaximumIceCreamBars
 	{
-/*
-	    int maxIceCream(vector<int>& costs, int coins) {
-	        
-	    }
 
-*/
+	//    int maxIceCream(vector<int>& costs, int coins) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

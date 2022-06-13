@@ -38,12 +38,11 @@ namespace Solution2022
 {
 	namespace NumberofSubsequencesThatSatisfytheGivenSumCondition
 	{
-/*
-	    int numSubseq(vector<int>& nums, int target) {
-	        
-	    }
 
-*/
+	//    int numSubseq(vector<int>& nums, int target) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

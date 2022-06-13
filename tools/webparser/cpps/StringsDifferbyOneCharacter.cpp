@@ -32,12 +32,11 @@ namespace Solution2022
 {
 	namespace StringsDifferbyOneCharacter
 	{
-/*
-	    bool differByOne(vector<string>& dict) {
-	        
-	    }
 
-*/
+	//    bool differByOne(vector<string>& dict) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

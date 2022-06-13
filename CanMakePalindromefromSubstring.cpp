@@ -40,12 +40,11 @@ namespace Solution2022
 {
 	namespace CanMakePalindromefromSubstring
 	{
-/*
-	    vector<bool> canMakePaliQueries(string s, vector<vector<int>>& queries) {
-	        
-	    }
 
-*/
+	//    vector<bool> canMakePaliQueries(string s, vector<vector<int>>& queries) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

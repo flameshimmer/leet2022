@@ -25,12 +25,11 @@ namespace Solution2022
 {
 	namespace RepeatedDNASequences
 	{
-/*
-	    vector<string> findRepeatedDnaSequences(string s) {
-	        
-	    }
 
-*/
+	//    vector<string> findRepeatedDnaSequences(string s) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

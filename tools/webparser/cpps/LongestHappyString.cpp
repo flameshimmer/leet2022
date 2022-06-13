@@ -30,12 +30,11 @@ namespace Solution2022
 {
 	namespace LongestHappyString
 	{
-/*
-	    string longestDiverseString(int a, int b, int c) {
-	        
-	    }
 
-*/
+	//    string longestDiverseString(int a, int b, int c) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

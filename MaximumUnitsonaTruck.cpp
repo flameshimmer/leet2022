@@ -34,12 +34,11 @@ namespace Solution2022
 {
 	namespace MaximumUnitsonaTruck
 	{
-/*
-	    int maximumUnits(vector<vector<int>>& boxTypes, int truckSize) {
-	        
-	    }
 
-*/
+	//    int maximumUnits(vector<vector<int>>& boxTypes, int truckSize) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

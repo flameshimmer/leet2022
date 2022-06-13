@@ -25,12 +25,11 @@ namespace Solution2022
 {
 	namespace CountingWordsWithaGivenPrefix
 	{
-/*
-	    int prefixCount(vector<string>& words, string pref) {
-	        
-	    }
 
-*/
+	//    int prefixCount(vector<string>& words, string pref) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

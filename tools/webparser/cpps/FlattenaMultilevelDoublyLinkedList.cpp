@@ -62,21 +62,20 @@ namespace Solution2022
 {
 	namespace FlattenaMultilevelDoublyLinkedList
 	{
-/*
-	/*
-	// Definition for a Node.
-	class Node {
-	    int val;
-	    Node* prev;
-	    Node* next;
-	    Node* child;
-	*/
-	​
-	    Node* flatten(Node* head) {
-	        
-	    }
 
-*/
+	///*
+	//// Definition for a Node.
+	//class Node {
+	//    int val;
+	//    Node* prev;
+	//    Node* next;
+	//    Node* child;
+	//*/
+	//​
+	//    Node* flatten(Node* head) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

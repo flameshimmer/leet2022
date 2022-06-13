@@ -21,12 +21,11 @@ namespace Solution2022
 {
 	namespace ShortestPalindrome
 	{
-/*
-	    string shortestPalindrome(string s) {
-	        
-	    }
 
-*/
+	//    string shortestPalindrome(string s) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -32,12 +32,11 @@ namespace Solution2022
 {
 	namespace PerfectRectangle
 	{
-/*
-	    bool isRectangleCover(vector<vector<int>>& rectangles) {
-	        
-	    }
 
-*/
+	//    bool isRectangleCover(vector<vector<int>>& rectangles) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -37,12 +37,11 @@ namespace Solution2022
 {
 	namespace MinimumNumberofOperationstoReinitializeaPermutation
 	{
-/*
-	    int reinitializePermutation(int n) {
-	        
-	    }
 
-*/
+	//    int reinitializePermutation(int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

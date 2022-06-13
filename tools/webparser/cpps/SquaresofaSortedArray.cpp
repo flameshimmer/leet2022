@@ -26,12 +26,11 @@ namespace Solution2022
 {
 	namespace SquaresofaSortedArray
 	{
-/*
-	    vector<int> sortedSquares(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    vector<int> sortedSquares(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

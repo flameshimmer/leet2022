@@ -28,12 +28,11 @@ namespace Solution2022
 {
 	namespace DecreaseElementsToMakeArrayZigzag
 	{
-/*
-	    int movesToMakeZigzag(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int movesToMakeZigzag(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -47,23 +47,22 @@ namespace Solution2022
 {
 	namespace StreamofCharacters
 	{
-/*
-	class StreamChecker {
-	    StreamChecker(vector<string>& words) {
-	        
-	    }
-	    
-	    bool query(char letter) {
-	        
-	    }
-	​
-	/**
-	 * Your StreamChecker object will be instantiated and called as such:
-	 * StreamChecker* obj = new StreamChecker(words);
-	 * bool param_1 = obj->query(letter);
-	 */
 
-*/
+	//class StreamChecker {
+	//    StreamChecker(vector<string>& words) {
+	//        
+	//    }
+	//    
+	//    bool query(char letter) {
+	//        
+	//    }
+	//​
+	///**
+	// * Your StreamChecker object will be instantiated and called as such:
+	// * StreamChecker* obj = new StreamChecker(words);
+	// * bool param_1 = obj->query(letter);
+	// */
+
 
 		void Main() {
 			string test = "tst test test";

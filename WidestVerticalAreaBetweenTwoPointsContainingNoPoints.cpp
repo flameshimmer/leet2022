@@ -30,12 +30,11 @@ namespace Solution2022
 {
 	namespace WidestVerticalAreaBetweenTwoPointsContainingNoPoints
 	{
-/*
-	    int maxWidthOfVerticalArea(vector<vector<int>>& points) {
-	        
-	    }
 
-*/
+	//    int maxWidthOfVerticalArea(vector<vector<int>>& points) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

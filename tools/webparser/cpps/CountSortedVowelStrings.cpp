@@ -31,12 +31,11 @@ namespace Solution2022
 {
 	namespace CountSortedVowelStrings
 	{
-/*
-	    int countVowelStrings(int n) {
-	        
-	    }
 
-*/
+	//    int countVowelStrings(int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

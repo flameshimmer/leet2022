@@ -32,12 +32,11 @@ namespace Solution2022
 {
 	namespace StoneGameII
 	{
-/*
-	    int stoneGameII(vector<int>& piles) {
-	        
-	    }
 
-*/
+	//    int stoneGameII(vector<int>& piles) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

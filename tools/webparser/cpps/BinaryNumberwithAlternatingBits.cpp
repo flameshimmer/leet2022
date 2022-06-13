@@ -26,12 +26,11 @@ namespace Solution2022
 {
 	namespace BinaryNumberwithAlternatingBits
 	{
-/*
-	    bool hasAlternatingBits(int n) {
-	        
-	    }
 
-*/
+	//    bool hasAlternatingBits(int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

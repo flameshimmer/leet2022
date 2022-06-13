@@ -31,12 +31,11 @@ namespace Solution2022
 {
 	namespace BeautifulArrangement
 	{
-/*
-	    int countArrangement(int n) {
-	        
-	    }
 
-*/
+	//    int countArrangement(int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

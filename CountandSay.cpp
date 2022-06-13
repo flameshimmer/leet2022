@@ -34,12 +34,11 @@ namespace Solution2022
 {
 	namespace CountandSay
 	{
-/*
-	    string countAndSay(int n) {
-	        
-	    }
 
-*/
+	//    string countAndSay(int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

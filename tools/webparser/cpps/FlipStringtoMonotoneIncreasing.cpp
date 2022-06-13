@@ -30,12 +30,11 @@ namespace Solution2022
 {
 	namespace FlipStringtoMonotoneIncreasing
 	{
-/*
-	    int minFlipsMonoIncr(string s) {
-	        
-	    }
 
-*/
+	//    int minFlipsMonoIncr(string s) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -31,12 +31,11 @@ namespace Solution2022
 {
 	namespace KConcatenationMaximumSum
 	{
-/*
-	    int kConcatenationMaxSum(vector<int>& arr, int k) {
-	        
-	    }
 
-*/
+	//    int kConcatenationMaxSum(vector<int>& arr, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

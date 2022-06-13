@@ -43,12 +43,11 @@ namespace Solution2022
 {
 	namespace EggDropWithTwoEggsandNFloors
 	{
-/*
-	    int twoEggDrop(int n) {
-	        
-	    }
 
-*/
+	//    int twoEggDrop(int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -44,12 +44,11 @@ namespace Solution2022
 {
 	namespace CountNodesWiththeHighestScore
 	{
-/*
-	    int countHighestScoreNodes(vector<int>& parents) {
-	        
-	    }
 
-*/
+	//    int countHighestScoreNodes(vector<int>& parents) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

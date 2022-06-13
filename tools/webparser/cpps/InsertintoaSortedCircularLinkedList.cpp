@@ -40,31 +40,30 @@ namespace Solution2022
 {
 	namespace InsertintoaSortedCircularLinkedList
 	{
-/*
-	/*
-	// Definition for a Node.
-	class Node {
-	    int val;
-	    Node* next;
-	​
-	    Node() {}
-	​
-	    Node(int _val) {
-	        val = _val;
-	        next = NULL;
-	    }
-	​
-	    Node(int _val, Node* _next) {
-	        val = _val;
-	        next = _next;
-	    }
-	*/
-	​
-	    Node* insert(Node* head, int insertVal) {
-	        
-	    }
 
-*/
+	///*
+	//// Definition for a Node.
+	//class Node {
+	//    int val;
+	//    Node* next;
+	//​
+	//    Node() {}
+	//​
+	//    Node(int _val) {
+	//        val = _val;
+	//        next = NULL;
+	//    }
+	//​
+	//    Node(int _val, Node* _next) {
+	//        val = _val;
+	//        next = _next;
+	//    }
+	//*/
+	//​
+	//    Node* insert(Node* head, int insertVal) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

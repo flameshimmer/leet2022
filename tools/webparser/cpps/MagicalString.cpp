@@ -28,12 +28,11 @@ namespace Solution2022
 {
 	namespace MagicalString
 	{
-/*
-	    int magicalString(int n) {
-	        
-	    }
 
-*/
+	//    int magicalString(int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -65,33 +65,32 @@ namespace Solution2022
 {
 	namespace DinnerPlateStacks
 	{
-/*
-	class DinnerPlates {
-	    DinnerPlates(int capacity) {
-	        
-	    }
-	    
-	    void push(int val) {
-	        
-	    }
-	    
-	    int pop() {
-	        
-	    }
-	    
-	    int popAtStack(int index) {
-	        
-	    }
-	​
-	/**
-	 * Your DinnerPlates object will be instantiated and called as such:
-	 * DinnerPlates* obj = new DinnerPlates(capacity);
-	 * obj->push(val);
-	 * int param_2 = obj->pop();
-	 * int param_3 = obj->popAtStack(index);
-	 */
 
-*/
+	//class DinnerPlates {
+	//    DinnerPlates(int capacity) {
+	//        
+	//    }
+	//    
+	//    void push(int val) {
+	//        
+	//    }
+	//    
+	//    int pop() {
+	//        
+	//    }
+	//    
+	//    int popAtStack(int index) {
+	//        
+	//    }
+	//​
+	///**
+	// * Your DinnerPlates object will be instantiated and called as such:
+	// * DinnerPlates* obj = new DinnerPlates(capacity);
+	// * obj->push(val);
+	// * int param_2 = obj->pop();
+	// * int param_3 = obj->popAtStack(index);
+	// */
+
 
 		void Main() {
 			string test = "tst test test";

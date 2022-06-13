@@ -40,12 +40,11 @@ namespace Solution2022
 {
 	namespace PathwithMaximumProbability
 	{
-/*
-	    double maxProbability(int n, vector<vector<int>>& edges, vector<double>& succProb, int start, int end) {
-	        
-	    }
 
-*/
+	//    double maxProbability(int n, vector<vector<int>>& edges, vector<double>& succProb, int start, int end) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

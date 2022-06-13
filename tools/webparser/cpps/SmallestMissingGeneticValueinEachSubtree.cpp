@@ -59,12 +59,11 @@ namespace Solution2022
 {
 	namespace SmallestMissingGeneticValueinEachSubtree
 	{
-/*
-	    vector<int> smallestMissingValueSubtree(vector<int>& parents, vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    vector<int> smallestMissingValueSubtree(vector<int>& parents, vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -35,12 +35,11 @@ namespace Solution2022
 {
 	namespace JumpGameIII
 	{
-/*
-	    bool canReach(vector<int>& arr, int start) {
-	        
-	    }
 
-*/
+	//    bool canReach(vector<int>& arr, int start) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -28,12 +28,11 @@ namespace Solution2022
 {
 	namespace FactorialTrailingZeroes
 	{
-/*
-	    int trailingZeroes(int n) {
-	        
-	    }
 
-*/
+	//    int trailingZeroes(int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -25,12 +25,11 @@ namespace Solution2022
 {
 	namespace NumberofSquarefulArrays
 	{
-/*
-	    int numSquarefulPerms(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int numSquarefulPerms(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

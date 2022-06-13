@@ -37,12 +37,11 @@ namespace Solution2022
 {
 	namespace MinimumDegreeofaConnectedTrioinaGraph
 	{
-/*
-	    int minTrioDegree(int n, vector<vector<int>>& edges) {
-	        
-	    }
 
-*/
+	//    int minTrioDegree(int n, vector<vector<int>>& edges) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

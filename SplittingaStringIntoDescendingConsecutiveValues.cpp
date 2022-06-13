@@ -41,12 +41,11 @@ namespace Solution2022
 {
 	namespace SplittingaStringIntoDescendingConsecutiveValues
 	{
-/*
-	    bool splitString(string s) {
-	        
-	    }
 
-*/
+	//    bool splitString(string s) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

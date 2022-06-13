@@ -26,12 +26,11 @@ namespace Solution2022
 {
 	namespace PowerofFour
 	{
-/*
-	    bool isPowerOfFour(int n) {
-	        
-	    }
 
-*/
+	//    bool isPowerOfFour(int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

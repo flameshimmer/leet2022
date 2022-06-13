@@ -38,12 +38,11 @@ namespace Solution2022
 {
 	namespace TwoBestNonOverlappingEvents
 	{
-/*
-	    int maxTwoEvents(vector<vector<int>>& events) {
-	        
-	    }
 
-*/
+	//    int maxTwoEvents(vector<vector<int>>& events) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -35,12 +35,11 @@ namespace Solution2022
 {
 	namespace DecodeString
 	{
-/*
-	    string decodeString(string s) {
-	        
-	    }
 
-*/
+	//    string decodeString(string s) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

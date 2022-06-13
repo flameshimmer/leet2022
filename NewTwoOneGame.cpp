@@ -33,12 +33,11 @@ namespace Solution2022
 {
 	namespace NewTwoOneGame
 	{
-/*
-	    double new21Game(int n, int k, int maxPts) {
-	        
-	    }
 
-*/
+	//    double new21Game(int n, int k, int maxPts) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -33,12 +33,11 @@ namespace Solution2022
 {
 	namespace CountPrefixesofaGivenString
 	{
-/*
-	    int countPrefixes(vector<string>& words, string s) {
-	        
-	    }
 
-*/
+	//    int countPrefixes(vector<string>& words, string s) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

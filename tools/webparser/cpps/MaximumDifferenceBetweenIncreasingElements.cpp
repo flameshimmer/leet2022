@@ -38,12 +38,11 @@ namespace Solution2022
 {
 	namespace MaximumDifferenceBetweenIncreasingElements
 	{
-/*
-	    int maximumDifference(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int maximumDifference(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -22,12 +22,11 @@ namespace Solution2022
 {
 	namespace LetterCasePermutation
 	{
-/*
-	    vector<string> letterCasePermutation(string s) {
-	        
-	    }
 
-*/
+	//    vector<string> letterCasePermutation(string s) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

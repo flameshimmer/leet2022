@@ -23,12 +23,11 @@ namespace Solution2022
 {
 	namespace SparseMatrixMultiplication
 	{
-/*
-	    vector<vector<int>> multiply(vector<vector<int>>& mat1, vector<vector<int>>& mat2) {
-	        
-	    }
 
-*/
+	//    vector<vector<int>> multiply(vector<vector<int>>& mat1, vector<vector<int>>& mat2) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -36,12 +36,11 @@ namespace Solution2022
 {
 	namespace MissingRanges
 	{
-/*
-	    vector<string> findMissingRanges(vector<int>& nums, int lower, int upper) {
-	        
-	    }
 
-*/
+	//    vector<string> findMissingRanges(vector<int>& nums, int lower, int upper) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

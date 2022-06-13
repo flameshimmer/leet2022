@@ -20,12 +20,11 @@ namespace Solution2022
 {
 	namespace EncodeNumber
 	{
-/*
-	    string encode(int num) {
-	        
-	    }
 
-*/
+	//    string encode(int num) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

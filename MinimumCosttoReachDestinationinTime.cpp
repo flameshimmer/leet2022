@@ -57,12 +57,11 @@ namespace Solution2022
 {
 	namespace MinimumCosttoReachDestinationinTime
 	{
-/*
-	    int minCost(int maxTime, vector<vector<int>>& edges, vector<int>& passingFees) {
-	        
-	    }
 
-*/
+	//    int minCost(int maxTime, vector<vector<int>>& edges, vector<int>& passingFees) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

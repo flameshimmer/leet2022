@@ -34,12 +34,11 @@ namespace Solution2022
 {
 	namespace ChangeMinimumCharacterstoSatisfyOneofThreeConditions
 	{
-/*
-	    int minCharacters(string a, string b) {
-	        
-	    }
 
-*/
+	//    int minCharacters(string a, string b) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

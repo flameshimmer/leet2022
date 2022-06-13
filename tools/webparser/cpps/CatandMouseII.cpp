@@ -52,12 +52,11 @@ namespace Solution2022
 {
 	namespace CatandMouseII
 	{
-/*
-	    bool canMouseWin(vector<string>& grid, int catJump, int mouseJump) {
-	        
-	    }
 
-*/
+	//    bool canMouseWin(vector<string>& grid, int catJump, int mouseJump) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

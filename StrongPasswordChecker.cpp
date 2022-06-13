@@ -34,12 +34,11 @@ namespace Solution2022
 {
 	namespace StrongPasswordChecker
 	{
-/*
-	    int strongPasswordChecker(string password) {
-	        
-	    }
 
-*/
+	//    int strongPasswordChecker(string password) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

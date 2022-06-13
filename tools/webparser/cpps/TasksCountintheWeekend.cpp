@@ -54,11 +54,10 @@ namespace Solution2022
 {
 	namespace TasksCountintheWeekend
 	{
-/*
-	# Write your MySQL query statement below
-	​
 
-*/
+	//# Write your MySQL query statement below
+	//​
+
 
 		void Main() {
 			string test = "tst test test";

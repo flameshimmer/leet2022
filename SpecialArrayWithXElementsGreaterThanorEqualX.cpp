@@ -35,12 +35,11 @@ namespace Solution2022
 {
 	namespace SpecialArrayWithXElementsGreaterThanorEqualX
 	{
-/*
-	    int specialArray(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int specialArray(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

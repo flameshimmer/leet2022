@@ -30,12 +30,11 @@ namespace Solution2022
 {
 	namespace PalindromeNumber
 	{
-/*
-	    bool isPalindrome(int x) {
-	        
-	    }
 
-*/
+	//    bool isPalindrome(int x) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

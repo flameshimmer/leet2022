@@ -26,12 +26,11 @@ namespace Solution2022
 {
 	namespace CountIntegersWithEvenDigitSum
 	{
-/*
-	    int countEven(int num) {
-	        
-	    }
 
-*/
+	//    int countEven(int num) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

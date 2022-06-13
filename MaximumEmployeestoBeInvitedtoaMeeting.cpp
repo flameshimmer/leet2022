@@ -58,12 +58,11 @@ namespace Solution2022
 {
 	namespace MaximumEmployeestoBeInvitedtoaMeeting
 	{
-/*
-	    int maximumInvitations(vector<int>& favorite) {
-	        
-	    }
 
-*/
+	//    int maximumInvitations(vector<int>& favorite) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

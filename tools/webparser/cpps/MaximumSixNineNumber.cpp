@@ -33,12 +33,11 @@ namespace Solution2022
 {
 	namespace MaximumSixNineNumber
 	{
-/*
-	    int maximum69Number (int num) {
-	        
-	    }
 
-*/
+	//    int maximum69Number (int num) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

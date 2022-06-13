@@ -41,12 +41,11 @@ namespace Solution2022
 {
 	namespace FlowerPlantingWithNoAdjacent
 	{
-/*
-	    vector<int> gardenNoAdj(int n, vector<vector<int>>& paths) {
-	        
-	    }
 
-*/
+	//    vector<int> gardenNoAdj(int n, vector<vector<int>>& paths) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

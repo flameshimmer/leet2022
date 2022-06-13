@@ -38,12 +38,11 @@ namespace Solution2022
 {
 	namespace SmallestSufficientTeam
 	{
-/*
-	    vector<int> smallestSufficientTeam(vector<string>& req_skills, vector<vector<string>>& people) {
-	        
-	    }
 
-*/
+	//    vector<int> smallestSufficientTeam(vector<string>& req_skills, vector<vector<string>>& people) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

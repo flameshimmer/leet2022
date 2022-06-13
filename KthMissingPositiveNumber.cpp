@@ -30,12 +30,11 @@ namespace Solution2022
 {
 	namespace KthMissingPositiveNumber
 	{
-/*
-	    int findKthPositive(vector<int>& arr, int k) {
-	        
-	    }
 
-*/
+	//    int findKthPositive(vector<int>& arr, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -52,12 +52,11 @@ namespace Solution2022
 {
 	namespace KRadiusSubarrayAverages
 	{
-/*
-	    vector<int> getAverages(vector<int>& nums, int k) {
-	        
-	    }
 
-*/
+	//    vector<int> getAverages(vector<int>& nums, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

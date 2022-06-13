@@ -40,12 +40,11 @@ namespace Solution2022
 {
 	namespace ReorderRoutestoMakeAllPathsLeadtotheCityZero
 	{
-/*
-	    int minReorder(int n, vector<vector<int>>& connections) {
-	        
-	    }
 
-*/
+	//    int minReorder(int n, vector<vector<int>>& connections) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

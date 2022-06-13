@@ -41,23 +41,22 @@ namespace Solution2022
 {
 	namespace LoggerRateLimiter
 	{
-/*
-	class Logger {
-	    Logger() {
-	        
-	    }
-	    
-	    bool shouldPrintMessage(int timestamp, string message) {
-	        
-	    }
-	​
-	/**
-	 * Your Logger object will be instantiated and called as such:
-	 * Logger* obj = new Logger();
-	 * bool param_1 = obj->shouldPrintMessage(timestamp,message);
-	 */
 
-*/
+	//class Logger {
+	//    Logger() {
+	//        
+	//    }
+	//    
+	//    bool shouldPrintMessage(int timestamp, string message) {
+	//        
+	//    }
+	//​
+	///**
+	// * Your Logger object will be instantiated and called as such:
+	// * Logger* obj = new Logger();
+	// * bool param_1 = obj->shouldPrintMessage(timestamp,message);
+	// */
+
 
 		void Main() {
 			string test = "tst test test";

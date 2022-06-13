@@ -41,12 +41,11 @@ namespace Solution2022
 {
 	namespace ValidWordSquare
 	{
-/*
-	    bool validWordSquare(vector<string>& words) {
-	        
-	    }
 
-*/
+	//    bool validWordSquare(vector<string>& words) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

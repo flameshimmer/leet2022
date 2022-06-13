@@ -22,12 +22,11 @@ namespace Solution2022
 {
 	namespace ArmstrongNumber
 	{
-/*
-	    bool isArmstrong(int n) {
-	        
-	    }
 
-*/
+	//    bool isArmstrong(int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

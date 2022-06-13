@@ -44,12 +44,11 @@ namespace Solution2022
 {
 	namespace ApplyDiscounttoPrices
 	{
-/*
-	    string discountPrices(string sentence, int discount) {
-	        
-	    }
 
-*/
+	//    string discountPrices(string sentence, int discount) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

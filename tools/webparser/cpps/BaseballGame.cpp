@@ -63,12 +63,11 @@ namespace Solution2022
 {
 	namespace BaseballGame
 	{
-/*
-	    int calPoints(vector<string>& ops) {
-	        
-	    }
 
-*/
+	//    int calPoints(vector<string>& ops) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

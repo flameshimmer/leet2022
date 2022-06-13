@@ -28,12 +28,11 @@ namespace Solution2022
 {
 	namespace SubarrayswithKDifferentIntegers
 	{
-/*
-	    int subarraysWithKDistinct(vector<int>& nums, int k) {
-	        
-	    }
 
-*/
+	//    int subarraysWithKDistinct(vector<int>& nums, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

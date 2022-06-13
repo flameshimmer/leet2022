@@ -25,12 +25,11 @@ namespace Solution2022
 {
 	namespace PathCrossing
 	{
-/*
-	    bool isPathCrossing(string path) {
-	        
-	    }
 
-*/
+	//    bool isPathCrossing(string path) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

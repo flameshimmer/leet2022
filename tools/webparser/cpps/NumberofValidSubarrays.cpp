@@ -29,12 +29,11 @@ namespace Solution2022
 {
 	namespace NumberofValidSubarrays
 	{
-/*
-	    int validSubarrays(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int validSubarrays(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

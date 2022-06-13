@@ -50,12 +50,11 @@ namespace Solution2022
 {
 	namespace LastDayWhereYouCanStillCross
 	{
-/*
-	    int latestDayToCross(int row, int col, vector<vector<int>>& cells) {
-	        
-	    }
 
-*/
+	//    int latestDayToCross(int row, int col, vector<vector<int>>& cells) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

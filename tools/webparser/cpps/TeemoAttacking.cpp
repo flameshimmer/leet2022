@@ -38,12 +38,11 @@ namespace Solution2022
 {
 	namespace TeemoAttacking
 	{
-/*
-	    int findPoisonedDuration(vector<int>& timeSeries, int duration) {
-	        
-	    }
 
-*/
+	//    int findPoisonedDuration(vector<int>& timeSeries, int duration) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

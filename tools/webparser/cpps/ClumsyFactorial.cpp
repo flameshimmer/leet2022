@@ -33,12 +33,11 @@ namespace Solution2022
 {
 	namespace ClumsyFactorial
 	{
-/*
-	    int clumsy(int n) {
-	        
-	    }
 
-*/
+	//    int clumsy(int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

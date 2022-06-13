@@ -35,12 +35,11 @@ namespace Solution2022
 {
 	namespace MinimumAreaRectangleII
 	{
-/*
-	    double minAreaFreeRect(vector<vector<int>>& points) {
-	        
-	    }
 
-*/
+	//    double minAreaFreeRect(vector<vector<int>>& points) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

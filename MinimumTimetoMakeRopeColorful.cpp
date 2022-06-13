@@ -41,12 +41,11 @@ namespace Solution2022
 {
 	namespace MinimumTimetoMakeRopeColorful
 	{
-/*
-	    int minCost(string colors, vector<int>& neededTime) {
-	        
-	    }
 
-*/
+	//    int minCost(string colors, vector<int>& neededTime) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -62,12 +62,11 @@ namespace Solution2022
 {
 	namespace ParseLispExpression
 	{
-/*
-	    int evaluate(string expression) {
-	        
-	    }
 
-*/
+	//    int evaluate(string expression) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

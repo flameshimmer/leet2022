@@ -35,12 +35,11 @@ namespace Solution2022
 {
 	namespace SumofEvenNumbersAfterQueries
 	{
-/*
-	    vector<int> sumEvenAfterQueries(vector<int>& nums, vector<vector<int>>& queries) {
-	        
-	    }
 
-*/
+	//    vector<int> sumEvenAfterQueries(vector<int>& nums, vector<vector<int>>& queries) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

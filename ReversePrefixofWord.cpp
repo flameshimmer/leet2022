@@ -38,12 +38,11 @@ namespace Solution2022
 {
 	namespace ReversePrefixofWord
 	{
-/*
-	    string reversePrefix(string word, char ch) {
-	        
-	    }
 
-*/
+	//    string reversePrefix(string word, char ch) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

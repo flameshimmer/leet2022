@@ -34,12 +34,11 @@ namespace Solution2022
 {
 	namespace BreakaPalindrome
 	{
-/*
-	    string breakPalindrome(string palindrome) {
-	        
-	    }
 
-*/
+	//    string breakPalindrome(string palindrome) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

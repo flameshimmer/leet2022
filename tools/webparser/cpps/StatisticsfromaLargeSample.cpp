@@ -50,12 +50,11 @@ namespace Solution2022
 {
 	namespace StatisticsfromaLargeSample
 	{
-/*
-	    vector<double> sampleStats(vector<int>& count) {
-	        
-	    }
 
-*/
+	//    vector<double> sampleStats(vector<int>& count) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

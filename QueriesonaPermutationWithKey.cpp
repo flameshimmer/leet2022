@@ -41,12 +41,11 @@ namespace Solution2022
 {
 	namespace QueriesonaPermutationWithKey
 	{
-/*
-	    vector<int> processQueries(vector<int>& queries, int m) {
-	        
-	    }
 
-*/
+	//    vector<int> processQueries(vector<int>& queries, int m) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

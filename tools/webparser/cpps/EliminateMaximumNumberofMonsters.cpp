@@ -55,12 +55,11 @@ namespace Solution2022
 {
 	namespace EliminateMaximumNumberofMonsters
 	{
-/*
-	    int eliminateMaximum(vector<int>& dist, vector<int>& speed) {
-	        
-	    }
 
-*/
+	//    int eliminateMaximum(vector<int>& dist, vector<int>& speed) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

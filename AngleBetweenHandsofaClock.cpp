@@ -25,12 +25,11 @@ namespace Solution2022
 {
 	namespace AngleBetweenHandsofaClock
 	{
-/*
-	    double angleClock(int hour, int minutes) {
-	        
-	    }
 
-*/
+	//    double angleClock(int hour, int minutes) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -39,12 +39,11 @@ namespace Solution2022
 {
 	namespace KnightDialer
 	{
-/*
-	    int knightDialer(int n) {
-	        
-	    }
 
-*/
+	//    int knightDialer(int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

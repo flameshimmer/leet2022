@@ -38,12 +38,11 @@ namespace Solution2022
 {
 	namespace FindValidMatrixGivenRowandColumnSums
 	{
-/*
-	    vector<vector<int>> restoreMatrix(vector<int>& rowSum, vector<int>& colSum) {
-	        
-	    }
 
-*/
+	//    vector<vector<int>> restoreMatrix(vector<int>& rowSum, vector<int>& colSum) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

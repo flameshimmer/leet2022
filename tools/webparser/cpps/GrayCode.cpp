@@ -38,12 +38,11 @@ namespace Solution2022
 {
 	namespace GrayCode
 	{
-/*
-	    vector<int> grayCode(int n) {
-	        
-	    }
 
-*/
+	//    vector<int> grayCode(int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -23,12 +23,11 @@ namespace Solution2022
 {
 	namespace MaximumSizeSubarraySumEqualsk
 	{
-/*
-	    int maxSubArrayLen(vector<int>& nums, int k) {
-	        
-	    }
 
-*/
+	//    int maxSubArrayLen(vector<int>& nums, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

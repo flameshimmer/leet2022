@@ -55,12 +55,11 @@ namespace Solution2022
 {
 	namespace MinimumNumberofMovestoSeatEveryone
 	{
-/*
-	    int minMovesToSeat(vector<int>& seats, vector<int>& students) {
-	        
-	    }
 
-*/
+	//    int minMovesToSeat(vector<int>& seats, vector<int>& students) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

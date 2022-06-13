@@ -26,12 +26,11 @@ namespace Solution2022
 {
 	namespace GroupShiftedStrings
 	{
-/*
-	    vector<vector<string>> groupStrings(vector<string>& strings) {
-	        
-	    }
 
-*/
+	//    vector<vector<string>> groupStrings(vector<string>& strings) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

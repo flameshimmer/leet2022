@@ -27,12 +27,11 @@ namespace Solution2022
 {
 	namespace NumbersWithRepeatedDigits
 	{
-/*
-	    int numDupDigitsAtMostN(int n) {
-	        
-	    }
 
-*/
+	//    int numDupDigitsAtMostN(int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

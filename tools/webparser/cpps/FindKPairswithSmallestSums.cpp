@@ -34,12 +34,11 @@ namespace Solution2022
 {
 	namespace FindKPairswithSmallestSums
 	{
-/*
-	    vector<vector<int>> kSmallestPairs(vector<int>& nums1, vector<int>& nums2, int k) {
-	        
-	    }
 
-*/
+	//    vector<vector<int>> kSmallestPairs(vector<int>& nums1, vector<int>& nums2, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

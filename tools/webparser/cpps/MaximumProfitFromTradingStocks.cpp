@@ -41,12 +41,11 @@ namespace Solution2022
 {
 	namespace MaximumProfitFromTradingStocks
 	{
-/*
-	    int maximumProfit(vector<int>& present, vector<int>& future, int budget) {
-	        
-	    }
 
-*/
+	//    int maximumProfit(vector<int>& present, vector<int>& future, int budget) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -43,12 +43,11 @@ namespace Solution2022
 {
 	namespace SolvingQuestionsWithBrainpower
 	{
-/*
-	    long long mostPoints(vector<vector<int>>& questions) {
-	        
-	    }
 
-*/
+	//    long long mostPoints(vector<vector<int>>& questions) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

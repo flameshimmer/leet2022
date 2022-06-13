@@ -26,12 +26,11 @@ namespace Solution2022
 {
 	namespace BeautifulArrangementII
 	{
-/*
-	    vector<int> constructArray(int n, int k) {
-	        
-	    }
 
-*/
+	//    vector<int> constructArray(int n, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

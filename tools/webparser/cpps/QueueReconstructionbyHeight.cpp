@@ -40,12 +40,11 @@ namespace Solution2022
 {
 	namespace QueueReconstructionbyHeight
 	{
-/*
-	    vector<vector<int>> reconstructQueue(vector<vector<int>>& people) {
-	        
-	    }
 
-*/
+	//    vector<vector<int>> reconstructQueue(vector<vector<int>>& people) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

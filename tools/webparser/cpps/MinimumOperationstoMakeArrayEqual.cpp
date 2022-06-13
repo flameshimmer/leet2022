@@ -29,12 +29,11 @@ namespace Solution2022
 {
 	namespace MinimumOperationstoMakeArrayEqual
 	{
-/*
-	    int minOperations(int n) {
-	        
-	    }
 
-*/
+	//    int minOperations(int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

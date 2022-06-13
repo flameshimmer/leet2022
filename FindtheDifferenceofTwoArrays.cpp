@@ -35,12 +35,11 @@ namespace Solution2022
 {
 	namespace FindtheDifferenceofTwoArrays
 	{
-/*
-	    vector<vector<int>> findDifference(vector<int>& nums1, vector<int>& nums2) {
-	        
-	    }
 
-*/
+	//    vector<vector<int>> findDifference(vector<int>& nums1, vector<int>& nums2) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

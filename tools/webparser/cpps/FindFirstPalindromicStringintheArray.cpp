@@ -31,12 +31,11 @@ namespace Solution2022
 {
 	namespace FindFirstPalindromicStringintheArray
 	{
-/*
-	    string firstPalindrome(vector<string>& words) {
-	        
-	    }
 
-*/
+	//    string firstPalindrome(vector<string>& words) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

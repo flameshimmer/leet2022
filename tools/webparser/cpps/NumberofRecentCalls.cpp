@@ -37,23 +37,22 @@ namespace Solution2022
 {
 	namespace NumberofRecentCalls
 	{
-/*
-	class RecentCounter {
-	    RecentCounter() {
-	        
-	    }
-	    
-	    int ping(int t) {
-	        
-	    }
-	​
-	/**
-	 * Your RecentCounter object will be instantiated and called as such:
-	 * RecentCounter* obj = new RecentCounter();
-	 * int param_1 = obj->ping(t);
-	 */
 
-*/
+	//class RecentCounter {
+	//    RecentCounter() {
+	//        
+	//    }
+	//    
+	//    int ping(int t) {
+	//        
+	//    }
+	//​
+	///**
+	// * Your RecentCounter object will be instantiated and called as such:
+	// * RecentCounter* obj = new RecentCounter();
+	// * int param_1 = obj->ping(t);
+	// */
+
 
 		void Main() {
 			string test = "tst test test";

@@ -51,12 +51,11 @@ namespace Solution2022
 {
 	namespace NearestExitfromEntranceinMaze
 	{
-/*
-	    int nearestExit(vector<vector<char>>& maze, vector<int>& entrance) {
-	        
-	    }
 
-*/
+	//    int nearestExit(vector<vector<char>>& maze, vector<int>& entrance) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

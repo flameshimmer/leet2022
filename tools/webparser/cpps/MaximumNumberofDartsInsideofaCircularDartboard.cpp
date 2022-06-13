@@ -32,12 +32,11 @@ namespace Solution2022
 {
 	namespace MaximumNumberofDartsInsideofaCircularDartboard
 	{
-/*
-	    int numPoints(vector<vector<int>>& darts, int r) {
-	        
-	    }
 
-*/
+	//    int numPoints(vector<vector<int>>& darts, int r) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -42,12 +42,11 @@ namespace Solution2022
 {
 	namespace NumberofWaystoSplitArray
 	{
-/*
-	    int waysToSplitArray(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int waysToSplitArray(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

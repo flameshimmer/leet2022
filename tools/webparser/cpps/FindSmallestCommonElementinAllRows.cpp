@@ -24,12 +24,11 @@ namespace Solution2022
 {
 	namespace FindSmallestCommonElementinAllRows
 	{
-/*
-	    int smallestCommonElement(vector<vector<int>>& mat) {
-	        
-	    }
 
-*/
+	//    int smallestCommonElement(vector<vector<int>>& mat) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

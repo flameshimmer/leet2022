@@ -36,22 +36,21 @@ namespace Solution2022
 {
 	namespace FindaCorrespondingNodeofaBinaryTreeinaCloneofThatTree
 	{
-/*
-	/**
-	 * Definition for a binary tree node.
-	 * struct TreeNode {
-	 *     int val;
-	 *     TreeNode *left;
-	 *     TreeNode *right;
-	 *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
-	 * };
-	 */
-	​
-	    TreeNode* getTargetCopy(TreeNode* original, TreeNode* cloned, TreeNode* target) {
-	        
-	    }
 
-*/
+	///**
+	// * Definition for a binary tree node.
+	// * struct TreeNode {
+	// *     int val;
+	// *     TreeNode *left;
+	// *     TreeNode *right;
+	// *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+	// * };
+	// */
+	//​
+	//    TreeNode* getTargetCopy(TreeNode* original, TreeNode* cloned, TreeNode* target) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

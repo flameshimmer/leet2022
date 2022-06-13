@@ -29,12 +29,11 @@ namespace Solution2022
 {
 	namespace ReshapetheMatrix
 	{
-/*
-	    vector<vector<int>> matrixReshape(vector<vector<int>>& mat, int r, int c) {
-	        
-	    }
 
-*/
+	//    vector<vector<int>> matrixReshape(vector<vector<int>>& mat, int r, int c) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

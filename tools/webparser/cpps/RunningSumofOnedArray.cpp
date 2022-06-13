@@ -28,12 +28,11 @@ namespace Solution2022
 {
 	namespace RunningSumofOnedArray
 	{
-/*
-	    vector<int> runningSum(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    vector<int> runningSum(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

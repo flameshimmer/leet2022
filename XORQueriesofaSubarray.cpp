@@ -36,12 +36,11 @@ namespace Solution2022
 {
 	namespace XORQueriesofaSubarray
 	{
-/*
-	    vector<int> xorQueries(vector<int>& arr, vector<vector<int>>& queries) {
-	        
-	    }
 
-*/
+	//    vector<int> xorQueries(vector<int>& arr, vector<vector<int>>& queries) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -40,22 +40,21 @@ namespace Solution2022
 {
 	namespace LeftmostColumnwithatLeastaOne
 	{
-/*
-	/**
-	 * // This is the BinaryMatrix's API interface.
-	 * // You should not implement it, or speculate about its implementation
-	 * class BinaryMatrix {
-	 *   public:
-	 *     int get(int row, int col);
-	 *     vector<int> dimensions();
-	 * };
-	 */
-	​
-	    int leftMostColumnWithOne(BinaryMatrix &binaryMatrix) {
-	        
-	    }
 
-*/
+	///**
+	// * // This is the BinaryMatrix's API interface.
+	// * // You should not implement it, or speculate about its implementation
+	// * class BinaryMatrix {
+	// *   public:
+	// *     int get(int row, int col);
+	// *     vector<int> dimensions();
+	// * };
+	// */
+	//​
+	//    int leftMostColumnWithOne(BinaryMatrix &binaryMatrix) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

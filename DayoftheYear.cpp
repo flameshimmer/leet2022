@@ -22,12 +22,11 @@ namespace Solution2022
 {
 	namespace DayoftheYear
 	{
-/*
-	    int dayOfYear(string date) {
-	        
-	    }
 
-*/
+	//    int dayOfYear(string date) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

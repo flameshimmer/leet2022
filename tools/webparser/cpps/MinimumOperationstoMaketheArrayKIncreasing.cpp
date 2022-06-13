@@ -59,12 +59,11 @@ namespace Solution2022
 {
 	namespace MinimumOperationstoMaketheArrayKIncreasing
 	{
-/*
-	    int kIncreasing(vector<int>& arr, int k) {
-	        
-	    }
 
-*/
+	//    int kIncreasing(vector<int>& arr, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

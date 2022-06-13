@@ -29,12 +29,11 @@ namespace Solution2022
 {
 	namespace LengthofLastWord
 	{
-/*
-	    int lengthOfLastWord(string s) {
-	        
-	    }
 
-*/
+	//    int lengthOfLastWord(string s) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

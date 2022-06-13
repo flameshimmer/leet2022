@@ -30,12 +30,11 @@ namespace Solution2022
 {
 	namespace LongestSubarrayofOnesAfterDeletingOneElement
 	{
-/*
-	    int longestSubarray(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int longestSubarray(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

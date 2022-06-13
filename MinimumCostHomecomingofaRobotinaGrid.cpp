@@ -48,12 +48,11 @@ namespace Solution2022
 {
 	namespace MinimumCostHomecomingofaRobotinaGrid
 	{
-/*
-	    int minCost(vector<int>& startPos, vector<int>& homePos, vector<int>& rowCosts, vector<int>& colCosts) {
-	        
-	    }
 
-*/
+	//    int minCost(vector<int>& startPos, vector<int>& homePos, vector<int>& rowCosts, vector<int>& colCosts) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -56,12 +56,11 @@ namespace Solution2022
 {
 	namespace SumofkMirrorNumbers
 	{
-/*
-	    long long kMirror(int k, int n) {
-	        
-	    }
 
-*/
+	//    long long kMirror(int k, int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

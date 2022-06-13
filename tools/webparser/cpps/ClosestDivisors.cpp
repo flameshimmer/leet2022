@@ -26,12 +26,11 @@ namespace Solution2022
 {
 	namespace ClosestDivisors
 	{
-/*
-	    vector<int> closestDivisors(int num) {
-	        
-	    }
 
-*/
+	//    vector<int> closestDivisors(int num) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

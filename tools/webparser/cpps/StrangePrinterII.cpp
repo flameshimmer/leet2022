@@ -35,12 +35,11 @@ namespace Solution2022
 {
 	namespace StrangePrinterII
 	{
-/*
-	    bool isPrintable(vector<vector<int>>& targetGrid) {
-	        
-	    }
 
-*/
+	//    bool isPrintable(vector<vector<int>>& targetGrid) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

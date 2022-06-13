@@ -50,12 +50,11 @@ namespace Solution2022
 {
 	namespace MaximumNumberofRemovableCharacters
 	{
-/*
-	    int maximumRemovals(string s, string p, vector<int>& removable) {
-	        
-	    }
 
-*/
+	//    int maximumRemovals(string s, string p, vector<int>& removable) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

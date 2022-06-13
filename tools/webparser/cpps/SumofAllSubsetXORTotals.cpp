@@ -47,12 +47,11 @@ namespace Solution2022
 {
 	namespace SumofAllSubsetXORTotals
 	{
-/*
-	    int subsetXORSum(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int subsetXORSum(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -42,12 +42,11 @@ namespace Solution2022
 {
 	namespace GetMaximuminGeneratedArray
 	{
-/*
-	    int getMaximumGenerated(int n) {
-	        
-	    }
 
-*/
+	//    int getMaximumGenerated(int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

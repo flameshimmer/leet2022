@@ -33,12 +33,11 @@ namespace Solution2022
 {
 	namespace SubstringwithConcatenationofAllWords
 	{
-/*
-	    vector<int> findSubstring(string s, vector<string>& words) {
-	        
-	    }
 
-*/
+	//    vector<int> findSubstring(string s, vector<string>& words) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

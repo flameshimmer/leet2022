@@ -55,12 +55,11 @@ namespace Solution2022
 {
 	namespace CalculateAmountPaidinTaxes
 	{
-/*
-	    double calculateTax(vector<vector<int>>& brackets, int income) {
-	        
-	    }
 
-*/
+	//    double calculateTax(vector<vector<int>>& brackets, int income) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

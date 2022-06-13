@@ -31,12 +31,11 @@ namespace Solution2022
 {
 	namespace OneThreeTwoPattern
 	{
-/*
-	    bool find132pattern(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    bool find132pattern(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -24,12 +24,11 @@ namespace Solution2022
 {
 	namespace PalindromePartitioningIV
 	{
-/*
-	    bool checkPartitioning(string s) {
-	        
-	    }
 
-*/
+	//    bool checkPartitioning(string s) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

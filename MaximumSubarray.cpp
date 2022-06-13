@@ -29,12 +29,11 @@ namespace Solution2022
 {
 	namespace MaximumSubarray
 	{
-/*
-	    int maxSubArray(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int maxSubArray(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

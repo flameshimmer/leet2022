@@ -43,12 +43,11 @@ namespace Solution2022
 {
 	namespace MinimumNumberofOperationstoMakeStringSorted
 	{
-/*
-	    int makeStringSorted(string s) {
-	        
-	    }
 
-*/
+	//    int makeStringSorted(string s) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

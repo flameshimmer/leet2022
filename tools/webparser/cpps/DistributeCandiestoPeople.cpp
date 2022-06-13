@@ -42,12 +42,11 @@ namespace Solution2022
 {
 	namespace DistributeCandiestoPeople
 	{
-/*
-	    vector<int> distributeCandies(int candies, int num_people) {
-	        
-	    }
 
-*/
+	//    vector<int> distributeCandies(int candies, int num_people) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

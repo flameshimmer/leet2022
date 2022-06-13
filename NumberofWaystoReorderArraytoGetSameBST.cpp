@@ -43,12 +43,11 @@ namespace Solution2022
 {
 	namespace NumberofWaystoReorderArraytoGetSameBST
 	{
-/*
-	    int numOfWays(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int numOfWays(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

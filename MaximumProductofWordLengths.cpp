@@ -29,12 +29,11 @@ namespace Solution2022
 {
 	namespace MaximumProductofWordLengths
 	{
-/*
-	    int maxProduct(vector<string>& words) {
-	        
-	    }
 
-*/
+	//    int maxProduct(vector<string>& words) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

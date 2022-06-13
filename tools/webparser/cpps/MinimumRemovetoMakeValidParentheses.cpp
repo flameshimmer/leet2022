@@ -33,12 +33,11 @@ namespace Solution2022
 {
 	namespace MinimumRemovetoMakeValidParentheses
 	{
-/*
-	    string minRemoveToMakeValid(string s) {
-	        
-	    }
 
-*/
+	//    string minRemoveToMakeValid(string s) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

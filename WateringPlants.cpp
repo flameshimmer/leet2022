@@ -58,12 +58,11 @@ namespace Solution2022
 {
 	namespace WateringPlants
 	{
-/*
-	    int wateringPlants(vector<int>& plants, int capacity) {
-	        
-	    }
 
-*/
+	//    int wateringPlants(vector<int>& plants, int capacity) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

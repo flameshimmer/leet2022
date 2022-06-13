@@ -39,12 +39,11 @@ namespace Solution2022
 {
 	namespace CountSubarraysWithScoreLessThanK
 	{
-/*
-	    long long countSubarrays(vector<int>& nums, long long k) {
-	        
-	    }
 
-*/
+	//    long long countSubarrays(vector<int>& nums, long long k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

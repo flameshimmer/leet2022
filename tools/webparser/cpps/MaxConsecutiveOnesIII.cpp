@@ -25,12 +25,11 @@ namespace Solution2022
 {
 	namespace MaxConsecutiveOnesIII
 	{
-/*
-	    int longestOnes(vector<int>& nums, int k) {
-	        
-	    }
 
-*/
+	//    int longestOnes(vector<int>& nums, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

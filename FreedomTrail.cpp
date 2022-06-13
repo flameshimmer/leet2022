@@ -44,12 +44,11 @@ namespace Solution2022
 {
 	namespace FreedomTrail
 	{
-/*
-	    int findRotateSteps(string ring, string key) {
-	        
-	    }
 
-*/
+	//    int findRotateSteps(string ring, string key) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

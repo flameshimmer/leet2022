@@ -44,12 +44,11 @@ namespace Solution2022
 {
 	namespace FinalValueofVariableAfterPerformingOperations
 	{
-/*
-	    int finalValueAfterOperations(vector<string>& operations) {
-	        
-	    }
 
-*/
+	//    int finalValueAfterOperations(vector<string>& operations) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

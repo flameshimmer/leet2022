@@ -37,12 +37,11 @@ namespace Solution2022
 {
 	namespace MinimumTimeVisitingAllPoints
 	{
-/*
-	    int minTimeToVisitAllPoints(vector<vector<int>>& points) {
-	        
-	    }
 
-*/
+	//    int minTimeToVisitAllPoints(vector<vector<int>>& points) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

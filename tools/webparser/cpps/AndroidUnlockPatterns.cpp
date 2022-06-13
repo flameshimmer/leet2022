@@ -48,12 +48,11 @@ namespace Solution2022
 {
 	namespace AndroidUnlockPatterns
 	{
-/*
-	    int numberOfPatterns(int m, int n) {
-	        
-	    }
 
-*/
+	//    int numberOfPatterns(int m, int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

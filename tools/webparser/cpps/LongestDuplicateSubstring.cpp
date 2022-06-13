@@ -22,12 +22,11 @@ namespace Solution2022
 {
 	namespace LongestDuplicateSubstring
 	{
-/*
-	    string longestDupSubstring(string s) {
-	        
-	    }
 
-*/
+	//    string longestDupSubstring(string s) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

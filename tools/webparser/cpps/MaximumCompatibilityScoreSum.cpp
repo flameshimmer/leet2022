@@ -45,12 +45,11 @@ namespace Solution2022
 {
 	namespace MaximumCompatibilityScoreSum
 	{
-/*
-	    int maxCompatibilitySum(vector<vector<int>>& students, vector<vector<int>>& mentors) {
-	        
-	    }
 
-*/
+	//    int maxCompatibilitySum(vector<vector<int>>& students, vector<vector<int>>& mentors) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -60,12 +60,11 @@ namespace Solution2022
 {
 	namespace BinarySearchableNumbersinanUnsortedArray
 	{
-/*
-	    int binarySearchableNumbers(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int binarySearchableNumbers(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

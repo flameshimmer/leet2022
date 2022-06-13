@@ -47,12 +47,11 @@ namespace Solution2022
 {
 	namespace MinimumOperationstoHalveArraySum
 	{
-/*
-	    int halveArray(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int halveArray(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

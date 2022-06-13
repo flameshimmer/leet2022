@@ -45,12 +45,11 @@ namespace Solution2022
 {
 	namespace LongestCommonSubpath
 	{
-/*
-	    int longestCommonSubpath(int n, vector<vector<int>>& paths) {
-	        
-	    }
 
-*/
+	//    int longestCommonSubpath(int n, vector<vector<int>>& paths) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

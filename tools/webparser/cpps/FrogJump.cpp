@@ -34,12 +34,11 @@ namespace Solution2022
 {
 	namespace FrogJump
 	{
-/*
-	    bool canCross(vector<int>& stones) {
-	        
-	    }
 
-*/
+	//    bool canCross(vector<int>& stones) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

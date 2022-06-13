@@ -39,12 +39,11 @@ namespace Solution2022
 {
 	namespace MaximumANDSumofArray
 	{
-/*
-	    int maximumANDSum(vector<int>& nums, int numSlots) {
-	        
-	    }
 
-*/
+	//    int maximumANDSum(vector<int>& nums, int numSlots) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -73,12 +73,11 @@ namespace Solution2022
 {
 	namespace OddEvenJump
 	{
-/*
-	    int oddEvenJumps(vector<int>& arr) {
-	        
-	    }
 
-*/
+	//    int oddEvenJumps(vector<int>& arr) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

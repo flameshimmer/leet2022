@@ -36,12 +36,11 @@ namespace Solution2022
 {
 	namespace PoorPigs
 	{
-/*
-	    int poorPigs(int buckets, int minutesToDie, int minutesToTest) {
-	        
-	    }
 
-*/
+	//    int poorPigs(int buckets, int minutesToDie, int minutesToTest) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

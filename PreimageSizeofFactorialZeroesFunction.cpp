@@ -29,12 +29,11 @@ namespace Solution2022
 {
 	namespace PreimageSizeofFactorialZeroesFunction
 	{
-/*
-	    int preimageSizeFZF(int k) {
-	        
-	    }
 
-*/
+	//    int preimageSizeFZF(int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

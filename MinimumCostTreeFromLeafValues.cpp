@@ -32,12 +32,11 @@ namespace Solution2022
 {
 	namespace MinimumCostTreeFromLeafValues
 	{
-/*
-	    int mctFromLeafValues(vector<int>& arr) {
-	        
-	    }
 
-*/
+	//    int mctFromLeafValues(vector<int>& arr) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

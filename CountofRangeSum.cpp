@@ -26,12 +26,11 @@ namespace Solution2022
 {
 	namespace CountofRangeSum
 	{
-/*
-	    int countRangeSum(vector<int>& nums, int lower, int upper) {
-	        
-	    }
 
-*/
+	//    int countRangeSum(vector<int>& nums, int lower, int upper) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

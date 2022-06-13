@@ -25,12 +25,11 @@ namespace Solution2022
 {
 	namespace NumberofSubarrayswithBoundedMaximum
 	{
-/*
-	    int numSubarrayBoundedMax(vector<int>& nums, int left, int right) {
-	        
-	    }
 
-*/
+	//    int numSubarrayBoundedMax(vector<int>& nums, int left, int right) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -22,12 +22,11 @@ namespace Solution2022
 {
 	namespace LongestSubstringwithAtMostTwoDistinctCharacters
 	{
-/*
-	    int lengthOfLongestSubstringTwoDistinct(string s) {
-	        
-	    }
 
-*/
+	//    int lengthOfLongestSubstringTwoDistinct(string s) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

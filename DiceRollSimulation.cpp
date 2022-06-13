@@ -35,12 +35,11 @@ namespace Solution2022
 {
 	namespace DiceRollSimulation
 	{
-/*
-	    int dieSimulator(int n, vector<int>& rollMax) {
-	        
-	    }
 
-*/
+	//    int dieSimulator(int n, vector<int>& rollMax) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

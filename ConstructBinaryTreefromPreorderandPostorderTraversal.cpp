@@ -28,23 +28,22 @@ namespace Solution2022
 {
 	namespace ConstructBinaryTreefromPreorderandPostorderTraversal
 	{
-/*
-	/**
-	 * Definition for a binary tree node.
-	 * struct TreeNode {
-	 *     int val;
-	 *     TreeNode *left;
-	 *     TreeNode *right;
-	 *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
-	 *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
-	 *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
-	 * };
-	 */
-	    TreeNode* constructFromPrePost(vector<int>& preorder, vector<int>& postorder) {
-	        
-	    }
 
-*/
+	///**
+	// * Definition for a binary tree node.
+	// * struct TreeNode {
+	// *     int val;
+	// *     TreeNode *left;
+	// *     TreeNode *right;
+	// *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+	// *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+	// *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+	// * };
+	// */
+	//    TreeNode* constructFromPrePost(vector<int>& preorder, vector<int>& postorder) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

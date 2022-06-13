@@ -58,12 +58,11 @@ namespace Solution2022
 {
 	namespace DisplayTableofFoodOrdersinaRestaurant
 	{
-/*
-	    vector<vector<string>> displayTable(vector<vector<string>>& orders) {
-	        
-	    }
 
-*/
+	//    vector<vector<string>> displayTable(vector<vector<string>>& orders) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

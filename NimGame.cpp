@@ -36,12 +36,11 @@ namespace Solution2022
 {
 	namespace NimGame
 	{
-/*
-	    bool canWinNim(int n) {
-	        
-	    }
 
-*/
+	//    bool canWinNim(int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

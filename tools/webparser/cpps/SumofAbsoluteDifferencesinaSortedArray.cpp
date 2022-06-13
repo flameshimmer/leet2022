@@ -28,12 +28,11 @@ namespace Solution2022
 {
 	namespace SumofAbsoluteDifferencesinaSortedArray
 	{
-/*
-	    vector<int> getSumAbsoluteDifferences(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    vector<int> getSumAbsoluteDifferences(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

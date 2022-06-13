@@ -32,12 +32,11 @@ namespace Solution2022
 {
 	namespace InsertInterval
 	{
-/*
-	    vector<vector<int>> insert(vector<vector<int>>& intervals, vector<int>& newInterval) {
-	        
-	    }
 
-*/
+	//    vector<vector<int>> insert(vector<vector<int>>& intervals, vector<int>& newInterval) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -31,12 +31,11 @@ namespace Solution2022
 {
 	namespace MinimumAdjacentSwapsforKConsecutiveOnes
 	{
-/*
-	    int minMoves(vector<int>& nums, int k) {
-	        
-	    }
 
-*/
+	//    int minMoves(vector<int>& nums, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

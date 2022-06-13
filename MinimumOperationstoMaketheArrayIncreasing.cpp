@@ -33,12 +33,11 @@ namespace Solution2022
 {
 	namespace MinimumOperationstoMaketheArrayIncreasing
 	{
-/*
-	    int minOperations(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int minOperations(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -53,12 +53,11 @@ namespace Solution2022
 {
 	namespace BrightestPositiononStreet
 	{
-/*
-	    int brightestPosition(vector<vector<int>>& lights) {
-	        
-	    }
 
-*/
+	//    int brightestPosition(vector<vector<int>>& lights) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

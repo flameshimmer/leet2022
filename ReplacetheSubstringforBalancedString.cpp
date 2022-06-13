@@ -35,12 +35,11 @@ namespace Solution2022
 {
 	namespace ReplacetheSubstringforBalancedString
 	{
-/*
-	    int balancedString(string s) {
-	        
-	    }
 
-*/
+	//    int balancedString(string s) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -27,12 +27,11 @@ namespace Solution2022
 {
 	namespace LongestHappyPrefix
 	{
-/*
-	    string longestPrefix(string s) {
-	        
-	    }
 
-*/
+	//    string longestPrefix(string s) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

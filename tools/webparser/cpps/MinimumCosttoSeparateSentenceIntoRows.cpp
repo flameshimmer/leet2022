@@ -59,12 +59,11 @@ namespace Solution2022
 {
 	namespace MinimumCosttoSeparateSentenceIntoRows
 	{
-/*
-	    int minimumCost(string sentence, int k) {
-	        
-	    }
 
-*/
+	//    int minimumCost(string sentence, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

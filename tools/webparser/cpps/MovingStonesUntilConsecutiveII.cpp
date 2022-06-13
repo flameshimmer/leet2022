@@ -38,12 +38,11 @@ namespace Solution2022
 {
 	namespace MovingStonesUntilConsecutiveII
 	{
-/*
-	    vector<int> numMovesStonesII(vector<int>& stones) {
-	        
-	    }
 
-*/
+	//    vector<int> numMovesStonesII(vector<int>& stones) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

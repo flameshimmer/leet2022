@@ -33,12 +33,11 @@ namespace Solution2022
 {
 	namespace ReachaNumber
 	{
-/*
-	    int reachNumber(int target) {
-	        
-	    }
 
-*/
+	//    int reachNumber(int target) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

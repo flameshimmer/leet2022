@@ -36,12 +36,11 @@ namespace Solution2022
 {
 	namespace KillProcess
 	{
-/*
-	    vector<int> killProcess(vector<int>& pid, vector<int>& ppid, int kill) {
-	        
-	    }
 
-*/
+	//    vector<int> killProcess(vector<int>& pid, vector<int>& ppid, int kill) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

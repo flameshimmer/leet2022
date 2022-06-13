@@ -38,12 +38,11 @@ namespace Solution2022
 {
 	namespace VerifyinganAlienDictionary
 	{
-/*
-	    bool isAlienSorted(vector<string>& words, string order) {
-	        
-	    }
 
-*/
+	//    bool isAlienSorted(vector<string>& words, string order) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

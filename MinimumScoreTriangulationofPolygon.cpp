@@ -39,12 +39,11 @@ namespace Solution2022
 {
 	namespace MinimumScoreTriangulationofPolygon
 	{
-/*
-	    int minScoreTriangulation(vector<int>& values) {
-	        
-	    }
 
-*/
+	//    int minScoreTriangulation(vector<int>& values) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

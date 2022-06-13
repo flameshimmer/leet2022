@@ -33,12 +33,11 @@ namespace Solution2022
 {
 	namespace MaximumCandiesAllocatedtoKChildren
 	{
-/*
-	    int maximumCandies(vector<int>& candies, long long k) {
-	        
-	    }
 
-*/
+	//    int maximumCandies(vector<int>& candies, long long k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

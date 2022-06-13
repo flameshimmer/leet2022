@@ -44,12 +44,11 @@ namespace Solution2022
 {
 	namespace MatchSubstringAfterReplacement
 	{
-/*
-	    bool matchReplacement(string s, string sub, vector<vector<char>>& mappings) {
-	        
-	    }
 
-*/
+	//    bool matchReplacement(string s, string sub, vector<vector<char>>& mappings) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

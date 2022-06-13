@@ -48,12 +48,11 @@ namespace Solution2022
 {
 	namespace NumberofLaserBeamsinaBank
 	{
-/*
-	    int numberOfBeams(vector<string>& bank) {
-	        
-	    }
 
-*/
+	//    int numberOfBeams(vector<string>& bank) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

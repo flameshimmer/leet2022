@@ -29,12 +29,11 @@ namespace Solution2022
 {
 	namespace JumpGameVII
 	{
-/*
-	    bool canReach(string s, int minJump, int maxJump) {
-	        
-	    }
 
-*/
+	//    bool canReach(string s, int minJump, int maxJump) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

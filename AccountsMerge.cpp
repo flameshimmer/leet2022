@@ -42,12 +42,11 @@ namespace Solution2022
 {
 	namespace AccountsMerge
 	{
-/*
-	    vector<vector<string>> accountsMerge(vector<vector<string>>& accounts) {
-	        
-	    }
 
-*/
+	//    vector<vector<string>> accountsMerge(vector<vector<string>>& accounts) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -34,12 +34,11 @@ namespace Solution2022
 {
 	namespace AppendKIntegersWithMinimalSum
 	{
-/*
-	    long long minimalKSum(vector<int>& nums, int k) {
-	        
-	    }
 
-*/
+	//    long long minimalKSum(vector<int>& nums, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

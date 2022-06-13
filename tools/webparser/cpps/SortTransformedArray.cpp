@@ -24,12 +24,11 @@ namespace Solution2022
 {
 	namespace SortTransformedArray
 	{
-/*
-	    vector<int> sortTransformedArray(vector<int>& nums, int a, int b, int c) {
-	        
-	    }
 
-*/
+	//    vector<int> sortTransformedArray(vector<int>& nums, int a, int b, int c) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

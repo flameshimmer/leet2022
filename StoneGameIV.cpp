@@ -34,12 +34,11 @@ namespace Solution2022
 {
 	namespace StoneGameIV
 	{
-/*
-	    bool winnerSquareGame(int n) {
-	        
-	    }
 
-*/
+	//    bool winnerSquareGame(int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

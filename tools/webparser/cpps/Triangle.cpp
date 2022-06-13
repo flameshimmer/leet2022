@@ -34,12 +34,11 @@ namespace Solution2022
 {
 	namespace Triangle
 	{
-/*
-	    int minimumTotal(vector<vector<int>>& triangle) {
-	        
-	    }
 
-*/
+	//    int minimumTotal(vector<vector<int>>& triangle) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

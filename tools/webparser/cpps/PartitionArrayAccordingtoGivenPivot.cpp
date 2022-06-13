@@ -45,12 +45,11 @@ namespace Solution2022
 {
 	namespace PartitionArrayAccordingtoGivenPivot
 	{
-/*
-	    vector<int> pivotArray(vector<int>& nums, int pivot) {
-	        
-	    }
 
-*/
+	//    vector<int> pivotArray(vector<int>& nums, int pivot) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

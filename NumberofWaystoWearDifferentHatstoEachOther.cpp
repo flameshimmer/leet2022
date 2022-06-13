@@ -36,12 +36,11 @@ namespace Solution2022
 {
 	namespace NumberofWaystoWearDifferentHatstoEachOther
 	{
-/*
-	    int numberWays(vector<vector<int>>& hats) {
-	        
-	    }
 
-*/
+	//    int numberWays(vector<vector<int>>& hats) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

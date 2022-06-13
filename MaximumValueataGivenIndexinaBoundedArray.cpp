@@ -31,12 +31,11 @@ namespace Solution2022
 {
 	namespace MaximumValueataGivenIndexinaBoundedArray
 	{
-/*
-	    int maxValue(int n, int index, int maxSum) {
-	        
-	    }
 
-*/
+	//    int maxValue(int n, int index, int maxSum) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

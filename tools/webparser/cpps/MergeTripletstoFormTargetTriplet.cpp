@@ -50,12 +50,11 @@ namespace Solution2022
 {
 	namespace MergeTripletstoFormTargetTriplet
 	{
-/*
-	    bool mergeTriplets(vector<vector<int>>& triplets, vector<int>& target) {
-	        
-	    }
 
-*/
+	//    bool mergeTriplets(vector<vector<int>>& triplets, vector<int>& target) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

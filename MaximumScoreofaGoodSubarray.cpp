@@ -27,12 +27,11 @@ namespace Solution2022
 {
 	namespace MaximumScoreofaGoodSubarray
 	{
-/*
-	    int maximumScore(vector<int>& nums, int k) {
-	        
-	    }
 
-*/
+	//    int maximumScore(vector<int>& nums, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -43,12 +43,11 @@ namespace Solution2022
 {
 	namespace TimeNeededtoInformAllEmployees
 	{
-/*
-	    int numOfMinutes(int n, int headID, vector<int>& manager, vector<int>& informTime) {
-	        
-	    }
 
-*/
+	//    int numOfMinutes(int n, int headID, vector<int>& manager, vector<int>& informTime) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

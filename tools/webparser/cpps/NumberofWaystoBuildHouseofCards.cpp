@@ -41,12 +41,11 @@ namespace Solution2022
 {
 	namespace NumberofWaystoBuildHouseofCards
 	{
-/*
-	    int houseOfCards(int n) {
-	        
-	    }
 
-*/
+	//    int houseOfCards(int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

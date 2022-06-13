@@ -32,12 +32,11 @@ namespace Solution2022
 {
 	namespace IncreasingTripletSubsequence
 	{
-/*
-	    bool increasingTriplet(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    bool increasingTriplet(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

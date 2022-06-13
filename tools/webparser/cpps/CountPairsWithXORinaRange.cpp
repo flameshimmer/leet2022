@@ -39,12 +39,11 @@ namespace Solution2022
 {
 	namespace CountPairsWithXORinaRange
 	{
-/*
-	    int countPairs(vector<int>& nums, int low, int high) {
-	        
-	    }
 
-*/
+	//    int countPairs(vector<int>& nums, int low, int high) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

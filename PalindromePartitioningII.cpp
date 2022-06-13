@@ -27,12 +27,11 @@ namespace Solution2022
 {
 	namespace PalindromePartitioningII
 	{
-/*
-	    int minCut(string s) {
-	        
-	    }
 
-*/
+	//    int minCut(string s) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

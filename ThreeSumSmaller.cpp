@@ -30,12 +30,11 @@ namespace Solution2022
 {
 	namespace ThreeSumSmaller
 	{
-/*
-	    int threeSumSmaller(vector<int>& nums, int target) {
-	        
-	    }
 
-*/
+	//    int threeSumSmaller(vector<int>& nums, int target) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -32,12 +32,11 @@ namespace Solution2022
 {
 	namespace AlphabetBoardPath
 	{
-/*
-	    string alphabetBoardPath(string target) {
-	        
-	    }
 
-*/
+	//    string alphabetBoardPath(string target) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

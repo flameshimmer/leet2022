@@ -50,12 +50,11 @@ namespace Solution2022
 {
 	namespace FindtheStudentthatWillReplacetheChalk
 	{
-/*
-	    int chalkReplacer(vector<int>& chalk, int k) {
-	        
-	    }
 
-*/
+	//    int chalkReplacer(vector<int>& chalk, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

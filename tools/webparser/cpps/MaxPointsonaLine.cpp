@@ -23,12 +23,11 @@ namespace Solution2022
 {
 	namespace MaxPointsonaLine
 	{
-/*
-	    int maxPoints(vector<vector<int>>& points) {
-	        
-	    }
 
-*/
+	//    int maxPoints(vector<vector<int>>& points) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

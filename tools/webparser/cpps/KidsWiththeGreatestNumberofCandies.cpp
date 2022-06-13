@@ -42,12 +42,11 @@ namespace Solution2022
 {
 	namespace KidsWiththeGreatestNumberofCandies
 	{
-/*
-	    vector<bool> kidsWithCandies(vector<int>& candies, int extraCandies) {
-	        
-	    }
 
-*/
+	//    vector<bool> kidsWithCandies(vector<int>& candies, int extraCandies) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

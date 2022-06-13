@@ -32,12 +32,11 @@ namespace Solution2022
 {
 	namespace SatisfiabilityofEqualityEquations
 	{
-/*
-	    bool equationsPossible(vector<string>& equations) {
-	        
-	    }
 
-*/
+	//    bool equationsPossible(vector<string>& equations) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

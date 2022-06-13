@@ -30,12 +30,11 @@ namespace Solution2022
 {
 	namespace CountTheRepetitions
 	{
-/*
-	    int getMaxRepetitions(string s1, int n1, string s2, int n2) {
-	        
-	    }
 
-*/
+	//    int getMaxRepetitions(string s1, int n1, string s2, int n2) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

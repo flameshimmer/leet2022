@@ -32,12 +32,11 @@ namespace Solution2022
 {
 	namespace ConnectingCitiesWithMinimumCost
 	{
-/*
-	    int minimumCost(int n, vector<vector<int>>& connections) {
-	        
-	    }
 
-*/
+	//    int minimumCost(int n, vector<vector<int>>& connections) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

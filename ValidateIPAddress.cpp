@@ -39,12 +39,11 @@ namespace Solution2022
 {
 	namespace ValidateIPAddress
 	{
-/*
-	    string validIPAddress(string queryIP) {
-	        
-	    }
 
-*/
+	//    string validIPAddress(string queryIP) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

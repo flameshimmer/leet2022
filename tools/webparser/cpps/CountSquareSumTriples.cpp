@@ -23,12 +23,11 @@ namespace Solution2022
 {
 	namespace CountSquareSumTriples
 	{
-/*
-	    int countTriples(int n) {
-	        
-	    }
 
-*/
+	//    int countTriples(int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

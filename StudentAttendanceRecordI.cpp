@@ -34,12 +34,11 @@ namespace Solution2022
 {
 	namespace StudentAttendanceRecordI
 	{
-/*
-	    bool checkRecord(string s) {
-	        
-	    }
 
-*/
+	//    bool checkRecord(string s) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

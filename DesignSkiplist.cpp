@@ -53,33 +53,32 @@ namespace Solution2022
 {
 	namespace DesignSkiplist
 	{
-/*
-	class Skiplist {
-	    Skiplist() {
-	        
-	    }
-	    
-	    bool search(int target) {
-	        
-	    }
-	    
-	    void add(int num) {
-	        
-	    }
-	    
-	    bool erase(int num) {
-	        
-	    }
-	​
-	/**
-	 * Your Skiplist object will be instantiated and called as such:
-	 * Skiplist* obj = new Skiplist();
-	 * bool param_1 = obj->search(target);
-	 * obj->add(num);
-	 * bool param_3 = obj->erase(num);
-	 */
 
-*/
+	//class Skiplist {
+	//    Skiplist() {
+	//        
+	//    }
+	//    
+	//    bool search(int target) {
+	//        
+	//    }
+	//    
+	//    void add(int num) {
+	//        
+	//    }
+	//    
+	//    bool erase(int num) {
+	//        
+	//    }
+	//​
+	///**
+	// * Your Skiplist object will be instantiated and called as such:
+	// * Skiplist* obj = new Skiplist();
+	// * bool param_1 = obj->search(target);
+	// * obj->add(num);
+	// * bool param_3 = obj->erase(num);
+	// */
+
 
 		void Main() {
 			string test = "tst test test";

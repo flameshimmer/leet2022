@@ -37,12 +37,11 @@ namespace Solution2022
 {
 	namespace SumofBeautyintheArray
 	{
-/*
-	    int sumOfBeauties(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int sumOfBeauties(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

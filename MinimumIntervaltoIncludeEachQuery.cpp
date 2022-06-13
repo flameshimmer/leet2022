@@ -46,12 +46,11 @@ namespace Solution2022
 {
 	namespace MinimumIntervaltoIncludeEachQuery
 	{
-/*
-	    vector<int> minInterval(vector<vector<int>>& intervals, vector<int>& queries) {
-	        
-	    }
 
-*/
+	//    vector<int> minInterval(vector<vector<int>>& intervals, vector<int>& queries) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

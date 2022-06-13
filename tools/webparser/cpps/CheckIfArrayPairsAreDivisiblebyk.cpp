@@ -33,12 +33,11 @@ namespace Solution2022
 {
 	namespace CheckIfArrayPairsAreDivisiblebyk
 	{
-/*
-	    bool canArrange(vector<int>& arr, int k) {
-	        
-	    }
 
-*/
+	//    bool canArrange(vector<int>& arr, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

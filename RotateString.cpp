@@ -23,12 +23,11 @@ namespace Solution2022
 {
 	namespace RotateString
 	{
-/*
-	    bool rotateString(string s, string goal) {
-	        
-	    }
 
-*/
+	//    bool rotateString(string s, string goal) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

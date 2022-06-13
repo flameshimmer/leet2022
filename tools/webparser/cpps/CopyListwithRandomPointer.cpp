@@ -41,26 +41,25 @@ namespace Solution2022
 {
 	namespace CopyListwithRandomPointer
 	{
-/*
-	/*
-	// Definition for a Node.
-	class Node {
-	    int val;
-	    Node* next;
-	    Node* random;
-	    
-	    Node(int _val) {
-	        val = _val;
-	        next = NULL;
-	        random = NULL;
-	    }
-	*/
-	​
-	    Node* copyRandomList(Node* head) {
-	        
-	    }
 
-*/
+	///*
+	//// Definition for a Node.
+	//class Node {
+	//    int val;
+	//    Node* next;
+	//    Node* random;
+	//    
+	//    Node(int _val) {
+	//        val = _val;
+	//        next = NULL;
+	//        random = NULL;
+	//    }
+	//*/
+	//​
+	//    Node* copyRandomList(Node* head) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

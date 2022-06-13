@@ -41,12 +41,11 @@ namespace Solution2022
 {
 	namespace SmallestStringWithSwaps
 	{
-/*
-	    string smallestStringWithSwaps(string s, vector<vector<int>>& pairs) {
-	        
-	    }
 
-*/
+	//    string smallestStringWithSwaps(string s, vector<vector<int>>& pairs) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -29,12 +29,11 @@ namespace Solution2022
 {
 	namespace PaintingaGridWithThreeDifferentColors
 	{
-/*
-	    int colorTheGrid(int m, int n) {
-	        
-	    }
 
-*/
+	//    int colorTheGrid(int m, int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

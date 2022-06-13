@@ -26,12 +26,11 @@ namespace Solution2022
 {
 	namespace DigitCountinRange
 	{
-/*
-	    int digitsCount(int d, int low, int high) {
-	        
-	    }
 
-*/
+	//    int digitsCount(int d, int low, int high) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -48,12 +48,11 @@ namespace Solution2022
 {
 	namespace ShortestPathtoGetAllKeys
 	{
-/*
-	    int shortestPathAllKeys(vector<string>& grid) {
-	        
-	    }
 
-*/
+	//    int shortestPathAllKeys(vector<string>& grid) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

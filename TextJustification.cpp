@@ -68,12 +68,11 @@ namespace Solution2022
 {
 	namespace TextJustification
 	{
-/*
-	    vector<string> fullJustify(vector<string>& words, int maxWidth) {
-	        
-	    }
 
-*/
+	//    vector<string> fullJustify(vector<string>& words, int maxWidth) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

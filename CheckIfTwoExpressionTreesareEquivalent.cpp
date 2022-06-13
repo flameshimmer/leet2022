@@ -37,23 +37,22 @@ namespace Solution2022
 {
 	namespace CheckIfTwoExpressionTreesareEquivalent
 	{
-/*
-	/**
-	 * Definition for a binary tree node.
-	 * struct Node {
-	 *     char val;
-	 *     Node *left;
-	 *     Node *right;
-	 *     Node() : val(' '), left(nullptr), right(nullptr) {}
-	 *     Node(char x) : val(x), left(nullptr), right(nullptr) {}
-	 *     Node(char x, Node *left, Node *right) : val(x), left(left), right(right) {}
-	 * };
-	 */
-	    bool checkEquivalence(Node* root1, Node* root2) {
-	        
-	    }
 
-*/
+	///**
+	// * Definition for a binary tree node.
+	// * struct Node {
+	// *     char val;
+	// *     Node *left;
+	// *     Node *right;
+	// *     Node() : val(' '), left(nullptr), right(nullptr) {}
+	// *     Node(char x) : val(x), left(nullptr), right(nullptr) {}
+	// *     Node(char x, Node *left, Node *right) : val(x), left(left), right(right) {}
+	// * };
+	// */
+	//    bool checkEquivalence(Node* root1, Node* root2) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

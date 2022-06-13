@@ -58,12 +58,11 @@ namespace Solution2022
 {
 	namespace EscapetheSpreadingFire
 	{
-/*
-	    int maximumMinutes(vector<vector<int>>& grid) {
-	        
-	    }
 
-*/
+	//    int maximumMinutes(vector<vector<int>>& grid) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

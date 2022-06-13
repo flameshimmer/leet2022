@@ -33,12 +33,11 @@ namespace Solution2022
 {
 	namespace RansomNote
 	{
-/*
-	    bool canConstruct(string ransomNote, string magazine) {
-	        
-	    }
 
-*/
+	//    bool canConstruct(string ransomNote, string magazine) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

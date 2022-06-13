@@ -31,12 +31,11 @@ namespace Solution2022
 {
 	namespace KClosestPointstoOrigin
 	{
-/*
-	    vector<vector<int>> kClosest(vector<vector<int>>& points, int k) {
-	        
-	    }
 
-*/
+	//    vector<vector<int>> kClosest(vector<vector<int>>& points, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

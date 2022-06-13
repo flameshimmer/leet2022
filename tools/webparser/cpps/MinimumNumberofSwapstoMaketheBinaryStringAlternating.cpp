@@ -31,12 +31,11 @@ namespace Solution2022
 {
 	namespace MinimumNumberofSwapstoMaketheBinaryStringAlternating
 	{
-/*
-	    int minSwaps(string s) {
-	        
-	    }
 
-*/
+	//    int minSwaps(string s) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -42,12 +42,11 @@ namespace Solution2022
 {
 	namespace MaximumXORforEachQuery
 	{
-/*
-	    vector<int> getMaximumXor(vector<int>& nums, int maximumBit) {
-	        
-	    }
 
-*/
+	//    vector<int> getMaximumXor(vector<int>& nums, int maximumBit) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

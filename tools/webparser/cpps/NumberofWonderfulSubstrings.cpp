@@ -48,12 +48,11 @@ namespace Solution2022
 {
 	namespace NumberofWonderfulSubstrings
 	{
-/*
-	    long long wonderfulSubstrings(string word) {
-	        
-	    }
 
-*/
+	//    long long wonderfulSubstrings(string word) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

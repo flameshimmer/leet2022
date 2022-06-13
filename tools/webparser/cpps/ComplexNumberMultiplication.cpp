@@ -28,12 +28,11 @@ namespace Solution2022
 {
 	namespace ComplexNumberMultiplication
 	{
-/*
-	    string complexNumberMultiply(string num1, string num2) {
-	        
-	    }
 
-*/
+	//    string complexNumberMultiply(string num1, string num2) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

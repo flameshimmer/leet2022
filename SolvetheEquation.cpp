@@ -31,12 +31,11 @@ namespace Solution2022
 {
 	namespace SolvetheEquation
 	{
-/*
-	    string solveEquation(string equation) {
-	        
-	    }
 
-*/
+	//    string solveEquation(string equation) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

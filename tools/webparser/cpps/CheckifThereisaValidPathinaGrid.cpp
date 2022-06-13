@@ -43,12 +43,11 @@ namespace Solution2022
 {
 	namespace CheckifThereisaValidPathinaGrid
 	{
-/*
-	    bool hasValidPath(vector<vector<int>>& grid) {
-	        
-	    }
 
-*/
+	//    bool hasValidPath(vector<vector<int>>& grid) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

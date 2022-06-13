@@ -26,12 +26,11 @@ namespace Solution2022
 {
 	namespace CheckifNumberisaSumofPowersofThree
 	{
-/*
-	    bool checkPowersOfThree(int n) {
-	        
-	    }
 
-*/
+	//    bool checkPowersOfThree(int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

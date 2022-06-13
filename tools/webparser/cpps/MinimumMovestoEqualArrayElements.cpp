@@ -26,12 +26,11 @@ namespace Solution2022
 {
 	namespace MinimumMovestoEqualArrayElements
 	{
-/*
-	    int minMoves(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int minMoves(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

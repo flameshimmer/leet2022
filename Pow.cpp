@@ -25,12 +25,11 @@ namespace Solution2022
 {
 	namespace Pow
 	{
-/*
-	    double myPow(double x, int n) {
-	        
-	    }
 
-*/
+	//    double myPow(double x, int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

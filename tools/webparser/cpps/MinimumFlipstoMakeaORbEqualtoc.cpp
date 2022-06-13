@@ -28,12 +28,11 @@ namespace Solution2022
 {
 	namespace MinimumFlipstoMakeaORbEqualtoc
 	{
-/*
-	    int minFlips(int a, int b, int c) {
-	        
-	    }
 
-*/
+	//    int minFlips(int a, int b, int c) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

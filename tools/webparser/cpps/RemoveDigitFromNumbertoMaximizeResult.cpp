@@ -37,12 +37,11 @@ namespace Solution2022
 {
 	namespace RemoveDigitFromNumbertoMaximizeResult
 	{
-/*
-	    string removeDigit(string number, char digit) {
-	        
-	    }
 
-*/
+	//    string removeDigit(string number, char digit) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

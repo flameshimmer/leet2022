@@ -46,12 +46,11 @@ namespace Solution2022
 {
 	namespace SorttheJumbledNumbers
 	{
-/*
-	    vector<int> sortJumbled(vector<int>& mapping, vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    vector<int> sortJumbled(vector<int>& mapping, vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

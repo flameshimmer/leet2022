@@ -33,9 +33,8 @@ namespace Solution2022
 {
 	namespace \$\$PROBLEM\$\$
 	{
-/*
+
 \$\$CODE\$\$
-*/
 
 		void Main() {
 			string test = \"tst test test\";
@@ -107,7 +106,7 @@ for my $json (@jsons)
 			if ($codeLine =~ m/^\s*};\s*$/) {next;}
 			if ($codeLine =~ m/^\s*public:\s*$/) {next;}
 			# print "$codeLine\n";
-			$filteredCode = $filteredCode . "\t" . $codeLine . "\n";
+			$filteredCode = $filteredCode . "\t\/\/" . $codeLine . "\n";
 		}
 
 

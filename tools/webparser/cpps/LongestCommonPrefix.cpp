@@ -23,12 +23,11 @@ namespace Solution2022
 {
 	namespace LongestCommonPrefix
 	{
-/*
-	    string longestCommonPrefix(vector<string>& strs) {
-	        
-	    }
 
-*/
+	//    string longestCommonPrefix(vector<string>& strs) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

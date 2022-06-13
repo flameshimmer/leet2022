@@ -28,12 +28,11 @@ namespace Solution2022
 {
 	namespace CountNumberofNiceSubarrays
 	{
-/*
-	    int numberOfSubarrays(vector<int>& nums, int k) {
-	        
-	    }
 
-*/
+	//    int numberOfSubarrays(vector<int>& nums, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

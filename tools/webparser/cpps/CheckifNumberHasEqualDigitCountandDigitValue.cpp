@@ -35,12 +35,11 @@ namespace Solution2022
 {
 	namespace CheckifNumberHasEqualDigitCountandDigitValue
 	{
-/*
-	    bool digitCount(string num) {
-	        
-	    }
 
-*/
+	//    bool digitCount(string num) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

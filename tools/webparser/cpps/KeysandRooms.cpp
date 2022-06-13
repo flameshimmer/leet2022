@@ -39,12 +39,11 @@ namespace Solution2022
 {
 	namespace KeysandRooms
 	{
-/*
-	    bool canVisitAllRooms(vector<vector<int>>& rooms) {
-	        
-	    }
 
-*/
+	//    bool canVisitAllRooms(vector<vector<int>>& rooms) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

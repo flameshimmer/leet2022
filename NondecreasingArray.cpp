@@ -25,12 +25,11 @@ namespace Solution2022
 {
 	namespace NondecreasingArray
 	{
-/*
-	    bool checkPossibility(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    bool checkPossibility(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

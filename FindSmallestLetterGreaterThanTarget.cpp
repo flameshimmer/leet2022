@@ -31,12 +31,11 @@ namespace Solution2022
 {
 	namespace FindSmallestLetterGreaterThanTarget
 	{
-/*
-	    char nextGreatestLetter(vector<char>& letters, char target) {
-	        
-	    }
 
-*/
+	//    char nextGreatestLetter(vector<char>& letters, char target) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

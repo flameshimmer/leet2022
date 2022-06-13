@@ -42,12 +42,11 @@ namespace Solution2022
 {
 	namespace ShortestDistancefromAllBuildings
 	{
-/*
-	    int shortestDistance(vector<vector<int>>& grid) {
-	        
-	    }
 
-*/
+	//    int shortestDistance(vector<vector<int>>& grid) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -29,12 +29,11 @@ namespace Solution2022
 {
 	namespace SumofSubsequenceWidths
 	{
-/*
-	    int sumSubseqWidths(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int sumSubseqWidths(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

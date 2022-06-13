@@ -60,12 +60,11 @@ namespace Solution2022
 {
 	namespace FindAllPeopleWithSecret
 	{
-/*
-	    vector<int> findAllPeople(int n, vector<vector<int>>& meetings, int firstPerson) {
-	        
-	    }
 
-*/
+	//    vector<int> findAllPeople(int n, vector<vector<int>>& meetings, int firstPerson) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

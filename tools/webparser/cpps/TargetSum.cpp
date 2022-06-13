@@ -34,12 +34,11 @@ namespace Solution2022
 {
 	namespace TargetSum
 	{
-/*
-	    int findTargetSumWays(vector<int>& nums, int target) {
-	        
-	    }
 
-*/
+	//    int findTargetSumWays(vector<int>& nums, int target) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

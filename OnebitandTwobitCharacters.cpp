@@ -29,12 +29,11 @@ namespace Solution2022
 {
 	namespace OnebitandTwobitCharacters
 	{
-/*
-	    bool isOneBitCharacter(vector<int>& bits) {
-	        
-	    }
 
-*/
+	//    bool isOneBitCharacter(vector<int>& bits) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

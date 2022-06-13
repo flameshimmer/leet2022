@@ -26,12 +26,11 @@ namespace Solution2022
 {
 	namespace ThreeSum
 	{
-/*
-	    vector<vector<int>> threeSum(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    vector<vector<int>> threeSum(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

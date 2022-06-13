@@ -34,12 +34,11 @@ namespace Solution2022
 {
 	namespace JumpGameVI
 	{
-/*
-	    int maxResult(vector<int>& nums, int k) {
-	        
-	    }
 
-*/
+	//    int maxResult(vector<int>& nums, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

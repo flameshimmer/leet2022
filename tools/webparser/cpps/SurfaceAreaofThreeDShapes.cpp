@@ -30,12 +30,11 @@ namespace Solution2022
 {
 	namespace SurfaceAreaofThreeDShapes
 	{
-/*
-	    int surfaceArea(vector<vector<int>>& grid) {
-	        
-	    }
 
-*/
+	//    int surfaceArea(vector<vector<int>>& grid) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

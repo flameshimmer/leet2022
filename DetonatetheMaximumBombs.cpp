@@ -48,12 +48,11 @@ namespace Solution2022
 {
 	namespace DetonatetheMaximumBombs
 	{
-/*
-	    int maximumDetonation(vector<vector<int>>& bombs) {
-	        
-	    }
 
-*/
+	//    int maximumDetonation(vector<vector<int>>& bombs) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

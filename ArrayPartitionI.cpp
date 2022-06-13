@@ -29,12 +29,11 @@ namespace Solution2022
 {
 	namespace ArrayPartitionI
 	{
-/*
-	    int arrayPairSum(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int arrayPairSum(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

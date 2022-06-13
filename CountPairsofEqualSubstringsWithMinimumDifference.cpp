@@ -32,12 +32,11 @@ namespace Solution2022
 {
 	namespace CountPairsofEqualSubstringsWithMinimumDifference
 	{
-/*
-	    int countQuadruples(string firstString, string secondString) {
-	        
-	    }
 
-*/
+	//    int countQuadruples(string firstString, string secondString) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

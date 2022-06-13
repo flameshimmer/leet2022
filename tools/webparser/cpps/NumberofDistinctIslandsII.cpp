@@ -30,12 +30,11 @@ namespace Solution2022
 {
 	namespace NumberofDistinctIslandsII
 	{
-/*
-	    int numDistinctIslands2(vector<vector<int>>& grid) {
-	        
-	    }
 
-*/
+	//    int numDistinctIslands2(vector<vector<int>>& grid) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

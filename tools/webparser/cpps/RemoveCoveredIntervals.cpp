@@ -26,12 +26,11 @@ namespace Solution2022
 {
 	namespace RemoveCoveredIntervals
 	{
-/*
-	    int removeCoveredIntervals(vector<vector<int>>& intervals) {
-	        
-	    }
 
-*/
+	//    int removeCoveredIntervals(vector<vector<int>>& intervals) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

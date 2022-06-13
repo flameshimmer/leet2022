@@ -25,12 +25,11 @@ namespace Solution2022
 {
 	namespace ValidPalindromeII
 	{
-/*
-	    bool validPalindrome(string s) {
-	        
-	    }
 
-*/
+	//    bool validPalindrome(string s) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -35,12 +35,11 @@ namespace Solution2022
 {
 	namespace MissingNumber
 	{
-/*
-	    int missingNumber(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int missingNumber(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

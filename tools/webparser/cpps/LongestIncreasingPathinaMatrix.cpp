@@ -32,12 +32,11 @@ namespace Solution2022
 {
 	namespace LongestIncreasingPathinaMatrix
 	{
-/*
-	    int longestIncreasingPath(vector<vector<int>>& matrix) {
-	        
-	    }
 
-*/
+	//    int longestIncreasingPath(vector<vector<int>>& matrix) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

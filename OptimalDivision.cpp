@@ -41,12 +41,11 @@ namespace Solution2022
 {
 	namespace OptimalDivision
 	{
-/*
-	    string optimalDivision(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    string optimalDivision(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

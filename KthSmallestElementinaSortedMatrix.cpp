@@ -36,12 +36,11 @@ namespace Solution2022
 {
 	namespace KthSmallestElementinaSortedMatrix
 	{
-/*
-	    int kthSmallest(vector<vector<int>>& matrix, int k) {
-	        
-	    }
 
-*/
+	//    int kthSmallest(vector<vector<int>>& matrix, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -36,12 +36,11 @@ namespace Solution2022
 {
 	namespace OptimalAccountBalancing
 	{
-/*
-	    int minTransfers(vector<vector<int>>& transactions) {
-	        
-	    }
 
-*/
+	//    int minTransfers(vector<vector<int>>& transactions) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

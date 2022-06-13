@@ -26,12 +26,11 @@ namespace Solution2022
 {
 	namespace NumberofWaystoPaintN×ThreeGrid
 	{
-/*
-	    int numOfWays(int n) {
-	        
-	    }
 
-*/
+	//    int numOfWays(int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

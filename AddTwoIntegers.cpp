@@ -21,12 +21,11 @@ namespace Solution2022
 {
 	namespace AddTwoIntegers
 	{
-/*
-	    int sum(int num1, int num2) {
-	        
-	    }
 
-*/
+	//    int sum(int num1, int num2) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

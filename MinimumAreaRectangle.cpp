@@ -24,12 +24,11 @@ namespace Solution2022
 {
 	namespace MinimumAreaRectangle
 	{
-/*
-	    int minAreaRect(vector<vector<int>>& points) {
-	        
-	    }
 
-*/
+	//    int minAreaRect(vector<vector<int>>& points) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

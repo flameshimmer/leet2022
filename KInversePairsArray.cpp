@@ -26,12 +26,11 @@ namespace Solution2022
 {
 	namespace KInversePairsArray
 	{
-/*
-	    int kInversePairs(int n, int k) {
-	        
-	    }
 
-*/
+	//    int kInversePairs(int n, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -41,12 +41,11 @@ namespace Solution2022
 {
 	namespace CourseScheduleII
 	{
-/*
-	    vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {
-	        
-	    }
 
-*/
+	//    vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

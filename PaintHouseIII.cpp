@@ -51,12 +51,11 @@ namespace Solution2022
 {
 	namespace PaintHouseIII
 	{
-/*
-	    int minCost(vector<int>& houses, vector<vector<int>>& cost, int m, int n, int target) {
-	        
-	    }
 
-*/
+	//    int minCost(vector<int>& houses, vector<vector<int>>& cost, int m, int n, int target) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -35,12 +35,11 @@ namespace Solution2022
 {
 	namespace MatrixCellsinDistanceOrder
 	{
-/*
-	    vector<vector<int>> allCellsDistOrder(int rows, int cols, int rCenter, int cCenter) {
-	        
-	    }
 
-*/
+	//    vector<vector<int>> allCellsDistOrder(int rows, int cols, int rCenter, int cCenter) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

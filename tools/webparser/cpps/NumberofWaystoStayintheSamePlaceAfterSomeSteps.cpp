@@ -36,12 +36,11 @@ namespace Solution2022
 {
 	namespace NumberofWaystoStayintheSamePlaceAfterSomeSteps
 	{
-/*
-	    int numWays(int steps, int arrLen) {
-	        
-	    }
 
-*/
+	//    int numWays(int steps, int arrLen) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

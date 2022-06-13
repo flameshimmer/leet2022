@@ -37,12 +37,11 @@ namespace Solution2022
 {
 	namespace RemoveSubFoldersfromtheFilesystem
 	{
-/*
-	    vector<string> removeSubfolders(vector<string>& folder) {
-	        
-	    }
 
-*/
+	//    vector<string> removeSubfolders(vector<string>& folder) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

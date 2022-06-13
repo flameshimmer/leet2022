@@ -71,22 +71,21 @@ namespace Solution2022
 {
 	namespace ReadNCharactersGivenReadFour
 	{
-/*
-	/**
-	 * The read4 API is defined in the parent class Reader4.
-	 *     int read4(char *buf4);
-	 */
-	​
-	    /**
-	     * @param buf Destination buffer
-	     * @param n   Number of characters to read
-	     * @return    The number of actual characters read
-	     */
-	    int read(char *buf, int n) {
-	        
-	    }
 
-*/
+	///**
+	// * The read4 API is defined in the parent class Reader4.
+	// *     int read4(char *buf4);
+	// */
+	//​
+	//    /**
+	//     * @param buf Destination buffer
+	//     * @param n   Number of characters to read
+	//     * @return    The number of actual characters read
+	//     */
+	//    int read(char *buf, int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

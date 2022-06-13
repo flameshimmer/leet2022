@@ -19,12 +19,11 @@ namespace Solution2022
 {
 	namespace UniqueBinarySearchTrees
 	{
-/*
-	    int numTrees(int n) {
-	        
-	    }
 
-*/
+	//    int numTrees(int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

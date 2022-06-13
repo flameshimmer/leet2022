@@ -29,12 +29,11 @@ namespace Solution2022
 {
 	namespace CriticalConnectionsinaNetwork
 	{
-/*
-	    vector<vector<int>> criticalConnections(int n, vector<vector<int>>& connections) {
-	        
-	    }
 
-*/
+	//    vector<vector<int>> criticalConnections(int n, vector<vector<int>>& connections) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

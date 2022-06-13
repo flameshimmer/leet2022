@@ -35,12 +35,11 @@ namespace Solution2022
 {
 	namespace FindOriginalArrayFromDoubledArray
 	{
-/*
-	    vector<int> findOriginalArray(vector<int>& changed) {
-	        
-	    }
 
-*/
+	//    vector<int> findOriginalArray(vector<int>& changed) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

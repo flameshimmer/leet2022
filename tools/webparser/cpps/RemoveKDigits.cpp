@@ -32,12 +32,11 @@ namespace Solution2022
 {
 	namespace RemoveKDigits
 	{
-/*
-	    string removeKdigits(string num, int k) {
-	        
-	    }
 
-*/
+	//    string removeKdigits(string num, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -29,12 +29,11 @@ namespace Solution2022
 {
 	namespace MaximumProductofTwoElementsinanArray
 	{
-/*
-	    int maxProduct(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int maxProduct(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

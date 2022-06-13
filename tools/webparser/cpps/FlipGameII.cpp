@@ -28,12 +28,11 @@ namespace Solution2022
 {
 	namespace FlipGameII
 	{
-/*
-	    bool canWin(string currentState) {
-	        
-	    }
 
-*/
+	//    bool canWin(string currentState) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

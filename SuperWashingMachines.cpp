@@ -42,12 +42,11 @@ namespace Solution2022
 {
 	namespace SuperWashingMachines
 	{
-/*
-	    int findMinMoves(vector<int>& machines) {
-	        
-	    }
 
-*/
+	//    int findMinMoves(vector<int>& machines) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

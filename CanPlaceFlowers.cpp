@@ -25,12 +25,11 @@ namespace Solution2022
 {
 	namespace CanPlaceFlowers
 	{
-/*
-	    bool canPlaceFlowers(vector<int>& flowerbed, int n) {
-	        
-	    }
 
-*/
+	//    bool canPlaceFlowers(vector<int>& flowerbed, int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

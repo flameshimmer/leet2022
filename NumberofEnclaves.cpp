@@ -29,12 +29,11 @@ namespace Solution2022
 {
 	namespace NumberofEnclaves
 	{
-/*
-	    int numEnclaves(vector<vector<int>>& grid) {
-	        
-	    }
 
-*/
+	//    int numEnclaves(vector<vector<int>>& grid) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

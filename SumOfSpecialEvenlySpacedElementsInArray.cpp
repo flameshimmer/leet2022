@@ -35,12 +35,11 @@ namespace Solution2022
 {
 	namespace SumOfSpecialEvenlySpacedElementsInArray
 	{
-/*
-	    vector<int> solve(vector<int>& nums, vector<vector<int>>& queries) {
-	        
-	    }
 
-*/
+	//    vector<int> solve(vector<int>& nums, vector<vector<int>>& queries) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

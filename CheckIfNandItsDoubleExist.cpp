@@ -31,12 +31,11 @@ namespace Solution2022
 {
 	namespace CheckIfNandItsDoubleExist
 	{
-/*
-	    bool checkIfExist(vector<int>& arr) {
-	        
-	    }
 
-*/
+	//    bool checkIfExist(vector<int>& arr) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -41,12 +41,11 @@ namespace Solution2022
 {
 	namespace DetermineifTwoStringsAreClose
 	{
-/*
-	    bool closeStrings(string word1, string word2) {
-	        
-	    }
 
-*/
+	//    bool closeStrings(string word1, string word2) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

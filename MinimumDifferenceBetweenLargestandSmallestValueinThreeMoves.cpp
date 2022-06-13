@@ -26,12 +26,11 @@ namespace Solution2022
 {
 	namespace MinimumDifferenceBetweenLargestandSmallestValueinThreeMoves
 	{
-/*
-	    int minDifference(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int minDifference(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

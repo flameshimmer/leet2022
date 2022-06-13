@@ -39,20 +39,19 @@ namespace Solution2022
 {
 	namespace LinkedListCycleII
 	{
-/*
-	/**
-	 * Definition for singly-linked list.
-	 * struct ListNode {
-	 *     int val;
-	 *     ListNode *next;
-	 *     ListNode(int x) : val(x), next(NULL) {}
-	 * };
-	 */
-	    ListNode *detectCycle(ListNode *head) {
-	        
-	    }
 
-*/
+	///**
+	// * Definition for singly-linked list.
+	// * struct ListNode {
+	// *     int val;
+	// *     ListNode *next;
+	// *     ListNode(int x) : val(x), next(NULL) {}
+	// * };
+	// */
+	//    ListNode *detectCycle(ListNode *head) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -33,12 +33,11 @@ namespace Solution2022
 {
 	namespace DivideArrayinSetsofKConsecutiveNumbers
 	{
-/*
-	    bool isPossibleDivide(vector<int>& nums, int k) {
-	        
-	    }
 
-*/
+	//    bool isPossibleDivide(vector<int>& nums, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

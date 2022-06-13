@@ -110,46 +110,45 @@ namespace Solution2022
 {
 	namespace DesignVideoSharingPlatform
 	{
-/*
-	class VideoSharingPlatform {
-	    VideoSharingPlatform() {
-	        
-	    }
-	    
-	    int upload(string video) {
-	        
-	    }
-	    
-	    void remove(int videoId) {
-	        
-	    }
-	    
-	    string watch(int videoId, int startMinute, int endMinute) {
-	        
-	    }
-	    
-	    void like(int videoId) {
-	        
-	    }
-	    
-	    void dislike(int videoId) {
-	        
-	    }
-	    
-	    vector<int> getLikesAndDislikes(int videoId) {
-	        
-	    }
-	    
-	    int getViews(int videoId) {
-	        
-	    }
-	​
-	/**
-	 * Your VideoSharingPlatform object will be instantiated and called as such:
-	 * VideoSharingPlatform* obj = new VideoSharingPlatform();
-	 * int param_1 = obj->upload(video);
 
-*/
+	//class VideoSharingPlatform {
+	//    VideoSharingPlatform() {
+	//        
+	//    }
+	//    
+	//    int upload(string video) {
+	//        
+	//    }
+	//    
+	//    void remove(int videoId) {
+	//        
+	//    }
+	//    
+	//    string watch(int videoId, int startMinute, int endMinute) {
+	//        
+	//    }
+	//    
+	//    void like(int videoId) {
+	//        
+	//    }
+	//    
+	//    void dislike(int videoId) {
+	//        
+	//    }
+	//    
+	//    vector<int> getLikesAndDislikes(int videoId) {
+	//        
+	//    }
+	//    
+	//    int getViews(int videoId) {
+	//        
+	//    }
+	//​
+	///**
+	// * Your VideoSharingPlatform object will be instantiated and called as such:
+	// * VideoSharingPlatform* obj = new VideoSharingPlatform();
+	// * int param_1 = obj->upload(video);
+
 
 		void Main() {
 			string test = "tst test test";

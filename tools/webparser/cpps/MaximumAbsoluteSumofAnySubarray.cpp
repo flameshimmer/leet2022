@@ -28,12 +28,11 @@ namespace Solution2022
 {
 	namespace MaximumAbsoluteSumofAnySubarray
 	{
-/*
-	    int maxAbsoluteSum(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int maxAbsoluteSum(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -53,12 +53,11 @@ namespace Solution2022
 {
 	namespace MaximumRunningTimeofNComputers
 	{
-/*
-	    long long maxRunTime(int n, vector<int>& batteries) {
-	        
-	    }
 
-*/
+	//    long long maxRunTime(int n, vector<int>& batteries) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

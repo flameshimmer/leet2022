@@ -40,12 +40,11 @@ namespace Solution2022
 {
 	namespace MinimizeDeviationinArray
 	{
-/*
-	    int minimumDeviation(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int minimumDeviation(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

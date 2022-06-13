@@ -42,12 +42,11 @@ namespace Solution2022
 {
 	namespace WordLadderII
 	{
-/*
-	    vector<vector<string>> findLadders(string beginWord, string endWord, vector<string>& wordList) {
-	        
-	    }
 
-*/
+	//    vector<vector<string>> findLadders(string beginWord, string endWord, vector<string>& wordList) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -60,12 +60,11 @@ namespace Solution2022
 {
 	namespace CountFertilePyramidsinaLand
 	{
-/*
-	    int countPyramids(vector<vector<int>>& grid) {
-	        
-	    }
 
-*/
+	//    int countPyramids(vector<vector<int>>& grid) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

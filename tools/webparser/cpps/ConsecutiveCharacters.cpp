@@ -23,12 +23,11 @@ namespace Solution2022
 {
 	namespace ConsecutiveCharacters
 	{
-/*
-	    int maxPower(string s) {
-	        
-	    }
 
-*/
+	//    int maxPower(string s) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

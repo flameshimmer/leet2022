@@ -37,12 +37,11 @@ namespace Solution2022
 {
 	namespace PlusOne
 	{
-/*
-	    vector<int> plusOne(vector<int>& digits) {
-	        
-	    }
 
-*/
+	//    vector<int> plusOne(vector<int>& digits) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

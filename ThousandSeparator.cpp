@@ -19,12 +19,11 @@ namespace Solution2022
 {
 	namespace ThousandSeparator
 	{
-/*
-	    string thousandSeparator(int n) {
-	        
-	    }
 
-*/
+	//    string thousandSeparator(int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

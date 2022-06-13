@@ -29,12 +29,11 @@ namespace Solution2022
 {
 	namespace PartitionArrayIntoThreePartsWithEqualSum
 	{
-/*
-	    bool canThreePartsEqualSum(vector<int>& arr) {
-	        
-	    }
 
-*/
+	//    bool canThreePartsEqualSum(vector<int>& arr) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

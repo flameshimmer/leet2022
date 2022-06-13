@@ -48,12 +48,11 @@ namespace Solution2022
 {
 	namespace NumberofSingleDivisorTriplets
 	{
-/*
-	    long long singleDivisorTriplet(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    long long singleDivisorTriplet(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

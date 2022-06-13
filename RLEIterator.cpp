@@ -47,23 +47,22 @@ namespace Solution2022
 {
 	namespace RLEIterator
 	{
-/*
-	class RLEIterator {
-	    RLEIterator(vector<int>& encoding) {
-	        
-	    }
-	    
-	    int next(int n) {
-	        
-	    }
-	​
-	/**
-	 * Your RLEIterator object will be instantiated and called as such:
-	 * RLEIterator* obj = new RLEIterator(encoding);
-	 * int param_1 = obj->next(n);
-	 */
 
-*/
+	//class RLEIterator {
+	//    RLEIterator(vector<int>& encoding) {
+	//        
+	//    }
+	//    
+	//    int next(int n) {
+	//        
+	//    }
+	//​
+	///**
+	// * Your RLEIterator object will be instantiated and called as such:
+	// * RLEIterator* obj = new RLEIterator(encoding);
+	// * int param_1 = obj->next(n);
+	// */
+
 
 		void Main() {
 			string test = "tst test test";

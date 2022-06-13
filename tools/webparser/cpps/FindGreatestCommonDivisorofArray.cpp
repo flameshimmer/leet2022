@@ -38,12 +38,11 @@ namespace Solution2022
 {
 	namespace FindGreatestCommonDivisorofArray
 	{
-/*
-	    int findGCD(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int findGCD(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

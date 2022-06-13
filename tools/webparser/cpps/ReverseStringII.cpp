@@ -24,12 +24,11 @@ namespace Solution2022
 {
 	namespace ReverseStringII
 	{
-/*
-	    string reverseStr(string s, int k) {
-	        
-	    }
 
-*/
+	//    string reverseStr(string s, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

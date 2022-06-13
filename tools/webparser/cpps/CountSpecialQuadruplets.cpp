@@ -34,12 +34,11 @@ namespace Solution2022
 {
 	namespace CountSpecialQuadruplets
 	{
-/*
-	    int countQuadruplets(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int countQuadruplets(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

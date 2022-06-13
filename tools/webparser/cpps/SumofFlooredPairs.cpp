@@ -30,12 +30,11 @@ namespace Solution2022
 {
 	namespace SumofFlooredPairs
 	{
-/*
-	    int sumOfFlooredPairs(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int sumOfFlooredPairs(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

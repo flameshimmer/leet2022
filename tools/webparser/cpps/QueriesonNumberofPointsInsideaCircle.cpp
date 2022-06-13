@@ -41,12 +41,11 @@ namespace Solution2022
 {
 	namespace QueriesonNumberofPointsInsideaCircle
 	{
-/*
-	    vector<int> countPoints(vector<vector<int>>& points, vector<vector<int>>& queries) {
-	        
-	    }
 
-*/
+	//    vector<int> countPoints(vector<vector<int>>& points, vector<vector<int>>& queries) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -33,12 +33,11 @@ namespace Solution2022
 {
 	namespace ArrayWithElementsNotEqualtoAverageofNeighbors
 	{
-/*
-	    vector<int> rearrangeArray(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    vector<int> rearrangeArray(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

@@ -19,12 +19,11 @@ namespace Solution2022
 {
 	namespace GenerateParentheses
 	{
-/*
-	    vector<string> generateParenthesis(int n) {
-	        
-	    }
 
-*/
+	//    vector<string> generateParenthesis(int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

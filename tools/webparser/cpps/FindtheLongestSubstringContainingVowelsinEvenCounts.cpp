@@ -30,12 +30,11 @@ namespace Solution2022
 {
 	namespace FindtheLongestSubstringContainingVowelsinEvenCounts
 	{
-/*
-	    int findTheLongestSubstring(string s) {
-	        
-	    }
 
-*/
+	//    int findTheLongestSubstring(string s) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

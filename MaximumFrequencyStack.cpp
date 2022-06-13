@@ -44,28 +44,27 @@ namespace Solution2022
 {
 	namespace MaximumFrequencyStack
 	{
-/*
-	class FreqStack {
-	    FreqStack() {
-	        
-	    }
-	    
-	    void push(int val) {
-	        
-	    }
-	    
-	    int pop() {
-	        
-	    }
-	​
-	/**
-	 * Your FreqStack object will be instantiated and called as such:
-	 * FreqStack* obj = new FreqStack();
-	 * obj->push(val);
-	 * int param_2 = obj->pop();
-	 */
 
-*/
+	//class FreqStack {
+	//    FreqStack() {
+	//        
+	//    }
+	//    
+	//    void push(int val) {
+	//        
+	//    }
+	//    
+	//    int pop() {
+	//        
+	//    }
+	//​
+	///**
+	// * Your FreqStack object will be instantiated and called as such:
+	// * FreqStack* obj = new FreqStack();
+	// * obj->push(val);
+	// * int param_2 = obj->pop();
+	// */
+
 
 		void Main() {
 			string test = "tst test test";

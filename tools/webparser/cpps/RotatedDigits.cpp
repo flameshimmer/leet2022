@@ -35,12 +35,11 @@ namespace Solution2022
 {
 	namespace RotatedDigits
 	{
-/*
-	    int rotatedDigits(int n) {
-	        
-	    }
 
-*/
+	//    int rotatedDigits(int n) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

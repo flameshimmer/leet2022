@@ -35,12 +35,11 @@ namespace Solution2022
 {
 	namespace MaximumProductAfterKIncrements
 	{
-/*
-	    int maximumProduct(vector<int>& nums, int k) {
-	        
-	    }
 
-*/
+	//    int maximumProduct(vector<int>& nums, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

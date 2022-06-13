@@ -44,12 +44,11 @@ namespace Solution2022
 {
 	namespace NumberofAtoms
 	{
-/*
-	    string countOfAtoms(string formula) {
-	        
-	    }
 
-*/
+	//    string countOfAtoms(string formula) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

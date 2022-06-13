@@ -26,12 +26,11 @@ namespace Solution2022
 {
 	namespace SetMismatch
 	{
-/*
-	    vector<int> findErrorNums(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    vector<int> findErrorNums(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

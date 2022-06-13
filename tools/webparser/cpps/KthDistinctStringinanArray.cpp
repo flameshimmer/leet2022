@@ -40,12 +40,11 @@ namespace Solution2022
 {
 	namespace KthDistinctStringinanArray
 	{
-/*
-	    string kthDistinct(vector<string>& arr, int k) {
-	        
-	    }
 
-*/
+	//    string kthDistinct(vector<string>& arr, int k) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

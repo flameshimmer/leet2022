@@ -40,12 +40,11 @@ namespace Solution2022
 {
 	namespace WordLadder
 	{
-/*
-	    int ladderLength(string beginWord, string endWord, vector<string>& wordList) {
-	        
-	    }
 
-*/
+	//    int ladderLength(string beginWord, string endWord, vector<string>& wordList) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

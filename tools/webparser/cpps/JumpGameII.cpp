@@ -25,12 +25,11 @@ namespace Solution2022
 {
 	namespace JumpGameII
 	{
-/*
-	    int jump(vector<int>& nums) {
-	        
-	    }
 
-*/
+	//    int jump(vector<int>& nums) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

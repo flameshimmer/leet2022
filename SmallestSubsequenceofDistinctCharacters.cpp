@@ -24,12 +24,11 @@ namespace Solution2022
 {
 	namespace SmallestSubsequenceofDistinctCharacters
 	{
-/*
-	    string smallestSubsequence(string s) {
-	        
-	    }
 
-*/
+	//    string smallestSubsequence(string s) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

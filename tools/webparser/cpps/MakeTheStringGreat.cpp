@@ -40,12 +40,11 @@ namespace Solution2022
 {
 	namespace MakeTheStringGreat
 	{
-/*
-	    string makeGood(string s) {
-	        
-	    }
 
-*/
+	//    string makeGood(string s) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";

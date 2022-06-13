@@ -20,12 +20,11 @@ namespace Solution2022
 {
 	namespace SumofSquareNumbers
 	{
-/*
-	    bool judgeSquareSum(int c) {
-	        
-	    }
 
-*/
+	//    bool judgeSquareSum(int c) {
+	//        
+	//    }
+
 
 		void Main() {
 			string test = "tst test test";
