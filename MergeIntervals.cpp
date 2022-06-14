@@ -24,13 +24,27 @@ namespace Solution2022
 {
 	namespace MergeIntervals
 	{
-	    vector<vector<int>> merge(vector<vector<int>>& intervals) {
-	        
-	    }
+
+		vector<vector<int>> merge(vector<vector<int>>& intervals) {
+			vector<vector<int>> result;
+
+			auto comp = [](vector<int>& a, vector<int>& b) {return a[0] < b[0]; };
+			sort(intervals.begin(), intervals.end(), comp);
+
+			for (vector<int>& cur : intervals) {
+				if (result.empty() || result.back()[1] < cur[0]) {
+					result.push_back(cur);
+				}
+				else {
+					result.back()[1] = max(result.back()[1], cur[1]);
+				}
+			}
+			return result;
+		}
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			vector<vector<int>> test = { {1,3},{2,6},{8,10},{15,18} };
+			print(merge(test));
 		}
 	}
 }

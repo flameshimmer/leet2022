@@ -5,27 +5,6 @@ use File::Basename;
 use JSON;
  
 
-my $dirname = 'problems';
-opendir(DIR, $dirname) or die "Could not open $dirname\n";
-
-
-my @jsons = ();
-while (my $filename = readdir(DIR)) {
-  if ($filename !~ m/data_/) {next;}
-  my $path = $dirname . '/' . $filename;
-  print "$path\n";
-  open IN, "<$path" or die;
-  my $content = <IN>;
-  close IN;
-  my $json = decode_json($content);
-  push(@jsons, $json);
-		# my $title = $json->{"title"};
-		# my $desc = $json->{"description"};
-	 #    # print "$title\n";
-}
-
-
-
 my $template="#include \"stdafx.h\"
 \$\$DESC\$\$
 
@@ -42,10 +21,32 @@ namespace Solution2022
 }
 ";
 
+my $dirname = 'problems';
+opendir(DIR, $dirname) or die "Could not open $dirname\n";
 open OUT1, ">./out1" or die;
 open OUT2, ">./out2" or die;
-for my $json (@jsons)
+
+my @paths = ();
+while (my $filename = readdir(DIR)) {
+  if ($filename !~ m/data_/) {next;}
+  my $path = $dirname . '/' . $filename;
+
+  push(@paths, $path);
+}
+
+my $pathSize = @paths;
+
+
+for (my $i = 0; $i<$pathSize; $i++)
 {
+		my $path = $dirname . '/' . "data_mostFrequent_" . $i;
+	  open IN, "<$path" or die;
+	  my $content = <IN>;
+	  close IN;
+
+	  print "$path\n";
+	  my $json = decode_json($content);
+
 		my $title = $json->{"title"};
 		if ($title !~ m/\d+\.\s*(.+)/) {next;}
 		$title = $1;

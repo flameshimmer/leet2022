@@ -33,13 +33,31 @@ namespace Solution2022
 {
 	namespace MinimumRemovetoMakeValidParentheses
 	{
-	    string minRemoveToMakeValid(string s) {
-	        
-	    }
+	    string minRemoveToMakeValid(string str) {
+			int len = str.size();
+			if (len == 0) { return str; }
+
+			string result = str;
+			stack<int> s;
+
+			for (int i = 0; i < len; i++) {
+				if (str[i] == '(') { s.push(i); }
+				else if (str[i] == ')') {
+					if (s.empty()) { result[i] = '*'; }
+					else { s.pop(); }
+				}
+			}
+			while (!s.empty()) {
+				result[s.top()] = '*';
+				s.pop();
+			}
+			result.erase(remove(result.begin(), result.end(), '*'), result.end());
+			return result;
+		}
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			print(minRemoveToMakeValid("))(("));
+			//print(minRemoveToMakeValid("lee(t(c)o)de)"));
 		}
 	}
 }
