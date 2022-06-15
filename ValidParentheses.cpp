@@ -27,9 +27,31 @@ namespace Solution2022
 {
 	namespace ValidParentheses
 	{
-	    bool isValid(string s) {
-	        
-	    }
+		bool matches(char a, char b) {
+			if (a == '(') { return b == ')'; }
+			else if (a == '[') { return b == ']'; }
+			else if (a == '{') { return b == '}'; }
+			else { return false; }
+		}
+
+		bool isValid(string str) {
+			int len = str.size();
+			if (len == 0) { return true; }
+
+			stack<char> s;
+			for (char c : str) {
+				if (c == '(' || c == '[' || c == '{') {
+					s.push(c);
+				}
+				else if (s.empty() || !matches(s.top(), c)) {
+					return false;
+				}
+				else {
+					s.pop();
+				}
+			}
+			return s.empty();
+		}
 
 		void Main() {
 			string test = "tst test test";

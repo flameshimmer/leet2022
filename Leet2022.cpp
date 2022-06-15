@@ -74,18 +74,19 @@ int _tmain(int argc, _TCHAR* argv[])
 	//6/14/2022
 	//Solution2022::MergeIntervals::Main();
 	//Solution2022::NumberofIslands::Main();
-	Solution2022::MinimumRemovetoMakeValidParentheses::Main();
+	//Solution2022::MinimumRemovetoMakeValidParentheses::Main();
 
+	//6/15/2022
+	//Solution2022::TrappingRainWater::Main();
+	//Solution2022::ValidParentheses::Main();
+	//Solution2022::LowestCommonAncestorofaBinaryTreeIII::Main();
 
 	//---------------------------------------
 	//Solution2022::MedianofTwoSortedArrays::Main();
-	//Solution2022::TrappingRainWater::Main();
-	//Solution2022::ValidParentheses::Main();
 	//Solution2022::DesignInMemoryFileSystem::Main();
 	//Solution2022::TextJustification::Main();
 	//Solution2022::ValidPalindromeII::Main();
 	//Solution2022::BestTimetoBuyandSellStock::Main();
-	//Solution2022::LowestCommonAncestorofaBinaryTreeIII::Main();
 	//Solution2022::AddTwoNumbers::Main();
 	//Solution2022::RandomPickwithWeight::Main();
 	//Solution2022::BinaryTreeVerticalOrderTraversal::Main();
