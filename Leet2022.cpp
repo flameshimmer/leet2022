@@ -81,15 +81,19 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::ValidParentheses::Main();
 	//Solution2022::LowestCommonAncestorofaBinaryTreeIII::Main();
 
+
+	//6/16/2022
+	//Solution2022::BinaryTreeVerticalOrderTraversal::Main();
+	//Solution2022::SubarraySumEqualsK::Main();
+	Solution2022::ValidPalindromeII::Main();
 	//---------------------------------------
 	//Solution2022::MedianofTwoSortedArrays::Main();
+
 	//Solution2022::DesignInMemoryFileSystem::Main();
 	//Solution2022::TextJustification::Main();
-	//Solution2022::ValidPalindromeII::Main();
 	//Solution2022::BestTimetoBuyandSellStock::Main();
 	//Solution2022::AddTwoNumbers::Main();
 	//Solution2022::RandomPickwithWeight::Main();
-	//Solution2022::BinaryTreeVerticalOrderTraversal::Main();
 	//Solution2022::MaximumSubarray::Main();
 	//Solution2022::BuildingsWithanOceanView::Main();
 	//Solution2022::InsertDeleteGetRandomO::Main();
@@ -99,7 +103,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::NestedListWeightSum::Main();
 	//Solution2022::MeetingRoomsII::Main();
 	//Solution2022::SubdomainVisitCount::Main();
-	//Solution2022::SubarraySumEqualsK::Main();
 	//Solution2022::LongestPalindromicSubstring::Main();
 	//Solution2022::DecodeString::Main();
 	//Solution2022::ReconstructOriginalDigitsfromEnglish::Main();

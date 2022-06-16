@@ -26,20 +26,47 @@ namespace Solution2022
 {
 	namespace BinaryTreeVerticalOrderTraversal
 	{
-	/**
-	 * Definition for a binary tree node.
-	 * struct TreeNode {
-	 *     int val;
-	 *     TreeNode *left;
-	 *     TreeNode *right;
-	 *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
-	 *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
-	 *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
-	 * };
-	 */
-	    vector<vector<int>> verticalOrder(TreeNode* root) {
-	        
-	    }
+		/**
+		 * Definition for a binary tree node.
+		 * struct TreeNode {
+		 *     int val;
+		 *     TreeNode *left;
+		 *     TreeNode *right;
+		 *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+		 *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+		 *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+		 * };
+		 */
+
+
+		vector<vector<int>> verticalOrder(TreeNode* root) {
+			vector<vector<int>> result;
+
+			if (!root) { return result; }
+
+			queue<pair<TreeNode*, int>> q;
+			q.push({ root, root->val });
+			map<int, vector<int>> map;
+
+			while (!q.empty()) {
+				TreeNode* top = q.front().first;
+				int v = q.front().second;
+				q.pop();
+
+				map[v].push_back(top->val);
+				if (top->left) {
+					q.push({ top->left, v - 1 });
+				}
+				if (top->right) {
+					q.push({ top->right, v + 1 });
+				}
+			}
+
+			for (const auto& v : map) {
+				result.push_back(v.second);
+			}
+			return result;
+		}
 
 		void Main() {
 			string test = "tst test test";

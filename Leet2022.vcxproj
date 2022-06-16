@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -152,6 +152,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BinarySearch.cpp" />
+    <ClCompile Include="BinaryTreeVerticalOrderTraversal.cpp" />
     <ClCompile Include="ClimbingStairs.cpp" />
     <ClCompile Include="Combinations.cpp" />
     <ClCompile Include="FirstBadVersion.cpp" />
@@ -162,6 +163,7 @@
     <ClCompile Include="LetterCasePermutation.cpp" />
     <ClCompile Include="ListNode.cpp" />
     <ClCompile Include="LongestSubstringWithoutRepeatingCharacters.cpp" />
+    <ClCompile Include="LowestCommonAncestorofaBinaryTreeIII.cpp" />
     <ClCompile Include="LRUCache.cpp" />
     <ClCompile Include="MaxAreaofIsland.cpp" />
     <ClCompile Include="MergeIntervals.cpp" />
@@ -188,12 +190,15 @@
     <ClCompile Include="SingleNumber.cpp" />
     <ClCompile Include="SquaresofaSortedArray.cpp" />
     <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="SubarraySumEqualsK.cpp" />
     <ClCompile Include="Test.cpp" />
     <ClCompile Include="TrappingRainWater.cpp" />
     <ClCompile Include="TreeHelpers.cpp" />
     <ClCompile Include="Triangle.cpp" />
     <ClCompile Include="TwoSum.cpp" />
     <ClCompile Include="TwoSumIIInputArrayIsSorted.cpp" />
+    <ClCompile Include="ValidPalindromeII.cpp" />
+    <ClCompile Include="ValidParentheses.cpp" />
     <ClCompile Include="ZeroOneMatrix.cpp" />
   </ItemGroup>
   <ItemGroup>

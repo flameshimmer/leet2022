@@ -153,6 +153,21 @@
     <ClCompile Include="TrappingRainWater.cpp">
       <Filter>Solution2022</Filter>
     </ClCompile>
+    <ClCompile Include="LowestCommonAncestorofaBinaryTreeIII.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ValidParentheses.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryTreeVerticalOrderTraversal.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="SubarraySumEqualsK.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="ValidPalindromeII.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Solution2022.h">

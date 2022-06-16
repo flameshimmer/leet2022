@@ -44,51 +44,53 @@ namespace Solution2022
 
 		// Definition for a Node.
 		class Node {
+		public:
 			int val;
 			Node* left;
 			Node* right;
 			Node* parent;
+		};
 
-			Node* lowestCommonAncestor(Node* p, Node* q) {
-				if (!p || !q) { return p ? p : q; }
+		Node* lowestCommonAncestor(Node* p, Node* q) {
+			if (!p || !q) { return p ? p : q; }
 
-				int dp = 0;
-				Node* a = p;
-				while (a) { dp++; a = a->parent; }
+			int dp = 0;
+			Node* a = p;
+			while (a) { dp++; a = a->parent; }
 
-				int dq = 0;
-				Node* b = q;
-				while (b) { dq++; b = b->parent; }
+			int dq = 0;
+			Node* b = q;
+			while (b) { dq++; b = b->parent; }
 
-				Node* deeper = dp > dq ? p : q;
-				Node* shallower = dp > dq ? q : p;
-				int diff = abs(dp - dq);
+			Node* deeper = dp > dq ? p : q;
+			Node* shallower = dp > dq ? q : p;
+			int diff = abs(dp - dq);
 
-				while (diff) {
-					deeper = deeper->parent;
-					diff--;
-				}
-				while (shallower != deeper) {
-					shallower = shallower->parent;
-					deeper = deeper->parent;
-				}
-				return deeper;
+			while (diff) {
+				deeper = deeper->parent;
+				diff--;
 			}
-
-
-			Node* lowestCommonAncestorLoop(Node* p, Node* q) {
-				Node* a = p;
-				Node* b = q;
-				while (a != b) {
-					a = a ? a->parent : q;
-					b = b ? b->parent : p;
-				}
-				return a;
+			while (shallower != deeper) {
+				shallower = shallower->parent;
+				deeper = deeper->parent;
 			}
+			return deeper;
+		}
 
-			void Main() {
-				string test = "tst test test";
-				print(test);
+
+		Node* lowestCommonAncestorLoop(Node* p, Node* q) {
+			Node* a = p;
+			Node* b = q;
+			while (a != b) {
+				a = a ? a->parent : q;
+				b = b ? b->parent : p;
 			}
+			return a;
+		}
+
+		void Main() {
+			string test = "tst test test";
+			print(test);
 		}
 	}
+}

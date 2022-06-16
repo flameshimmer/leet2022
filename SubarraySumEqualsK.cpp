@@ -23,12 +23,25 @@ namespace Solution2022
 	namespace SubarraySumEqualsK
 	{
 	    int subarraySum(vector<int>& nums, int k) {
-	        
+			unordered_map<int, int> map;
+			int curSum = 0;
+			int result = 0;
+			map[0] = 1;
+
+			for (int v : nums) {
+				curSum += v;
+				int toBeFound = curSum - k;
+				if (map.find(toBeFound) != map.end()) {
+					result += map[toBeFound];
+				}
+				map[curSum] ++;
+			}
+			return result;
 	    }
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			vector<int> test = { 1,2,3 };
+			print(subarraySum(test, 3));
 		}
 	}
 }
