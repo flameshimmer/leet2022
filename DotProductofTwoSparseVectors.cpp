@@ -35,21 +35,54 @@ namespace Solution2022
 {
 	namespace DotProductofTwoSparseVectors
 	{
-	class SparseVector {
-	    
-	    SparseVector(vector<int> &nums) {
-	        
-	    }
-	    
-	    // Return the dotProduct of two sparse vectors
-	    int dotProduct(SparseVector& vec) {
-	        
-	    }
-	​
-	// Your SparseVector object will be instantiated and called as such:
-	// SparseVector v1(nums1);
-	// SparseVector v2(nums2);
-	// int ans = v1.dotProduct(v2);
+		class SparseVector {
+		public:
+			SparseVector(vector<int>& nums) {
+				int len = nums.size();
+				for (int i = 0; i < len; i++) {
+					if (nums[i] == 0) { continue; }
+					map[i] = nums[i];
+				}
+			}
+
+			// Return the dotProduct of two sparse vectors
+			int dotProduct(SparseVector& vec) {
+				int result = 0;
+				for (const auto& [key, value] : vec.map) {
+					if (map[key] == 0) { continue; }
+					result += map[key] * value;
+				}
+				return result;
+			}
+			unordered_map<int, int> map;
+		};
+
+		class SparseVectorIndexForwarding {
+		public:
+			vector<pair<int, int>> v; // {index, value}
+			SparseVectorIndexForwarding(vector<int>& nums) {
+				for (int i = 0; i < nums.size(); i++) {
+					if (nums[i] == 0) { continue; }
+					v.push_back({ i, nums[i] });
+				}
+			}
+
+			// Return the dotProduct of two sparse vectors
+			int dotProduct(SparseVectorIndexForwarding& vec) {
+				int result = 0;
+				for (int i = 0, j = 0; i < v.size() && j < vec.v.size();) {
+					if (v[i].first < vec.v[j].first) { i++; }
+					else if (v[i].first > vec.v[j].first) { j++; }
+					else { result += v[i].second * vec.v[j].second; i++; j++; }
+				}
+				return result;
+			}
+
+		};
+		// Your SparseVector object will be instantiated and called as such:
+		// SparseVector v1(nums1);
+		// SparseVector v2(nums2);
+		// int ans = v1.dotProduct(v2);
 
 		void Main() {
 			string test = "tst test test";

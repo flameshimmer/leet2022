@@ -85,21 +85,23 @@ int _tmain(int argc, _TCHAR* argv[])
 	//6/16/2022
 	//Solution2022::BinaryTreeVerticalOrderTraversal::Main();
 	//Solution2022::SubarraySumEqualsK::Main();
-	Solution2022::ValidPalindromeII::Main();
+	//Solution2022::ValidPalindromeII::Main();
+	
+	//6/17/2022
+	//Solution2022::BuildingsWithanOceanView::Main();
+	//Solution2022::DotProductofTwoSparseVectors::Main();
+	//Solution2022::DesignInMemoryFileSystem::Main();
+
 	//---------------------------------------
 	//Solution2022::MedianofTwoSortedArrays::Main();
-
-	//Solution2022::DesignInMemoryFileSystem::Main();
 	//Solution2022::TextJustification::Main();
 	//Solution2022::BestTimetoBuyandSellStock::Main();
 	//Solution2022::AddTwoNumbers::Main();
 	//Solution2022::RandomPickwithWeight::Main();
 	//Solution2022::MaximumSubarray::Main();
-	//Solution2022::BuildingsWithanOceanView::Main();
 	//Solution2022::InsertDeleteGetRandomO::Main();
 	//Solution2022::BasicCalculatorII::Main();
 	//Solution2022::SimplifyPath::Main();
-	//Solution2022::DotProductofTwoSparseVectors::Main();
 	//Solution2022::NestedListWeightSum::Main();
 	//Solution2022::MeetingRoomsII::Main();
 	//Solution2022::SubdomainVisitCount::Main();

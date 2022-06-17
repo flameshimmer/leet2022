@@ -168,6 +168,18 @@
     <ClCompile Include="ValidPalindromeII.cpp">
       <Filter>Solution2022</Filter>
     </ClCompile>
+    <ClCompile Include="BuildingsWithanOceanView.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="DotProductofTwoSparseVectors.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="DesignInMemoryFileSystem.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="DesignFileSystem.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Solution2022.h">

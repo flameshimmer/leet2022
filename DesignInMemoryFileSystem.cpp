@@ -49,35 +49,94 @@ namespace Solution2022
 {
 	namespace DesignInMemoryFileSystem
 	{
-	class FileSystem {
-	    FileSystem() {
-	        
-	    }
-	    
-	    vector<string> ls(string path) {
-	        
-	    }
-	    
-	    void mkdir(string path) {
-	        
-	    }
-	    
-	    void addContentToFile(string filePath, string content) {
-	        
-	    }
-	    
-	    string readContentFromFile(string filePath) {
-	        
-	    }
-	​
-	/**
-	 * Your FileSystem object will be instantiated and called as such:
-	 * FileSystem* obj = new FileSystem();
-	 * vector<string> param_1 = obj->ls(path);
-	 * obj->mkdir(path);
-	 * obj->addContentToFile(filePath,content);
-	 * string param_4 = obj->readContentFromFile(filePath);
-	 */
+		class FileSystem {
+		private:
+			class Node {
+			public:
+				bool isFile;
+				unordered_map<string, Node*> children;
+				string content;
+				Node() :isFile(false), content("") {}
+			};
+
+			vector<string> getStrs(string s) {
+				vector<string> result;
+				
+				istringstream ss(s);
+				string cur;
+				while (getline(ss, cur, '/')) {
+					if (!cur.empty()) {
+						result.push_back(cur);
+					}
+				}
+				return result;
+			}
+
+			Node* root;
+		public:
+	
+			FileSystem() {
+				root = new Node();
+			}
+
+			vector<string> ls(string path) {				
+				Node* cur = root;
+				vector<string> strs = getStrs(path);				
+				for (string& s : strs) {
+					cur = cur->children[s];
+				}
+				if (cur->isFile) { return { strs.back() }; }
+
+				vector<string> result;
+				for (auto& p : cur->children) {
+					result.push_back(p.first);
+				}
+				sort(result.begin(), result.end());
+				return result;
+			}
+
+			void mkdir(string path) {
+				vector<string> strs = getStrs(path);
+				Node* cur = root;
+				for (string& s : strs) {
+					if (cur->children.find(s) == cur->children.end()) {
+						cur->children[s] = new Node();
+					}
+					cur = cur->children[s];
+				}
+			}
+
+			void addContentToFile(string filePath, string content) {
+				vector<string> strs = getStrs(filePath);
+				Node* cur = root;
+				for (string& s : strs) {
+					if (cur->children.find(s) == cur->children.end()) {
+						cur->children[s] = new Node();
+					}
+					cur = cur->children[s];
+				}
+				cur->isFile = true;
+				cur->content += content;
+			}
+
+			string readContentFromFile(string filePath) {
+				vector<string> strs = getStrs(filePath);
+				Node* cur = root;
+				for (string& s : strs) {
+					cur = cur->children[s];
+				}
+				return cur->content;
+			}
+		};
+
+		/**
+		 * Your FileSystem object will be instantiated and called as such:
+		 * FileSystem* obj = new FileSystem();
+		 * vector<string> param_1 = obj->ls(path);
+		 * obj->mkdir(path);
+		 * obj->addContentToFile(filePath,content);
+		 * string param_4 = obj->readContentFromFile(filePath);
+		 */
 
 		void Main() {
 			string test = "tst test test";

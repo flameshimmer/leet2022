@@ -34,12 +34,39 @@ namespace Solution2022
 	namespace BuildingsWithanOceanView
 	{
 	    vector<int> findBuildings(vector<int>& heights) {
-	        
+			vector<int> result;
+			int len = heights.size();
+			if (len == 0) { return result; }
+
+			int maxR = 0;
+			for(int i = len - 1; i >= 0; i--) {
+				if (heights[i] > maxR) {
+					result.push_back(i);
+					maxR = heights[i];
+				}			
+			}
+			reverse(result.begin(), result.end());
+			return result;
 	    }
 
+		vector<int> findBuildingsWithStackLikeOperation(vector<int>& heights) {
+			vector<int> result;
+			int len = heights.size();
+			if (len == 0) { return result; }
+
+			for (int i = 0; i < len; i++) {
+				while (!result.empty() && heights[result.back()] <= heights[i]) { // note it is <= instead of <
+					result.pop_back();
+				}
+				result.push_back(i);
+			}
+			return result;
+		}
+
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			vector<int> test = { 1,3,2,4 };
+
+			print(findBuildings(test));
 		}
 	}
 }
