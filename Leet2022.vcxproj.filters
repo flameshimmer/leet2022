@@ -183,6 +183,15 @@
     <ClCompile Include="RandomPickwithWeight.cpp">
       <Filter>Solution2022</Filter>
     </ClCompile>
+    <ClCompile Include="ReconstructOriginalDigitsfromEnglish.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="TextJustification.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="BestTimetoBuyandSellStock.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Solution2022.h">

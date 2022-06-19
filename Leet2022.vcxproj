@@ -152,6 +152,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BestTimetoBuyandSellStock.cpp" />
     <ClCompile Include="BinarySearch.cpp" />
     <ClCompile Include="BinaryTreeVerticalOrderTraversal.cpp" />
     <ClCompile Include="BuildingsWithanOceanView.cpp" />
@@ -184,6 +185,7 @@
     <ClCompile Include="PopulatingNextRightPointersinEachNode.cpp" />
     <ClCompile Include="PowerofTwo.cpp" />
     <ClCompile Include="RandomPickwithWeight.cpp" />
+    <ClCompile Include="ReconstructOriginalDigitsfromEnglish.cpp" />
     <ClCompile Include="RemoveNthNodeFromEndofList.cpp" />
     <ClCompile Include="ReverseBits.cpp" />
     <ClCompile Include="ReverseLinkedList.cpp" />
@@ -198,6 +200,7 @@
     <ClCompile Include="stdafx.cpp" />
     <ClCompile Include="SubarraySumEqualsK.cpp" />
     <ClCompile Include="Test.cpp" />
+    <ClCompile Include="TextJustification.cpp" />
     <ClCompile Include="TrappingRainWater.cpp" />
     <ClCompile Include="TreeHelpers.cpp" />
     <ClCompile Include="Triangle.cpp" />

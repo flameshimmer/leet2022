@@ -44,23 +44,39 @@ namespace Solution2022
 {
 	namespace InsertDeleteGetRandomO
 	{
-	class RandomizedSet {
-	    RandomizedSet() {
-	        
-	    }
-	    
-	    bool insert(int val) {
-	        
-	    }
-	    
-	    bool remove(int val) {
-	        
-	    }
-	    
-	    int getRandom() {
-	        
-	    }
-	​
+		class RandomizedSet {
+		private:
+			unordered_map<int, int> map;
+			vector<int> v;
+		public:
+			RandomizedSet() {
+
+			}
+
+			bool insert(int val) {
+				if (map.find(val) != map.end()) { return false; }
+				v.push_back(val);
+				map[val] = v.size() - 1;
+				return true;
+			}
+
+			bool remove(int val) {
+				if (map.find(val) == map.end()) { return false; }
+				
+				int targetIndex = map[val];
+				map[v.back()] = targetIndex;
+				swap(v[targetIndex], v.back());
+				map.erase(val);
+				v.pop_back();
+
+				return true;
+			}
+
+			int getRandom() {
+				return v[rand() % v.size()];
+			}
+		};
+
 	/**
 	 * Your RandomizedSet object will be instantiated and called as such:
 	 * RandomizedSet* obj = new RandomizedSet();

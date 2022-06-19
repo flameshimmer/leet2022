@@ -95,15 +95,16 @@ int _tmain(int argc, _TCHAR* argv[])
 	//6/18/2022	
 	//Solution2022::RandomPickwithWeight::Main();
 	//Solution2022::ReconstructOriginalDigitsfromEnglish::Main();
-	Solution2022::TextJustification::Main();
+	//Solution2022::TextJustification::Main();
+
+	//6/19/2022
+	//Solution2022::BestTimetoBuyandSellStock::Main();
+	//Solution2022::InsertDeleteGetRandomO::Main();
+	//Solution2022::MaximumSubarray::Main();
 
 	//---------------------------------------
-	//Solution2022::MedianofTwoSortedArrays::Main();
-	
-	//Solution2022::BestTimetoBuyandSellStock::Main();
+	//Solution2022::MedianofTwoSortedArrays::Main();	
 	//Solution2022::AddTwoNumbers::Main();
-	//Solution2022::MaximumSubarray::Main();
-	//Solution2022::InsertDeleteGetRandomO::Main();
 	//Solution2022::BasicCalculatorII::Main();
 	//Solution2022::SimplifyPath::Main();
 	//Solution2022::NestedListWeightSum::Main();

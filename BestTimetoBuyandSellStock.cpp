@@ -31,12 +31,21 @@ namespace Solution2022
 	namespace BestTimetoBuyandSellStock
 	{
 	    int maxProfit(vector<int>& prices) {
-	        
+			int len = prices.size();
+			if (len < 2) { return 0; }
+
+			vector<int>maxRight(len, 0);
+			int result = 0;
+			for (int i = len - 2; i >= 0; i--) {
+				maxRight[i] = max(maxRight[i + 1], prices[i + 1]);
+				result = max(result, maxRight[i] - prices[i]);
+			}
+			return result;
 	    }
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			vector<int> test = { 7,1,5,3,6,4 };
+			print(maxProfit(test));
 		}
 	}
 }
