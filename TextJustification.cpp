@@ -68,9 +68,31 @@ namespace Solution2022
 {
 	namespace TextJustification
 	{
-	    vector<string> fullJustify(vector<string>& words, int maxWidth) {
-	        
-	    }
+		vector<string> fullJustify(vector<string>& words, int maxWidth) {
+			vector<string> result;
+			int len = words.size();
+			int k = 0;
+
+			for (int i = 0; i < len; i += k) {
+				int curWidth = 0;
+				for (k = 0; i + k < len && curWidth + words[i + k].size() <= maxWidth - k; k++) {
+					curWidth += words[i + k].size();
+				}
+				
+				string line = words[i];
+				for (int j = 0; j < k - 1; j++) {
+					if (i + k >= len) { line += " "; }
+					else {
+						int spaceLen = (maxWidth - curWidth) / (k - 1) + (j < (maxWidth - curWidth) % (k - 1));
+						line += string(spaceLen, ' ');
+					}
+					line += words[i + 1 + j];
+				}
+				line += string(maxWidth - line.size(), ' ');
+				result.push_back(line);
+			}
+			return result;
+		}
 
 		void Main() {
 			string test = "tst test test";

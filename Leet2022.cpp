@@ -92,12 +92,16 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::DotProductofTwoSparseVectors::Main();
 	//Solution2022::DesignInMemoryFileSystem::Main();
 
+	//6/18/2022	
+	//Solution2022::RandomPickwithWeight::Main();
+	//Solution2022::ReconstructOriginalDigitsfromEnglish::Main();
+	Solution2022::TextJustification::Main();
+
 	//---------------------------------------
 	//Solution2022::MedianofTwoSortedArrays::Main();
-	//Solution2022::TextJustification::Main();
+	
 	//Solution2022::BestTimetoBuyandSellStock::Main();
 	//Solution2022::AddTwoNumbers::Main();
-	//Solution2022::RandomPickwithWeight::Main();
 	//Solution2022::MaximumSubarray::Main();
 	//Solution2022::InsertDeleteGetRandomO::Main();
 	//Solution2022::BasicCalculatorII::Main();
@@ -107,7 +111,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::SubdomainVisitCount::Main();
 	//Solution2022::LongestPalindromicSubstring::Main();
 	//Solution2022::DecodeString::Main();
-	//Solution2022::ReconstructOriginalDigitsfromEnglish::Main();
 	//Solution2022::ThreeSum::Main();
 	//Solution2022::NextPermutation::Main();
 	//Solution2022::LongestCommonPrefix::Main();

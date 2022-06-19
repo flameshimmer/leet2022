@@ -23,7 +23,6 @@ void print(int input[], int len)
 void print(unordered_set<string> set)
 {
 	cout << "\nSet: \n";
-	int len = set.size();
 	for (string s : set)
 	{
 		cout << s << "\n";

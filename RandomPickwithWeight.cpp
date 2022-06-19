@@ -55,23 +55,37 @@ namespace Solution2022
 {
 	namespace RandomPickwithWeight
 	{
-	    Solution(vector<int>& w) {
-	        
-	    }
-	    
-	    int pickIndex() {
-	        
-	    }
-	​
-	/**
-	 * Your Solution object will be instantiated and called as such:
-	 * Solution* obj = new Solution(w);
-	 * int param_1 = obj->pickIndex();
-	 */
+
+		class Solution {
+		private:
+			vector<int> range;
+		public:
+			Solution(vector<int>& w) {
+				int sum = 0;
+				for (int v : w) {
+					sum += v;
+					range.push_back(sum);
+				}
+			}
+
+			int pickIndex() {
+				int rv = rand() % range.back();
+				auto it = upper_bound(range.begin(), range.end(), rv);
+				return it - range.begin();
+			}
+		};
+
+
+		/**
+		 * Your Solution object will be instantiated and called as such:
+		 * Solution* obj = new Solution(w);
+		 * int param_1 = obj->pickIndex();
+		 */
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			vector<int> test = { 1, 3 };
+			Solution* obj = new Solution(test);
+			print(obj->pickIndex());
 		}
 	}
 }

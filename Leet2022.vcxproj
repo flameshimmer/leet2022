@@ -183,6 +183,7 @@
     <ClCompile Include="Permutations.cpp" />
     <ClCompile Include="PopulatingNextRightPointersinEachNode.cpp" />
     <ClCompile Include="PowerofTwo.cpp" />
+    <ClCompile Include="RandomPickwithWeight.cpp" />
     <ClCompile Include="RemoveNthNodeFromEndofList.cpp" />
     <ClCompile Include="ReverseBits.cpp" />
     <ClCompile Include="ReverseLinkedList.cpp" />
