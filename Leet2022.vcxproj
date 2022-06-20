@@ -152,6 +152,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AddTwoNumbers.cpp" />
     <ClCompile Include="BestTimetoBuyandSellStock.cpp" />
     <ClCompile Include="BinarySearch.cpp" />
     <ClCompile Include="BinaryTreeVerticalOrderTraversal.cpp" />
@@ -165,6 +166,7 @@
     <ClCompile Include="FloodFill.cpp" />
     <ClCompile Include="Helpers.cpp" />
     <ClCompile Include="HouseRobber.cpp" />
+    <ClCompile Include="InsertDeleteGetRandomO.cpp" />
     <ClCompile Include="Leet2022.cpp" />
     <ClCompile Include="LetterCasePermutation.cpp" />
     <ClCompile Include="ListNode.cpp" />
@@ -172,6 +174,7 @@
     <ClCompile Include="LowestCommonAncestorofaBinaryTreeIII.cpp" />
     <ClCompile Include="LRUCache.cpp" />
     <ClCompile Include="MaxAreaofIsland.cpp" />
+    <ClCompile Include="MaximumSubarray.cpp" />
     <ClCompile Include="MergeIntervals.cpp" />
     <ClCompile Include="MergeTwoBinaryTrees.cpp" />
     <ClCompile Include="MergeTwoSortedLists.cpp" />
@@ -199,6 +202,7 @@
     <ClCompile Include="SquaresofaSortedArray.cpp" />
     <ClCompile Include="stdafx.cpp" />
     <ClCompile Include="SubarraySumEqualsK.cpp" />
+    <ClCompile Include="SubdomainVisitCount.cpp" />
     <ClCompile Include="Test.cpp" />
     <ClCompile Include="TextJustification.cpp" />
     <ClCompile Include="TrappingRainWater.cpp" />

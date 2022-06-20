@@ -36,7 +36,27 @@ namespace Solution2022
 	namespace BasicCalculatorII
 	{
 	    int calculate(string s) {
-	        
+			istringstream in(s + '+');
+			long long lastOp = 0;
+			long long nextOp = 0;
+			long long sign = 1;
+			char op;
+			int result = 0;
+
+			in >> lastOp;
+			while (in >> op) {
+				if (op == '+' || op == '-') {
+					result += sign * lastOp;
+					sign = (op == '+') ? 1 : -1;
+					in >> lastOp;
+				}
+				else {
+					in >> nextOp;
+					if (op == '*') { lastOp *= nextOp; }
+					else if (op == '/') { lastOp /= nextOp; }				
+				}			
+			}
+			return result;
 	    }
 
 		void Main() {

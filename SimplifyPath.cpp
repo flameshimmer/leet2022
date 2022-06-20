@@ -45,7 +45,23 @@ namespace Solution2022
 	namespace SimplifyPath
 	{
 	    string simplifyPath(string path) {
-	        
+			int len = path.size();
+			if (len == 0) { return "/"; }
+
+			istringstream ss(path);
+			string cur;
+			vector<string> s;
+			while (getline(ss, cur, '/')) {
+				if (cur.empty() || cur == ".") { continue; }
+				if (cur == "..") { if (!s.empty()) { s.pop_back(); } }
+				else { s.push_back(cur); }
+			}
+
+			string result = "";
+			for (string& str : s) {
+				result += "/" + str;
+			}
+			return result.empty() ? "/" : result;
 	    }
 
 		void Main() {

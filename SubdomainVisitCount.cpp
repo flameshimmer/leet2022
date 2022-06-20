@@ -44,13 +44,31 @@ namespace Solution2022
 {
 	namespace SubdomainVisitCount
 	{
-	    vector<string> subdomainVisits(vector<string>& cpdomains) {
-	        
-	    }
+		vector<string> subdomainVisits(vector<string>& cpdomains) {
+			vector<string> result;
+			unordered_map<string, int> map;
+
+			for (string& s : cpdomains) {
+				auto it = s.find(' ');
+				int count = stoi(s.substr(0, it));
+				s = s.substr(it + 1);
+				map[s] += count;
+				for (int i = 0; i < s.size(); i++) {
+					if (s[i] == '.') {
+						map[s.substr(i + 1)] += count;
+					}
+				}			
+			}
+
+			for (const auto& [key, val] : map) {
+				result.push_back(to_string(val) + " " + key);
+			}
+			return result;
+		}
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			vector<string> test = { "9001 discuss.leetcode.com"};
+			print(subdomainVisits(test));
 		}
 	}
 }

@@ -102,14 +102,17 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::InsertDeleteGetRandomO::Main();
 	//Solution2022::MaximumSubarray::Main();
 
+	//6/20/2022
+	//Solution2022::AddTwoNumbers::Main();
+	//Solution2022::SubdomainVisitCount::Main();
+	//Solution2022::NestedListWeightSum::Main();
+	//Solution2022::SimplifyPath::Main();
+	//Solution2022::BasicCalculatorII::Main();
+
+
 	//---------------------------------------
 	//Solution2022::MedianofTwoSortedArrays::Main();	
-	//Solution2022::AddTwoNumbers::Main();
-	//Solution2022::BasicCalculatorII::Main();
-	//Solution2022::SimplifyPath::Main();
-	//Solution2022::NestedListWeightSum::Main();
 	//Solution2022::MeetingRoomsII::Main();
-	//Solution2022::SubdomainVisitCount::Main();
 	//Solution2022::LongestPalindromicSubstring::Main();
 	//Solution2022::DecodeString::Main();
 	//Solution2022::ThreeSum::Main();

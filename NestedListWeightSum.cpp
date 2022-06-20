@@ -62,9 +62,53 @@ namespace Solution2022
 	 *     const vector<NestedInteger> &getList() const;
 	 * };
 	 */
-	    int depthSum(vector<NestedInteger>& nestedList) {
-	        
-	    }
+
+/*
+		class NestedInteger;
+
+		void helper(vector<NestedInteger>& nestedList, int level, int& result) {
+			for (NestedInteger& ni : nestedList) {
+				if (ni.isInteger()) { result += level * ni.getInteger(); }
+				else {
+					helper(ni.getList(), level + 1, result);				
+				}
+			}				
+		}
+
+		int depthSum(vector<NestedInteger>& nestedList) {
+			int result = 0;
+			helper(nestedList, 1, result);
+			return result;
+		}
+
+
+
+		int depthSumIterative(vector<NestedInteger>& nestedList) {
+			int result = 0;
+
+			queue<NestedInteger> q;
+			for (const auto& ni : nestedList) {
+				q.push(ni);
+			}
+			
+			int level = 1;
+			while (!q.empty()) {
+				int sz = q.size();
+				while (sz) {
+					sz--;
+					NestedInteger top = q.front(); // note!! can't be a reference here!! has to be a copy of the front value. Otherwise pop() will destroy this value!
+					q.pop();
+
+					if (top.isInteger()) { result += level * top.getInteger(); }
+					else {
+						for (auto& ni : top.getList()) { q.push(ni);}
+					}
+				}
+				level++;
+			}
+			return result;
+		}
+*/
 
 		void Main() {
 			string test = "tst test test";

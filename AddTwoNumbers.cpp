@@ -41,13 +41,32 @@ namespace Solution2022
 	 *     ListNode(int x, ListNode *next) : val(x), next(next) {}
 	 * };
 	 */
-	    ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
-	        
-	    }
+		ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
+			if (!l1 || !l2) { return l1 ? l1 : l2; }
+
+			ListNode* head = nullptr;
+			ListNode* tail = nullptr;
+			int carry = 0;
+
+			while (l1 || l2 || carry) {
+				int sum = (l1 ? l1->val : 0) + (l2 ? l2->val : 0) + carry;
+				carry = sum / 10;
+				ListNode* newNode = new ListNode(sum % 10);
+
+				if (!head) { head = newNode; }
+				else { tail->next = newNode; }
+				tail = newNode;
+
+				l1 = l1 ? l1->next : nullptr;
+				l2 = l2 ? l2->next : nullptr;
+			}
+			tail->next = l1 ? l1 : l2;
+			return head;
+		}
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			string test = "tst test test";			
+			print(addTwoNumbers(createList({ 2,4,3 }), createList({ 5, 6, 4 })));
 		}
 	}
 }
