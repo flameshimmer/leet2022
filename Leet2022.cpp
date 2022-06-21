@@ -16,6 +16,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	clock_t begin = clock();
 	//Solution2022::Test::Main(); // Medium
 
+	//====Problem Starts====
 	// 6/1/2022
 	//Solution2022::BinarySearch::Main();
 	//Solution2022::FirstBadVersion::Main();
@@ -39,7 +40,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::PermutationinString::Main();
 	//Solution2022::FloodFill::Main();
 	
-	// 6/5/2022
+	//6/5/2022
 	//Solution2022::MaxAreaofIsland::Main();
 	//Solution2022::MergeTwoBinaryTrees::Main();
 	//Solution2022::PopulatingNextRightPointersinEachNode::Main();
@@ -109,17 +110,19 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::SimplifyPath::Main();
 	//Solution2022::BasicCalculatorII::Main();
 
-
-	//---------------------------------------
-	//Solution2022::MedianofTwoSortedArrays::Main();	
+	//6/21/2022
+	//Solution2022::LongestCommonPrefix::Main();
+	//Solution2022::ValidWordAbbreviation::Main();
+	//Solution2022::PalindromeNumber::Main();
 	//Solution2022::MeetingRoomsII::Main();
 	//Solution2022::LongestPalindromicSubstring::Main();
+
+	//====Problem Ends====
+	//Solution2022::MedianofTwoSortedArrays::Main();	
 	//Solution2022::DecodeString::Main();
 	//Solution2022::ThreeSum::Main();
 	//Solution2022::NextPermutation::Main();
-	//Solution2022::LongestCommonPrefix::Main();
 	//Solution2022::BusRoutes::Main();
-	//Solution2022::ValidWordAbbreviation::Main();
 	//Solution2022::IntegertoEnglishWords::Main();
 	//Solution2022::FizzBuzz::Main();
 	//Solution2022::LowestCommonAncestorofaBinaryTree::Main();
@@ -139,7 +142,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::NestedListWeightSumII::Main();
 	//Solution2022::SumofSubarrayRanges::Main();
 	//Solution2022::KClosestPointstoOrigin::Main();
-	//Solution2022::PalindromeNumber::Main();
 	//Solution2022::ShortestPathinBinaryMatrix::Main();
 	//Solution2022::StringCompression::Main();
 	//Solution2022::TopKFrequentElements::Main();
@@ -2176,7 +2178,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::NumberofGoodWaystoSplitaString::Main();
 	//Solution2022::SumofDistancesinTree::Main();
 
-	//====Problem Ends====
+
 
 	// Runtime end marker
 	clock_t end = clock();

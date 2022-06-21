@@ -31,12 +31,25 @@ namespace Solution2022
 	namespace PalindromeNumber
 	{
 	    bool isPalindrome(int x) {
-	        
+			if (x < 0) { return false; }
+			if (x < 10) { return true; }
+
+			long long div = 1;
+			while (x / div) {
+				div *= 10;
+			}
+			div /= 10;
+
+			while (x) {
+				if (x / div != x % 10) { return false; }
+				x = x % div / 10;
+				div /= 100;
+			}
+			return true;
 	    }
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			print(isPalindrome(121));
 		}
 	}
 }

@@ -1,4 +1,4 @@
-#include "stdafx.h"
+  #include "stdafx.h"
 
 //Write a function to find the longest common prefix string amongst an array of
 //strings.
@@ -24,12 +24,27 @@ namespace Solution2022
 	namespace LongestCommonPrefix
 	{
 	    string longestCommonPrefix(vector<string>& strs) {
-	        
-	    }
+			int len = strs.size();
+			if (len == 0) { return ""; }
+			if (len == 1) { return strs[0]; }
+
+			int minLen = INT_MAX;
+			for (string& s : strs) { minLen = min(minLen, (int)s.size()); }
+
+
+			string result = "";
+			for (int i = 0; i<minLen; i++){
+				for (int j = 0; j < len-1; j++) {
+					if (strs[j][i] != strs[j+1][i]) { return result; }
+				}
+				result.push_back(strs[0][i]);
+			}
+			return result;
+		}
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			vector<string> test = { "flower","flow","flight" };
+			print(longestCommonPrefix(test));
 		}
 	}
 }

@@ -40,13 +40,26 @@ namespace Solution2022
 {
 	namespace ValidWordAbbreviation
 	{
-	    bool validWordAbbreviation(string word, string abbr) {
-	        
-	    }
+		bool validWordAbbreviation(string word, string abbr) {
+			int i = 0;
+			int j = 0;
+			while (i < word.size() && j < abbr.size()) {
+				if (isdigit(abbr[j])) {
+					if (abbr[j] == '0') { return false; }
+					int val = 0;
+					while (j < abbr.size() && isdigit(abbr[j])) {
+						val = val * 10 + (abbr[j] - '0');
+						j++;
+					}
+					i += val;
+				}
+				else if (word[i++] != abbr[j++]) { return false; }
+			}
+			return i == word.size() && j == abbr.size();
+		}
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			print(validWordAbbreviation("internationalization","i5a11o1"));
 		}
 	}
 }

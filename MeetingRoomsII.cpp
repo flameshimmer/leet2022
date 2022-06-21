@@ -21,7 +21,20 @@ namespace Solution2022
 	namespace MeetingRoomsII
 	{
 	    int minMeetingRooms(vector<vector<int>>& intervals) {
-	        
+			vector<pair<int, int>> meetings;
+			for (vector<int>& in : intervals) {
+				meetings.push_back({in[0], 1});
+				meetings.push_back({ in[1], -1 });
+			}
+			sort(meetings.begin(), meetings.end());
+			
+			int room = 0;
+			int maxRoom = 0;
+			for (pair<int, int>& p : meetings) {
+				room += p.second;
+				maxRoom = max(maxRoom, room);
+			}
+			return maxRoom;
 	    }
 
 		void Main() {

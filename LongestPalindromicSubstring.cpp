@@ -21,7 +21,26 @@ namespace Solution2022
 	namespace LongestPalindromicSubstring
 	{
 	    string longestPalindrome(string s) {
-	        
+			int len = s.size();
+			if (len < 2) { return s; }
+
+			int longest = 0;
+			int head = 0;
+
+			for (int i = 0; i < len; i++) {
+				int start = i;
+				while (i + 1 < len && s[i] == s[i + 1]) { i++; }
+				int end = i;
+				while (start >= 0 && end < len && s[start] == s[end]) {
+					start--;
+					end++;
+				}
+				if (end - start - 1 > longest) {
+					longest = end - start - 1;
+					head = start + 1;
+				}
+			}
+			return s.substr(head, longest);
 	    }
 
 		void Main() {
