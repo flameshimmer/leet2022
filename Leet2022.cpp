@@ -117,25 +117,33 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::MeetingRoomsII::Main();
 	//Solution2022::LongestPalindromicSubstring::Main();
 
-	//====Problem Ends====
-	//Solution2022::MedianofTwoSortedArrays::Main();	
-	//Solution2022::DecodeString::Main();
-	//Solution2022::ThreeSum::Main();
+	//6/22/2022
 	//Solution2022::NextPermutation::Main();
+	//Solution2022::DesignUndergroundSystem::Main();
+	//Solution2022::ThreeSum::Main();
+	//Solution2022::DecodeString::Main();
+	
+	
+	//6/25/2022
+	//Solution2022::GenerateParentheses::Main();
+	//Solution2022::PairsofSongsWithTotalDurationsDivisiblebySixZero::Main();
+	//Solution2022::ShortestWordDistance::Main();
+	//Solution2022::ShortestWordDistanceII::Main();
+	//Solution2022::ShortestWordDistanceIII::Main();
+	//Solution2022::WordSearch::Main();
+
+
+	//====Problem Ends====
+	//Solution2022::CountUniqueCharactersofAllSubstringsofaGivenString::Main();
+	//Solution2022::MedianofTwoSortedArrays::Main();	
 	//Solution2022::BusRoutes::Main();
 	//Solution2022::IntegertoEnglishWords::Main();
 	//Solution2022::FizzBuzz::Main();
 	//Solution2022::LowestCommonAncestorofaBinaryTree::Main();
 	//Solution2022::KthLargestElementinanArray::Main();
-	//Solution2022::DesignUndergroundSystem::Main();
-	//Solution2022::WordSearch::Main();
-	//Solution2022::GenerateParentheses::Main();
 	//Solution2022::MergekSortedLists::Main();
 	//Solution2022::LetterCombinationsofaPhoneNumber::Main();
-	//Solution2022::ShortestWordDistanceII::Main();
-	//Solution2022::CountUniqueCharactersofAllSubstringsofaGivenString::Main();
 	//Solution2022::GroupAnagrams::Main();
-	//Solution2022::PairsofSongsWithTotalDurationsDivisiblebySixZero::Main();
 	//Solution2022::WordLadder::Main();
 	//Solution2022::RobotBoundedInCircle::Main();
 	//Solution2022::Pow::Main();
@@ -452,7 +460,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::ReducingDishes::Main();
 	//Solution2022::NumberofStudentsUnabletoEatLunch::Main();
 	//Solution2022::RemoveLinkedListElements::Main();
-	//Solution2022::ShortestWordDistanceIII::Main();
 	//Solution2022::WhereWilltheBallFall::Main();
 	//Solution2022::ShortestSubarraytobeRemovedtoMakeArraySorted::Main();
 	//Solution2022::LastStoneWeightII::Main();
@@ -1556,7 +1563,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::SlidingWindowMedian::Main();
 	//Solution2022::MinimumMovestoEqualArrayElements::Main();
 	//Solution2022::CheckIfaStringContainsAllBinaryCodesofSizeK::Main();
-	//Solution2022::ShortestWordDistance::Main();
 	//Solution2022::PalindromicSubstrings::Main();
 	//Solution2022::ValidParenthesisString::Main();
 	//Solution2022::MajorityElement::Main();

@@ -159,11 +159,13 @@
     <ClCompile Include="BuildingsWithanOceanView.cpp" />
     <ClCompile Include="ClimbingStairs.cpp" />
     <ClCompile Include="Combinations.cpp" />
+    <ClCompile Include="DecodeString.cpp" />
     <ClCompile Include="DesignFileSystem.cpp" />
     <ClCompile Include="DesignInMemoryFileSystem.cpp" />
     <ClCompile Include="DotProductofTwoSparseVectors.cpp" />
     <ClCompile Include="FirstBadVersion.cpp" />
     <ClCompile Include="FloodFill.cpp" />
+    <ClCompile Include="GenerateParentheses.cpp" />
     <ClCompile Include="Helpers.cpp" />
     <ClCompile Include="HouseRobber.cpp" />
     <ClCompile Include="InsertDeleteGetRandomO.cpp" />
@@ -171,11 +173,13 @@
     <ClCompile Include="LetterCasePermutation.cpp" />
     <ClCompile Include="ListNode.cpp" />
     <ClCompile Include="LongestCommonPrefix.cpp" />
+    <ClCompile Include="LongestPalindromicSubstring.cpp" />
     <ClCompile Include="LongestSubstringWithoutRepeatingCharacters.cpp" />
     <ClCompile Include="LowestCommonAncestorofaBinaryTreeIII.cpp" />
     <ClCompile Include="LRUCache.cpp" />
     <ClCompile Include="MaxAreaofIsland.cpp" />
     <ClCompile Include="MaximumSubarray.cpp" />
+    <ClCompile Include="MeetingRoomsII.cpp" />
     <ClCompile Include="MergeIntervals.cpp" />
     <ClCompile Include="MergeTwoBinaryTrees.cpp" />
     <ClCompile Include="MergeTwoSortedLists.cpp" />
@@ -183,8 +187,10 @@
     <ClCompile Include="MinimumRemovetoMakeValidParentheses.cpp" />
     <ClCompile Include="MoveZeroes.cpp" />
     <ClCompile Include="NestedListWeightSum.cpp" />
+    <ClCompile Include="NextPermutation.cpp" />
     <ClCompile Include="NumberofIslands.cpp" />
     <ClCompile Include="NumberofOneBits.cpp" />
+    <ClCompile Include="PairsofSongsWithTotalDurationsDivisiblebySixZero.cpp" />
     <ClCompile Include="PalindromeNumber.cpp" />
     <ClCompile Include="PermutationinString.cpp" />
     <ClCompile Include="Permutations.cpp" />
@@ -201,6 +207,9 @@
     <ClCompile Include="RotateArray.cpp" />
     <ClCompile Include="RottingOranges.cpp" />
     <ClCompile Include="SearchInsertPosition.cpp" />
+    <ClCompile Include="ShortestWordDistance.cpp" />
+    <ClCompile Include="ShortestWordDistanceII.cpp" />
+    <ClCompile Include="ShortestWordDistanceIII.cpp" />
     <ClCompile Include="SimplifyPath.cpp" />
     <ClCompile Include="SingleNumber.cpp" />
     <ClCompile Include="SquaresofaSortedArray.cpp" />
@@ -209,6 +218,7 @@
     <ClCompile Include="SubdomainVisitCount.cpp" />
     <ClCompile Include="Test.cpp" />
     <ClCompile Include="TextJustification.cpp" />
+    <ClCompile Include="ThreeSum.cpp" />
     <ClCompile Include="TrappingRainWater.cpp" />
     <ClCompile Include="TreeHelpers.cpp" />
     <ClCompile Include="Triangle.cpp" />

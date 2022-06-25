@@ -19,13 +19,34 @@ namespace Solution2022
 {
 	namespace GenerateParentheses
 	{
-	    vector<string> generateParenthesis(int n) {
-	        
-	    }
+		void helper(int sp, int ep, int n, string curResult, vector<string>& result) {
+			if (sp == n && ep == n) {
+				result.push_back(curResult);
+				return;
+			}
+
+			if (sp < n) {
+				helper(sp + 1, ep, n, curResult + "(", result);
+			}
+			if (ep < sp) {
+				helper(sp, ep + 1, n, curResult + ")", result);
+			}
+		}
+		
+		vector<string> generateParenthesis(int n) {
+			vector<string> result;
+			if (n == 0) { return result; }
+
+			string curResult = "";
+			helper(0, 0, n, curResult, result);
+			return result;
+		
+		}
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			print(generateParenthesis(1));
+			print(generateParenthesis(2));
+			print(generateParenthesis(3));
 		}
 	}
 }

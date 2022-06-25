@@ -38,9 +38,26 @@ namespace Solution2022
 {
 	namespace NextPermutation
 	{
-	    void nextPermutation(vector<int>& nums) {
-	        
-	    }
+		void nextPermutation(vector<int>& nums) {
+			int len = nums.size();
+			if (len < 2) { return; }
+
+			int i = len - 2;
+			for (; i >= 0; i--) {
+				if (nums[i] < nums[i + 1]) { break; }
+			}
+			if (i < 0) { 
+				sort(nums.begin(), nums.end()); 
+				return;
+			}
+
+			int j = len - 1;
+			for (; j > i; j--) {
+				if (nums[j] > nums[i]) { break; }
+			}
+			swap(nums[i], nums[j]);
+			reverse(nums.begin() + i + 1, nums.end());
+		}
 
 		void Main() {
 			string test = "tst test test";

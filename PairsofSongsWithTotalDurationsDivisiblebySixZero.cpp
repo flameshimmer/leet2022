@@ -30,7 +30,14 @@ namespace Solution2022
 	namespace PairsofSongsWithTotalDurationsDivisiblebySixZero
 	{
 	    int numPairsDivisibleBy60(vector<int>& time) {
-	        
+			vector<int> count(60, 0);
+			int result = 0;
+
+			for (int t : time) {
+				result += count[(60 - t % 60) % 60];
+				count[t % 60]++;
+			}
+			return result;
 	    }
 
 		void Main() {

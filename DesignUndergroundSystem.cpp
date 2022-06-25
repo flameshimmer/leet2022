@@ -27,8 +27,11 @@
 //
 //Example 1:
 //Input
-//["UndergroundSystem","checkIn","checkIn","checkIn","checkOut","checkOut","checkOut","getAverageTime","getAverageTime","checkIn","getAverageTime","checkOut","getAverageTime"]
-//[[],[45,"Leyton",3],[32,"Paradise",8],[27,"Leyton",10],[45,"Waterloo",15],[27,"Waterloo",20],[32,"Cambridge",22],["Paradise","Cambridge"],["Leyton","Waterloo"],[10,"Leyton",24],["Leyton","Waterloo"],[10,"Waterloo",38],["Leyton","Waterloo"]]
+//["UndergroundSystem","checkIn","checkIn","checkIn","checkOut","checkOut","checkOut",
+//"getAverageTime","getAverageTime","checkIn","getAverageTime","checkOut","getAverageTime"]
+//[[],[45,"Leyton",3],[32,"Paradise",8],[27,"Leyton",10],[45,"Waterloo",15],[27,"Waterloo",20],
+//[32,"Cambridge",22],["Paradise","Cambridge"],["Leyton","Waterloo"],[10,"Leyton",24],
+//["Leyton","Waterloo"],[10,"Waterloo",38],["Leyton","Waterloo"]]
 //Output
 //[null,null,null,null,null,null,null,14.00000,11.00000,null,11.00000,null,12.00000]
 //Explanation
@@ -55,8 +58,10 @@
 //
 //Example 2:
 //Input
-//["UndergroundSystem","checkIn","checkOut","getAverageTime","checkIn","checkOut","getAverageTime","checkIn","checkOut","getAverageTime"]
-//[[],[10,"Leyton",3],[10,"Paradise",8],["Leyton","Paradise"],[5,"Leyton",10],[5,"Paradise",16],["Leyton","Paradise"],[2,"Leyton",21],[2,"Paradise",30],["Leyton","Paradise"]]
+//["UndergroundSystem","checkIn","checkOut","getAverageTime","checkIn","checkOut",
+//"getAverageTime","checkIn","checkOut","getAverageTime"]
+//[[],[10,"Leyton",3],[10,"Paradise",8],["Leyton","Paradise"],[5,"Leyton",10],
+//[5,"Paradise",16],["Leyton","Paradise"],[2,"Leyton",21],[2,"Paradise",30],["Leyton","Paradise"]]
 //Output
 //[null,null,null,5.00000,null,null,5.50000,null,null,6.66667]
 //Explanation
@@ -89,23 +94,32 @@ namespace Solution2022
 {
 	namespace DesignUndergroundSystem
 	{
-	class UndergroundSystem {
-	    UndergroundSystem() {
-	        
-	    }
-	    
-	    void checkIn(int id, string stationName, int t) {
-	        
-	    }
-	    
-	    void checkOut(int id, string stationName, int t) {
-	        
-	    }
-	    
-	    double getAverageTime(string startStation, string endStation) {
-	        
-	    }
-	​
+		class UndergroundSystem {
+		private:
+			unordered_map<string, pair<int, int>> stats;
+			unordered_map<int, pair<string, int>> checkins;
+		public:
+			UndergroundSystem() {
+
+			}
+
+			void checkIn(int id, string stationName, int t) {
+				checkins[id] = { stationName, t };
+			}
+
+			void checkOut(int id, string stationName, int t) {
+				auto& [checkInStation, checkInTime] = checkins[id];
+				string key = checkInStation + ">" + stationName;
+				auto& [totalTime, count] = stats[key];
+				count++;
+				totalTime += t - checkInTime;
+			}
+
+			double getAverageTime(string startStation, string endStation) {
+				auto& [totalTime, count] = stats[startStation + ">" + endStation];
+				return (double)totalTime / count;
+			}
+		};
 	/**
 	 * Your UndergroundSystem object will be instantiated and called as such:
 	 * UndergroundSystem* obj = new UndergroundSystem();

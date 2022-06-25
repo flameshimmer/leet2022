@@ -36,12 +36,47 @@ namespace Solution2022
 	namespace DecodeString
 	{
 	    string decodeString(string s) {
-	        
+			int len = s.size();
+			if (len == 0) { return ""; }
+
+			stack<int> nums;
+			stack<string> strs;
+
+			string result = "";
+			for (int i = 0; i < len; i++) {
+				char c = s[i];
+				if (isdigit(c)) {
+					int val = 0;
+					while (isdigit(s[i])) {
+						val = val * 10 + (s[i] - '0');
+						i++;
+					}
+					nums.push(val);
+					i--;
+				}
+				else if (c == '[') {
+					strs.push(result);
+					result = "";
+				}
+				else if (c == ']') {
+					string temp = strs.top();
+					strs.pop();
+					int count = nums.top();
+					nums.pop();
+					for (int j = 0; j < count; j++) {
+						temp += result;
+					}
+					result = temp;
+				}
+				else {
+					result.push_back(c);
+				}
+			}
+			return result;
 	    }
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			print(decodeString("3[a]2[bc]"));
 		}
 	}
 }

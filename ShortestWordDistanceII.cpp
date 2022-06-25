@@ -35,21 +35,36 @@ namespace Solution2022
 {
 	namespace ShortestWordDistanceII
 	{
-	class WordDistance {
-	    WordDistance(vector<string>& wordsDict) {
-	        
-	    }
-	    
-	    int shortest(string word1, string word2) {
-	        
-	    }
-	​
-	/**
-	 * Your WordDistance object will be instantiated and called as such:
-	 * WordDistance* obj = new WordDistance(wordsDict);
-	 * int param_1 = obj->shortest(word1,word2);
-	 */
+		class WordDistance {
+		private:
+			unordered_map<string, vector<int>> map;
+		public:
+			WordDistance(vector<string>& wordsDict) {
+				for (int i = 0; i < wordsDict.size(); i++) {
+					map[wordsDict[i]].push_back(i);
+				}
+			}
 
+			int shortest(string word1, string word2) {
+				vector<int>& l1 = map[word1];
+				vector<int>& l2 = map[word2];
+
+				int result = INT_MAX;
+				int i = 0;
+				int j = 0;
+				while (i < l1.size() && j < l2.size()) {
+					result = min(result, abs(l1[i] - l2[j]));
+					if (l1[i] < l2[j]) { i++; }
+					else { j++; }
+				}
+				return result;
+			}
+		};
+		/**
+		 * Your WordDistance object will be instantiated and called as such:
+		 * WordDistance* obj = new WordDistance(wordsDict);
+		 * int param_1 = obj->shortest(word1,word2);
+		 */
 		void Main() {
 			string test = "tst test test";
 			print(test);
