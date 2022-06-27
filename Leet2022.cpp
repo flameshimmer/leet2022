@@ -132,17 +132,22 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::ShortestWordDistanceIII::Main();
 	//Solution2022::WordSearch::Main();
 
+	//6/26/2022
+	//Solution2022::FizzBuzz::Main();
+	//Solution2022::KthLargestElementinanArray::Main();
+	//Solution2022::TotalAppealofAString::Main();
+	//Solution2022::CountUniqueCharactersofAllSubstringsofaGivenString::Main();
+	//Solution2022::LetterCombinationsofaPhoneNumber::Main();
+	//Solution2022::LowestCommonAncestorofaBinaryTree::Main();
+	//Solution2022::StringCompression::Main();	
+	//Solution2022::ContainerWithMostWater::Main();
+	//Solution2022::IntegertoEnglishWords::Main();
+	//Solution2022::BusRoutes::Main();
+	
 
 	//====Problem Ends====
-	//Solution2022::CountUniqueCharactersofAllSubstringsofaGivenString::Main();
-	//Solution2022::MedianofTwoSortedArrays::Main();	
-	//Solution2022::BusRoutes::Main();
-	//Solution2022::IntegertoEnglishWords::Main();
-	//Solution2022::FizzBuzz::Main();
-	//Solution2022::LowestCommonAncestorofaBinaryTree::Main();
-	//Solution2022::KthLargestElementinanArray::Main();
 	//Solution2022::MergekSortedLists::Main();
-	//Solution2022::LetterCombinationsofaPhoneNumber::Main();
+	//Solution2022::MedianofTwoSortedArrays::Main();	
 	//Solution2022::GroupAnagrams::Main();
 	//Solution2022::WordLadder::Main();
 	//Solution2022::RobotBoundedInCircle::Main();
@@ -151,10 +156,8 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::SumofSubarrayRanges::Main();
 	//Solution2022::KClosestPointstoOrigin::Main();
 	//Solution2022::ShortestPathinBinaryMatrix::Main();
-	//Solution2022::StringCompression::Main();
 	//Solution2022::TopKFrequentElements::Main();
 	//Solution2022::GasStation::Main();
-	//Solution2022::ContainerWithMostWater::Main();
 	//Solution2022::AlertUsingSameKeyCardThreeorMoreTimesinaOneHourPeriod::Main();
 	//Solution2022::SearchSuggestionsSystem::Main();
 	//Solution2022::BinarySearch::Main();
@@ -279,7 +282,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::ReduceArraySizetoTheHalf::Main();
 	//Solution2022::WordSubsets::Main();
 	//Solution2022::MinimumNumberofDaystoEatNOranges::Main();
-	//Solution2022::TotalAppealofAString::Main();
 	//Solution2022::EncodeandDecodeStrings::Main();
 	//Solution2022::ReverseOnlyLetters::Main();
 	//Solution2022::DIStringMatch::Main();

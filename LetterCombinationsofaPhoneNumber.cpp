@@ -26,14 +26,32 @@
 namespace Solution2022
 {
 	namespace LetterCombinationsofaPhoneNumber
-	{
-	    vector<string> letterCombinations(string digits) {
-	        
+	{	    
+		void helper(string& digits, int level, int len, vector<string>& candidates, string result, vector<string>& results) {
+			if (level == len) {
+				results.push_back(result);
+				return;
+			}
+			
+			for (char c : candidates[digits[level] - '0']) {
+				helper(digits, level + 1, len, candidates, result + c, results);
+			}
+		}
+		
+		vector<string> letterCombinations(string digits) {
+			vector<string> results;
+			int len = digits.size();
+			if (len == 0) { return results; }
+
+			vector<string> candidates = { "", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz" };
+			string result = "";
+
+			helper(digits, 0, len, candidates, result, results);
+			return results;	        
 	    }
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			print(letterCombinations("23"));
 		}
 	}
 }

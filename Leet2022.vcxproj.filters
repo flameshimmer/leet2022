@@ -249,6 +249,27 @@
     <ClCompile Include="ShortestWordDistanceIII.cpp">
       <Filter>Solution2022</Filter>
     </ClCompile>
+    <ClCompile Include="FizzBuzz.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="KthLargestElementinanArray.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="CountUniqueCharactersofAllSubstringsofaGivenString.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="TotalAppealofAString.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="LetterCombinationsofaPhoneNumber.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="LowestCommonAncestorofaBinaryTree.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="StringCompression.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Solution2022.h">

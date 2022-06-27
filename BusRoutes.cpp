@@ -35,7 +35,34 @@ namespace Solution2022
 	namespace BusRoutes
 	{
 	    int numBusesToDestination(vector<vector<int>>& routes, int source, int target) {
-	        
+			unordered_map<int, vector<int>> map;
+			for (int i = 0; i < routes.size(); i++) {
+				for (int stopId : routes[i]) {
+					map[stopId].push_back(i);
+				}
+			}
+
+			queue<pair<int, int>> q;
+			q.push({source, 0});
+			unordered_set<int> visited = { source };
+
+			while (!q.empty()) {
+				int stop = q.front().first;
+				int level = q.front().second;
+				q.pop();
+
+				if (stop == target) { return level; }
+				for (int routeId : map[stop]) {
+					for (int stopId : routes[routeId]) {
+						if (visited.find(stopId) == visited.end()) {
+							q.push({ stopId, level + 1 });
+							visited.insert(stopId);
+						}
+					}
+					routes[routeId].clear();
+				}
+			}
+			return -1;
 	    }
 
 		void Main() {

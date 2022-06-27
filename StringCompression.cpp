@@ -42,12 +42,31 @@ namespace Solution2022
 	namespace StringCompression
 	{
 	    int compress(vector<char>& chars) {
-	        
+			int len = chars.size();
+			if (len < 2) { return len; }
+
+			int front = 0;
+			int back = 0;
+			while (front < len) {
+				int count = 1;
+				while (front + 1 < len && chars[front] == chars[front + 1]) { front++; count++; }
+				chars[back] = chars[front];
+				back++;
+
+				if (count > 1) {
+					for (char c : to_string(count)) {
+						chars[back] = c;
+						back++;
+					}				
+				}
+				front++;			
+			}
+			return back;
 	    }
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			vector<char> test = { 'a','b','b','b','b','b','b','b','b','b','b','b','b' };
+			print(compress(test));
 		}
 	}
 }

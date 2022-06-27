@@ -43,9 +43,32 @@ namespace Solution2022
 {
 	namespace TotalAppealofAString
 	{
-	    long long appealSum(string s) {
-	        
-	    }
+		long long appealSum(string s) {
+			vector<int> last(26, -1);
+			long result = 0;
+			long len = s.size();
+
+			for (int i = 0; i < len; i++) {
+				result += (i - last[s[i] - 'a']) * (len - i);
+				last[s[i] - 'a'] = i;
+			}
+			return result;
+		}
+
+		long long appealSumAnother(string s) {
+			int len = s.size();
+			long long result = 0;
+			long long total = 0;
+			vector<int> last(26);
+
+			for (int i = 0; i < len; i++) {
+				total += i + 1 - last[s[i] - 'a'];
+				last[s[i] - 'a'] = i + 1;
+				result += total;
+			}
+			return result;
+		}
+		
 
 		void Main() {
 			string test = "tst test test";

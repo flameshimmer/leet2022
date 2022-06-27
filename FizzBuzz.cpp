@@ -27,7 +27,16 @@ namespace Solution2022
 	namespace FizzBuzz
 	{
 	    vector<string> fizzBuzz(int n) {
-	        
+			vector<string> result;
+			if (n == 0) { return result; }
+			for (int i = 1; i <= n; i++) {
+				string cur = "";
+				if (i % 3 == 0) { cur += "Fizz"; }
+				if (i % 5 == 0) { cur += "Buzz"; }
+				if (cur.empty()) { cur = to_string(i); }
+				result.push_back(cur);
+			}
+			return result;
 	    }
 
 		void Main() {

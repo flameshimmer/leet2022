@@ -36,7 +36,21 @@ namespace Solution2022
 	namespace CountUniqueCharactersofAllSubstringsofaGivenString
 	{
 	    int uniqueLetterString(string s) {
-	        
+			vector<vector<int>> index(26, vector<int>(2, -1));
+			int len = s.size();
+			int mod = pow(10, 9) + 7;
+			int result = 0;
+			for (int i = 0; i < len; i++) {
+				int c = s[i] - 'A';
+				result = (result + (i - index[c][1]) * (index[c][1] - index[c][0]) % mod) % mod;
+				index[c][0] = index[c][1];
+				index[c][1] = i;
+			}
+
+			for (int c = 0; c < 26; c++) {
+				result = (result + (len - index[c][1]) * (index[c][1] - index[c][0]) % mod) % mod;
+			}
+			return result;
 	    }
 
 		void Main() {
