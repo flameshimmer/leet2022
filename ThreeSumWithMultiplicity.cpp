@@ -38,7 +38,28 @@ namespace Solution2022
 	namespace ThreeSumWithMultiplicity
 	{
 	    int threeSumMulti(vector<int>& arr, int target) {
-	        
+			unordered_map<int, long> map;
+			for (int v : arr) { map[v]++; }
+
+			long result = 0;
+			for (auto& [k1, v1] : map) {
+				for (auto& [k2, v2] : map) {
+					int k3 = target - k1 - k2;
+					if (map.find(k3) == map.end()) { continue; }
+					long v3 = map[k3];
+
+					if (k1 == k2 && k2 == k3) {
+						result += v1 * (v1 - 1) * (v1 - 2) / 6;
+					}
+					else if (k1 == k2 && k2 != k3) {
+						result += v1 * (v1 - 1) / 2 * v3;
+					}
+					else if (k1 < k2 && k2 < k3) {
+						result += v1 * v2 * v3;
+					}				
+				}				
+			}
+			return result % int(1e9 + 7);
 	    }
 
 		void Main() {

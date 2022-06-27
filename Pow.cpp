@@ -25,13 +25,33 @@ namespace Solution2022
 {
 	namespace Pow
 	{
-	    double myPow(double x, int n) {
-	        
+		double myPowIterative(double x, int n) {
+			double result = 1;
+			long long n2 = n;
+			if (n2 < 0) {
+				n2 = -n2;
+				x = 1 / x;
+			}
+			while (n2) {
+				if (n2 % 2 == 1) { result *= x; }
+				x *= x;
+				n2 /= 2;
+			}
+			return result;
+		}
+		
+		double myPow(double x, int n) {
+			if (n == 0) { return 1; }
+			long long n2 = n;
+			if (n2 < 0) {
+				x = 1 / x;
+				n2 = -n2;
+			}
+			return (n2 % 2 == 0) ? myPow(x * x, n2 / 2) : x * myPow(x * x, n2 / 2);
 	    }
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			print(myPow(2, 10));
 		}
 	}
 }

@@ -144,14 +144,18 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::IntegertoEnglishWords::Main();
 	//Solution2022::BusRoutes::Main();
 	
+	//6/27/2022
+	//Solution2022::Pow::Main();
+	//Solution2022::GroupAnagrams::Main();
+	//Solution2022::ThreeSumWithMultiplicity::Main();
+	//Solution2022::AnalyzeUserWebsiteVisitPattern::Main();
+	//Solution2022::ContainsDuplicate::Main();
 
 	//====Problem Ends====
 	//Solution2022::MergekSortedLists::Main();
 	//Solution2022::MedianofTwoSortedArrays::Main();	
-	//Solution2022::GroupAnagrams::Main();
 	//Solution2022::WordLadder::Main();
 	//Solution2022::RobotBoundedInCircle::Main();
-	//Solution2022::Pow::Main();
 	//Solution2022::NestedListWeightSumII::Main();
 	//Solution2022::SumofSubarrayRanges::Main();
 	//Solution2022::KClosestPointstoOrigin::Main();
@@ -163,11 +167,9 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::BinarySearch::Main();
 	//Solution2022::FirstMissingPositive::Main();
 	//Solution2022::MinimumAddtoMakeParenthesesValid::Main();
-	//Solution2022::WordSearchII::Main();
-	//Solution2022::AnalyzeUserWebsiteVisitPattern::Main();
+	//Solution2022::WordSearchII::Main();	
 	//Solution2022::SpiralMatrix::Main();
 	//Solution2022::ShortestPathinaGridwithObstaclesElimination::Main();
-	//Solution2022::ThreeSumWithMultiplicity::Main();
 	//Solution2022::RemoveAllAdjacentDuplicatesinStringII::Main();
 	//Solution2022::GameofLife::Main();
 	//Solution2022::AlienDictionary::Main();
@@ -188,7 +190,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::ReorderDatainLogFiles::Main();
 	//Solution2022::CoinChange::Main();
 	//Solution2022::VerticalOrderTraversalofaBinaryTree::Main();
-	//Solution2022::ContainsDuplicate::Main();
 	//Solution2022::MaximumProfitinJobScheduling::Main();
 	//Solution2022::ProductofArrayExceptSelf::Main();
 	//Solution2022::CarPooling::Main();

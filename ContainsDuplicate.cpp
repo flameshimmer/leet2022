@@ -25,7 +25,12 @@ namespace Solution2022
 	namespace ContainsDuplicate
 	{
 	    bool containsDuplicate(vector<int>& nums) {
-	        
+			unordered_set<int> set;
+			for (int v : nums) {
+				if (set.find(v) != set.end()) { return true; }
+				set.insert(v);
+			}
+			return false;
 	    }
 
 		void Main() {

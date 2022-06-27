@@ -60,7 +60,35 @@ namespace Solution2022
 	namespace AnalyzeUserWebsiteVisitPattern
 	{
 	    vector<string> mostVisitedPattern(vector<string>& username, vector<int>& timestamp, vector<string>& website) {
-	        
+			int len = username.size();
+			unordered_map<string, map<int, string>> m; // note that the second map is sorted map!!!
+			for (int i = 0; i < len; i++) {
+				m[username[i]][timestamp[i]] = website[i];
+			}
+
+			map<vector<string>, int> counter;
+			for (auto& [user, ts] : m) {
+				vector<string> allSites;
+				for (auto& [ts, site] : m[user]) {
+					allSites.push_back(site);
+				}
+				set<vector<string>> pattern;
+				for (int k = 0; k < allSites.size(); k++) {
+					for (int j = 0; j < k; j++) {
+						for (int i = 0; i < j; i++) {
+							pattern.insert({allSites[i], allSites[j], allSites[k]});
+						}
+					}
+				}
+				for (auto& p : pattern) {
+					counter[p]++;
+				}
+			}
+			auto comp = [](auto& p1, auto& p2) {
+				return p1.second < p2.second || p1.second == p2.second && p1.first>p2.first;
+			};
+
+			return max_element(counter.begin(), counter.end(), comp)->first;
 	    }
 
 		void Main() {

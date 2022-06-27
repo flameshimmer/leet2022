@@ -270,6 +270,21 @@
     <ClCompile Include="StringCompression.cpp">
       <Filter>Solution2022</Filter>
     </ClCompile>
+    <ClCompile Include="ContainerWithMostWater.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="IntegertoEnglishWords.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="BusRoutes.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="Pow.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="GroupAnagrams.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Solution2022.h">

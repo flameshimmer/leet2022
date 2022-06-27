@@ -157,8 +157,10 @@
     <ClCompile Include="BinarySearch.cpp" />
     <ClCompile Include="BinaryTreeVerticalOrderTraversal.cpp" />
     <ClCompile Include="BuildingsWithanOceanView.cpp" />
+    <ClCompile Include="BusRoutes.cpp" />
     <ClCompile Include="ClimbingStairs.cpp" />
     <ClCompile Include="Combinations.cpp" />
+    <ClCompile Include="ContainerWithMostWater.cpp" />
     <ClCompile Include="CountUniqueCharactersofAllSubstringsofaGivenString.cpp" />
     <ClCompile Include="DecodeString.cpp" />
     <ClCompile Include="DesignFileSystem.cpp" />
@@ -168,9 +170,11 @@
     <ClCompile Include="FizzBuzz.cpp" />
     <ClCompile Include="FloodFill.cpp" />
     <ClCompile Include="GenerateParentheses.cpp" />
+    <ClCompile Include="GroupAnagrams.cpp" />
     <ClCompile Include="Helpers.cpp" />
     <ClCompile Include="HouseRobber.cpp" />
     <ClCompile Include="InsertDeleteGetRandomO.cpp" />
+    <ClCompile Include="IntegertoEnglishWords.cpp" />
     <ClCompile Include="KthLargestElementinanArray.cpp" />
     <ClCompile Include="Leet2022.cpp" />
     <ClCompile Include="LetterCasePermutation.cpp" />
@@ -200,6 +204,7 @@
     <ClCompile Include="PermutationinString.cpp" />
     <ClCompile Include="Permutations.cpp" />
     <ClCompile Include="PopulatingNextRightPointersinEachNode.cpp" />
+    <ClCompile Include="Pow.cpp" />
     <ClCompile Include="PowerofTwo.cpp" />
     <ClCompile Include="RandomPickwithWeight.cpp" />
     <ClCompile Include="ReconstructOriginalDigitsfromEnglish.cpp" />
