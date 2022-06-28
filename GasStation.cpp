@@ -47,8 +47,31 @@ namespace Solution2022
 	namespace GasStation
 	{
 	    int canCompleteCircuit(vector<int>& gas, vector<int>& cost) {
-	        
+			int total = 0;
+			int cur = 0;
+			int result = 0;
+
+			for (int i = 0; i < gas.size(); i++) {
+				int diff = gas[i] - cost[i];
+				total += diff;
+				cur += diff;
+				if (cur < 0) {
+					cur = 0;
+					result = i + 1; // result == len will never happen, since -1 will be returned. 
+				}			
+			}
+			return total < 0 ? -1 : result;
 	    }
+
+//Now you might be wondering even after reaching the end of the array why we are not making any 
+//circular tour and after reaching the end we're concluding the result. The main concept is that :-
+//Let's suppose we start at the 0'th pump moving on and at the middle we've negative fuel so we'll
+//restart our journey from the middle position. Now let's suppose after reaching the end we've some 
+//fuel in our tank. We're saying that the middle position will be the starting position. But why
+//we're not going back to the middle element ( from where we've started our journey) from the end
+//to just check whether it's possible to make circular tour or not? It's because we've already 
+//checked previously that it's possible to come from the 0'th index to the middle. So no need to 
+//check for the remainig part of the circular tour since it will always be a valid tour.
 
 		void Main() {
 			string test = "tst test test";

@@ -45,8 +45,74 @@ namespace Solution2022
 {
 	namespace SumofSubarrayRanges
 	{
+		long long sumSubarrayMin(vector<int>& arr) {
+			int len = arr.size();
+
+			vector<int> left(len);
+			stack<int> s; //index stack
+			for (int i = 0; i < len; i++) {
+				while (!s.empty() && arr[s.top()] > arr[i]) {
+					s.pop();
+				}
+
+				left[i] = s.empty() ? (i + 1) : (i - s.top());
+				s.push(i);
+			}
+
+			while (!s.empty()) { s.pop(); }
+
+			vector<int> right(len);
+			for (int i = len - 1; i >= 0; i--) {
+				while (!s.empty() && arr[s.top()] >= arr[i]) { // note that this part is >= instead of >
+					s.pop();
+				}
+				right[i] = s.empty() ? (len - i) : (s.top() - i);
+				s.push(i);
+			}
+
+
+			long long result = 0;
+			for (int i = 0; i < len; i++) {
+				result += (long long)left[i] * (long long)right[i] * (long long)arr[i];
+			}
+			return result;
+		}
+
+		long long sumSubarrayMax(vector<int>& arr) {
+			int len = arr.size();
+
+			vector<int> left(len);
+			stack<int> s; //index stack
+			for (int i = 0; i < len; i++) {
+				while (!s.empty() && arr[s.top()] < arr[i]) {
+					s.pop();
+				}
+
+				left[i] = s.empty() ? (i + 1) : (i - s.top());
+				s.push(i);
+			}
+
+			while (!s.empty()) { s.pop(); }
+
+			vector<int> right(len);
+			for (int i = len - 1; i >= 0; i--) {
+				while (!s.empty() && arr[s.top()] <= arr[i]) { // note that this part is >= instead of >
+					s.pop();
+				}
+				right[i] = s.empty() ? (len - i) : (s.top() - i);
+				s.push(i);
+			}
+
+
+			long long result = 0;
+			for (int i = 0; i < len; i++) {
+				result += (long long)left[i] * (long long)right[i] * (long long)arr[i];
+			}
+			return result;
+		}
+
 	    long long subArrayRanges(vector<int>& nums) {
-	        
+			return sumSubarrayMax(nums) - sumSubarrayMin(nums);
 	    }
 
 		void Main() {

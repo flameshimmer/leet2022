@@ -47,40 +47,114 @@ namespace Solution2022
 {
 	namespace MaxStack
 	{
-	class MaxStack {
-	    MaxStack() {
-	        
-	    }
-	    
-	    void push(int x) {
-	        
-	    }
-	    
-	    int pop() {
-	        
-	    }
-	    
-	    int top() {
-	        
-	    }
-	    
-	    int peekMax() {
-	        
-	    }
-	    
-	    int popMax() {
-	        
-	    }
-	​
-	/**
-	 * Your MaxStack object will be instantiated and called as such:
-	 * MaxStack* obj = new MaxStack();
-	 * obj->push(x);
-	 * int param_2 = obj->pop();
-	 * int param_3 = obj->top();
-	 * int param_4 = obj->peekMax();
-	 * int param_5 = obj->popMax();
-	 */
+		class MaxStack {
+		private:
+			stack<int> data;
+			stack<int> max;
+
+			void addMax(int v) {
+				if (max.empty() || max.top() <= v) {
+					max.push(v);
+				}
+			}
+
+		public:
+			MaxStack() {
+
+			}
+
+			void push(int x) {
+				data.push(x);
+				addMax(x);
+			}
+
+			int pop() {
+				int top = data.top();
+				data.pop();
+				if (top == max.top()) {
+					max.pop();
+				}
+				return top;
+			}
+
+			int top() {
+				return data.top();
+			}
+
+			int peekMax() {
+				return max.top();
+			}
+
+			int popMax() {
+				int mv = max.top();
+
+				stack<int> tmp;
+				while (!data.empty() && data.top() != mv) {
+					tmp.push(data.top());
+					data.pop();
+				}
+				data.pop();
+				max.pop();
+
+				while (!tmp.empty()) {
+					data.push(tmp.top());
+					addMax(tmp.top());
+					tmp.pop();
+				}
+				return mv;
+			}
+		};
+
+		namespace UseListAndHashMap {
+			class MaxStack {
+			private:
+				list<int> data;
+				map<int, vector<list<int>::iterator>> m;
+			public:
+				MaxStack() {
+
+				}
+
+				void push(int x) {
+					data.push_front(x);
+					m[x].push_back(data.begin());
+				}
+
+				int pop() {
+					int result = data.front();
+					data.pop_front();
+					m[result].pop_back();
+					if (m[result].empty()) { m.erase(result); }
+					return result;
+				}
+
+				int top() {
+					return data.front();
+				}
+
+				int peekMax() {
+					return m.rbegin()->first;
+				}
+
+				int popMax() {
+					int result = m.rbegin()->first;
+					auto it = m[result].back();
+					data.erase(it);
+					m[result].pop_back();
+					if (m[result].empty()) { m.erase(result); }
+					return result;
+				}
+			};
+		}
+		/**
+		 * Your MaxStack object will be instantiated and called as such:
+		 * MaxStack* obj = new MaxStack();
+		 * obj->push(x);
+		 * int param_2 = obj->pop();
+		 * int param_3 = obj->top();
+		 * int param_4 = obj->peekMax();
+		 * int param_5 = obj->popMax();
+		 */
 
 		void Main() {
 			string test = "tst test test";

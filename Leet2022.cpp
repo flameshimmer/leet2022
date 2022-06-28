@@ -151,21 +151,26 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::AnalyzeUserWebsiteVisitPattern::Main();
 	//Solution2022::ContainsDuplicate::Main();
 
+	//6/28/2022
+	//Solution2022::RobotBoundedInCircle::Main();
+	//Solution2022::MaxStack::Main();
+	//Solution2022::SumofSubarrayMinimums::Main();
+	//Solution2022::SumofSubarrayRanges::Main();
+	//Solution2022::GasStation::Main();
+	
+	
 	//====Problem Ends====
+	//Solution2022::FirstMissingPositive::Main();
 	//Solution2022::MergekSortedLists::Main();
 	//Solution2022::MedianofTwoSortedArrays::Main();	
 	//Solution2022::WordLadder::Main();
-	//Solution2022::RobotBoundedInCircle::Main();
 	//Solution2022::NestedListWeightSumII::Main();
-	//Solution2022::SumofSubarrayRanges::Main();
 	//Solution2022::KClosestPointstoOrigin::Main();
 	//Solution2022::ShortestPathinBinaryMatrix::Main();
 	//Solution2022::TopKFrequentElements::Main();
-	//Solution2022::GasStation::Main();
 	//Solution2022::AlertUsingSameKeyCardThreeorMoreTimesinaOneHourPeriod::Main();
 	//Solution2022::SearchSuggestionsSystem::Main();
 	//Solution2022::BinarySearch::Main();
-	//Solution2022::FirstMissingPositive::Main();
 	//Solution2022::MinimumAddtoMakeParenthesesValid::Main();
 	//Solution2022::WordSearchII::Main();	
 	//Solution2022::SpiralMatrix::Main();
@@ -180,7 +185,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::ConvertBinarySearchTreetoSortedDoublyLinkedList::Main();
 	//Solution2022::AsteroidCollision::Main();
 	//Solution2022::FindLeavesofBinaryTree::Main();
-	//Solution2022::MaxStack::Main();
 	//Solution2022::EvaluateDivision::Main();
 	//Solution2022::ReverseInteger::Main();
 	//Solution2022::CopyListwithRandomPointer::Main();
@@ -1582,7 +1586,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::TrimaBinarySearchTree::Main();
 	//Solution2022::ValidAnagram::Main();
 	//Solution2022::BoundaryofBinaryTree::Main();
-	//Solution2022::SumofSubarrayMinimums::Main();
 	//Solution2022::StringtoInteger::Main();
 	//Solution2022::TweetCountsPerFrequency::Main();
 	//Solution2022::ReversePairs::Main();
