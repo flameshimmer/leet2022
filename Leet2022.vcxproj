@@ -153,6 +153,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AddTwoNumbers.cpp" />
+    <ClCompile Include="AnalyzeUserWebsiteVisitPattern.cpp" />
     <ClCompile Include="BestTimetoBuyandSellStock.cpp" />
     <ClCompile Include="BinarySearch.cpp" />
     <ClCompile Include="BinaryTreeVerticalOrderTraversal.cpp" />
@@ -161,6 +162,7 @@
     <ClCompile Include="ClimbingStairs.cpp" />
     <ClCompile Include="Combinations.cpp" />
     <ClCompile Include="ContainerWithMostWater.cpp" />
+    <ClCompile Include="ContainsDuplicate.cpp" />
     <ClCompile Include="CountUniqueCharactersofAllSubstringsofaGivenString.cpp" />
     <ClCompile Include="DecodeString.cpp" />
     <ClCompile Include="DesignFileSystem.cpp" />
@@ -188,8 +190,10 @@
     <ClCompile Include="LRUCache.cpp" />
     <ClCompile Include="MaxAreaofIsland.cpp" />
     <ClCompile Include="MaximumSubarray.cpp" />
+    <ClCompile Include="MaxStack.cpp" />
     <ClCompile Include="MeetingRoomsII.cpp" />
     <ClCompile Include="MergeIntervals.cpp" />
+    <ClCompile Include="MergeSortedArray.cpp" />
     <ClCompile Include="MergeTwoBinaryTrees.cpp" />
     <ClCompile Include="MergeTwoSortedLists.cpp" />
     <ClCompile Include="MiddleoftheLinkedList.cpp" />
@@ -208,15 +212,19 @@
     <ClCompile Include="PowerofTwo.cpp" />
     <ClCompile Include="RandomPickwithWeight.cpp" />
     <ClCompile Include="ReconstructOriginalDigitsfromEnglish.cpp" />
+    <ClCompile Include="RemoveAllAdjacentDuplicatesInString.cpp" />
+    <ClCompile Include="RemoveAllAdjacentDuplicatesinStringII.cpp" />
     <ClCompile Include="RemoveNthNodeFromEndofList.cpp" />
     <ClCompile Include="ReverseBits.cpp" />
     <ClCompile Include="ReverseLinkedList.cpp" />
     <ClCompile Include="ReverseString.cpp" />
     <ClCompile Include="ReverseWordsinaStringIII.cpp" />
+    <ClCompile Include="RobotBoundedInCircle.cpp" />
     <ClCompile Include="RomantoInteger.cpp" />
     <ClCompile Include="RotateArray.cpp" />
     <ClCompile Include="RottingOranges.cpp" />
     <ClCompile Include="SearchInsertPosition.cpp" />
+    <ClCompile Include="ShortestPathinBinaryMatrix.cpp" />
     <ClCompile Include="ShortestWordDistance.cpp" />
     <ClCompile Include="ShortestWordDistanceII.cpp" />
     <ClCompile Include="ShortestWordDistanceIII.cpp" />
@@ -227,9 +235,12 @@
     <ClCompile Include="StringCompression.cpp" />
     <ClCompile Include="SubarraySumEqualsK.cpp" />
     <ClCompile Include="SubdomainVisitCount.cpp" />
+    <ClCompile Include="SumofSubarrayMinimums.cpp" />
+    <ClCompile Include="SumofSubarrayRanges.cpp" />
     <ClCompile Include="Test.cpp" />
     <ClCompile Include="TextJustification.cpp" />
     <ClCompile Include="ThreeSum.cpp" />
+    <ClCompile Include="ThreeSumWithMultiplicity.cpp" />
     <ClCompile Include="TotalAppealofAString.cpp" />
     <ClCompile Include="TrappingRainWater.cpp" />
     <ClCompile Include="TreeHelpers.cpp" />

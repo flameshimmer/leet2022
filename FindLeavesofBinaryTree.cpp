@@ -38,9 +38,23 @@ namespace Solution2022
 	 *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 	 * };
 	 */
+		
+		int helper(TreeNode* root, vector<vector<int>>& result) {
+			if (!root) { return -1; }
+
+			int curLevel = max(helper(root->left, result), helper(root->right, result)) + 1;
+			if (curLevel + 1 > result.size()) {
+				result.push_back({});
+			}
+			result[curLevel].push_back(root->val);
+			return curLevel;
+		}
+
 	    vector<vector<int>> findLeaves(TreeNode* root) {
-	        
-	    }
+			vector<vector<int>> result;
+			helper(root, result);
+			return result;
+		}
 
 		void Main() {
 			string test = "tst test test";

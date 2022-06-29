@@ -45,13 +45,32 @@ namespace Solution2022
 {
 	namespace MergeSortedArray
 	{
-	    void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
-	        
-	    }
+		void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
+			if (n == 0) { return; }
+
+			int i = m - 1;
+			int j = n - 1;
+			int copy = m + n - 1;
+			
+			while (j >= 0) {
+				bool arr1Larger = (i >= 0 ? nums1[i] : INT_MIN) > nums2[j];
+				if (arr1Larger) {
+					nums1[copy] = nums1[i];
+					i--;
+				}
+				else {
+					nums1[copy] = nums2[j];
+					j--;
+				}
+				copy--;
+			}
+			return;
+		}
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			vector<int> a = { 2, 0 };
+			vector<int> b = { 1 };
+			merge(a, 1, b, 1);
 		}
 	}
 }

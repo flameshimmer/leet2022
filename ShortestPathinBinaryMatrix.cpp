@@ -32,13 +32,50 @@ namespace Solution2022
 {
 	namespace ShortestPathinBinaryMatrix
 	{
+
 	    int shortestPathBinaryMatrix(vector<vector<int>>& grid) {
-	        
+			int rowCount = grid.size();
+			if (rowCount == 0) { return -1; }
+			int colCount = grid[0].size();
+			if (colCount == 0) { return -1; }
+			if (grid[0][0] == 1 || grid[rowCount - 1][colCount - 1] == 1) { return -1; }
+			if (rowCount == 1 && colCount == 1) { return 1; }
+			
+			vector<vector<bool>> visited(rowCount, vector<bool>(colCount, false));
+			queue<pair<int, int>> q;
+			q.push({ 0, 0 });
+			visited[0][0] = true;
+
+			vector<vector<int>> dirs = { {1, 0},{-1, 0},{0, 1},{0, -1},{1, -1},{-1, 1},{1, 1},{-1, -1} };
+			int result = 1;
+
+			while (!q.empty()) {
+				int sz = q.size();
+				
+				while (sz) {
+					sz--;
+					
+					auto [x, y] = q.front();
+					q.pop();
+
+					if (x == rowCount - 1 && y == colCount - 1) { return result; }
+
+					for (auto& dir : dirs) {
+						int a = x + dir[0];
+						int b = y + dir[1];
+						if (a < 0 || a >= rowCount || b < 0 || b >= colCount || visited[a][b] || grid[x][y]) { continue; }
+						visited[a][b] = true;
+						q.push({ a, b });
+					}
+				}
+				result++;
+			}
+			return -1;
 	    }
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			vector<vector<int>> test = { {0,1},{1,0} };
+			print(shortestPathBinaryMatrix(test));
 		}
 	}
 }

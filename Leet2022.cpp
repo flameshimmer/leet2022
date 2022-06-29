@@ -158,7 +158,14 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::SumofSubarrayRanges::Main();
 	//Solution2022::GasStation::Main();
 	
-	
+	//6/29/2022
+	//Solution2022::MergeSortedArray::Main();
+	//Solution2022::ShortestPathinBinaryMatrix::Main();
+	//Solution2022::RemoveAllAdjacentDuplicatesInString::Main();
+	//Solution2022::RemoveAllAdjacentDuplicatesinStringII::Main();
+	//Solution2022::FindLeavesofBinaryTree::Main();
+
+
 	//====Problem Ends====
 	//Solution2022::FirstMissingPositive::Main();
 	//Solution2022::MergekSortedLists::Main();
@@ -166,7 +173,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::WordLadder::Main();
 	//Solution2022::NestedListWeightSumII::Main();
 	//Solution2022::KClosestPointstoOrigin::Main();
-	//Solution2022::ShortestPathinBinaryMatrix::Main();
 	//Solution2022::TopKFrequentElements::Main();
 	//Solution2022::AlertUsingSameKeyCardThreeorMoreTimesinaOneHourPeriod::Main();
 	//Solution2022::SearchSuggestionsSystem::Main();
@@ -175,7 +181,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::WordSearchII::Main();	
 	//Solution2022::SpiralMatrix::Main();
 	//Solution2022::ShortestPathinaGridwithObstaclesElimination::Main();
-	//Solution2022::RemoveAllAdjacentDuplicatesinStringII::Main();
 	//Solution2022::GameofLife::Main();
 	//Solution2022::AlienDictionary::Main();
 	//Solution2022::SearchinRotatedSortedArray::Main();
@@ -184,7 +189,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::RangeSumofBST::Main();
 	//Solution2022::ConvertBinarySearchTreetoSortedDoublyLinkedList::Main();
 	//Solution2022::AsteroidCollision::Main();
-	//Solution2022::FindLeavesofBinaryTree::Main();
 	//Solution2022::EvaluateDivision::Main();
 	//Solution2022::ReverseInteger::Main();
 	//Solution2022::CopyListwithRandomPointer::Main();
@@ -1212,7 +1216,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::DesignFileSystem::Main();
 	//Solution2022::BurstBalloons::Main();
 	//Solution2022::ExclusiveTimeofFunctions::Main();
-	//Solution2022::MergeSortedArray::Main();
 	//Solution2022::LFUCache::Main();
 	//Solution2022::PalindromeLinkedList::Main();
 	//Solution2022::CourseScheduleII::Main();
@@ -1260,7 +1263,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::SequentialDigits::Main();
 	//Solution2022::MakingALargeIsland::Main();
 	//Solution2022::ReorganizeString::Main();
-	//Solution2022::RemoveAllAdjacentDuplicatesInString::Main();
 	//Solution2022::CombinationSum::Main();
 	//Solution2022::ReformatDate::Main();
 	//Solution2022::MaxAreaofIsland::Main();

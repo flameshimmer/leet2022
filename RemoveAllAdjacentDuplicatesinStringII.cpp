@@ -34,13 +34,51 @@ namespace Solution2022
 {
 	namespace RemoveAllAdjacentDuplicatesinStringII
 	{
-	    string removeDuplicates(string s, int k) {
-	        
-	    }
+		namespace UseStack {
+			string removeDuplicates(string str, int k) {
+				stack<pair<char, int>> s;
+				for (char c : str) {
+					if (s.empty() || s.top().first != c) {
+						s.push({ c, 1 });
+					}
+					else {
+						s.top().second++;
+						if (s.top().second == k) {
+							s.pop();
+						}
+					}
+				}
+
+				string result = "";
+				while (!s.empty()) {
+					result = string(s.top().second, s.top().first) + result;
+					s.pop();				
+				}
+				return result;
+			}
+		}
+		
+		string removeDuplicates(string s, int k) {
+			vector<int> count(s.size(), 0);
+
+			for (int i = 0; i < s.size(); i++) {
+				if (i == 0 || s[i] != s[i - 1]) {
+					count[i] = 1;
+					continue;
+				}
+				count[i] = count[i-1] + 1;
+				if (count[i] == k) {
+					s = s.erase(i - k + 1, k);
+					//s = s.substr(0, i + 1 - k) + s.substr(i + 1);
+					i -= k;
+				}
+			}
+			return s;
+		}
 
 		void Main() {
 			string test = "tst test test";
-			print(test);
+			print(removeDuplicates("deeedbbcccbdaa", 3));
 		}
 	}
 }
