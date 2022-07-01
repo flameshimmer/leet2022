@@ -165,23 +165,27 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::RemoveAllAdjacentDuplicatesinStringII::Main();
 	//Solution2022::FindLeavesofBinaryTree::Main();
 
+	//6/30/2022
+	//Solution2022::UniqueNumberofOccurrences::Main();
+	//Solution2022::AlertUsingSameKeyCardThreeorMoreTimesinaOneHourPeriod::Main();
+	//Solution2022::NestedListWeightSumII::Main();
+	//Solution2022::GameofLife::Main();
+	//Solution2022::MovingAveragefromDataStream::Main();
+
+	
 
 	//====Problem Ends====
 	//Solution2022::FirstMissingPositive::Main();
 	//Solution2022::MergekSortedLists::Main();
 	//Solution2022::MedianofTwoSortedArrays::Main();	
 	//Solution2022::WordLadder::Main();
-	//Solution2022::NestedListWeightSumII::Main();
 	//Solution2022::KClosestPointstoOrigin::Main();
 	//Solution2022::TopKFrequentElements::Main();
-	//Solution2022::AlertUsingSameKeyCardThreeorMoreTimesinaOneHourPeriod::Main();
 	//Solution2022::SearchSuggestionsSystem::Main();
-	//Solution2022::BinarySearch::Main();
 	//Solution2022::MinimumAddtoMakeParenthesesValid::Main();
 	//Solution2022::WordSearchII::Main();	
 	//Solution2022::SpiralMatrix::Main();
 	//Solution2022::ShortestPathinaGridwithObstaclesElimination::Main();
-	//Solution2022::GameofLife::Main();
 	//Solution2022::AlienDictionary::Main();
 	//Solution2022::SearchinRotatedSortedArray::Main();
 	//Solution2022::RotateImage::Main();
@@ -201,7 +205,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::MaximumProfitinJobScheduling::Main();
 	//Solution2022::ProductofArrayExceptSelf::Main();
 	//Solution2022::CarPooling::Main();
-	//Solution2022::MovingAveragefromDataStream::Main();
 	//Solution2022::DesignHitCounter::Main();
 	//Solution2022::TopKFrequentWords::Main();
 	//Solution2022::MergeTwoSortedLists::Main();
@@ -1206,7 +1209,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::FindtheKthSmallestSumofaMatrixWithSortedRows::Main();
 	//Solution2022::RearrangeWordsinaSentence::Main();
 	//Solution2022::MaximumSwap::Main();
-	//Solution2022::UniqueNumberofOccurrences::Main();
 	//Solution2022::Minesweeper::Main();
 	//Solution2022::CustomSortString::Main();
 	//Solution2022::FlattenNestedListIterator::Main();

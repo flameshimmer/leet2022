@@ -153,6 +153,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AddTwoNumbers.cpp" />
+    <ClCompile Include="AlertUsingSameKeyCardThreeorMoreTimesinaOneHourPeriod.cpp" />
     <ClCompile Include="AnalyzeUserWebsiteVisitPattern.cpp" />
     <ClCompile Include="BestTimetoBuyandSellStock.cpp" />
     <ClCompile Include="BinarySearch.cpp" />
@@ -171,6 +172,7 @@
     <ClCompile Include="FirstBadVersion.cpp" />
     <ClCompile Include="FizzBuzz.cpp" />
     <ClCompile Include="FloodFill.cpp" />
+    <ClCompile Include="GameofLife.cpp" />
     <ClCompile Include="GenerateParentheses.cpp" />
     <ClCompile Include="GroupAnagrams.cpp" />
     <ClCompile Include="Helpers.cpp" />
@@ -199,7 +201,9 @@
     <ClCompile Include="MiddleoftheLinkedList.cpp" />
     <ClCompile Include="MinimumRemovetoMakeValidParentheses.cpp" />
     <ClCompile Include="MoveZeroes.cpp" />
+    <ClCompile Include="MovingAveragefromDataStream.cpp" />
     <ClCompile Include="NestedListWeightSum.cpp" />
+    <ClCompile Include="NestedListWeightSumII.cpp" />
     <ClCompile Include="NextPermutation.cpp" />
     <ClCompile Include="NumberofIslands.cpp" />
     <ClCompile Include="NumberofOneBits.cpp" />
@@ -247,6 +251,7 @@
     <ClCompile Include="Triangle.cpp" />
     <ClCompile Include="TwoSum.cpp" />
     <ClCompile Include="TwoSumIIInputArrayIsSorted.cpp" />
+    <ClCompile Include="UniqueNumberofOccurrences.cpp" />
     <ClCompile Include="ValidPalindromeII.cpp" />
     <ClCompile Include="ValidParentheses.cpp" />
     <ClCompile Include="ValidWordAbbreviation.cpp" />

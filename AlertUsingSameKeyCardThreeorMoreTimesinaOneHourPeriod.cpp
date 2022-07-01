@@ -42,12 +42,40 @@ namespace Solution2022
 	namespace AlertUsingSameKeyCardThreeorMoreTimesinaOneHourPeriod
 	{
 	    vector<string> alertNames(vector<string>& keyName, vector<string>& keyTime) {
-	        
+			vector<string> result;
+			int len = keyName.size();
+			if (len < 3) { return result; }
+
+			map<string, vector<int>> data;
+
+			for (int i = 0; i < len; i++) {
+				string timeStr = keyTime[i];
+				int timeInMin = ((timeStr[0] - '0') * 10 + (timeStr[1] - '0')) * 60 + ((timeStr[3] - '0') * 10 + (timeStr[4] - '0'));
+				// above can also be stoi(timeStr[i].substr(0, 2)) * 60 + stoi(timeStr[i].substr(3))
+				data[keyName[i]].push_back(timeInMin);
+			}
+			
+			for (auto& [name, times] : data) {
+				sort(times.begin(), times.end());
+				for (int i = 0; i < times.size(); i++) {
+					int j = std::upper_bound(times.begin(), times.end(), times[i] + 60) - times.begin();
+					if (j - i >= 3) {
+						result.push_back(name);
+						break; 
+					}
+				}
+			}
+			return result;
 	    }
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			vector<string> names = { "daniel", "daniel", "daniel", "luis", "luis", "luis", "luis" };
+			vector<string> times = { "10:00", "10:40", "11:00", "09:00", "11:00", "13:00", "15:00" };
+			//print(alertNames(names, times));
+
+			names = { "a", "a", "a", "a", "a", "b", "b", "b", "b", "b", "b" };
+			times = {"23:20", "11:09", "23:30", "23:02", "15:28", "22:57", "23:40", "03:43", "21:55", "20:38", "00:19"};
+			print(alertNames(names, times));
 		}
 	}
 }

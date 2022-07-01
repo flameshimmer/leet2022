@@ -318,6 +318,21 @@
     <ClCompile Include="RemoveAllAdjacentDuplicatesinStringII.cpp">
       <Filter>Solution2022</Filter>
     </ClCompile>
+    <ClCompile Include="UniqueNumberofOccurrences.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="AlertUsingSameKeyCardThreeorMoreTimesinaOneHourPeriod.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="NestedListWeightSumII.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="GameofLife.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="MovingAveragefromDataStream.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Solution2022.h">
