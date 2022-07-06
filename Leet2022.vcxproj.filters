@@ -333,6 +333,21 @@
     <ClCompile Include="MovingAveragefromDataStream.cpp">
       <Filter>Solution2022</Filter>
     </ClCompile>
+    <ClCompile Include="KClosestPointstoOrigin.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="TopKFrequentElements.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="FirstMissingPositive.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="RangeSumofBST.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="ReorderDatainLogFiles.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Solution2022.h">

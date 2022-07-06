@@ -41,7 +41,26 @@ namespace Solution2022
 	namespace ReorderDatainLogFiles
 	{
 	    vector<string> reorderLogFiles(vector<string>& logs) {
-	        
+			auto comp = [](string a, string b) {
+				int p1 = a.find(' ');
+				int p2 = b.find(' ');
+
+				if (isalpha(a[p1 + 1]) && isalpha(b[p2 + 1])) {
+					if (a.substr(p1 + 1) != b.substr(p2 + 1)) {
+						return a.substr(p1 + 1) < b.substr(p2 + 1);
+					}
+					else {
+						return a.substr(0, p1) < b.substr(0, p2);
+					}
+				}
+				else {
+					if (isalpha(a[p1 + 1])) { return true; }
+					return false;
+				}
+			};
+
+			stable_sort(logs.begin(), logs.end(), comp);
+			return logs;
 	    }
 
 		void Main() {

@@ -47,8 +47,24 @@ namespace Solution2022
 {
 	namespace SearchSuggestionsSystem
 	{
-	    vector<vector<string>> suggestedProducts(vector<string>& products, string searchWord) {
-	        
+	    vector<vector<string>> suggestedProducts(vector<string>& A, string searchWord) {
+			sort(A.begin(), A.end());
+			
+			vector<vector<string>> results;
+			string cur = "";
+
+			for (char c : searchWord) {
+				cur += c;
+				vector<string> result;
+				auto it = lower_bound(A.begin(), A.end(), cur);
+				for (int i = 0; i < 3 && it + i < A.end(); i++) {
+					string& s = *(it + i);
+					if (s.find(cur) == string::npos) { break; }
+					result.push_back(s);
+				}
+				results.push_back(result);
+			}
+			return results;
 	    }
 
 		void Main() {

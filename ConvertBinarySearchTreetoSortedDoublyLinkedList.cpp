@@ -31,35 +31,63 @@ namespace Solution2022
 {
 	namespace ConvertBinarySearchTreetoSortedDoublyLinkedList
 	{
-	/*
-	// Definition for a Node.
-	class Node {
-	    int val;
-	    Node* left;
-	    Node* right;
-	​
-	    Node() {}
-	​
-	    Node(int _val) {
-	        val = _val;
-	        left = NULL;
-	        right = NULL;
-	    }
-	​
-	    Node(int _val, Node* _left, Node* _right) {
-	        val = _val;
-	        left = _left;
-	        right = _right;
-	    }
-	*/
-	​
-	    Node* treeToDoublyList(Node* root) {
-	        
-	    }
 
-		void Main() {
-			string test = "tst test test";
-			print(test);
+		// Definition for a Node.
+		class Node {
+			int val;
+			Node* left;
+			Node* right;
+
+			Node() {}
+
+			Node(int _val) {
+				val = _val;
+				left = NULL;
+				right = NULL;
+			}
+
+			Node(int _val, Node* _left, Node* _right) {
+				val = _val;
+				left = _left;
+				right = _right;
+			}
+
+
+			void helper(Node* n, Node*& head, Node*& prev) {
+				if (!head && !n->left) {
+					head = n;
+					prev = n;
+				}
+
+				Node* left = n->left;
+				Node* right = n->right;
+
+				if (left) { helper(left, head, prev); }
+
+				prev->right = n;
+				n->left = prev;
+				prev = n;
+
+				if (right) { helper(right, head, prev); }			
+			}
+
+
+			Node* treeToDoublyList(Node* root) {
+				if (!root) { return nullptr; }
+
+				Node* head = nullptr;
+				Node* prev = nullptr;
+
+				helper(root, head, prev);
+
+				head->left = prev;
+				prev->right = head;
+				return head;
+			}
+
+			void Main() {
+				string test = "tst test test";
+				print(test);
+			}
 		}
 	}
-}

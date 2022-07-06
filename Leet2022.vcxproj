@@ -170,6 +170,7 @@
     <ClCompile Include="DesignInMemoryFileSystem.cpp" />
     <ClCompile Include="DotProductofTwoSparseVectors.cpp" />
     <ClCompile Include="FirstBadVersion.cpp" />
+    <ClCompile Include="FirstMissingPositive.cpp" />
     <ClCompile Include="FizzBuzz.cpp" />
     <ClCompile Include="FloodFill.cpp" />
     <ClCompile Include="GameofLife.cpp" />
@@ -179,6 +180,7 @@
     <ClCompile Include="HouseRobber.cpp" />
     <ClCompile Include="InsertDeleteGetRandomO.cpp" />
     <ClCompile Include="IntegertoEnglishWords.cpp" />
+    <ClCompile Include="KClosestPointstoOrigin.cpp" />
     <ClCompile Include="KthLargestElementinanArray.cpp" />
     <ClCompile Include="Leet2022.cpp" />
     <ClCompile Include="LetterCasePermutation.cpp" />
@@ -215,10 +217,12 @@
     <ClCompile Include="Pow.cpp" />
     <ClCompile Include="PowerofTwo.cpp" />
     <ClCompile Include="RandomPickwithWeight.cpp" />
+    <ClCompile Include="RangeSumofBST.cpp" />
     <ClCompile Include="ReconstructOriginalDigitsfromEnglish.cpp" />
     <ClCompile Include="RemoveAllAdjacentDuplicatesInString.cpp" />
     <ClCompile Include="RemoveAllAdjacentDuplicatesinStringII.cpp" />
     <ClCompile Include="RemoveNthNodeFromEndofList.cpp" />
+    <ClCompile Include="ReorderDatainLogFiles.cpp" />
     <ClCompile Include="ReverseBits.cpp" />
     <ClCompile Include="ReverseLinkedList.cpp" />
     <ClCompile Include="ReverseString.cpp" />
@@ -245,6 +249,7 @@
     <ClCompile Include="TextJustification.cpp" />
     <ClCompile Include="ThreeSum.cpp" />
     <ClCompile Include="ThreeSumWithMultiplicity.cpp" />
+    <ClCompile Include="TopKFrequentElements.cpp" />
     <ClCompile Include="TotalAppealofAString.cpp" />
     <ClCompile Include="TrappingRainWater.cpp" />
     <ClCompile Include="TreeHelpers.cpp" />

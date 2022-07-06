@@ -17,18 +17,17 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::Test::Main(); // Medium
 
 	//====Problem Starts====
-	// 6/1/2022
+	//6/1/2022
 	//Solution2022::BinarySearch::Main();
 	//Solution2022::FirstBadVersion::Main();
 	//Solution2022::SearchInsertPosition::Main();
 
-
-	// 6/2/2022
+	//6/2/2022
 	//Solution2022::SquaresofaSortedArray::Main();
 	//Solution2022::RotateArray::Main();
 	//Solution2022::MoveZeroes::Main();
 	
-	// 6/3/2022
+	//6/3/2022
 	//Solution2022::TwoSumIIInputArrayIsSorted::Main();
 	//Solution2022::ReverseString::Main();
 	//Solution2022::ReverseWordsinaStringIII::Main();
@@ -172,16 +171,21 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::GameofLife::Main();
 	//Solution2022::MovingAveragefromDataStream::Main();
 
-	
-
-	//====Problem Ends====
-	//Solution2022::FirstMissingPositive::Main();
-	//Solution2022::MergekSortedLists::Main();
-	//Solution2022::MedianofTwoSortedArrays::Main();	
-	//Solution2022::WordLadder::Main();
+	//7/5/2022
 	//Solution2022::KClosestPointstoOrigin::Main();
 	//Solution2022::TopKFrequentElements::Main();
+
+	//7/6/2022
+	//Solution2022::FirstMissingPositive::Main();
+	//Solution2022::RangeSumofBST::Main();	
+	//Solution2022::ReorderDatainLogFiles::Main();
+	//Solution2022::ConvertBinarySearchTreetoSortedDoublyLinkedList::Main();
 	//Solution2022::SearchSuggestionsSystem::Main();
+
+	//====Problem Ends====
+	//Solution2022::MedianofTwoSortedArrays::Main();	
+	//Solution2022::WordLadder::Main();
+	//Solution2022::MergekSortedLists::Main();
 	//Solution2022::MinimumAddtoMakeParenthesesValid::Main();
 	//Solution2022::WordSearchII::Main();	
 	//Solution2022::SpiralMatrix::Main();
@@ -190,8 +194,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::SearchinRotatedSortedArray::Main();
 	//Solution2022::RotateImage::Main();
 	//Solution2022::BasicCalculator::Main();
-	//Solution2022::RangeSumofBST::Main();
-	//Solution2022::ConvertBinarySearchTreetoSortedDoublyLinkedList::Main();
 	//Solution2022::AsteroidCollision::Main();
 	//Solution2022::EvaluateDivision::Main();
 	//Solution2022::ReverseInteger::Main();
@@ -199,7 +201,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::RegularExpressionMatching::Main();
 	//Solution2022::FindPeakElement::Main();
 	//Solution2022::SlidingWindowMaximum::Main();
-	//Solution2022::ReorderDatainLogFiles::Main();
 	//Solution2022::CoinChange::Main();
 	//Solution2022::VerticalOrderTraversalofaBinaryTree::Main();
 	//Solution2022::MaximumProfitinJobScheduling::Main();

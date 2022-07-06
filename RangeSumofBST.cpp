@@ -36,10 +36,37 @@ namespace Solution2022
 	 *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 	 * };
 	 */
-	    int rangeSumBST(TreeNode* root, int low, int high) {
-	        
-	    }
+		namespace Recursive {
+			int rangeSumBST(TreeNode* root, int low, int high) {
+				if (!root) { return 0; }
+				int result = 0;
+				if (root->val >= low && root->val <= high) { result += root->val; }
+				if (root->val > low) { result += rangeSumBST(root->left, low, high); }
+				if (root->val < high) { result += rangeSumBST(root->right, low, high); }
+				return result;
+			}
 
+		}
+		namespace Iterative {
+			int rangeSumBST(TreeNode* root, int low, int high) {
+				if (!root) { return 0; }
+				
+				stack<TreeNode*> s;
+				s.push(root);
+				int result = 0;
+				
+				while (!s.empty()) {
+					TreeNode* top = s.top();
+					s.pop();
+					if (top->val >= low && top->val <= high) { result += top->val; }
+					if (top->val > low && top->left) { s.push(top->left); }
+					if (top->val < high && top->right) { s.push(top->right); }				
+				}
+				return result;
+			}
+
+		}
+	
 		void Main() {
 			string test = "tst test test";
 			print(test);
