@@ -34,6 +34,7 @@ namespace Solution2022
 
 		// Definition for a Node.
 		class Node {
+		public:
 			int val;
 			Node* left;
 			Node* right;
@@ -51,43 +52,44 @@ namespace Solution2022
 				left = _left;
 				right = _right;
 			}
+		};
 
 
-			void helper(Node* n, Node*& head, Node*& prev) {
-				if (!head && !n->left) {
-					head = n;
-					prev = n;
-				}
-
-				Node* left = n->left;
-				Node* right = n->right;
-
-				if (left) { helper(left, head, prev); }
-
-				prev->right = n;
-				n->left = prev;
+		void helper(Node* n, Node*& head, Node*& prev) {
+			if (!head && !n->left) {
+				head = n;
 				prev = n;
-
-				if (right) { helper(right, head, prev); }			
 			}
 
+			Node* left = n->left;
+			Node* right = n->right;
 
-			Node* treeToDoublyList(Node* root) {
-				if (!root) { return nullptr; }
+			if (left) { helper(left, head, prev); }
 
-				Node* head = nullptr;
-				Node* prev = nullptr;
+			prev->right = n;
+			n->left = prev;
+			prev = n;
 
-				helper(root, head, prev);
+			if (right) { helper(right, head, prev); }
+		}
 
-				head->left = prev;
-				prev->right = head;
-				return head;
-			}
 
-			void Main() {
-				string test = "tst test test";
-				print(test);
-			}
+		Node* treeToDoublyList(Node* root) {
+			if (!root) { return nullptr; }
+
+			Node* head = nullptr;
+			Node* prev = nullptr;
+
+			helper(root, head, prev);
+
+			head->left = prev;
+			prev->right = head;
+			return head;
+		}
+
+		void Main() {
+			string test = "tst test test";
+			print(test);
 		}
 	}
+}

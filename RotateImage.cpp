@@ -23,13 +23,72 @@ namespace Solution2022
 {
 	namespace RotateImage
 	{
-	    void rotate(vector<vector<int>>& matrix) {
-	        
-	    }
+		namespace RingOfFourByRingOfFour {
+			void rotate(vector<vector<int>>& m) {
+				int a = 0;
+				int b = m.size() - 1;
+				for (int i = 0; i < b - a; i++) {
+					swap(m[a][a + i], m[a + i][b]);
+					swap(m[a][a + i], m[b][b - i]);
+					swap(m[a][a + i], m[b - i][a]);
+				}
+				a++;
+				b--;			
+			}
+/*
+		Input
+		1, 2, 3
+		4, 5, 6
+		7, 8, 9
+
+
+		for-loop 1
+		swap1               swap2               swap3
+		1<->3               3<->9              9<->7
+
+		3, 2, 1            9, 2, 1            7, 2, 1
+		4, 5, 6    =>      4, 5, 6    =>      4, 5, 6
+		7, 8, 9            7, 8, 3            9, 8, 3
+
+
+
+		for-loop 2
+		swap1              swap2              swap3
+		2<->6              6<->8              8<->4
+
+		7, 6, 1            7, 8, 1            7, 4, 1
+		4, 5, 2    =>      4, 5, 2    =>      8, 5, 2
+		9, 8, 3            9, 6, 3            9, 6, 3
+
+
+		output
+		7, 4, 1,
+		8, 5, 2,
+		9, 6, 3,
+*/
+		}
+		namespace TransposeThenReverse {
+			void rotate(vector<vector<int>>& matrix) {
+				int rowCount = matrix.size();
+				if (rowCount == 0) { return; }
+				int colCount = matrix[0].size();
+				if (colCount == 0) { return; }
+
+				for (int i = 0; i < rowCount; i++) {
+					for (int j = i; j < colCount; j++) { // note j starts from i!!!
+						swap(matrix[i][j], matrix[j][i]);
+					}
+				}
+				for (auto& row : matrix) {
+					reverse(row.begin(), row.end());
+				}
+			}
+		}
+	    
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			vector<vector<int>> test = { {1,2,3},{4,5,6},{7,8,9} };
+			RingOfFourByRingOfFour::rotate(test);
 		}
 	}
 }

@@ -27,8 +27,28 @@ namespace Solution2022
 	namespace ReverseInteger
 	{
 	    int reverse(int x) {
-	        
+			int result = 0;
+			while (x) {
+				int remain = x % 10;
+				x /= 10;
+				if (result > INT_MAX / 10 || result == INT_MAX / 10 && remain > 7) { return 0; }
+				if (result < INT_MIN / 10 || result == INT_MIN / 10 && remain < -8) { return 0; }
+				result = result * 10 + remain;
+			}
+			return result;
 	    }
+
+		namespace UseLonglong {			
+			int reverse(int x) {
+				long long result = 0;
+				while (x) {
+					result = result * 10 + x % 10;
+					x /= 10;
+				}
+				if (result > INT_MAX || result < INT_MIN) { return 0; }
+				return (int)result;
+			}		
+		}
 
 		void Main() {
 			string test = "tst test test";

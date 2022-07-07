@@ -348,6 +348,24 @@
     <ClCompile Include="ReorderDatainLogFiles.cpp">
       <Filter>Solution2022</Filter>
     </ClCompile>
+    <ClCompile Include="ConvertBinarySearchTreetoSortedDoublyLinkedList.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="MinimumAddtoMakeParenthesesValid.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="ShortestPathinaGridwithObstaclesElimination.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="RotateImage.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="EvaluateDivision.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="ReverseInteger.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Solution2022.h">

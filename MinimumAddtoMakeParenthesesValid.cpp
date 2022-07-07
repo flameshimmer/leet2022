@@ -28,8 +28,18 @@ namespace Solution2022
 {
 	namespace MinimumAddtoMakeParenthesesValid
 	{
-	    int minAddToMakeValid(string s) {
-	        
+	    int minAddToMakeValid(string str) {
+			int result = 0;
+			int cur = 0;
+			for (char c : str) {
+				if (c == '(') { cur++; }
+				else if (c == ')') {
+					if (cur > 0) { cur--; }
+					else { result++; }
+				}
+			}
+			result += cur;
+			return result;
 	    }
 
 		void Main() {

@@ -46,13 +46,53 @@ namespace Solution2022
 {
 	namespace EvaluateDivision
 	{
-	    vector<double> calcEquation(vector<vector<string>>& equations, vector<double>& values, vector<vector<string>>& queries) {
-	        
-	    }
+		bool helper(string& start, string& end, unordered_map<string, vector<pair<string, double>>>& children, unordered_map<string, bool>& visited, double result, vector<double>& results) {
+			if (start == end) {
+				results.push_back(result);
+				return true;
+			}
+
+			bool found = false;
+			visited[start] = true;
+			for (auto& [child, weight] : children[start]) {
+				if (!visited[child]) {
+					if (helper(child, end, children, visited, result * weight, results)) { found = true; break; }
+				}
+			}
+			visited[start] = false;
+			return found;
+		}
+
+		vector<double> calcEquation(vector<vector<string>>& equations, vector<double>& values, vector<vector<string>>& queries) {
+			int len1 = equations.size();
+			int len2 = queries.size();
+			if (len1 == 0 || len2 == 0) { return {}; }
+
+			vector<double> results;
+			unordered_map<string, vector<pair<string, double>>> children;
+			unordered_map<string, bool> visited;
+
+			for (int i = 0; i < len1; i++) {
+				children[equations[i][0]].push_back({ equations[i][1], values[i] });
+				children[equations[i][1]].push_back({ equations[i][0], 1 / values[i] });
+				visited[equations[i][0]] = false;
+				visited[equations[i][1]] = false;
+			}
+
+			for (auto& q : queries) {
+				if ((children.find(q[0]) == children.end() || children.find(q[1]) == children.end()) 
+					|| !helper(q[0], q[1], children, visited, 1, results)) {
+					results.push_back(-1);
+				}
+			}
+			return results;
+		}
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			vector<vector<string>> equations = { { "a", "b" }, { "c", "d" } };
+			vector<vector<string>> queries = { {"x", "x"} };
+			vector<double> values = { 1, 1 };
+			calcEquation(equations, values, queries);
 		}
 	}
 }

@@ -34,12 +34,39 @@ namespace Solution2022
 	namespace ShortestPathinaGridwithObstaclesElimination
 	{
 	    int shortestPath(vector<vector<int>>& grid, int k) {
-	        
+			int rowCount = grid.size();
+			if (rowCount == 0) { return 0; }
+			int colCount = grid[0].size();
+			if (colCount == 0) { return 0; }
+
+			queue<tuple<int, int, int, int>> q;
+			
+			vector<vector<int>> visited(rowCount, vector<int>(colCount, -1));
+			vector<pair<int, int>> dirs = { {1, 0}, {-1, 0}, {0, 1}, {0, -1}};
+
+			q.push({ 0, 0, k, 0 });
+			while (!q.empty()) {
+				auto [x, y, kk, r] = q.front();
+				q.pop();
+
+				if (x < 0 || x >= rowCount || y < 0 || y >= colCount) { continue; }									
+				if (x == rowCount - 1 && y == colCount - 1) { return r; }					
+
+				kk -= grid[x][y];
+				if (kk < 0 || visited[x][y] >= kk) { continue; }					
+				visited[x][y] = kk;
+					
+				for (auto& [a, b] : dirs) {
+					q.push({ x+a, y+b, kk, r + 1 });
+				}					
+
+			}
+			return -1;
 	    }
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			vector<vector<int>> test = { {0,0,0},{1,1,0},{0,0,0},{0,1,1},{0,0,0} };
+			print(shortestPath(test, 1));
 		}
 	}
 }

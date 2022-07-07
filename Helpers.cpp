@@ -46,6 +46,22 @@ void print(vector<int> input)
 	cout << input[inputSize - 1] << "\n";
 }
 
+void print(vector<double> input)
+{
+	cout << "\nVector: ";
+	int inputSize = input.size();
+	if (inputSize == 0) {
+		cout << "\n";
+		return;
+	}
+
+	for (int i = 0; i < inputSize - 1; i++)
+	{
+		cout << input[i] << ",";
+	}
+	cout << input[inputSize - 1] << "\n";
+}
+
 void print(vector<string> input)
 {
 	cout << "\nString Vector: \n";

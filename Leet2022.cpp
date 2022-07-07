@@ -182,21 +182,23 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::ConvertBinarySearchTreetoSortedDoublyLinkedList::Main();
 	//Solution2022::SearchSuggestionsSystem::Main();
 
+	//7/7/2022
+	//Solution2022::MinimumAddtoMakeParenthesesValid::Main();
+	//Solution2022::ShortestPathinaGridwithObstaclesElimination::Main();
+	//Solution2022::RotateImage::Main();
+	//Solution2022::EvaluateDivision::Main();
+	//Solution2022::ReverseInteger::Main();
+
 	//====Problem Ends====
+	//Solution2022::BasicCalculator::Main();
 	//Solution2022::MedianofTwoSortedArrays::Main();	
 	//Solution2022::WordLadder::Main();
 	//Solution2022::MergekSortedLists::Main();
-	//Solution2022::MinimumAddtoMakeParenthesesValid::Main();
 	//Solution2022::WordSearchII::Main();	
 	//Solution2022::SpiralMatrix::Main();
-	//Solution2022::ShortestPathinaGridwithObstaclesElimination::Main();
 	//Solution2022::AlienDictionary::Main();
 	//Solution2022::SearchinRotatedSortedArray::Main();
-	//Solution2022::RotateImage::Main();
-	//Solution2022::BasicCalculator::Main();
 	//Solution2022::AsteroidCollision::Main();
-	//Solution2022::EvaluateDivision::Main();
-	//Solution2022::ReverseInteger::Main();
 	//Solution2022::CopyListwithRandomPointer::Main();
 	//Solution2022::RegularExpressionMatching::Main();
 	//Solution2022::FindPeakElement::Main();
