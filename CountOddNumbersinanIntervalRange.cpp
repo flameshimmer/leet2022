@@ -21,9 +21,23 @@ namespace Solution2022
 {
 	namespace CountOddNumbersinanIntervalRange
 	{
-	    int countOdds(int low, int high) {
-	        
-	    }
+		// The number of odds between [0 .. n) is n/2;
+		// The number of odds between [a, b] is the odds in range [0 .. b+1) minus the odds in range [0 .. a)
+		int countOdds(int low, int high) {
+			return (high + 1) / 2 - low / 2;
+		}
+
+		namespace Another {
+			int countOdds(int low, int high) {
+				int len = high - low + 1;
+				int result = len / 2;
+				if (len % 2) {
+					result += low % 2 ? 1 : 0;
+				}
+				return result;
+			}
+		}
+	    
 
 		void Main() {
 			string test = "tst test test";

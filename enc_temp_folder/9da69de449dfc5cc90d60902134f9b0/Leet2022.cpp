@@ -199,7 +199,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::DesignHitCounter::Main();
 	//Solution2022::SearchinRotatedSortedArray::Main();
 	//Solution2022::CarPooling::Main();
-	//Solution2022::DesignFileSystem::Main();
+	Solution2022::DesignFileSystem::Main();
 	//Solution2022::CopyListwithRandomPointer::Main();
 
 

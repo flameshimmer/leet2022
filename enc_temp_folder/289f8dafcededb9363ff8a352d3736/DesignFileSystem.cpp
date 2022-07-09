@@ -50,23 +50,22 @@ namespace Solution2022
 	{
 		class FileSystem {
 		private:
+			
 			class Node {
-			public: 
+			public:
 				int val;
 				unordered_map<string, Node*> children;
-				Node(int v) : val(v) {};
+				Node(int v) : val(v) {}
 			};
 
 			Node* root;
 
-			vector<string> getPathStrings(string& s) {
-				istringstream ss(s);
+			vector<string> getStrings(string& path) {
+				istringstream ss(path);
 				string cur;
 				vector<string> result;
 				while (getline(ss, cur, '/')) {
-					if (!cur.empty()) {
-						result.push_back(cur);
-					}
+					if (!cur.empty()) { result.push_back(cur); }					
 				}
 				return result;
 			}
@@ -77,12 +76,15 @@ namespace Solution2022
 			}
 
 			bool createPath(string path, int value) {
-				vector<string> paths = getPathStrings(path);
-				Node* cur = root;
-				for (int i = 0; i < paths.size() - 1; i++) {
+				vector<string> paths = getStrings(path);
+				
+				Node* cur = root;				
+				for (int i = 0; i < paths.size()-1; i++) {
 					string& p = paths[i];
-					if (cur->children.find(p) == cur->children.end()) { return false; }
-					cur = cur->children[p]; // Don't forget to move forward!!!
+					if (cur->children.find(p) == cur->children.end()) {
+						return false;
+					}
+					cur = cur->children[p];
 				}
 				if (cur->children.find(paths.back()) != cur->children.end()) { return false; }
 				cur->children[paths.back()] = new Node(value);
@@ -90,16 +92,21 @@ namespace Solution2022
 			}
 
 			int get(string path) {
-				vector<string> paths = getPathStrings(path);
+				vector<string> paths = getStrings(path);
 				Node* cur = root;
 				for (string& p : paths) {
-					if (cur->children.find(p) == cur->children.end()) { return -1; }
+					if (cur->children.find(p) == cur->children.end()) {
+						return false;
+					}
 					cur = cur->children[p];
 				}
 				return cur->val;
 			}
 		};
+	/**
+	 * Your FileSystem object will be instantiated and called as such:
 
+	 */
 
 		void Main() {
 			FileSystem* obj = new FileSystem();

@@ -160,14 +160,18 @@
     <ClCompile Include="BinaryTreeVerticalOrderTraversal.cpp" />
     <ClCompile Include="BuildingsWithanOceanView.cpp" />
     <ClCompile Include="BusRoutes.cpp" />
+    <ClCompile Include="CarPooling.cpp" />
     <ClCompile Include="ClimbingStairs.cpp" />
     <ClCompile Include="Combinations.cpp" />
     <ClCompile Include="ContainerWithMostWater.cpp" />
     <ClCompile Include="ContainsDuplicate.cpp" />
     <ClCompile Include="ConvertBinarySearchTreetoSortedDoublyLinkedList.cpp" />
+    <ClCompile Include="CountBinarySubstrings.cpp" />
+    <ClCompile Include="CountOddNumbersinanIntervalRange.cpp" />
     <ClCompile Include="CountUniqueCharactersofAllSubstringsofaGivenString.cpp" />
     <ClCompile Include="DecodeString.cpp" />
     <ClCompile Include="DesignFileSystem.cpp" />
+    <ClCompile Include="DesignHitCounter.cpp" />
     <ClCompile Include="DesignInMemoryFileSystem.cpp" />
     <ClCompile Include="DotProductofTwoSparseVectors.cpp" />
     <ClCompile Include="EvaluateDivision.cpp" />
@@ -213,6 +217,7 @@
     <ClCompile Include="NumberofIslands.cpp" />
     <ClCompile Include="NumberofOneBits.cpp" />
     <ClCompile Include="PairsofSongsWithTotalDurationsDivisiblebySixZero.cpp" />
+    <ClCompile Include="PalindromeLinkedList.cpp" />
     <ClCompile Include="PalindromeNumber.cpp" />
     <ClCompile Include="PermutationinString.cpp" />
     <ClCompile Include="Permutations.cpp" />
@@ -236,6 +241,7 @@
     <ClCompile Include="RotateArray.cpp" />
     <ClCompile Include="RotateImage.cpp" />
     <ClCompile Include="RottingOranges.cpp" />
+    <ClCompile Include="SearchinRotatedSortedArray.cpp" />
     <ClCompile Include="SearchInsertPosition.cpp" />
     <ClCompile Include="ShortestPathinaGridwithObstaclesElimination.cpp" />
     <ClCompile Include="ShortestPathinBinaryMatrix.cpp" />

@@ -41,23 +41,82 @@ namespace Solution2022
 {
 	namespace CopyListwithRandomPointer
 	{
-	/*
-	// Definition for a Node.
-	class Node {
-	    int val;
-	    Node* next;
-	    Node* random;
-	    
-	    Node(int _val) {
-	        val = _val;
-	        next = NULL;
-	        random = NULL;
-	    }
-	*/
-	​
-	    Node* copyRandomList(Node* head) {
-	        
-	    }
+		class Node {
+		public:
+			int val;
+			Node* next;
+			Node* random;
+
+			Node(int v) {
+				val = v;
+				next = nullptr;
+				random = nullptr;
+			}
+		};
+
+		namespace HashMap {
+			Node* copyRandomList(Node* head) {
+				if (!head) { return nullptr; }
+
+				unordered_map<Node*, Node*> map;
+
+				Node* cur = head;
+				Node* prev = nullptr;
+				while (cur) {
+					if (map.find(cur) == map.end()) {
+						map[cur] = new Node(cur->val);
+					}
+					if (prev) { prev->next = map[cur]; }
+					prev = map[cur];
+
+					if (cur->random) {
+						if (map.find(cur->random) == map.end()) {
+							map[cur->random] = new Node(cur->random->val);
+						}
+						map[cur]->random = map[cur->random];
+					}
+					cur = cur->next;
+				}
+				return map[head];
+			}
+
+		}
+
+		namespace LaceCopySeparate {
+			Node* copyRandomList(Node* head) {
+				if (!head) { return nullptr; }
+
+				Node* cur = head;
+				while (cur) {
+					Node* newNode = new Node(cur->val);
+					newNode->next = cur->next;
+					cur->next = newNode;
+					cur = cur->next->next;
+				}
+
+				cur = head;
+				while (cur) {
+					if (cur->random) {
+						cur->next->random = cur->random->next;
+					}
+					cur = cur->next->next;
+				}
+
+				cur = head;
+				Node* newHead = nullptr;
+				Node* newTail = nullptr;
+				while (cur) {
+					if (!newHead) { newHead = cur->next; }
+					else { newTail->next = cur->next; }
+					newTail = cur->next;
+
+					cur->next = cur->next->next;
+					cur = cur->next;
+				}
+				return newHead;
+			}
+		}
+
 
 		void Main() {
 			string test = "tst test test";

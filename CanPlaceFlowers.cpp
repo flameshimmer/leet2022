@@ -25,9 +25,18 @@ namespace Solution2022
 {
 	namespace CanPlaceFlowers
 	{
-	    bool canPlaceFlowers(vector<int>& flowerbed, int n) {
-	        
-	    }
+		bool canPlaceFlowers(vector<int>& flowerbed, int n) {
+			int len = flowerbed.size();
+
+			for (int i = 0; i < len; i++) {
+				if ((i == 0 || flowerbed[i - 1] == 0) && flowerbed[i] == 0 && (i == len - 1 || flowerbed[i + 1] == 0)) {
+					n--;
+					flowerbed[i] = 1;
+				}			
+			}
+			return n <= 0;
+		}
+
 
 		void Main() {
 			string test = "tst test test";

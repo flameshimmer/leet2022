@@ -30,9 +30,26 @@ namespace Solution2022
 {
 	namespace CarPooling
 	{
-	    bool carPooling(vector<vector<int>>& trips, int capacity) {
-	        
-	    }
+		bool carPooling(vector<vector<int>>& trips, int capacity) {
+			int len = trips.size();
+			if (len == 0) { return true; }
+			if (capacity == 0) { return false; }
+
+			vector<pair<int, int>> data;
+			for (vector<int>& t : trips) {
+				data.push_back({ t[1], t[0] });
+				data.push_back({ t[2], -t[0] });
+			}
+
+			sort(data.begin(), data.end());
+
+			int cur = 0;
+			for (auto& [station, ppl] : data) {
+				cur += ppl;
+				if (cur > capacity) { return false; }
+			}
+			return true;
+		}
 
 		void Main() {
 			string test = "tst test test";

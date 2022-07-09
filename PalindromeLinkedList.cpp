@@ -21,23 +21,74 @@ namespace Solution2022
 {
 	namespace PalindromeLinkedList
 	{
-	/**
-	 * Definition for singly-linked list.
-	 * struct ListNode {
-	 *     int val;
-	 *     ListNode *next;
-	 *     ListNode() : val(0), next(nullptr) {}
-	 *     ListNode(int x) : val(x), next(nullptr) {}
-	 *     ListNode(int x, ListNode *next) : val(x), next(next) {}
-	 * };
-	 */
-	    bool isPalindrome(ListNode* head) {
-	        
-	    }
+		/**
+		 * Definition for singly-linked list.
+		 * struct ListNode {
+		 *     int val;
+		 *     ListNode *next;
+		 *     ListNode() : val(0), next(nullptr) {}
+		 *     ListNode(int x) : val(x), next(nullptr) {}
+		 *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+		 * };
+		 */
+		namespace TwoPass {
+			bool isPalindrome(ListNode* head) {
+				if (!head || !head->next) {
+					return true;
+				}
+				stack<int> s;
+
+				ListNode* cur = head;
+				while (cur) {
+					s.push(cur->val);
+					cur = cur->next;
+				}
+
+				cur = head;
+				while (cur) {
+					if (cur->val != s.top()) {
+						return false;
+					}
+					s.pop();
+					cur = cur->next;
+				}
+				return true;
+			}
+		}
+
+
+		namespace TwoPointersOnePass {
+			bool isPalindrome(ListNode* head) {
+				if (!head || !head->next) { return true; }
+
+				ListNode* slow = head;
+				ListNode* fast = head->next;
+				stack<int> s;
+				while (fast && fast->next) {
+					s.push(slow->val);
+					slow = slow->next;
+					fast = fast->next->next;
+				}
+
+				if (fast) { s.push(slow->val); }
+				slow = slow->next;
+
+				while (slow) {
+					if (slow->val != s.top()) { return false; }
+					slow = slow->next;
+					s.pop();
+				}
+				return true;
+			}
+		}
+
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			//ListNode* test = createList({ 1, 2, 2, 1 });
+			//print(TwoPass::isPalindrome(test));
+
+			ListNode* test = createList({ 1, 2, 3, 2, 1 });
+			print(TwoPass::isPalindrome(test));
 		}
 	}
 }

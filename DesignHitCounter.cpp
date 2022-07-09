@@ -43,25 +43,107 @@ namespace Solution2022
 {
 	namespace DesignHitCounter
 	{
-	class HitCounter {
-	    HitCounter() {
-	        
-	    }
-	    
-	    void hit(int timestamp) {
-	        
-	    }
-	    
-	    int getHits(int timestamp) {
-	        
-	    }
-	​
-	/**
-	 * Your HitCounter object will be instantiated and called as such:
-	 * HitCounter* obj = new HitCounter();
-	 * obj->hit(timestamp);
-	 * int param_2 = obj->getHits(timestamp);
-	 */
+		// O(1) space O(1) time
+		namespace UseConstantArray {
+			class HitCounter {
+			private:
+				vector<int> time;
+				vector<int> count;
+				int total;
+			public:
+				HitCounter() {
+					time.resize(300, 0);
+					count.resize(300, 0);
+				}
+
+				void hit(int timestamp) {
+					int index = timestamp % 300;
+					if (time[index] == timestamp) { count[index] ++; }
+					else {						
+						time[index] = timestamp;
+						count[index] = 1;
+					}
+				}
+
+				int getHits(int timestamp) {
+					int result = 0;
+					for (int i = 0; i < 300; i++) {
+						if (timestamp - time[i] < 300) { result += count[i]; }
+					}
+					return result;
+				}
+			};
+		}
+
+		namespace UseHashMap {
+			class HitCounter {
+			private:
+				map<int, int> m;
+				int totalCount;
+
+				void updateMap(int timestamp) {
+					for (auto& [time, count] : m) {
+						if (timestamp - time >= 300) {
+							totalCount -= count;
+							m.erase(time);							
+						}
+						else {
+							break;
+						}
+					}
+				}
+
+			public:
+				HitCounter() {
+					totalCount = 0;
+				}
+
+				void hit(int timestamp) {
+					m[timestamp]++;
+					totalCount++;
+					updateMap(timestamp);
+				}
+
+				int getHits(int timestamp) {
+					updateMap(timestamp);
+					return totalCount;
+				}
+			};
+		
+		}
+
+
+		// Depending on the fact that the events arrive in chronological order
+		namespace ONSpaceONTime {
+			class HitCounter {
+			private:
+				queue<int> q;
+			public:
+				HitCounter() {
+
+				}
+
+				void hit(int timestamp) {
+					if (q.empty() || q.back() <= timestamp) {
+						q.push(timestamp);
+						while (!q.empty() && timestamp - q.front() >= 300) { q.pop(); }
+					}
+				}
+
+				int getHits(int timestamp) {
+					while (!q.empty() && timestamp - q.front() >= 300) { q.pop(); }
+					return q.size();
+				}
+			};
+		}
+
+
+		/**
+		 * Your HitCounter object will be instantiated and called as such:
+		 * HitCounter* obj = new HitCounter();
+		 * obj->hit(timestamp);
+		 * int param_2 = obj->getHits(timestamp);
+		 */
 
 		void Main() {
 			string test = "tst test test";

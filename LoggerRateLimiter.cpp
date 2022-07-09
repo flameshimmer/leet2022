@@ -41,14 +41,27 @@ namespace Solution2022
 {
 	namespace LoggerRateLimiter
 	{
-	class Logger {
-	    Logger() {
-	        
-	    }
-	    
-	    bool shouldPrintMessage(int timestamp, string message) {
-	        
-	    }
+		class Logger {
+		private:
+			unordered_map<string, int> map;
+		public:
+			Logger() {
+
+			}
+
+			bool shouldPrintMessage(int timestamp, string message) {
+				if (map.find(message) == map.end()) {
+					map[message] = timestamp;
+					return true;
+				}
+
+				if (timestamp - map[message] >= 10) {
+					map[message] = timestamp;
+					return true;
+				}
+				return false;
+			}
+		};
 	​
 	/**
 	 * Your Logger object will be instantiated and called as such:

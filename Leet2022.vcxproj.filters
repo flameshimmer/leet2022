@@ -366,6 +366,24 @@
     <ClCompile Include="ReverseInteger.cpp">
       <Filter>Solution2022</Filter>
     </ClCompile>
+    <ClCompile Include="CountOddNumbersinanIntervalRange.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="PalindromeLinkedList.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="CountBinarySubstrings.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="DesignHitCounter.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchinRotatedSortedArray.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="CarPooling.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Solution2022.h">

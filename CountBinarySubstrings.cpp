@@ -30,13 +30,55 @@ namespace Solution2022
 {
 	namespace CountBinarySubstrings
 	{
-	    int countBinarySubstrings(string s) {
-	        
-	    }
+		int countBinarySubstrings(string s) {
+			int len = s.size();
+			if (len == 0) { return 0; }
+
+			int front = 0;
+			int back = 0;
+			int curCount = 1; // Note the curCount should always start with 1
+			int prevCount = 0; // Note prevCount is 0, since the first iteration of for loopi s not expected to add any thing
+
+			int result = 0;
+			for (int i = 1; i < len; i++) {
+				if (s[i] == s[i - 1]) { curCount++; }
+				else {
+					result += min(prevCount, curCount);
+					prevCount = curCount;
+					curCount = 1;
+				}
+			}
+			result += min(prevCount, curCount);
+			return result;
+		}
+
+		namespace SumLater {
+			int countBinarySubstrings(string s) {
+				int len = s.size();
+				if (len == 0) { return 0; }
+
+				int back = 0;
+				int front = 0;
+				vector<pair<char, int>> group;
+				while (front < len) {
+					while (front < len && s[front] == s[back]) { front++; } // Note: let front only be increased here!
+					group.push_back({ s[back], front - back });
+					back = front;
+				}
+
+
+				int result = 0;
+				for (int i = 0; i < group.size() - 1; i++) {
+					result += min(group[i].second, group[i + 1].second);
+				}
+				return result;
+			}
+		}
+
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			print(countBinarySubstrings("00110011"));
+			print(countBinarySubstrings("10101"));
 		}
 	}
 }
