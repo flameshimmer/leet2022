@@ -30,12 +30,28 @@ namespace Solution2022
 	namespace ProductofArrayExceptSelf
 	{
 	    vector<int> productExceptSelf(vector<int>& nums) {
-	        
+			int len = nums.size();
+			if (len == 0) { return {}; }
+
+			vector<int> result(len, 1);
+
+			int cur = nums[0];
+			for (int i = 1; i < len; i++) {
+				result[i] = cur;
+				cur *= nums[i];
+			}
+
+			cur = nums[len - 1];
+			for (int i = len - 2; i >= 0; i--) {
+				result[i] *= cur;
+				cur *= nums[i];
+			}
+			return result;
 	    }
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			vector<int> test = {1, 2, 3, 4};
+			print(productExceptSelf(test));
 		}
 	}
 }

@@ -31,12 +31,31 @@ namespace Solution2022
 	namespace DegreeofanArray
 	{
 	    int findShortestSubArray(vector<int>& nums) {
-	        
+			int len = nums.size();
+			if (len < 2) { return len; }
+
+			unordered_map<int, vector<int>> map;
+			for (int i = 0; i < len; i++) { map[nums[i]].push_back(i); }
+
+			int maxFreq = 0;
+			int result = INT_MAX;
+			for (auto& [val, arr] : map) {
+				int freq = arr.size();
+				int size = arr.back() - arr.front() + 1;
+				if (freq > maxFreq) {
+					maxFreq = freq;
+					result = size;
+				}
+				else if (freq == maxFreq) {
+					result = min(result, size);
+				}
+			}
+			return result;
 	    }
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			vector<int> test = {1,2,2,3,1};
+			print(findShortestSubArray(test));
 		}
 	}
 }

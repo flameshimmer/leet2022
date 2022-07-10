@@ -32,9 +32,47 @@ namespace Solution2022
 {
 	namespace BasicCalculator
 	{
-	    int calculate(string s) {
-	        
-	    }
+		int calculate(string str) {
+			int len = str.size();
+			if (len == 0) { return 0; }
+
+			int local = 1; // immediate sign associated with a number
+			int global = 1; // global sign
+			int result = 0;
+			stack<int> s;
+
+			for (int i = 0; i < len; i++) {
+				char c = str[i];
+				switch (c) {
+				case '+':
+				case ' ':
+					break;
+				case '-':
+					local = -1;
+					break;
+				case '(':
+					s.push(local);
+					global *= local;
+					local = 1;
+					break;
+				case ')':
+					global /= s.top();
+					s.pop();
+					local = 1;
+					break;
+				default:
+					long long val = 0;
+					while (i < len && isdigit(str[i])) {
+						val = val * 10 + str[i] - '0';
+						i++;
+					}
+					i--;
+					result += global * local * val;
+					local = 1;
+				}
+			}
+			return result;
+		}
 
 		void Main() {
 			string test = "tst test test";

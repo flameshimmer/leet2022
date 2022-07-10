@@ -21,12 +21,24 @@ namespace Solution2022
 	namespace PascalsTriangle
 	{
 	    vector<vector<int>> generate(int numRows) {
-	        
+			vector<vector<int>> results;
+			if (numRows == 0) { return results; }
+
+			results.push_back({1});
+
+			for (int i = 2; i <= numRows; i++) {
+				vector<int> newRow(results.back().begin(), results.back().end());
+				for (int j = 1; j < newRow.size(); j++) {
+					newRow[j] += results.back()[j - 1];
+				}
+				newRow.push_back(1);
+				results.push_back(newRow);
+			}
+			return results;
 	    }
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			generate(5);
 		}
 	}
 }

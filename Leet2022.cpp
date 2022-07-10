@@ -202,12 +202,18 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::DesignFileSystem::Main();
 	//Solution2022::CopyListwithRandomPointer::Main();
 
+	//7/10/2022
+	//Solution2022::DegreeofanArray::Main();
+	//Solution2022::PascalsTriangle::Main();
+	//Solution2022::PascalsTriangleII::Main();
+	//Solution2022::BrokenCalculator::Main();
+	//Solution2022::ProductofArrayExceptSelf::Main();
+	//Solution2022::MergekSortedLists::Main();
+	//Solution2022::BasicCalculator::Main();
 
 	//====Problem Ends====
-	//Solution2022::BasicCalculator::Main();
 	//Solution2022::MedianofTwoSortedArrays::Main();	
 	//Solution2022::WordLadder::Main();
-	//Solution2022::MergekSortedLists::Main();
 	//Solution2022::WordSearchII::Main();	
 	//Solution2022::SpiralMatrix::Main();
 	//Solution2022::AlienDictionary::Main();
@@ -218,10 +224,8 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::CoinChange::Main();
 	//Solution2022::VerticalOrderTraversalofaBinaryTree::Main();
 	//Solution2022::MaximumProfitinJobScheduling::Main();
-	//Solution2022::ProductofArrayExceptSelf::Main();
 	//Solution2022::TopKFrequentWords::Main();
 	//Solution2022::MergeTwoSortedLists::Main();
-	//Solution2022::BrokenCalculator::Main();
 	//Solution2022::SerializeandDeserializeBinaryTree::Main();
 	//Solution2022::MinimumHealthtoBeatGame::Main();
 	//Solution2022::BinaryTreePaths::Main();
@@ -562,7 +566,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::BricksFallingWhenHit::Main();
 	//Solution2022::NthTribonacciNumber::Main();
 	//Solution2022::FindMinimuminRotatedSortedArrayII::Main();
-	//Solution2022::PascalsTriangleII::Main();
 	//Solution2022::LongestPalindrome::Main();
 	//Solution2022::DistinctSubsequences::Main();
 	//Solution2022::KthSmallestinLexicographicalOrder::Main();
@@ -1295,7 +1298,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::RussianDollEnvelopes::Main();
 	//Solution2022::RobotRoomCleaner::Main();
 	//Solution2022::DivideTwoIntegers::Main();
-	//Solution2022::DegreeofanArray::Main();
 	//Solution2022::EvaluateReversePolishNotation::Main();
 	//Solution2022::KdiffPairsinanArray::Main();
 	//Solution2022::RotateArray::Main();
@@ -1305,7 +1307,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::MakingFileNamesUnique::Main();
 	//Solution2022::ConstructQuadTree::Main();
 	//Solution2022::ThreeSumClosest::Main();
-	//Solution2022::PascalsTriangle::Main();
 	//Solution2022::LargestNumber::Main();
 	//Solution2022::CandyCrush::Main();
 	//Solution2022::FindAllAnagramsinaString::Main();

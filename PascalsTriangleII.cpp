@@ -29,12 +29,18 @@ namespace Solution2022
 	namespace PascalsTriangleII
 	{
 	    vector<int> getRow(int rowIndex) {
-	        
+			vector<int> result(rowIndex + 1, 1); // init to 1 instead of 0
+			
+			for (int i = 2; i <= rowIndex; i++) { // we rowIndex row in total
+				for (int j = i - 1; j >= 1; j--) { // for every row max Index is i, we skip the first and last
+					result[j] += result[j - 1];
+				}
+			}
+			return result;
 	    }
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			print(getRow(3));
 		}
 	}
 }

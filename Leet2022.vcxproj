@@ -158,6 +158,7 @@
     <ClCompile Include="BestTimetoBuyandSellStock.cpp" />
     <ClCompile Include="BinarySearch.cpp" />
     <ClCompile Include="BinaryTreeVerticalOrderTraversal.cpp" />
+    <ClCompile Include="BrokenCalculator.cpp" />
     <ClCompile Include="BuildingsWithanOceanView.cpp" />
     <ClCompile Include="BusRoutes.cpp" />
     <ClCompile Include="CarPooling.cpp" />
@@ -166,10 +167,12 @@
     <ClCompile Include="ContainerWithMostWater.cpp" />
     <ClCompile Include="ContainsDuplicate.cpp" />
     <ClCompile Include="ConvertBinarySearchTreetoSortedDoublyLinkedList.cpp" />
+    <ClCompile Include="CopyListwithRandomPointer.cpp" />
     <ClCompile Include="CountBinarySubstrings.cpp" />
     <ClCompile Include="CountOddNumbersinanIntervalRange.cpp" />
     <ClCompile Include="CountUniqueCharactersofAllSubstringsofaGivenString.cpp" />
     <ClCompile Include="DecodeString.cpp" />
+    <ClCompile Include="DegreeofanArray.cpp" />
     <ClCompile Include="DesignFileSystem.cpp" />
     <ClCompile Include="DesignHitCounter.cpp" />
     <ClCompile Include="DesignInMemoryFileSystem.cpp" />
@@ -219,11 +222,14 @@
     <ClCompile Include="PairsofSongsWithTotalDurationsDivisiblebySixZero.cpp" />
     <ClCompile Include="PalindromeLinkedList.cpp" />
     <ClCompile Include="PalindromeNumber.cpp" />
+    <ClCompile Include="PascalsTriangle.cpp" />
+    <ClCompile Include="PascalsTriangleII.cpp" />
     <ClCompile Include="PermutationinString.cpp" />
     <ClCompile Include="Permutations.cpp" />
     <ClCompile Include="PopulatingNextRightPointersinEachNode.cpp" />
     <ClCompile Include="Pow.cpp" />
     <ClCompile Include="PowerofTwo.cpp" />
+    <ClCompile Include="ProductofArrayExceptSelf.cpp" />
     <ClCompile Include="RandomPickwithWeight.cpp" />
     <ClCompile Include="RangeSumofBST.cpp" />
     <ClCompile Include="ReconstructOriginalDigitsfromEnglish.cpp" />

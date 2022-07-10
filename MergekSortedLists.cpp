@@ -48,7 +48,33 @@ namespace Solution2022
 	 * };
 	 */
 	    ListNode* mergeKLists(vector<ListNode*>& lists) {
-	        
+			int len = lists.size();
+			if (len == 0) { return nullptr; }
+
+			ListNode* head = nullptr;
+			ListNode* tail = nullptr;
+
+			auto comp = [](ListNode* a, ListNode* b) {return a->val > b->val; };
+
+			priority_queue<ListNode*, vector<ListNode*>, decltype(comp)> pq(comp);
+
+			for (ListNode* l : lists) {
+				if (l) {
+					pq.push(l);
+				}
+			}
+
+			while (!pq.empty()) {
+				ListNode* top = pq.top();
+				pq.pop();
+				
+				if (top->next) { pq.push(top->next); }
+
+				if (!head) { head = top; }
+				else { tail->next = top; }
+				tail = top;
+			}
+			return head;
 	    }
 
 		void Main() {

@@ -31,7 +31,13 @@ namespace Solution2022
 	namespace BrokenCalculator
 	{
 	    int brokenCalc(int startValue, int target) {
-	        
+			int result = 0;
+			while (startValue < target) {
+				if (target % 2 == 1) { target++; }
+				else { target /= 2; }
+				result++;
+			}
+			return result + (startValue - target); // startValue - target is for the case of 1. startValue is larger than target. 2. the small diff of target and startValue after whileloop. 
 	    }
 
 		void Main() {
