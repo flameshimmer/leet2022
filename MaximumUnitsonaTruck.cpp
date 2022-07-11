@@ -35,12 +35,23 @@ namespace Solution2022
 	namespace MaximumUnitsonaTruck
 	{
 	    int maximumUnits(vector<vector<int>>& boxTypes, int truckSize) {
-	        
+			auto comp = [](vector<int>& a, vector<int>& b) {return a[1] > b[1]; };
+
+			sort(boxTypes.begin(), boxTypes.end(), comp);
+			
+			int result = 0;
+			for (vector<int>& bt : boxTypes) {
+				int allowedBox = min(truckSize, bt[0]);
+				result += allowedBox * bt[1];
+				if (truckSize == 0) { break; }
+				truckSize -= allowedBox;
+			}
+			return result;
 	    }
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			vector<vector<int>> test = { {5,10},{2,5},{4,7},{3,9} };
+			print(maximumUnits(test, 10));
 		}
 	}
 }

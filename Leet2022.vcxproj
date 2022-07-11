@@ -152,9 +152,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AddStrings.cpp" />
     <ClCompile Include="AddTwoNumbers.cpp" />
     <ClCompile Include="AlertUsingSameKeyCardThreeorMoreTimesinaOneHourPeriod.cpp" />
     <ClCompile Include="AnalyzeUserWebsiteVisitPattern.cpp" />
+    <ClCompile Include="BasicCalculator.cpp" />
     <ClCompile Include="BestTimetoBuyandSellStock.cpp" />
     <ClCompile Include="BinarySearch.cpp" />
     <ClCompile Include="BinaryTreeVerticalOrderTraversal.cpp" />
@@ -171,6 +173,7 @@
     <ClCompile Include="CountBinarySubstrings.cpp" />
     <ClCompile Include="CountOddNumbersinanIntervalRange.cpp" />
     <ClCompile Include="CountUniqueCharactersofAllSubstringsofaGivenString.cpp" />
+    <ClCompile Include="CustomSortString.cpp" />
     <ClCompile Include="DecodeString.cpp" />
     <ClCompile Include="DegreeofanArray.cpp" />
     <ClCompile Include="DesignFileSystem.cpp" />
@@ -203,9 +206,11 @@
     <ClCompile Include="LRUCache.cpp" />
     <ClCompile Include="MaxAreaofIsland.cpp" />
     <ClCompile Include="MaximumSubarray.cpp" />
+    <ClCompile Include="MaximumUnitsonaTruck.cpp" />
     <ClCompile Include="MaxStack.cpp" />
     <ClCompile Include="MeetingRoomsII.cpp" />
     <ClCompile Include="MergeIntervals.cpp" />
+    <ClCompile Include="MergekSortedLists.cpp" />
     <ClCompile Include="MergeSortedArray.cpp" />
     <ClCompile Include="MergeTwoBinaryTrees.cpp" />
     <ClCompile Include="MergeTwoSortedLists.cpp" />
@@ -256,6 +261,7 @@
     <ClCompile Include="ShortestWordDistanceIII.cpp" />
     <ClCompile Include="SimplifyPath.cpp" />
     <ClCompile Include="SingleNumber.cpp" />
+    <ClCompile Include="SpiralMatrix.cpp" />
     <ClCompile Include="SquaresofaSortedArray.cpp" />
     <ClCompile Include="stdafx.cpp" />
     <ClCompile Include="StringCompression.cpp" />

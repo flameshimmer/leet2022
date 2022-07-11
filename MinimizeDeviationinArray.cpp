@@ -41,7 +41,31 @@ namespace Solution2022
 	namespace MinimizeDeviationinArray
 	{
 	    int minimumDeviation(vector<int>& nums) {
-	        
+			priority_queue<int> evens;
+			int minV = INT_MAX;
+
+			for (int v : nums) {
+				if (v % 2 == 0) {
+					evens.push(v);
+					minV = min(minV, v);
+				}
+				else {
+					evens.push(v * 2);
+					minV = min(minV, v * 2);
+				}			
+			}
+
+			int result = INT_MAX;
+			while (!evens.empty()) {
+				int top = evens.top();
+				evens.pop();
+				result = min(result, top - minV);
+
+				if (top % 2 == 1) { break; }
+				evens.push(top / 2);
+				minV = min(minV, top / 2);
+			}
+			return result;
 	    }
 
 		void Main() {

@@ -211,11 +211,17 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::MergekSortedLists::Main();
 	//Solution2022::BasicCalculator::Main();
 
+	//7/11/2022
+	//Solution2022::AddStrings::Main();
+	//Solution2022::MaximumUnitsonaTruck::Main();
+	//Solution2022::SpiralMatrix::Main();
+	//Solution2022::CustomSortString::Main();
+	//Solution2022::MinimizeDeviationinArray::Main();
+
 	//====Problem Ends====
 	//Solution2022::MedianofTwoSortedArrays::Main();	
 	//Solution2022::WordLadder::Main();
 	//Solution2022::WordSearchII::Main();	
-	//Solution2022::SpiralMatrix::Main();
 	//Solution2022::AlienDictionary::Main();
 	//Solution2022::AsteroidCollision::Main();
 	//Solution2022::RegularExpressionMatching::Main();
@@ -1226,7 +1232,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::RearrangeWordsinaSentence::Main();
 	//Solution2022::MaximumSwap::Main();
 	//Solution2022::Minesweeper::Main();
-	//Solution2022::CustomSortString::Main();
 	//Solution2022::FlattenNestedListIterator::Main();
 	//Solution2022::MaximizeDistancetoClosestPerson::Main();
 	//Solution2022::LongestValidParentheses::Main();
@@ -1243,7 +1248,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::MinimumNumberofTapstoOpentoWateraGarden::Main();
 	//Solution2022::AllNodesDistanceKinBinaryTree::Main();
 	//Solution2022::ChampagneTower::Main();
-	//Solution2022::MinimizeDeviationinArray::Main();
 	//Solution2022::BoatstoSavePeople::Main();
 	//Solution2022::FindFirstandLastPositionofElementinSortedArray::Main();
 	//Solution2022::ValidNumber::Main();
@@ -1272,8 +1276,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::LargestRectangleinHistogram::Main();
 	//Solution2022::ReachingPoints::Main();
 	//Solution2022::FindMedianfromDataStream::Main();
-	//Solution2022::FirstUniqueCharacterinaString::Main();
-	//Solution2022::AddStrings::Main();
+	//Solution2022::FirstUniqueCharacterinaString::Main
 	//Solution2022::SequentialDigits::Main();
 	//Solution2022::MakingALargeIsland::Main();
 	//Solution2022::ReorganizeString::Main();
@@ -1535,7 +1538,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::EditDistance::Main();
 	//Solution2022::ReverseLinkedList::Main();
 	//Solution2022::JumpGameII::Main();
-	//Solution2022::MaximumUnitsonaTruck::Main();
 	//Solution2022::DesignExcelSumFormula::Main();
 	//Solution2022::ClosestBinarySearchTreeValueII::Main();
 	//Solution2022::KokoEatingBananas::Main();

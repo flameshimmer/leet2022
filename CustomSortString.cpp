@@ -31,13 +31,30 @@ namespace Solution2022
 {
 	namespace CustomSortString
 	{
-	    string customSortString(string order, string s) {
-	        
-	    }
+		string customSortString(string order, string s) {
+			auto comp = [&](char a, char b) {return order.find(a) < order.find(b); };
+			sort(s.begin(), s.end(), comp);
+			return s;
+		}
+
+		namespace RecordPriorityIndex {
+
+			string customSortString(string order, string s) {
+				unordered_map<char, int> map;
+				for (int i = 0; i < order.size(); i++) { map[order[i]] = i; }
+
+				auto comp = [&map](char a, char b) {
+					int pa = map.find(a) != map.end() ? map[a] : INT_MAX;
+					int pb = map.find(b) != map.end() ? map[b] : INT_MAX;
+					return pa < pb;
+				};
+				sort(s.begin(), s.end(), comp);
+				return s;
+			}
+		}
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			print(customSortString("cba", "abcd"));
 		}
 	}
 }

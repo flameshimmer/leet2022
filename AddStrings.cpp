@@ -29,7 +29,24 @@ namespace Solution2022
 	namespace AddStrings
 	{
 	    string addStrings(string num1, string num2) {
-	        
+			int len1 = num1.size();
+			int len2 = num2.size();
+			if (!len1 || !len2) { return len1 ? num1 : num2; }
+
+			int i = len1 - 1;
+			int j = len2 - 1;
+			int carry = 0;
+			string result = "";
+			while (i >= 0 || j >= 0 || carry) {
+				int v1 = i >= 0 ? num1[i] - '0' : 0;
+				int v2 = j >= 0 ? num2[j] - '0' : 0;
+				int sum = v1 + v2 + carry;
+				result = to_string(sum % 10) + result;
+				carry = sum / 10;
+				i--; // Note: don't forget to update indexes!!!
+				j--;
+			}
+			return result;
 	    }
 
 		void Main() {
