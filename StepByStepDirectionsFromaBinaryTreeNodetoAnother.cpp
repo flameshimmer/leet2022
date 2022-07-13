@@ -46,8 +46,34 @@ namespace Solution2022
 	 *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 	 * };
 	 */
+		bool find(TreeNode* n, int val, string& path) {
+			if (n->val == val) { return true; }
+
+			if (n->left && find(n->left, val, path)) {
+				path.push_back('L');
+			}
+			else if (n->right && find(n->right, val, path)) { // Note that this is else if!!!
+				path.push_back('R');
+			}
+			return !path.empty();
+		}
+
+
 	    string getDirections(TreeNode* root, int startValue, int destValue) {
-	        
+			string rootToLeft;
+			find(root, startValue, rootToLeft); // Note that this starts from root!!
+			
+			string rootToRight;
+			find(root, destValue, rootToRight);  // Note that this starts from root!!
+
+			while (!rootToLeft.empty() && !rootToRight.empty() && rootToLeft.back() == rootToRight.back()) {
+				rootToLeft.pop_back();
+				rootToRight.pop_back();
+			}
+
+			string result(rootToLeft.size(), 'U');
+			reverse(rootToRight.begin(), rootToRight.end());
+			return result + rootToRight;
 	    }
 
 		void Main() {

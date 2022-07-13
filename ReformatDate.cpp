@@ -30,8 +30,29 @@ namespace Solution2022
 {
 	namespace ReformatDate
 	{
+		string getMonthName(string m) {
+			if (m == "Jan") { return "01"; }
+			if (m == "Feb") { return "02"; }
+			if (m == "Mar") { return "03"; }
+			if (m == "Apr") { return "04"; }
+			if (m == "May") { return "05"; }
+			if (m == "Jun") { return "06"; }
+			if (m == "Jul") { return "07"; }
+			if (m == "Aug") { return "08"; }
+			if (m == "Sep") { return "09"; }
+			if (m == "Oct") { return "10"; }
+			if (m == "Nov") { return "11"; }
+			if (m == "Dec") { return "12"; }
+			return "";
+		}
+
 	    string reformatDate(string date) {
-	        
+			if (date.size() == 13) {
+				return date.substr(9, 4) + "-" + getMonthName(date.substr(5, 3)) + "-" + date.substr(0, 2);
+			}
+			else {
+				return date.substr(8, 4) + "-" + getMonthName(date.substr(4, 3)) + "-0" + date.substr(0, 1);
+			}
 	    }
 
 		void Main() {

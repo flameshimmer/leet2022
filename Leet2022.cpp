@@ -218,11 +218,19 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::CustomSortString::Main();
 	//Solution2022::MinimizeDeviationinArray::Main();
 
+	//7/12/2022
+	//Solution2022::FindWinneronaTicTacToeGame::Main();
+	//Solution2022::DesignHashMap::Main();
+	//Solution2022::ExclusiveTimeofFunctions::Main();
+	//Solution2022::StepByStepDirectionsFromaBinaryTreeNodetoAnother::Main();
+	//Solution2022::ReformatDate::Main();
+
+
 	//====Problem Ends====
+	//Solution2022::AlienDictionary::Main();
 	//Solution2022::MedianofTwoSortedArrays::Main();	
 	//Solution2022::WordLadder::Main();
 	//Solution2022::WordSearchII::Main();	
-	//Solution2022::AlienDictionary::Main();
 	//Solution2022::AsteroidCollision::Main();
 	//Solution2022::RegularExpressionMatching::Main();
 	//Solution2022::FindPeakElement::Main();
@@ -1237,7 +1245,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::LongestValidParentheses::Main();
 	//Solution2022::IntegertoRoman::Main();
 	//Solution2022::BurstBalloons::Main();
-	//Solution2022::ExclusiveTimeofFunctions::Main();
 	//Solution2022::LFUCache::Main();
 	//Solution2022::CourseScheduleII::Main();
 	//Solution2022::AllOoneDataStructure::Main();
@@ -1252,7 +1259,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::FindFirstandLastPositionofElementinSortedArray::Main();
 	//Solution2022::ValidNumber::Main();
 	//Solution2022::WordBreakII::Main();
-	//Solution2022::StepByStepDirectionsFromaBinaryTreeNodetoAnother::Main();
 	//Solution2022::DiagonalTraverse::Main();
 	//Solution2022::LongestIncreasingPathinaMatrix::Main();
 	//Solution2022::BasicCalculatorIII::Main();
@@ -1268,7 +1274,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::ConsecutiveNumbersSum::Main();
 	//Solution2022::AngleBetweenHandsofaClock::Main();
 	//Solution2022::AccountsMerge::Main();
-	//Solution2022::DesignHashMap::Main();
 	//Solution2022::DesignTicTacToe::Main();
 	//Solution2022::NQueens::Main();
 	//Solution2022::FibonacciNumber::Main();
@@ -1281,7 +1286,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::MakingALargeIsland::Main();
 	//Solution2022::ReorganizeString::Main();
 	//Solution2022::CombinationSum::Main();
-	//Solution2022::ReformatDate::Main();
 	//Solution2022::MaxAreaofIsland::Main();
 	//Solution2022::ClimbingStairs::Main();
 	//Solution2022::LongestSubstringWithoutRepeatingCharacters::Main();
@@ -1531,7 +1535,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::DesignSearchAutocompleteSystem::Main();
 	//Solution2022::WallsandGates::Main();
 	//Solution2022::BinarySearchTreeIterator::Main();
-	//Solution2022::FindWinneronaTicTacToeGame::Main();
 	//Solution2022::BestTimetoBuyandSellStockII::Main();
 	//Solution2022::OptimalAccountBalancing::Main();
 	//Solution2022::MergeBSTstoCreateSingleBST::Main();

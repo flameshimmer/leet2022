@@ -45,13 +45,36 @@ namespace Solution2022
 {
 	namespace FindWinneronaTicTacToeGame
 	{
-	    string tictactoe(vector<vector<int>>& moves) {
-	        
-	    }
+		string tictactoe(vector<vector<int>>& moves) {
+			int n = 3;
+			vector<int> r(n, 0);
+			vector<int> c(n, 0);
+			int diag = 0;
+			int aDiag = 0;
+
+			int player = 1;
+			for (vector<int> m : moves) {
+				int row = m[0];
+				int col = m[1];
+				r[row] += player;
+				c[col] += player;
+
+				if (row == col) { diag += player; }
+				if (row + col == n - 1) { aDiag += player; }
+
+				if (abs(r[row] == n) || abs(c[col] == n) || abs(diag) == n || abs(aDiag) == n) {
+					return player == 1 ? "A" : "B";
+				}
+				player *= -1;
+			}
+			return moves.size() < n * n ? "Pending" : "Draw";
+		}
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			vector<vector<int>> test = { {0,0},{1,1},{0,1},{0,2},{1,0},{2,0} };
+			//vector<vector<int>> test = { {0,0},{2,0},{1,1},{2,1},{2,2} };
+			//vector<vector<int>> test = { {1,2},{2,1},{1,0},{0,0},{0,1},{2,0},{1,1} };
+			print(tictactoe(test));
 		}
 	}
 }

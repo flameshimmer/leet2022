@@ -420,6 +420,18 @@
     <ClCompile Include="CustomSortString.cpp">
       <Filter>Solution2022</Filter>
     </ClCompile>
+    <ClCompile Include="MinimizeDeviationinArray.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="FindWinneronaTicTacToeGame.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="DesignHashMap.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="ExclusiveTimeofFunctions.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Solution2022.h">

@@ -82,8 +82,38 @@ namespace Solution2022
 	namespace ExclusiveTimeofFunctions
 	{
 	    vector<int> exclusiveTime(int n, vector<string>& logs) {
-	        
-	    }
+			vector<int> result(n, 0);
+			stack<int> s;
+			int prevTime = 0;
+
+			for (string& l : logs) {
+				istringstream ss(l);
+				string idStr;
+				string type;
+				string timeStr;
+
+				getline(ss, idStr, ':');
+				getline(ss, type, ':');
+				getline(ss, timeStr, ':');
+
+				int id = stoi(idStr);
+				int time = stoi(timeStr);
+
+				if (type == "start") {
+					if (!s.empty()) {
+						result[s.top()] += time - prevTime;
+					}
+					s.push(id);
+					prevTime = time;
+				}
+				else {
+					result[id] += time - prevTime + 1;
+					prevTime = time + 1; // Note: this is time +1, not prevTime+1
+					s.pop();
+				}				
+			}
+			return result;
+		}
 
 		void Main() {
 			string test = "tst test test";

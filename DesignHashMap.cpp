@@ -38,30 +38,71 @@ namespace Solution2022
 {
 	namespace DesignHashMap
 	{
-	class MyHashMap {
-	    MyHashMap() {
-	        
-	    }
-	    
-	    void put(int key, int value) {
-	        
-	    }
-	    
-	    int get(int key) {
-	        
-	    }
-	    
-	    void remove(int key) {
-	        
-	    }
-	​
-	/**
-	 * Your MyHashMap object will be instantiated and called as such:
-	 * MyHashMap* obj = new MyHashMap();
-	 * obj->put(key,value);
-	 * int param_2 = obj->get(key);
-	 * obj->remove(key);
-	 */
+		class MyHashMap {
+		private:
+			int data[1000001];
+		public:
+			MyHashMap() {
+				memset(data, -1, sizeof(data));
+			}
+
+			void put(int key, int value) {
+				data[key] = value;
+			}
+
+			int get(int key) {
+				return data[key];
+			}
+
+			void remove(int key) {
+				data[key] = -1;
+			}
+		};
+
+
+		namespace ModdedList {
+
+			class MyHashMap {
+			private:
+				vector<list<pair<int, int>>> data;
+				int size = 10000;
+			public:
+				MyHashMap() {
+					data.resize(size);
+				}
+
+				void put(int key, int value) {
+					auto& list = data[key % size];
+
+					for (auto& [k, v] : list) {
+						if (k == key) { v = value; return; }
+					}
+					list.push_back({key, value});
+				}
+
+				int get(int key) {
+					auto& list = data[key % size];
+					for (auto& [k, v] : list) {
+						if (k == key) { return v; }
+					}
+					return -1;
+				}
+
+				void remove(int key) {
+					auto& list = data[key % size];
+					list.remove_if([key](auto p) {return p.first == key; });
+				}
+			};
+
+		}
+
+		/**
+		 * Your MyHashMap object will be instantiated and called as such:
+		 * MyHashMap* obj = new MyHashMap();
+		 * obj->put(key,value);
+		 * int param_2 = obj->get(key);
+		 * obj->remove(key);
+		 */
 
 		void Main() {
 			string test = "tst test test";

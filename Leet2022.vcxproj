@@ -177,10 +177,13 @@
     <ClCompile Include="DecodeString.cpp" />
     <ClCompile Include="DegreeofanArray.cpp" />
     <ClCompile Include="DesignFileSystem.cpp" />
+    <ClCompile Include="DesignHashMap.cpp" />
     <ClCompile Include="DesignHitCounter.cpp" />
     <ClCompile Include="DesignInMemoryFileSystem.cpp" />
     <ClCompile Include="DotProductofTwoSparseVectors.cpp" />
     <ClCompile Include="EvaluateDivision.cpp" />
+    <ClCompile Include="ExclusiveTimeofFunctions.cpp" />
+    <ClCompile Include="FindWinneronaTicTacToeGame.cpp" />
     <ClCompile Include="FirstBadVersion.cpp" />
     <ClCompile Include="FirstMissingPositive.cpp" />
     <ClCompile Include="FizzBuzz.cpp" />
@@ -215,6 +218,7 @@
     <ClCompile Include="MergeTwoBinaryTrees.cpp" />
     <ClCompile Include="MergeTwoSortedLists.cpp" />
     <ClCompile Include="MiddleoftheLinkedList.cpp" />
+    <ClCompile Include="MinimizeDeviationinArray.cpp" />
     <ClCompile Include="MinimumAddtoMakeParenthesesValid.cpp" />
     <ClCompile Include="MinimumRemovetoMakeValidParentheses.cpp" />
     <ClCompile Include="MoveZeroes.cpp" />
