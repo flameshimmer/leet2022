@@ -232,9 +232,14 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::LongestStringChain::Main();
 	//Solution2022::Minesweeper::Main();
 
+	//7/14/2022
+	//Solution2022::ValidPalindrome::Main();
+	//Solution2022::FirstUniqueCharacterinaString::Main();
+	//Solution2022::LongestHappyString::Main();
+	//Solution2022::CoinChange::Main();
+	//Solution2022::AlienDictionary::Main();
 
 	//====Problem Ends====
-	//Solution2022::AlienDictionary::Main();
 	//Solution2022::MedianofTwoSortedArrays::Main();	
 	//Solution2022::WordLadder::Main();
 	//Solution2022::WordSearchII::Main();	
@@ -242,7 +247,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::RegularExpressionMatching::Main();
 	//Solution2022::FindPeakElement::Main();
 	//Solution2022::SlidingWindowMaximum::Main();
-	//Solution2022::CoinChange::Main();
 	//Solution2022::VerticalOrderTraversalofaBinaryTree::Main();
 	//Solution2022::MaximumProfitinJobScheduling::Main();
 	//Solution2022::TopKFrequentWords::Main();
@@ -1253,7 +1257,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::LFUCache::Main();
 	//Solution2022::CourseScheduleII::Main();
 	//Solution2022::AllOoneDataStructure::Main();
-	//Solution2022::LongestHappyString::Main();
 	//Solution2022::ScoreofParentheses::Main();
 	//Solution2022::TwoCityScheduling::Main();
 	//Solution2022::ContinuousSubarraySum::Main();
@@ -1286,7 +1289,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::LargestRectangleinHistogram::Main();
 	//Solution2022::ReachingPoints::Main();
 	//Solution2022::FindMedianfromDataStream::Main();
-	//Solution2022::FirstUniqueCharacterinaString::Main
 	//Solution2022::SequentialDigits::Main();
 	//Solution2022::MakingALargeIsland::Main();
 	//Solution2022::ReorganizeString::Main();
@@ -1300,7 +1302,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::MaximumXORofTwoNumbersinanArray::Main();
 	//Solution2022::DeleteandEarn::Main();
 	//Solution2022::CheckifanOriginalStringExistsGivenTwoEncodedStrings::Main();
-	//Solution2022::ValidPalindrome::Main();
 	//Solution2022::CinemaSeatAllocation::Main();
 	//Solution2022::ChangeMinimumCharacterstoSatisfyOneofThreeConditions::Main();
 	//Solution2022::OneThreeTwoPattern::Main();

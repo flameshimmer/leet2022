@@ -37,7 +37,52 @@ namespace Solution2022
 	namespace AlienDictionary
 	{
 	    string alienOrder(vector<string>& words) {
-	        
+			int len = words.size();
+			unordered_map<char, int> indegree;
+			unordered_map<char, unordered_set<char>> adj;
+
+			for (string& w : words) {
+				for (char c : w) {
+					indegree[c] = 0;
+				}
+			}
+
+			for (int i = 0; i < len - 1; i++) {
+				string& w1 = words[i];
+				string& w2 = words[i + 1];
+
+				int minLen = min(w1.size(), w2.size());
+				if (w1.substr(0, minLen) == w2.substr(0, minLen) && w1.size() > w2.size()) { return ""; }
+				for (int j = 0; j < minLen; j++) {
+					char c1 = w1[j];
+					char c2 = w2[j];
+					if (c1 != c2) {
+						if (adj[c1].count(c2) == 0) {
+							adj[c1].insert(c2);
+							indegree[c2]++;
+						}
+						break;
+					}					
+				}
+			}
+
+			string result;
+			queue<char> q;
+			for (auto [c, count] : indegree) {
+				if (count == 0) { q.push(c); }
+			}
+
+			while (!q.empty()) {
+				char top = q.front();
+				q.pop();
+
+				result.push_back(top);
+				for (char n : adj[top]) {
+					indegree[n]--;
+					if (indegree[n] == 0) { q.push(n); }
+				}
+			}
+			return result.size() == indegree.size() ? result : "";
 	    }
 
 		void Main() {
