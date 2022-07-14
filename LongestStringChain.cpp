@@ -42,7 +42,22 @@ namespace Solution2022
 	namespace LongestStringChain
 	{
 	    int longestStrChain(vector<string>& words) {
-	        
+			auto comp = [](string& s1, string& s2) {return s1.size() < s2.size(); };
+			sort(words.begin(), words.end(), comp);
+
+			unordered_map<string, int> dp;
+			int result = 0;
+
+			for (string& w : words) {
+				int best = 0;
+				for (int i = 0; i < w.size(); i++) {
+					string word = w.substr(0, i) + w.substr(i + 1);
+					best = max(best, dp[word] + 1);
+				}
+				dp[w] = best;
+				result = max(result, best);
+			}
+			return result;
 	    }
 
 		void Main() {

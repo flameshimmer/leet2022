@@ -225,6 +225,13 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::StepByStepDirectionsFromaBinaryTreeNodetoAnother::Main();
 	//Solution2022::ReformatDate::Main();
 
+	//7/13/2022
+	//Solution2022::FibonacciNumber::Main();
+	//Solution2022::RemovePalindromicSubsequences::Main();
+	//Solution2022::IntegertoRoman::Main();
+	//Solution2022::LongestStringChain::Main();
+	//Solution2022::Minesweeper::Main();
+
 
 	//====Problem Ends====
 	//Solution2022::AlienDictionary::Main();
@@ -1239,11 +1246,9 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::FindtheKthSmallestSumofaMatrixWithSortedRows::Main();
 	//Solution2022::RearrangeWordsinaSentence::Main();
 	//Solution2022::MaximumSwap::Main();
-	//Solution2022::Minesweeper::Main();
 	//Solution2022::FlattenNestedListIterator::Main();
 	//Solution2022::MaximizeDistancetoClosestPerson::Main();
 	//Solution2022::LongestValidParentheses::Main();
-	//Solution2022::IntegertoRoman::Main();
 	//Solution2022::BurstBalloons::Main();
 	//Solution2022::LFUCache::Main();
 	//Solution2022::CourseScheduleII::Main();
@@ -1299,7 +1304,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::CinemaSeatAllocation::Main();
 	//Solution2022::ChangeMinimumCharacterstoSatisfyOneofThreeConditions::Main();
 	//Solution2022::OneThreeTwoPattern::Main();
-	//Solution2022::LongestStringChain::Main();
 	//Solution2022::HouseRobber::Main();
 	//Solution2022::Permutations::Main();
 	//Solution2022::RussianDollEnvelopes::Main();
@@ -2106,7 +2110,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::NumberofPairsofStringsWithConcatenationEqualtoTarget::Main();
 	//Solution2022::ReverseBits::Main();
 	//Solution2022::SearchinaSortedArrayofUnknownSize::Main();
-	//Solution2022::RemovePalindromicSubsequences::Main();
 	//Solution2022::MissingRanges::Main();
 	//Solution2022::MajorityElementII::Main();
 	//Solution2022::PrefixandSuffixSearch::Main();

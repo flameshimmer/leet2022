@@ -38,7 +38,7 @@ namespace Solution2022
 	namespace RemovePalindromicSubsequences
 	{
 	    int removePalindromeSub(string s) {
-	        
+			return 2 - (s == string(s.rbegin(), s.rend())) - s.empty();
 	    }
 
 		void Main() {

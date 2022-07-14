@@ -46,9 +46,37 @@ namespace Solution2022
 {
 	namespace Minesweeper
 	{
-	    vector<vector<char>> updateBoard(vector<vector<char>>& board, vector<int>& click) {
-	        
-	    }
+		vector<vector<char>> updateBoard(vector<vector<char>>& board, vector<int>& click) {
+			int rowCount = board.size();
+			if (rowCount == 0) { return board; }
+			int colCount = board[0].size();
+			if (colCount == 0) { return board; }
+
+			int x = click[0];
+			int y = click[1];
+
+			if (board[x][y] == 'M') { board[x][y] = 'X'; return board; }
+			if (isdigit(board[x][y]) || board[x][y] == 'B') { return board; }
+
+			vector<pair<int, int>> dirs = { {-1, -1}, {-1, 0},{-1, 1},{0, -1},{0, 1},{1, -1},{1, 0},{1, 1} };
+			int adjCount = 0;
+			for (auto [xx, yy] : dirs) {
+				int a = x + xx;
+				int b = y + yy;
+				if (a < 0 || a >= rowCount || b < 0 || b >= colCount) { continue; }
+				if (board[a][b] == 'M') { adjCount++; }
+			}
+			if (adjCount > 0) { board[x][y] = '0' + adjCount; return board; }
+			board[x][y] = 'B';
+			for (auto [xx, yy] : dirs) {
+				int a = x + xx;
+				int b = y + yy;
+				if (a < 0 || a >= rowCount || b < 0 || b >= colCount) { continue; }
+				vector<int> newClick = { a, b };
+				updateBoard(board, newClick);
+			}
+			return board;
+		}
 
 		void Main() {
 			string test = "tst test test";

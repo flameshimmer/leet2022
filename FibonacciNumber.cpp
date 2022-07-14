@@ -31,7 +31,14 @@ namespace Solution2022
 	namespace FibonacciNumber
 	{
 	    int fib(int n) {
-	        
+			if (n == 0) { return 0; }
+			if (n == 1) { return 1; }
+
+			vector<int> A = { 0, 1 };
+			for (int i = 2; i <= n; i++) {
+				A[i % 2] = A[(i - 1) % 2] + A[(i - 2) % 2];
+			}
+			return A[n % 2];
 	    }
 
 		void Main() {

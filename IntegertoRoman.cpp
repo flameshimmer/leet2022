@@ -47,7 +47,33 @@ namespace Solution2022
 	namespace IntegertoRoman
 	{
 	    string intToRoman(int num) {
-	        
+			if (num == 0) { return ""; }
+
+			vector<pair<int, string>> data;
+			data.push_back({ 1000, "M" });
+			data.push_back({ 900, "CM" });
+			data.push_back({ 500, "D" });
+			data.push_back({ 400, "CD" });
+			data.push_back({ 100, "C" });
+			data.push_back({ 90, "XC" });
+			data.push_back({ 50, "L" });
+			data.push_back({ 40, "XL" });
+			data.push_back({ 10, "X" });
+			data.push_back({ 9, "IX" });
+			data.push_back({ 5, "V" });
+			data.push_back({ 4, "IV" });
+			data.push_back({ 1, "I" });
+
+			string result = "";			
+			for (auto [v, str] : data) {
+				for (int i = 0; i < num / v; i++) {
+					result += str;
+				}
+				num %= v;
+				if (num == 0) { break; }
+			}
+			
+			return result;
 	    }
 
 		void Main() {
