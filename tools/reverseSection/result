@@ -1,0 +1,223 @@
+	//7/15/2022
+	//Solution2022::MajorityElement::Main();
+
+	//7/14/2022
+	//Solution2022::ValidPalindrome::Main();
+	//Solution2022::FirstUniqueCharacterinaString::Main();
+	//Solution2022::LongestHappyString::Main();
+	//Solution2022::CoinChange::Main();
+	//Solution2022::AlienDictionary::Main();
+
+	//7/13/2022
+	//Solution2022::FibonacciNumber::Main();
+	//Solution2022::RemovePalindromicSubsequences::Main();
+	//Solution2022::IntegertoRoman::Main();
+	//Solution2022::LongestStringChain::Main();
+	//Solution2022::Minesweeper::Main();
+
+	//7/12/2022
+	//Solution2022::FindWinneronaTicTacToeGame::Main();
+	//Solution2022::DesignHashMap::Main();
+	//Solution2022::ExclusiveTimeofFunctions::Main();
+	//Solution2022::StepByStepDirectionsFromaBinaryTreeNodetoAnother::Main();
+	//Solution2022::ReformatDate::Main();
+
+	//7/11/2022
+	//Solution2022::AddStrings::Main();
+	//Solution2022::MaximumUnitsonaTruck::Main();
+	//Solution2022::SpiralMatrix::Main();
+	//Solution2022::CustomSortString::Main();
+	//Solution2022::MinimizeDeviationinArray::Main();
+
+	//7/10/2022
+	//Solution2022::DegreeofanArray::Main();
+	//Solution2022::PascalsTriangle::Main();
+	//Solution2022::PascalsTriangleII::Main();
+	//Solution2022::BrokenCalculator::Main();
+	//Solution2022::ProductofArrayExceptSelf::Main();
+	//Solution2022::MergekSortedLists::Main();
+	//Solution2022::BasicCalculator::Main();
+
+	//7/9/2022
+	//Solution2022::CountOddNumbersinanIntervalRange::Main();
+	//Solution2022::PalindromeLinkedList::Main();
+	//Solution2022::CountBinarySubstrings::Main();
+	//Solution2022::CanPlaceFlowers::Main();
+	//Solution2022::LoggerRateLimiter::Main();
+	//Solution2022::DesignHitCounter::Main();
+	//Solution2022::SearchinRotatedSortedArray::Main();
+	//Solution2022::CarPooling::Main();
+	//Solution2022::DesignFileSystem::Main();
+	//Solution2022::CopyListwithRandomPointer::Main();
+
+	//7/7/2022
+	//Solution2022::MinimumAddtoMakeParenthesesValid::Main();
+	//Solution2022::ShortestPathinaGridwithObstaclesElimination::Main();
+	//Solution2022::RotateImage::Main();
+	//Solution2022::EvaluateDivision::Main();
+	//Solution2022::ReverseInteger::Main();
+
+	//7/6/2022
+	//Solution2022::FirstMissingPositive::Main();
+	//Solution2022::RangeSumofBST::Main();	
+	//Solution2022::ReorderDatainLogFiles::Main();
+	//Solution2022::ConvertBinarySearchTreetoSortedDoublyLinkedList::Main();
+	//Solution2022::SearchSuggestionsSystem::Main();
+
+	//7/5/2022
+	//Solution2022::KClosestPointstoOrigin::Main();
+	//Solution2022::TopKFrequentElements::Main();
+
+	//6/30/2022
+	//Solution2022::UniqueNumberofOccurrences::Main();
+	//Solution2022::AlertUsingSameKeyCardThreeorMoreTimesinaOneHourPeriod::Main();
+	//Solution2022::NestedListWeightSumII::Main();
+	//Solution2022::GameofLife::Main();
+	//Solution2022::MovingAveragefromDataStream::Main();
+
+	//6/29/2022
+	//Solution2022::MergeSortedArray::Main();
+	//Solution2022::ShortestPathinBinaryMatrix::Main();
+	//Solution2022::RemoveAllAdjacentDuplicatesInString::Main();
+	//Solution2022::RemoveAllAdjacentDuplicatesinStringII::Main();
+	//Solution2022::FindLeavesofBinaryTree::Main();
+
+	//6/28/2022
+	//Solution2022::RobotBoundedInCircle::Main();
+	//Solution2022::MaxStack::Main();
+	//Solution2022::SumofSubarrayMinimums::Main();
+	//Solution2022::SumofSubarrayRanges::Main();
+	//Solution2022::GasStation::Main();
+
+	//6/27/2022
+	//Solution2022::Pow::Main();
+	//Solution2022::GroupAnagrams::Main();
+	//Solution2022::ThreeSumWithMultiplicity::Main();
+	//Solution2022::AnalyzeUserWebsiteVisitPattern::Main();
+	//Solution2022::ContainsDuplicate::Main();
+
+	//6/26/2022
+	//Solution2022::FizzBuzz::Main();
+	//Solution2022::KthLargestElementinanArray::Main();
+	//Solution2022::TotalAppealofAString::Main();
+	//Solution2022::CountUniqueCharactersofAllSubstringsofaGivenString::Main();
+	//Solution2022::LetterCombinationsofaPhoneNumber::Main();
+	//Solution2022::LowestCommonAncestorofaBinaryTree::Main();
+	//Solution2022::StringCompression::Main();	
+	//Solution2022::ContainerWithMostWater::Main();
+	//Solution2022::IntegertoEnglishWords::Main();
+	//Solution2022::BusRoutes::Main();
+
+	//6/25/2022
+	//Solution2022::GenerateParentheses::Main();
+	//Solution2022::PairsofSongsWithTotalDurationsDivisiblebySixZero::Main();
+	//Solution2022::ShortestWordDistance::Main();
+	//Solution2022::ShortestWordDistanceII::Main();
+	//Solution2022::ShortestWordDistanceIII::Main();
+	//Solution2022::WordSearch::Main();
+
+
+	//6/22/2022
+	//Solution2022::NextPermutation::Main();
+	//Solution2022::DesignUndergroundSystem::Main();
+	//Solution2022::ThreeSum::Main();
+	//Solution2022::DecodeString::Main();
+
+	//6/21/2022
+	//Solution2022::LongestCommonPrefix::Main();
+	//Solution2022::ValidWordAbbreviation::Main();
+	//Solution2022::PalindromeNumber::Main();
+	//Solution2022::MeetingRoomsII::Main();
+	//Solution2022::LongestPalindromicSubstring::Main();
+
+	//6/20/2022
+	//Solution2022::AddTwoNumbers::Main();
+	//Solution2022::SubdomainVisitCount::Main();
+	//Solution2022::NestedListWeightSum::Main();
+	//Solution2022::SimplifyPath::Main();
+	//Solution2022::BasicCalculatorII::Main();
+
+	//6/19/2022
+	//Solution2022::BestTimetoBuyandSellStock::Main();
+	//Solution2022::InsertDeleteGetRandomO::Main();
+	//Solution2022::MaximumSubarray::Main();
+
+	//6/18/2022	
+	//Solution2022::RandomPickwithWeight::Main();
+	//Solution2022::ReconstructOriginalDigitsfromEnglish::Main();
+	//Solution2022::TextJustification::Main();
+
+	//6/17/2022
+	//Solution2022::BuildingsWithanOceanView::Main();
+	//Solution2022::DotProductofTwoSparseVectors::Main();
+	//Solution2022::DesignInMemoryFileSystem::Main();
+
+	//6/16/2022
+	//Solution2022::BinaryTreeVerticalOrderTraversal::Main();
+	//Solution2022::SubarraySumEqualsK::Main();
+	//Solution2022::ValidPalindromeII::Main();
+
+
+	//6/15/2022
+	//Solution2022::TrappingRainWater::Main();
+	//Solution2022::ValidParentheses::Main();
+	//Solution2022::LowestCommonAncestorofaBinaryTreeIII::Main();
+
+	//6/14/2022
+	//Solution2022::MergeIntervals::Main();
+	//Solution2022::NumberofIslands::Main();
+	//Solution2022::MinimumRemovetoMakeValidParentheses::Main();
+
+	//6/13/2022
+	//Solution2022::TwoSum::Main();
+	//Solution2022::RomantoInteger::Main();
+	//Solution2022::LRUCache::Main();
+
+	//6/9/2022
+	//Solution2022::ReverseBits::Main();
+	//Solution2022::SingleNumber::Main();
+
+	//6/8/2022
+	//Solution2022::HouseRobber::Main();
+	//Solution2022::Triangle::Main();
+	//Solution2022::PowerofTwo::Main();
+	//Solution2022::NumberofOneBits::Main();
+
+	//6/7/2022
+	//Solution2022::Permutations::Main();
+	//Solution2022::LetterCasePermutation::Main();
+	//Solution2022::ClimbingStairs::Main();
+
+	//6/6/2022
+	//Solution2022::MergeTwoSortedLists::Main();
+	//Solution2022::ReverseLinkedList::Main();
+	//Solution2022::Combinations::Main();
+
+	//6/5/2022
+	//Solution2022::MaxAreaofIsland::Main();
+	//Solution2022::MergeTwoBinaryTrees::Main();
+	//Solution2022::PopulatingNextRightPointersinEachNode::Main();
+	//Solution2022::ZeroOneMatrix::Main();
+	//Solution2022::RottingOranges::Main();
+
+	//6/4/2022
+	//Solution2022::MiddleoftheLinkedList::Main();
+	//Solution2022::RemoveNthNodeFromEndofList::Main();
+	//Solution2022::LongestSubstringWithoutRepeatingCharacters::Main();
+	//Solution2022::PermutationinString::Main();
+	//Solution2022::FloodFill::Main();
+
+	//6/3/2022
+	//Solution2022::TwoSumIIInputArrayIsSorted::Main();
+	//Solution2022::ReverseString::Main();
+	//Solution2022::ReverseWordsinaStringIII::Main();
+
+	//6/2/2022
+	//Solution2022::SquaresofaSortedArray::Main();
+	//Solution2022::RotateArray::Main();
+	//Solution2022::MoveZeroes::Main();
+
+	//6/1/2022
+	//Solution2022::BinarySearch::Main();
+	//Solution2022::FirstBadVersion::Main();
+	//Solution2022::SearchInsertPosition::Main();

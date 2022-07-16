@@ -24,14 +24,17 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::TransposeMatrix::Main();
 	//Solution2022::BoatstoSavePeople::Main();
 	//Solution2022::OptimalAccountBalancing::Main();
+
 	//Solution2022::FindNUniqueIntegersSumuptoZero::Main();
-	//Solution2022::HappyNumber::Main();
+	Solution2022::HappyNumber::Main();
 	//Solution2022::ValidAnagram::Main();
+
 	
 	//7/15/2022
 	//Solution2022::MajorityElement::Main();
 	//Solution2022::IntersectionofTwoArrays::Main();
 	
+
 	//7/14/2022
 	//Solution2022::ValidPalindrome::Main();
 	//Solution2022::FirstUniqueCharacterinaString::Main();

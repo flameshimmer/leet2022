@@ -32,16 +32,21 @@ namespace Solution2022
 	{
 	    bool isHappy(int n) {
 			unordered_set<int> set;
-			while (n != 1 && set.count(n) == 0) {
-				set.insert(n);
-				int newNum = 0;
+			
+			while (n) {			
+				int num = 0;
+				int cur = n;
 				while (n) {
-					newNum += (n % 10) * (n % 10);
+					num += (n % 10) * (n % 10);
 					n /= 10;
 				}
-				n = newNum;			
+				if (num == 1 || set.find(num) != set.end()) {
+					return true;
+				}
+				set.insert(num);
+				n = num;
 			}
-			return n == 1;
+			return false;
 	    }
 
 		void Main() {

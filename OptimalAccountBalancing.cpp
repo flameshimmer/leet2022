@@ -36,8 +36,41 @@ namespace Solution2022
 {
 	namespace OptimalAccountBalancing
 	{
+		int dfs(int start, int len, vector<int>& debts) {
+			if (start == len) { return 0; }
+
+			int cur = debts[start];
+			if (cur == 0) { return dfs(start +1, len, debts); }
+
+			int result = INT_MAX;
+			for (int i = start + 1; i < len; i++) {
+				int tmp = debts[i];
+				if (tmp * cur < 0) {
+					debts[i] += cur;
+					result = min(result, 1 + dfs(start + 1, len, debts));
+					debts[i] = tmp;
+				}
+				if (tmp + cur == 0) { break; }
+			}
+			return result;
+		}
+
+
 	    int minTransfers(vector<vector<int>>& transactions) {
-	        
+			int len = transactions.size();
+			if (len < 2) { return len; }
+
+			unordered_map<int, int> map;
+			for (vector<int>& t : transactions) {
+				map[t[0]] -= t[2];
+				map[t[1]] += t[2];
+			}
+
+			vector<int> list;
+			for (auto& p : map) {
+				if (p.second != 0) { list.push_back(p.second); }
+			}
+			return dfs(0, list.size(), list); // note that the second param is list.size, not transactions.size()!!!
 	    }
 
 		void Main() {

@@ -31,7 +31,17 @@ namespace Solution2022
 	namespace BoatstoSavePeople
 	{
 	    int numRescueBoats(vector<int>& people, int limit) {
-	        
+			sort(people.begin(), people.end());
+			int i = 0;
+			int j = people.size() - 1;
+
+			int result = 0;
+			while (i <= j) { // when i == j, we still need to increment 1, so use <= instead of < here.
+				if (people[i] + people[j] <= limit) { i++; j--; }
+				else { j--; }
+				result++;
+			}
+			return result;
 	    }
 
 		void Main() {

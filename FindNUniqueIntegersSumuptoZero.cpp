@@ -25,7 +25,17 @@ namespace Solution2022
 	namespace FindNUniqueIntegersSumuptoZero
 	{
 	    vector<int> sumZero(int n) {
-	        
+			vector<int> result;
+			if (n % 2 == 1) {
+				result.push_back(0);
+				n--;
+			}
+			
+			for (int i = 0; i < n / 2; i++) {
+				result.push_back(i + 1);
+				result.push_back(-(i + 1));
+			}
+			return result;
 	    }
 
 		void Main() {

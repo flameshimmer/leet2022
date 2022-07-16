@@ -38,13 +38,28 @@ namespace Solution2022
 {
 	namespace VerifyinganAlienDictionary
 	{
-	    bool isAlienSorted(vector<string>& words, string order) {
-	        
-	    }
+
+		bool isAlienSorted(vector<string>& words, string order) {
+			unordered_map<char, int> map;
+			for (int i = 0; i < order.size(); i++) {
+				map[order[i]] = i;
+			}
+
+			auto comp = [&map](string& a, string& b) {
+				int lena = a.size();
+				int lenb = b.size();
+				for (int i = 0; i < min(lena, lenb); i++) {
+					if (a[i] != b[i]) { return map[a[i]] < map[b[i]]; }
+				}
+				return lena < lenb;
+			};
+
+			return is_sorted(words.begin(), words.end(), comp);
+		}
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			vector<string> test = { "hello", "leetcode"};
+			print(isAlienSorted(test, "hlabcdefgijkmnopqrstuvwxyz"));
 		}
 	}
 }

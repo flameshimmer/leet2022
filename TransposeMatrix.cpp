@@ -25,7 +25,19 @@ namespace Solution2022
 	namespace TransposeMatrix
 	{
 	    vector<vector<int>> transpose(vector<vector<int>>& matrix) {
-	        
+			int rowCount = matrix.size();
+			if (rowCount == 0) { return matrix; }
+			int colCount = matrix[0].size();
+			if (colCount == 0) { return matrix; }
+			
+			vector<vector<int>> newMatirx(colCount, vector<int>(rowCount, 0));
+
+			for (int i = 0; i < rowCount; i++) {
+				for (int j = 0; j < colCount; j++) {
+					newMatirx[j][i] = matrix[i][j];
+				}
+			}
+			return newMatirx;
 	    }
 
 		void Main() {

@@ -45,9 +45,19 @@ namespace Solution2022
 {
 	namespace ChampagneTower
 	{
-	    double champagneTower(int poured, int query_row, int query_glass) {
-	        
-	    }
+		double champagneTower(int poured, int query_row, int query_glass) {
+			vector<double> cups(query_row + 1); // query_row starts from 0
+			cups[0] = poured;
+
+			for (int i = 0; i < query_row; i++) { // calculate query_row times
+				for (int j = i; j >= 0; j--) { // max index for each time is i;
+					double overflow = fmax(0, cups[j] - 1);
+					cups[j + 1] += overflow / 2; // note this is +=
+					cups[j] = overflow / 2;
+				}
+			}
+			return fmin(1.0, cups[query_glass]);
+		}
 
 		void Main() {
 			string test = "tst test test";

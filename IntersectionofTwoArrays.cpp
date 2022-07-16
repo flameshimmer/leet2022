@@ -1,5 +1,5 @@
 #include "stdafx.h"
-
+#include <iterator>
 //Given two integer arrays nums1 and nums2, return an array of their
 //intersection. Each element in the result must be unique and you may return the
 //result in any order.
@@ -22,8 +22,20 @@ namespace Solution2022
 {
 	namespace IntersectionofTwoArrays
 	{
-	    vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {
-	        
+	    		
+		vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {
+			if (nums1.size() > nums2.size()) {
+				return intersection(nums2, nums1);
+			}
+
+			unordered_set<int> s1(nums1.begin(), nums1.end());
+			unordered_set<int> s2(nums2.begin(), nums2.end());
+
+			vector<int> result;
+			for (int v : s1) {
+				if (s2.find(v) != s2.end()) { result.push_back(v); }
+			}
+			return result;
 	    }
 
 		void Main() {

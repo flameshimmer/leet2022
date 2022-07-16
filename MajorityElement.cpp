@@ -25,7 +25,15 @@ namespace Solution2022
 	namespace MajorityElement
 	{
 	    int majorityElement(vector<int>& nums) {
-	        
+			int curMaj = nums[0];
+			int count = 1;
+
+			for (int i = 1; i < nums.size(); i++) {
+				if (nums[i] == curMaj) { count++; }
+				else if (count == 0) { count = 1; curMaj = nums[i]; }
+				else { count--; }			
+			}
+			return curMaj;
 	    }
 
 		void Main() {

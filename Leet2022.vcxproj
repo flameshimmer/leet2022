@@ -161,11 +161,13 @@
     <ClCompile Include="BestTimetoBuyandSellStock.cpp" />
     <ClCompile Include="BinarySearch.cpp" />
     <ClCompile Include="BinaryTreeVerticalOrderTraversal.cpp" />
+    <ClCompile Include="BoatstoSavePeople.cpp" />
     <ClCompile Include="BrokenCalculator.cpp" />
     <ClCompile Include="BuildingsWithanOceanView.cpp" />
     <ClCompile Include="BusRoutes.cpp" />
     <ClCompile Include="CarPooling.cpp" />
     <ClCompile Include="ClimbingStairs.cpp" />
+    <ClCompile Include="CoinChange.cpp" />
     <ClCompile Include="Combinations.cpp" />
     <ClCompile Include="ContainerWithMostWater.cpp" />
     <ClCompile Include="ContainsDuplicate.cpp" />
@@ -184,18 +186,24 @@
     <ClCompile Include="DotProductofTwoSparseVectors.cpp" />
     <ClCompile Include="EvaluateDivision.cpp" />
     <ClCompile Include="ExclusiveTimeofFunctions.cpp" />
+    <ClCompile Include="FibonacciNumber.cpp" />
+    <ClCompile Include="FindNUniqueIntegersSumuptoZero.cpp" />
     <ClCompile Include="FindWinneronaTicTacToeGame.cpp" />
     <ClCompile Include="FirstBadVersion.cpp" />
     <ClCompile Include="FirstMissingPositive.cpp" />
+    <ClCompile Include="FirstUniqueCharacterinaString.cpp" />
     <ClCompile Include="FizzBuzz.cpp" />
     <ClCompile Include="FloodFill.cpp" />
     <ClCompile Include="GameofLife.cpp" />
     <ClCompile Include="GenerateParentheses.cpp" />
     <ClCompile Include="GroupAnagrams.cpp" />
+    <ClCompile Include="HappyNumber.cpp" />
     <ClCompile Include="Helpers.cpp" />
     <ClCompile Include="HouseRobber.cpp" />
     <ClCompile Include="InsertDeleteGetRandomO.cpp" />
     <ClCompile Include="IntegertoEnglishWords.cpp" />
+    <ClCompile Include="IntegertoRoman.cpp" />
+    <ClCompile Include="IntersectionofTwoArrays.cpp" />
     <ClCompile Include="KClosestPointstoOrigin.cpp" />
     <ClCompile Include="KthLargestElementinanArray.cpp" />
     <ClCompile Include="Leet2022.cpp" />
@@ -203,7 +211,9 @@
     <ClCompile Include="LetterCombinationsofaPhoneNumber.cpp" />
     <ClCompile Include="ListNode.cpp" />
     <ClCompile Include="LongestCommonPrefix.cpp" />
+    <ClCompile Include="LongestHappyString.cpp" />
     <ClCompile Include="LongestPalindromicSubstring.cpp" />
+    <ClCompile Include="LongestStringChain.cpp" />
     <ClCompile Include="LongestSubstringWithoutRepeatingCharacters.cpp" />
     <ClCompile Include="LowestCommonAncestorofaBinaryTree.cpp" />
     <ClCompile Include="LowestCommonAncestorofaBinaryTreeIII.cpp" />
@@ -219,6 +229,7 @@
     <ClCompile Include="MergeTwoBinaryTrees.cpp" />
     <ClCompile Include="MergeTwoSortedLists.cpp" />
     <ClCompile Include="MiddleoftheLinkedList.cpp" />
+    <ClCompile Include="Minesweeper.cpp" />
     <ClCompile Include="MinimizeDeviationinArray.cpp" />
     <ClCompile Include="MinimumAddtoMakeParenthesesValid.cpp" />
     <ClCompile Include="MinimumRemovetoMakeValidParentheses.cpp" />
@@ -229,6 +240,7 @@
     <ClCompile Include="NextPermutation.cpp" />
     <ClCompile Include="NumberofIslands.cpp" />
     <ClCompile Include="NumberofOneBits.cpp" />
+    <ClCompile Include="OptimalAccountBalancing.cpp" />
     <ClCompile Include="PairsofSongsWithTotalDurationsDivisiblebySixZero.cpp" />
     <ClCompile Include="PalindromeLinkedList.cpp" />
     <ClCompile Include="PalindromeNumber.cpp" />
@@ -247,6 +259,7 @@
     <ClCompile Include="RemoveAllAdjacentDuplicatesInString.cpp" />
     <ClCompile Include="RemoveAllAdjacentDuplicatesinStringII.cpp" />
     <ClCompile Include="RemoveNthNodeFromEndofList.cpp" />
+    <ClCompile Include="RemovePalindromicSubsequences.cpp" />
     <ClCompile Include="ReorderDatainLogFiles.cpp" />
     <ClCompile Include="ReverseBits.cpp" />
     <ClCompile Include="ReverseInteger.cpp" />
@@ -282,15 +295,18 @@
     <ClCompile Include="ThreeSumWithMultiplicity.cpp" />
     <ClCompile Include="TopKFrequentElements.cpp" />
     <ClCompile Include="TotalAppealofAString.cpp" />
+    <ClCompile Include="TransposeMatrix.cpp" />
     <ClCompile Include="TrappingRainWater.cpp" />
     <ClCompile Include="TreeHelpers.cpp" />
     <ClCompile Include="Triangle.cpp" />
     <ClCompile Include="TwoSum.cpp" />
     <ClCompile Include="TwoSumIIInputArrayIsSorted.cpp" />
     <ClCompile Include="UniqueNumberofOccurrences.cpp" />
+    <ClCompile Include="ValidPalindrome.cpp" />
     <ClCompile Include="ValidPalindromeII.cpp" />
     <ClCompile Include="ValidParentheses.cpp" />
     <ClCompile Include="ValidWordAbbreviation.cpp" />
+    <ClCompile Include="VerifyinganAlienDictionary.cpp" />
     <ClCompile Include="ZeroOneMatrix.cpp" />
   </ItemGroup>
   <ItemGroup>
