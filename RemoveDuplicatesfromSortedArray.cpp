@@ -49,7 +49,18 @@ namespace Solution2022
 	namespace RemoveDuplicatesfromSortedArray
 	{
 	    int removeDuplicates(vector<int>& nums) {
-	        
+			int len = nums.size();
+			if (len < 2) { return len; }
+
+			int front = 1;
+			int back = 0;
+			for (; front < len; front++) {
+				if (nums[back] != nums[front]) {
+					back++;
+					nums[back] = nums[front];
+				}				
+			}
+			return back + 1;
 	    }
 
 		void Main() {

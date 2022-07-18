@@ -34,7 +34,15 @@ namespace Solution2022
 	namespace SignoftheProductofanArray
 	{
 	    int arraySign(vector<int>& nums) {
-	        
+			int len = nums.size();
+			if (len == 0) { return 0; }
+
+			int countNeg = 0;
+			for (int v : nums) {
+				if (v == 0) { return 0; }
+				if (v < 0) { countNeg++; }
+			}
+			return countNeg % 2 == 0 ? 1 : -1;
 	    }
 
 		void Main() {

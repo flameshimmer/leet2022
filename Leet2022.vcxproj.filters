@@ -489,6 +489,21 @@
     <ClCompile Include="HappyNumber.cpp">
       <Filter>Solution2022</Filter>
     </ClCompile>
+    <ClCompile Include="RemoveDuplicatesfromSortedArray.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoveDuplicatesfromSortedArrayII.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="SignoftheProductofanArray.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="FlattenNestedListIterator.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="RaceCar.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Solution2022.h">

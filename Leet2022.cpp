@@ -11,12 +11,17 @@ typedef std::numeric_limits< double > dbl;
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-
 	// Runtime begin marker start
 	clock_t begin = clock();
 	//Solution2022::Test::Main(); // Medium
 
 	//====Problem Starts====
+	//7/17/2022
+	//Solution2022::RemoveDuplicatesfromSortedArray::Main();
+	//Solution2022::RemoveDuplicatesfromSortedArrayII::Main();
+	//Solution2022::SignoftheProductofanArray::Main();
+	//Solution2022::FlattenNestedListIterator::Main();
+	//Solution2022::RaceCar::Main();
 	
 	//7/16/2022
 	//Solution2022::ChampagneTower::Main();
@@ -1265,7 +1270,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::FindtheKthSmallestSumofaMatrixWithSortedRows::Main();
 	//Solution2022::RearrangeWordsinaSentence::Main();
 	//Solution2022::MaximumSwap::Main();
-	//Solution2022::FlattenNestedListIterator::Main();
 	//Solution2022::MaximizeDistancetoClosestPerson::Main();
 	//Solution2022::LongestValidParentheses::Main();
 	//Solution2022::BurstBalloons::Main();
@@ -1327,7 +1331,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::KdiffPairsinanArray::Main();
 	//Solution2022::RotateArray::Main();
 	//Solution2022::FindtheClosestPalindrome::Main();
-	//Solution2022::RaceCar::Main();
 	//Solution2022::JumpGame::Main();
 	//Solution2022::MakingFileNamesUnique::Main();
 	//Solution2022::ConstructQuadTree::Main();
@@ -1631,7 +1634,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::ReadNCharactersGivenreadFourIICallMultipleTimes::Main();
 	//Solution2022::RemoveNthNodeFromEndofList::Main();
 	//Solution2022::GuesstheWord::Main();
-	//Solution2022::SignoftheProductofanArray::Main();
 	//Solution2022::ArithmeticSlices::Main();
 	//Solution2022::MissingNumber::Main();
 	//Solution2022::LongestIncreasingSubsequence::Main();
@@ -1639,7 +1641,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::ShortestBridge::Main();
 	//Solution2022::LastStoneWeight::Main();
 	//Solution2022::SquaresofaSortedArray::Main();
-	//Solution2022::RemoveDuplicatesfromSortedArray::Main();
 	//Solution2022::ExpressiveWords::Main();
 	//Solution2022::AddBoldTaginString::Main();
 	//Solution2022::RearrangeStringkDistanceApart::Main();
@@ -2048,7 +2049,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::ValidMountainArray::Main();
 	//Solution2022::RectangleAreaII::Main();
 	//Solution2022::MinimumNumberofWorkSessionstoFinishtheTasks::Main();
-	//Solution2022::RemoveDuplicatesfromSortedArrayII::Main();
 	//Solution2022::ConvertBSTtoGreaterTree::Main();
 	//Solution2022::LongestWordinDictionary::Main();
 	//Solution2022::PossibleBipartition::Main();

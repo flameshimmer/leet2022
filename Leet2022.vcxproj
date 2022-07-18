@@ -193,6 +193,7 @@
     <ClCompile Include="FirstMissingPositive.cpp" />
     <ClCompile Include="FirstUniqueCharacterinaString.cpp" />
     <ClCompile Include="FizzBuzz.cpp" />
+    <ClCompile Include="FlattenNestedListIterator.cpp" />
     <ClCompile Include="FloodFill.cpp" />
     <ClCompile Include="GameofLife.cpp" />
     <ClCompile Include="GenerateParentheses.cpp" />
@@ -252,12 +253,15 @@
     <ClCompile Include="Pow.cpp" />
     <ClCompile Include="PowerofTwo.cpp" />
     <ClCompile Include="ProductofArrayExceptSelf.cpp" />
+    <ClCompile Include="RaceCar.cpp" />
     <ClCompile Include="RandomPickwithWeight.cpp" />
     <ClCompile Include="RangeSumofBST.cpp" />
     <ClCompile Include="ReconstructOriginalDigitsfromEnglish.cpp" />
     <ClCompile Include="ReformatDate.cpp" />
     <ClCompile Include="RemoveAllAdjacentDuplicatesInString.cpp" />
     <ClCompile Include="RemoveAllAdjacentDuplicatesinStringII.cpp" />
+    <ClCompile Include="RemoveDuplicatesfromSortedArray.cpp" />
+    <ClCompile Include="RemoveDuplicatesfromSortedArrayII.cpp" />
     <ClCompile Include="RemoveNthNodeFromEndofList.cpp" />
     <ClCompile Include="RemovePalindromicSubsequences.cpp" />
     <ClCompile Include="ReorderDatainLogFiles.cpp" />
@@ -278,6 +282,7 @@
     <ClCompile Include="ShortestWordDistance.cpp" />
     <ClCompile Include="ShortestWordDistanceII.cpp" />
     <ClCompile Include="ShortestWordDistanceIII.cpp" />
+    <ClCompile Include="SignoftheProductofanArray.cpp" />
     <ClCompile Include="SimplifyPath.cpp" />
     <ClCompile Include="SingleNumber.cpp" />
     <ClCompile Include="SpiralMatrix.cpp" />

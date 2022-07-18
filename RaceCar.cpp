@@ -37,13 +37,77 @@ namespace Solution2022
 {
 	namespace RaceCar
 	{
-	    int racecar(int target) {
-	        
-	    }
+		namespace BFS {
+
+			int racecar(int target) {
+				queue<pair<int, int>> q; // {pos, speed}
+				q.push({ 0, 1 });
+				unordered_set<string> v;
+				v.insert("0_1");
+				v.insert("0,-1");
+
+				int result = 0;
+				while (!q.empty()) {
+					int sz = q.size();
+					while (sz) {
+						sz--;
+
+						auto [pos, speed] = q.front();
+						q.pop();
+
+						// option 1: accelarate
+						int pos1 = pos + speed;
+						int speed1 = speed * 2;
+						if (pos1 == target) { return result + 1; }
+						if (pos1 > 0 && pos1 < 2 * target) {
+							q.push({ pos1, speed1 });
+						}
+
+						// option 2: reverse
+						int speed2 = speed > 0 ? -1 : 1;
+						string key = to_string(pos) + "_" + to_string(speed2);
+						if (v.find(key) == v.end()) {
+							q.push({ pos, speed2 });
+							v.insert(key);
+						}
+					}
+					result++;
+				}
+				return -1;
+			}
+
+
+		}
+
+		namespace DP {
+			// explaination: https://www.youtube.com/watch?v=HzlEkUt2TYs
+			vector<int> dp;
+
+			int helper(int target) {
+				if (dp[target] > 0) return dp[target];
+				int n = ceil(log2(target + 1));
+				// AA...A (nA) best case
+				if (1 << n == target + 1) return dp[target] = n;
+
+				// AA...AR (nA + 1R) + helper(left) 
+				dp[target] = n + 1 + helper((1 << n) - 1 - target);
+				
+				for (int m = 0; m < n - 1; ++m) {
+					int cur = (1 << (n - 1)) - (1 << m);
+					//AA...ARA...AR (n-1A + 1R + mA + 1R) + helper(left) 
+					dp[target] = min(dp[target], n + m + 1 + helper(target - cur));
+				}
+				return dp[target];
+			}
+
+			int racecar(int target) {
+				dp.resize(target + 1, 0);
+				return helper(target);
+			}
+		}
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			print(racecar(4));
 		}
 	}
 }

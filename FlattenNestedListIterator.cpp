@@ -39,42 +39,98 @@ namespace Solution2022
 {
 	namespace FlattenNestedListIterator
 	{
-	/**
-	 * // This is the interface that allows for creating nested lists.
-	 * // You should not implement it, or speculate about its implementation
-	 * class NestedInteger {
-	 *   public:
-	 *     // Return true if this NestedInteger holds a single integer, rather than a nested list.
-	 *     bool isInteger() const;
-	 *
-	 *     // Return the single integer that this NestedInteger holds, if it holds a single integer
-	 *     // The result is undefined if this NestedInteger holds a nested list
-	 *     int getInteger() const;
-	 *
-	 *     // Return the nested list that this NestedInteger holds, if it holds a nested list
-	 *     // The result is undefined if this NestedInteger holds a single integer
-	 *     const vector<NestedInteger> &getList() const;
-	 * };
-	 */
-	​
-	class NestedIterator {
-	    NestedIterator(vector<NestedInteger> &nestedList) {
-	        
-	    }
-	    
-	    int next() {
-	        
-	    }
-	    
-	    bool hasNext() {
-	        
-	    }
-	​
-	/**
-	 * Your NestedIterator object will be instantiated and called as such:
-	 * NestedIterator i(nestedList);
-	 * while (i.hasNext()) cout << i.next();
 
+		// This is the interface that allows for creating nested lists.
+		// You should not implement it, or speculate about its implementation
+		class NestedInteger {
+		public:
+			// Return true if this NestedInteger holds a single integer, rather than a nested list.
+			bool isInteger() const { return true; }
+
+			// Return the single integer that this NestedInteger holds, if it holds a single integer
+			// The result is undefined if this NestedInteger holds a nested list
+			int getInteger() const { return 0; }
+
+			// Return the nested list that this NestedInteger holds, if it holds a nested list
+			// The result is undefined if this NestedInteger holds a single integer
+			const vector<NestedInteger>& getList() const { return {}; }
+		};
+
+
+		class NestedIterator {
+		private:
+			stack<NestedInteger> s;
+		public:
+			NestedIterator(vector<NestedInteger>& nestedList) {
+				int len = nestedList.size();
+				for (int i = len - 1; i >= 0; i--) {
+					s.push(nestedList[i]);
+				}
+			}
+
+			int next() {
+				int result = s.top().getInteger();
+				s.pop();
+				return result;
+			}
+
+			bool hasNext() {
+				while (!s.empty()) {
+					NestedInteger top = s.top();
+
+					if (top.isInteger()) { return true; }
+
+					s.pop();
+
+					auto list = top.getList();
+					for (int i = list.size() - 1; i >= 0; i--) {
+						s.push(list[i]);
+					}
+				}
+				return false;
+			}
+		};
+/*
+		namespace IteratorOnly {
+			typedef vector<NestedInteger>::iterator iter;
+			class NestedIterator {
+			private:
+				stack<iter> begins;
+				stack<iter> ends;
+
+			public:
+				NestedIterator(vector<NestedInteger>& nestedList) {
+					begins.push(nestedList.begin());
+					ends.push(nestedList.end());
+				}
+
+				int next() {
+					hasNext();
+					int result = begins.top()->getInteger();
+					begins.top()++;
+					return result;
+				}
+
+				bool hasNext() {
+					while (!begins.empty()) {
+						if (begins.top() == ends.top()) {
+							begins.pop();
+							ends.pop();
+						}
+						else {
+							auto top = begins.top();
+							if (top->isInteger()) { return true; }
+							
+							begins.top()++;
+							begins.push(top->getList().begin());
+							ends.push(top->getList().end());
+						}					
+					}
+					return false;
+				}
+			};
+		}
+*/
 		void Main() {
 			string test = "tst test test";
 			print(test);
