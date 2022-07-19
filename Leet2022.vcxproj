@@ -179,6 +179,7 @@
     <ClCompile Include="CustomSortString.cpp" />
     <ClCompile Include="DecodeString.cpp" />
     <ClCompile Include="DegreeofanArray.cpp" />
+    <ClCompile Include="DesignanOrderedStream.cpp" />
     <ClCompile Include="DesignFileSystem.cpp" />
     <ClCompile Include="DesignHashMap.cpp" />
     <ClCompile Include="DesignHitCounter.cpp" />
@@ -238,6 +239,8 @@
     <ClCompile Include="MovingAveragefromDataStream.cpp" />
     <ClCompile Include="NestedListWeightSum.cpp" />
     <ClCompile Include="NestedListWeightSumII.cpp" />
+    <ClCompile Include="NextGreaterElementI.cpp" />
+    <ClCompile Include="NextGreaterElementII.cpp" />
     <ClCompile Include="NextPermutation.cpp" />
     <ClCompile Include="NumberofIslands.cpp" />
     <ClCompile Include="NumberofOneBits.cpp" />

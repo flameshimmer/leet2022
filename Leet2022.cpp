@@ -15,7 +15,17 @@ int _tmain(int argc, _TCHAR* argv[])
 	clock_t begin = clock();
 	//Solution2022::Test::Main(); // Medium
 
+
+		//Solution2022::DeleteDuplicateFoldersinSystem::Main();
+
 	//====Problem Starts====
+	//7/18/2022
+	//Solution2022::DesignanOrderedStream::Main();
+	//Solution2022::NextGreaterElementI::Main();
+	//Solution2022::NextGreaterElementII::Main();
+	//Solution2022::NextGreaterElementIII::Main();
+	//Solution2022::FindWordsThatCanBeFormedbyCharacters::Main();
+	
 	//7/17/2022
 	//Solution2022::RemoveDuplicatesfromSortedArray::Main();
 	//Solution2022::RemoveDuplicatesfromSortedArrayII::Main();
@@ -1544,7 +1554,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::PalindromePairs::Main();
 	//Solution2022::MinimumNumberofRefuelingStops::Main();
 	//Solution2022::ValidSudoku::Main();
-	//Solution2022::NextGreaterElementIII::Main();
 	//Solution2022::MaximumFrequencyStack::Main();
 	//Solution2022::ReverseString::Main();
 	//Solution2022::RemoveKDigits::Main();
@@ -1586,7 +1595,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::SnapshotArray::Main();
 	//Solution2022::TwoFourGame::Main();
 	//Solution2022::FindPivotIndex::Main();
-	//Solution2022::DeleteDuplicateFoldersinSystem::Main();
 	//Solution2022::FlipStringtoMonotoneIncreasing::Main();
 	//Solution2022::SingleNumber::Main();
 	//Solution2022::LongestConsecutiveSequence::Main();
@@ -1622,7 +1630,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::TweetCountsPerFrequency::Main();
 	//Solution2022::ReversePairs::Main();
 	//Solution2022::CountAllValidPickupandDeliveryOptions::Main();
-	//Solution2022::DesignanOrderedStream::Main();
 	//Solution2022::ExcelSheetColumnNumber::Main();
 	//Solution2022::KthMissingPositiveNumber::Main();
 	//Solution2022::StockPriceFluctuation::Main();
@@ -1697,9 +1704,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::SwiminRisingWater::Main();
 	//Solution2022::MaximumEarningsFromTaxi::Main();
 	//Solution2022::NumbersAtMostNGivenDigitSet::Main();
-	//Solution2022::NextGreaterElementI::Main();
 	//Solution2022::MissingElementinSortedArray::Main();
-	//Solution2022::FindWordsThatCanBeFormedbyCharacters::Main();
 	//Solution2022::FindtheCelebrity::Main();
 	//Solution2022::InsertDeleteGetRandomODuplicatesallowed::Main();
 	//Solution2022::PowerofTwo::Main();
@@ -1750,7 +1755,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::MinimumAbsoluteDifference::Main();
 	//Solution2022::MinimumNumberofFlipstoConvertBinaryMatrixtoZeroMatrix::Main();
 	//Solution2022::WebCrawler::Main();
-	//Solution2022::NextGreaterElementII::Main();
 	//Solution2022::SumRoottoLeafNumbers::Main();
 	//Solution2022::PartitionEqualSubsetSum::Main();
 	//Solution2022::SubstringwithConcatenationofAllWords::Main();

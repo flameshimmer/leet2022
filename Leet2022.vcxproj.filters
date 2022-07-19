@@ -504,6 +504,15 @@
     <ClCompile Include="RaceCar.cpp">
       <Filter>Solution2022</Filter>
     </ClCompile>
+    <ClCompile Include="DesignanOrderedStream.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="NextGreaterElementI.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="NextGreaterElementII.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Solution2022.h">

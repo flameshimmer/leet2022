@@ -46,20 +46,33 @@ namespace Solution2022
 {
 	namespace DesignanOrderedStream
 	{
-	class OrderedStream {
-	    OrderedStream(int n) {
-	        
-	    }
-	    
-	    vector<string> insert(int idKey, string value) {
-	        
-	    }
-	​
-	/**
-	 * Your OrderedStream object will be instantiated and called as such:
-	 * OrderedStream* obj = new OrderedStream(n);
-	 * vector<string> param_1 = obj->insert(idKey,value);
-	 */
+
+		class OrderedStream {
+		private:
+			vector<string> data;
+			int index = 1;
+		public:
+			OrderedStream(int n) {
+				data.resize(n + 1, "");
+			}
+
+			vector<string> insert(int idKey, string value) {
+				data[idKey] = value;
+				vector<string> result;
+
+				while (index < data.size() && !data[index].empty()) {
+					result.push_back(data[index]);
+					index++;
+				}
+				return result;
+			}
+		};
+
+		/**
+		 * Your OrderedStream object will be instantiated and called as such:
+		 * OrderedStream* obj = new OrderedStream(n);
+		 * vector<string> param_1 = obj->insert(idKey,value);
+		 */
 
 		void Main() {
 			string test = "tst test test";

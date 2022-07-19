@@ -41,13 +41,47 @@ namespace Solution2022
 {
 	namespace NextGreaterElementI
 	{
-	    vector<int> nextGreaterElement(vector<int>& nums1, vector<int>& nums2) {
-	        
-	    }
+		vector<int> nextGreaterElement(vector<int>& nums1, vector<int>& nums2) {
+			unordered_map<int, int> map;
+			stack<int> s;
+
+			for (int v : nums2) {
+				while (!s.empty() && s.top() < v) {
+					map[s.top()] = v;
+					s.pop();
+				}
+				s.push(v);
+			}
+		
+			vector<int> result;
+			for (int v : nums1) {
+				result.push_back(map.count(v) ? map[v] : -1);
+			}
+			return result;
+		}
+
+		namespace BruteForce {
+			vector<int> nextGreaterElement(vector<int>& nums1, vector<int>& nums2) {
+				vector<int> result;
+				for (int v : nums1) {
+					auto iter = find(nums2.begin(), nums2.end(), v);
+					while (iter != nums2.end()) {
+						if (*iter > v) {
+							result.push_back(*iter);
+							iter++;
+							break;
+						}
+					}
+					if (iter == nums2.end()) { result.push_back(-1); }
+				}
+				return result;
+			}
+		}
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			vector<int> nums1 = {4, 1, 2};
+			vector<int> nums2 = { 1, 3, 4, 2 };
+			print(nextGreaterElement(nums1, nums2));
 		}
 	}
 }

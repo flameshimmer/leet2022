@@ -27,8 +27,23 @@ namespace Solution2022
 {
 	namespace FindWordsThatCanBeFormedbyCharacters
 	{
+		int helper(string& w, unordered_map<char, int> map) {
+			for (char c : w) {
+				map[c]--;
+				if (map[c] < 0) { return 0; }
+			}
+			return w.size();
+		}
+
 	    int countCharacters(vector<string>& words, string chars) {
-	        
+			unordered_map<char, int> map;
+			for (char c : chars) { map[c]++; }
+
+			int result = 0;
+			for (string& w : words) {
+				result += helper(w, map);
+			}
+			return result;
 	    }
 
 		void Main() {

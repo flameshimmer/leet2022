@@ -27,12 +27,24 @@ namespace Solution2022
 	namespace NextGreaterElementII
 	{
 	    vector<int> nextGreaterElements(vector<int>& nums) {
-	        
+			int len = nums.size();
+			stack<int> s;
+			vector<int> result(len, -1);
+
+			for (int i = 0; i < len * 2; i++) {
+				int v = nums[i % len];
+				while (!s.empty() && v > nums[s.top()]) {
+					result[s.top()] = v;
+					s.pop();
+				}
+				s.push(i % len);
+			}
+			return result;
 	    }
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			vector<int> test = {1, 2, 1};
+			print(nextGreaterElements(test));
 		}
 	}
 }
