@@ -34,8 +34,20 @@ namespace Solution2022
 {
 	namespace AsteroidCollision
 	{
-	    vector<int> asteroidCollision(vector<int>& asteroids) {
-	        
+	    vector<int> asteroidCollision(vector<int>& a) {
+			vector<int> result;
+			int len = a.size();
+			if (len == 0) { return result; }
+
+			for (int i = 0; i < len; i++) {
+				int v = a[i];
+				if (result.empty() || v > 0 || result.back() < 0) { result.push_back(v); }
+				else if (-v >= result.back()) {
+					if (-v > result.back()) { i--; } // Note: this needs to be done before pop_back, other wise the back value will be changed. 
+					result.pop_back();
+				}			
+			}
+			return result;
 	    }
 
 		void Main() {

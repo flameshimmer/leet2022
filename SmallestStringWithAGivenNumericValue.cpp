@@ -34,7 +34,15 @@ namespace Solution2022
 	namespace SmallestStringWithAGivenNumericValue
 	{
 	    string getSmallestString(int n, int k) {
-	        
+			string result(n, 'a');
+			k -= n;
+			for (int i = n - 1; i >= 0; i--) {
+				int add = min(k, 25);
+				result[i] = 'a' + add;
+				k -= add;
+				if (k == 0) { break; }
+			}
+			return result;
 	    }
 
 		void Main() {

@@ -70,8 +70,64 @@ namespace Solution2022
 {
 	namespace DeleteDuplicateFoldersinSystem
 	{
+		struct Node {
+			string name;
+			map<string, Node*> children;
+			bool del = false;
+			Node(string n = "") : name(n) {}
+
+		};
+
+		void addPath(Node* node, vector<string>& path) {
+			for (string& n : path) {
+				if (node->children.count(n) == 0) { node->children[n] = new Node(n); }
+				node = node->children[n];
+			}
+		}
+
+		
+		string dedup(Node* node, unordered_map<string, Node*>& seen) {
+			string result;
+			for (auto& [name, child] : node->children) {
+				result += dedup(child, seen);
+			}
+			if (!result.empty()) {
+				if (seen.find(result) != seen.end()) {
+					node->del = true;
+					seen[result]->del = true;
+				}
+				else {
+					seen[result] = node;
+				}
+			}
+			return "(" + node->name + result + ")";
+		}
+
+		void getPath(Node* node, vector<string>& result, vector<vector<string>>& results) {
+			if (node->del) { return; }
+			result.push_back(node->name);
+			results.push_back(result);
+			for (auto& [name, child] : node->children) {
+				getPath(child, result, results);
+			}
+			result.pop_back();
+		}
+
 	    vector<vector<string>> deleteDuplicateFolder(vector<vector<string>>& paths) {
-	        
+			Node root;
+			for (vector<string>& p : paths) {
+				addPath(&root, p);
+			}
+
+			unordered_map<string, Node*> seen;
+			dedup(&root, seen);
+
+			vector<string> result;
+			vector<vector<string>> results;
+			for (auto& [name, child] : root.children) {
+				getPath(child, result, results);
+			}
+			return results;
 	    }
 
 		void Main() {

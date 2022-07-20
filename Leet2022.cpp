@@ -14,11 +14,16 @@ int _tmain(int argc, _TCHAR* argv[])
 	// Runtime begin marker start
 	clock_t begin = clock();
 	//Solution2022::Test::Main(); // Medium
-
-
-		//Solution2022::DeleteDuplicateFoldersinSystem::Main();
-
+	
 	//====Problem Starts====
+	//7/19/2022
+	//Solution2022::MissingNumber::Main();
+	//Solution2022::DiameterofBinaryTree::Main();
+	//Solution2022::SmallestStringWithAGivenNumericValue::Main();
+	//Solution2022::AsteroidCollision::Main();
+	//Solution2022::DeleteDuplicateFoldersinSystem::Main();
+
+	
 	//7/18/2022
 	//Solution2022::DesignanOrderedStream::Main();
 	//Solution2022::NextGreaterElementI::Main();
@@ -273,7 +278,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::MedianofTwoSortedArrays::Main();	
 	//Solution2022::WordLadder::Main();
 	//Solution2022::WordSearchII::Main();	
-	//Solution2022::AsteroidCollision::Main();
 	//Solution2022::RegularExpressionMatching::Main();
 	//Solution2022::FindPeakElement::Main();
 	//Solution2022::SlidingWindowMaximum::Main();
@@ -1324,7 +1328,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::ClimbingStairs::Main();
 	//Solution2022::LongestSubstringWithoutRepeatingCharacters::Main();
 	//Solution2022::MinimumWindowSubstring::Main();
-	//Solution2022::SmallestStringWithAGivenNumericValue::Main();
 	//Solution2022::ConcatenatedWords::Main();
 	//Solution2022::MaximumXORofTwoNumbersinanArray::Main();
 	//Solution2022::DeleteandEarn::Main();
@@ -1616,7 +1619,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::ValidParenthesisString::Main();
 	//Solution2022::MaximumProductofWordLengths::Main();
 	//Solution2022::ReconstructItinerary::Main();
-	//Solution2022::DiameterofBinaryTree::Main();
 	//Solution2022::FindDuplicateFileinSystem::Main();
 	//Solution2022::NthMagicalNumber::Main();
 	//Solution2022::MaximumPopulationYear::Main();
@@ -1642,7 +1644,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::RemoveNthNodeFromEndofList::Main();
 	//Solution2022::GuesstheWord::Main();
 	//Solution2022::ArithmeticSlices::Main();
-	//Solution2022::MissingNumber::Main();
 	//Solution2022::LongestIncreasingSubsequence::Main();
 	//Solution2022::TagValidator::Main();
 	//Solution2022::ShortestBridge::Main();

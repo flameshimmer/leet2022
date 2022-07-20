@@ -36,8 +36,20 @@ namespace Solution2022
 	namespace MissingNumber
 	{
 	    int missingNumber(vector<int>& nums) {
-	        
+			int len = nums.size();
+			int sum = (0 + len) * (len + 1) / 2;
+			return sum - accumulate(nums.begin(), nums.end(), 0);
 	    }
+
+		namespace BitManipulation {
+			int missingNumber(vector<int>& nums) {
+				int result = nums.size();
+				for (int i = 0; i < nums.size(); i++) {
+					result ^= i ^ nums[i];
+				}
+				return result;
+			}
+		}
 
 		void Main() {
 			string test = "tst test test";

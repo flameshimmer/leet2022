@@ -35,8 +35,20 @@ namespace Solution2022
 	 *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 	 * };
 	 */
+		int helper(TreeNode* node, int& diameter) {
+			if (!node) { return 0; }
+			
+			int leftHeight = helper(node->left, diameter);
+			int rightHeight = helper(node->right, diameter);
+			diameter = max(diameter, leftHeight + rightHeight);
+			return 1 + max(leftHeight, rightHeight);
+		}
+
 	    int diameterOfBinaryTree(TreeNode* root) {
-	        
+			if (!root) { return 0; }
+			int result = 0;
+			helper(root, result);
+			return result;
 	    }
 
 		void Main() {
