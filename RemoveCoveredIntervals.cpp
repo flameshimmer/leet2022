@@ -27,7 +27,22 @@ namespace Solution2022
 	namespace RemoveCoveredIntervals
 	{
 	    int removeCoveredIntervals(vector<vector<int>>& intervals) {
-	        
+			int len = intervals.size();
+			if (len < 2) { return len; }
+
+			auto comp = [](vector<int>& a, vector<int>& b) { return a[0] < b[0] || (a[0] == b[0] && a[1] > b[1]); };
+			sort(intervals.begin(), intervals.end(), comp);
+
+			int result = 1;
+			int lastEnd = intervals[0][1];
+			for (int i = 1; i < len; i++) {
+				int end = intervals[i][1];
+				if (end > lastEnd) {
+					result++;
+					lastEnd = end;
+				}
+			}
+			return result;
 	    }
 
 		void Main() {

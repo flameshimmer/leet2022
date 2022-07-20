@@ -16,6 +16,15 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::Test::Main(); // Medium
 	
 	//====Problem Starts====
+	//7/20/2020
+	//Solution2022::KthMissingPositiveNumber::Main();
+	//Solution2022::ExcelSheetColumnNumber::Main();
+	//Solution2022::RemoveCoveredIntervals::Main();
+	//Solution2022::LongestConsecutiveSequence::Main();
+	//Solution2022::SlidingWindowMaximum::Main();
+	//Solution2022::FindPeakElement::Main();
+
+
 	//7/19/2022
 	//Solution2022::MissingNumber::Main();
 	//Solution2022::DiameterofBinaryTree::Main();
@@ -23,7 +32,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::AsteroidCollision::Main();
 	//Solution2022::DeleteDuplicateFoldersinSystem::Main();
 
-	
 	//7/18/2022
 	//Solution2022::DesignanOrderedStream::Main();
 	//Solution2022::NextGreaterElementI::Main();
@@ -279,8 +287,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::WordLadder::Main();
 	//Solution2022::WordSearchII::Main();	
 	//Solution2022::RegularExpressionMatching::Main();
-	//Solution2022::FindPeakElement::Main();
-	//Solution2022::SlidingWindowMaximum::Main();
 	//Solution2022::VerticalOrderTraversalofaBinaryTree::Main();
 	//Solution2022::MaximumProfitinJobScheduling::Main();
 	//Solution2022::TopKFrequentWords::Main();
@@ -1302,7 +1308,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::LongestIncreasingPathinaMatrix::Main();
 	//Solution2022::BasicCalculatorIII::Main();
 	//Solution2022::ContiguousArray::Main();
-	//Solution2022::RemoveCoveredIntervals::Main();
 	//Solution2022::FindtheDuplicateNumber::Main();
 	//Solution2022::BinaryTreeRightSideView::Main();
 	//Solution2022::WordBreak::Main();
@@ -1600,7 +1605,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::FindPivotIndex::Main();
 	//Solution2022::FlipStringtoMonotoneIncreasing::Main();
 	//Solution2022::SingleNumber::Main();
-	//Solution2022::LongestConsecutiveSequence::Main();
 	//Solution2022::ZigzagConversion::Main();
 	//Solution2022::MaximumProductSubarray::Main();
 	//Solution2022::RankTeamsbyVotes::Main();
@@ -1632,8 +1636,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::TweetCountsPerFrequency::Main();
 	//Solution2022::ReversePairs::Main();
 	//Solution2022::CountAllValidPickupandDeliveryOptions::Main();
-	//Solution2022::ExcelSheetColumnNumber::Main();
-	//Solution2022::KthMissingPositiveNumber::Main();
 	//Solution2022::StockPriceFluctuation::Main();
 	//Solution2022::CountPrimes::Main();
 	//Solution2022::MinimumTimeDifference::Main();

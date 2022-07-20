@@ -29,7 +29,20 @@ namespace Solution2022
 	namespace FindPeakElement
 	{
 	    int findPeakElement(vector<int>& nums) {
-	        
+			int len = nums.size();
+
+			int start = 0;
+			int end = len - 1;
+			while (start < end) {
+				int mid = start + (end - start) / 2;
+				if (mid + 1 < len && nums[mid + 1] > nums[mid]) {
+					start = mid + 1;
+				}
+				else {
+					end = mid;
+				}
+			}
+			return start;
 	    }
 
 		void Main() {

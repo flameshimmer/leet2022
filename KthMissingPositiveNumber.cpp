@@ -30,9 +30,40 @@ namespace Solution2022
 {
 	namespace KthMissingPositiveNumber
 	{
-	    int findKthPositive(vector<int>& arr, int k) {
-	        
-	    }
+		namespace OLogN {
+			int findKthPositive(vector<int>& arr, int k) {
+				int len = arr.size();
+				int start = 0;
+				int end = len - 1;
+				while (start <= end) {
+					int mid = start + (end - start) / 2;
+					if (arr[mid] - mid - 1 < k) {
+						start = mid + 1;
+					}
+					else {
+						end = mid - 1;
+					}
+				}
+
+				//return arr[end] + k - (arr[end] - end - 1);
+				return k + end + 1;
+			}		
+		}
+				
+		namespace ON {
+			int findKthPositive(vector<int>& arr, int k) {
+				int last = 0;
+				for (int i = 0; i < arr.size(); i++) {
+					int diff = arr[i] - last - 1;
+					if (diff < k) { k -= diff; }
+					else {
+						return last + k;
+					}
+					last = arr[i];
+				}
+				return last + k;
+			}
+		}
 
 		void Main() {
 			string test = "tst test test";

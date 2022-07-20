@@ -24,7 +24,22 @@ namespace Solution2022
 	namespace LongestConsecutiveSequence
 	{
 	    int longestConsecutive(vector<int>& nums) {
-	        
+			int len = nums.size();
+			if (len < 2) { return len; }
+
+			int result = 0;
+			unordered_set<int> set(nums.begin(), nums.end());
+			for (int v : nums) {
+				if (set.find(v) == set.end()) { continue; }
+				set.erase(v);
+
+				int start = v - 1;
+				int end = v + 1;
+				while (set.find(start) != set.end()) { set.erase(start); start--; }
+				while (set.find(end) != set.end()) { set.erase(end); end++; }
+				result = max(result, end - start - 1);
+			}
+			return result;
 	    }
 
 		void Main() {
