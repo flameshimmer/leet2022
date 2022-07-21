@@ -25,9 +25,33 @@ namespace Solution2022
 {
 	namespace Sqrt
 	{
-	    int mySqrt(int x) {
-	        
-	    }
+		namespace BinarySearch {
+			int mySqrt(int x) {
+				if (x < 2) { return x; }
+				int start = 2;
+				int end = x;
+
+				while (start <= end) {
+					long long mid = start + (end - start) / 2;
+					long long v = mid * mid;
+					if (v == x) { return mid; }
+					else if (v > x) { end = mid - 1; }
+					else { start = mid + 1; }
+				}
+				return end;
+			}
+		}
+	    
+		namespace Recursion {
+			int mySqrt(int x) {
+				if (x < 2) { return x; }
+
+				int left = mySqrt(x / 4) * 2;
+				int right = left + 1;
+				
+				return ((long long)right * right > x) ? left : right;
+			}		
+		}
 
 		void Main() {
 			string test = "tst test test";

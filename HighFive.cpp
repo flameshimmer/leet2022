@@ -36,8 +36,25 @@ namespace Solution2022
 {
 	namespace HighFive
 	{
+		int helper(vector<int>& data) {
+			sort(data.begin(), data.end(), greater<int>());
+			return accumulate(data.begin(), data.begin() + 5, 0) / 5;
+		}
+
 	    vector<vector<int>> highFive(vector<vector<int>>& items) {
-	        
+			vector<vector<int>> result;
+			int len = items.size();
+			if (len == 0) { return result; }
+			map<int, vector<int>> map;
+			
+			for (auto& item : items) {
+				map[item[0]].push_back(item[1]);
+			}
+
+			for (auto& [id, data] : map) {
+				result.push_back({id, helper(data)});
+			}
+			return result;
 	    }
 
 		void Main() {

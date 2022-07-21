@@ -37,9 +37,45 @@ namespace Solution2022
 {
 	namespace KdiffPairsinanArray
 	{
-	    int findPairs(vector<int>& nums, int k) {
-	        
-	    }
+		namespace UseMap {
+			int findPairs(vector<int>& nums, int k) {
+				if (k < 0) { return 0; }
+
+				unordered_map<int, int> map;
+				for (int v : nums) { map[v]++; }
+
+				int result = 0;
+				for (auto& [key, count] : map) {
+					int target = key + k;
+					if (target == key && count > 1) { result++; }
+					else if (target != key && map.find(target) != map.end()) { result++; }
+				}
+				return result;
+			}
+		}
+
+		namespace UseSlidingWindow {
+			int findPairs(vector<int>& nums, int k) {
+				if (k < 0) { return 0; }
+
+				sort(nums.begin(), nums.end());
+
+				int len = nums.size();
+				int start = 0;
+				int end = 0;
+				int result = 0;
+
+				while (start < len) {
+					int target = nums[start] + k;
+					end = start + 1;
+					while (end < len && nums[end] < target) { end++; }
+					if (end < len && nums[end] == target) { result++; }
+					while (start + 1 < len && nums[start] == nums[start + 1]) { start++; }
+					start++;
+				}
+				return result;
+			}
+		}
 
 		void Main() {
 			string test = "tst test test";

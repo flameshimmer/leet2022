@@ -16,6 +16,13 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::Test::Main(); // Medium
 	
 	//====Problem Starts====
+	//7/21/2020
+	//Solution2022::Sqrt::Main();
+	//Solution2022::HighFive::Main();
+	//Solution2022::CheckIfaStringContainsAllBinaryCodesofSizeK::Main();
+	//Solution2022::KdiffPairsinanArray::Main();
+	//Solution2022::FindtheDuplicateNumber::Main();
+
 	//7/20/2020
 	//Solution2022::KthMissingPositiveNumber::Main();
 	//Solution2022::ExcelSheetColumnNumber::Main();
@@ -23,7 +30,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::LongestConsecutiveSequence::Main();
 	//Solution2022::SlidingWindowMaximum::Main();
 	//Solution2022::FindPeakElement::Main();
-
 
 	//7/19/2022
 	//Solution2022::MissingNumber::Main();
@@ -1308,7 +1314,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::LongestIncreasingPathinaMatrix::Main();
 	//Solution2022::BasicCalculatorIII::Main();
 	//Solution2022::ContiguousArray::Main();
-	//Solution2022::FindtheDuplicateNumber::Main();
 	//Solution2022::BinaryTreeRightSideView::Main();
 	//Solution2022::WordBreak::Main();
 	//Solution2022::BinaryTreeMaximumPathSum::Main();
@@ -1346,7 +1351,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::RobotRoomCleaner::Main();
 	//Solution2022::DivideTwoIntegers::Main();
 	//Solution2022::EvaluateReversePolishNotation::Main();
-	//Solution2022::KdiffPairsinanArray::Main();
 	//Solution2022::RotateArray::Main();
 	//Solution2022::FindtheClosestPalindrome::Main();
 	//Solution2022::JumpGame::Main();
@@ -1618,7 +1622,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::SnakesandLadders::Main();
 	//Solution2022::SlidingWindowMedian::Main();
 	//Solution2022::MinimumMovestoEqualArrayElements::Main();
-	//Solution2022::CheckIfaStringContainsAllBinaryCodesofSizeK::Main();
 	//Solution2022::PalindromicSubstrings::Main();
 	//Solution2022::ValidParenthesisString::Main();
 	//Solution2022::MaximumProductofWordLengths::Main();
@@ -1670,7 +1673,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::BuildBinaryExpressionTreeFromInfixExpression::Main();
 	//Solution2022::StrongPasswordChecker::Main();
 	//Solution2022::PermutationinString::Main();
-	//Solution2022::Sqrt::Main();
 	//Solution2022::LongestDuplicateSubstring::Main();
 	//Solution2022::PalindromePartitioning::Main();
 	//Solution2022::NumberofDistinctIslands::Main();
@@ -1846,7 +1848,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::ReverseVowelsofaString::Main();
 	//Solution2022::SuperEggDrop::Main();
 	//Solution2022::FindtheTownJudge::Main();
-	//Solution2022::HighFive::Main();
 	//Solution2022::DesignAddandSearchWordsDataStructure::Main();
 	//Solution2022::FindCommonCharacters::Main();
 	//Solution2022::MaximumGoodPeopleBasedonStatements::Main();
