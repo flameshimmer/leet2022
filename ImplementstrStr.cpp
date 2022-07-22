@@ -27,7 +27,23 @@ namespace Solution2022
 	namespace ImplementstrStr
 	{
 	    int strStr(string haystack, string needle) {
-	        
+			int len1 = haystack.size();
+			int len2 = needle.size();
+			if (len2 == 0) { return 0; }
+			if (len1 < len2) { return -1; }
+
+			int result = -1;
+			for (int i = 0; i < len1; i++) {
+				int j = 0;
+				while(j < len2) {
+					if (haystack[i + j] != needle[j]) {
+						break;
+					}
+					j++;
+				}
+				if (j == len2) { return i; }
+			}
+			return -1;
 	    }
 
 		void Main() {

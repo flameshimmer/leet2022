@@ -53,7 +53,18 @@ namespace Solution2022
 	namespace RemoveElement
 	{
 	    int removeElement(vector<int>& nums, int val) {
-	        
+			int len = nums.size();
+
+			int back = -1;
+			int front = 0;
+			while (front < len) {
+				if (nums[front] != val) {
+					back++;
+					nums[back] = nums[front];
+				}
+				front++;
+			}
+			return back + 1;
 	    }
 
 		void Main() {

@@ -26,7 +26,33 @@ namespace Solution2022
 	namespace FourSum
 	{
 	    vector<vector<int>> fourSum(vector<int>& nums, int target) {
-	        
+			vector<vector<int>> result;
+			int len = nums.size();
+			if (len < 4) { return result; }
+
+			sort(nums.begin(), nums.end());
+
+			for (int d = len - 1; d >= 3; d--) {
+				for (int c = d - 1; c >= 2; c--) {
+					int a = 0;
+					int b = c - 1;
+					while (a < b) {
+						long long sum = (long long)nums[a] + (long long)nums[b] + (long long)nums[c] + (long long)nums[d];
+						if (sum == target) {
+							result.push_back({nums[a], nums[b], nums[c], nums[d] });
+							while (a < b && nums[a] == nums[a + 1]) { a++; }
+							while (a < b && nums[b] == nums[b - 1]) { b--; }
+							a++;
+							b--;
+						} 
+						else if (sum < target) { a++; }
+						else { b--; }
+					}
+					while (c >= 2 && nums[c] == nums[c - 1]) { c--; }				
+				}
+				while (d >= 3 && nums[d] == nums[d - 1]) { d--; }
+			}
+			return result;
 	    }
 
 		void Main() {
