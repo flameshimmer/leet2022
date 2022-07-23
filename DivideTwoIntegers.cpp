@@ -31,8 +31,25 @@ namespace Solution2022
 {
 	namespace DivideTwoIntegers
 	{
-	    int divide(int dividend, int divisor) {
-	        
+	    int divide(int A, int B) {
+			if (A == INT_MIN && B == -1) { return INT_MAX; }
+
+			long long a = labs(A);
+			long long b = labs(B);
+			long long result = 0;
+			int sign = (A > 0) ^ (B > 0) ? -1 : 1;
+
+			while (a >= b) {
+				long long tmp = b;
+				long long m = 1; // Note that this should start from 1 instead of 0!
+				while (a >= tmp << 1) {
+					tmp <<= 1;
+					m <<= 1;
+				}
+				a -= tmp;
+				result += m;
+			}
+			return sign * result;
 	    }
 
 		void Main() {

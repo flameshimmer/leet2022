@@ -15,9 +15,17 @@ int _tmain(int argc, _TCHAR* argv[])
 	clock_t begin = clock();
 	//Solution2022::Test::Main(); // Medium
 	
+	//Solution2022::ReverseNodesinkGroup::Main();
 
-//Solution2022::ReverseNodesinkGroup::Main();
+
 	//====Problem Starts====
+	//7/23/2022
+	//Solution2022::LongestValidParentheses::Main();
+	//Solution2022::DivideTwoIntegers::Main();
+	//Solution2022::FindFirstandLastPositionofElementinSortedArray::Main();
+	//Solution2022::ValidSudoku::Main();
+	//Solution2022::RemoveAllOnesWithRowandColumnFlips::Main();
+
 	//7/22/2022
 	//Solution2022::ImplementstrStr::Main();
 	//Solution2022::RemoveElement::Main();
@@ -1306,7 +1314,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::RearrangeWordsinaSentence::Main();
 	//Solution2022::MaximumSwap::Main();
 	//Solution2022::MaximizeDistancetoClosestPerson::Main();
-	//Solution2022::LongestValidParentheses::Main();
 	//Solution2022::BurstBalloons::Main();
 	//Solution2022::LFUCache::Main();
 	//Solution2022::CourseScheduleII::Main();
@@ -1316,7 +1323,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::ContinuousSubarraySum::Main();
 	//Solution2022::MinimumNumberofTapstoOpentoWateraGarden::Main();
 	//Solution2022::AllNodesDistanceKinBinaryTree::Main();
-	//Solution2022::FindFirstandLastPositionofElementinSortedArray::Main();
 	//Solution2022::ValidNumber::Main();
 	//Solution2022::WordBreakII::Main();
 	//Solution2022::DiagonalTraverse::Main();
@@ -1358,7 +1364,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::Permutations::Main();
 	//Solution2022::RussianDollEnvelopes::Main();
 	//Solution2022::RobotRoomCleaner::Main();
-	//Solution2022::DivideTwoIntegers::Main();
 	//Solution2022::EvaluateReversePolishNotation::Main();
 	//Solution2022::RotateArray::Main();
 	//Solution2022::FindtheClosestPalindrome::Main();
@@ -1572,7 +1577,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::ShortestDistancefromAllBuildings::Main();
 	//Solution2022::PalindromePairs::Main();
 	//Solution2022::MinimumNumberofRefuelingStops::Main();
-	//Solution2022::ValidSudoku::Main();
 	//Solution2022::MaximumFrequencyStack::Main();
 	//Solution2022::ReverseString::Main();
 	//Solution2022::RemoveKDigits::Main();
@@ -1692,7 +1696,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::MinimumNumberofArrowstoBurstBalloons::Main();
 	//Solution2022::MaximumNumberofEventsThatCanBeAttended::Main();
 	//Solution2022::IsGraphBipartiteQuestionMark::Main();
-	//Solution2022::RemoveAllOnesWithRowandColumnFlips::Main();
 	//Solution2022::SymmetricTree::Main();
 	//Solution2022::SmallestRangeCoveringElementsfromKLists::Main();
 	//Solution2022::MinimumDeletionstoMakeCharacterFrequenciesUnique::Main();

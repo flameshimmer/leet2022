@@ -52,8 +52,22 @@ namespace Solution2022
 {
 	namespace ValidSudoku
 	{
-	    bool isValidSudoku(vector<vector<char>>& board) {
-	        
+		bool isValidSudoku(vector<vector<char>>& board) {
+			bool row[9][10] = { false };
+			bool col[9][10] = { false };
+			bool nineGrid[3][3][10] = { false };
+
+			for (int i = 0; i < 9; i++) {
+				for (int j = 0; j < 9; j++) {
+					if (board[i][j] == '.') { continue; }
+					int v = board[i][j] - '0';
+					if (v < 1 || v > 9 || row[i][v] || col[j][v] || nineGrid[i / 3][j / 3][v]) { return false; }
+					row[i][v] = true;
+					col[j][v] = true;
+					nineGrid[i/3][j/3][v] = true;
+				}
+			}
+			return true;
 	    }
 
 		void Main() {
