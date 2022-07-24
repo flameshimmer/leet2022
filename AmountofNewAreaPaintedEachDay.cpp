@@ -53,9 +53,59 @@ namespace Solution2022
 {
 	namespace AmountofNewAreaPaintedEachDay
 	{
-	    vector<int> amountPainted(vector<vector<int>>& paint) {
-	        
-	    }
+		vector<int> amountPainted(vector<vector<int>>& paint) {
+			vector<int> results;
+			vector<int> line(50001);
+
+			for (vector<int>& p : paint) {
+				int start = p[0];
+				int end = p[1];
+				int result = 0;
+				while (start < end) {
+					if (line[start] == 0) { result++; }
+					int nextIndex = max(line[start], start + 1);
+					line[start] = max(line[start], end);
+					start = nextIndex;
+				}
+				results.push_back(result);
+			}
+			return results;
+		}
+
+		namespace MergeInterval {
+			vector<int> amountPainted(vector<vector<int>>& pt) {
+				map<int, int> m; // left, right
+				vector<int> res;
+				for (auto& p : pt) {
+					int l = p[0], r = p[1];
+					auto next = m.upper_bound(l), cur = next;
+
+					// case of overlapping with the previous range
+					if (cur != begin(m) && prev(cur)->second >= l) {
+						cur = prev(cur);
+						l = cur->second; // update the start of the range to the end of the previous range
+					}
+					// case of first insertion or no overlapping with previous range 
+					else {
+						cur = m.insert({ l, r }).first;
+					}
+
+					// range length after deducting the overlap range with the previous range
+					int paint = r - l;
+
+					// substract the portion that is overlapping with the next range, keep doing it for all following ranges until no overlap
+					while (next != end(m) && next->first < r) {
+						paint -= min(r, next->second) - next->first;
+						r = max(r, next->second);
+						m.erase(next++);
+					}
+					cur->second = max(cur->second, r);
+					res.push_back(max(0, paint));
+				}
+				return res;
+			}
+
+		}
 
 		void Main() {
 			string test = "tst test test";

@@ -15,10 +15,14 @@ int _tmain(int argc, _TCHAR* argv[])
 	clock_t begin = clock();
 	//Solution2022::Test::Main(); // Medium
 	
-	//Solution2022::ReverseNodesinkGroup::Main();
-
-
 	//====Problem Starts====
+	//7/24/2022
+	//Solution2022::AmountofNewAreaPaintedEachDay::Main();
+	//Solution2022::StockPriceFluctuation::Main();
+	//Solution2022::GuesstheWord::Main();
+	//Solution2022::FindAllPossibleRecipesfromGivenSupplies::Main();
+	//Solution2022::MinimumTimeDifference::Main();
+
 	//7/23/2022
 	//Solution2022::LongestValidParentheses::Main();
 	//Solution2022::DivideTwoIntegers::Main();
@@ -306,6 +310,7 @@ int _tmain(int argc, _TCHAR* argv[])
 
 
 	//====Problem Ends====
+	//Solution2022::ReverseNodesinkGroup::Main();
 	//Solution2022::MedianofTwoSortedArrays::Main();	
 	//Solution2022::WordLadder::Main();
 	//Solution2022::WordSearchII::Main();	
@@ -1648,15 +1653,12 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::TweetCountsPerFrequency::Main();
 	//Solution2022::ReversePairs::Main();
 	//Solution2022::CountAllValidPickupandDeliveryOptions::Main();
-	//Solution2022::StockPriceFluctuation::Main();
 	//Solution2022::CountPrimes::Main();
-	//Solution2022::MinimumTimeDifference::Main();
 	//Solution2022::TheNumberofFullRoundsYouHavePlayed::Main();
 	//Solution2022::FractiontoRecurringDecimal::Main();
 	//Solution2022::DecodeWays::Main();
 	//Solution2022::ReadNCharactersGivenreadFourIICallMultipleTimes::Main();
 	//Solution2022::RemoveNthNodeFromEndofList::Main();
-	//Solution2022::GuesstheWord::Main();
 	//Solution2022::ArithmeticSlices::Main();
 	//Solution2022::LongestIncreasingSubsequence::Main();
 	//Solution2022::TagValidator::Main();
@@ -1667,7 +1669,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::AddBoldTaginString::Main();
 	//Solution2022::RearrangeStringkDistanceApart::Main();
 	//Solution2022::MinimumPathSum::Main();
-	//Solution2022::FindAllPossibleRecipesfromGivenSupplies::Main();
 	//Solution2022::AddBinary::Main();
 	//Solution2022::ShortestPathVisitingAllNodes::Main();
 	//Solution2022::SortColors::Main();
@@ -1873,7 +1874,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::BestMeetingPoint::Main();
 	//Solution2022::RotateList::Main();
 	//Solution2022::PatchingArray::Main();
-	//Solution2022::AmountofNewAreaPaintedEachDay::Main();
 	//Solution2022::PartitiontoKEqualSumSubsets::Main();
 	//Solution2022::PermutationsII::Main();
 	//Solution2022::NumberofStepstoReduceaNumbertoZero::Main();

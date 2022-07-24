@@ -58,35 +58,84 @@ namespace Solution2022
 {
 	namespace StockPriceFluctuation
 	{
-	class StockPrice {
-	    StockPrice() {
-	        
-	    }
-	    
-	    void update(int timestamp, int price) {
-	        
-	    }
-	    
-	    int current() {
-	        
-	    }
-	    
-	    int maximum() {
-	        
-	    }
-	    
-	    int minimum() {
-	        
-	    }
-	​
-	/**
-	 * Your StockPrice object will be instantiated and called as such:
-	 * StockPrice* obj = new StockPrice();
-	 * obj->update(timestamp,price);
-	 * int param_2 = obj->current();
-	 * int param_3 = obj->maximum();
-	 * int param_4 = obj->minimum();
-	 */
+		class StockPrice {
+		private:
+			map<int, int> d1; //timestamp, value;
+			map<int, int> d2; // value, frequency of the value
+		public:
+			StockPrice() {
+			}
+
+			void update(int timestamp, int price) {
+				if (d1.find(timestamp) != d1.end()) {
+					int oldPrice = d1[timestamp];
+					d2[oldPrice]--;
+					if (d2[oldPrice]== 0) { d2.erase(oldPrice); }
+				}				
+				d2[price]++;
+				d1[timestamp] = price;
+			}
+
+			int current() {
+				return d1.rbegin()->second; 
+			}
+
+			int maximum() {
+				return d2.rbegin()->first;
+			}
+
+			int minimum() {
+				return d2.begin()->first;
+			}
+		};
+
+		namespace UsePriorityQueue {
+
+			class StockPrice {
+			private:
+				int latestTime;
+				unordered_map<int, int> map; // timestamp, price
+				priority_queue<pair<int, int>> maxHeap;
+				priority_queue<pair<int, int>, vector<pair<int, int>>, greater<>> minHeap;
+			public:
+				StockPrice() {
+					latestTime = 0;
+				}
+
+				void update(int timestamp, int price) {
+					map[timestamp] = price;
+					maxHeap.push({ price, timestamp });
+					minHeap.push({ price, timestamp });
+					latestTime = max(latestTime, timestamp);
+				}
+
+				int current() {
+					return map[latestTime];
+				}
+
+				int maximum() {
+					while (!maxHeap.empty()) {
+						auto& [price, ts] = maxHeap.top();
+						if (map[ts] != price) { maxHeap.pop(); }
+						else {
+							return price;
+						}
+					}
+					return -1;
+				}
+
+				int minimum() {
+					while (!minHeap.empty()) {
+						auto& [price, ts] = minHeap.top();
+						if (map[ts] != price) { minHeap.pop(); }
+						else {
+							return price;
+						}
+					}
+					return -1;
+				}
+			};		
+		}
 
 		void Main() {
 			string test = "tst test test";

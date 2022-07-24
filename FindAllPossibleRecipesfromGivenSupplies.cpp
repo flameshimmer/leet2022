@@ -55,8 +55,40 @@ namespace Solution2022
 {
 	namespace FindAllPossibleRecipesfromGivenSupplies
 	{
-	    vector<string> findAllRecipes(vector<string>& recipes, vector<vector<string>>& ingredients, vector<string>& supplies) {
-	        
+		vector<string> findAllRecipes(vector<string>& rec, vector<vector<string>>& ing, vector<string>& sup) {
+			unordered_set<string> set(sup.begin(), sup.end());
+			unordered_map<string, int> indegree;
+			for (string& r : rec) { indegree[r] = 0; } // NOTE: don't forget to set indegree to explict 0!
+
+			unordered_map<string, vector<string>> children;
+			for (int i = 0; i < rec.size(); i++) {
+				string& r = rec[i];
+				vector<string>& in = ing[i];
+				for (string& item : in) {
+					if (set.find(item) == set.end()) {
+						children[item].push_back(r);
+						indegree[r]++;
+					}
+				}			
+			}
+
+			queue<string> q;
+			for (auto& [r, count] : indegree) {
+				if (count == 0) { q.push(r); }
+			}
+
+			vector<string> result;
+			while (!q.empty()) {
+				string top = q.front();
+				q.pop();
+
+				result.push_back(top);
+				for (auto& child : children[top]) {
+					indegree[child]--;
+					if (indegree[child] == 0) { q.push(child); }
+				}			
+			}
+			return result;
 	    }
 
 		void Main() {

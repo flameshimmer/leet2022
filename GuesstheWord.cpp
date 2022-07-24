@@ -43,17 +43,112 @@ namespace Solution2022
 {
 	namespace GuesstheWord
 	{
-	/**
-	 * // This is the Master's API interface.
-	 * // You should not implement it, or speculate about its implementation
-	 * class Master {
-	 *   public:
-	 *     int guess(string word);
-	 * };
-	 */
-	    void findSecretWord(vector<string>& wordlist, Master& master) {
-	        
-	    }
+		// This is the Master's API interface.
+		// You should not implement it, or speculate about its implementation
+		class Master {
+		public:
+			int guess(string word) { return 0; };
+		};
+
+		namespace UseHistogram {
+			int match(string& a, string& b) {
+				int result = 0;
+				for (int i = 0; i < 6; i++) {
+					if (a[i] == b[i]) { result++; }
+				}
+				return result;
+			}
+
+			string bestCandidate(list<string>& words, vector<vector<int>>& probs) {
+				string result = "";
+				int maxScore = 0;
+				for (string& w : words) {
+					int score = 1;
+					for (int i = 0; i < 6; i++) {
+						score *= probs[i][w[i] - 'a'];
+					}
+					if (score > maxScore) {
+						maxScore = score;
+						result = w;
+					}
+				}
+				return result;
+			}
+
+			void findSecretWord(vector<string>& wordlist, Master& master) {
+				vector<vector<int>> probs(6, vector<int>(26, 0));
+				list<string> remainWords;
+				for (string w : wordlist) {
+					remainWords.push_back(w);
+					for (int i = 0; i < 6; i++) {
+						probs[i][w[i] - 'a']++;
+					}
+				}
+				int matches = 0;
+				while (matches < 6) {
+					string candidate = bestCandidate(remainWords, probs);
+					matches = master.guess(candidate);
+					auto it = remainWords.begin();
+					while (it != remainWords.end()) {
+						string cur = *it;
+						if (match(cur, candidate) != matches) {
+							for (int i = 0; i < 6; i++) {
+								probs[i][cur[i] - 'a']--;
+							}
+							it = remainWords.erase(it);
+						}
+						else { it++; }
+					}
+				}
+			}
+		}
+
+		namespace GuesstheWord
+		{
+			namespace minimax {
+				int match(string& a, string& b) {
+					int result = 0;
+					for (int i = 0; i < a.size(); i++) {
+						if (a[i] == b[i]) { result++; }
+					}
+					return result;
+				}
+
+				void findSecretWord(vector<string>& wordlist, Master& master) {
+					int x = 0;
+					for (int i = 0; i < 10 && x < 6; i++) {
+						unordered_map<string, int> count;
+						for (string w1 : wordlist) {
+							for (string w2 : wordlist) {
+								if (match(w1, w2) == 0) {
+									count[w1] ++;
+								}
+							}
+						}
+
+						pair<string, int> minimax = make_pair(wordlist[0], 1000);
+						for (string w : wordlist) {
+							if (count[w] <= minimax.second) {
+								minimax = make_pair(w, count[w]);
+							}
+						}
+						x = master.guess(minimax.first);
+						vector<string> wordlist2;
+						for (string w : wordlist) {
+							if (match(minimax.first, w) == x) {
+								wordlist2.push_back(w);
+							}
+						}
+						wordlist = wordlist2;
+					}
+				}
+			}
+
+			void Main() {
+				string test = "tst test test";
+				print(test);
+			}
+		}
 
 		void Main() {
 			string test = "tst test test";
