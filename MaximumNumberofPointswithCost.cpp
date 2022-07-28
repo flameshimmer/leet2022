@@ -46,7 +46,31 @@ namespace Solution2022
 	namespace MaximumNumberofPointswithCost
 	{
 	    long long maxPoints(vector<vector<int>>& points) {
-	        
+			int rowCount = points.size();
+			int colCount = points[0].size();
+			vector<vector<long long>> dp(rowCount, vector<long long>(colCount, INT_MIN));
+
+			for (int j = 0; j < colCount; j++) { dp[0][j] = points[0][j]; }
+
+			for (int i = 1; i < rowCount; i++) {
+				long long rollingMax = INT_MIN;
+				for (int j = 0; j < colCount; j++) {
+					rollingMax = max(rollingMax, dp[i - 1][j] + j);
+					dp[i][j] = max(dp[i][j], rollingMax + points[i][j] - j);
+				}
+
+				rollingMax = INT_MIN;
+				for (int j = colCount - 1; j >= 0; j--) {
+					rollingMax = max(rollingMax, dp[i - 1][j] - j);
+					dp[i][j] = max(dp[i][j], rollingMax + points[i][j] + j);
+				}
+			}
+
+			long long result = 0;
+			for (int j = 0; j < colCount; j++) {
+				result = max(result, dp[rowCount - 1][j]);
+			}
+			return result;
 	    }
 
 		void Main() {

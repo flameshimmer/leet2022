@@ -169,6 +169,7 @@
     <ClCompile Include="BusRoutes.cpp" />
     <ClCompile Include="CarPooling.cpp" />
     <ClCompile Include="CheckIfaStringContainsAllBinaryCodesofSizeK.cpp" />
+    <ClCompile Include="CheckifWordCanBePlacedInCrossword.cpp" />
     <ClCompile Include="ClimbingStairs.cpp" />
     <ClCompile Include="CoinChange.cpp" />
     <ClCompile Include="Combinations.cpp" />
@@ -179,6 +180,7 @@
     <ClCompile Include="CountBinarySubstrings.cpp" />
     <ClCompile Include="CountOddNumbersinanIntervalRange.cpp" />
     <ClCompile Include="CountUniqueCharactersofAllSubstringsofaGivenString.cpp" />
+    <ClCompile Include="CountWordsObtainedAfterAddingaLetter.cpp" />
     <ClCompile Include="CustomSortString.cpp" />
     <ClCompile Include="DecodeString.cpp" />
     <ClCompile Include="DegreeofanArray.cpp" />
@@ -188,13 +190,16 @@
     <ClCompile Include="DesignHashMap.cpp" />
     <ClCompile Include="DesignHitCounter.cpp" />
     <ClCompile Include="DesignInMemoryFileSystem.cpp" />
+    <ClCompile Include="DetectSquares.cpp" />
     <ClCompile Include="DiameterofBinaryTree.cpp" />
     <ClCompile Include="DivideTwoIntegers.cpp" />
     <ClCompile Include="DotProductofTwoSparseVectors.cpp" />
     <ClCompile Include="EvaluateDivision.cpp" />
+    <ClCompile Include="EvaluateReversePolishNotation.cpp" />
     <ClCompile Include="ExcelSheetColumnNumber.cpp" />
     <ClCompile Include="ExclusiveTimeofFunctions.cpp" />
     <ClCompile Include="FibonacciNumber.cpp" />
+    <ClCompile Include="FindAndReplaceinString.cpp" />
     <ClCompile Include="FindFirstandLastPositionofElementinSortedArray.cpp" />
     <ClCompile Include="FindNUniqueIntegersSumuptoZero.cpp" />
     <ClCompile Include="FindPeakElement.cpp" />
@@ -236,6 +241,9 @@
     <ClCompile Include="LowestCommonAncestorofaBinaryTreeIII.cpp" />
     <ClCompile Include="LRUCache.cpp" />
     <ClCompile Include="MaxAreaofIsland.cpp" />
+    <ClCompile Include="MaximumNumberofPointswithCost.cpp" />
+    <ClCompile Include="MaximumPointsYouCanObtainfromCards.cpp" />
+    <ClCompile Include="MaximumSplitofPositiveEvenIntegers.cpp" />
     <ClCompile Include="MaximumSubarray.cpp" />
     <ClCompile Include="MaximumUnitsonaTruck.cpp" />
     <ClCompile Include="MaxStack.cpp" />
@@ -262,6 +270,7 @@
     <ClCompile Include="NextPermutation.cpp" />
     <ClCompile Include="NumberofIslands.cpp" />
     <ClCompile Include="NumberofOneBits.cpp" />
+    <ClCompile Include="NumberofWaystoBuildSturdyBrickWall.cpp" />
     <ClCompile Include="OptimalAccountBalancing.cpp" />
     <ClCompile Include="PairsofSongsWithTotalDurationsDivisiblebySixZero.cpp" />
     <ClCompile Include="PalindromeLinkedList.cpp" />
@@ -302,6 +311,7 @@
     <ClCompile Include="SearchInsertPosition.cpp" />
     <ClCompile Include="ShortestPathinaGridwithObstaclesElimination.cpp" />
     <ClCompile Include="ShortestPathinBinaryMatrix.cpp" />
+    <ClCompile Include="ShortestWaytoFormString.cpp" />
     <ClCompile Include="ShortestWordDistance.cpp" />
     <ClCompile Include="ShortestWordDistanceII.cpp" />
     <ClCompile Include="ShortestWordDistanceIII.cpp" />
@@ -310,6 +320,7 @@
     <ClCompile Include="SingleNumber.cpp" />
     <ClCompile Include="SlidingWindowMaximum.cpp" />
     <ClCompile Include="SmallestStringWithAGivenNumericValue.cpp" />
+    <ClCompile Include="SnapshotArray.cpp" />
     <ClCompile Include="SpiralMatrix.cpp" />
     <ClCompile Include="Sqrt.cpp" />
     <ClCompile Include="SquaresofaSortedArray.cpp" />
@@ -321,6 +332,7 @@
     <ClCompile Include="SubdomainVisitCount.cpp" />
     <ClCompile Include="SumofSubarrayMinimums.cpp" />
     <ClCompile Include="SumofSubarrayRanges.cpp" />
+    <ClCompile Include="SwapAdjacentinLRString.cpp" />
     <ClCompile Include="Test.cpp" />
     <ClCompile Include="TextJustification.cpp" />
     <ClCompile Include="ThreeSum.cpp" />

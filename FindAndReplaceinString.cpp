@@ -50,12 +50,32 @@ namespace Solution2022
 	namespace FindAndReplaceinString
 	{
 	    string findReplaceString(string s, vector<int>& indices, vector<string>& sources, vector<string>& targets) {
-	        
+			vector<pair<int, int>> sorted;
+			for (int i = 0; i < indices.size(); i++) {
+				sorted.push_back({ indices[i], i }); // Note: need to replace from the back to the front to avoid index
+			}
+
+			// same as sort(sorted.begin(), sorted.end(), greater<pair<int, int>>());
+			sort(sorted.rbegin(), sorted.rend());
+
+			string result = s;
+			for (auto& [i1, i2] : sorted) {
+				string& s1 = sources[i2];
+				string& s2 = targets[i2];
+				int len1 = s1.size();
+				
+				if (s.substr(i1, len1) != s1) { continue; }
+				result = result.substr(0, i1) + s2 + result.substr(i1 + len1);			
+			}
+			return result;
 	    }
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			vector<int> v1 = { 0, 2 };
+			vector<string> v2 = { "a", "cd" };
+			vector<string> v3 = { "eee", "ffff" };
+
+			print(findReplaceString("abcd", v1, v2, v3));
 		}
 	}
 }

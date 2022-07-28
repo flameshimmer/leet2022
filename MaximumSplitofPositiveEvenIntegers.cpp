@@ -47,7 +47,18 @@ namespace Solution2022
 	namespace MaximumSplitofPositiveEvenIntegers
 	{
 	    vector<long long> maximumEvenSplit(long long finalSum) {
-	        
+			vector<long long> result;
+			if (finalSum % 2 == 1) { return result; }
+
+			long long cur = 0;
+			long long val = 2;
+			while (cur + val <= finalSum) {
+				cur += val;
+				result.push_back(val);
+				val += 2;
+			}
+			result.back() += finalSum - cur;
+			return result;
 	    }
 
 		void Main() {

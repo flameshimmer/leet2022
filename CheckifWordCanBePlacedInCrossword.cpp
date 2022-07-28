@@ -45,13 +45,55 @@ namespace Solution2022
 {
 	namespace CheckifWordCanBePlacedInCrossword
 	{
-	    bool placeWordInCrossword(vector<vector<char>>& board, string word) {
-	        
-	    }
+		bool isSeparator(vector<vector<char>>& board, int x, int y, int rowCount, int colCount) {
+			if (x < 0 || y < 0 || x >= rowCount || y >= colCount) { return true; }
+			return board[x][y] == '#';
+		}
+
+		bool check(vector<vector<char>>& board, string& word, int x, int y, int pos, bool isVertical, int inc, int rowCount, int colCount) {
+			bool outOfBound = (x < 0 || y < 0 || x >= rowCount || y >= colCount);
+			if (pos == word.size()) {
+				return outOfBound || board[x][y] == '#';
+			}
+
+			if (outOfBound || (board[x][y] != ' ' && board[x][y] != word[pos])) { 
+				return false;
+			}
+
+			int a = x + (isVertical * inc); // note that how next index is generated!!!
+			int b = y + (!isVertical * inc);
+			return check(board, word, a, b, pos + 1, isVertical, inc, rowCount, colCount);
+		}
+
+
+		bool placeWordInCrossword(vector<vector<char>>& board, string word) {
+			int rowCount = board.size();
+			int colCount = board[0].size();
+
+			for (int i = 0; i < rowCount; i++) {
+				for (int j = 0; j < colCount; j++) {
+					if (board[i][j] != '#') {
+						if (isSeparator(board, i - 1, j, rowCount, colCount) && check(board, word, i, j, 0, true, 1, rowCount, colCount)) {
+							return true;
+						}
+						if (isSeparator(board, i + 1, j, rowCount, colCount) && check(board, word, i, j, 0, true, -1, rowCount, colCount)) {
+							return true;
+						}
+						if (isSeparator(board, i, j - 1, rowCount, colCount) && check(board, word, i, j, 0, false, 1, rowCount, colCount)) {
+							return true;
+						}
+						if (isSeparator(board, i, j + 1, rowCount, colCount) && check(board, word, i, j, 0, false, -1, rowCount, colCount)) {
+							return true;
+						}
+					}
+				}
+			}
+			return false;
+		}
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			vector<vector<char>> test = { {'#',' ','#'},{' ',' ','#'},{'#','c',' '} };
+			print(placeWordInCrossword(test, "abc"));
 		}
 	}
 }

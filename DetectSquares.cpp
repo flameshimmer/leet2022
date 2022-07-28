@@ -45,25 +45,37 @@ namespace Solution2022
 {
 	namespace DetectSquares
 	{
-	class DetectSquares {
-	    DetectSquares() {
-	        
-	    }
-	    
-	    void add(vector<int> point) {
-	        
-	    }
-	    
-	    int count(vector<int> point) {
-	        
-	    }
-	​
-	/**
-	 * Your DetectSquares object will be instantiated and called as such:
-	 * DetectSquares* obj = new DetectSquares();
-	 * obj->add(point);
-	 * int param_2 = obj->count(point);
-	 */
+		class DetectSquares {
+			vector<vector<int>> map; // map[x][y], value is number of points of (x, y)
+			vector<pair<int, int>> data;
+		public:
+			DetectSquares() {
+				map.resize(1001, vector<int>(1001, 0));
+			}
+
+			void add(vector<int> point) {
+				map[point[0]][point[1]]++;
+				data.push_back({ point[0], point[1] });
+			}
+
+			int count(vector<int> point) {
+				int x1 = point[0];
+				int y1 = point[1];
+				int result = 0;
+				for (auto& [x3, y3] : data) {
+					if (x1 == x3 || abs(x1 - x3) != abs(y1 - y3)) { continue; }
+					result += map[x1][y3] * map[x3][y1]; // Note: x, y's position won't change!
+				}
+				return result;
+			}
+		};
+
+		/**
+		 * Your DetectSquares object will be instantiated and called as such:
+		 * DetectSquares* obj = new DetectSquares();
+		 * obj->add(point);
+		 * int param_2 = obj->count(point);
+		 */
 
 		void Main() {
 			string test = "tst test test";

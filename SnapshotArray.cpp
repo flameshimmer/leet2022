@@ -32,34 +32,61 @@ namespace Solution2022
 {
 	namespace SnapshotArray
 	{
-	class SnapshotArray {
-	    SnapshotArray(int length) {
-	        
-	    }
-	    
-	    void set(int index, int val) {
-	        
-	    }
-	    
-	    int snap() {
-	        
-	    }
-	    
-	    int get(int index, int snap_id) {
-	        
-	    }
-	​
-	/**
-	 * Your SnapshotArray object will be instantiated and called as such:
-	 * SnapshotArray* obj = new SnapshotArray(length);
-	 * obj->set(index,val);
-	 * int param_2 = obj->snap();
-	 * int param_3 = obj->get(index,snap_id);
-	 */
+		namespace UseHashMap {
+			class SnapshotArray {
+			private:
+				int curSnap;
+				unordered_map<int, unordered_map<int, int>> map; // index, (version, value)
+			public:
+				SnapshotArray(int length) {
+					curSnap = 0;
+				}
+
+				void set(int index, int val) {
+					map[index][curSnap] = val;
+				}
+
+				int snap() {
+					curSnap++;
+					return curSnap;
+				}
+
+				int get(int index, int snap_id) {
+					auto it = map[index].upper_bound(snap_id);
+					if (it == map[index].begin()) { return 0; }
+					return prev(it)->second;
+				}
+			};
+		}
+		
+		/**
+		 * Your SnapshotArray object will be instantiated and called as such:
+		 * SnapshotArray* obj = new SnapshotArray(length);
+		 * obj->set(index,val);
+		 * int param_2 = obj->snap();
+		 * int param_3 = obj->get(index,snap_id);
+		 */
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			//SnapshotArray* obj = new SnapshotArray(2);
+			////obj->set(0, 15);
+			////int param_2 = obj->snap();
+			////int param_3 = obj->snap();
+			////int param_4 = obj->snap();
+			////int param_5 = obj->get(0, 2);
+			////int param_6 = obj->snap();
+			////int param_7 = obj->snap();
+			////int param_8 = obj->get(0, 0);
+
+			//int param_1 = obj->snap();
+			//int param_2 = obj->get(1, 0);
+			//int param_3 = obj->get(0, 0);
+			//obj->set(1, 8);
+			//int param_5 = obj->get(1, 0);
+			//obj->set(0, 20);
+			//int param_4 = obj->get(0, 0);
+			//obj->set(0, 7);
+
 		}
 	}
 }

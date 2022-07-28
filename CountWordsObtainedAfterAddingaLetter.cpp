@@ -55,13 +55,71 @@ namespace Solution2022
 {
 	namespace CountWordsObtainedAfterAddingaLetter
 	{
-	    int wordCount(vector<string>& startWords, vector<string>& targetWords) {
-	        
-	    }
+		namespace BitMask {
+
+			int getMask(string& s) {			
+				return accumulate(s.begin(), s.end(), 0, [](int result, char c) {return result + (1 << (c - 'a')); });
+			}
+
+			int wordCount(vector<string>& startWords, vector<string>& targetWords) {
+				unordered_set<int> set;
+				for (string& w : startWords) {
+					set.insert(getMask(w));
+				}
+
+				int result = 0;
+				for (string& w : targetWords) {
+					int mask = getMask(w);
+					for (char c : w) {
+						if (set.find(mask - (1 << (c - 'a'))) != set.end()) { 
+							result++; 
+							break; 
+						}
+					}					
+				}
+				return result;
+			}
+			
+		}
+
+		namespace UseOneEditDistanceButTLE {
+			bool helper(string& s1, string& s2) {
+				int len1 = s1.size();
+				int len2 = s2.size();
+				if (len2 != len1 + 1) { return false; }
+				for (int i = 0; i < len1; i++) {
+					if (s1[i] != s2[i]) {
+						return s1.find(s2[i]) == string::npos && s1.substr(i) == s2.substr(i + 1);
+					}
+				}
+				return true;
+			}
+
+			int wordCount(vector<string>& startWords, vector<string>& targetWords) {
+				for (string& s : startWords) {
+					sort(s.begin(), s.end());
+				}
+				for (string& s : targetWords) {
+					sort(s.begin(), s.end());
+				}
+
+				int result = 0;
+				for (string& s2 : targetWords) {
+					for (string& s1 : startWords) {
+						if (helper(s1, s2)) {
+							result++;
+							break;
+						}
+					}
+				}
+				return result;
+			}
+		}
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			vector<string> v1 = {"g", "vf", "ylpuk", "nyf", "gdj", "j", "fyqzg", "sizec"};
+			vector<string> v2 = {"r", "am", "jg", "umhjo", "fov", "lujy", "b", "uz", "y"};
+			print(BitMask::wordCount(v1, v2));
 		}
 	}
 }

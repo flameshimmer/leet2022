@@ -39,7 +39,18 @@ namespace Solution2022
 	namespace MaximumPointsYouCanObtainfromCards
 	{
 	    int maxScore(vector<int>& cardPoints, int k) {
-	        
+			int len = cardPoints.size();
+			if (k >= len) { return accumulate(cardPoints.begin(), cardPoints.end(), 0);  }
+
+			int leftSum = accumulate(cardPoints.begin(), cardPoints.begin() + k, 0);
+			int result = leftSum;
+			int rightSum = 0;
+			for (int i = 0; i < k; i++) {
+				rightSum += cardPoints[len - 1 - i];
+				leftSum -= cardPoints[k - 1 - i];
+				result = max(result, leftSum + rightSum);
+			}
+			return result;
 	    }
 
 		void Main() {

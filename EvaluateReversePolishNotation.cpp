@@ -40,9 +40,34 @@ namespace Solution2022
 {
 	namespace EvaluateReversePolishNotation
 	{
-	    int evalRPN(vector<string>& tokens) {
-	        
-	    }
+		int helper(int v1, int v2, string& tok) {
+			if (tok == "+") { return v1 + v2; }
+			if (tok == "-") { return v1 - v2; }
+			if (tok == "*") { return v1 * v2; }
+			if (tok == "/") { return v1 / v2; }
+			return 0;
+		}
+
+		int evalRPN(vector<string>& tokens) {
+			int len = tokens.size();
+			if (len == 0) { return 0; }
+
+			stack<int> s;
+			for (string& tok : tokens) {
+				if (tok == "+" || tok == "-" || tok == "*" || tok == "/") {
+					int v2 = s.top();
+					s.pop();
+					int v1 = s.top();
+					s.pop();
+					int v = helper(v1, v2, tok);
+					s.push(v);
+				}
+				else {
+					s.push(stoi(tok));
+				}
+			}
+			return s.top();
+		}
 
 		void Main() {
 			string test = "tst test test";

@@ -35,7 +35,30 @@ namespace Solution2022
 	namespace ShortestWaytoFormString
 	{
 	    int shortestWay(string source, string target) {
-	        
+			int len = source.size();
+			vector<vector<int>> map(len, vector<int>(26, -1));
+
+			map[len - 1][source[len - 1] - 'a'] = len - 1;
+			for (int i = len - 2; i >= 0; i--) {
+				map[i] = map[i + 1];
+				map[i][source[i] - 'a'] = i;
+			}
+
+			int result = 1;
+			int i = 0;
+			for (char c : target) {
+				int t = c - 'a';
+				if (map[0][t] == -1) { return -1; }
+
+				if (i == len || map[i][t] == -1) {
+					result++;
+					i = map[0][t] + 1;
+				}
+				else {
+					i = map[i][t] + 1;
+				}			
+			}
+			return result;
 	    }
 
 		void Main() {
