@@ -160,6 +160,7 @@
     <ClCompile Include="AnalyzeUserWebsiteVisitPattern.cpp" />
     <ClCompile Include="AsteroidCollision.cpp" />
     <ClCompile Include="BasicCalculator.cpp" />
+    <ClCompile Include="BattleshipsinaBoard.cpp" />
     <ClCompile Include="BestTimetoBuyandSellStock.cpp" />
     <ClCompile Include="BinarySearch.cpp" />
     <ClCompile Include="BinaryTreeVerticalOrderTraversal.cpp" />
@@ -257,6 +258,8 @@
     <ClCompile Include="Minesweeper.cpp" />
     <ClCompile Include="MinimizeDeviationinArray.cpp" />
     <ClCompile Include="MinimumAddtoMakeParenthesesValid.cpp" />
+    <ClCompile Include="MinimumAreaRectangle.cpp" />
+    <ClCompile Include="MinimumCosttoSetCookingTime.cpp" />
     <ClCompile Include="MinimumRemovetoMakeValidParentheses.cpp" />
     <ClCompile Include="MinimumTimeDifference.cpp" />
     <ClCompile Include="MissingNumber.cpp" />

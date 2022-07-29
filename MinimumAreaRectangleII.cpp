@@ -36,7 +36,42 @@ namespace Solution2022
 	namespace MinimumAreaRectangleII
 	{
 	    double minAreaFreeRect(vector<vector<int>>& points) {
-	        
+			map<pair<int, int>, vector<pair<int, int>>> map;
+			int len = points.size();
+
+			for (int i = 0; i < len; i++) {
+				for (int j = 0; j < len; j++) {
+					if (i == j) { continue; }
+					int deltaX = points[i][0] - points[j][0];
+					int deltaY = points[i][1] - points[j][1];
+					map[{deltaX, deltaY}].push_back({ i, j });
+				}
+			}
+
+			double result = INT_MAX;
+			for (auto& item : map) {
+				int size = item.second.size();
+				for (int m = 0; m < size; m++) {
+					for (int n = m + 1; n < size; n++) {
+						int i = item.second[m].first;
+						int j = item.second[m].second;
+						int k = item.second[n].first;
+
+						int dx1 = points[i][0] - points[j][0];
+						int dy1 = points[i][1] - points[j][1];
+						int dx2 = points[i][0] - points[k][0];
+						int dy2 = points[i][1] - points[k][1];
+
+						if (dx1 * dx2 + dy1 * dy2 != 0) { continue; }
+
+						double side1 = sqrt((points[i][0] - points[j][0]) * (points[i][0] - points[j][0]) + (points[i][1] - points[j][1]) * (points[i][1] - points[j][1]));
+						double side2 = sqrt((points[i][0] - points[k][0]) * (points[i][0] - points[k][0]) + (points[i][1] - points[k][1]) * (points[i][1] - points[k][1]));
+						double area = side1 * side2;
+						result = min(result, area);
+					}
+				}
+			}
+			return result == INT_MAX ? 0 : result;
 	    }
 
 		void Main() {

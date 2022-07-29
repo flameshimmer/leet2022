@@ -627,6 +627,15 @@
     <ClCompile Include="CheckifWordCanBePlacedInCrossword.cpp">
       <Filter>Solution2022</Filter>
     </ClCompile>
+    <ClCompile Include="MinimumCosttoSetCookingTime.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleshipsinaBoard.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="MinimumAreaRectangle.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Solution2022.h">

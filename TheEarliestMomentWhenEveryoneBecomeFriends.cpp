@@ -46,8 +46,31 @@ namespace Solution2022
 {
 	namespace TheEarliestMomentWhenEveryoneBecomeFriends
 	{
+		int find(int i, vector<int>& parent) {
+			while (parent[i] != i) {
+				i = parent[i];
+			}
+			return i;
+		}
+
 	    int earliestAcq(vector<vector<int>>& logs, int n) {
-	        
+			sort(logs.begin(), logs.end());
+
+			vector<int> parent(n);
+			for (int i = 0; i < n; i++) {
+				parent[i] = i;
+			}
+
+			for (vector<int>& log : logs) {
+				int p1 = find(log[1], parent);
+				int p2 = find(log[2], parent);
+				if (p1 != p2) {
+					n--;
+					if (n == 1) { return log[0]; }
+					parent[p2] = p1;
+				}
+			}
+			return -1;
 	    }
 
 		void Main() {
