@@ -43,22 +43,65 @@ namespace Solution2022
 {
 	namespace RangeModule
 	{
-	class RangeModule {
-	    RangeModule() {
-	        
-	    }
-	    
-	    void addRange(int left, int right) {
-	        
-	    }
-	    
-	    bool queryRange(int left, int right) {
-	        
-	    }
-	    
-	    void removeRange(int left, int right) {
-	        
-	    }
+		class RangeModule {
+		private:
+			typedef map<int, int>::iterator IT;
+			map<int, int> ranges;
+
+			void getOverlapRanges(int left, int right, IT& l, IT& r) {
+				l = ranges.upper_bound(left);
+				r = ranges.upper_bound(right);
+				if (l != ranges.begin()) {
+					if ((--l)->second < left) { l++; }
+				}
+			}
+
+		public:
+			RangeModule() {
+
+			}
+
+			void addRange(int left, int right) {
+				IT l;
+				IT r;
+				getOverlapRanges(left, right, l, r);
+				
+				if (l != r) {
+					IT last = r;
+					last--;
+
+					left = min(left, l->first);
+					right = max(right, last->second);
+					ranges.erase(l, r);
+				}
+				ranges[left] = right;
+			}
+
+			bool queryRange(int left, int right) {
+				IT l;
+				IT r;
+				getOverlapRanges(left, right, l, r);
+				if (l == r) { return false; }
+				return l->first <= left && l->second >= right;
+			}
+
+			void removeRange(int left, int right) {
+				IT l;
+				IT r;
+				getOverlapRanges(left, right, l, r);
+				if (l == r) { return; }
+
+				IT last = r;
+				last--;
+
+				int start = min(left, l->first);
+				int end = max(right, last->second);
+				ranges.erase(l, r); 
+				if (start < left) { ranges[start] = left; }
+				if (end > right) { ranges[right] = end; }
+			}
+		};
+
 	​
 	/**
 	 * Your RangeModule object will be instantiated and called as such:

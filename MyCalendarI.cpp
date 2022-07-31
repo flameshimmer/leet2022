@@ -36,24 +36,35 @@ namespace Solution2022
 {
 	namespace MyCalendarI
 	{
-	class MyCalendar {
-	    MyCalendar() {
-	        
-	    }
-	    
-	    bool book(int start, int end) {
-	        
-	    }
-	​
-	/**
-	 * Your MyCalendar object will be instantiated and called as such:
-	 * MyCalendar* obj = new MyCalendar();
-	 * bool param_1 = obj->book(start,end);
-	 */
+		class MyCalendar {
+		private:
+			map<int, int> data;		
+		public:
+			MyCalendar() {
+
+			}
+
+			bool book(int start, int end) {
+				auto it = data.lower_bound(start);
+				if (it != data.end() && end > it->first) { return false; } // intersecting with the next one
+				if (it != data.begin() && start < (--it)->second) { return false; } // intersecting with the previous one
+				data[start] = end;
+				return true;
+			}
+		};
+
+
+		/**
+		 * Your MyCalendar object will be instantiated and called as such:
+		 * MyCalendar* obj = new MyCalendar();
+		 * bool param_1 = obj->book(start,end);
+		 */
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			MyCalendar* obj = new MyCalendar();;
+			print(obj->book(10, 20));
+			print(obj->book(15, 25));
+			print(obj->book(20, 30));
 		}
 	}
 }

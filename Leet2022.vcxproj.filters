@@ -636,6 +636,15 @@
     <ClCompile Include="MinimumAreaRectangle.cpp">
       <Filter>Solution2022</Filter>
     </ClCompile>
+    <ClCompile Include="MinimumAreaRectangleII.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="MaximumNumberofVisiblePoints.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="MyCalendarI.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Solution2022.h">

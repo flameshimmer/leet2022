@@ -37,14 +37,28 @@ namespace Solution2022
 {
 	namespace MyCalendarIII
 	{
-	class MyCalendarThree {
-	    MyCalendarThree() {
-	        
-	    }
-	    
-	    int book(int start, int end) {
-	        
-	    }
+		class MyCalendarThree {
+		private:
+			map<int, int> map;
+		public:
+			MyCalendarThree() {
+
+			}
+
+			int book(int start, int end) {
+				map[start]++;
+				map[end]--;
+
+				int result = 0;
+				int cur = 0;
+				for (auto& [time, val] : map) {
+					cur += val;
+					result = max(result, cur);
+				}
+				return result;
+			}
+		};
+
 	​
 	/**
 	 * Your MyCalendarThree object will be instantiated and called as such:

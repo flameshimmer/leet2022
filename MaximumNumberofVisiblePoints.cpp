@@ -1,4 +1,5 @@
 #include "stdafx.h"
+#include <math.h>
 
 //You are given an array points, an integer angle, and your location, where
 //location = [posx, posy] and points[i] = [xi, yi] both denote integral
@@ -47,8 +48,30 @@ namespace Solution2022
 {
 	namespace MaximumNumberofVisiblePoints
 	{
+		
 	    int visiblePoints(vector<vector<int>>& points, int angle, vector<int>& location) {
-	        
+			vector<double> angles;
+			double PI = 3.14159265;
+
+			int same = 0;
+			for (vector<int>& p : points) {
+				int dx = p[0] - location[0]; // note: here is p minus location, not the reverse!!!
+				int dy = p[1] - location[1];
+				if (dx == 0 && dy == 0) { same++; continue; }
+				angles.push_back(atan2(dy, dx) * 180 / PI);
+			}
+
+			sort(angles.begin(), angles.end());
+			vector<double> a(angles.begin(), angles.end());
+			for (double d : angles) { a.push_back(d + 360); }
+
+			int result = 0;
+			int back = 0;
+			for (int front = 0; front < a.size(); front++) {
+				while (a[front] - a[back] > angle) { back++; }
+				result = max(result, front - back + 1);			
+			}
+			return same + result;
 	    }
 
 		void Main() {

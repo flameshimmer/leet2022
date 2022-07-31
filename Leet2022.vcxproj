@@ -243,6 +243,7 @@
     <ClCompile Include="LRUCache.cpp" />
     <ClCompile Include="MaxAreaofIsland.cpp" />
     <ClCompile Include="MaximumNumberofPointswithCost.cpp" />
+    <ClCompile Include="MaximumNumberofVisiblePoints.cpp" />
     <ClCompile Include="MaximumPointsYouCanObtainfromCards.cpp" />
     <ClCompile Include="MaximumSplitofPositiveEvenIntegers.cpp" />
     <ClCompile Include="MaximumSubarray.cpp" />
@@ -259,12 +260,14 @@
     <ClCompile Include="MinimizeDeviationinArray.cpp" />
     <ClCompile Include="MinimumAddtoMakeParenthesesValid.cpp" />
     <ClCompile Include="MinimumAreaRectangle.cpp" />
+    <ClCompile Include="MinimumAreaRectangleII.cpp" />
     <ClCompile Include="MinimumCosttoSetCookingTime.cpp" />
     <ClCompile Include="MinimumRemovetoMakeValidParentheses.cpp" />
     <ClCompile Include="MinimumTimeDifference.cpp" />
     <ClCompile Include="MissingNumber.cpp" />
     <ClCompile Include="MoveZeroes.cpp" />
     <ClCompile Include="MovingAveragefromDataStream.cpp" />
+    <ClCompile Include="MyCalendarI.cpp" />
     <ClCompile Include="NestedListWeightSum.cpp" />
     <ClCompile Include="NestedListWeightSumII.cpp" />
     <ClCompile Include="NextGreaterElementI.cpp" />
