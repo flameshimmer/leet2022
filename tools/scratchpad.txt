@@ -1,1 +1,23 @@
-vector<vector<int>> test = {{1,1},{1,3},{3,1},{3,3},{2,2}};
+string reorderSpaces(string text) {
+
+			int spaceCount = 0;
+			for (char c : text) { if (c == ' ') { spaceCount++; } }
+
+			istringstream ss(text);
+			string cur;
+			vector<string> results;			
+			while (ss >> cur) {
+				results.push_back(cur);
+			}
+			int len = results.size();
+			
+			int sc = len > 1 ? spaceCount / (len - 1) : 0;
+			int esc = len > 1 ? spaceCount % (len - 1) : spaceCount;
+			
+			string result = "";
+			for (int i = 0; i < len; i++) {
+				string space = (i != len - 1) ? string(sc, ' ') : string(esc, ' ');
+				result += results[i] + space;
+			}
+			return result;
+	    }

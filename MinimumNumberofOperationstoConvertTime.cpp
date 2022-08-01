@@ -34,8 +34,20 @@ namespace Solution2022
 {
 	namespace MinimumNumberofOperationstoConvertTime
 	{
+		int getTime(string& s) {
+			return stoi(s.substr(0, 2)) * 60 + stoi(s.substr(3));
+		}
+
 	    int convertTime(string current, string correct) {
-	        
+			int diff = getTime(correct) - getTime(current);
+			vector<int> ops = { 60, 15, 5, 1 };
+			int result = 0;
+
+			for (int op : ops) {
+				result += diff / op;
+				diff %= op;
+			}
+			return result;
 	    }
 
 		void Main() {

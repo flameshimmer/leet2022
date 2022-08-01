@@ -32,27 +32,28 @@ namespace Solution2022
 {
 	namespace RearrangeSpacesBetweenWords
 	{
-		string reorderSpaces(string text) {
+	    string reorderSpaces(string text) {
 			istringstream ss(text);
 			string cur;
-			vector<string> results;
-			while (ss >> cur) { results.push_back(cur); }
-			int len = results.size();
-
 			int spaceCount = 0;
 			for (char c : text) { if (c == ' ') { spaceCount++; } }
 
-			
-			int gap = len > 1 ? spaceCount / (len - 1) : 0;
-			int extra = len > 1 ? spaceCount % (len - 1) : spaceCount;
+			vector<string> results;
+			while (getline(ss, cur, ' ')) {
+				if (cur != ""){ results.push_back(cur); }
+			}
+			int len = results.size();
 
+
+			int sc = len > 1 ? spaceCount / (len - 1) : 0;
+			int esc = len > 1 ? spaceCount % (len - 1) : spaceCount;
 			string result = "";
 			for (int i = 0; i < len; i++) {
-				int count = (i == len - 1) ? extra : gap;
-				result += results[i] + string(count, ' ');
+				string space = (i == len - 1) ? string(sc, ' ') : string(esc, ' ');
+				result += results[i] + space;
 			}
 			return result;
-		}
+	    }
 
 		void Main() {
 			string test = "  this   is  a sentence ";

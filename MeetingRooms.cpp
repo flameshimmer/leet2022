@@ -21,9 +21,38 @@ namespace Solution2022
 {
 	namespace MeetingRooms
 	{
-	    bool canAttendMeetings(vector<vector<int>>& intervals) {
-	        
-	    }
+		namespace HashMap {
+			bool canAttendMeetings(vector<vector<int>>& intervals) {
+				map<int, int> map;
+				for (vector<int>& in : intervals) {
+					map[in[0]] ++;
+					map[in[1]] --;
+				}
+
+				int count = 0;
+				for (auto& [k, v] : map) {
+					count += v;
+					if (count > 1) { return false; }
+				}
+				return true;
+			}
+		}
+
+		namespace Sorting {
+			bool canAttendMeetings(vector<vector<int>>& intervals) {
+				auto comp = [](vector<int>& a, vector<int>& b) {
+					if (a[0] == b[0]) { return a[1] < b[1]; }
+					return a[0] < b[0];
+				};
+
+				sort(intervals.begin(), intervals.end(), comp);
+
+				for (int i = 1; i < intervals.size(); i++) {
+					if (intervals[i - 1][1] > intervals[i][0]) { return false; }
+				}
+				return true;
+			}
+		}
 
 		void Main() {
 			string test = "tst test test";

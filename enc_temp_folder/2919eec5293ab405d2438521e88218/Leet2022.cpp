@@ -17,13 +17,10 @@ int _tmain(int argc, _TCHAR* argv[])
 	
 
 	//====Problem Starts====
-
 	//7/31/2022
 	//Solution2022::RobotRoomCleaner::Main();
 	//Solution2022::SwiminRisingWater::Main();
-	//Solution2022::RearrangeSpacesBetweenWords::Main();
-	//Solution2022::MeetingRooms::Main();
-	//Solution2022::MinimumNumberofOperationstoConvertTime::Main();
+	Solution2022::RearrangeSpacesBetweenWords::Main();
 
 	//7/30/2022
 	//Solution2022::MaximumNumberofVisiblePoints::Main();
@@ -762,6 +759,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::AvoidFloodinTheCity::Main();
 	//Solution2022::SeatReservationManager::Main();
 	//Solution2022::JumpGameVII::Main();
+	//Solution2022::MinimumNumberofOperationstoConvertTime::Main();
 	//Solution2022::KeyboardRow::Main();
 	//Solution2022::AverageSalaryExcludingtheMinimumandMaximumSalary::Main();
 	//Solution2022::PathwithMaximumProbability::Main();
@@ -1917,6 +1915,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::FlattenTwoDVector::Main();
 	//Solution2022::NumberofSubarraysWithOddSum::Main();
 	//Solution2022::WaystoSplitArrayIntoThreeSubarrays::Main();
+	//Solution2022::MeetingRooms::Main();
 	//Solution2022::SurroundedRegions::Main();
 	//Solution2022::FairCandySwap::Main();
 	//Solution2022::AllPossibleFullBinaryTrees::Main();

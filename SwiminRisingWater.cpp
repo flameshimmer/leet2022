@@ -39,9 +39,41 @@ namespace Solution2022
 {
 	namespace SwiminRisingWater
 	{
-	    int swimInWater(vector<vector<int>>& grid) {
-	        
-	    }
+		struct T {
+			int t, x, y;
+			T(int a, int b, int c) : t(a), x(b), y(c) {}
+			bool operator < (const T& d) const {
+				return t > d.t;
+			}
+		};
+
+		int swimInWater(vector<vector<int>>& grid) {
+			int len = grid.size();
+			int result = 0;
+			vector<vector<int>> dirs = { {0, 1}, {1, 0}, {-1, 0}, {0, -1}};
+
+			priority_queue<T> pq;
+			vector<vector<int>> visited(len, vector<int>(len, 0));
+			pq.push(T(grid[0][0], 0, 0));			
+			visited[0][0] = 1;
+
+			while (!pq.empty()) {
+				auto [t, x, y] = pq.top();
+				pq.pop();
+
+				result = max(result, t);
+				if (x == len - 1 && y == len - 1) { return result; }
+				for (auto& dir : dirs) {
+					int xx = x + dir[0];
+					int yy = y + dir[1];
+					if (xx >= 0 && xx < len && yy >= 0 && yy < len && !visited[xx][yy]) {
+						visited[xx][yy] = 1; // don't forget to update visited!
+						pq.push(T(grid[xx][yy], xx, yy));
+					}
+				}
+			}
+			return -1;
+		}
 
 		void Main() {
 			string test = "tst test test";

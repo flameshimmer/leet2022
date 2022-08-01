@@ -268,6 +268,7 @@
     <ClCompile Include="MoveZeroes.cpp" />
     <ClCompile Include="MovingAveragefromDataStream.cpp" />
     <ClCompile Include="MyCalendarI.cpp" />
+    <ClCompile Include="MyCalendarIII.cpp" />
     <ClCompile Include="NestedListWeightSum.cpp" />
     <ClCompile Include="NestedListWeightSumII.cpp" />
     <ClCompile Include="NextGreaterElementI.cpp" />
@@ -292,6 +293,7 @@
     <ClCompile Include="RaceCar.cpp" />
     <ClCompile Include="RandomPickwithWeight.cpp" />
     <ClCompile Include="RangeSumofBST.cpp" />
+    <ClCompile Include="RearrangeSpacesBetweenWords.cpp" />
     <ClCompile Include="ReconstructOriginalDigitsfromEnglish.cpp" />
     <ClCompile Include="ReformatDate.cpp" />
     <ClCompile Include="RemoveAllAdjacentDuplicatesInString.cpp" />
@@ -309,6 +311,7 @@
     <ClCompile Include="ReverseString.cpp" />
     <ClCompile Include="ReverseWordsinaStringIII.cpp" />
     <ClCompile Include="RobotBoundedInCircle.cpp" />
+    <ClCompile Include="RobotRoomCleaner.cpp" />
     <ClCompile Include="RomantoInteger.cpp" />
     <ClCompile Include="RotateArray.cpp" />
     <ClCompile Include="RotateImage.cpp" />
@@ -339,6 +342,7 @@
     <ClCompile Include="SumofSubarrayMinimums.cpp" />
     <ClCompile Include="SumofSubarrayRanges.cpp" />
     <ClCompile Include="SwapAdjacentinLRString.cpp" />
+    <ClCompile Include="SwiminRisingWater.cpp" />
     <ClCompile Include="Test.cpp" />
     <ClCompile Include="TextJustification.cpp" />
     <ClCompile Include="ThreeSum.cpp" />

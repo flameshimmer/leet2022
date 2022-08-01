@@ -645,6 +645,18 @@
     <ClCompile Include="MyCalendarI.cpp">
       <Filter>Solution2022</Filter>
     </ClCompile>
+    <ClCompile Include="MyCalendarIII.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="RobotRoomCleaner.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="SwiminRisingWater.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="RearrangeSpacesBetweenWords.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Solution2022.h">
