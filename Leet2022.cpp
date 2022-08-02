@@ -17,6 +17,13 @@ int _tmain(int argc, _TCHAR* argv[])
 	
 
 	//====Problem Starts====
+	
+	//8/1/2022
+	//Solution2022::LongestLineofConsecutiveOneinMatrix::Main();
+	//Solution2022::LongestIncreasingPathinaMatrix::Main();
+	//Solution2022::StudentAttendanceRecordI::Main();
+	//Solution2022::StudentAttendanceRecordII::Main();
+	//Solution2022::TimeNeededtoInformAllEmployees::Main();
 
 	//7/31/2022
 	//Solution2022::RobotRoomCleaner::Main();
@@ -351,8 +358,7 @@ int _tmain(int argc, _TCHAR* argv[])
 
 
 	//====Problem Ends====
-	//Solution2022::LongestLineofConsecutiveOneinMatrix::Main();
-	//Solution2022::LongestIncreasingPathinaMatrix::Main();
+	//Solution2022::OddEvenJump::Main();
 	//Solution2022::RLEIterator::Main();
 	//Solution2022::MaximumNumberofAcceptedInvitations::Main();	
 	//Solution2022::ReverseNodesinkGroup::Main();
@@ -714,7 +720,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::TheEarliestandLatestRoundsWherePlayersCompete::Main();
 	//Solution2022::ReverseNodesinEvenLengthGroups::Main();
 	//Solution2022::NimGame::Main();
-	//Solution2022::StudentAttendanceRecordI::Main();
 	//Solution2022::CountNumberswithUniqueDigits::Main();
 	//Solution2022::SplitArrayintoFibonacciSequence::Main();
 	//Solution2022::FindRightInterval::Main();
@@ -1750,7 +1755,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::FindtheCelebrity::Main();
 	//Solution2022::InsertDeleteGetRandomODuplicatesallowed::Main();
 	//Solution2022::PowerofTwo::Main();
-	//Solution2022::StudentAttendanceRecordII::Main();
 	//Solution2022::DesignLogStorageSystem::Main();
 	//Solution2022::FourSumII::Main();
 	//Solution2022::PopulatingNextRightPointersinEachNodeII::Main();
@@ -2005,7 +2009,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::PathSumIII::Main();
 	//Solution2022::LineReflection::Main();
 	//Solution2022::MaximumProductofThreeNumbers::Main();
-	//Solution2022::TimeNeededtoInformAllEmployees::Main();
 	//Solution2022::LongestSubstringwithAtMostKDistinctCharacters::Main();
 	//Solution2022::SumofTotalStrengthofWizards::Main();
 	//Solution2022::SumofRootToLeafBinaryNumbers::Main();
@@ -2045,7 +2048,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::SimilarStringGroups::Main();
 	//Solution2022::LongestArithmeticSubsequenceofGivenDifference::Main();
 	//Solution2022::PathSumII::Main();
-	//Solution2022::OddEvenJump::Main();
 	//Solution2022::ThreeSumSmaller::Main();
 	//Solution2022::SpiralMatrixIII::Main();
 	//Solution2022::CheckIfArrayPairsAreDivisiblebyk::Main();

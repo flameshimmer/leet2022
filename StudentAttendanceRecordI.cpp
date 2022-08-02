@@ -34,9 +34,20 @@ namespace Solution2022
 {
 	namespace StudentAttendanceRecordI
 	{
-	    bool checkRecord(string s) {
-	        
-	    }
+		bool checkRecord(string s) {
+			int count = 0;
+			for (char c : s) {
+				if (c == 'A') {
+					count++;
+					if (count == 2) { return false; }
+				}
+			}
+
+			for (int i = 2; i < s.size(); i++) {
+				if (s[i] == 'L' && s[i - 1] == 'L' && s[i - 2] == 'L') { return false; }
+			}
+			return true;
+		}
 
 		void Main() {
 			string test = "tst test test";

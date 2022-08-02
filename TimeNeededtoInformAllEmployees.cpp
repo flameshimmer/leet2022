@@ -43,9 +43,28 @@ namespace Solution2022
 {
 	namespace TimeNeededtoInformAllEmployees
 	{
-	    int numOfMinutes(int n, int headID, vector<int>& manager, vector<int>& informTime) {
-	        
-	    }
+		int numOfMinutes(int n, int headID, vector<int>& manager, vector<int>& informTime) {
+			unordered_map<int, vector<int>> children; // node, node's children
+			for (int i = 0; i < n; i++) {
+				if (manager[i] == -1) { continue; }
+				children[manager[i]].push_back(i);
+			}
+
+			int result = informTime[headID];
+			queue<pair<int, int>> q; // node, time
+			q.push({ headID, informTime[headID] });
+
+			while (!q.empty()) {
+				auto [node, time] = q.front();
+				q.pop();
+
+				for (auto child : children[node]) {
+					q.push({ child, time + informTime[child] });
+					result = max(result, time + informTime[child]);
+				}
+			}
+			return result;
+		}
 
 		void Main() {
 			string test = "tst test test";

@@ -1,23 +1,22 @@
-string reorderSpaces(string text) {
-
-			int spaceCount = 0;
-			for (char c : text) { if (c == ' ') { spaceCount++; } }
-
-			istringstream ss(text);
-			string cur;
-			vector<string> results;			
-			while (ss >> cur) {
-				results.push_back(cur);
+	    int numOfMinutes(int n, int headID, vector<int>& manager, vector<int>& informTime) {
+			unordered_map<int, vector<int>> children; // node, node's children
+			for (int i = 0; i < n; i++) {
+				if (manager[i] == -1) { continue; }
+				children[manager[i]].push_back(i);
 			}
-			int len = results.size();
-			
-			int sc = len > 1 ? spaceCount / (len - 1) : 0;
-			int esc = len > 1 ? spaceCount % (len - 1) : spaceCount;
-			
-			string result = "";
-			for (int i = 0; i < len; i++) {
-				string space = (i != len - 1) ? string(sc, ' ') : string(esc, ' ');
-				result += results[i] + space;
+
+			int result = informTime[headID];
+			queue<pair<int, int>> q; // node, time
+			q.push({ headID, informTime[headID] });
+
+			while (!q.empty()) {
+				auto [node, time] = q.front();
+				q.pop();
+
+				for (auto child : children[node]) {
+					q.push({ child, time + informTime[child] });
+					result = max(result, time + informTime[child]);
+				}
 			}
 			return result;
 	    }
