@@ -47,20 +47,31 @@ namespace Solution2022
 {
 	namespace RLEIterator
 	{
-	class RLEIterator {
-	    RLEIterator(vector<int>& encoding) {
-	        
-	    }
-	    
-	    int next(int n) {
-	        
-	    }
-	​
-	/**
-	 * Your RLEIterator object will be instantiated and called as such:
-	 * RLEIterator* obj = new RLEIterator(encoding);
-	 * int param_1 = obj->next(n);
-	 */
+		class RLEIterator {
+		private:
+			vector<int> A;
+			int index;
+		public:
+			RLEIterator(vector<int>& encoding) : A(encoding), index(0) {
+			}
+
+			int next(int n) {
+				int len = A.size();
+				while (index < len && A[index] < n) {
+					n -= A[index];
+					index += 2;
+				}
+				if (index >= len) { return -1; }
+				A[index] -= n;
+				return A[index + 1];
+			}
+		};
+
+		/**
+		 * Your RLEIterator object will be instantiated and called as such:
+		 * RLEIterator* obj = new RLEIterator(encoding);
+		 * int param_1 = obj->next(n);
+		 */
 
 		void Main() {
 			string test = "tst test test";

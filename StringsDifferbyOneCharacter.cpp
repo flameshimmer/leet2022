@@ -33,7 +33,17 @@ namespace Solution2022
 	namespace StringsDifferbyOneCharacter
 	{
 	    bool differByOne(vector<string>& dict) {
-	        
+			unordered_set<string> set;
+			for (string& w : dict) {
+				for (int i = 0; i < w.size(); i++) {
+					char c = w[i];
+					w[i] = '*';
+					if (set.find(w) != set.end()) { return true; }
+					set.insert(w);
+					w[i] = c;
+				}
+			}
+			return false;
 	    }
 
 		void Main() {

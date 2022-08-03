@@ -35,9 +35,52 @@ namespace Solution2022
 {
 	namespace MinimumNumberofFlipstoConvertBinaryMatrixtoZeroMatrix
 	{
-	    int minFlips(vector<vector<int>>& mat) {
-	        
-	    }
+		int minFlips(vector<vector<int>>& mat) {
+			vector<pair<int, int>> dirs = { {0, 0}, {0, 1}, {1, 0}, {0, -1}, {-1, 0} };
+			int rowCount = mat.size();
+			int colCount = mat[0].size();
+			int start = 0;
+
+			for (int i = 0; i < rowCount; i++) {
+				for (int j = 0; j < colCount; j++) {
+					start |= mat[i][j] << (i * colCount + j); // note this is i * colCount, not i* rowCount;
+				}
+			}
+
+			queue<int> q;
+			q.push(start);
+			unordered_set<int> seen;
+			int result = 0;
+
+			while (!q.empty()) {
+				int sz = q.size();
+				while (sz) {
+					sz--;
+					int top = q.front();
+					q.pop();
+					if (top == 0) { return result; }
+
+					for (int i = 0; i < rowCount; i++) {
+						for (int j = 0; j < colCount; j++) {
+							int next = top;
+							for (auto& [x, y] : dirs) {
+								int ii = i + x;
+								int jj = j + y;
+								if (ii >= 0 && ii < rowCount && jj >= 0 && jj < colCount) {
+									next ^= 1 << ii * colCount + jj;
+								}
+							}
+							if (seen.find(next) == seen.end()) {
+								q.push(next);
+								seen.insert(next);
+							}
+						}
+					}
+				}
+				result++;
+			}
+			return -1;
+		}
 
 		void Main() {
 			string test = "tst test test";

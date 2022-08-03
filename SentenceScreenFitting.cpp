@@ -44,9 +44,21 @@ namespace Solution2022
 {
 	namespace SentenceScreenFitting
 	{
-	    int wordsTyping(vector<string>& sentence, int rows, int cols) {
-	        
-	    }
+		int wordsTyping(vector<string>& sentence, int rows, int cols) {
+			string s = "";
+			for (string& sen : sentence) { s += sen + " "; }
+			int len = s.size();
+
+			int start = 0;
+			for (int i = 0; i < rows; i++) {
+				start += cols;
+				if (s[start % len] == ' ') { start++; }
+				else {
+					while (start - 1 >= 0 && s[(start - 1) % len] != ' ') { start--; }
+				}
+			}
+			return start / len;
+		}
 
 		void Main() {
 			string test = "tst test test";

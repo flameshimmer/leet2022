@@ -17,6 +17,17 @@ int _tmain(int argc, _TCHAR* argv[])
 	
 
 	//====Problem Starts====
+	//8/3/2022
+	//Solution2022::TilingaRectanglewiththeFewestSquares::Main();
+	//Solution2022::StringsDifferbyOneCharacter::Main();
+	//Solution2022::ProductoftheLastKNumbers::Main();
+	//Solution2022::TheNumberofWeakCharactersintheGame::Main();
+	//Solution2022::FindServersThatHandledMostNumberofRequests::Main();
+
+	//8/2/2022
+	//Solution2022::MinimumNumberofFlipstoConvertBinaryMatrixtoZeroMatrix::Main();
+	//Solution2022::SentenceScreenFitting::Main();
+	//Solution2022::RLEIterator::Main();
 	
 	//8/1/2022
 	//Solution2022::LongestLineofConsecutiveOneinMatrix::Main();
@@ -358,8 +369,8 @@ int _tmain(int argc, _TCHAR* argv[])
 
 
 	//====Problem Ends====
+	//Solution2022::MaximumANDSumofArray::Main();
 	//Solution2022::OddEvenJump::Main();
-	//Solution2022::RLEIterator::Main();
 	//Solution2022::MaximumNumberofAcceptedInvitations::Main();	
 	//Solution2022::ReverseNodesinkGroup::Main();
 	//Solution2022::MedianofTwoSortedArrays::Main();	
@@ -505,7 +516,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::GrumpyBookstoreOwner::Main();
 	//Solution2022::DetectCyclesinTwoDGrid::Main();
 	//Solution2022::CarFleetII::Main();
-	//Solution2022::MaximumANDSumofArray::Main();
 	//Solution2022::NumberofLongestIncreasingSubsequence::Main();
 	//Solution2022::NumberofDiceRollsWithTargetSum::Main();
 	//Solution2022::RotatedDigits::Main();
@@ -515,7 +525,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::IPO::Main();
 	//Solution2022::TwoFurthestHousesWithDifferentColors::Main();
 	//Solution2022::MaximumStudentsTakingExam::Main();
-	//Solution2022::FindServersThatHandledMostNumberofRequests::Main();
 	//Solution2022::NumberofLaserBeamsinaBank::Main();
 	//Solution2022::FindTargetIndicesAfterSortingArray::Main();
 	//Solution2022::SumofLeftLeaves::Main();
@@ -1795,8 +1804,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::NumberofOneBits::Main();
 	//Solution2022::LinkedListCycle::Main();
 	//Solution2022::EggDropWithTwoEggsandNFloors::Main();
-	//Solution2022::MinimumAbsoluteDifference::Main();
-	//Solution2022::MinimumNumberofFlipstoConvertBinaryMatrixtoZeroMatrix::Main();
+	//Solution2022::MinimumAbsoluteDifference::Main();	
 	//Solution2022::WebCrawler::Main();
 	//Solution2022::SumRoottoLeafNumbers::Main();
 	//Solution2022::PartitionEqualSubsetSum::Main();
@@ -1913,7 +1921,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::KthSmallestElementinaBST::Main();
 	//Solution2022::PlusOne::Main();
 	//Solution2022::RansomNote::Main();
-	//Solution2022::TheNumberofWeakCharactersintheGame::Main();
 	//Solution2022::RichestCustomerWealth::Main();
 	//Solution2022::ValidSquare::Main();
 	//Solution2022::RepeatedDNASequences::Main();
@@ -1942,7 +1949,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::MaximumLengthofaConcatenatedStringwithUniqueCharacters::Main();
 	//Solution2022::FlattenBinaryTreetoLinkedList::Main();
 	//Solution2022::AddingTwoNegabinaryNumbers::Main();
-	//Solution2022::TilingaRectanglewiththeFewestSquares::Main();
 	//Solution2022::FindAllNumbersDisappearedinanArray::Main();
 	//Solution2022::ZeroOneMatrix::Main();
 	//Solution2022::MinimumNumberofOperationstoMoveAllBallstoEachBox::Main();
@@ -2000,7 +2006,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::DesignTwitter::Main();
 	//Solution2022::OnlineStockSpan::Main();
 	//Solution2022::FindMinimuminRotatedSortedArray::Main();
-	//Solution2022::ProductoftheLastKNumbers::Main();
 	//Solution2022::LargestSumofAverages::Main();
 	//Solution2022::MaximumDifferenceBetweenNodeandAncestor::Main();
 	//Solution2022::StreamofCharacters::Main();
@@ -2179,8 +2184,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::MinimumDifficultyofaJobSchedule::Main();
 	//Solution2022::MinimumNumberofOperationstoMakeArrayContinuous::Main();
 	//Solution2022::PalindromePermutationII::Main();
-	//Solution2022::SentenceScreenFitting::Main();
-	//Solution2022::StringsDifferbyOneCharacter::Main();
 	//Solution2022::MinimumAdjacentSwapsforKConsecutiveOnes::Main();
 	//Solution2022::KidsWiththeGreatestNumberofCandies::Main();
 	//Solution2022::RevealCardsInIncreasingOrder::Main();

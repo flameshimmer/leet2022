@@ -45,18 +45,31 @@ namespace Solution2022
 {
 	namespace ProductoftheLastKNumbers
 	{
-	class ProductOfNumbers {
-	    ProductOfNumbers() {
-	        
-	    }
-	    
-	    void add(int num) {
-	        
-	    }
-	    
-	    int getProduct(int k) {
-	        
-	    }
+		class ProductOfNumbers {
+		private:
+			vector<int> data;
+		public:
+			ProductOfNumbers() {
+				data = { 1 };
+			}
+
+			void add(int num) {
+				if (num == 0) { data = { 1 }; }
+				else {
+					data.push_back(data.back() * num);
+				}
+			}
+
+			int getProduct(int k) {
+				int len = data.size();
+				if (k > len - 1) {  // since the first element is padded with 1, so actual length is len -1 ;
+					return 0; 
+				}
+
+				return data[len - 1] / data[len - 1 - k];
+			}
+		};
+
 	​
 	/**
 	 * Your ProductOfNumbers object will be instantiated and called as such:
