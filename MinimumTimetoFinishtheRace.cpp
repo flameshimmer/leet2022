@@ -49,9 +49,37 @@
 namespace Solution2022
 {
 	namespace MinimumTimetoFinishtheRace
-	{
-	    int minimumFinishTime(vector<vector<int>>& tires, int changeTime, int numLaps) {
-	        
+	{	
+		long long  dp[1001] = {};
+		long long  best[1001] = {};
+		int maxLapsBeforeHavingToChangingTire = 0;
+
+		int dfs(int laps, int changeTime) {
+			if (laps == 0) { return -changeTime; }
+			if (dp[laps] != 0) { return dp[laps]; }
+
+			dp[laps] = INT_MAX;
+			for (int i = 1; i <= min(laps, maxLapsBeforeHavingToChangingTire); i++) { // Note where does i start and ends!!!
+				dp[laps] = min(dp[laps], best[i] + changeTime + dfs(laps - i, changeTime));
+			}
+			return dp[laps];
+		}
+
+	    int minimumFinishTime(vector<vector<int>>& tires, int changeTime, int numLaps) {			
+			for (auto& t : tires) {				
+				long long lapTime = t[0];
+				long long sumTime = t[0];
+
+				for (int lap = 1; lap <= numLaps && lapTime < t[0] + changeTime; lap++) {
+					maxLapsBeforeHavingToChangingTire = max(maxLapsBeforeHavingToChangingTire, lap);
+					if (best[lap] == 0 || best[lap] > sumTime) {
+						best[lap] = sumTime;
+					}
+					lapTime *= t[1];
+					sumTime += lapTime;
+				}
+			}
+			return dfs(numLaps, changeTime);
 	    }
 
 		void Main() {

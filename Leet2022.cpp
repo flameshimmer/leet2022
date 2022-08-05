@@ -17,13 +17,19 @@ int _tmain(int argc, _TCHAR* argv[])
 	
 
 	//====Problem Starts====
+	//8/4/2022
+	//Solution2022::MinimumTimetoFinishtheRace::Main();
+	//Solution2022::SortIntegersbyThePowerValue::Main();
+	//Solution2022::EmployeeFreeTime::Main();
+	//Solution2022::TheNumberofWeakCharactersintheGame::Main();
+	//Solution2022::FindServersThatHandledMostNumberofRequests::Main();
+
+
 	//8/3/2022
 	//Solution2022::TilingaRectanglewiththeFewestSquares::Main();
 	//Solution2022::StringsDifferbyOneCharacter::Main();
 	//Solution2022::ProductoftheLastKNumbers::Main();
-	//Solution2022::TheNumberofWeakCharactersintheGame::Main();
-	//Solution2022::FindServersThatHandledMostNumberofRequests::Main();
-
+	
 	//8/2/2022
 	//Solution2022::MinimumNumberofFlipstoConvertBinaryMatrixtoZeroMatrix::Main();
 	//Solution2022::SentenceScreenFitting::Main();
@@ -511,7 +517,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::PalindromePartitioningII::Main();
 	//Solution2022::KthAncestorofaTreeNode::Main();
 	//Solution2022::EncodeStringwithShortestLength::Main();
-	//Solution2022::MinimumTimetoFinishtheRace::Main();
 	//Solution2022::MaximumNumberofCoinsYouCanGet::Main();
 	//Solution2022::GrumpyBookstoreOwner::Main();
 	//Solution2022::DetectCyclesinTwoDGrid::Main();
@@ -996,7 +1001,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::MaximumScoreFromRemovingStones::Main();
 	//Solution2022::CheckWhetherTwoStringsareAlmostEquivalent::Main();
 	//Solution2022::VerifyPreorderSerializationofaBinaryTree::Main();
-	//Solution2022::SortIntegersbyThePowerValue::Main();
 	//Solution2022::NumberofFlowersinFullBloom::Main();
 	//Solution2022::NumberofLinesToWriteString::Main();
 	//Solution2022::ElementAppearingMoreThanTwoFivePercentInSortedArray::Main();
@@ -1395,7 +1399,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::DesignTicTacToe::Main();
 	//Solution2022::NQueens::Main();
 	//Solution2022::FibonacciNumber::Main();
-	//Solution2022::EmployeeFreeTime::Main();
 	//Solution2022::LargestRectangleinHistogram::Main();
 	//Solution2022::ReachingPoints::Main();
 	//Solution2022::FindMedianfromDataStream::Main();

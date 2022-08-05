@@ -31,23 +31,40 @@ namespace Solution2022
 {
 	namespace EmployeeFreeTime
 	{
-	/*
-	// Definition for an Interval.
-	class Interval {
-	    int start;
-	    int end;
-	​
-	    Interval() {}
-	​
-	    Interval(int _start, int _end) {
-	        start = _start;
-	        end = _end;
-	    }
-	*/
-	​
-	    vector<Interval> employeeFreeTime(vector<vector<Interval>> schedule) {
-	        
-	    }
+		// Definition for an Interval.
+		class Interval {
+		public:
+			int start;
+			int end;
+
+			Interval() {}
+
+			Interval(int _start, int _end) {
+				start = _start;
+				end = _end;
+			}
+		};
+
+		vector<Interval> employeeFreeTime(vector<vector<Interval>> schedule) {
+			vector<Interval> result;
+			map<int, int> map;
+			for (vector<Interval>& s : schedule) {
+				for (Interval& in : s) {
+					map[in.start] ++;
+					map[in.end]--;
+				}
+			}
+			int count = 0;
+			for (auto& [time, c] : map) {
+				count += c;
+				if (count == 0) { result.push_back({time, -1}); }
+				else if (!result.empty() && result.back().end == -1) {
+					result.back().end = time;
+				}
+			}
+			if (!result.empty()) { result.pop_back(); }
+			return result;
+		}
 
 		void Main() {
 			string test = "tst test test";
