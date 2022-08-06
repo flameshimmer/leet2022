@@ -46,9 +46,34 @@ namespace Solution2022
 {
 	namespace MaximumScoreofaNodeSequence
 	{
-	    int maximumScore(vector<int>& scores, vector<vector<int>>& edges) {
-	        
-	    }
+		int maximumScore(vector<int>& scores, vector<vector<int>>& edges) {
+			vector<set<pair<int, int>>> top3(scores.size(), set<pair<int, int>>()); //nodeIndex, {score, neighbore index} of top 3 largest
+			for (vector<int>& e : edges) {
+				int end0 = e[0];
+				int end1 = e[1];
+
+				set<pair<int, int>>& set0 = top3[end0];
+				set<pair<int, int>>& set1 = top3[end1];
+
+				set0.insert({ scores[end1], end1 }); // inserting the neighbours, not themselves!!
+				set1.insert({ scores[end0], end0 });
+				if (set0.size() > 3) { set0.erase(set0.begin()); }
+				if (set1.size() > 3) { set1.erase(set1.begin()); }
+			}
+			int result = -1;
+			for (vector<int>& e : edges) {
+				int end0 = e[0];
+				int end1 = e[1];
+				for (auto [score0, n0] : top3[end0]) {
+					for (auto [score1, n1] : top3[end1]) {
+						if (n0 != n1 && n0 != end1 && n1 != end0) { // ensure the 4 points are not the same. 
+							result = max(result, score0 + score1 + scores[end0] + scores[end1]);
+						}
+					}
+				}
+			}
+			return result;
+		}
 
 		void Main() {
 			string test = "tst test test";

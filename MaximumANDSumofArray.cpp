@@ -39,8 +39,32 @@ namespace Solution2022
 {
 	namespace MaximumANDSumofArray
 	{
+		bool filled(int state, int k) {
+			for (int i = 0; i < k; i++) { state /= 3; } // everytime divide by 3 is getting rid of the last value;
+			return state % 3;
+		}
+
 	    int maximumANDSum(vector<int>& nums, int numSlots) {
-	        
+			int n = nums.size();
+			nums.insert(nums.begin(), 0);
+			int m = pow(3, numSlots);
+			vector<vector<int>> dp(n + 1, vector<int>(m, INT_MIN / 2));
+			dp[0][0] = 0;
+
+			int result = 0;
+			for (int i = 1; i <= n; i++) {
+				for (int state = 0; state < m; state++) {
+					for (int j = 0; j < numSlots; j++) {
+						if (filled(state, j) >= 1) { // ensure there is at least one number that can be moved from this slow
+							dp[i][state] = max(dp[i][state], dp[i - 1][state - pow(3, j)] + (nums[i] & (j + 1)));
+						}
+					}
+					if (i == n) {
+						result = max(result, dp[i][state]);
+					}
+				}
+			}
+			return result;
 	    }
 
 		void Main() {

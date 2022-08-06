@@ -42,7 +42,31 @@ namespace Solution2022
 	namespace PathWithMinimumEffort
 	{
 	    int minimumEffortPath(vector<vector<int>>& heights) {
-	        
+			int rowCount = heights.size();
+			int colCount = heights[0].size();
+			vector<pair<int, int>> dirs = { {-1, 0}, {0, 1}, {1, 0}, {0, -1} };
+
+			vector<vector<int>> efforts(rowCount, vector<int>(colCount, INT_MAX));
+			priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq;
+			pq.push({ 0, 0 });  // First item is effort, second is row * 100 + col
+
+			while (!pq.empty()) {
+				auto [effort, index] = pq.top();
+				pq.pop();
+				int x = index / 100; 
+				int y = index % 100;
+
+				if (effort >= efforts[x][y]) { continue; }
+				efforts[x][y] = effort;
+
+				for (auto& [a, b] : dirs) {
+					int xx = x + a;
+					int yy = y + b;
+					if (xx < 0 || xx >= rowCount || yy < 0 || yy >= colCount) { continue; }
+					pq.push({ max(effort, abs(heights[x][y] - heights[xx][yy])), xx * 100 + yy });
+				}
+			}
+			return efforts[rowCount - 1][colCount - 1];
 	    }
 
 		void Main() {

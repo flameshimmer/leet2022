@@ -17,13 +17,21 @@ int _tmain(int argc, _TCHAR* argv[])
 	
 
 	//====Problem Starts====
+	//8/6/2022
+	//Solution2022::MaximumNumberofAcceptedInvitations::Main();	
+	//Solution2022::NumberofMatchingSubsequences::Main();
+	//Solution2022::AddTwoIntegers::Main();
+	//Solution2022::MaximumANDSumofArray::Main();
+	//Solution2022::MaximumScoreofaNodeSequence::Main();
+
+	//8/5/2022
+	//Solution2022::PathWithMinimumEffort::Main();
+	//Solution2022::FindServersThatHandledMostNumberofRequests::Main();
+
 	//8/4/2022
 	//Solution2022::MinimumTimetoFinishtheRace::Main();
 	//Solution2022::SortIntegersbyThePowerValue::Main();
 	//Solution2022::EmployeeFreeTime::Main();
-	//Solution2022::TheNumberofWeakCharactersintheGame::Main();
-	//Solution2022::FindServersThatHandledMostNumberofRequests::Main();
-
 
 	//8/3/2022
 	//Solution2022::TilingaRectanglewiththeFewestSquares::Main();
@@ -375,9 +383,8 @@ int _tmain(int argc, _TCHAR* argv[])
 
 
 	//====Problem Ends====
-	//Solution2022::MaximumANDSumofArray::Main();
+	//Solution2022::TheNumberofWeakCharactersintheGame::Main();
 	//Solution2022::OddEvenJump::Main();
-	//Solution2022::MaximumNumberofAcceptedInvitations::Main();	
 	//Solution2022::ReverseNodesinkGroup::Main();
 	//Solution2022::MedianofTwoSortedArrays::Main();	
 	//Solution2022::WordLadder::Main();
@@ -425,7 +432,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::NumberofClosedIslands::Main();
 	//Solution2022::MaxConsecutiveOnesII::Main();
 	//Solution2022::MaximumAlternatingSubsequenceSum::Main();
-	//Solution2022::MaximumScoreofaNodeSequence::Main();
 	//Solution2022::PartitionArrayforMaximumSum::Main();
 	//Solution2022::StringTransformsIntoAnotherString::Main();
 	//Solution2022::LargestPalindromeProduct::Main();
@@ -1935,7 +1941,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::FairCandySwap::Main();
 	//Solution2022::AllPossibleFullBinaryTrees::Main();
 	//Solution2022::MaximumNumberofOccurrencesofaSubstring::Main();
-	//Solution2022::NumberofMatchingSubsequences::Main();
 	//Solution2022::CountNumberofTeams::Main();
 	//Solution2022::RemoveDuplicatesfromSortedListII::Main();
 	//Solution2022::CountofSmallerNumbersAfterSelf::Main();
@@ -1944,7 +1949,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::NumberComplement::Main();
 	//Solution2022::ExcelSheetColumnTitle::Main();
 	//Solution2022::SorttheMatrixDiagonally::Main();
-	//Solution2022::PathWithMinimumEffort::Main();
 	//Solution2022::FindMinimumTimetoFinishAllJobs::Main();
 	//Solution2022::ShortestPalindrome::Main();
 	//Solution2022::CountingBits::Main();
@@ -2068,7 +2072,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::TheKWeakestRowsinaMatrix::Main();
 	//Solution2022::KillProcess::Main();
 	//Solution2022::ShiftingLetters::Main();
-	//Solution2022::AddTwoIntegers::Main();
 	//Solution2022::GreatestCommonDivisorofStrings::Main();
 	//Solution2022::NumberofConnectedComponentsinanUndirectedGraph::Main();
 	//Solution2022::ConvertaNumbertoHexadecimal::Main();

@@ -60,9 +60,45 @@ namespace Solution2022
 {
 	namespace FindServersThatHandledMostNumberofRequests
 	{
-	    vector<int> busiestServers(int k, vector<int>& arrival, vector<int>& load) {
-	        
-	    }
+		namespace UsePriorityQueue {
+			vector<int> busiestServers(int k, vector<int>& arrival, vector<int>& load) {
+				vector<int> count(k);
+
+				set<int> free;
+				for (int i = 0; i < k; k++) { free.insert(i); }
+
+				priority_queue<pair<int, int>, vector<pair<int, int>>, greater<>> busy; // {end time, serverIndex}
+
+				for (int i = 0; i < arrival.size(); i++) {
+					int start = arrival[i];
+					int end = start + load[i];
+
+					while (!busy.empty() && busy.top().first <= start) {
+						int server = busy.top().second;
+						busy.pop();
+						free.insert(server);
+					}
+					if (free.empty()) { continue; }
+					auto it = free.lower_bound(i % k);
+					if (it == free.end()) {
+						it = free.begin();
+					}
+					int serverId = *it;
+					count[serverId]++;
+					busy.push({ end, serverId });
+					free.erase(serverId);
+				}
+
+				vector<int> result;
+				int max = *max_element(count.begin(), count.end());
+				for (int i = 0; i < k; i++) {
+					if (count[i] == max) {
+						result.push_back(i);
+					}
+				}
+				return result;
+			}
+		}
 
 		void Main() {
 			string test = "tst test test";
