@@ -153,12 +153,6 @@
     <ClCompile Include="TrappingRainWater.cpp">
       <Filter>Solution2022</Filter>
     </ClCompile>
-    <ClCompile Include="LowestCommonAncestorofaBinaryTreeIII.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ValidParentheses.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="BinaryTreeVerticalOrderTraversal.cpp">
       <Filter>Solution2022</Filter>
     </ClCompile>
@@ -432,15 +426,6 @@
     <ClCompile Include="ExclusiveTimeofFunctions.cpp">
       <Filter>Solution2022</Filter>
     </ClCompile>
-    <ClCompile Include="AlienDictionary.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ReformatDate.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="StepByStepDirectionsFromaBinaryTreeNodetoAnother.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="FibonacciNumber.cpp">
       <Filter>Solution2022</Filter>
     </ClCompile>
@@ -655,6 +640,78 @@
       <Filter>Solution2022</Filter>
     </ClCompile>
     <ClCompile Include="RearrangeSpacesBetweenWords.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="MeetingRooms.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="MinimumNumberofOperationstoConvertTime.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="LongestLineofConsecutiveOneinMatrix.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="LongestIncreasingPathinaMatrix.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="StudentAttendanceRecordI.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="StudentAttendanceRecordII.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="OddEvenJump.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeNeededtoInformAllEmployees.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="TilingaRectanglewiththeFewestSquares.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="EmployeeFreeTime.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="PathWithMinimumEffort.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="FindServersThatHandledMostNumberofRequests.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="MaximumNumberofAcceptedInvitations.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="MaximumScoreofaNodeSequence.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="AlienDictionary.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="LowestCommonAncestorofaBinaryTreeIII.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="ReformatDate.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="StepByStepDirectionsFromaBinaryTreeNodetoAnother.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="ValidParentheses.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="NthDigit.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicCalculatorIII.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="MaximumFrequencyStack.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="SmallestRotationwithHighestScore.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="LexicographicallySmallestEquivalentString.cpp">
       <Filter>Solution2022</Filter>
     </ClCompile>
   </ItemGroup>

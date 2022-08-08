@@ -22,7 +22,20 @@ namespace Solution2022
 	namespace NthDigit
 	{
 	    int findNthDigit(int n) {
-	        
+			int numLen = 1;
+			long long numCount = 9;
+			int startNum = 1;
+
+			while (n > numCount * numLen) {
+				n -= numCount * numLen;
+				numLen++;
+				numCount *= 10;
+				startNum *= 10;
+			}
+
+			startNum += (n - 1) / numLen;
+			string num = to_string(startNum);
+			return num[(n - 1) % numLen] - '0';
 	    }
 
 		void Main() {

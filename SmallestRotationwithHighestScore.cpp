@@ -38,7 +38,7 @@ namespace Solution2022
 	namespace SmallestRotationwithHighestScore
 	{
 	    int bestRotation(vector<int>& nums) {
-	        
+			return 0;
 	    }
 
 		void Main() {

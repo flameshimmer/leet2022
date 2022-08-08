@@ -74,7 +74,7 @@ namespace Solution2022
 	namespace OddEvenJump
 	{
 	    int oddEvenJumps(vector<int>& arr) {
-	        
+			return 0;
 	    }
 
 		void Main() {

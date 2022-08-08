@@ -32,13 +32,41 @@ namespace Solution2022
 {
 	namespace BasicCalculatorIII
 	{
-	    int calculate(string s) {
-	        
-	    }
+		int parseNum(string& s, int& i) {
+			long long result = 0;
+			while (i < s.size() && isdigit(s[i])) {
+				result = result * 10 + (s[i] - '0');
+				i++;
+			}
+			return result;
+		}
+
+		int helper(string& s, int& i) {
+			vector<long long> nums;
+			char op = '+';
+
+			for (; i < s.size() && op != ')'; i++) {
+				if (s[i] == ' ') { continue; }
+				long long n = s[i] == '(' ? helper(s, ++i) : parseNum(s, i);
+				switch (op) {
+				case '+': nums.push_back(n); break;
+				case '-': nums.push_back(-n); break;
+				case '*': nums.back() *= n; break;
+				case '/': nums.back() /= n; break;
+				}
+				op = s[i];
+			}
+			return accumulate(nums.begin(), nums.end(), 0);
+		}
+
+
+		int calculate(string s) {
+			int i = 0; 
+			return helper(s, i);
+		}
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			print(calculate("1+1"));
 		}
 	}
 }

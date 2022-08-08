@@ -47,13 +47,37 @@ namespace Solution2022
 {
 	namespace LexicographicallySmallestEquivalentString
 	{
-	    string smallestEquivalentString(string s1, string s2, string baseStr) {
-	        
-	    }
+		int findParent(vector<int>& parent, int i) {
+			while (parent[i] != i) {
+				i = parent[i];
+			}
+			return i;
+		}
+
+		string smallestEquivalentString(string s1, string s2, string baseStr) {
+			int len = s1.size();
+			vector<int> parent(26);
+			for (int i = 0; i < 26; i++) { parent[i] = i; }
+
+			for (int i = 0; i < len; i++) {
+				int p1 = findParent(parent, s1[i] - 'a');
+				int p2 = findParent(parent, s2[i] - 'a');
+				if (p1 != p2) {
+					parent[max(p1, p2)] = min(p1, p2);
+				}
+			}
+
+			string result = "";
+			for (char c : baseStr) {
+				result.push_back('a' + findParent(parent, c - 'a')); // don't forget to do 'a' +!!! and it is 'a' not '0'!!!
+			}
+			return result;
+		}
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			//print(smallestEquivalentString("parker", "morris", "parser"));
+			//print(smallestEquivalentString("hello", "world", "hold"));
+			print(smallestEquivalentString("leetcode", "programs", "sourcecode"));
 		}
 	}
 }

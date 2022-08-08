@@ -44,25 +44,38 @@ namespace Solution2022
 {
 	namespace MaximumFrequencyStack
 	{
-	class FreqStack {
-	    FreqStack() {
-	        
-	    }
-	    
-	    void push(int val) {
-	        
-	    }
-	    
-	    int pop() {
-	        
-	    }
-	​
-	/**
-	 * Your FreqStack object will be instantiated and called as such:
-	 * FreqStack* obj = new FreqStack();
-	 * obj->push(val);
-	 * int param_2 = obj->pop();
-	 */
+		class FreqStack {
+		private:
+			priority_queue<pair<int, pair<int, int>>> pq;
+			unordered_map<int, int> freq;
+			int pos = 0;
+		public:
+			FreqStack() {
+
+			}
+
+			void push(int val) {
+				freq[val]++;
+				pos++;
+				pq.push({ freq[val], {pos, val} });
+			}
+
+			int pop() {
+				auto top = pq.top();
+				pq.pop();
+				int result = top.second.second;
+				freq[result]--;
+				return result;
+			}
+		};
+
+
+		/**
+		 * Your FreqStack object will be instantiated and called as such:
+		 * FreqStack* obj = new FreqStack();
+		 * obj->push(val);
+		 * int param_2 = obj->pop();
+		 */
 
 		void Main() {
 			string test = "tst test test";

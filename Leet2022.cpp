@@ -17,6 +17,13 @@ int _tmain(int argc, _TCHAR* argv[])
 	
 
 	//====Problem Starts====
+	//8/7/2022
+	//Solution2022::SerializeandDeserializeNaryTree::Main();
+	//Solution2022::NthDigit::Main();
+	//Solution2022::BasicCalculatorIII::Main();
+	//Solution2022::MaximumFrequencyStack::Main();
+	//Solution2022::LexicographicallySmallestEquivalentString::Main();
+
 	//8/6/2022
 	//Solution2022::MaximumNumberofAcceptedInvitations::Main();	
 	//Solution2022::NumberofMatchingSubsequences::Main();
@@ -383,6 +390,9 @@ int _tmain(int argc, _TCHAR* argv[])
 
 
 	//====Problem Ends====
+	//Solution2022::SmallestRotationwithHighestScore::Main();
+	//Solution2022::WordBreak::Main();
+	//Solution2022::WordBreakII::Main();
 	//Solution2022::TheNumberofWeakCharactersintheGame::Main();
 	//Solution2022::OddEvenJump::Main();
 	//Solution2022::ReverseNodesinkGroup::Main();
@@ -791,7 +801,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::AverageSalaryExcludingtheMinimumandMaximumSalary::Main();
 	//Solution2022::PathwithMaximumProbability::Main();
 	//Solution2022::NumbersWithRepeatedDigits::Main();
-	//Solution2022::LexicographicallySmallestEquivalentString::Main();
 	//Solution2022::NumberofWaysWhereSquareofNumberIsEqualtoProductofTwoNumbers::Main();
 	//Solution2022::PartitioningIntoMinimumNumberOfDeciBinaryNumbers::Main();
 	//Solution2022::ReformatPhoneNumber::Main();
@@ -926,7 +935,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::FindtheCityWiththeSmallestNumberofNeighborsataThresholdDistance::Main();
 	//Solution2022::WaystoMakeaFairArray::Main();
 	//Solution2022::MinimumOperationstoMakeaUniValueGrid::Main();
-	//Solution2022::SmallestRotationwithHighestScore::Main();
 	//Solution2022::ClumsyFactorial::Main();
 	//Solution2022::BulbSwitcherII::Main();
 	//Solution2022::ShortEncodingofWords::Main();
@@ -1389,12 +1397,9 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::MinimumNumberofTapstoOpentoWateraGarden::Main();
 	//Solution2022::AllNodesDistanceKinBinaryTree::Main();
 	//Solution2022::ValidNumber::Main();
-	//Solution2022::WordBreakII::Main();
 	//Solution2022::DiagonalTraverse::Main();
-	//Solution2022::BasicCalculatorIII::Main();
 	//Solution2022::ContiguousArray::Main();
 	//Solution2022::BinaryTreeRightSideView::Main();
-	//Solution2022::WordBreak::Main();
 	//Solution2022::BinaryTreeMaximumPathSum::Main();
 	//Solution2022::Subsets::Main();
 	//Solution2022::GroupShiftedStrings::Main();
@@ -1637,7 +1642,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::ShortestDistancefromAllBuildings::Main();
 	//Solution2022::PalindromePairs::Main();
 	//Solution2022::MinimumNumberofRefuelingStops::Main();
-	//Solution2022::MaximumFrequencyStack::Main();
 	//Solution2022::ReverseString::Main();
 	//Solution2022::RemoveKDigits::Main();
 	//Solution2022::FirstBadVersion::Main();
@@ -1667,7 +1671,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::CuttingRibbons::Main();
 	//Solution2022::RecoverBinarySearchTree::Main();
 	//Solution2022::ReverseWordsinaString::Main();
-	//Solution2022::SerializeandDeserializeNaryTree::Main();
 	//Solution2022::FindKClosestElements::Main();
 	//Solution2022::DesignBrowserHistory::Main();
 	//Solution2022::FindAllDuplicatesinanArray::Main();
@@ -2229,7 +2232,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::UniqueSubstringsWithEqualDigitFrequency::Main();
 	//Solution2022::JumpGameIII::Main();
 	//Solution2022::SubtracttheProductandSumofDigitsofanInteger::Main();
-	//Solution2022::NthDigit::Main();
 	//Solution2022::FindtheMostCompetitiveSubsequence::Main();
 	//Solution2022::ReverseStringII::Main();
 	//Solution2022::VerifyPreorderSequenceinBinarySearchTree::Main();

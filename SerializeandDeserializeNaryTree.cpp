@@ -46,38 +46,121 @@ namespace Solution2022
 {
 	namespace SerializeandDeserializeNaryTree
 	{
-	/*
-	// Definition for a Node.
-	class Node {
-	    int val;
-	    vector<Node*> children;
-	​
-	    Node() {}
-	​
-	    Node(int _val) {
-	        val = _val;
-	    }
-	​
-	    Node(int _val, vector<Node*> _children) {
-	        val = _val;
-	        children = _children;
-	    }
-	*/
-	​
-	class Codec {
-	    // Encodes a tree to a single string.
-	    string serialize(Node* root) {
-	        
-	    }
-	    
-	    // Decodes your encoded data to tree.
-	    Node* deserialize(string data) {
-	        
-	    }
-	​
-	// Your Codec object will be instantiated and called as such:
-	// Codec codec;
-	// codec.deserialize(codec.serialize(root));
+		
+		// Definition for a Node.
+		class Node {
+		public:
+			int val;
+			vector<Node*> children;
+
+			Node() {}
+
+			Node(int _val) {
+				val = _val;
+			}
+
+			Node(int _val, vector<Node*> _children) {
+				val = _val;
+				children = _children;
+			}
+		};
+		
+		namespace EncodeValueAndChildCount {
+			class Codec {
+			public:
+				void serializeHelper(Node* node, string& result) {
+					if (!node) { return; }
+					result += " " + to_string(node->val) + " " + to_string(node->children.size());
+					for (Node* child : node->children) {
+						serializeHelper(child, result);
+					}
+				}
+
+				// Encodes a tree to a single string.
+				string serialize(Node* root) {
+					string result = "";
+					serializeHelper(root, result);
+					return result;
+				}
+
+				Node* deserializeHelper(istringstream& ss) {
+					ss.peek();
+					if (ss.eof()) { return nullptr; } // checking whehter the stream has reach to an end
+
+					Node* newNode = new Node();
+					int childCount = 0;
+					ss >> newNode->val >> childCount; // istringstream directly piped into int!
+					for (int i = 0; i < childCount; i++) {
+						newNode->children.push_back(deserializeHelper(ss));
+					}
+					return newNode;
+				}
+				// Decodes your encoded data to tree.
+				Node* deserialize(string data) {
+					istringstream ss(data);
+					return deserializeHelper(ss);
+				}
+			};
+		}
+
+		namespace encodeWithBracket {
+			class Codec {
+			public:
+				// Encodes a tree to a single string.
+				string serialize(Node* root) {					
+					if (!root) { return ""; }
+
+					string result = to_string(root->val);
+					if (root->children.empty()) { return result; }
+
+					result += "[";
+					for (Node* child : root->children) {
+						result += serialize(child) + " ";
+					}
+					result.pop_back();
+					
+					result += "]";
+					return result;
+				}
+
+				// Decodes your encoded data to tree.
+				Node* deserialize(string data) {
+					if (data.empty()) { return nullptr; }
+
+					stack<Node*> s;
+					for (int i = 0; i < data.size(); i++) {
+						if (isdigit(data[i])) {
+							int val = 0;
+							while (isdigit(data[i])) {
+								val = val * 10 + data[i] - '0';
+								i++;
+							}
+							i--;
+							s.push(new Node(val, vector<Node*>()));
+						}
+						else if (data[i] == '[') { s.push(nullptr); }
+						else if (data[i] == ']') {
+							stack <Node*> tmp;
+							while (s.top() != nullptr) {
+								tmp.push(s.top());
+								s.pop();
+							}
+							s.pop();
+							while(!tmp.empty()) {
+								s.top()->children.push_back(tmp.top());
+								tmp.pop();
+							}
+						}
+					}
+					return s.top();
+				}
+			};
+		}
+
+
+		// Your Codec object will be instantiated and called as such:
+		// Codec codec;
+		// codec.deserialize(codec.serialize(root));
 
 		void Main() {
 			string test = "tst test test";
