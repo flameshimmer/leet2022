@@ -77,7 +77,23 @@ namespace Solution2022
 	namespace RemoveComments
 	{
 	    vector<string> removeComments(vector<string>& source) {
-	        
+			vector<string> result;
+			bool comment = false;
+			string line;
+			for (int i = 0; i < source.size(); i++) {
+				int len = source[i].size();
+				for (int j = 0; j < len; j++) {
+					if (!comment && j + 1 < len && source[i][j] == '/' && source[i][j + 1] == '/') { break; }
+					else if (!comment && j + 1 < len && source[i][j] == '/' && source[i][j + 1] == '*') { comment = true; j++; }
+					else if (comment && j + 1 < len && source[i][j] == '*' && source[i][j + 1] == '/') { comment = false; j++; }
+					else if (!comment) { line.push_back(source[i][j]); }
+				}
+				if (!comment && !line.empty()) { 
+					result.push_back(line); 
+					line.clear();  // note that line is not cleared for every line! It is cleared for every line that was commited!
+				}
+			}
+			return result;
 	    }
 
 		void Main() {

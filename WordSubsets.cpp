@@ -30,8 +30,33 @@ namespace Solution2022
 {
 	namespace WordSubsets
 	{
+		vector<int> counter(string& word) {
+			vector<int> result(26, 0);
+			for (char c : word) { result[c - 'a']++; }
+			return result;
+		}
+
 	    vector<string> wordSubsets(vector<string>& words1, vector<string>& words2) {
-	        
+			vector<int> count(26);
+			vector<int> temp(26);
+
+			for (string w : words2) {
+				temp = counter(w);
+				for (int i = 0; i < 26; i++) {
+					count[i] = max(count[i], temp[i]);
+				}
+			}
+
+			vector<string> result;
+			for (string w : words1) {
+				temp = counter(w);
+				bool qualify = true;
+				for (int i = 0; i < 26; i++) {
+					if (temp[i] < count[i]) { qualify = false; break; }
+				}
+				if (qualify) { result.push_back(w); }
+			}
+			return result;
 	    }
 
 		void Main() {

@@ -24,7 +24,17 @@ namespace Solution2022
 	namespace MaximumSizeSubarraySumEqualsk
 	{
 	    int maxSubArrayLen(vector<int>& nums, int k) {
-	        
+			unordered_map<int, int> map;
+			long long sum = 0; // Note: need to initialize to 0!!!
+			int result = 0;
+
+			for (int i = 0; i < nums.size(); i++) {
+				sum += nums[i];
+				if (sum == k) { result = i + 1; }
+				else if (map.find(sum - k) != map.end()) { result = max(result, i - map[sum - k]); }
+				if (map.find(sum) == map.end()) { map[sum] = i; }
+			}
+			return result;
 	    }
 
 		void Main() {

@@ -43,12 +43,31 @@
 //1 <= data.length <= 2 * 104
 //0 <= data[i] <= 255
 
+//   --------------------+-----------------------------------------
+//            1          |   0xxxxxxx
+//            2          |   110xxxxx 10xxxxxx
+//            3          |   1110xxxx 10xxxxxx 10xxxxxx
+//            4          |   11110xxx 10xxxxxx 10xxxxxx 10xxxxxx
 namespace Solution2022
 {
 	namespace UTFEightValidation
 	{
-	    bool validUtf8(vector<int>& data) {
-	        
+	    bool validUtf8(vector<int>& data) {	
+			int size = 0;
+			for (int v : data) {
+				if (size == 0) {
+					if (v >> 7 == 0) { continue; }
+					else if (v >> 5 == 0b110) { size = 1; }
+					else if (v >> 4 == 0b1110) { size = 2; }
+					else if (v >> 3 == 0b11110) { size = 3; }
+					else { return false; }
+				}
+				else {
+					if (v >> 6 != 0b10) { return false; }
+					size--;
+				}
+			}
+			return size == 0;
 	    }
 
 		void Main() {

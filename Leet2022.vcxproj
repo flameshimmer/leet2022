@@ -204,6 +204,7 @@
     <ClCompile Include="FibonacciNumber.cpp" />
     <ClCompile Include="FindAndReplaceinString.cpp" />
     <ClCompile Include="FindFirstandLastPositionofElementinSortedArray.cpp" />
+    <ClCompile Include="FindingThreeDigitEvenNumbers.cpp" />
     <ClCompile Include="FindNUniqueIntegersSumuptoZero.cpp" />
     <ClCompile Include="FindPeakElement.cpp" />
     <ClCompile Include="FindServersThatHandledMostNumberofRequests.cpp" />
@@ -254,6 +255,7 @@
     <ClCompile Include="MaximumNumberofVisiblePoints.cpp" />
     <ClCompile Include="MaximumPointsYouCanObtainfromCards.cpp" />
     <ClCompile Include="MaximumScoreofaNodeSequence.cpp" />
+    <ClCompile Include="MaximumSizeSubarraySumEqualsk.cpp" />
     <ClCompile Include="MaximumSplitofPositiveEvenIntegers.cpp" />
     <ClCompile Include="MaximumSubarray.cpp" />
     <ClCompile Include="MaximumUnitsonaTruck.cpp" />
@@ -273,6 +275,7 @@
     <ClCompile Include="MinimumAreaRectangleII.cpp" />
     <ClCompile Include="MinimumCosttoSetCookingTime.cpp" />
     <ClCompile Include="MinimumNumberofOperationstoConvertTime.cpp" />
+    <ClCompile Include="MinimumOperationstoReduceXtoZero.cpp" />
     <ClCompile Include="MinimumRemovetoMakeValidParentheses.cpp" />
     <ClCompile Include="MinimumTimeDifference.cpp" />
     <ClCompile Include="MissingNumber.cpp" />

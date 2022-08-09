@@ -38,13 +38,32 @@ namespace Solution2022
 {
 	namespace FindingThreeDigitEvenNumbers
 	{
-	    vector<int> findEvenNumbers(vector<int>& digits) {
-	        
-	    }
+		vector<int> findEvenNumbers(vector<int>& digits) {
+			vector<int> result;
+			vector<int> freq(10, 0);
+			for (int d : digits) { freq[d]++; }
+
+			for (int num = 100; num < 999; num+=2) {
+				int ones = num % 10;
+				int tens = (num / 10) % 10;
+				int hundreds = num / 100;
+
+				freq[ones]--;
+				freq[tens]--;
+				freq[hundreds]--;
+				if (freq[ones] >= 0 && freq[tens] >= 0 && freq[hundreds] >= 0) {
+					result.push_back(num);
+				}
+				freq[ones]++;
+				freq[tens]++;
+				freq[hundreds]++;
+			}
+			return result;
+		}
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			vector<int> test = { 1,8,7,7,1,1,5,4,0,0,7,5,1,7,9 };
+			print(findEvenNumbers(test));
 		}
 	}
 }

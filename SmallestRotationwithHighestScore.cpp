@@ -37,8 +37,34 @@ namespace Solution2022
 {
 	namespace SmallestRotationwithHighestScore
 	{
+		//https://www.youtube.com/watch?v=xFlO0H1l2oQ
 	    int bestRotation(vector<int>& nums) {
-			return 0;
+			int len = nums.size();
+			vector<int> diff(len, 0);
+
+			for (int i = 0; i < len; i++) {
+				if (nums[i] <= i) {
+					diff[0] += 1;
+					diff[(i - nums[i] + 1) % len] -= 1;
+					diff[(i + 1) % len] += 1;
+				}
+				else {
+					diff[0] += 0;
+					diff[(i + 1) % len] += 1;
+					diff[(i + 1 + len - nums[i]) % len] -= 1;
+				}
+			}
+			int score = 0;
+			int maxScore = 0;
+			int result = 0;
+			for (int i = 0; i < len; i++) {
+				score += diff[i];
+				if (score > maxScore) {
+					maxScore = score;
+					result = i;
+				}
+			}
+			return result;
 	    }
 
 		void Main() {

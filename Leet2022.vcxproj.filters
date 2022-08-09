@@ -714,6 +714,15 @@
     <ClCompile Include="LexicographicallySmallestEquivalentString.cpp">
       <Filter>Solution2022</Filter>
     </ClCompile>
+    <ClCompile Include="MinimumOperationstoReduceXtoZero.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="MaximumSizeSubarraySumEqualsk.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="FindingThreeDigitEvenNumbers.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Solution2022.h">

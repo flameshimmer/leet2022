@@ -35,7 +35,26 @@ namespace Solution2022
 	namespace MinimumOperationstoReduceXtoZero
 	{
 	    int minOperations(vector<int>& nums, int x) {
-	        
+			int len = nums.size();
+			if (len == 0) { return -1; }
+			int target = accumulate(nums.begin(), nums.end(), 0) - x;
+
+			if (target == x) { return len; } // don't forget this special case handling!
+			if (target < 0) { return -1; } // don't forget this special case handling!
+
+			int start = 0;
+			int result = INT_MIN;
+			int sum = 0;
+
+			for (int end = 0; end < len; end++) {
+				sum += nums[end];
+				while (sum > target && start <= end) {
+					sum -= nums[start];
+					start++;
+				}
+				if (sum == target) { result = max(result, end - start + 1); }
+			}
+			return result == INT_MIN ? -1 : len - result;
 	    }
 
 		void Main() {
