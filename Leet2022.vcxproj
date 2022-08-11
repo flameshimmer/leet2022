@@ -217,6 +217,7 @@
     <ClCompile Include="FlattenNestedListIterator.cpp" />
     <ClCompile Include="FloodFill.cpp" />
     <ClCompile Include="FourSum.cpp" />
+    <ClCompile Include="FurthestBuildingYouCanReach.cpp" />
     <ClCompile Include="GameofLife.cpp" />
     <ClCompile Include="GenerateParentheses.cpp" />
     <ClCompile Include="GroupAnagrams.cpp" />
@@ -239,6 +240,7 @@
     <ClCompile Include="LexicographicallySmallestEquivalentString.cpp" />
     <ClCompile Include="ListNode.cpp" />
     <ClCompile Include="LongestCommonPrefix.cpp" />
+    <ClCompile Include="LongestDuplicateSubstring.cpp" />
     <ClCompile Include="LongestHappyString.cpp" />
     <ClCompile Include="LongestIncreasingPathinaMatrix.cpp" />
     <ClCompile Include="LongestLineofConsecutiveOneinMatrix.cpp" />
@@ -312,6 +314,7 @@
     <ClCompile Include="RangeSumofBST.cpp" />
     <ClCompile Include="RearrangeSpacesBetweenWords.cpp" />
     <ClCompile Include="ReconstructOriginalDigitsfromEnglish.cpp" />
+    <ClCompile Include="ReducingDishes.cpp" />
     <ClCompile Include="ReformatDate.cpp" />
     <ClCompile Include="RemoveAllAdjacentDuplicatesInString.cpp" />
     <ClCompile Include="RemoveAllAdjacentDuplicatesinStringII.cpp" />
@@ -379,12 +382,15 @@
     <ClCompile Include="TwoSum.cpp" />
     <ClCompile Include="TwoSumIIInputArrayIsSorted.cpp" />
     <ClCompile Include="UniqueNumberofOccurrences.cpp" />
+    <ClCompile Include="UTFEightValidation.cpp" />
     <ClCompile Include="ValidPalindrome.cpp" />
     <ClCompile Include="ValidPalindromeII.cpp" />
     <ClCompile Include="ValidParentheses.cpp" />
     <ClCompile Include="ValidSudoku.cpp" />
     <ClCompile Include="ValidWordAbbreviation.cpp" />
     <ClCompile Include="VerifyinganAlienDictionary.cpp" />
+    <ClCompile Include="VideoStitching.cpp" />
+    <ClCompile Include="WordSubsets.cpp" />
     <ClCompile Include="ZeroOneMatrix.cpp" />
   </ItemGroup>
   <ItemGroup>

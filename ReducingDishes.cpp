@@ -38,7 +38,18 @@ namespace Solution2022
 	namespace ReducingDishes
 	{
 	    int maxSatisfaction(vector<int>& satisfaction) {
-	        
+			sort(satisfaction.begin(), satisfaction.end());
+
+			int len = satisfaction.size();
+			int cur = 0;
+			int sum = 0;
+			int result = 0;
+			for (int i = len-1; i >= 0; i--) {
+				cur += sum + satisfaction[i];
+				sum += satisfaction[i];
+				result = max(result, cur);
+			}
+			return result;
 	    }
 
 		void Main() {

@@ -17,6 +17,13 @@ int _tmain(int argc, _TCHAR* argv[])
 	
 
 	//====Problem Starts====
+	//8/10/2022
+	//Solution2022::LongestDuplicateSubstring::Main();
+	//Solution2022::ReducingDishes::Main();
+	//Solution2022::FurthestBuildingYouCanReach::Main();
+	//Solution2022::VideoStitching::Main();
+	//Solution2022::SymmetricTree::Main();
+
 	//8/9/2022
 	//Solution2022::MaximumSizeSubarraySumEqualsk::Main();
 	//Solution2022::FindingThreeDigitEvenNumbers::Main();
@@ -666,7 +673,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::ReadNCharactersGivenReadFour::Main();
 	//Solution2022::FlipBinaryTreeToMatchPreorderTraversal::Main();
 	//Solution2022::MaximumofAbsoluteValueExpression::Main();
-	//Solution2022::ReducingDishes::Main();
 	//Solution2022::NumberofStudentsUnabletoEatLunch::Main();
 	//Solution2022::RemoveLinkedListElements::Main();
 	//Solution2022::WhereWilltheBallFall::Main();
@@ -913,7 +919,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::BinaryTreePreorderTraversal::Main();
 	//Solution2022::BestPositionforaServiceCentre::Main();
 	//Solution2022::LargestTriangleArea::Main();
-	//Solution2022::VideoStitching::Main();
 	//Solution2022::MinimizeMaximumPairSuminArray::Main();
 	//Solution2022::CountGoodTriplets::Main();
 	//Solution2022::DetermineifTwoStringsAreClose::Main();
@@ -1745,7 +1750,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::BuildBinaryExpressionTreeFromInfixExpression::Main();
 	//Solution2022::StrongPasswordChecker::Main();
 	//Solution2022::PermutationinString::Main();
-	//Solution2022::LongestDuplicateSubstring::Main();
 	//Solution2022::PalindromePartitioning::Main();
 	//Solution2022::NumberofDistinctIslands::Main();
 	//Solution2022::ShiftTwoDGrid::Main();
@@ -1758,7 +1762,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::MinimumNumberofArrowstoBurstBalloons::Main();
 	//Solution2022::MaximumNumberofEventsThatCanBeAttended::Main();
 	//Solution2022::IsGraphBipartiteQuestionMark::Main();
-	//Solution2022::SymmetricTree::Main();
 	//Solution2022::SmallestRangeCoveringElementsfromKLists::Main();
 	//Solution2022::MinimumDeletionstoMakeCharacterFrequenciesUnique::Main();
 	//Solution2022::LongestRepeatingCharacterReplacement::Main();
@@ -1929,7 +1932,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::NumberofStepstoReduceaNumbertoZero::Main();
 	//Solution2022::SmallestStringWithSwaps::Main();
 	//Solution2022::FloodFill::Main();
-	//Solution2022::FurthestBuildingYouCanReach::Main();
 	//Solution2022::DeleteNodesAndReturnForest::Main();
 	//Solution2022::NumberofMusicPlaylists::Main();
 	//Solution2022::PerfectSquares::Main();

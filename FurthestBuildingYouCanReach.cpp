@@ -45,7 +45,20 @@ namespace Solution2022
 	namespace FurthestBuildingYouCanReach
 	{
 	    int furthestBuilding(vector<int>& heights, int bricks, int ladders) {
-	        
+			priority_queue<int> pq;
+			int len = heights.size();
+
+			for (int i = 0; i < len - 1; i++) {
+				int d = heights[i + 1] - heights[i];
+				if (d > 0) { pq.push(-d); }
+
+				if (pq.size() > ladders) {
+					bricks += pq.top(); // The reason it is += instead of -= is because d has been multiplied by -1
+					pq.pop();
+				}
+				if (bricks < 0) { return i; }
+			}
+			return len - 1;
 	    }
 
 		void Main() {

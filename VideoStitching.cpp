@@ -41,13 +41,39 @@ namespace Solution2022
 {
 	namespace VideoStitching
 	{
-	    int videoStitching(vector<vector<int>>& clips, int time) {
-	        
+		//We track our current stitching position (st). For each iteration, we check all
+		//overlapping clips, and pick the one that advances our stitching position the
+		//furthest.
+		//Solution
+		//We sort our clips by the starting point. Since clips are sorted, we need to
+		//only analyze each clip once. For each round, we check all overlapping clips
+		//(clips[i][0] <= st) and advance our stitching position as far as we can (end =
+		//max(end, clips[i][1])).
+		//Return -1 if we cannot advance our stitching position (st == end).
+	 
+		int videoStitching(vector<vector<int>>& clips, int time) {
+			sort(clips.begin(), clips.end());
+			int result = 0;
+			int maxReach = 0;
+			int i = 0;
+
+			while (maxReach < time) {
+				int curMaxReach = 0;
+				while (i < clips.size() && clips[i][0] <= maxReach) {
+					curMaxReach = max(curMaxReach, clips[i][1]);
+					i++;
+				}
+
+				if (curMaxReach <= maxReach) { return -1; }
+				maxReach = max(maxReach, curMaxReach);
+				result++;
+			}
+			return result;
 	    }
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			vector<vector<int>> test = { {0, 1}, {1, 3}, {2, 5} };
+			print(videoStitching(test, 5));
 		}
 	}
 }
