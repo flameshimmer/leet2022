@@ -25,9 +25,25 @@ namespace Solution2022
 {
 	namespace JumpGameII
 	{
-	    int jump(vector<int>& nums) {
-	        
-	    }
+		int jump(vector<int>& nums) {
+			int len = nums.size();
+			if (len == 0) { return 0; }
+
+			int start = 0;
+			int end = 0;
+			int maxReach = 0;
+			int result = 0;
+
+			while (maxReach < len - 1) {
+				for (int i = start; i <= end; i++) {
+					maxReach = max(maxReach, i + nums[i]);
+				}
+				start = end + 1;
+				end = maxReach;
+				result++;
+			}
+			return result;
+		}
 
 		void Main() {
 			string test = "tst test test";

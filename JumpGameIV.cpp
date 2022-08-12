@@ -37,7 +37,42 @@ namespace Solution2022
 	namespace JumpGameIV
 	{
 	    int minJumps(vector<int>& arr) {
-	        
+			int len = arr.size();
+			unordered_map<int, vector<int>> map; // value, list of indexes with this value
+			for (int i = 0; i < len; i++) {
+				map[arr[i]].push_back(i);
+			}
+
+			vector<bool> visited(len, false);
+			visited[0] = true;
+
+			queue<int> q; // a queue of indexes
+			q.push(0);
+			int result = 0;
+
+			while (!q.empty()) {
+				int sz = q.size();
+				while (sz) {
+					sz--;
+					int top = q.front();
+					q.pop();
+
+					if (top == len - 1) { return result; }
+					vector<int>& children = map[arr[top]]; // use reference here to clear out the candidates. 
+					children.push_back(top - 1);
+					children.push_back(top + 1);
+					
+					for (auto& i : children) {
+						if (i >= 0 && i < len && !visited[i]) {
+							q.push(i);
+							visited[i] = true;
+						}						
+					}
+					children.clear(); // without this line will exceed timelimit
+				}
+				result++;
+			}
+			return 0;
 	    }
 
 		void Main() {

@@ -17,6 +17,13 @@ int _tmain(int argc, _TCHAR* argv[])
 	
 
 	//====Problem Starts====
+	//8/12/2022
+	//Solution2022::JumpGame::Main();
+	//Solution2022::JumpGameII::Main();
+	//Solution2022::JumpGameIII::Main();
+	//Solution2022::JumpGameIV::Main();
+	//Solution2022::JumpGameV::Main();
+	
 	//8/10/2022
 	//Solution2022::LongestDuplicateSubstring::Main();
 	//Solution2022::ReducingDishes::Main();
@@ -408,9 +415,12 @@ int _tmain(int argc, _TCHAR* argv[])
 
 
 	//====Problem Ends====
-	//Solution2022::MedianofTwoSortedArrays::Main();	
+	//Solution2022::JumpGameVI::Main();
+	//Solution2022::JumpGameIX::Main();
+	//Solution2022::JumpGameVII::Main();
 	//Solution2022::WordBreak::Main();
 	//Solution2022::WordBreakII::Main();
+	//Solution2022::MedianofTwoSortedArrays::Main();	
 	//Solution2022::TheNumberofWeakCharactersintheGame::Main();
 	//Solution2022::OddEvenJump::Main();
 	//Solution2022::ReverseNodesinkGroup::Main();
@@ -809,7 +819,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::GroupsofStrings::Main();
 	//Solution2022::AvoidFloodinTheCity::Main();
 	//Solution2022::SeatReservationManager::Main();
-	//Solution2022::JumpGameVII::Main();
 	//Solution2022::KeyboardRow::Main();
 	//Solution2022::AverageSalaryExcludingtheMinimumandMaximumSalary::Main();
 	//Solution2022::PathwithMaximumProbability::Main();
@@ -1047,7 +1056,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::SelfDividingNumbers::Main();
 	//Solution2022::NumberofSubarraysofSizeKandAverageGreaterthanorEqualtoThreshold::Main();
 	//Solution2022::AlphabetBoardPath::Main();
-	//Solution2022::JumpGameV::Main();
 	//Solution2022::StringMatchinginanArray::Main();
 	//Solution2022::FindCenterofStarGraph::Main();
 	//Solution2022::KEmptySlots::Main();
@@ -1444,7 +1452,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::RussianDollEnvelopes::Main();
 	//Solution2022::RotateArray::Main();
 	//Solution2022::FindtheClosestPalindrome::Main();
-	//Solution2022::JumpGame::Main();
 	//Solution2022::MakingFileNamesUnique::Main();
 	//Solution2022::ConstructQuadTree::Main();
 	//Solution2022::LargestNumber::Main();
@@ -1567,7 +1574,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::LongestCommonSubpath::Main();
 	//Solution2022::DepthofBSTGivenInsertionOrder::Main();
 	//Solution2022::DescribethePainting::Main();
-	//Solution2022::JumpGameIX::Main();
 	//Solution2022::UniqueLengthThreePalindromicSubsequences::Main();
 	//Solution2022::GameofNim::Main();
 	//Solution2022::MaximumGeneticDifferenceQuery::Main();
@@ -1665,7 +1671,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::MergeBSTstoCreateSingleBST::Main();
 	//Solution2022::EditDistance::Main();
 	//Solution2022::ReverseLinkedList::Main();
-	//Solution2022::JumpGameII::Main();
 	//Solution2022::DesignExcelSumFormula::Main();
 	//Solution2022::ClosestBinarySearchTreeValueII::Main();
 	//Solution2022::KokoEatingBananas::Main();
@@ -1845,7 +1850,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::LongestContinuousSubarrayWithAbsoluteDiffLessThanorEqualtoLimit::Main();
 	//Solution2022::ProductofTwoRunLengthEncodedArrays::Main();
 	//Solution2022::MinimumNumberofStepstoMakeTwoStringsAnagram::Main();
-	//Solution2022::JumpGameIV::Main();
 	//Solution2022::WordLadderII::Main();
 	//Solution2022::DifferentWaystoAddParentheses::Main();	
 	//Solution2022::BinaryTreeLevelOrderTraversal::Main();
@@ -2226,7 +2230,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::SplitArrayintoConsecutiveSubsequences::Main();
 	//Solution2022::DesignMovieRentalSystem::Main();
 	//Solution2022::CountSquareSumTriples::Main();
-	//Solution2022::JumpGameVI::Main();
 	//Solution2022::FindAllGoodStrings::Main();
 	//Solution2022::CheckifArrayIsSortedandRotated::Main();
 	//Solution2022::LinkedListRandomNode::Main();
@@ -2236,7 +2239,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::CreateSortedArraythroughInstructions::Main();
 	//Solution2022::SmallestKLengthSubsequenceWithOccurrencesofaLetter::Main();
 	//Solution2022::UniqueSubstringsWithEqualDigitFrequency::Main();
-	//Solution2022::JumpGameIII::Main();
 	//Solution2022::SubtracttheProductandSumofDigitsofanInteger::Main();
 	//Solution2022::FindtheMostCompetitiveSubsequence::Main();
 	//Solution2022::ReverseStringII::Main();

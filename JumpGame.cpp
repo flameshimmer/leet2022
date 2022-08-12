@@ -26,7 +26,16 @@ namespace Solution2022
 	namespace JumpGame
 	{
 	    bool canJump(vector<int>& nums) {
-	        
+			int len = nums.size();
+			if (len < 2) { return true; }
+
+			int maxReach = 0;
+			for (int i = 0; i < len; i++) {
+				if (i > maxReach) { return false; }
+				maxReach = max(maxReach, i + nums[i]);
+				if (maxReach >= len - 1) { return true; }
+			}
+			return true;
 	    }
 
 		void Main() {

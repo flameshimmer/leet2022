@@ -1,4 +1,5 @@
 #include "stdafx.h"
+#include <function>
 
 //Given an array of integers arr and an integer d. In one step you can jump from
 //index i to index:
@@ -42,9 +43,58 @@ namespace Solution2022
 {
 	namespace JumpGameV
 	{
-	    int maxJumps(vector<int>& arr, int d) {
-	        
-	    }
+		// https://www.youtube.com/watch?v=y5hRO6NvOHg
+		namespace Recursion {
+			// Definition of dp(i): max# of bars you can reach if start from i
+			// dp(i) == 1 or max(dp(j) + 1), if i can jump to j
+			int dp(vector<int>& a, int i, int d, vector<int>& m) {
+				if (m[i] != 0) { return m[i]; }
+				int result = 1;
+
+				for (int j = i + 1; j< min((int)(a.size()), i + d + 1) && a[i] >a[j]; j++) {
+					result = max(result, dp(a, j, d, m) + 1);
+				}
+				for (int j = i - 1; j >= max(0, i - d) && a[i] > a[j]; j--) {
+					result = max(result, dp(a, j, d, m) + 1);
+				}
+				m[i] = result;
+				return result;
+			}
+
+			int maxJumps(vector<int>& a, int d) {
+				int len = a.size();
+				vector<int> m(len, 0);
+
+				int result = 0;
+				for (int i = 0; i < len; i++) {
+					result = max(result, dp(a, i, d, m));
+				}
+				return result;
+			}		
+		}
+
+		namespace DP {
+			int maxJumps(vector<int>& a, int d) {
+				int len = a.size();
+				vector<pair<int, int>> m;
+				for (int i = 0; i < len; i++) {
+					m.push_back({ a[i], i });
+				}
+				sort(m.begin(), m.end());
+
+				vector<int> dp(len, 1);
+				for (auto [v, i] : m) {
+					for (int j = i + 1; j<min(len, i + d + 1) && a[i] > a[j]; j++) {
+						dp[i] = max(dp[i], dp[j] + 1);
+					}
+					for (int j = i - 1; j >= max(0, i - d) && a[i] > a[j]; j--) {
+						dp[i] = max(dp[i], dp[j] + 1);
+					}
+				}
+				return *max_element(dp.begin(), dp.end());
+			}
+		}
+
 
 		void Main() {
 			string test = "tst test test";
