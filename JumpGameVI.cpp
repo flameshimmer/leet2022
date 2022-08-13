@@ -34,8 +34,21 @@ namespace Solution2022
 {
 	namespace JumpGameVI
 	{
-	    int maxResult(vector<int>& nums, int k) {
-	        
+	    // sliding window max + dp: https://www.youtube.com/watch?v=M_PzYd59_kk
+		int maxResult(vector<int>& nums, int k) {
+			int len = nums.size();
+			vector<int> dp(len);
+			deque<int> q;
+			q.push_back(0);
+			dp[0] = nums[0];
+			
+			for (int i = 1; i < len; i++) {
+				dp[i] = nums[i] + dp[q.front()];
+				while (!q.empty() && dp[i] >= dp[q.back()]) { q.pop_back(); }
+				while (!q.empty() && i - q.front() >= k) { q.pop_front(); }
+				q.push_back(i);
+			}
+			return dp[len - 1];
 	    }
 
 		void Main() {

@@ -38,10 +38,29 @@
 
 namespace Solution2022
 {
-	namespace JumpGameIX
+	namespace JumpGameVIII
 	{
 	    long long minCost(vector<int>& nums, vector<int>& costs) {
-	        
+			int len = nums.size();
+			vector<int> l(1, 0);
+			vector<int> s(1, 0);
+			vector<long long> total(len, LONG_MAX);
+			total[0] = 0;
+
+			for (int i = 1; i < len; i++) {
+				while (!s.empty() && nums[s.back()] > nums[i]) {
+					total[i] = min(total[i], total[s.back()] + costs[i]);
+					s.pop_back();
+				}
+				s.push_back(i);
+
+				while (!l.empty() && nums[l.back()] <= nums[i]) {
+					total[i] = min(total[i], total[l.back()] + costs[i]);
+					l.pop_back();
+				}
+				l.push_back(i);
+			}
+			return total[len - 1];
 	    }
 
 		void Main() {

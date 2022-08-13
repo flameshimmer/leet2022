@@ -17,6 +17,13 @@ int _tmain(int argc, _TCHAR* argv[])
 	
 
 	//====Problem Starts====
+	//8/13/2022
+	//Solution2022::JumpGameVI::Main();
+	//Solution2022::JumpGameVIII::Main();
+	//Solution2022::JumpGameVII::Main(); ??
+	//Solution2022::WordBreak::Main();
+	//Solution2022::WordBreakII::Main();
+
 	//8/12/2022
 	//Solution2022::JumpGame::Main();
 	//Solution2022::JumpGameII::Main();
@@ -415,11 +422,6 @@ int _tmain(int argc, _TCHAR* argv[])
 
 
 	//====Problem Ends====
-	//Solution2022::JumpGameVI::Main();
-	//Solution2022::JumpGameIX::Main();
-	//Solution2022::JumpGameVII::Main();
-	//Solution2022::WordBreak::Main();
-	//Solution2022::WordBreakII::Main();
 	//Solution2022::MedianofTwoSortedArrays::Main();	
 	//Solution2022::TheNumberofWeakCharactersintheGame::Main();
 	//Solution2022::OddEvenJump::Main();

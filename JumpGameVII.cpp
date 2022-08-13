@@ -30,7 +30,27 @@ namespace Solution2022
 	namespace JumpGameVII
 	{
 	    bool canReach(string s, int minJump, int maxJump) {
-	        
+			int len = s.size();
+			if (s[0] != '0' || s[len - 1] != '0') { return false; }
+
+			queue<int> q;
+			q.push(0);
+			int curMax = 0;
+
+			while (!q.empty()) {
+				int top = q.front();
+				q.pop();
+				
+				if (top == len - 1) { return true; }
+
+				for (int i = max(top + minJump, curMax); i <= min(top + maxJump, len - 1); i++) {
+					if (s[i] == '0') {
+						q.push(i);
+					}
+				}
+				curMax = min(top + maxJump + 1, len); // will TLE if not use this optimization and use visited map to do BFS
+			}
+			return false;
 	    }
 
 		void Main() {

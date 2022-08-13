@@ -35,9 +35,24 @@ namespace Solution2022
 {
 	namespace WordBreak
 	{
-	    bool wordBreak(string s, vector<string>& wordDict) {
-	        
-	    }
+		bool wordBreak(string s, vector<string>& wordDict) {
+			int len = s.size();
+			if (len == 0) { return false; }
+
+			unordered_set<string> dict(wordDict.begin(), wordDict.end());
+			if (dict.size() == 0) { return false; }
+
+			vector<int> M(len + 1, false);
+			M[0] = true;
+			for (int i = 1; i <= len; i++) {
+				for (int j = 0; j < i; j++) {
+					if (M[j] && dict.find(s.substr(j, i - j)) != dict.end()) {
+						M[i] = true;
+					}
+				}
+			}
+			return M[len];
+		}
 
 		void Main() {
 			string test = "tst test test";
