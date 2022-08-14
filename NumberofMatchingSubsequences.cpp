@@ -28,13 +28,34 @@ namespace Solution2022
 {
 	namespace NumberofMatchingSubsequences
 	{
-	    int numMatchingSubseq(string s, vector<string>& words) {
-	        
-	    }
+		int numMatchingSubseq(string s, vector<string>& words) {
+			vector<vector<int>> charIndexes(26, vector<int>());
+			for (int i = 0; i < s.size(); i++) {
+				charIndexes[s[i] - 'a'].push_back(i);
+			}
+
+			int result = 0;
+			for (string& w : words) {
+				int lastIndex = -1;
+				bool found = true;
+
+				for (char c : w) {
+					vector<int>& indexes = charIndexes[c - 'a'];
+					auto it = lower_bound(indexes.begin(), indexes.end(), lastIndex + 1);
+					if (it == indexes.end()) {
+						found = false;
+						break;
+					}
+					lastIndex = *it;
+				}
+				if (found) { result++; }
+			}
+			return result;
+		}
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			vector<string> test = {"a", "bb", "acd", "ace"};
+			print(numMatchingSubseq("abcde", test));
 		}
 	}
 }

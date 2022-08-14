@@ -49,21 +49,21 @@ namespace Solution2022
 			return i < 2 ? 0 : 1 + (i % 2 ? compute(i * 3 + 1) : compute(i / 2));
 		}
 
-	    int getKth(int lo, int hi, int k) {
+		int getKth(int lo, int hi, int k) {
 			if (comp[2] == 0) {
 				for (int i = 0; i < 1001; i++) {
-					comp[i] = compute[i];
+					comp[i] = compute(i);
 				}
 			}
 
 			vector<int> sorted(hi - lo + 1);
-			itoa(sorted.begin(), sorted.end, lo);
-			auto compare = [](int i, int j) {
+			iota(sorted.begin(), sorted.end(), lo);
+			auto compare = [&](int i, int j) {
 				return comp[i] == comp[j] ? i < j : comp[i] < comp[j];
 			};
-			nth_element(sorted.begin(), sorted.begin + k - 1; sorted.end(), compare);
+			nth_element(sorted.begin(), sorted.begin() + k - 1, sorted.end(), compare);
 			return sorted[k - 1];
-	    }
+		}
 
 		void Main() {
 			string test = "tst test test";

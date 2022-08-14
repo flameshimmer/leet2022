@@ -1,5 +1,4 @@
 #include "stdafx.h"
-#include <function>
 
 //Given an array of integers arr and an integer d. In one step you can jump from
 //index i to index:

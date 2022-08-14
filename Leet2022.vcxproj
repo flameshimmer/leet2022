@@ -230,6 +230,14 @@
     <ClCompile Include="IntegertoEnglishWords.cpp" />
     <ClCompile Include="IntegertoRoman.cpp" />
     <ClCompile Include="IntersectionofTwoArrays.cpp" />
+    <ClCompile Include="JumpGame.cpp" />
+    <ClCompile Include="JumpGameII.cpp" />
+    <ClCompile Include="JumpGameIII.cpp" />
+    <ClCompile Include="JumpGameIV.cpp" />
+    <ClCompile Include="JumpGameVIII.cpp" />
+    <ClCompile Include="JumpGameV.cpp" />
+    <ClCompile Include="JumpGameVI.cpp" />
+    <ClCompile Include="JumpGameVII.cpp" />
     <ClCompile Include="KClosestPointstoOrigin.cpp" />
     <ClCompile Include="KdiffPairsinanArray.cpp" />
     <ClCompile Include="KthLargestElementinanArray.cpp" />
@@ -293,6 +301,7 @@
     <ClCompile Include="NextPermutation.cpp" />
     <ClCompile Include="NthDigit.cpp" />
     <ClCompile Include="NumberofIslands.cpp" />
+    <ClCompile Include="NumberofMatchingSubsequences.cpp" />
     <ClCompile Include="NumberofOneBits.cpp" />
     <ClCompile Include="NumberofWaystoBuildSturdyBrickWall.cpp" />
     <ClCompile Include="OddEvenJump.cpp" />
@@ -366,8 +375,10 @@
     <ClCompile Include="SumofSubarrayRanges.cpp" />
     <ClCompile Include="SwapAdjacentinLRString.cpp" />
     <ClCompile Include="SwiminRisingWater.cpp" />
+    <ClCompile Include="SymmetricTree.cpp" />
     <ClCompile Include="Test.cpp" />
     <ClCompile Include="TextJustification.cpp" />
+    <ClCompile Include="TheNumberofWeakCharactersintheGame.cpp" />
     <ClCompile Include="ThreeSum.cpp" />
     <ClCompile Include="ThreeSumClosest.cpp" />
     <ClCompile Include="ThreeSumWithMultiplicity.cpp" />
@@ -390,6 +401,7 @@
     <ClCompile Include="ValidWordAbbreviation.cpp" />
     <ClCompile Include="VerifyinganAlienDictionary.cpp" />
     <ClCompile Include="VideoStitching.cpp" />
+    <ClCompile Include="WordBreakII.cpp" />
     <ClCompile Include="WordSubsets.cpp" />
     <ClCompile Include="ZeroOneMatrix.cpp" />
   </ItemGroup>

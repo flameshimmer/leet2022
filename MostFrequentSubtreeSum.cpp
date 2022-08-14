@@ -22,20 +22,37 @@ namespace Solution2022
 {
 	namespace MostFrequentSubtreeSum
 	{
-	/**
-	 * Definition for a binary tree node.
-	 * struct TreeNode {
-	 *     int val;
-	 *     TreeNode *left;
-	 *     TreeNode *right;
-	 *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
-	 *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
-	 *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
-	 * };
-	 */
-	    vector<int> findFrequentTreeSum(TreeNode* root) {
-	        
-	    }
+		/**
+		 * Definition for a binary tree node.
+		 * struct TreeNode {
+		 *     int val;
+		 *     TreeNode *left;
+		 *     TreeNode *right;
+		 *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+		 *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+		 *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+		 * };
+		 */
+
+		int helper(TreeNode* root, int& maxFreq, unordered_map<int, int>& map) {
+			if (!root) { return 0; }
+			int sum = root->val + helper(root->left, maxFreq, map) + helper(root->right, maxFreq, map);
+			map[sum]++;
+			maxFreq = max(maxFreq, map[sum]);
+			return sum;
+		}
+
+		vector<int> findFrequentTreeSum(TreeNode* root) {
+			unordered_map<int, int> map;
+			int maxFreq = 0;
+
+			helper(root, maxFreq, map);
+			vector<int> result;
+			for (auto [sum, freq] : map) {
+				if (freq == maxFreq) { result.push_back(sum); }
+			}
+			return result;
+		}
 
 		void Main() {
 			string test = "tst test test";
