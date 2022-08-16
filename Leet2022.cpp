@@ -16,6 +16,13 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::Test::Main(); // Medium
 
 	//====Problem Starts====	
+	//8/16/2022
+	//Solution2022::FindingMKAverage::Main();
+	//Solution2022::CheckingExistenceofEdgeLengthLimitedPaths::Main();
+	//Solution2022::OddEvenJump::Main();
+	//Solution2022::CountSquareSubmatriceswithAllOnes::Main();
+	//Solution2022::LongestAbsoluteFilePath::Main();
+
 	//8/15/2022
 	//Solution2022::ShortestDistancefromAllBuildings::Main();
 	//Solution2022::FillingBookcaseShelves::Main();
@@ -434,7 +441,6 @@ int _tmain(int argc, _TCHAR* argv[])
 
 
 	//====Problem Ends====	
-	//Solution2022::OddEvenJump::Main();
 	//Solution2022::ReverseNodesinkGroup::Main();
 	//Solution2022::WordLadder::Main();
 	//Solution2022::WordSearchII::Main();	
@@ -717,7 +723,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::LargestMagicSquare::Main();
 	//Solution2022::MaximumProductoftheLengthofTwoPalindromicSubstrings::Main();
 	//Solution2022::FindKthBitinNthBinaryString::Main();
-	//Solution2022::FindingMKAverage::Main();
 	//Solution2022::MaximumBuildingHeight::Main();
 	//Solution2022::CountPairsinTwoArrays::Main();
 	//Solution2022::SmallestMissingGeneticValueinEachSubtree::Main();
@@ -998,7 +1003,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::ClosestDivisors::Main();
 	//Solution2022::NumberofWaystoWearDifferentHatstoEachOther::Main();
 	//Solution2022::MakeSumDivisiblebyP::Main();
-	//Solution2022::CheckingExistenceofEdgeLengthLimitedPaths::Main();
 	//Solution2022::CountHillsandValleysinanArray::Main();
 	//Solution2022::ConstrainedSubsequenceSum::Main();
 	//Solution2022::FindtheMinimumNumberofFibonacciNumbersWhoseSumIsK::Main();
@@ -2026,7 +2030,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::MaximumNestingDepthoftheParentheses::Main();
 	//Solution2022::OnesandZeroes::Main();
 	//Solution2022::MaximumGap::Main();
-	//Solution2022::LongestAbsoluteFilePath::Main();
 	//Solution2022::RunningSumofOnedArray::Main();
 	//Solution2022::VerbalArithmeticPuzzle::Main();
 	//Solution2022::SubsequenceofSizeKWiththeLargestEvenSum::Main();
@@ -2098,7 +2101,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::ImplementStackusingQueues::Main();
 	//Solution2022::DivisorGame::Main();
 	//Solution2022::AllElementsinTwoBinarySearchTrees::Main();
-	//Solution2022::CountSquareSubmatriceswithAllOnes::Main();
 	//Solution2022::BombEnemy::Main();
 	//Solution2022::IslandPerimeter::Main();
 	//Solution2022::SellDiminishingValuedColoredBalls::Main();

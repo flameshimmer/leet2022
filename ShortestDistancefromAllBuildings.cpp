@@ -43,7 +43,47 @@ namespace Solution2022
 	namespace ShortestDistancefromAllBuildings
 	{
 	    int shortestDistance(vector<vector<int>>& grid) {
-	        
+			vector<pair<int, int>> dirs = { {0, 1}, {0, -1}, {1, 0}, {-1, 0}};
+			int rowCount = grid.size();
+			int colCount = grid[0].size();
+			int result = INT_MAX;
+			int emptySlotVal = 0;
+			vector<vector<int>> total(rowCount, vector<int>(colCount, 0));
+			
+			for (int i = 0; i < rowCount; i++) {
+				for (int j = 0; j < colCount; j++) {
+					if (grid[i][j] == 1) {
+						queue<pair<int, int>> q;
+						int level = 0;
+						q.push({i, j});
+						result = INT_MAX;
+
+						while (!q.empty()) {
+							level++;
+							int sz = q.size();
+							while (sz) {
+								sz--;
+
+								auto [x, y] = q.front();
+								q.pop();
+
+								for (auto [a, b] : dirs) {
+									int xx = x + a;
+									int yy = y + b;
+									if (xx >= 0 && xx < rowCount && yy >= 0 && yy < colCount && grid[xx][yy] == emptySlotVal) {
+										grid[xx][yy] --;
+										q.push({ xx, yy });
+										total[xx][yy] += level;
+										result = min(result, total[xx][yy]);
+									}
+								}
+							}						
+						}
+						emptySlotVal--;					
+					}
+				}
+			}
+			return result == INT_MAX ? -1 : result;
 	    }
 
 		void Main() {

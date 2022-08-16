@@ -202,7 +202,9 @@
     <ClCompile Include="ExcelSheetColumnNumber.cpp" />
     <ClCompile Include="ExclusiveTimeofFunctions.cpp" />
     <ClCompile Include="FibonacciNumber.cpp" />
+    <ClCompile Include="FillingBookcaseShelves.cpp" />
     <ClCompile Include="FindAndReplaceinString.cpp" />
+    <ClCompile Include="FindDuplicateSubtrees.cpp" />
     <ClCompile Include="FindFirstandLastPositionofElementinSortedArray.cpp" />
     <ClCompile Include="FindingThreeDigitEvenNumbers.cpp" />
     <ClCompile Include="FindNUniqueIntegersSumuptoZero.cpp" />
@@ -347,6 +349,7 @@
     <ClCompile Include="RottingOranges.cpp" />
     <ClCompile Include="SearchinRotatedSortedArray.cpp" />
     <ClCompile Include="SearchInsertPosition.cpp" />
+    <ClCompile Include="ShortestDistancefromAllBuildings.cpp" />
     <ClCompile Include="ShortestPathinaGridwithObstaclesElimination.cpp" />
     <ClCompile Include="ShortestPathinBinaryMatrix.cpp" />
     <ClCompile Include="ShortestWaytoFormString.cpp" />
@@ -354,6 +357,7 @@
     <ClCompile Include="ShortestWordDistanceII.cpp" />
     <ClCompile Include="ShortestWordDistanceIII.cpp" />
     <ClCompile Include="SignoftheProductofanArray.cpp" />
+    <ClCompile Include="SimilarStringGroups.cpp" />
     <ClCompile Include="SimplifyPath.cpp" />
     <ClCompile Include="SingleNumber.cpp" />
     <ClCompile Include="SlidingWindowMaximum.cpp" />

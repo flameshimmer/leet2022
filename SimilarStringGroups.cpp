@@ -32,8 +32,58 @@ namespace Solution2022
 {
 	namespace SimilarStringGroups
 	{
+		class UnionFindSet {
+		private:
+			vector<int> parent;
+			int size;
+		public:
+			UnionFindSet(int n) {
+				parent.resize(n);
+				iota(parent.begin(), parent.end(), 0);
+				size = n;
+			}
+
+
+			int find(int i) {
+				while (parent[i] != i) {
+					i = parent[i];
+				}
+				return i;
+			}
+
+			void join(int i, int j) {
+				int pi = find(i);
+				int pj = find(j);
+				if (pi != pj) { 
+					parent[pi] = pj; // Note! This is parent[pi] = pj; Not parent[i] = pj!!! 
+					size--;
+				}
+			}
+
+			int getSize() { return size; }
+		};
+
+		bool similar(string& a, string& b) {
+			int diff = 0;
+			for (int i = 0; i < a.size(); i++) {
+				if (a[i] != b[i]) {
+					diff++;
+					if (diff > 2) { return false; }
+				}
+			}
+			return true;
+		}
+
 	    int numSimilarGroups(vector<string>& strs) {
-	        
+			int len = strs.size();
+			UnionFindSet uf(len);
+
+			for (int i = 0; i < len; i++) {
+				for (int j = i + 1; j < len; j++) {
+					if (similar(strs[i], strs[j])) { uf.join(i, j); }
+				}
+			}
+			return uf.getSize();
 	    }
 
 		void Main() {

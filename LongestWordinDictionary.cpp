@@ -29,7 +29,17 @@ namespace Solution2022
 	namespace LongestWordinDictionary
 	{
 	    string longestWord(vector<string>& words) {
-	        
+			sort(words.begin(), words.end());
+			unordered_set<string> set;
+			string result = "";
+
+			for (string& w : words) {
+				if (w.size() == 1 || set.find(w.substr(0, w.size() - 1)) != set.end()) {
+					set.insert(w);
+					if (w.size() > result.size()) { result = w; }
+				}
+			}
+			return result;
 	    }
 
 		void Main() {

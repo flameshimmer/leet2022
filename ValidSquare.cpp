@@ -28,8 +28,24 @@ namespace Solution2022
 {
 	namespace ValidSquare
 	{
-	    bool validSquare(vector<int>& p1, vector<int>& p2, vector<int>& p3, vector<int>& p4) {
-	        
+		int getDistance(vector<int>& p1, vector<int>& p2) {
+			return (p1[0] - p2[0]) * (p1[0] - p2[0]) + (p1[1] - p2[1]) * (p1[1] - p2[1]);
+		}
+
+		bool validSquare(vector<int>& p1, vector<int>& p2, vector<int>& p3, vector<int>& p4) {
+			map<int, int> edgeMap;
+			edgeMap[getDistance(p1, p2)]++;
+			edgeMap[getDistance(p1, p3)]++;
+			edgeMap[getDistance(p1, p4)]++;
+			edgeMap[getDistance(p2, p3)]++;
+			edgeMap[getDistance(p2, p4)]++;
+			edgeMap[getDistance(p3, p4)]++;
+			
+			if (edgeMap.size() != 2) { return false; } // only have 2 types of edges: side line and diameter line
+
+			vector<pair<int, int>> data(edgeMap.begin(), edgeMap.end());
+			if (data[0].second != 4) { return false; }
+			return data[1].first = 2 * data[0].first;
 	    }
 
 		void Main() {

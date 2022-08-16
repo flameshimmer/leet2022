@@ -777,6 +777,18 @@
     <ClCompile Include="TheNumberofWeakCharactersintheGame.cpp">
       <Filter>Solution2022</Filter>
     </ClCompile>
+    <ClCompile Include="FindDuplicateSubtrees.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="ShortestDistancefromAllBuildings.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="FillingBookcaseShelves.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="SimilarStringGroups.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Solution2022.h">
