@@ -45,8 +45,54 @@ namespace Solution2022
 {
 	namespace CheckingExistenceofEdgeLengthLimitedPaths
 	{
+		class UnionFind {
+		private:
+			vector<int> parent;
+		public:
+			UnionFind(int n) {
+				parent.resize(n);
+				iota(parent.begin(), parent.end(), 0);
+			}
+
+			void join(int a, int b) {
+				int pa = find(a);
+				int pb = find(b);
+				if (pa == pb) { return; }
+				parent[pa] = pb;
+			}
+
+			int find(int a) {
+				while (parent[a] != a) { a = parent[a]; }
+				return a;
+			}
+
+			bool isConnected(int a, int b) { return find(a) == find(b); }
+		};
+
 	    vector<bool> distanceLimitedPathsExist(int n, vector<vector<int>>& edgeList, vector<vector<int>>& queries) {
-	        
+			int len = queries.size();
+			vector<bool> result(len);
+
+			for (int i = 0; i < len; i++) { queries[i].push_back(i); } // the index 3 is the vector's position in the array
+
+			sort(queries.begin(), queries.end(), [&](auto& a, auto& b) {return a[2] < b[2]; }); // sort queries incrementally by cost
+			sort(edgeList.begin(), edgeList.end(), [&](auto& a, auto& b) {return a[2] < b[2]; }); // sort edges incrementally by cost
+
+			UnionFind uf(n);
+			int i = 0;
+			for (vector<int>& q : queries) {
+				int u = q[0];
+				int v = q[1];
+				int limit = q[2];
+				int index = q[3];
+
+				for (; i < edgeList.size() && edgeList[i][2] < limit; i++) {
+					uf.join(edgeList[i][0], edgeList[i][1]);
+				}
+
+				result[index] = uf.isConnected(u, v);
+			}
+			return result;
 	    }
 
 		void Main() {

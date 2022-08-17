@@ -40,8 +40,22 @@ namespace Solution2022
 {
 	namespace CountSquareSubmatriceswithAllOnes
 	{
-	    int countSquares(vector<vector<int>>& matrix) {
-	        
+		//https://www.youtube.com/watch?v=GfGsM2G1tP8
+	    int countSquares(vector<vector<int>>& M) {
+			int rowCount = M.size();
+			int colCount = M[0].size();
+			
+			int result = 0;
+
+			for (int i = 0; i < rowCount; i++) {
+				for (int j = 0; j < colCount; j++) {
+					if (M[i][j] > 0 && i - 1 >= 0 && j - 1 >= 0) {
+						M[i][j] = min(M[i - 1][j], min(M[i][j - 1], M[i - 1][j - 1])) + 1;						
+					}
+					result += M[i][j]; // Note that this addition should not be included in the above if statment!!
+				}
+			}
+			return result;			
 	    }
 
 		void Main() {

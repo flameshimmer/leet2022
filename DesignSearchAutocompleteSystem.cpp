@@ -67,20 +67,90 @@ namespace Solution2022
 {
 	namespace DesignSearchAutocompleteSystem
 	{
-	class AutocompleteSystem {
-	    AutocompleteSystem(vector<string>& sentences, vector<int>& times) {
-	        
-	    }
-	    
-	    vector<string> input(char c) {
-	        
-	    }
-	​
-	/**
-	 * Your AutocompleteSystem object will be instantiated and called as such:
-	 * AutocompleteSystem* obj = new AutocompleteSystem(sentences, times);
-	 * vector<string> param_1 = obj->input(c);
-	 */
+		class AutocompleteSystem {
+		private:
+			struct Node {
+				unordered_map<char, Node*> children;
+				string str;
+				int count;
+				Node():str(""), count(0) {}
+			};
+
+			Node* root;
+			Node* cur;
+			string s = "";
+
+			struct cmp {
+				bool operator() (pair<string, int>& a, pair<string, int>& b) {
+					return a.second < b.second || a.second == b.second && a.first > b.first;
+				}
+			};
+
+			priority_queue<pair<string, int>, vector<pair<string, int>>, cmp> pq;
+
+			void addWord(string& s, int times) {
+				Node* cur = root;
+				for (char c : s) {
+					if (!cur->children.count(c)) {
+						cur->children[c] = new Node();
+					}
+					cur = cur->children[c];
+				}
+				cur->count += times;
+				cur->str = s;
+			}
+
+			void dfs(Node* node) {
+				if (node->str != "") { pq.push({ node->str, node->count }); }
+				for (auto& [c, childNode] : node->children) {
+					dfs(childNode);
+				}
+			}
+
+		public:
+			AutocompleteSystem(vector<string>& sentences, vector<int>& times) {
+				root = new Node();
+				for (int i = 0; i < sentences.size(); i++) {
+					addWord(sentences[i], times[i]);
+				}
+				cur = root;
+			}
+
+			vector<string> input(char c) {
+				pq = priority_queue<pair<string, int>, vector<pair<string, int>>, cmp>(); // reset priority queue to empty
+				
+				if (c == '#') {
+					addWord(s, 1);
+					s = "";
+					cur = root;
+					return {};
+				}
+
+				s += c;
+				if (cur && cur->children.count(c)) {
+					cur = cur->children[c];
+				}
+				else {
+					cur = nullptr;
+					return {};
+				}
+
+				dfs(cur);
+				
+				vector<string> result;
+				while (!pq.empty() && result.size() < 3) {
+					result.push_back(pq.top().first);
+					pq.pop();
+				}
+				return result;
+			}
+		};
+
+		/**
+		 * Your AutocompleteSystem object will be instantiated and called as such:
+		 * AutocompleteSystem* obj = new AutocompleteSystem(sentences, times);
+		 * vector<string> param_1 = obj->input(c);
+		 */
 
 		void Main() {
 			string test = "tst test test";

@@ -172,6 +172,7 @@
     <ClCompile Include="CarPooling.cpp" />
     <ClCompile Include="CheckIfaStringContainsAllBinaryCodesofSizeK.cpp" />
     <ClCompile Include="CheckifWordCanBePlacedInCrossword.cpp" />
+    <ClCompile Include="CheckingExistenceofEdgeLengthLimitedPaths.cpp" />
     <ClCompile Include="ClimbingStairs.cpp" />
     <ClCompile Include="CoinChange.cpp" />
     <ClCompile Include="Combinations.cpp" />
@@ -181,6 +182,7 @@
     <ClCompile Include="CopyListwithRandomPointer.cpp" />
     <ClCompile Include="CountBinarySubstrings.cpp" />
     <ClCompile Include="CountOddNumbersinanIntervalRange.cpp" />
+    <ClCompile Include="CountSquareSubmatriceswithAllOnes.cpp" />
     <ClCompile Include="CountUniqueCharactersofAllSubstringsofaGivenString.cpp" />
     <ClCompile Include="CountWordsObtainedAfterAddingaLetter.cpp" />
     <ClCompile Include="CustomSortString.cpp" />
@@ -192,6 +194,7 @@
     <ClCompile Include="DesignHashMap.cpp" />
     <ClCompile Include="DesignHitCounter.cpp" />
     <ClCompile Include="DesignInMemoryFileSystem.cpp" />
+    <ClCompile Include="DesignSearchAutocompleteSystem.cpp" />
     <ClCompile Include="DetectSquares.cpp" />
     <ClCompile Include="DiameterofBinaryTree.cpp" />
     <ClCompile Include="DivideTwoIntegers.cpp" />
@@ -206,6 +209,7 @@
     <ClCompile Include="FindAndReplaceinString.cpp" />
     <ClCompile Include="FindDuplicateSubtrees.cpp" />
     <ClCompile Include="FindFirstandLastPositionofElementinSortedArray.cpp" />
+    <ClCompile Include="FindingMKAverage.cpp" />
     <ClCompile Include="FindingThreeDigitEvenNumbers.cpp" />
     <ClCompile Include="FindNUniqueIntegersSumuptoZero.cpp" />
     <ClCompile Include="FindPeakElement.cpp" />
@@ -304,6 +308,7 @@
     <ClCompile Include="NthDigit.cpp" />
     <ClCompile Include="NumberofIslands.cpp" />
     <ClCompile Include="NumberofMatchingSubsequences.cpp" />
+    <ClCompile Include="NumberofMusicPlaylists.cpp" />
     <ClCompile Include="NumberofOneBits.cpp" />
     <ClCompile Include="NumberofWaystoBuildSturdyBrickWall.cpp" />
     <ClCompile Include="OddEvenJump.cpp" />
@@ -401,6 +406,7 @@
     <ClCompile Include="ValidPalindrome.cpp" />
     <ClCompile Include="ValidPalindromeII.cpp" />
     <ClCompile Include="ValidParentheses.cpp" />
+    <ClCompile Include="ValidSquare.cpp" />
     <ClCompile Include="ValidSudoku.cpp" />
     <ClCompile Include="ValidWordAbbreviation.cpp" />
     <ClCompile Include="VerifyinganAlienDictionary.cpp" />

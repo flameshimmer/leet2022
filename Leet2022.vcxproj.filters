@@ -789,6 +789,24 @@
     <ClCompile Include="SimilarStringGroups.cpp">
       <Filter>Solution2022</Filter>
     </ClCompile>
+    <ClCompile Include="ValidSquare.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="FindingMKAverage.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckingExistenceofEdgeLengthLimitedPaths.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="CountSquareSubmatriceswithAllOnes.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="NumberofMusicPlaylists.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="DesignSearchAutocompleteSystem.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Solution2022.h">
