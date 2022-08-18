@@ -34,7 +34,24 @@ namespace Solution2022
 	namespace HIndexII
 	{
 	    int hIndex(vector<int>& citations) {
-	        
+			int len = citations.size();
+			if (len == 0) { return 0; }
+
+			int start = 0;
+			int end = len - 1;
+			while (start <= end) {
+				int mid = start + (end - start) / 2;
+				if (citations[mid] < len - mid) {
+					start = mid + 1;
+				}
+				else if (citations[mid] > len - mid) {
+					end = mid - 1;
+				}
+				else {
+					return len - mid;
+				}
+			}
+			return len - start;
 	    }
 
 		void Main() {

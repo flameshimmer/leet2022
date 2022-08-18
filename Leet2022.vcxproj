@@ -176,6 +176,7 @@
     <ClCompile Include="ClimbingStairs.cpp" />
     <ClCompile Include="CoinChange.cpp" />
     <ClCompile Include="Combinations.cpp" />
+    <ClCompile Include="ConfusingNumber.cpp" />
     <ClCompile Include="ContainerWithMostWater.cpp" />
     <ClCompile Include="ContainsDuplicate.cpp" />
     <ClCompile Include="ConvertBinarySearchTreetoSortedDoublyLinkedList.cpp" />

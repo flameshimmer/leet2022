@@ -15,14 +15,14 @@ int _tmain(int argc, _TCHAR* argv[])
 	clock_t begin = clock();
 	//Solution2022::Test::Main(); // Medium
 
-	//====Problem Starts====	
+	//====Problem Starts====		
 	//8/18/2022
 	//Solution2022::ConfusingNumber::Main();
 	//Solution2022::ConfusingNumberII::Main();
-	//Solution2022::RemoveAllOnesWithRowandColumnFlipsII::Main();
-	//Solution2022::RankTransformofaMatrix::Main();
 	//Solution2022::MaxValueofEquation::Main();
-
+	//Solution2022::HIndex::Main();
+	//Solution2022::HIndexII::Main();
+	
 	//8/17/2022
 	//Solution2022::OddEvenJump::Main();
 	//Solution2022::CountSquareSubmatriceswithAllOnes::Main();
@@ -452,6 +452,8 @@ int _tmain(int argc, _TCHAR* argv[])
 
 
 	//====Problem Ends====	
+	//Solution2022::RemoveAllOnesWithRowandColumnFlipsII::Main();
+	//Solution2022::RankTransformofaMatrix::Main();
 	//Solution2022::ReverseNodesinkGroup::Main();
 	//Solution2022::WordLadder::Main();
 	//Solution2022::WordSearchII::Main();	
@@ -1162,7 +1164,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::DecodeXORedPermutation::Main();
 	//Solution2022::MinimumCosttoReachDestinationinTime::Main();
 	//Solution2022::MinimumOperationstoConvertNumber::Main();
-	//Solution2022::HIndexII::Main();
 	//Solution2022::CheckifOneStringSwapCanMakeStringsEqual::Main();
 	//Solution2022::ConstructStringfromBinaryTree::Main();
 	//Solution2022::NaryTreePostorderTraversal::Main();
@@ -1879,7 +1880,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::ConvertSortedListtoBinarySearchTree::Main();
 	//Solution2022::DesignCircularQueue::Main();
 	//Solution2022::LeastNumberofUniqueIntegersafterKRemovals::Main();
-	//Solution2022::HIndex::Main();
 	//Solution2022::PlatesBetweenCandles::Main();
 	//Solution2022::CoinChangeTwo::Main();
 	//Solution2022::TrappingRainWaterII::Main();

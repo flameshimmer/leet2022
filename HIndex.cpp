@@ -31,9 +31,37 @@ namespace Solution2022
 {
 	namespace HIndex
 	{
-	    int hIndex(vector<int>& citations) {
-	        
-	    }
+		namespace BucketSortON {
+			//https://www.youtube.com/watch?v=8P8PkToeib4
+
+			int hIndex(vector<int>& citations) {
+				int len = citations.size();
+				vector<int> buckets(len + 1, 0);
+
+				for (int c : citations) {
+					if (c >= len) { buckets[len]++; }
+					else { buckets[c] ++; }
+				}
+				int count = 0;
+				for (int i = len; i >= 0; i--) {
+					count += buckets[i];
+					if (count >= i) { return i; }
+				}
+				return 0;
+			}
+		}
+
+		namespace WithSortONLogN {
+			int hIndex(vector<int>& citations) {
+				sort(citations.begin(), citations.end());
+				int len = citations.size();
+				int i = 0;
+				while (i < len && i < citations[len - 1 - i]) {
+					i++;
+				}
+				return i;
+			}
+		}
 
 		void Main() {
 			string test = "tst test test";

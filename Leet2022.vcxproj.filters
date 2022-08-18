@@ -807,6 +807,9 @@
     <ClCompile Include="DesignSearchAutocompleteSystem.cpp">
       <Filter>Solution2022</Filter>
     </ClCompile>
+    <ClCompile Include="ConfusingNumber.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Solution2022.h">
