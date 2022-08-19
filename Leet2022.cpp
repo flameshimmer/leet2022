@@ -15,7 +15,12 @@ int _tmain(int argc, _TCHAR* argv[])
 	clock_t begin = clock();
 	//Solution2022::Test::Main(); // Medium
 
-	//====Problem Starts====		
+	//====Problem Starts====
+	//8/19/2022
+	//Solution2022::SmallestRectangleEnclosingBlackPixels::Main();
+	//Solution2022::ClosestNodetoPathinTree::Main();
+	//Solution2022::ProcessTasksUsingServers::Main();
+
 	//8/18/2022
 	//Solution2022::ConfusingNumber::Main();
 	//Solution2022::ConfusingNumberII::Main();
@@ -452,6 +457,8 @@ int _tmain(int argc, _TCHAR* argv[])
 
 
 	//====Problem Ends====	
+	//Solution2022::ValidTicTacToeState::Main();
+	//Solution2022::PathWithMaximumMinimumValue::Main();
 	//Solution2022::RemoveAllOnesWithRowandColumnFlipsII::Main();
 	//Solution2022::RankTransformofaMatrix::Main();
 	//Solution2022::ReverseNodesinkGroup::Main();
@@ -689,7 +696,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::MinimumGardenPerimetertoCollectEnoughApples::Main();
 	//Solution2022::MaximumPathQualityofaGraph::Main();
 	//Solution2022::CountSubmatricesWithAllOnes::Main();
-	//Solution2022::PathWithMaximumMinimumValue::Main();
 	//Solution2022::FindKLengthSubstringsWithNoRepeatedCharacters::Main();
 	//Solution2022::MaximumHeightbyStackingCuboids::Main();
 	//Solution2022::FindingPairsWithaCertainSum::Main();
@@ -755,7 +761,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::ContainsDuplicateIII::Main();
 	//Solution2022::LargestSubmatrixWithRearrangements::Main();
 	//Solution2022::ParallelCourses::Main();
-	//Solution2022::SmallestRectangleEnclosingBlackPixels::Main();
 	//Solution2022::ReorderedPowerofTwo::Main();
 	//Solution2022::PaintHouseIII::Main();
 	//Solution2022::MinimumOperationstoMaketheArrayAlternating::Main();
@@ -1667,7 +1672,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::SuccessfulPairsofSpellsandPotions::Main();
 	//Solution2022::MatchSubstringAfterReplacement::Main();
 	//Solution2022::DesignVideoSharingPlatform::Main();
-	//Solution2022::ClosestNodetoPathinTree::Main();
 	//Solution2022::NumberofPeopleThatCanBeSeeninaGrid::Main();
 	//Solution2022::MaximumProfitFromTradingStocks::Main();
 	//Solution2022::TasksCountintheWeekend::Main();
@@ -1859,7 +1863,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::DesignHashSet::Main();
 	//Solution2022::WordPattern::Main();
 	//Solution2022::SearchinRotatedSortedArrayII::Main();
-	//Solution2022::ValidTicTacToeState::Main();
 	//Solution2022::MinimumCostForTickets::Main();
 	//Solution2022::BackspaceStringCompare::Main();
 	//Solution2022::ShortestSubarraywithSumatLeastK::Main();
@@ -2188,7 +2191,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::MissingRanges::Main();
 	//Solution2022::MajorityElementII::Main();
 	//Solution2022::PrefixandSuffixSearch::Main();
-	//Solution2022::ProcessTasksUsingServers::Main();
 	//Solution2022::CrackingtheSafe::Main();
 	//Solution2022::RemoveMaxNumberofEdgestoKeepGraphFullyTraversable::Main();
 	//Solution2022::ClosestDessertCost::Main();

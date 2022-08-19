@@ -55,13 +55,75 @@ namespace Solution2022
 {
 	namespace ClosestNodetoPathinTree
 	{
+
+		bool findPath(int node, int end, int n, vector<int>& path, vector<bool>& visited, vector<vector<int>>& children) {
+			if (visited[node]) { return false; }
+
+			if (node == end) {
+				path.push_back(node);
+				return true;
+			}
+
+			path.push_back(node);
+			visited[node] = true;
+			for (int child : children[node]) {
+				if (findPath(child, end, n, path, visited, children)) { return true; }
+			}
+			visited[node] = false;
+			path.pop_back();
+			return false;
+		}
+
+		int findCloset(int node, unordered_set<int>& set, vector<vector<int>>& children, int n) {
+			queue<int> q;
+			q.push(node);
+			vector<bool> visited(n, false);
+			while (!q.empty()) {
+				int top = q.front();
+				q.pop();
+
+				if (set.find(top) != set.end()) { return top; }
+				visited[top] = true;
+
+				for (int child : children[top]) {
+					if (!visited[child]) { 
+						q.push(child); 
+					}					
+				}
+			}
+			return -1;
+		}
+
 	    vector<int> closestNode(int n, vector<vector<int>>& edges, vector<vector<int>>& query) {
-	        
+			vector<vector<int>> children(n, vector<int>());
+			vector<int> results;
+
+			for (int i = 0; i < edges.size(); i++) {
+				int u = edges[i][0];
+				int v = edges[i][1];
+				children[u].push_back(v);
+				children[v].push_back(u);
+			}
+
+			for (vector<int>& q : query) {
+				int start = q[0];
+				int end = q[1];
+				int node = q[2];
+
+				vector<int> path;
+				vector<bool> visited(n, false);
+				findPath(start, end, n, path, visited, children);
+
+				unordered_set<int> set(path.begin(), path.end());
+				results.push_back(findCloset(node, set, children, n));
+			}
+			return results;
 	    }
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			vector<vector<int>> edges = { {0,1},{0,2},{0,3},{1,4},{2,5},{2,6} };
+			vector<vector<int>> query = { {5,3,4},{5,3,6} };
+			print(closestNode(7, edges, query));
 		}
 	}
 }

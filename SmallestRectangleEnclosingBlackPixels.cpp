@@ -33,8 +33,52 @@ namespace Solution2022
 {
 	namespace SmallestRectangleEnclosingBlackPixels
 	{
+		int searchRows(int startRow, int endRow, int startCol, int endCol, bool opt, vector<vector<char>>& image) {
+			while (startRow != endRow) {
+				int midRow = startRow + (endRow - startRow) / 2;
+				int col = startCol;
+				while (col < endCol && image[midRow][col] == '0') { col++; }
+
+				if ((col < endCol) == opt) {
+					endRow = midRow;
+				}
+				else {
+					startRow = midRow + 1;
+				}
+			}
+			return startRow;
+		}
+
+		int searchColumns(int startCol, int endCol, int startRow, int endRow, bool opt, vector<vector<char>>& image) {
+			while (startCol < endCol) {
+				int midCol = startCol + (endCol - startCol) / 2;
+				int row = startRow;
+				while (row < endRow && image[row][midCol] == '0') { row++; }
+				if ((row < endRow)) == opt) {
+					endCol = midCol;
+				}
+				else {
+					startCol = midCol + 1;
+				}
+			}
+			return startCol;
+		}
+
+
+		//top = search row[0...x], find first row contain 1,
+		//bottom = search row[x + 1, row], find first row contian all 0
+		//left = search col[0...y], find first col contain 1,
+		//right = search col[y + 1, col], find first col contain all 0
 	    int minArea(vector<vector<char>>& image, int x, int y) {
-	        
+			int rowCount = image.size();
+			int colCount = image[0].size();
+
+			int top = searchRows(0, x, 0, colCount, true, image);
+			int bottom = searchRows(x+1, rowCount, 0, colCount, false, image);
+			int left = searchColumns(0, y, top, bottom, true, image);
+			int right = searchColumns(y+1, colCount, top, bottom, false, image);
+
+			return (right - left) * (bottom - top);
 	    }
 
 		void Main() {

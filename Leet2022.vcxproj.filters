@@ -810,6 +810,12 @@
     <ClCompile Include="ConfusingNumber.cpp">
       <Filter>Solution2022</Filter>
     </ClCompile>
+    <ClCompile Include="HIndex.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="ClosestNodetoPathinTree.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Solution2022.h">

@@ -60,7 +60,32 @@ namespace Solution2022
 	namespace ProcessTasksUsingServers
 	{
 	    vector<int> assignTasks(vector<int>& servers, vector<int>& tasks) {
-	        
+			priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> free; //weight, server index;
+			priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> busy; // end time, server index;
+
+			vector<int> result(tasks.size());
+
+			for (int i = 0; i < servers.size(); i++) {
+				free.push({ servers[i], i });
+			}
+
+			int time = 0;
+			for (int i = 0; i < tasks.size(); i++) {
+				time = max(time, i);
+				if (free.empty() && busy.top().first > time) { time = busy.top().first; } // we don't do "continue" because we want to wait for some server to be ready and not drop the task
+
+				while (!busy.empty() && busy.top().first <= time) {
+					auto [endTime, serverIndex] = busy.top();
+					busy.pop();
+					free.push({ servers[serverIndex], serverIndex });
+				}
+
+				auto [weight, serverIndex] = free.top();
+				free.pop();
+				busy.push({ time + tasks[i], serverIndex });
+				result[i] = serverIndex;
+			}
+			return result;
 	    }
 
 		void Main() {
