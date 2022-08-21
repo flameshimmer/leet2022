@@ -16,6 +16,13 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::Test::Main(); // Medium
 
 	//====Problem Starts====
+	//8/20/2022
+	//Solution2022::ConstructQuadTree::Main();
+	//Solution2022::FindtheClosestPalindrome::Main();
+	//Solution2022::LeftmostColumnwithatLeastaOne::Main();
+	//Solution2022::NextPalindromeUsingSameDigits::Main();
+	//Solution2022::LongestContinuousSubarrayWithAbsoluteDiffLessThanorEqualtoLimit::Main();
+	
 	//8/19/2022
 	//Solution2022::SmallestRectangleEnclosingBlackPixels::Main();
 	//Solution2022::ClosestNodetoPathinTree::Main();
@@ -560,7 +567,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::ThreeEqualParts::Main();
 	//Solution2022::StoneGameII::Main();
 	//Solution2022::MinimumJumpstoReachHome::Main();
-	//Solution2022::NextPalindromeUsingSameDigits::Main();
 	//Solution2022::NumberofWaystoSeparateNumbers::Main();
 	//Solution2022::AssignCookies::Main();
 	//Solution2022::CountNegativeNumbersinaSortedMatrix::Main();
@@ -1478,9 +1484,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::Permutations::Main();
 	//Solution2022::RussianDollEnvelopes::Main();
 	//Solution2022::RotateArray::Main();
-	//Solution2022::FindtheClosestPalindrome::Main();
 	//Solution2022::MakingFileNamesUnique::Main();
-	//Solution2022::ConstructQuadTree::Main();
 	//Solution2022::LargestNumber::Main();
 	//Solution2022::CandyCrush::Main();
 	//Solution2022::FindAllAnagramsinaString::Main();
@@ -1797,7 +1801,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::CheapestFlightsWithinKStops::Main();
 	//Solution2022::SearchInsertPosition::Main();
 	//Solution2022::PopulatingNextRightPointersinEachNode::Main();
-	//Solution2022::LeftmostColumnwithatLeastaOne::Main();
 	//Solution2022::ValidateStackSequences::Main();
 	//Solution2022::GetBiggestThreeRhombusSumsinaGrid::Main();
 	//Solution2022::TheSkylineProblem::Main();
@@ -1869,7 +1872,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::SortanArray::Main();
 	//Solution2022::InorderSuccessorinBST::Main();
 	//Solution2022::DecreaseElementsToMakeArrayZigzag::Main();
-	//Solution2022::LongestContinuousSubarrayWithAbsoluteDiffLessThanorEqualtoLimit::Main();
 	//Solution2022::ProductofTwoRunLengthEncodedArrays::Main();
 	//Solution2022::MinimumNumberofStepstoMakeTwoStringsAnagram::Main();
 	//Solution2022::WordLadderII::Main();

@@ -62,43 +62,71 @@ namespace Solution2022
 {
 	namespace ConstructQuadTree
 	{
-	/*
-	// Definition for a QuadTree node.
-	class Node {
-	    bool val;
-	    bool isLeaf;
-	    Node* topLeft;
-	    Node* topRight;
-	    Node* bottomLeft;
-	    Node* bottomRight;
-	    
-	    Node() {
-	        val = false;
-	        isLeaf = false;
-	        topLeft = NULL;
-	        topRight = NULL;
-	        bottomLeft = NULL;
-	        bottomRight = NULL;
-	    }
-	    
-	    Node(bool _val, bool _isLeaf) {
-	        val = _val;
-	        isLeaf = _isLeaf;
-	        topLeft = NULL;
-	        topRight = NULL;
-	        bottomLeft = NULL;
-	        bottomRight = NULL;
-	    }
-	    
-	    Node(bool _val, bool _isLeaf, Node* _topLeft, Node* _topRight, Node* _bottomLeft, Node* _bottomRight) {
-	        val = _val;
-	        isLeaf = _isLeaf;
-	        topLeft = _topLeft;
-	        topRight = _topRight;
-	        bottomLeft = _bottomLeft;
-	        bottomRight = _bottomRight;
-	    }
-	*/
+		// Definition for a QuadTree node.
+		class Node {
+		public:
+			bool val;
+			bool isLeaf;
+			Node* topLeft;
+			Node* topRight;
+			Node* bottomLeft;
+			Node* bottomRight;
+
+			Node() {
+				val = false;
+				isLeaf = false;
+				topLeft = NULL;
+				topRight = NULL;
+				bottomLeft = NULL;
+				bottomRight = NULL;
+			}
+
+			Node(bool _val, bool _isLeaf) {
+				val = _val;
+				isLeaf = _isLeaf;
+				topLeft = NULL;
+				topRight = NULL;
+				bottomLeft = NULL;
+				bottomRight = NULL;
+			}
+
+			Node(bool _val, bool _isLeaf, Node* _topLeft, Node* _topRight, Node* _bottomLeft, Node* _bottomRight) {
+				val = _val;
+				isLeaf = _isLeaf;
+				topLeft = _topLeft;
+				topRight = _topRight;
+				bottomLeft = _bottomLeft;
+				bottomRight = _bottomRight;
+			}
+		};
+
+
+		Node* helper(vector<vector<int>>& grid, int row, int col, int size) {
+			if (size == 1) { return new Node(grid[row][col] /*val*/, true /*isLeaf*/, nullptr, nullptr, nullptr, nullptr); }
+
+			Node* result = new Node(grid[row][col] /*val*/, false /*isLeaf*/, nullptr, nullptr, nullptr, nullptr);
+			Node* topLeft = helper(grid, row, col, size / 2);
+			Node* topRight = helper(grid, row, col + size / 2, size / 2);
+			Node* bottomLeft = helper(grid, row + size / 2, col, size / 2);
+			Node* bottomRight = helper(grid, row + size / 2, col + size / 2, size / 2);
+
+			if (topLeft->isLeaf && topRight->isLeaf && bottomLeft->isLeaf && bottomRight->isLeaf && // if all four children are leaves
+				topLeft->val == topRight->val && bottomLeft->val == bottomRight->val && topLeft->val == bottomLeft->val) { // and the four child node value is the same
+				result->isLeaf = true; // then this node is a leaf
+				result->val = topLeft->val; // value is the same as its children
+			}
+			else {
+				result->topLeft = topLeft;
+				result->topRight = topRight;
+				result->bottomLeft = bottomLeft;
+				result->bottomRight = bottomRight;
+			}
+			return result;
+		}
+
+		Node* construct(vector<vector<int>>& grid) {
+			return helper(grid, 0, 0, grid.size());
+		}
 
 		void Main() {
 			string test = "tst test test";

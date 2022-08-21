@@ -40,19 +40,27 @@ namespace Solution2022
 {
 	namespace LeftmostColumnwithatLeastaOne
 	{
-	/**
-	 * // This is the BinaryMatrix's API interface.
-	 * // You should not implement it, or speculate about its implementation
-	 * class BinaryMatrix {
-	 *   public:
-	 *     int get(int row, int col);
-	 *     vector<int> dimensions();
-	 * };
-	 */
-	​
-	    int leftMostColumnWithOne(BinaryMatrix &binaryMatrix) {
-	        
-	    }
+		/**
+		 * // This is the BinaryMatrix's API interface.
+		 * // You should not implement it, or speculate about its implementation
+		 * class BinaryMatrix {
+		 *   public:
+		 *     int get(int row, int col);
+		 *     vector<int> dimensions();
+		 * };
+		 */
+
+		int leftMostColumnWithOne(BinaryMatrix& matrix) {
+			int rowCount = matrix.dimensions()[0];
+			int colCount = matrix.dimensions()[1];
+
+			int curCol = colCount - 1;
+			for (int row = 0; row < rowCount; row++) {
+				while (curCol >= 0 && matrix.get(row, curCol) == 1) { curCol--; }
+			}
+
+			return curCol == colCount - 1 ? -1 : curCol + 1;
+		}
 
 		void Main() {
 			string test = "tst test test";
