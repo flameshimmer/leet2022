@@ -41,7 +41,39 @@ namespace Solution2022
 	namespace WordLadder
 	{
 	    int ladderLength(string beginWord, string endWord, vector<string>& wordList) {
-	        
+			unordered_set<string> dict(wordList.begin(), wordList.end());
+			queue<string> q;
+			q.push(beginWord);
+			int level = 1;
+			
+			while (!q.empty()) {
+				int sz = q.size();
+				while (sz) {
+					sz--;
+					string top = q.front();
+					q.pop();
+					if (top == endWord) { return level; }
+
+					// The diff between wordladderI and wordladderII: I only need to find the shortest distant 
+					//and will return length at the earlies chance, thus we can remove the top from candidate list. 
+					// For II, since we need to find all possible path, we can't just remove the top, 
+					// since both "cop" and "cup" can go to "cap", if we move candiate when we process cop, 
+					// the cup will loose this candidate. Thus for II, the candidate erasing from the dict is 
+					// done when level increased by 1 time.  
+					dict.erase(top); 
+					for (int i = 0; i < top.size(); i++) {
+						char backup = top[i];
+						for (char c = 'a'; c <= 'z'; c++) {
+							if (c == backup) { continue; }
+							top[i] = c;
+							if (dict.find(top) != dict.end()) { q.push(top); }
+						}
+						top[i] = backup;
+					}
+				}
+				level++;
+			}
+			return 0;
 	    }
 
 		void Main() {

@@ -26,7 +26,33 @@ namespace Solution2022
 	namespace BombEnemy
 	{
 	    int maxKilledEnemies(vector<vector<char>>& grid) {
-	        
+			int rowCount = grid.size();
+			int colCount = grid[0].size();
+
+			int result = 0;
+			int rowHit = 0;
+			vector<int> colHit(colCount, 0);
+
+			for (int i = 0; i < rowCount; i++) {
+				for (int j = 0; j < colCount; j++) {
+					if (j == 0 || grid[i][j - 1] == 'W') {
+						rowHit = 0;
+						for (int k = j; k < colCount && grid[i][k] != 'W'; k++) { 
+							rowHit += (grid[i][k] == 'E'); 
+						}
+					}
+					if (i == 0 || grid[i - 1][j] == 'W') {
+						colHit[j] = 0;
+						for (int k = i; k < rowCount && grid[k][j] != 'W'; k++) { 
+							colHit[j] += (grid[k][j] == 'E'); 
+						}
+					}
+					if (grid[i][j] == '0') {
+						result = max(result, rowHit + colHit[j]);
+					}
+				}
+			}
+			return result;
 	    }
 
 		void Main() {

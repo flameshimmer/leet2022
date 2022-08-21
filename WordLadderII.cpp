@@ -42,9 +42,168 @@ namespace Solution2022
 {
 	namespace WordLadderII
 	{
-	    vector<vector<string>> findLadders(string beginWord, string endWord, vector<string>& wordList) {
-	        
-	    }
+
+		vector<string> getDistanceOne(string s, unordered_set<string>& dict)
+		{
+			vector<string> results;
+			for (int i = 0; i < s.length(); i++)
+			{
+				char b = s[i];
+				for (int j = 0; j < 26; j++)
+				{
+					char n = j + 'a';
+					if (n == b) { continue; }
+					s[i] = n;
+					if (dict.find(s) != dict.end()) { results.push_back(s); }
+				}
+				s[i] = b;
+			}
+			return results;
+		}
+
+		void getPath(string s, unordered_map<string, pair<vector<string>, int>>& map, string start, vector<string>& result, vector<vector<string>>& results)
+		{
+			if (s == "")
+			{
+				if (result.back() == start)
+				{
+					vector<string> temp = result;
+					reverse(temp.begin(), temp.end());
+					results.push_back(temp);
+				}
+				else
+				{
+					results.push_back(result);
+				}
+				return;
+			}
+			result.push_back(s);
+			for (string p : map[s].first)
+			{
+				getPath(p, map, start, result, results);
+			}
+			result.pop_back();
+		}
+
+		void constructPath(string s, string child, string start, unordered_map<string, pair<vector<string>, int>>& map, vector<vector<string>>& result)
+		{
+			vector<vector<string>> firstHalf, secondHalf;
+			vector<string> merged, temp;
+			getPath(s, map, start, temp, firstHalf);
+			temp.clear();
+			getPath(child, map, start, temp, secondHalf);
+
+			for (vector<string> first : firstHalf)
+			{
+				for (vector<string>second : secondHalf)
+				{
+					merged.clear();
+					if (first[0] == start)
+					{
+						merged.insert(merged.end(), first.begin(), first.end());
+						merged.insert(merged.end(), second.begin(), second.end());
+					}
+					else
+					{
+						merged.insert(merged.end(), second.begin(), second.end());
+						merged.insert(merged.end(), first.begin(), first.end());
+					}
+					result.push_back(merged);
+				}
+			}
+		}
+
+		vector<vector<string>> findLadders(string start, string end, vector<string>& wordList) {
+			unordered_set<string> dict(wordList.begin(), wordList.end());
+
+			vector<vector<string>> results;
+			if (dict.find(end) == dict.end()) { return results; }
+			dict.insert(start); dict.insert(end);
+			unordered_set<string> s1, s2, temp;
+			s1.insert(start); s2.insert(end);
+			int level = 1; bool met = false;
+			unordered_map<string, pair<vector<string>, int>> map;// key, (parents vector, level)
+			map[start] = make_pair(vector<string>(1, ""), INT_MAX);
+			map[end] = make_pair(vector<string>(1, ""), INT_MAX);
+
+			while (!met && !s1.empty() && !s2.empty() && !dict.empty())
+			{
+				level++;
+				if (s1.size() > s2.size()) { swap(s1, s2); }
+				for (string s : s1)
+				{
+					dict.erase(s);
+					vector<string> children = getDistanceOne(s, dict);
+					for (string child : children)
+					{
+						if (s2.find(child) != s2.end())
+						{
+							met = true;
+							constructPath(s, child, start, map, results);
+						}
+						else if (map.find(child) == map.end() || level <= map[child].second)
+						{
+							map[child].first.push_back(s);
+							map[child].second = level;
+						}
+						if (s1.find(child) == s1.end())
+						{
+							temp.insert(child);
+						}
+					}
+				}
+				swap(temp, s1);
+				temp.clear();
+			}
+			return results;
+		}
+
+		namespace UsedToWorkButMLENow {
+			vector<vector<string>> findLadders(string beginWord, string endWord, vector<string>& wordlist) {
+				vector<vector<string>> result;
+				queue<vector<string>> q;
+				unordered_set<string> dict(wordlist.begin(), wordlist.end());
+				q.push({ beginWord });
+				int level = 1;
+				int minDist = INT_MAX;
+
+				unordered_set<string> visited;
+
+				while (!q.empty()) {
+					vector<string> top = q.front();
+					q.pop();
+
+					if (top.size() > level) {
+						for (string w : visited) { dict.erase(w); }
+						visited.clear();
+						if (top.size() > minDist) { break; }
+						else { level = top.size(); }
+					}
+
+					string last = top.back();
+					for (int i = 0; i < last.size(); i++) {
+						string newWord = last;
+						for (char c = 'a'; c <= 'z'; c++) {
+							newWord[i] = c;
+							if (dict.find(newWord) != dict.end()) {
+								vector<string> newPath = top;
+								newPath.push_back(newWord);
+								visited.insert(newWord);
+
+								if (newWord == endWord) {
+									minDist = level;
+									result.push_back(newPath);
+								}
+								else {
+									q.push(newPath);
+								}
+							}
+						}
+					}
+				}
+				return result;
+			}
+		}
 
 		void Main() {
 			string test = "tst test test";

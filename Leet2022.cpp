@@ -16,6 +16,13 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::Test::Main(); // Medium
 
 	//====Problem Starts====
+	//8/21/2022
+	//Solution2022::BombEnemy::Main();
+	//Solution2022::WordSearchII::Main();	
+	//Solution2022::WordLadder::Main();
+	//Solution2022::WordLadderII::Main();
+	//Solution2022::MinimumTimetoCompleteTrips::Main();
+
 	//8/20/2022
 	//Solution2022::ConstructQuadTree::Main();
 	//Solution2022::FindtheClosestPalindrome::Main();
@@ -469,8 +476,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::RemoveAllOnesWithRowandColumnFlipsII::Main();
 	//Solution2022::RankTransformofaMatrix::Main();
 	//Solution2022::ReverseNodesinkGroup::Main();
-	//Solution2022::WordLadder::Main();
-	//Solution2022::WordSearchII::Main();	
 	//Solution2022::RegularExpressionMatching::Main();
 	//Solution2022::VerticalOrderTraversalofaBinaryTree::Main();
 	//Solution2022::MaximumProfitinJobScheduling::Main();
@@ -1874,7 +1879,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::DecreaseElementsToMakeArrayZigzag::Main();
 	//Solution2022::ProductofTwoRunLengthEncodedArrays::Main();
 	//Solution2022::MinimumNumberofStepstoMakeTwoStringsAnagram::Main();
-	//Solution2022::WordLadderII::Main();
 	//Solution2022::DifferentWaystoAddParentheses::Main();	
 	//Solution2022::BinaryTreeLevelOrderTraversal::Main();
 	//Solution2022::ContainsDuplicateII::Main();
@@ -2014,7 +2018,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::RectangleOverlap::Main();
 	//Solution2022::PeakIndexinaMountainArray::Main();
 	//Solution2022::CombinationSumIII::Main();
-	//Solution2022::MinimumTimetoCompleteTrips::Main();
 	//Solution2022::InvertBinaryTree::Main();
 	//Solution2022::MaximumDepthofBinaryTree::Main();
 	//Solution2022::RectangleArea::Main();
@@ -2111,7 +2114,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::ImplementStackusingQueues::Main();
 	//Solution2022::DivisorGame::Main();
 	//Solution2022::AllElementsinTwoBinarySearchTrees::Main();
-	//Solution2022::BombEnemy::Main();
 	//Solution2022::IslandPerimeter::Main();
 	//Solution2022::SellDiminishingValuedColoredBalls::Main();
 	//Solution2022::MaximumProductofSplittedBinaryTree::Main();

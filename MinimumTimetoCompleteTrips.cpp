@@ -38,8 +38,26 @@ namespace Solution2022
 {
 	namespace MinimumTimetoCompleteTrips
 	{
-	    long long minimumTime(vector<int>& time, int totalTrips) {
-	        
+		long long getTrips(vector<int>& cost, long long time) {
+			long long result = 0;
+			for (auto c : cost) {
+				result += time / (long long)c;
+			}
+			return result;
+		}
+
+	    long long minimumTime(vector<int>& cost, int totalTrips) {
+			long long l = 1;
+			long long r = 1e14;
+			while (l < r) {
+				long long mid = l + (r - l) / 2;
+				if (getTrips(cost, mid) >= totalTrips) {
+					r = mid;
+				}else {
+					l = mid + 1;
+				}
+			}
+			return l;
 	    }
 
 		void Main() {
