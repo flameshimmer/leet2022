@@ -37,9 +37,50 @@ namespace Solution2022
 	 *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 	 * };
 	 */
-	    vector<int> postorderTraversal(TreeNode* root) {
-	        
-	    }
+
+		namespace Iterative {
+			vector<int> postorderTraversal(TreeNode* root) {
+				vector<int> result;
+				if (!root) { return result; }
+
+				TreeNode* cur = root;
+				TreeNode* prev = nullptr;
+				stack<TreeNode*> s;
+
+				while (!s.empty() || cur) {
+					if (cur) { 
+						s.push(cur); 
+						cur = cur->left;
+					}
+					else {
+						TreeNode* top = s.top();
+						if (top->right && top->right != prev) {
+							cur = top->right;
+						}else {
+							s.pop();
+							result.push_back(top->val);
+							prev = top;
+						}
+					}				
+				}
+				return result;
+			}
+		}
+
+		namespace recursive {
+			void helper(TreeNode* node, vector<int>& result) {
+				if (!node) { return; }
+				helper(node->left, result);
+				helper(node->right, result);
+				result.push_back(node->val);
+			}
+
+			vector<int> postorderTraversal(TreeNode* root) {
+				vector<int> result;
+				helper(root, result);
+				return result;
+			}
+		}
 
 		void Main() {
 			string test = "tst test test";

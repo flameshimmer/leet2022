@@ -25,27 +25,63 @@ namespace Solution2022
 {
 	namespace NaryTreePostorderTraversal
 	{
-	/*
-	// Definition for a Node.
-	class Node {
-	    int val;
-	    vector<Node*> children;
-	​
-	    Node() {}
-	​
-	    Node(int _val) {
-	        val = _val;
-	    }
-	​
-	    Node(int _val, vector<Node*> _children) {
-	        val = _val;
-	        children = _children;
-	    }
-	*/
-	​
-	    vector<int> postorder(Node* root) {
-	        
-	    }
+		/*
+		// Definition for a Node.
+		class Node {
+			int val;
+			vector<Node*> children;
+		​
+			Node() {}
+		​
+			Node(int _val) {
+				val = _val;
+			}
+		​
+			Node(int _val, vector<Node*> _children) {
+				val = _val;
+				children = _children;
+			}
+		*/
+		namespace Iterative {
+			// Notice the relationship between preorder and post order travseral!
+			// Post order traversal is the reverse sequence of slightly modified pre-order traversal. 
+			// The modified part is the sequence where the children is put into the stack!
+			vector<int> postorder(Node* root) {
+				vector<int> result;
+				if (!root) { return result; }
+
+				stack<Node*> s;
+				s.push(root);
+				while (!s.empty()) {
+					Node* top = s.top();
+					s.pop();
+					result.push_back(top->val);
+
+					for (Node* child : top->children) {
+						s.push(child);
+					}
+				}
+				reverse(result.begin(), result.end());
+				return result;
+			}
+		}
+
+		namespace Recursive {
+			void helper(Node* node, vector<int>& result) {
+				if (!node) { return; }
+
+				for (Node* child : node->children) {
+					helper(child, result);
+				}
+				result.push_back(node->val);
+			}
+
+			vector<int> postorder(Node* root) {
+				vector<int> result;
+				helper(root, result);
+				return result;
+			}
+		}
 
 		void Main() {
 			string test = "tst test test";

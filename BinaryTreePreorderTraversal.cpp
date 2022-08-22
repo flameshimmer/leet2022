@@ -37,10 +37,40 @@ namespace Solution2022
 	 *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 	 * };
 	 */
-	    vector<int> preorderTraversal(TreeNode* root) {
-	        
-	    }
+		namespace Iterative {		
+			vector<int> preorderTraversal(TreeNode* root) {
+				vector<int> result;
+				if (!root) { return result; }
 
+				stack<TreeNode*> s;
+				s.push(root);
+
+				while (!s.empty()) {
+					TreeNode* top = s.top();
+					s.pop();
+
+					result.push_back(top->val);
+					if (top->right) { s.push(top->right); }
+					if (top->left) { s.push(top->left); }
+				}
+				return result;
+			}
+		}
+
+		namespace Recursion {
+			void helper(TreeNode* root, vector<int>& result) {
+				if (!root) { return; }
+				result.push_back(root->val);
+				helper(root->left, result);
+				helper(root->right, result);
+			}
+
+			vector<int> preorderTraversal(TreeNode* root) {
+				vector<int> result;
+				helper(root, result);
+				return result;
+			}
+		}
 		void Main() {
 			string test = "tst test test";
 			print(test);

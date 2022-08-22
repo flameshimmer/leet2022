@@ -25,27 +25,61 @@ namespace Solution2022
 {
 	namespace NaryTreePreorderTraversal
 	{
-	/*
-	// Definition for a Node.
-	class Node {
-	    int val;
-	    vector<Node*> children;
-	​
-	    Node() {}
-	​
-	    Node(int _val) {
-	        val = _val;
-	    }
-	​
-	    Node(int _val, vector<Node*> _children) {
-	        val = _val;
-	        children = _children;
-	    }
-	*/
-	​
-	    vector<int> preorder(Node* root) {
-	        
-	    }
+		/*
+		// Definition for a Node.
+		class Node {
+			int val;
+			vector<Node*> children;
+		​
+			Node() {}
+		​
+			Node(int _val) {
+				val = _val;
+			}
+		​
+			Node(int _val, vector<Node*> _children) {
+				val = _val;
+				children = _children;
+			}
+		*/
+
+		namespace Iterative {
+			vector<int> preorder(Node* root) {
+				vector<int> result;
+				if (!root) { return result; }
+
+				stack<Node*> s;
+				s.push(root);
+
+				while (!s.empty()) {
+					Node* top = s.top();
+					s.pop();
+
+					result.push_back(top->val);
+					reverse(top->children.begin(), top->children.end());
+					for (Node* child : top->children) {
+						s.push(child);
+					}
+				}
+				return result;
+			}
+		}
+
+		namespace Recursion {
+			void helper(Node* root, vector<int>& result) {
+				if (!root) { return; }
+				result.push_back(root->val);
+				for (Node* child : root->children) {
+					helper(child, result);
+				}				
+			}
+
+			vector<int> preorder(Node* root) {
+				vector<int> result;
+				helper(root, result);
+				return result;
+			}
+		}
 
 		void Main() {
 			string test = "tst test test";

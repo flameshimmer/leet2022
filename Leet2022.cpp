@@ -16,6 +16,19 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::Test::Main(); // Medium
 
 	//====Problem Starts====
+	//8/23/2022
+	//Solution2022::ExamRoom::Main();
+	//Solution2022::RotatingtheBox::Main();
+	//Solution2022::KthSmallestElementinaBST::Main();
+	//Solution2022::BestPositionforaServiceCentre::Main();
+
+	//8/22/2022
+	//Solution2022::BinaryTreePreorderTraversal::Main();
+	//Solution2022::BinaryTreePostorderTraversal::Main();
+	//Solution2022::NaryTreeLevelOrderTraversal::Main();
+	//Solution2022::NaryTreePreorderTraversal::Main();
+	//Solution2022::NaryTreePostorderTraversal::Main();
+
 	//8/21/2022
 	//Solution2022::BombEnemy::Main();
 	//Solution2022::WordSearchII::Main();	
@@ -513,7 +526,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::DistantBarcodes::Main();
 	//Solution2022::RestoretheArrayFromAdjacentPairs::Main();
 	//Solution2022::MinimumNumberofSwapstoMaketheBinaryStringAlternating::Main();
-	//Solution2022::ExamRoom::Main();
 	//Solution2022::FindGoodDaystoRobtheBank::Main();
 	//Solution2022::BaseSeven::Main();
 	//Solution2022::NumberofClosedIslands::Main();
@@ -911,7 +923,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::SplitArrayWithSameAverage::Main();
 	//Solution2022::FindClosestNumbertoZero::Main();
 	//Solution2022::ColoringABorder::Main();
-	//Solution2022::NaryTreePreorderTraversal::Main();
 	//Solution2022::RedundantConnectionII::Main();
 	//Solution2022::BinaryTreeLevelOrderTraversalII::Main();
 	//Solution2022::CountSubarraysWithMoreOnesThanZeros::Main();
@@ -967,8 +978,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::FindtheKthLargestIntegerintheArray::Main();
 	//Solution2022::CountOperationstoObtainZero::Main();
 	//Solution2022::FindKthSmallestPairDistance::Main();
-	//Solution2022::BinaryTreePreorderTraversal::Main();
-	//Solution2022::BestPositionforaServiceCentre::Main();
 	//Solution2022::LargestTriangleArea::Main();
 	//Solution2022::MinimizeMaximumPairSuminArray::Main();
 	//Solution2022::CountGoodTriplets::Main();
@@ -1011,7 +1020,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::DestroyingAsteroids::Main();
 	//Solution2022::MinimumGeneticMutation::Main();
 	//Solution2022::SortArrayByParityII::Main();
-	//Solution2022::NaryTreeLevelOrderTraversal::Main();
 	//Solution2022::CountNumberofRectanglesContainingEachPoint::Main();
 	//Solution2022::QueriesonNumberofPointsInsideaCircle::Main();
 	//Solution2022::ReplacetheSubstringforBalancedString::Main();
@@ -1162,7 +1170,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::QueensThatCanAttacktheKing::Main();
 	//Solution2022::FindRootofNAryTree::Main();
 	//Solution2022::StoneGameVII::Main();
-	//Solution2022::BinaryTreePostorderTraversal::Main();
 	//Solution2022::DesignCircularDeque::Main();
 	//Solution2022::MaximumDistanceBetweenaPairofValues::Main();
 	//Solution2022::BagofTokens::Main();
@@ -1181,8 +1188,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::MinimumCosttoReachDestinationinTime::Main();
 	//Solution2022::MinimumOperationstoConvertNumber::Main();
 	//Solution2022::CheckifOneStringSwapCanMakeStringsEqual::Main();
-	//Solution2022::ConstructStringfromBinaryTree::Main();
-	//Solution2022::NaryTreePostorderTraversal::Main();
+	//Solution2022::ConstructStringfromBinaryTree::Main
 	//Solution2022::SurfaceAreaofThreeDShapes::Main();
 	//Solution2022::SpecialPositionsinaBinaryMatrix::Main();
 	//Solution2022::ConstructtheRectangle::Main();
@@ -1713,7 +1719,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::RemoveDuplicateLetters::Main();
 	//Solution2022::WildcardMatching::Main();
 	//Solution2022::MinimumDominoRotationsForEqualRow::Main();
-	//Solution2022::RotatingtheBox::Main();
 	//Solution2022::MinimumKnightMoves::Main();
 	//Solution2022::DailyTemperatures::Main();
 	//Solution2022::MoveZeroes::Main();
@@ -1967,7 +1972,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::PerfectSquares::Main();
 	//Solution2022::DominoandTrominoTiling::Main();
 	//Solution2022::OneEditDistance::Main();
-	//Solution2022::KthSmallestElementinaBST::Main();
 	//Solution2022::PlusOne::Main();
 	//Solution2022::RansomNote::Main();
 	//Solution2022::RichestCustomerWealth::Main
