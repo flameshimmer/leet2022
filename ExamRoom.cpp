@@ -39,29 +39,82 @@ namespace Solution2022
 {
 	namespace ExamRoom
 	{
-	class ExamRoom {
-	    ExamRoom(int n) {
-	        
-	    }
-	    
-	    int seat() {
-	        
-	    }
-	    
-	    void leave(int p) {
-	        
-	    }
-	​
-	/**
-	 * Your ExamRoom object will be instantiated and called as such:
-	 * ExamRoom* obj = new ExamRoom(n);
-	 * int param_1 = obj->seat();
-	 * obj->leave(p);
-	 */
+
+		class ExamRoom {	
+		private:
+			int capacity;
+			list<int> seats;
+			unordered_map<int, list<int>::iterator> map; // seatId, the seatId's iterator in linked list
+		public:
+			ExamRoom(int N): capacity(N) {			
+			}
+
+			int seat() {
+				if (seats.empty()) {
+					seats.push_back(0);
+					map[0] = seats.begin();
+					return 0;
+				}
+
+				int lastSeat = -1; // last scanned value in linkedlist
+				int distanceToNeighbour = 0; // distance to its neighbors
+				int newSeat = 0; // the number to sit on
+				list<int>::iterator insertPos; // insert position in linked list
+
+				for (auto it = seats.begin(); it != seats.end(); it++) {
+					if (lastSeat == -1) {
+						distanceToNeighbour = *it;
+						insertPos = it;
+						newSeat = 0;
+					}
+					else if ((*it - lastSeat) / 2 > distanceToNeighbour) {
+						distanceToNeighbour = (*it - lastSeat) / 2;
+						insertPos = it;
+						newSeat = (*it + lastSeat) / 2;
+					}
+					lastSeat = *it;
+				}
+
+				if (capacity - 1 - seats.back() > distanceToNeighbour) {
+					insertPos = seats.end();
+					newSeat = capacity - 1;
+				}
+
+				auto it = seats.insert(insertPos, newSeat);
+				map[newSeat] = it;
+				return newSeat;
+			}
+
+			void leave(int p) {
+				seats.erase(map[p]);
+			}
+		
+		};
+
+		/**
+		 * Your ExamRoom object will be instantiated and called as such:
+		 * ExamRoom* obj = new ExamRoom(n);
+		 * print (obj->seat();
+		 * obj->leave(p);
+		 */
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			ExamRoom* obj = new ExamRoom(10);
+			print(obj->seat());
+			print(obj->seat());
+			print(obj->seat());
+			print(obj->seat());
+			obj->leave(4);
+			print(obj->seat());
+
+			//ExamRoom* obj = new ExamRoom(4);
+			//print(obj->seat());
+			//print(obj->seat());
+			//print(obj->seat());
+			//print(obj->seat());
+			//obj->leave(1);
+			//obj->leave(3);
+			//print(obj->seat());
 		}
 	}
 }

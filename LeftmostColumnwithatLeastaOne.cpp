@@ -40,15 +40,15 @@ namespace Solution2022
 {
 	namespace LeftmostColumnwithatLeastaOne
 	{
-		/**
-		 * // This is the BinaryMatrix's API interface.
-		 * // You should not implement it, or speculate about its implementation
-		 * class BinaryMatrix {
-		 *   public:
-		 *     int get(int row, int col);
-		 *     vector<int> dimensions();
-		 * };
-		 */
+
+		// This is the BinaryMatrix's API interface.
+		// You should not implement it, or speculate about its implementation
+		class BinaryMatrix {
+		public:
+			int get(int row, int col) { return 0; }
+			vector<int> dimensions() { return {}; }
+		};
+
 
 		int leftMostColumnWithOne(BinaryMatrix& matrix) {
 			int rowCount = matrix.dimensions()[0];

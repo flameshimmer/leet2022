@@ -16,11 +16,12 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::Test::Main(); // Medium
 
 	//====Problem Starts====
-	//8/23/2022
+	//8/27/2022
 	//Solution2022::ExamRoom::Main();
 	//Solution2022::RotatingtheBox::Main();
 	//Solution2022::KthSmallestElementinaBST::Main();
 	//Solution2022::BestPositionforaServiceCentre::Main();
+	//Solution2022::ZigzagConversion::Main();
 
 	//8/22/2022
 	//Solution2022::BinaryTreePreorderTraversal::Main();
@@ -1734,7 +1735,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::FindPivotIndex::Main();
 	//Solution2022::FlipStringtoMonotoneIncreasing::Main();
 	//Solution2022::SingleNumber::Main();
-	//Solution2022::ZigzagConversion::Main();
 	//Solution2022::MaximumProductSubarray::Main();
 	//Solution2022::RankTeamsbyVotes::Main();
 	//Solution2022::SmallestIntegerDivisiblebyK::Main

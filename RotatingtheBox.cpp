@@ -51,7 +51,25 @@ namespace Solution2022
 	namespace RotatingtheBox
 	{
 	    vector<vector<char>> rotateTheBox(vector<vector<char>>& box) {
-	        
+			int rowCount = box.size();
+			int colCount = box[0].size();
+			vector<vector<char>> result(colCount, vector<char>(rowCount, '.'));
+			
+			for (int i = 0; i < rowCount; i++) {
+				int w = colCount - 1;
+				for (int j = colCount - 1; j >= 0; j--) {
+					if (box[i][j] == '.') { continue; }
+					else if (box[i][j] == '#') {
+						result[w][rowCount - 1 - i] = '#';
+						w--;
+					}
+					else {
+						result[j][rowCount - 1 - i] = '*';
+						w = j - 1;
+					}
+				}
+			}
+			return result;
 	    }
 
 		void Main() {

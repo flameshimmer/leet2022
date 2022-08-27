@@ -33,9 +33,41 @@ namespace Solution2022
 {
 	namespace BestPositionforaServiceCentre
 	{
-	    double getMinDistSum(vector<vector<int>>& positions) {
-	        
-	    }
+		double dist(vector<int>& a, vector<double>& b) {
+			return sqrt(pow(a[0] - b[0], 2) + pow(a[1] - b[1], 2));
+		}
+
+		double all(vector<vector<int>>& A, vector<double>& point) {
+			double result = 0;
+			for (vector<int>& a : A) { result += dist(a, point); }
+			return result;
+		}
+
+		double getMinDistSum(vector<vector<int>>& A) {
+			vector<pair<int, int>> dirs = { {0, 1}, {0, -1}, {1, 0}, {-1, 0} };
+			double result = DBL_MAX;
+
+			vector<double> p(2, 0);
+
+			double step = 100;
+			double eps = 1e-6;
+
+			while (step > eps) {
+				bool found = false;
+				for (auto [x, y] : dirs) {
+					vector<double> next = {p[0] + step * x, p[1] + step * y};
+					double d = all(A, next);
+					if (d < result) {
+						result = d;
+						p = next;
+						found = true;
+						break;
+					}
+				}
+				if (!found) { step /= 2; }
+			}
+			return result;
+		}
 
 		void Main() {
 			string test = "tst test test";

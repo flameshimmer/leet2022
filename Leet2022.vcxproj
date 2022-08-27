@@ -164,8 +164,10 @@
     <ClCompile Include="BattleshipsinaBoard.cpp" />
     <ClCompile Include="BestTimetoBuyandSellStock.cpp" />
     <ClCompile Include="BinarySearch.cpp" />
+    <ClCompile Include="BinaryTreePreorderTraversal.cpp" />
     <ClCompile Include="BinaryTreeVerticalOrderTraversal.cpp" />
     <ClCompile Include="BoatstoSavePeople.cpp" />
+    <ClCompile Include="BombEnemy.cpp" />
     <ClCompile Include="BrokenCalculator.cpp" />
     <ClCompile Include="BuildingsWithanOceanView.cpp" />
     <ClCompile Include="BusRoutes.cpp" />
@@ -178,6 +180,7 @@
     <ClCompile Include="CoinChange.cpp" />
     <ClCompile Include="Combinations.cpp" />
     <ClCompile Include="ConfusingNumber.cpp" />
+    <ClCompile Include="ConstructQuadTree.cpp" />
     <ClCompile Include="ContainerWithMostWater.cpp" />
     <ClCompile Include="ContainsDuplicate.cpp" />
     <ClCompile Include="ConvertBinarySearchTreetoSortedDoublyLinkedList.cpp" />
@@ -204,6 +207,7 @@
     <ClCompile Include="EmployeeFreeTime.cpp" />
     <ClCompile Include="EvaluateDivision.cpp" />
     <ClCompile Include="EvaluateReversePolishNotation.cpp" />
+    <ClCompile Include="ExamRoom.cpp" />
     <ClCompile Include="ExcelSheetColumnNumber.cpp" />
     <ClCompile Include="ExclusiveTimeofFunctions.cpp" />
     <ClCompile Include="FibonacciNumber.cpp" />
@@ -252,11 +256,13 @@
     <ClCompile Include="KthLargestElementinanArray.cpp" />
     <ClCompile Include="KthMissingPositiveNumber.cpp" />
     <ClCompile Include="Leet2022.cpp" />
+    <ClCompile Include="LeftmostColumnwithatLeastaOne.cpp" />
     <ClCompile Include="LetterCasePermutation.cpp" />
     <ClCompile Include="LetterCombinationsofaPhoneNumber.cpp" />
     <ClCompile Include="LexicographicallySmallestEquivalentString.cpp" />
     <ClCompile Include="ListNode.cpp" />
     <ClCompile Include="LongestCommonPrefix.cpp" />
+    <ClCompile Include="LongestContinuousSubarrayWithAbsoluteDiffLessThanorEqualtoLimit.cpp" />
     <ClCompile Include="LongestDuplicateSubstring.cpp" />
     <ClCompile Include="LongestHappyString.cpp" />
     <ClCompile Include="LongestIncreasingPathinaMatrix.cpp" />
@@ -302,11 +308,13 @@
     <ClCompile Include="MovingAveragefromDataStream.cpp" />
     <ClCompile Include="MyCalendarI.cpp" />
     <ClCompile Include="MyCalendarIII.cpp" />
+    <ClCompile Include="NaryTreePreorderTraversal.cpp" />
     <ClCompile Include="NestedListWeightSum.cpp" />
     <ClCompile Include="NestedListWeightSumII.cpp" />
     <ClCompile Include="NextGreaterElementI.cpp" />
     <ClCompile Include="NextGreaterElementII.cpp" />
     <ClCompile Include="NextGreaterElementIII.cpp" />
+    <ClCompile Include="NextPalindromeUsingSameDigits.cpp" />
     <ClCompile Include="NextPermutation.cpp" />
     <ClCompile Include="NthDigit.cpp" />
     <ClCompile Include="NumberofIslands.cpp" />
@@ -327,6 +335,7 @@
     <ClCompile Include="PopulatingNextRightPointersinEachNode.cpp" />
     <ClCompile Include="Pow.cpp" />
     <ClCompile Include="PowerofTwo.cpp" />
+    <ClCompile Include="ProcessTasksUsingServers.cpp" />
     <ClCompile Include="ProductofArrayExceptSelf.cpp" />
     <ClCompile Include="RaceCar.cpp" />
     <ClCompile Include="RandomPickwithWeight.cpp" />
@@ -415,6 +424,8 @@
     <ClCompile Include="VerifyinganAlienDictionary.cpp" />
     <ClCompile Include="VideoStitching.cpp" />
     <ClCompile Include="WordBreakII.cpp" />
+    <ClCompile Include="WordLadder.cpp" />
+    <ClCompile Include="WordLadderII.cpp" />
     <ClCompile Include="WordSubsets.cpp" />
     <ClCompile Include="ZeroOneMatrix.cpp" />
   </ItemGroup>

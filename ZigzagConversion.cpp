@@ -39,7 +39,24 @@ namespace Solution2022
 	namespace ZigzagConversion
 	{
 	    string convert(string s, int numRows) {
-	        
+			if (numRows <= 1) { return s; }
+
+			vector<string> results(numRows, "");
+			int step = 1;
+
+			int curRow = 0;
+			for (char c : s) {
+				results[curRow].push_back(c);
+				if (curRow == 0) { step = 1; }
+				else if (curRow == numRows - 1) { step = -1; }
+				curRow += step;
+			}
+
+			string result = "";
+			for (string& s : results) {
+				result += s;
+			}
+			return result;
 	    }
 
 		void Main() {

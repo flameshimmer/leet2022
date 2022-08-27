@@ -36,9 +36,50 @@ namespace Solution2022
 	 *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 	 * };
 	 */
-	    int kthSmallest(TreeNode* root, int k) {
-	        
-	    }
+		namespace Recursive {
+			bool helper(TreeNode* node, int& k, int& result) {
+				if (!node) { return false; }
+
+				if (helper(node->left, k, result)) { return true; }
+				k--;
+				if (k == 0) { result = node->val; return true; }
+				return helper(node->right, k, result);
+			}
+
+
+			int kthSmallest(TreeNode* root, int k) {
+				int result = 0;
+				helper(root, k, result);
+				return result;
+			}
+		}
+
+		namespace Iterative {
+			
+			int kthSmallest(TreeNode* root, int k) {
+				if (!root) { return 0; }
+
+				stack<TreeNode*> s;
+				int count = 0;
+				TreeNode* cur = root;
+
+				while (cur || !s.empty()) {
+					if (cur) {
+						s.push(cur);
+						cur = cur->left;
+					}
+					else {
+						TreeNode* top = s.top();
+						s.pop();
+						count++;
+						if (count == k) { return top->val; }
+						if (top->right) { cur = top->right; }
+					}				
+				}
+				return 0;
+			}		
+		}
+
 
 		void Main() {
 			string test = "tst test test";
