@@ -162,6 +162,7 @@
     <ClCompile Include="BasicCalculator.cpp" />
     <ClCompile Include="BasicCalculatorIII.cpp" />
     <ClCompile Include="BattleshipsinaBoard.cpp" />
+    <ClCompile Include="BestPositionforaServiceCentre.cpp" />
     <ClCompile Include="BestTimetoBuyandSellStock.cpp" />
     <ClCompile Include="BinarySearch.cpp" />
     <ClCompile Include="BinaryTreePreorderTraversal.cpp" />
@@ -187,6 +188,7 @@
     <ClCompile Include="CopyListwithRandomPointer.cpp" />
     <ClCompile Include="CountBinarySubstrings.cpp" />
     <ClCompile Include="CountOddNumbersinanIntervalRange.cpp" />
+    <ClCompile Include="CountofSmallerNumbersAfterSelf.cpp" />
     <ClCompile Include="CountSquareSubmatriceswithAllOnes.cpp" />
     <ClCompile Include="CountUniqueCharactersofAllSubstringsofaGivenString.cpp" />
     <ClCompile Include="CountWordsObtainedAfterAddingaLetter.cpp" />
@@ -217,6 +219,7 @@
     <ClCompile Include="FindFirstandLastPositionofElementinSortedArray.cpp" />
     <ClCompile Include="FindingMKAverage.cpp" />
     <ClCompile Include="FindingThreeDigitEvenNumbers.cpp" />
+    <ClCompile Include="FindMedianfromDataStream.cpp" />
     <ClCompile Include="FindNUniqueIntegersSumuptoZero.cpp" />
     <ClCompile Include="FindPeakElement.cpp" />
     <ClCompile Include="FindServersThatHandledMostNumberofRequests.cpp" />
@@ -366,6 +369,8 @@
     <ClCompile Include="RottingOranges.cpp" />
     <ClCompile Include="SearchinRotatedSortedArray.cpp" />
     <ClCompile Include="SearchInsertPosition.cpp" />
+    <ClCompile Include="SerializeandDeserializeBinaryTree.cpp" />
+    <ClCompile Include="SerializeandDeserializeBST.cpp" />
     <ClCompile Include="ShortestDistancefromAllBuildings.cpp" />
     <ClCompile Include="ShortestPathinaGridwithObstaclesElimination.cpp" />
     <ClCompile Include="ShortestPathinBinaryMatrix.cpp" />
@@ -428,6 +433,7 @@
     <ClCompile Include="WordLadderII.cpp" />
     <ClCompile Include="WordSubsets.cpp" />
     <ClCompile Include="ZeroOneMatrix.cpp" />
+    <ClCompile Include="ZigzagConversion.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Solution2022.h" />

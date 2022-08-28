@@ -29,30 +29,56 @@ namespace Solution2022
 {
 	namespace SerializeandDeserializeBinaryTree
 	{
-	/**
-	 * Definition for a binary tree node.
-	 * struct TreeNode {
-	 *     int val;
-	 *     TreeNode *left;
-	 *     TreeNode *right;
-	 *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
-	 * };
-	 */
-	class Codec {
-	​
-	    // Encodes a tree to a single string.
-	    string serialize(TreeNode* root) {
-	        
-	    }
-	​
-	    // Decodes your encoded data to tree.
-	    TreeNode* deserialize(string data) {
-	        
-	    }
-	​
-	// Your Codec object will be instantiated and called as such:
-	// Codec ser, deser;
-	// TreeNode* ans = deser.deserialize(ser.serialize(root));
+		//Definition for a binary tree node.
+		struct TreeNode {
+			int val;
+			TreeNode* left;
+			TreeNode* right;
+			TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+		};
+
+		class Codec {
+		private:
+			void serializeHelper(TreeNode* node, ostringstream& out) {
+				if (!node) {
+					out << "# ";
+					return;
+				}
+				out << node->val << " ";
+				serializeHelper(node->left, out);
+				serializeHelper(node->right, out);
+			}
+
+			TreeNode* deserializeHelper(istringstream& in) {
+				string val;
+				in >> val;
+				if (val == "#") { return nullptr; }
+
+				TreeNode* newNode = new TreeNode(stoi(val));
+				newNode->left = deserializeHelper(in);
+				newNode->right = deserializeHelper(in);
+				return newNode;
+			}
+
+		public:
+			// Encodes a tree to a single string.
+			string serialize(TreeNode* root) {
+				ostringstream out;
+				serializeHelper(root, out);
+				return out.str();
+			}
+
+			// Decodes your encoded data to tree.
+			TreeNode* deserialize(string data) {
+				istringstream in(data);
+				return deserializeHelper(in);
+			}
+		};
+
+
+		// Your Codec object will be instantiated and called as such:
+		// Codec ser, deser;
+		// TreeNode* ans = deser.deserialize(ser.serialize(root));
 
 		void Main() {
 			string test = "tst test test";

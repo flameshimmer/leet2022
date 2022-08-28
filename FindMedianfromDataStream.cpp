@@ -39,29 +39,54 @@
 //If 99% of all integer numbers from the stream are in the range [0, 100], how
 //would you optimize your solution?
 
+
 namespace Solution2022
 {
+
+	//FollowUp answer:
+	//1. If all integer numbers from the stream are between 0 and 100, how would you optimize it ?
+	//We can maintain an integer array of length 100 to store the count of each number
+	//along with a total count.Then, we can iterate over the array to find the middle value to get our median.
+	//Time and space complexity would be O(100) = O(1).
+	//
+	//2. If 99 % of all integer numbers from the stream are between 0 and 100, how would you optimize it ?
+	//In this case, we need an integer array of length 100 and a hashmap for these numbers that are not in[0, 100].
+
 	namespace FindMedianfromDataStream
 	{
-	class MedianFinder {
-	    MedianFinder() {
-	        
-	    }
-	    
-	    void addNum(int num) {
-	        
-	    }
-	    
-	    double findMedian() {
-	        
-	    }
-	​
-	/**
-	 * Your MedianFinder object will be instantiated and called as such:
-	 * MedianFinder* obj = new MedianFinder();
-	 * obj->addNum(num);
-	 * double param_2 = obj->findMedian();
-	 */
+		class MedianFinder {
+		private:
+			priority_queue<long long> smallerHalf;
+			priority_queue<long long> largerHalf;
+		public:
+			MedianFinder() {
+
+			}
+
+			void addNum(int num) {
+				smallerHalf.push(num);
+				largerHalf.push(-smallerHalf.top());
+				smallerHalf.pop();
+
+				if (smallerHalf.size() < largerHalf.size()) {
+					smallerHalf.push(-largerHalf.top());
+					largerHalf.pop();
+				}
+			}
+
+			double findMedian() {
+				if (smallerHalf.size() > largerHalf.size()) { return smallerHalf.top(); }
+				return (smallerHalf.top() - largerHalf.top()) / 2.0; // Note: has to be 2.0 instead of 2! Otherwise will become int result
+			}
+		};
+
+
+		/**
+		 * Your MedianFinder object will be instantiated and called as such:
+		 * MedianFinder* obj = new MedianFinder();
+		 * obj->addNum(num);
+		 * double param_2 = obj->findMedian();
+		 */
 
 		void Main() {
 			string test = "tst test test";

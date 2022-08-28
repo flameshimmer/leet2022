@@ -30,8 +30,31 @@ namespace Solution2022
 {
 	namespace CountofSmallerNumbersAfterSelf
 	{
+		void helper(vector<pair<int, int>>::iterator begin, vector<pair<int, int>>::iterator end, vector<int>& result) {
+			if (end - begin <= 1) { return; } // no mid element to process here, directly return.
+
+			auto mid = begin + (end - begin) / 2;
+			helper(begin, mid, result);
+			helper(mid, end, result);
+
+			auto j = mid;
+			for (auto i = begin; i < mid; i++) {
+				while (j < end && i->first > j->first) { j++; }
+				result[i->second] += j - mid;
+			}
+			inplace_merge(begin, mid, end);
+		}
+
 	    vector<int> countSmaller(vector<int>& nums) {
-	        
+			int len = nums.size();
+			vector<int> result(len);
+			vector<pair<int, int>> A;
+
+			for (int i = 0; i < len; i++) {
+				A.push_back({nums[i], i});
+			}
+			helper(A.begin(), A.end(), result);
+			return result;
 	    }
 
 		void Main() {

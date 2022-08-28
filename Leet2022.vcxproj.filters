@@ -849,6 +849,24 @@
     <ClCompile Include="ExamRoom.cpp">
       <Filter>Solution2022</Filter>
     </ClCompile>
+    <ClCompile Include="BestPositionforaServiceCentre.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="ZigzagConversion.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="CountofSmallerNumbersAfterSelf.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="FindMedianfromDataStream.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="SerializeandDeserializeBinaryTree.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="SerializeandDeserializeBST.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Solution2022.h">
