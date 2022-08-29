@@ -38,7 +38,39 @@ namespace Solution2022
 	namespace PaintHouseII
 	{
 	    int minCostII(vector<vector<int>>& costs) {
-	        
+			int len = costs.size();
+			if (len == 0) { return 0; }
+
+			int houseCount = costs.size();
+			int paintCount = costs[0].size();
+
+			int min1Color = -1;
+			int min2Color = -1;
+
+			for (int i = 0; i < houseCount; i++) {
+				int lastMin1Color = min1Color;
+				int lastMin2Color = min2Color;
+				min1Color = -1;
+				min2Color = -1;
+
+				for (int j = 0; j < paintCount; j++) {
+					if (j != lastMin1Color) {
+						costs[i][j] += (lastMin1Color == -1) ? 0 : costs[i - 1][lastMin1Color];
+					}
+					else {
+						costs[i][j] += (lastMin2Color == -1) ? 0 : costs[i - 1][lastMin2Color];
+					}
+					
+					if (min1Color == -1 || costs[i][j] < costs[i][min1Color]) {
+						min2Color = min1Color;
+						min1Color = j;
+					}
+					else if (min2Color == -1 || costs[i][j] < costs[i][min2Color]) {
+						min2Color = j;
+					}
+				}				
+			}
+			return costs[len - 1][min1Color];
 	    }
 
 		void Main() {

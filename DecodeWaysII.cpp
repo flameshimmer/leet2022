@@ -59,9 +59,45 @@ namespace Solution2022
 {
 	namespace DecodeWaysII
 	{
-	    int numDecodings(string s) {
-	        
-	    }
+		int ways(char c1, char c2) {
+			if (c1 == '*' && c2 == '*') { return 15; }
+			else if (c1 == '*') {
+				if (c2 >= '0' && c2 <= '6') { return 2; }
+				else { return 1; }
+			}
+			else if (c2 == '*') {
+				switch (c1) {
+				case '1': return 9; // NOTE: this should be character 1, not number 1
+				case '2': return 6;
+				default: return 0;
+				}
+			}
+			else {
+				return (c1 == '1' || (c1 == '2' && c2 >= '0' && c2 <= '6')) ? 1 : 0;
+			}
+		}
+
+		int ways(char c) {
+			if (c == '*') { return 9; }
+			else if (c == '0') { return 0; }
+			return 1;
+		}
+
+		int numDecodings(string s) {
+			int len = s.size();
+			if (len == 0) { return 0; }
+
+			long long r1 = ways(s[0]);
+			long long r2 = 1;
+			int MOD = 1e9 + 7;
+
+			for (int i = 1; i < len; i++) {
+				long long r = (r1 * ways(s[i]) + r2 * ways(s[i - 1], s[i])) % MOD;
+				r2 = r1;
+				r1 = r;
+			}
+			return r1;
+		}
 
 		void Main() {
 			string test = "tst test test";

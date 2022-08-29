@@ -43,10 +43,68 @@ namespace Solution2022
 {
 	namespace DecodeWays
 	{
-	    int numDecodings(string s) {
-	        
-	    }
+		namespace DP {
 
+			//dp[-1] = 1;
+			//dp[i] = 
+			//	1. 0, if s[i] and s[i-1][i] are invalid
+			//	2. dp[i-1] + dp[i-2], if s[i] and s[i - 1][i] are valid
+			//	3. dp[i-1], if s[i] is valid
+			//	4. dp[i-2], if s[i-1]s[i] is valid
+
+			//s[i] is valid: if s[i] != '0'
+			//s[i-1]s[i] is valid: if 10 <= s[i-1][i] <= 26
+
+			int numDecodings(string s) {
+				int len = s.size();
+				if (len == 0 || s[0] == '0') { return 0; }
+				
+				int r1 = 1;
+				int r2 = 1;
+
+				for (int i = 1; i < len; i++) {
+					int r = 0;
+					if (s[i] != '0') { r += r1; }
+					if (s[i - 1] == '1' || (s[i - 1] == '2' && s[i] <= '6')) { r += r2; }
+					r2 = r1;
+					r1 = r;
+				}
+				return r1;
+			}
+		}
+		
+		
+		namespace RecursionWithMemorization {
+			// Without memorization the problem will TLE
+			void helper(string& s, int start, int len, int& result, vector<int>& M) {
+				if (start == len) { result++; }
+				if (start >= len) { return; }
+
+				if (M[start] != -1) { 
+					result += M[start];  
+					return; 
+				}
+
+				if (s[start] == '0') { return; }
+
+				int oldResult = result;
+				helper(s, start + 1, len, result, M);
+
+				if (s[start] == '1' || s[start] == '2' && start + 1 < len && s[start + 1] <= '6') {
+					helper(s, start + 2, len, result, M);
+				}
+				M[start] = result - oldResult;
+			}
+
+			int numDecodings(string s) {
+				int len = s.size();
+				int result = 0;
+				vector<int> M(len, -1);
+				helper(s, 0, len, result, M);
+				return result;
+			}
+		}
+	    
 		void Main() {
 			string test = "tst test test";
 			print(test);

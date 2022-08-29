@@ -15,23 +15,25 @@ int _tmain(int argc, _TCHAR* argv[])
 	clock_t begin = clock();
 	//Solution2022::Test::Main(); // Medium
 
-	//Solution2022::DecodeWays::Main();
-	//Solution2022::DecodeWaysII::Main();
 	//Solution2022::CourseSchedule::Main();
 	//Solution2022::CourseScheduleII::Main();
 	//Solution2022::CourseScheduleIII::Main();
-	//Solution2022::CourseScheduleIV::Main();
-	//Solution2022::PaintHouse::Main();
-	//Solution2022::PaintHouseII::Main();
-	//Solution2022::PaintHouseIII::Main();
-
+	//Solution2022::CourseScheduleIV::Main();	
 	//Solution2022::ContinuousSubarraySum::Main();
+
 	//Solution2022::BinaryTreeRightSideView::Main();
 	//Solution2022::GroupShiftedStrings::Main();
 	//Solution2022::MinimumWindowSubstring::Main();
 	//Solution2022::Candy::Main();
 
 	//====Problem Starts====
+	//8/29/2022
+	//Solution2022::DecodeWays::Main();
+	//Solution2022::DecodeWaysII::Main();
+	//Solution2022::PaintHouse::Main();
+	//Solution2022::PaintHouseII::Main();
+	//Solution2022::PaintHouseIII::Main();
+
 	//8/28/2022
 	//Solution2022::CountofSmallerNumbersAfterSelf::Main();
 	//Solution2022::FindMedianfromDataStream::Main();

@@ -33,7 +33,20 @@ namespace Solution2022
 	namespace PaintHouse
 	{
 	    int minCost(vector<vector<int>>& costs) {
-	        
+			int len = costs.size();
+			if (len == 0) { return 0; }
+
+			vector<int> cost = costs[0]; // last round of colors
+
+			for (int i = 1; i < len; i++) {
+				int r = min(cost[1], cost[2]) + costs[i][0];
+				int b = min(cost[0], cost[2]) + costs[i][1];
+				int g = min(cost[0], cost[1]) + costs[i][2];
+				cost[0] = r;
+				cost[1] = b;
+				cost[2] = g;
+			}
+			return min(cost[0], min(cost[1], cost[2]));
 	    }
 
 		void Main() {

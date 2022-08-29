@@ -51,8 +51,38 @@ namespace Solution2022
 {
 	namespace PaintHouseIII
 	{
+		//https://www.youtube.com/watch?v=53b32Upplk0
+		/*dp[k][i][c] : = min cost to form k neighbors with first i houses and i - th house is in color c.
+
+		dp[k][i][c] : = min{ dp[k - (c != cj)][j][cj] for cj in 1..n } +0 if houses[i] == c else cost[i][c]
+
+		init : dp[0][0][*] = 0 otherwise inf
+		ans = min(dp[target][m])
+
+		Time complexity : O(T * M * N ^ 2)
+		Space complexity : O(T * M * N)->O(M * N)*/
+
 	    int minCost(vector<int>& houses, vector<vector<int>>& cost, int m, int n, int target) {
-	        
+			int kInf = 1e9 + 7;
+			int s = 1;
+			vector<vector<vector<int>>> dp(target + 1, vector<vector<int>>(m + 1, vector<int>(n + 1, kInf)));
+			fill(dp[0][0].begin(), dp[0][0].end(), 0);
+			for (int k = 1; k <= target; k++) {
+				for (int i = k; i <= m; i++) {
+					int hi = houses[i - 1];
+					int hj = (i - 2 >= 0) ? houses[i - 2] : 0;
+					const auto& [si, ei] = hi ? tie(hi, hi) : tie(s, n);
+					const auto& [sj, ej] = hj ? tie(hj, hj) : tie(s, n);
+					for (int ci = si; ci <= ei; ci++) {
+						int v = (ci == hi) ? 0 : cost[i - 1][ci - 1];
+						for (int cj = sj; cj <= ej; cj++) {
+							dp[k][i][ci] = min(dp[k][i][ci], dp[k - (ci != cj)][i - 1][cj] + v);
+						}
+					}
+				}
+			}
+			int result = *min_element(dp[target][m].begin(), dp[target][m].end());
+			return result >= kInf ? -1 : result;
 	    }
 
 		void Main() {
