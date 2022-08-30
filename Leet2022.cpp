@@ -15,18 +15,22 @@ int _tmain(int argc, _TCHAR* argv[])
 	clock_t begin = clock();
 	//Solution2022::Test::Main(); // Medium
 
+	
+	
+
+	//====Problem Starts====
+	//8/30/2022
 	//Solution2022::CourseSchedule::Main();
 	//Solution2022::CourseScheduleII::Main();
 	//Solution2022::CourseScheduleIII::Main();
 	//Solution2022::CourseScheduleIV::Main();	
 	//Solution2022::ContinuousSubarraySum::Main();
-
 	//Solution2022::BinaryTreeRightSideView::Main();
 	//Solution2022::GroupShiftedStrings::Main();
 	//Solution2022::MinimumWindowSubstring::Main();
 	//Solution2022::Candy::Main();
+	//Solution2022::PlusOne::Main();
 
-	//====Problem Starts====
 	//8/29/2022
 	//Solution2022::DecodeWays::Main();
 	//Solution2022::DecodeWaysII::Main();
@@ -1980,7 +1984,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::PerfectSquares::Main();
 	//Solution2022::DominoandTrominoTiling::Main();
 	//Solution2022::OneEditDistance::Main();
-	//Solution2022::PlusOne::Main();
 	//Solution2022::RansomNote::Main();
 	//Solution2022::RichestCustomerWealth::Main
 	//Solution2022::RepeatedDNASequences::Main();

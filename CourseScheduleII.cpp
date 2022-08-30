@@ -42,12 +42,39 @@ namespace Solution2022
 	namespace CourseScheduleII
 	{
 	    vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {
-	        
+			vector<int> result;
+			vector<vector<int>> children(numCourses, vector<int>());
+			vector<int> indegree(numCourses, 0);
+
+			for (vector<int>& p : prerequisites) {
+				children[p[1]].push_back(p[0]);
+				indegree[p[0]]++;
+			}
+
+			queue<int> q;
+			for (int i = 0; i < numCourses; i++) {
+				if (indegree[i] == 0) { q.push(i); } // Note: this is to push index, not value!!!
+			}
+
+			int count = 0;
+			while (!q.empty()) {
+				int top = q.front();
+				q.pop();
+				count++;
+				result.push_back(top);
+
+				for (int child : children[top]) {
+					indegree[child]--;
+					if (indegree[child] == 0) { q.push(child); }
+				}
+			}
+
+			return (count == numCourses) ? result : vector<int>();
 	    }
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			vector<vector<int>> test = { {0, 1} };
+			print(findOrder(2, test));
 		}
 	}
 }

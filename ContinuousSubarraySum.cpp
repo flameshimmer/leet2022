@@ -34,9 +34,45 @@ namespace Solution2022
 {
 	namespace ContinuousSubarraySum
 	{
-	    bool checkSubarraySum(vector<int>& nums, int k) {
-	        
-	    }
+		/*
+		Need (sum1 - sum2) % k = 0,
+		which means sum1%k = sum2%k,
+		and sum1 and sum2 must have length diff of at least 2*/
+
+		namespace CheckIndexWithMap {
+			bool checkSubarraySum(vector<int>& nums, int k) {
+				int len = nums.size();
+				int sum = 0;
+				unordered_map<int, int> map;
+				map[0] = -1; // Need this!!!!
+
+				for (int i = 0; i < len; i++) {
+					sum += nums[i];
+					int mod = (k == 0) ? sum : sum % k;
+					bool exists = map.find(mod) != map.end();
+					if (exists && i - map[mod] > 1) { return true; }
+					if (!exists) { map[mod] = i; }
+				}
+				return false;
+			}
+		}
+		
+		namespace UsingPrevMod {
+			bool checkSubarraySum(vector<int>& nums, int k) {
+				int sum = 0;
+				int prevMod = 0;
+				unordered_set<int> set;
+
+				for (int v : nums) {
+					sum += v;
+					int mod = (k == 0) ? sum : sum % k;
+					if (set.find(mod) != set.end()) { return true; }
+					set.insert(prevMod);
+					prevMod = mod;
+				}
+				return false;
+			}
+		}
 
 		void Main() {
 			string test = "tst test test";

@@ -192,8 +192,11 @@
     <ClCompile Include="CountSquareSubmatriceswithAllOnes.cpp" />
     <ClCompile Include="CountUniqueCharactersofAllSubstringsofaGivenString.cpp" />
     <ClCompile Include="CountWordsObtainedAfterAddingaLetter.cpp" />
+    <ClCompile Include="CourseScheduleII.cpp" />
+    <ClCompile Include="CourseScheduleIII.cpp" />
     <ClCompile Include="CustomSortString.cpp" />
     <ClCompile Include="DecodeString.cpp" />
+    <ClCompile Include="DecodeWays.cpp" />
     <ClCompile Include="DegreeofanArray.cpp" />
     <ClCompile Include="DeleteDuplicateFoldersinSystem.cpp" />
     <ClCompile Include="DesignanOrderedStream.cpp" />
@@ -287,6 +290,7 @@
     <ClCompile Include="MaximumSplitofPositiveEvenIntegers.cpp" />
     <ClCompile Include="MaximumSubarray.cpp" />
     <ClCompile Include="MaximumUnitsonaTruck.cpp" />
+    <ClCompile Include="MaxPointsonaLine.cpp" />
     <ClCompile Include="MaxStack.cpp" />
     <ClCompile Include="MeetingRooms.cpp" />
     <ClCompile Include="MeetingRoomsII.cpp" />
@@ -327,6 +331,9 @@
     <ClCompile Include="NumberofWaystoBuildSturdyBrickWall.cpp" />
     <ClCompile Include="OddEvenJump.cpp" />
     <ClCompile Include="OptimalAccountBalancing.cpp" />
+    <ClCompile Include="PaintHouse.cpp" />
+    <ClCompile Include="PaintHouseII.cpp" />
+    <ClCompile Include="PaintHouseIII.cpp" />
     <ClCompile Include="PairsofSongsWithTotalDurationsDivisiblebySixZero.cpp" />
     <ClCompile Include="PalindromeLinkedList.cpp" />
     <ClCompile Include="PalindromeNumber.cpp" />

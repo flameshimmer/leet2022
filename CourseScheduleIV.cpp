@@ -49,7 +49,37 @@ namespace Solution2022
 	namespace CourseScheduleIV
 	{
 	    vector<bool> checkIfPrerequisite(int numCourses, vector<vector<int>>& prerequisites, vector<vector<int>>& queries) {
-	        
+			vector<vector<int>> children(numCourses, vector<int>());
+			vector<int> indegree(numCourses, 0);
+
+			for (vector<int>& p : prerequisites) {
+				children[p[0]].push_back(p[1]);
+				indegree[p[1]]++;
+			}
+
+			queue<int> q;
+			for (int i = 0; i < numCourses; i++) {
+				if (indegree[i] == 0) { q.push(i); }
+			}
+
+			unordered_map<int, unordered_set<int>> parents;
+			while (!q.empty()) {
+				int top = q.front();
+				q.pop();
+
+				for (int child : children[top]) {
+					parents[child].insert(top);
+					parents[child].insert(parents[top].begin(), parents[top].end()); // Because we are already done with the parents, so adding the parent's ancestor here would be sufficient
+					indegree[child]--;
+					if (indegree[child] == 0) { q.push(child); }
+				}
+			}
+
+			vector<bool> results;
+			for (vector<int>& q : queries) {
+				results.push_back(parents[q[1]].count(q[0]) > 0);
+			}	
+			return results;
 	    }
 
 		void Main() {

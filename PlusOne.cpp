@@ -38,7 +38,18 @@ namespace Solution2022
 	namespace PlusOne
 	{
 	    vector<int> plusOne(vector<int>& digits) {
-	        
+			int len = digits.size();
+			vector<int> result(len, 0);
+			int carry = 1;
+			for (int i = len - 1; i >= 0; i--) {
+				int sum = digits[i] + carry;
+				result[i] = sum % 10;
+				carry = sum / 10;
+			}
+			if (carry == 1) {
+				result.insert(result.begin(), 1);
+			}
+			return result;
 	    }
 
 		void Main() {

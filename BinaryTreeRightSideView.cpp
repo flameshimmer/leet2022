@@ -24,20 +24,35 @@ namespace Solution2022
 {
 	namespace BinaryTreeRightSideView
 	{
-	/**
-	 * Definition for a binary tree node.
-	 * struct TreeNode {
-	 *     int val;
-	 *     TreeNode *left;
-	 *     TreeNode *right;
-	 *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
-	 *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
-	 *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
-	 * };
-	 */
-	    vector<int> rightSideView(TreeNode* root) {
-	        
-	    }
+		/**
+		 * Definition for a binary tree node.
+		 * struct TreeNode {
+		 *     int val;
+		 *     TreeNode *left;
+		 *     TreeNode *right;
+		 *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+		 *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+		 *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+		 * };
+		 */
+		void helper(TreeNode* node, int height, int& maxHeight, vector<int>& result) {
+			if (!node) { return; }
+			if (height > maxHeight) {
+				result.push_back(node->val);
+				maxHeight = height;
+			}
+			helper(node->right, height + 1, maxHeight, result);
+			helper(node->left, height + 1, maxHeight, result);
+		}
+
+		vector<int> rightSideView(TreeNode* root) {
+			vector<int> result;
+			if (!root) { return result; }
+
+			int maxHeight = 0;
+			helper(root, 1, maxHeight, result);
+			return result;
+		}
 
 		void Main() {
 			string test = "tst test test";

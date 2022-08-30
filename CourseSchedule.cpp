@@ -34,7 +34,32 @@ namespace Solution2022
 	namespace CourseSchedule
 	{
 	    bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
-	        
+			int len = prerequisites.size();
+			if (len == 0) { return true; }
+
+			vector<vector<int>> children(numCourses, vector<int>());
+			vector<int> indegree(numCourses, 0); // NOTE: if indegree is using map to do, ensure the empty node also has a entry in the map!
+			for (vector<int>& p : prerequisites) {
+				children[p[1]].push_back(p[0]);
+				indegree[p[0]]++;
+			}
+
+			queue<int> q;
+			for (int i = 0; i < numCourses; i++) {
+				if (indegree[i] == 0) { q.push(i); }
+			}
+
+			int count = 0;
+			while (!q.empty()) {
+				int top = q.front();
+				q.pop();
+				count++;
+				for (int child : children[top]) {
+					indegree[child]--;
+					if (indegree[child] == 0) { q.push(child); }
+				}
+			}
+			return count == numCourses;
 	    }
 
 		void Main() {

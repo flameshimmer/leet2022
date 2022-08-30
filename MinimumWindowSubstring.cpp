@@ -38,7 +38,35 @@ namespace Solution2022
 	namespace MinimumWindowSubstring
 	{
 	    string minWindow(string s, string t) {
-	        
+			vector<int> toBeFound(128, 0);
+			for (char c : t) {
+				toBeFound[c]++;
+			}
+
+			int start = 0;
+			int end = 0;
+			int head = 0;
+			int minLen = INT_MAX;
+			int counter = t.size();
+
+			while (end < s.size()) {
+				if (toBeFound[s[end]] > 0) {
+					counter--;
+				}
+				toBeFound[s[end]]--;
+				end++;
+
+				while (counter == 0) {
+					if (end - start < minLen) {
+						minLen = end - start;
+						head = start;
+					}
+					toBeFound[s[start]]++;
+					if (toBeFound[s[start]] > 0) { counter++; }
+					start++;
+				}
+			}
+			return minLen == INT_MAX ? "" : s.substr(head, minLen);
 	    }
 
 		void Main() {

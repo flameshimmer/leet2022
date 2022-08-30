@@ -26,9 +26,27 @@ namespace Solution2022
 {
 	namespace GroupShiftedStrings
 	{
-	    vector<vector<string>> groupStrings(vector<string>& strings) {
-	        
-	    }
+		string getKey(string& s) {
+			string key;
+			for (int i = 1; i < s.size(); i++) {
+				int diff = (s[i] - s[i - 1] + 26) % 26;
+				key += 'a' + diff + '_';
+			}
+			return key;
+		}
+
+		vector<vector<string>> groupStrings(vector<string>& strings) {			
+			unordered_map<string, vector<string>> map;
+			for (string& s : strings) {
+				map[getKey(s)].push_back(s);
+			}
+
+			vector<vector<string>> result;
+			for (auto& p : map) {
+				result.push_back(p.second);
+			}
+			return result;
+		}
 
 		void Main() {
 			string test = "tst test test";
