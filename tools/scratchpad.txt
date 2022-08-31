@@ -1,33 +1,19 @@
-		int maxPoints(vector<vector<int>>& points) {
-			int len = points.size();
-			if (len < 2) { return len; }
+	    int largestRectangleArea(vector<int>& heights) {
+			stack<int> s;
+			heights.push_back(0); // ensure the last iterator will clear out stack
 
 			int result = 0;
-			int x, y, gcd;
-			string key;
-			for (int i = 0; i < len; i++) {
-				vector<int> cur = points[i];
-				int dupe = 1;
-				int verCount = 0;
-				int maxNonVerCount = 0;
-				unordered_map<string, int> map;
-				for (int j = i + 1; j < len; j++) {
-					vector<int> next = points[j];
-					if (cur[0] == next[0] && cur[1] == next[1]) {
-						dupe++;
-					}
-					else if (cur[0] == next[0]) { verCount++; }
-					else {
-						y = next[1] - cur[1];
-						x = next[0] - cur[0];
-						gcd = GCD(y, x);
-						key = to_string(y / gcd) + "_" + to_string(x / gcd);
-						map[key]++;
-						maxNonVerCount = max(maxNonVerCount, map[key]);
-					}
+			for (int i = 0; i < heights.size(); i++) {
+				if (s.empty() || heights[s.top()] <= heights[i]) {
+					s.push(i);
 				}
-				int curResult = max(verCount, maxNonVerCount) + dupe;
-				result = max(result, curResult);
+				else {
+					int tmp = s.top();
+					s.pop();
+					int startIndex = s.empty() ? -1 : s.top(); // previous index is -1 if stack is empty
+					result = max(result, heights[tmp] * (i - startIndex - 1)); // height * (nextSmallerIndex - lastSmallerIndex - 1)
+					i--; // since we didn't push i in this case, i--
+				}
 			}
 			return result;
-		}	
+	    }

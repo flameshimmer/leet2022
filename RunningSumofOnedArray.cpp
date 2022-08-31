@@ -29,7 +29,14 @@ namespace Solution2022
 	namespace RunningSumofOnedArray
 	{
 	    vector<int> runningSum(vector<int>& nums) {
-	        
+			int len = nums.size();
+			vector<int> result(len);
+			result[0] = nums[0];
+			 
+			for (int i = 1; i < len; i++) {
+				result[i] = result[i - 1] + nums[i];
+			}
+			return result;
 	    }
 
 		void Main() {

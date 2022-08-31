@@ -34,7 +34,18 @@ namespace Solution2022
 	namespace ShiftTwoDGrid
 	{
 	    vector<vector<int>> shiftGrid(vector<vector<int>>& grid, int k) {
-	        
+			int rowCount = grid.size();
+			int colCount = grid[0].size();
+
+			vector<vector<int>> result(rowCount, vector<int>(colCount));
+			for (int row = 0; row < rowCount; row++) {
+				for (int col = 0; col < colCount; col++) {
+					int newRow = (row + (col + k) / colCount) % rowCount;
+					int newCol = (col + k) % colCount;
+					result[newRow][newCol] = grid[row][col];
+				}
+			}
+			return result;
 	    }
 
 		void Main() {

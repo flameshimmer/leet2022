@@ -21,7 +21,21 @@ namespace Solution2022
 	namespace AddBinary
 	{
 	    string addBinary(string a, string b) {
-	        
+			int i = a.size() - 1;
+			int j = b.size() - 1;
+			int carry = 0;
+			string result = "";
+
+			while (carry || i >= 0 || j >= 0) {
+				int v1 = (i >= 0) ? a[i] - '0' : 0;
+				int v2 = (j >= 0) ? b[j] - '0' : 0;
+				int sum = v1 + v2 + carry;
+				carry = sum / 2;
+				result = to_string(sum % 2) + result;
+				i--;
+				j--;
+			}
+			return result;
 	    }
 
 		void Main() {

@@ -34,13 +34,31 @@ namespace Solution2022
 {
 	namespace CountandSay
 	{
+		string helper(string& s) {
+			string result = "";
+			int len = s.size();
+
+			int i = 0;
+			while (i < len) {
+				int count = 1;
+				while (i + 1 < len && s[i] == s[i + 1]) { count++; i++; }
+				result += to_string(count) + s[i];
+				i++;
+			}
+			return result;
+		}
+
+
 	    string countAndSay(int n) {
-	        
-	    }
+			string result = "1";
+			for (int i = 1; i < n; i++) {
+				result = helper(result);
+			}
+			return result;
+		}
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			print(countAndSay(4));
 		}
 	}
 }

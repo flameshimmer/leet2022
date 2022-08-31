@@ -35,9 +35,37 @@ namespace Solution2022
 {
 	namespace RegularExpressionMatching
 	{
-	    bool isMatch(string s, string p) {
-	        
-	    }
+		bool matches(string& s, string& p, int i, int j) {
+			return s[i] == p[j] || p[j] == '.';
+		}
+
+		bool isMatch(string s, string p) {
+			int lens = s.size();
+			int lenp = p.size();
+
+			vector<vector<bool>> M(lens + 1, vector<bool>(lenp + 1, false));
+			M[0][0] = true;
+
+			for (int i = 0; i < lens + 1; i++) {
+				for (int j = 1; j < lenp + 1; j++) {
+					if (i - 1 >= 0 && matches(s, p, i - 1, j - 1) && M[i - 1][j - 1]) {
+						M[i][j] = true;
+						continue;
+					}
+
+					if (i - 1 >= 0 && j - 2 >= 0 && p[j-1] == '*' && matches(s, p, i - 1, j - 2) && M[i - 1][j]) {
+						M[i][j] = true;
+						continue;
+					}
+
+					if (j - 2 >= 0 && p[j - 1] == '*' && M[i][j - 2]) {
+						M[i][j] = true;
+						continue;
+					}
+				}
+			}
+			return M[lens][lenp];
+		}
 
 		void Main() {
 			string test = "tst test test";

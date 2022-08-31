@@ -22,13 +22,23 @@ namespace Solution2022
 {
 	namespace LargestNumber
 	{
-	    string largestNumber(vector<int>& nums) {
-	        
-	    }
+		string largestNumber(vector<int>& nums) {
+			vector<string> strs;
+			for (int v : nums) { strs.push_back(to_string(v)); }
+
+			auto comp = [](string& a, string& b) {return a + b > b + a; };
+			sort(strs.begin(), strs.end(), comp);
+
+			string result;
+			for (string& s : strs) { result += s; }
+
+			if (result[0] == '0') { result = "0"; }
+			return result;
+		}
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			vector<int> test = { 3,30,34,5,9 };
+			print(largestNumber(test));
 		}
 	}
 }

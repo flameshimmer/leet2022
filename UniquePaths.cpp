@@ -30,13 +30,20 @@ namespace Solution2022
 {
 	namespace UniquePaths
 	{
-	    int uniquePaths(int m, int n) {
-	        
+	    int uniquePaths(int rowCount, int colCount) {
+			vector<int> dp(colCount, 1);
+
+			for (int i = 1; i < rowCount; i++) {
+				for (int j = 1; j < colCount; j++) {
+					dp[j] += dp[j - 1];
+				}
+			}
+			return dp[colCount - 1];
 	    }
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			print(uniquePaths(3, 7));
+			print(uniquePaths(3, 2));
 		}
 	}
 }
