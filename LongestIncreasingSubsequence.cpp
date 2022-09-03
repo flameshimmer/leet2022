@@ -32,9 +32,34 @@ namespace Solution2022
 {
 	namespace LongestIncreasingSubsequence
 	{
-	    int lengthOfLIS(vector<int>& nums) {
-	        
-	    }
+		namespace NLogN {
+			int lengthOfLIS(vector<int>& nums) {
+				vector<int> result;
+				for (int v : nums) {
+					auto it = lower_bound(result.begin(), result.end(), v);
+					if (it == result.end()) { result.push_back(v); }
+					else { *it = v; }
+				}
+				return result.size();
+			}
+		}
+		
+		namespace DP {
+			int lengthOfLIS(vector<int>& nums) {
+				int len = nums.size();
+				vector<int> dp(len, 1);
+
+				int result = 1;
+				for (int i = 1; i < len; i++) {
+					for (int j = 0; j < i; j++) {
+						if (nums[j] < nums[i]) { dp[i] = max(dp[i], dp[j] + 1); }
+					}
+					result = max(result, dp[i]);
+				}
+				return result;
+			}
+
+		}
 
 		void Main() {
 			string test = "tst test test";

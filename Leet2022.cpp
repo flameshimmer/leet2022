@@ -15,19 +15,23 @@ int _tmain(int argc, _TCHAR* argv[])
 	clock_t begin = clock();
 	//Solution2022::Test::Main(); // Medium
 
+	//Solution2022::WildcardMatching::Main();
+	//Solution2022::CinemaSeatAllocation::Main();
+
+	//====Problem Starts====
+	//9/2/2022
 	//Solution2022::BestTimetoBuyandSellStockII::Main();
+	//Solution2022::BestTimetoBuyandSellStockIII::Main();b  
 	//Solution2022::BestTimetoBuyandSellStockwithCooldown::Main();
 	//Solution2022::BestTimetoBuyandSellStockwithTransactionFee::Main();
-	//Solution2022::BestTimetoBuyandSellStockIII::Main();
 	//Solution2022::BestTimetoBuyandSellStockIV::Main();
 	
-	//====Problem Starts====
 	//9/1/2022
 	//Solution2022::BinaryTreeMaximumPathSum::Main();
 	//Solution2022::LongestIncreasingSubsequence::Main();
 	//Solution2022::MaximumProductSubarray::Main();
-	//Solution2022::WildcardMatching::Main();
 	//Solution2022::Subsets::Main();
+	//Solution2022::SubsetsII::Main();
 
 	//8/31/2022
 	//Solution2022::UniquePaths::Main();
@@ -1523,7 +1527,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::MaximumXORofTwoNumbersinanArray::Main();
 	//Solution2022::DeleteandEarn::Main();
 	//Solution2022::CheckifanOriginalStringExistsGivenTwoEncodedStrings::Main();
-	//Solution2022::CinemaSeatAllocation::Main();
 	//Solution2022::ChangeMinimumCharacterstoSatisfyOneofThreeConditions::Main();
 	//Solution2022::OneThreeTwoPattern::Main();
 	//Solution2022::HouseRobber::Main();
@@ -2221,7 +2224,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::SwapForLongestRepeatedCharacterSubstring::Main();
 	//Solution2022::NumberofDistinctSubstringsinaString::Main();
 	//Solution2022::TheNumberofGoodSubsets::Main();
-	//Solution2022::SubsetsII::Main();
 	//Solution2022::EmployeeImportance::Main();
 	//Solution2022::ShortestDistancetoaCharacter::Main();
 	//Solution2022::LargestPerimeterTriangle::Main();

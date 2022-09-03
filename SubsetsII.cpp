@@ -22,9 +22,26 @@ namespace Solution2022
 {
 	namespace SubsetsII
 	{
-	    vector<vector<int>> subsetsWithDup(vector<int>& nums) {
-	        
-	    }
+		void helper(int start, int len, vector<int>& nums, vector<int>& result, vector<vector<int>>& results) {
+			results.push_back(result);
+			if (start == len) { return; }
+
+			for (int i = start; i < len; i++) {
+				result.push_back(nums[i]);
+				helper(i + 1, len, nums, result, results);
+				result.pop_back();
+				while (i + 1 < len && nums[i] == nums[i + 1]) { i++; }
+			}
+		}
+
+		vector<vector<int>> subsetsWithDup(vector<int>& nums) {
+			vector<vector<int>> results;
+			vector<int> result;
+			int len = nums.size();
+			sort(nums.begin(), nums.end());
+			helper(0, len, nums, result, results);
+			return results;
+		}
 
 		void Main() {
 			string test = "tst test test";

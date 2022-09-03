@@ -27,8 +27,38 @@ namespace Solution2022
 	namespace MaximumProductSubarray
 	{
 	    int maxProduct(vector<int>& nums) {
-	        
+			int result = nums[0];
+			int maxR = nums[0];
+			int minR = nums[0];
+			
+			for (int i = 1; i < nums.size(); i++) {
+				if (nums[i] < 0) { swap(maxR, minR); }
+
+				maxR = max(maxR * nums[i], nums[i]);
+				minR = min(maxR * nums[i], nums[i]);
+				result = max(result, maxR);
+			}
+			return result;
 	    }
+
+		namespace Another {
+			int maxProduct(vector<int>& nums) {
+				int len = nums.size();
+				if (len == 0) { return 0; }
+
+				int frontProduct = 1;
+				int backProduct = 1;
+				int result = INT_MIN;
+				for (int i = 0; i < len; i++) {
+					frontProduct *= nums[i];
+					backProduct *= nums[len - 1 - i];
+					result = max(result, max(frontProduct, backProduct));
+					if (frontProduct == 0) { frontProduct = 1; }
+					if (backProduct == 0) { backProduct = 1; }
+				}
+				return result;
+			}		
+		}
 
 		void Main() {
 			string test = "tst test test";

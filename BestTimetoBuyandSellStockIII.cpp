@@ -40,7 +40,32 @@ namespace Solution2022
 	namespace BestTimetoBuyandSellStockIII
 	{
 	    int maxProfit(vector<int>& prices) {
-	        
+			int len = prices.size();
+			if (len < 2) { return 0; }
+
+			vector<int> P1(len, 0); // maxProfit if sold on this day or earlier
+			int minV = INT_MAX;
+			int maxP1 = 0;
+
+			vector<int> P2(len, 0); // maxProfit if buy from this day or later
+			int maxV = 0;
+			int maxP2 = 0;
+
+			for (int i = 0; i < len; i++) {
+				minV = min(minV, prices[i]);
+				maxP1 = max(maxP1, prices[i] - minV);
+				P1[i] = maxP1;
+
+				maxV = max(maxV, prices[len - 1 - i]);
+				maxP2 = max(maxP2, maxV - prices[len - 1 - i]);
+				P2[len-1-i] = maxP2;
+			}
+
+			int result = 0;
+			for (int i = 0; i < len; i++) {
+				result = max(result, P1[i] + P2[i]);
+			}
+			return result;
 	    }
 
 		void Main() {

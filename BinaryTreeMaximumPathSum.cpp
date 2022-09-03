@@ -40,9 +40,22 @@ namespace Solution2022
 	 *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 	 * };
 	 */
+
+		int maxToRoot(TreeNode* node, int& result) {
+			if (!node) { return 0; }
+			int l = maxToRoot(node->left, result);
+			int r = maxToRoot(node->right, result);
+			result = l + r + node->val;
+			result = max(result, max(l, r));
+			return result;
+		}
+
+		
 	    int maxPathSum(TreeNode* root) {
-	        
-	    }
+			int result = INT_MIN;
+			maxToRoot(root, result);
+			return result;
+		}
 
 		void Main() {
 			string test = "tst test test";
