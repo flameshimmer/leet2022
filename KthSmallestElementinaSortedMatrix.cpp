@@ -36,8 +36,33 @@ namespace Solution2022
 {
 	namespace KthSmallestElementinaSortedMatrix
 	{
-	    int kthSmallest(vector<vector<int>>& matrix, int k) {
-	        
+		struct Elem {
+			int r;
+			int c;
+			int v;
+
+			bool operator < (const Elem& rhs) const {
+				return v > rhs.v;
+			}
+		};
+
+		int kthSmallest(vector<vector<int>>& matrix, int k) {
+			int rowCount = matrix.size();
+			int colCount = matrix[0].size();
+
+			priority_queue<Elem> pq;
+			for (int j = 0; j < colCount; j++) {
+				pq.push({ 0, j, matrix[0][j] });
+			}
+
+			for (int i = 0; i < k - 1; i++) {
+				auto [r, c, v] = pq.top();
+				pq.pop();
+
+				if (r == rowCount - 1) { continue; }
+				pq.push({r+1, c, matrix[r+1][c]});
+			}
+			return pq.top().v;
 	    }
 
 		void Main() {

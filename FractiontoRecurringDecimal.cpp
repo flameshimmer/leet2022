@@ -28,9 +28,32 @@ namespace Solution2022
 {
 	namespace FractiontoRecurringDecimal
 	{
-	    string fractionToDecimal(int numerator, int denominator) {
-	        
-	    }
+		string fractionToDecimal(int numerator, int denominator) {
+			if (numerator == 0) { return "0"; }
+			string result;
+			if (numerator > 0 ^ denominator > 0) { result += '-'; }
+			long long n = labs(numerator);
+			long long d = labs(denominator);
+
+			result += to_string(n / d);
+			long long r = n % d;
+			if (r == 0) { return result; }
+
+			result += '.';
+			unordered_map<int, int> map; // <remainder value, last remainer value position in the result string>
+			while (r) {
+				if (map.find(r) != map.end()) {
+					result.insert(map[r], "(");
+					result += ')';
+					break;
+				}
+				map[r] = result.size(); // why is this result.size instead of result.size -1: because the new d hasn't appended to the result yet!
+				r *= 10;
+				result += to_string(r / d);
+				r %= d;
+			}
+			return result;
+		}
 
 		void Main() {
 			string test = "tst test test";

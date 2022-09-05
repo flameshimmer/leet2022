@@ -164,6 +164,10 @@
     <ClCompile Include="BattleshipsinaBoard.cpp" />
     <ClCompile Include="BestPositionforaServiceCentre.cpp" />
     <ClCompile Include="BestTimetoBuyandSellStock.cpp" />
+    <ClCompile Include="BestTimetoBuyandSellStockII.cpp" />
+    <ClCompile Include="BestTimetoBuyandSellStockIII.cpp" />
+    <ClCompile Include="BestTimetoBuyandSellStockIV.cpp" />
+    <ClCompile Include="BestTimetoBuyandSellStockwithTransactionFee.cpp" />
     <ClCompile Include="BinarySearch.cpp" />
     <ClCompile Include="BinaryTreePreorderTraversal.cpp" />
     <ClCompile Include="BinaryTreeRightSideView.cpp" />
@@ -267,6 +271,7 @@
     <ClCompile Include="KdiffPairsinanArray.cpp" />
     <ClCompile Include="KthLargestElementinanArray.cpp" />
     <ClCompile Include="KthMissingPositiveNumber.cpp" />
+    <ClCompile Include="KthSmallestElementinaSortedMatrix.cpp" />
     <ClCompile Include="LargestNumber.cpp" />
     <ClCompile Include="Leet2022.cpp" />
     <ClCompile Include="LeftmostColumnwithatLeastaOne.cpp" />
@@ -387,6 +392,7 @@
     <ClCompile Include="SearchInsertPosition.cpp" />
     <ClCompile Include="SerializeandDeserializeBinaryTree.cpp" />
     <ClCompile Include="SerializeandDeserializeBST.cpp" />
+    <ClCompile Include="SetMatrixZeroes.cpp" />
     <ClCompile Include="ShortestDistancefromAllBuildings.cpp" />
     <ClCompile Include="ShortestPathinaGridwithObstaclesElimination.cpp" />
     <ClCompile Include="ShortestPathinBinaryMatrix.cpp" />
@@ -402,6 +408,7 @@
     <ClCompile Include="SmallestRotationwithHighestScore.cpp" />
     <ClCompile Include="SmallestStringWithAGivenNumericValue.cpp" />
     <ClCompile Include="SnapshotArray.cpp" />
+    <ClCompile Include="SortColors.cpp" />
     <ClCompile Include="SpiralMatrix.cpp" />
     <ClCompile Include="Sqrt.cpp" />
     <ClCompile Include="SquaresofaSortedArray.cpp" />

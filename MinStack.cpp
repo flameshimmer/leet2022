@@ -36,35 +36,77 @@ namespace Solution2022
 {
 	namespace MinStack
 	{
-	class MinStack {
-	    MinStack() {
-	        
-	    }
-	    
-	    void push(int val) {
-	        
-	    }
-	    
-	    void pop() {
-	        
-	    }
-	    
-	    int top() {
-	        
-	    }
-	    
-	    int getMin() {
-	        
-	    }
-	​
-	/**
-	 * Your MinStack object will be instantiated and called as such:
-	 * MinStack* obj = new MinStack();
-	 * obj->push(val);
-	 * obj->pop();
-	 * int param_3 = obj->top();
-	 * int param_4 = obj->getMin();
-	 */
+		namespace UseVector {
+		
+			class MinStack {
+			private:
+				vector<pair<int, int>> s;
+			public:
+				MinStack() {
+
+				}
+
+				void push(int val) {
+					if (s.empty()) { s.push_back({val, val}); }
+					else {
+						s.push_back({val, min(val, s.back().second)});
+					}
+				}
+
+				void pop() {
+					if (!s.empty()) { s.pop_back(); }
+				}
+
+				int top() {
+					return s.back().first;
+				}
+
+				int getMin() {
+					return s.back().second;
+				}
+			};
+		
+		}
+
+		namespace UseTwoStacks {
+			class MinStack {
+			private:
+				stack<int> s1;
+				stack<int> s2;
+			public:
+				MinStack() {
+
+				}
+
+				void push(int val) {
+					s1.push(val);
+					if (s2.empty() || s2.top() >= val) { s2.push(val); }
+				}
+
+				void pop() {
+					if (s1.top() == s2.top()) { s2.pop(); }
+					s1.pop();
+				}
+
+				int top() {
+					return s1.top();
+				}
+
+				int getMin() {
+					return s2.top();
+				}
+			};		
+		}
+
+
+		/**
+		 * Your MinStack object will be instantiated and called as such:
+		 * MinStack* obj = new MinStack();
+		 * obj->push(val);
+		 * obj->pop();
+		 * int param_3 = obj->top();
+		 * int param_4 = obj->getMin();
+		 */
 
 		void Main() {
 			string test = "tst test test";

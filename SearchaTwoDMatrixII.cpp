@@ -32,7 +32,17 @@ namespace Solution2022
 	namespace SearchaTwoDMatrixII
 	{
 	    bool searchMatrix(vector<vector<int>>& matrix, int target) {
-	        
+			int rowCount = matrix.size();
+			int colCount = matrix[0].size();
+
+			int r = rowCount - 1;
+			int c = 0;
+			while (r >= 0 && c < colCount) {
+				if (matrix[r][c] == target) { return true; }
+				else if (matrix[r][c] < target) { c++; }
+				else { r--; }
+			}
+			return false;
 	    }
 
 		void Main() {

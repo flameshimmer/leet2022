@@ -33,23 +33,6 @@ namespace Solution2022
 	namespace BestTimetoBuyandSellStockIV
 	{
 		int len;
-		int maxProfit(int k, vector<int>& prices)
-		{
-			len = prices.size();
-			prices.insert(prices.begin(), 0);
-			int left = 0;
-			int right = *max_element(prices.begin(), prices.end());
-
-			while (left < right)
-			{
-				int fee = left + (right - left) / 2;
-				if (helper(prices, fee)[1] > k)
-					left = fee + 1;
-				else
-					right = fee;
-			}
-			return helper(prices, left)[0] + left * k;
-		}
 
 		vector<int> helper(vector<int>& prices, int fee)
 		{
@@ -85,7 +68,23 @@ namespace Solution2022
 			return { sell[len], sellCount };
 		}
 
+		int maxProfit(int k, vector<int>& prices)
+		{
+			len = prices.size();
+			prices.insert(prices.begin(), 0);
+			int left = 0;
+			int right = *max_element(prices.begin(), prices.end());
 
+			while (left < right)
+			{
+				int fee = left + (right - left) / 2;
+				if (helper(prices, fee)[1] > k)
+					left = fee + 1;
+				else
+					right = fee;
+			}
+			return helper(prices, left)[0] + left * k;
+		}
 
 		void Main() {
 			string test = "tst test test";

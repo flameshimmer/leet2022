@@ -24,9 +24,30 @@ namespace Solution2022
 {
 	namespace CountPrimes
 	{
-	    int countPrimes(int n) {
-	        
-	    }
+		// If a number is prime, then its multiplication cannot be prime
+	    //https://www.youtube.com/watch?v=Kwo2jkHOyPY
+		
+		int countPrimes(int n) {
+			if (n < 2) { return 0; }
+
+			vector<int> isPrime(n, true);
+			isPrime[0] = false;
+			isPrime[1] = false;
+
+			for (int i = 2; i < sqrt(n); i++) {
+				if (isPrime[i]) {
+					for (int j = 2; i * j < n; j++) {
+						isPrime[i * j] = false;
+					}
+				}
+			}
+
+			int result = 0;
+			for (int i = 0; i < n; i++) {
+				if (isPrime[i]) { result++; }
+			}
+			return result;
+		}
 
 		void Main() {
 			string test = "tst test test";

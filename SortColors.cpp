@@ -28,13 +28,27 @@ namespace Solution2022
 {
 	namespace SortColors
 	{
-	    void sortColors(vector<int>& nums) {
-	        
-	    }
+		void sortColors(vector<int>& nums) {
+			int start = 0;
+			int end = nums.size() - 1;
+			for (int i = 0; i <= end; i++) { // ----> note i is <= end, and not < end. This is because end is the copy position, it has not been processed yet. 
+				if (nums[i] == 0) {
+					swap(nums[start], nums[i]);
+					start++;
+				}
+				else if (nums[i] == 2) {
+					swap(nums[i], nums[end]);
+					end--;
+					i--;  //----------> note that i-- is only needed when swapping with end!!!
+					      //Why does start not need it? if start < i, it means it has to be 0, if start > i, we'll have to process it later anyway. 
+						  //But for end, since i <= end,  we can't guarantee the end's data is processed. Thus need to i-- to ensure it is processed here. 
+				}
+			}
+		}
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			vector<int> test = { 2,0,2,1,1,0 };
+			sortColors(test);
 		}
 	}
 }

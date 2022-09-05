@@ -918,6 +918,27 @@
     <ClCompile Include="CountandSay.cpp">
       <Filter>Solution2022</Filter>
     </ClCompile>
+    <ClCompile Include="BestTimetoBuyandSellStockII.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="BestTimetoBuyandSellStockIII.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="BestTimetoBuyandSellStockIV.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="BestTimetoBuyandSellStockwithTransactionFee.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="KthSmallestElementinaSortedMatrix.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="SortColors.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="SetMatrixZeroes.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Solution2022.h">

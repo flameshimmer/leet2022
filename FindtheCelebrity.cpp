@@ -42,12 +42,19 @@ namespace Solution2022
 {
 	namespace FindtheCelebrity
 	{
-	/* The knows API is defined for you.
-	      bool knows(int a, int b); */
-	​
-	    int findCelebrity(int n) {
-	        
-	    }
+		bool knows(int a, int b) { return true; } /*This is not the real definition*/
+
+		int findCelebrity(int n) {
+			int candidate = 0;
+			for (int i = 1; i < n; i++) {
+				if (knows(candidate, i)) { candidate = i; }
+			}
+
+			for (int i = 0; i < n; i++) {
+				if (i != candidate && knows(candidate, i) || !knows(i, candidate)) { return -1; }				
+			}
+			return candidate;
+		}
 
 		void Main() {
 			string test = "tst test test";

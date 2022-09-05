@@ -21,9 +21,37 @@ namespace Solution2022
 {
 	namespace PalindromePartitioning
 	{
-	    vector<vector<string>> partition(string s) {
-	        
-	    }
+		bool isValidPalindrome(string& s, int start, int end) {
+			while (start < end) {
+				if (s[start] != s[end]) { return false; }
+				start++;
+				end--;
+			}
+			return true;
+		}
+
+		void helper(int start, int len, string& s, vector<string>& result, vector<vector<string>>& results) {
+			if (start == len) { results.push_back(result); }
+
+			for (int i = start; i < len; i++) {
+				if (isValidPalindrome(s, start, i)) {
+					string cur = s.substr(start, i - start + 1);
+					result.push_back(cur);
+					helper(i + 1, len, s, result, results);
+					result.pop_back();
+				}
+			}
+		}
+
+		vector<vector<string>> partition(string s) {
+			vector<vector<string>> results;
+			int len = s.size();
+			if (len == 0) { return results; }
+
+			vector<string> result;
+			helper(0, len, s, result, results);
+			return results;
+		}
 
 		void Main() {
 			string test = "tst test test";

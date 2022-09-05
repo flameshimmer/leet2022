@@ -28,8 +28,47 @@ namespace Solution2022
 {
 	namespace SetMatrixZeroes
 	{
+		// Record whether the row/col should be 0 in the first row/col, 
+		// use two bool to record whether the first row/col should be 0 separately. 
+
 	    void setZeroes(vector<vector<int>>& matrix) {
-	        
+			int rowCount = matrix.size();
+			int colCount = matrix[0].size();
+
+			bool firstRowZero = false;
+			for (int i = 0; i < colCount; i++) {
+				if (matrix[0][i] == 0) { firstRowZero = true; break; }
+			}
+
+			bool firstColZero = false;
+			for (int i = 0; i < rowCount; i++) {
+				if (matrix[i][0] == 0) { firstColZero = true; break; }
+			}
+
+			for (int i = 1; i < rowCount; i++) {
+				for (int j = 1; j < colCount; j++) {
+					if (matrix[i][j] == 0) {
+						matrix[0][j] = 0;
+						matrix[i][0] = 0;
+					}
+				}
+			}
+
+			for (int i = 1; i < rowCount; i++) {
+				for (int j = 1; j < colCount; j++) {
+					if (matrix[0][j] == 0 || matrix[i][0] == 0) {
+						matrix[i][j] = 0;
+					}
+				}
+			}
+
+			if (firstRowZero) {
+				fill(matrix[0].begin(), matrix[0].end(), 0);
+			}
+
+			if (firstColZero) {
+				for (int i = 0; i < rowCount; i++) { matrix[i][0] = 0; }
+			}
 	    }
 
 		void Main() {
