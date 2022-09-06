@@ -28,20 +28,61 @@ namespace Solution2022
 {
 	namespace ConstructBinaryTreefromPreorderandPostorderTraversal
 	{
-	/**
-	 * Definition for a binary tree node.
-	 * struct TreeNode {
-	 *     int val;
-	 *     TreeNode *left;
-	 *     TreeNode *right;
-	 *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
-	 *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
-	 *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
-	 * };
-	 */
-	    TreeNode* constructFromPrePost(vector<int>& preorder, vector<int>& postorder) {
-	        
-	    }
+		/**
+		 * Definition for a binary tree node.
+		 * struct TreeNode {
+		 *     int val;
+		 *     TreeNode *left;
+		 *     TreeNode *right;
+		 *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+		 *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+		 *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+		 * };
+		 */
+
+		TreeNode* helper(vector<int>& pre, int preStart, int preEnd, vector<int>& post, int postStart, int postEnd, unordered_map<int, int>& map) {
+			if (preStart > preEnd) { return nullptr; }
+
+			TreeNode* root = new TreeNode(pre[preStart]);
+			if (preStart == preEnd) { return root; }
+
+			int index = map[pre[preStart + 1]];
+			int offset = index - postStart;
+			root->left = helper(pre, preStart + 1, preStart + 1 + offset, post, postStart, index, map);
+			root->right = helper(pre, preStart + 1 + offset + 1, preEnd, post, index + 1, postEnd, map);
+			return root;
+		}
+
+		TreeNode* constructFromPrePost(vector<int>& pre, vector<int>& post) {
+			int len = pre.size();
+			unordered_map<int, int> map;
+			for (int i = 0; i < len; i++) {
+				map[post[i]] = i;
+			}
+			return helper(pre, 0, len - 1, post, 0, len - 1, map);
+		}
+
+
+		namespace Another {
+			TreeNode* helper(vector<int>& pre, int& preIndex, vector<int>& post, int& postIndex) {
+				TreeNode* root = new TreeNode(pre[preIndex]);
+				preIndex++;
+				if (root->val != post[postIndex]) {
+					root->left = helper(pre, preIndex, post, postIndex);
+				}
+				if (root->val != post[postIndex]) {
+					root->right = helper(pre, preIndex, post, postIndex);
+				}
+				postIndex++;
+				return root;
+			}
+
+			TreeNode* constructFromPrePost(vector<int>& pre, vector<int>& post) {
+				int preIndex = 0;
+				int postIndex = 0;
+				return helper(pre, preIndex, post, postIndex);
+			}
+		}
 
 		void Main() {
 			string test = "tst test test";

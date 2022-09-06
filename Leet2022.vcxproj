@@ -197,6 +197,7 @@
     <ClCompile Include="CountBinarySubstrings.cpp" />
     <ClCompile Include="CountOddNumbersinanIntervalRange.cpp" />
     <ClCompile Include="CountofSmallerNumbersAfterSelf.cpp" />
+    <ClCompile Include="CountPrimes.cpp" />
     <ClCompile Include="CountSquareSubmatriceswithAllOnes.cpp" />
     <ClCompile Include="CountUniqueCharactersofAllSubstringsofaGivenString.cpp" />
     <ClCompile Include="CountWordsObtainedAfterAddingaLetter.cpp" />
@@ -235,6 +236,7 @@
     <ClCompile Include="FindNUniqueIntegersSumuptoZero.cpp" />
     <ClCompile Include="FindPeakElement.cpp" />
     <ClCompile Include="FindServersThatHandledMostNumberofRequests.cpp" />
+    <ClCompile Include="FindtheCelebrity.cpp" />
     <ClCompile Include="FindtheDuplicateNumber.cpp" />
     <ClCompile Include="FindWinneronaTicTacToeGame.cpp" />
     <ClCompile Include="FirstBadVersion.cpp" />
@@ -244,6 +246,7 @@
     <ClCompile Include="FlattenNestedListIterator.cpp" />
     <ClCompile Include="FloodFill.cpp" />
     <ClCompile Include="FourSum.cpp" />
+    <ClCompile Include="FractiontoRecurringDecimal.cpp" />
     <ClCompile Include="FurthestBuildingYouCanReach.cpp" />
     <ClCompile Include="GameofLife.cpp" />
     <ClCompile Include="GenerateParentheses.cpp" />
@@ -278,6 +281,7 @@
     <ClCompile Include="LetterCasePermutation.cpp" />
     <ClCompile Include="LetterCombinationsofaPhoneNumber.cpp" />
     <ClCompile Include="LexicographicallySmallestEquivalentString.cpp" />
+    <ClCompile Include="LinkedListCycleII.cpp" />
     <ClCompile Include="ListNode.cpp" />
     <ClCompile Include="LongestCommonPrefix.cpp" />
     <ClCompile Include="LongestContinuousSubarrayWithAbsoluteDiffLessThanorEqualtoLimit.cpp" />
@@ -350,6 +354,7 @@
     <ClCompile Include="PairsofSongsWithTotalDurationsDivisiblebySixZero.cpp" />
     <ClCompile Include="PalindromeLinkedList.cpp" />
     <ClCompile Include="PalindromeNumber.cpp" />
+    <ClCompile Include="PalindromePartitioning.cpp" />
     <ClCompile Include="PascalsTriangle.cpp" />
     <ClCompile Include="PascalsTriangleII.cpp" />
     <ClCompile Include="PathWithMinimumEffort.cpp" />
@@ -388,6 +393,7 @@
     <ClCompile Include="RotateArray.cpp" />
     <ClCompile Include="RotateImage.cpp" />
     <ClCompile Include="RottingOranges.cpp" />
+    <ClCompile Include="SearchaTwoDMatrixII.cpp" />
     <ClCompile Include="SearchinRotatedSortedArray.cpp" />
     <ClCompile Include="SearchInsertPosition.cpp" />
     <ClCompile Include="SerializeandDeserializeBinaryTree.cpp" />
@@ -444,6 +450,7 @@
     <ClCompile Include="UniqueNumberofOccurrences.cpp" />
     <ClCompile Include="UniquePaths.cpp" />
     <ClCompile Include="UTFEightValidation.cpp" />
+    <ClCompile Include="ValidateBinarySearchTree.cpp" />
     <ClCompile Include="ValidPalindrome.cpp" />
     <ClCompile Include="ValidPalindromeII.cpp" />
     <ClCompile Include="ValidParentheses.cpp" />

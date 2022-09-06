@@ -48,7 +48,25 @@ namespace Solution2022
 	 * };
 	 */
 	    ListNode *detectCycle(ListNode *head) {
-	        
+			if (!head || !head->next) { return nullptr; }
+			
+			ListNode* slow = head;
+			ListNode* fast = head;
+			while (fast && fast->next) {
+				slow = slow->next;
+				fast = fast->next->next;
+				if (slow == fast) { break; }
+			}
+
+			if (!fast || !fast->next) { return nullptr; }
+
+			// Set fast to the beginning of linked list and moving together with slow until they meet. 
+			fast = head;
+			while (slow != fast) {
+				fast = fast->next;
+				slow = slow->next;
+			}
+			return fast;
 	    }
 
 		void Main() {

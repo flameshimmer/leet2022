@@ -70,17 +70,63 @@ namespace Solution2022
 {
 	namespace IntersectionofTwoLinkedLists
 	{
-	/**
-	 * Definition for singly-linked list.
-	 * struct ListNode {
-	 *     int val;
-	 *     ListNode *next;
-	 *     ListNode(int x) : val(x), next(NULL) {}
-	 * };
-	 */
-	    ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
-	        
-	    }
+		/**
+		 * Definition for singly-linked list.
+		 * struct ListNode {
+		 *     int val;
+		 *     ListNode *next;
+		 *     ListNode(int x) : val(x), next(NULL) {}
+		 * };
+		 */
+		ListNode* getIntersectionNode(ListNode* headA, ListNode* headB) {
+			if (!headA || !headB) { return nullptr; }
+
+			ListNode* tailA = headA;
+			while (tailA->next) { tailA = tailA->next; }
+			tailA->next = headB;
+
+			ListNode* slow = headA;
+			ListNode* fast = headA;
+			while (fast && fast->next) {
+				slow = slow->next;
+				fast = fast->next->next;
+				if (slow == fast) { break; }
+			}
+			if (!fast || !fast->next) { tailA->next = nullptr; return nullptr; } // Note: don't forget to change tailA back
+			fast = headA;
+			while (slow != fast) {
+				fast = fast->next;
+				slow = slow->next;
+			}
+			tailA->next = nullptr;
+			return fast;
+		}
+
+		namespace Another {
+			ListNode* getIntersectionNode(ListNode* headA, ListNode* headB) {
+				int lenA = 0;
+				int lenB = 0;
+				ListNode* curA = headA;
+				ListNode* curB = headB;
+				while (curA) { lenA++; curA = curA->next; }
+				while (curB) { lenB++; curB = curB->next; }
+
+				bool curALonger = lenA > lenB;
+				ListNode* longer = curALonger ? headA : headB;
+				ListNode* shorter = curALonger ? headB : headA;
+				int diff = curALonger ? (lenA - lenB) : (lenB - lenA);
+				while (diff > 0) {
+					longer = longer->next;
+					diff--;
+				}
+				while (longer != shorter) { ///--------> note that when both of them are null this also breaks, and returns null
+					longer = longer->next;
+					shorter = shorter->next;
+				}
+				return shorter;
+			}
+
+		}
 
 		void Main() {
 			string test = "tst test test";

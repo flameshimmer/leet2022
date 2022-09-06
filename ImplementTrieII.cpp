@@ -48,35 +48,87 @@ namespace Solution2022
 {
 	namespace ImplementTrieII
 	{
-	class Trie {
-	    Trie() {
-	        
-	    }
-	    
-	    void insert(string word) {
-	        
-	    }
-	    
-	    int countWordsEqualTo(string word) {
-	        
-	    }
-	    
-	    int countWordsStartingWith(string prefix) {
-	        
-	    }
-	    
-	    void erase(string word) {
-	        
-	    }
-	​
-	/**
-	 * Your Trie object will be instantiated and called as such:
-	 * Trie* obj = new Trie();
-	 * obj->insert(word);
-	 * int param_2 = obj->countWordsEqualTo(word);
-	 * int param_3 = obj->countWordsStartingWith(prefix);
-	 * obj->erase(word);
-	 */
+		class Trie {
+		private:
+			struct Node {
+				vector<Node*> children;
+				int countStart;
+				int countWord;
+				Node() {
+					children.resize(26, nullptr);
+					countStart = 0;
+					countWord = 0;
+				}
+			};
+			Node* root;
+		public:
+			Trie() {
+				root = new Node();
+			}
+
+			void insert(string word) {
+				Node* cur = root;
+				for (char c : word) {
+					int index = c - 'a';
+					if (cur->children[index] == nullptr) {
+						cur->children[index] = new Node();
+					}
+					cur->children[index]->countStart++;
+					cur = cur->children[index];
+				}
+				cur->countWord++;
+			}
+
+			int countWordsEqualTo(string word) {
+				Node* cur = root;
+				for (char c : word) {
+					int index = c - 'a';
+					if (cur->children[index] == nullptr) {
+						return 0;
+					}
+					cur = cur->children[index];
+				}
+				return cur->countWord;
+			}
+
+			int countWordsStartingWith(string prefix) {
+				Node* cur = root;
+				for (char c : prefix) {
+					int index = c - 'a';
+					if (cur->children[index] == nullptr) {
+						return 0;
+					}
+					cur = cur->children[index];
+				}
+				return cur->countStart;
+			}
+
+			void erase(string word) {
+				Node* cur = root;
+				for (char c : word) {
+					Node* next = cur->children[c - 'a'];
+					if (next != nullptr) {
+						next->countStart--;
+						if (next->countStart == 0) {
+							delete next;
+							cur->children[c - 'a'] = nullptr;
+							return;
+						}
+					}
+					cur = next;
+				}
+				cur->countWord--;
+			}
+		};
+
+		/**
+		 * Your Trie object will be instantiated and called as such:
+		 * Trie* obj = new Trie();
+		 * obj->insert(word);
+		 * int param_2 = obj->countWordsEqualTo(word);
+		 * int param_3 = obj->countWordsStartingWith(prefix);
+		 * obj->erase(word);
+		 */
 
 		void Main() {
 			string test = "tst test test";

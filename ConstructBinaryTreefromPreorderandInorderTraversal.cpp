@@ -26,20 +26,44 @@ namespace Solution2022
 {
 	namespace ConstructBinaryTreefromPreorderandInorderTraversal
 	{
-	/**
-	 * Definition for a binary tree node.
-	 * struct TreeNode {
-	 *     int val;
-	 *     TreeNode *left;
-	 *     TreeNode *right;
-	 *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
-	 *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
-	 *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
-	 * };
-	 */
-	    TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
-	        
-	    }
+		/**
+		 * Definition for a binary tree node.
+		 * struct TreeNode {
+		 *     int val;
+		 *     TreeNode *left;
+		 *     TreeNode *right;
+		 *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+		 *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+		 *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+		 * };
+		 */
+		TreeNode* helper(vector<int>& preorder, int& rootIndex, vector<int>& inorder, int start, int end, unordered_map<int, int>& map) {
+			if (start > end || rootIndex >= preorder.size()) { return nullptr; }
+
+			int rootVal = preorder[rootIndex];
+			TreeNode* newNode = new TreeNode(rootVal);
+			rootIndex++;
+
+			int i = map[rootVal];
+			newNode->left = helper(preorder, rootIndex, inorder, start, i - 1, map);
+			newNode->right = helper(preorder, rootIndex, inorder, i + 1, end, map);
+			return newNode;
+		}
+
+		TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
+			int len = preorder.size();
+			if (len == 0) { return nullptr; }
+
+			unordered_map<int, int> map;
+			for (int i = 0; i < len; i++) {
+				map[inorder[i]] = i;
+			}
+
+
+			int rootIndex = 0;
+			return helper(preorder, rootIndex, inorder, 0, len, map);
+		}
+
 
 		void Main() {
 			string test = "tst test test";

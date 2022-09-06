@@ -25,9 +25,13 @@ int _tmain(int argc, _TCHAR* argv[])
 	//9/6/2022
 	//Solution2022::DesignTicTacToe::Main();
 	//Solution2022::LinkedListCycle::Main();
+	//Solution2022::LinkedListCycleII::Main();
 	//Solution2022::ImplementTrie::Main();
+	//Solution2022::ImplementTrieII::Main();
+	//Solution2022::ConstructBinaryTreefromPreorderandInorderTraversal::Main();
 	//Solution2022::ConstructBinaryTreefromPreorderandPostorderTraversal::Main();
 	//Solution2022::IntersectionofTwoLinkedLists::Main();
+	//Solution2022::ConstructBinaryTreefromInorderandPostorderTraversal::Main();
 
 	//9/5/2022
 	//Solution2022::BinaryTreeZigzagLevelOrderTraversal::Main();
@@ -1248,7 +1252,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::MaximumDistanceBetweenaPairofValues::Main();
 	//Solution2022::BagofTokens::Main();
 	//Solution2022::MaximumXORforEachQuery::Main();
-	//Solution2022::ImplementTrieII::Main();
 	//Solution2022::CellsinaRangeonanExcelSheet::Main();
 	//Solution2022::RootEqualsSumofChildren::Main();
 	//Solution2022::EliminateMaximumNumberofMonsters::Main();
@@ -2028,7 +2031,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::FindAllNumbersDisappearedinanArray::Main();
 	//Solution2022::ZeroOneMatrix::Main();
 	//Solution2022::MinimumNumberofOperationstoMoveAllBallstoEachBox::Main();
-	//Solution2022::ConstructBinaryTreefromPreorderandInorderTraversal::Main();
 	//Solution2022::MinimumCosttoConnectSticks::Main();
 	//Solution2022::DiagonalTraverseII::Main();
 	//Solution2022::BinaryTreeUpsideDown::Main();
@@ -2209,7 +2211,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::IteratorforCombination::Main();
 	//Solution2022::NumberofShipsinaRectangle::Main();
 	//Solution2022::DiceRollSimulation::Main();
-	//Solution2022::LinkedListCycleII::Main();
 	//Solution2022::UniquePathsIII::Main();
 	//Solution2022::MergeTwoBinaryTrees::Main();
 	//Solution2022::FindLargestValueinEachTreeRow::Main();
@@ -2291,7 +2292,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::ReshapetheMatrix::Main();
 	//Solution2022::ReverseWordsinaStringII::Main();
 	//Solution2022::CanIWin::Main();
-	//Solution2022::ConstructBinaryTreefromInorderandPostorderTraversal::Main();
 	//Solution2022::RankTransformofanArray::Main();
 	//Solution2022::MaxSumofRectangleNoLargerThanK::Main();
 	//Solution2022::RandomPickwithBlacklist::Main();

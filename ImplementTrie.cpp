@@ -36,30 +36,62 @@ namespace Solution2022
 {
 	namespace ImplementTrie
 	{
-	class Trie {
-	    Trie() {
-	        
-	    }
-	    
-	    void insert(string word) {
-	        
-	    }
-	    
-	    bool search(string word) {
-	        
-	    }
-	    
-	    bool startsWith(string prefix) {
-	        
-	    }
-	​
-	/**
-	 * Your Trie object will be instantiated and called as such:
-	 * Trie* obj = new Trie();
-	 * obj->insert(word);
-	 * bool param_2 = obj->search(word);
-	 * bool param_3 = obj->startsWith(prefix);
-	 */
+		class Trie {
+		private:
+			struct Node {
+				vector<Node*> children;
+				bool isEnd;
+				Node() {
+					isEnd = false;
+					children.resize(26, nullptr);
+				}
+			};
+
+			Node* root;
+
+		public:
+			Trie() {
+				root = new Node();
+			}
+
+			void insert(string word) {
+				Node* cur = root;
+				for (char c : word) {
+					int index = c - 'a';
+					if (cur->children[index] == nullptr) {
+						cur->children[index] = new Node();
+					}
+					cur = cur->children[index];
+				}
+				cur->isEnd = true;
+			}
+
+			bool search(string word) {
+				Node* cur = root;
+				for (char c : word) {
+					if (cur->children[c - 'a'] == nullptr) { return false; }
+					cur = cur->children[c - 'a'];
+				}
+				return cur->isEnd;
+			}
+
+			bool startsWith(string prefix) {
+				Node* cur = root;
+				for (char c : prefix) {
+					if (cur->children[c - 'a'] == nullptr) { return false; }
+					cur = cur->children[c - 'a'];
+				}
+				return true;
+			}
+		};
+
+		/**
+		 * Your Trie object will be instantiated and called as such:
+		 * Trie* obj = new Trie();
+		 * obj->insert(word);
+		 * bool param_2 = obj->search(word);
+		 * bool param_3 = obj->startsWith(prefix);
+		 */
 
 		void Main() {
 			string test = "tst test test";
