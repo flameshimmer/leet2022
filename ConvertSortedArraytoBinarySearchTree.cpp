@@ -36,8 +36,22 @@ namespace Solution2022
 	 *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 	 * };
 	 */
+		TreeNode* helper(vector<int>& nums, int start, int end) {
+			if (start > end) { return nullptr; }
+			
+			int mid = start + (end - start) / 2;
+			TreeNode* newNode = new TreeNode(nums[mid]);
+			newNode->left = helper(nums, start, mid - 1);
+			newNode->right = helper(nums, mid + 1, end);
+
+			return newNode;
+		}
+
 	    TreeNode* sortedArrayToBST(vector<int>& nums) {
-	        
+			int len = nums.size();
+			if (len == 0) { return nullptr; }
+
+			return helper(nums, 0, len - 1);
 	    }
 
 		void Main() {

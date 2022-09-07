@@ -23,27 +23,56 @@ namespace Solution2022
 {
 	namespace MaximumDepthofNaryTree
 	{
-	/*
-	// Definition for a Node.
-	class Node {
-	    int val;
-	    vector<Node*> children;
-	​
-	    Node() {}
-	​
-	    Node(int _val) {
-	        val = _val;
-	    }
-	​
-	    Node(int _val, vector<Node*> _children) {
-	        val = _val;
-	        children = _children;
-	    }
-	*/
-	​
-	    int maxDepth(Node* root) {
-	        
-	    }
+		/*
+		// Definition for a Node.
+		class Node {
+			int val;
+			vector<Node*> children;
+		​
+			Node() {}
+		​
+			Node(int _val) {
+				val = _val;
+			}
+		​
+			Node(int _val, vector<Node*> _children) {
+				val = _val;
+				children = _children;
+			}
+		*/
+
+		int maxDepth(Node* root) {
+			if (!root) { return 0; }
+
+			int maxD = 0;
+			for (Node* n : root->children) {
+				maxD = max(maxD, maxDepth(n));
+			}
+			return maxD + 1;
+		}
+
+		namespace BFS {
+			int maxDepth(Node* root) {
+				if (!root) { return 0; }
+				queue<Node*> q;
+				q.push(root);
+
+				int result = 0;
+				while (!q.empty()) {
+					int sz = q.size();
+					while (sz) {
+						sz--;
+						Node* n = q.front();
+						q.pop();
+						for (Node* child : n->children) {
+							q.push(child);
+						}
+					}
+					result++;
+				}
+				return result;
+			}
+		}
 
 		void Main() {
 			string test = "tst test test";

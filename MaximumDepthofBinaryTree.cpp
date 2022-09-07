@@ -32,9 +32,31 @@ namespace Solution2022
 	 *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 	 * };
 	 */
-	    int maxDepth(TreeNode* root) {
-	        
-	    }
+
+		int maxDepth(TreeNode* root) {
+			if (!root) { return 0; }
+			return 1 + max(maxDepth(root->left), maxDepth(root->right));
+		}
+
+
+		namespace Another {
+			void helper(TreeNode* node, int depth, int& maxDepth) {
+				if (!node) { return; }
+				maxDepth = max(maxDepth, depth);
+				helper(node->left, depth + 1, maxDepth);
+				helper(node->right, depth + 1, maxDepth);
+			}
+
+
+			int maxDepth(TreeNode* root) {
+				if (!root) { return 0; }
+
+				int result = 0;
+				helper(root, 1, result);
+				return result;
+			}
+		}
+
 
 		void Main() {
 			string test = "tst test test";

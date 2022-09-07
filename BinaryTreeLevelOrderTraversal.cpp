@@ -36,7 +36,27 @@ namespace Solution2022
 	 * };
 	 */
 	    vector<vector<int>> levelOrder(TreeNode* root) {
-	        
+			vector<vector<int>> results;
+			if (!root) { return results; }
+
+			queue<TreeNode*> q;
+			q.push(root);
+			while (!q.empty()) {
+				int sz = q.size();
+				vector<int> result;
+				while (sz) {
+					sz--;
+					
+					TreeNode* top = q.front();
+					q.pop();
+					result.push_back(top->val);
+
+					if (top->left) { q.push(top->left); }
+					if (top->right) { q.push(top->right); }
+				}
+				results.push_back(result);
+			}
+			return results;
 	    }
 
 		void Main() {

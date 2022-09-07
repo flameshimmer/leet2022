@@ -38,17 +38,28 @@ namespace Solution2022
 {
 	namespace ShuffleanArray
 	{
-	    Solution(vector<int>& nums) {
-	        
-	    }
-	    
-	    vector<int> reset() {
-	        
-	    }
-	    
-	    vector<int> shuffle() {
-	        
-	    }
+		class Solution {
+		private:
+			vector<int> data;
+		public:
+			Solution(vector<int>& nums) {
+				data = nums;
+			}
+
+			vector<int> reset() {
+				return data;
+			}
+
+			vector<int> shuffle() {
+				vector<int> result(data);
+				int len = result.size();
+
+				for (int i = 0; i < len; i++) {
+					swap(result[i], result[rand() % len]);
+				}
+				return result;
+			}
+		};
 	​
 	/**
 	 * Your Solution object will be instantiated and called as such:
