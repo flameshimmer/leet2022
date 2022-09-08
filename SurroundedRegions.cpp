@@ -30,9 +30,49 @@ namespace Solution2022
 {
 	namespace SurroundedRegions
 	{
-	    void solve(vector<vector<char>>& board) {
-	        
-	    }
+		void helper(int row, int col, vector<vector<char>>& board, int rowCount, int colCount) {
+			if (row < 0 || row >= rowCount || col < 0 || col >= colCount || board[row][col] != 'O') { return; }
+			board[row][col] = '1';
+
+			helper(row - 1, col, board, rowCount, colCount);
+			helper(row + 1, col, board, rowCount, colCount);
+			helper(row, col - 1, board, rowCount, colCount);
+			helper(row, col + 1, board, rowCount, colCount);
+		}
+
+		void solve(vector<vector<char>>& board) {
+			int rowCount = board.size();
+			int colCount = board[0].size();
+
+			for (int col = 0; col < colCount; col++) {
+				if (board[0][col] == 'O') {
+					helper(0, col, board, rowCount, colCount);
+				}
+				if (rowCount > 1) {
+					if (board[rowCount - 1][col] == 'O') {
+						helper(rowCount - 1, col, board, rowCount, colCount);
+					}
+				}
+			}
+
+			for (int row = 0; row < rowCount; row++) {
+				if (board[row][0] == 'O') {
+					helper(row, 0, board, rowCount, colCount);
+				}
+				if (colCount > 1) {
+					if (board[row][colCount - 1] == 'O') {
+						helper(row, colCount - 1, board, rowCount, colCount);
+					}
+				}
+			}
+
+			for (int i = 0; i < rowCount; i++) {
+				for (int j = 0; j < colCount; j++) {
+					if (board[i][j] == 'O') { board[i][j] = 'X'; }
+					else if (board[i][j] == '1') { board[i][j] = 'O'; }
+				}
+			}
+		}
 
 		void Main() {
 			string test = "tst test test";

@@ -960,6 +960,69 @@
     <ClCompile Include="LinkedListCycleII.cpp">
       <Filter>Solution2022</Filter>
     </ClCompile>
+    <ClCompile Include="ImplementTrie.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="ImplementTrieII.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstructBinaryTreefromPreorderandPostorderTraversal.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstructBinaryTreefromPreorderandInorderTraversal.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="IntersectionofTwoLinkedLists.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstructBinaryTreefromInorderandPostorderTraversal.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="PerfectSquares.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="IntersectionofTwoArraysII.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="DeleteNodeinaLinkedList.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="ShuffleanArray.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="ConvertSortedListtoBinarySearchTree.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="ConvertSortedArraytoBinarySearchTree.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryTreeLevelOrderTraversalII.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryTreeInorderTraversal.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="MaximumDepthofBinaryTree.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="MaximumDepthofNaryTree.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="SurroundedRegions.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="SumofTwoIntegers.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="LongestSubstringwithAtMostTwoDistinctCharacters.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="LongestSubstringwithAtMostKDistinctCharacters.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="LongestSubstringwithAtLeastKRepeatingCharacters.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Solution2022.h">

@@ -22,13 +22,66 @@ namespace Solution2022
 {
 	namespace LongestSubstringwithAtMostTwoDistinctCharacters
 	{
-	    int lengthOfLongestSubstringTwoDistinct(string s) {
-	        
-	    }
+
+		int lengthOfLongestSubstringTwoDistinct(string s) {
+			int len = s.size();
+			if (len <= 2) { return len; }
+			unordered_map<char, int> map;
+
+			int start = 0;
+			int end = 0;
+			int result = 0;
+
+			while (end < len) {
+				map[s[end]] ++;
+
+				if (map.size() > 2) {
+					result = max(result, end - start);
+					while (map.size() > 2) {
+						char c = s[start];
+						map[c]--;
+						if (map[c] == 0) { map.erase(c); }
+						start++;
+					}
+				}
+				end++;
+			}
+			result = max(result, end - start);
+			return result;
+		}
+
+		
+		namespace Another {
+			int lengthOfLongestSubstringTwoDistinct(string s) {
+				int len = s.size();
+				if (len < 3) { return len; }
+				unordered_map<char, int> map;
+
+				int start = 0;
+				int end = 0;
+				int result = 0;
+				while (end < len) {
+					if (map.find(s[end]) != map.end() || map.size() < 2) {
+						map[s[end]]++;
+						end++;
+					}
+					else {
+						result = max(result, end - start);
+						while (map.size() >= 2) {
+							char c = s[start];
+							map[c]--;
+							if (map[c] == 0) { map.erase(c); }
+							start++;
+						}
+					}
+				}
+				result = max(result, end - start);
+				return result;
+			}
+		}
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			print(lengthOfLongestSubstringTwoDistinct("eceba"));
 		}
 	}
 }

@@ -22,9 +22,31 @@ namespace Solution2022
 {
 	namespace LongestSubstringwithAtMostKDistinctCharacters
 	{
-	    int lengthOfLongestSubstringKDistinct(string s, int k) {
-	        
-	    }
+		int lengthOfLongestSubstringKDistinct(string s, int k) {
+			int len = s.size();
+			if (len <= k) { return len; }
+
+			unordered_map<char, int> map;
+			int start = 0;
+			int end = 0;
+			int result = 0;
+
+			while (end < len) {
+				map[s[end]]++;
+				if (map.size() > k) {
+					result = max(result, end - start);
+					while (map.size() > k) {
+						char c = s[start];
+						map[c]--;
+						if (map[c] == 0) { map.erase(c); }
+						start++;
+					}
+				}
+				end++; // Note: Don't forget to increment end here!!!
+			}
+			result = max(result, end - start);
+			return result;
+		}
 
 		void Main() {
 			string test = "tst test test";

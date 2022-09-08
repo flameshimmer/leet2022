@@ -25,13 +25,60 @@ namespace Solution2022
 {
 	namespace LongestSubstringwithAtLeastKRepeatingCharacters
 	{
-	    int longestSubstring(string s, int k) {
-	        
-	    }
+
+		int longestSubstring(string s, int k) {
+			int len = s.size();
+			unordered_map<char, int> map;
+			for (char c : s) { map[c]++; }
+
+			int i = 0;
+			while (i < len && map[s[i]] >= k) { i++; }
+			if (i == len) { return len; }
+
+			int left = longestSubstring(s.substr(0, i), k);
+			int right = longestSubstring(s.substr(i + 1), k);
+			return max(left, right);
+		}
+
+		namespace TwoPointers {
+			//https://www.youtube.com/watch?v=_MJKUvM-4fM
+			int longestSubstring(string s, int k) {
+				int len = s.size();
+				int result = 0;
+
+				for (int i = 1; i <= 26; i++) {
+					unordered_map<char, int> map;
+					int start = 0;
+					int end = 0;
+					int uniqueChar = 0;
+					while (end < len) {
+						bool valid = true;
+						char c = s[end];
+						if (map[c] == 0) { uniqueChar++; }
+						map[c]++;
+						end++;
+
+						while (uniqueChar > i) {
+							char c2 = s[start];
+							if (map[c2] == 1) { uniqueChar--; }
+							map[c2]--;
+							start++;
+						}
+						for (char j = 'a'; j <= 'z'; j++) {
+							if (map[j] > 0 && map[j] < k) { valid = false; }
+						}
+						if (valid) { result = max(result, end - start); }
+					}
+				}
+				return result;
+			}
+		}
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			print(longestSubstring("ababbc", 3));
+			print(longestSubstring("weitong", 2));
+			print(longestSubstring("aaabb", 3));
+			print(longestSubstring("ababbc", 2));
 		}
 	}
 }
