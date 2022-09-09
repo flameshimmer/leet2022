@@ -1023,6 +1023,9 @@
     <ClCompile Include="LongestSubstringwithAtLeastKRepeatingCharacters.cpp">
       <Filter>Solution2022</Filter>
     </ClCompile>
+    <ClCompile Include="ReorderedPowerofTwo.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Solution2022.h">

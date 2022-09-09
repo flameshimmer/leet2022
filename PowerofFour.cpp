@@ -27,8 +27,15 @@ namespace Solution2022
 	namespace PowerofFour
 	{
 	    bool isPowerOfFour(int n) {
-	        
+			double d = log10(n) / log10(4);
+			return n > 0 && floor(d) == ceil(d);
 	    }
+
+		namespace Another {
+			bool isPowerOfFour(int n) {
+				return n > 0 && (n & n - 1) == 0 && (n & 0x55555555) != 0;
+			}		
+		}
 
 		void Main() {
 			string test = "tst test test";

@@ -39,25 +39,41 @@ namespace Solution2022
 {
 	namespace FlattenTwoDVector
 	{
-	class Vector2D {
-	    Vector2D(vector<vector<int>>& vec) {
-	        
-	    }
-	    
-	    int next() {
-	        
-	    }
-	    
-	    bool hasNext() {
-	        
-	    }
-	​
-	/**
-	 * Your Vector2D object will be instantiated and called as such:
-	 * Vector2D* obj = new Vector2D(vec);
-	 * int param_1 = obj->next();
-	 * bool param_2 = obj->hasNext();
-	 */
+		class Vector2D {
+		private:
+			vector<vector<int>>::iterator i;
+			vector<vector<int>>::iterator iEnd;
+			vector<int>::iterator j;
+
+		public:
+			Vector2D(vector<vector<int>>& vec) {
+				i = vec.begin();
+				iEnd = vec.end();
+				if (i != iEnd) { j = i->begin(); }  // Note: check i before setting j
+			}
+
+			int next() {
+				hasNext();
+				int result = *j;
+				j++;
+				return result;
+			}
+
+			bool hasNext() {
+				while (i != iEnd && j == i->end()) {
+					i++;
+					if (i != iEnd) { j = i->begin(); } // Note: check i before setting j
+				}
+				return i != iEnd;
+			}
+		};
+
+		/**
+		 * Your Vector2D object will be instantiated and called as such:
+		 * Vector2D* obj = new Vector2D(vec);
+		 * int param_1 = obj->next();
+		 * bool param_2 = obj->hasNext();
+		 */
 
 		void Main() {
 			string test = "tst test test";

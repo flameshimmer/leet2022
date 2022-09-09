@@ -37,18 +37,30 @@ namespace Solution2022
 {
 	namespace InorderSuccessorinBSTII
 	{
-	/*
-	// Definition for a Node.
-	class Node {
-	    int val;
-	    Node* left;
-	    Node* right;
-	    Node* parent;
-	*/
-	​
-	    Node* inorderSuccessor(Node* node) {
-	        
-	    }
+	
+		// Definition for a Node.
+		class Node {
+		public:
+			int val;
+			Node* left;
+			Node* right;
+			Node* parent;
+		};
+
+		Node* inorderSuccessor(Node* node) {
+			if (!node) { return nullptr; }
+
+			if (node->right) {
+				node = node->right;
+				while (node->left) { 
+					node = node->left; 
+				}
+				return node;
+			}
+
+			while (node->parent && node == node->parent->right) { node = node->parent; }
+			return node->parent;
+		}
 
 		void Main() {
 			string test = "tst test test";

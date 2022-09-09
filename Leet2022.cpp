@@ -23,6 +23,16 @@ int _tmain(int argc, _TCHAR* argv[])
 
 
 	//====Problem Starts====
+	//9/9/2022
+	//Solution2022::PowerofThree::Main();
+	//Solution2022::ReorderedPowerofTwo::Main();
+	//Solution2022::PowerofFour::Main();
+	//Solution2022::InorderSuccessorinBST::Main();
+	//Solution2022::InorderSuccessorinBSTII::Main();
+	//Solution2022::FlattenTwoDVector::Main();
+	//Solution2022::SortList::Main();
+	//Solution2022::MissingRanges::Main();
+
 	//9/8/2022
 	//Solution2022::SurroundedRegions::Main();
 	//Solution2022::SumofTwoIntegers::Main();
@@ -885,7 +895,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::ContainsDuplicateIII::Main();
 	//Solution2022::LargestSubmatrixWithRearrangements::Main();
 	//Solution2022::ParallelCourses::Main();
-	//Solution2022::ReorderedPowerofTwo::Main();
 	//Solution2022::MinimumOperationstoMaketheArrayAlternating::Main();
 	//Solution2022::AsFarfromLandasPossible::Main();
 	//Solution2022::MaximumLevelSumofaBinaryTree::Main();
@@ -953,7 +962,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::EliminationGame::Main();
 	//Solution2022::RemoveOneElementtoMaketheArrayStrictlyIncreasing::Main();
 	//Solution2022::SumofNodeswithEvenValuedGrandparent::Main();
-	//Solution2022::PowerofThree::Main();
 	//Solution2022::VowelsofAllSubstrings::Main();
 	//Solution2022::CountTripletsThatCanFormTwoArraysofEqualXOR::Main();
 	//Solution2022::BinaryTreeLongestConsecutiveSequenceII::Main();
@@ -1039,7 +1047,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::CreateBinaryTreeFromDescriptions::Main();
 	//Solution2022::IncreasingDecreasingString::Main();
 	//Solution2022::MinimumTimetoCollectAllApplesinaTree::Main();
-	//Solution2022::PowerofFour::Main();
 	//Solution2022::BinaryGap::Main();
 	//Solution2022::FindaCorrespondingNodeofaBinaryTreeinaCloneofThatTree::Main();
 	//Solution2022::ReplaceWords::Main();
@@ -1931,7 +1938,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::BackspaceStringCompare::Main();
 	//Solution2022::ShortestSubarraywithSumatLeastK::Main();
 	//Solution2022::SortanArray::Main();
-	//Solution2022::InorderSuccessorinBST::Main();
 	//Solution2022::DecreaseElementsToMakeArrayZigzag::Main();
 	//Solution2022::ProductofTwoRunLengthEncodedArrays::Main();
 	//Solution2022::MinimumNumberofStepstoMakeTwoStringsAnagram::Main();
@@ -1994,7 +2000,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::DesignAddandSearchWordsDataStructure::Main();
 	//Solution2022::FindCommonCharacters::Main();
 	//Solution2022::MaximumGoodPeopleBasedonStatements::Main();
-	//Solution2022::SortList::Main();
 	//Solution2022::IsomorphicStrings::Main();
 	//Solution2022::PaintingaGridWithThreeDifferentColors::Main();
 	//Solution2022::DeleteNodeinaBST::Main();
@@ -2018,7 +2023,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::RichestCustomerWealth::Main
 	//Solution2022::RepeatedDNASequences::Main();
 	//Solution2022::FindKPairswithSmallestSums::Main();
-	//Solution2022::FlattenTwoDVector::Main();
 	//Solution2022::NumberofSubarraysWithOddSum::Main();
 	//Solution2022::WaystoSplitArrayIntoThreeSubarrays::Main();
 	//Solution2022::FairCandySwap::Main();
@@ -2066,7 +2070,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::SpecialBinaryString::Main();
 	//Solution2022::SynonymousSentences::Main();
 	//Solution2022::ShoppingOffers::Main();
-	//Solution2022::InorderSuccessorinBSTII::Main();
 	//Solution2022::ConcatenationofArray::Main();
 	//Solution2022::ValidTriangleNumber::Main();
 	//Solution2022::PartitionLabels::Main();
@@ -2225,7 +2228,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::NumberofPairsofStringsWithConcatenationEqualtoTarget::Main();
 	//Solution2022::ReverseBits::Main();
 	//Solution2022::SearchinaSortedArrayofUnknownSize::Main();
-	//Solution2022::MissingRanges::Main();
 	//Solution2022::MajorityElementII::Main();
 	//Solution2022::PrefixandSuffixSearch::Main();
 	//Solution2022::CrackingtheSafe::Main();

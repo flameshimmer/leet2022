@@ -28,18 +28,84 @@ namespace Solution2022
 {
 	namespace InorderSuccessorinBST
 	{
-	/**
-	 * Definition for a binary tree node.
-	 * struct TreeNode {
-	 *     int val;
-	 *     TreeNode *left;
-	 *     TreeNode *right;
-	 *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
-	 * };
-	 */
-	    TreeNode* inorderSuccessor(TreeNode* root, TreeNode* p) {
-	        
-	    }
+		/**
+		 * Definition for a binary tree node.
+		 * struct TreeNode {
+		 *     int val;
+		 *     TreeNode *left;
+		 *     TreeNode *right;
+		 *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+		 * };
+		 */
+		TreeNode* inorderSuccessor(TreeNode* root, TreeNode* p) {
+			if (!root) { return nullptr; }
+
+			if (root->val <= p->val) {
+				return inorderSuccessor(root->right, p);
+			}
+			else {
+				TreeNode* left = inorderSuccessor(root->left, p);
+				return left ? left : root;
+			}
+		}
+
+		namespace Iterative {
+			TreeNode* inorderSuccessor(TreeNode* root, TreeNode* p) {
+				if (!root || !p) { return nullptr; }
+
+				TreeNode* result;
+				while (root) {
+					if (root->val <= p->val) { root = root->right; }
+					else {
+						result = root;
+						root = root->left;
+					}
+				}
+				return result;
+			}
+		}
+
+		// This is to use the inorder traversal's previous node to find the next Tree node after target node
+		namespace IterativeAnyTree {
+			TreeNode* inorderSuccessor(TreeNode* root, TreeNode* p) {
+				stack<TreeNode*> s;
+				TreeNode* cur = root;
+				TreeNode* result = nullptr;
+				TreeNode* prev = nullptr;
+				while (!s.empty() || cur) {
+					if (cur) {
+						s.push(cur);
+						cur = cur->left;
+					}
+					else {
+						TreeNode* top = s.top();
+						s.pop();
+						if (prev == p) { result = top; break; }
+						else { prev = top; }
+						cur = top->right;
+					}
+				}
+				return result;
+			}
+		}
+
+		namespace RecursiveAnyTree {
+			bool helper(TreeNode* node, TreeNode* target, TreeNode*& result, bool& seen) {
+				if (!node) { return false; }
+				if (helper(node->left, target, result, seen)) { return true; }
+				if (target == node && !seen) { seen = true; }
+				else if (seen) { result = node; return true; }
+				return helper(node->right, target, result, seen);
+			}
+
+			TreeNode* inorderSuccessor(TreeNode* root, TreeNode* p) {
+				if (!root || !p) { return nullptr; }
+				TreeNode* result = nullptr;
+				bool seen = false;
+				helper(root, p, result, seen);
+				return result;
+			}
+		}
 
 		void Main() {
 			string test = "tst test test";

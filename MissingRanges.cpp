@@ -36,9 +36,20 @@ namespace Solution2022
 {
 	namespace MissingRanges
 	{
-	    vector<string> findMissingRanges(vector<int>& nums, int lower, int upper) {
-	        
-	    }
+		string getRange(int start, int end) {
+			return (start == end) ? to_string(start) : to_string(start) + "->" + to_string(end);
+		}
+
+		vector<string> findMissingRanges(vector<int>& nums, int lower, int upper) {
+			vector<string> result;
+			nums.insert(nums.begin(), lower - 1);
+			nums.push_back(upper + 1);
+
+			for (int i = 1; i < nums.size(); i++) {
+				if (nums[i] - nums[i - 1] >= 2) { result.push_back(getRange(nums[i - 1] + 1, nums[i] - 1)); }
+			}
+			return result;
+		}
 
 		void Main() {
 			string test = "tst test test";

@@ -37,8 +37,42 @@ namespace Solution2022
 	 *     ListNode(int x, ListNode *next) : val(x), next(next) {}
 	 * };
 	 */
+		ListNode* merge(ListNode* l1, ListNode* l2) {
+			if (!l1 || !l2) { return l1 ? l1 : l2; }
+
+			ListNode* head = nullptr;
+			ListNode* tail = nullptr;
+
+			while (l1 && l2) {
+				bool l1Smaller = l1->val < l2->val;
+				ListNode* node = l1Smaller ? l1 : l2;
+
+				if (!head) { head = node; }
+				else { tail->next = node; }
+				tail = node;
+
+				if (l1Smaller) { l1 = l1->next; }
+				else { l2 = l2->next; }
+			}
+			tail->next = l1 ? l1 : l2;
+			return head;
+		}
+
 	    ListNode* sortList(ListNode* head) {
-	        
+			if (!head || !head->next) { return head; }
+
+			ListNode* slow = head;
+			ListNode* fast = head->next;
+			while (fast && fast->next) {
+				slow = slow->next;
+				fast = fast->next->next;
+			}
+			ListNode* secondHead = slow->next;
+			slow->next = nullptr;
+			
+			ListNode* left = sortList(head);
+			ListNode* right = sortList(secondHead);
+			return merge(left, right);
 	    }
 
 		void Main() {

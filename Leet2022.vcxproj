@@ -400,6 +400,7 @@
     <ClCompile Include="RemoveNthNodeFromEndofList.cpp" />
     <ClCompile Include="RemovePalindromicSubsequences.cpp" />
     <ClCompile Include="ReorderDatainLogFiles.cpp" />
+    <ClCompile Include="ReorderedPowerofTwo.cpp" />
     <ClCompile Include="ReverseBits.cpp" />
     <ClCompile Include="ReverseInteger.cpp" />
     <ClCompile Include="ReverseLinkedList.cpp" />

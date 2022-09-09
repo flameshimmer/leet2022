@@ -1,19 +1,14 @@
-	    int largestRectangleArea(vector<int>& heights) {
-			stack<int> s;
-			heights.push_back(0); // ensure the last iterator will clear out stack
+		string getRange(int start, int end) {
+			return (start == end) ? to_string(start) : to_string(start) + "->" + to_string(end);
+		}
 
-			int result = 0;
-			for (int i = 0; i < heights.size(); i++) {
-				if (s.empty() || heights[s.top()] <= heights[i]) {
-					s.push(i);
-				}
-				else {
-					int tmp = s.top();
-					s.pop();
-					int startIndex = s.empty() ? -1 : s.top(); // previous index is -1 if stack is empty
-					result = max(result, heights[tmp] * (i - startIndex - 1)); // height * (nextSmallerIndex - lastSmallerIndex - 1)
-					i--; // since we didn't push i in this case, i--
-				}
+	    vector<string> findMissingRanges(vector<int>& nums, int lower, int upper) {
+			vector<string> result;
+			nums.insert(nums.begin(), lower - 1);
+			nums.push_back(upper + 1);
+
+			for (int i = 1; i < nums.size(); i++) {
+				if (nums[i] - nums[i - 1] >= 2) { result.push_back(getRange(nums[i - 1] + 1, nums[i] - 1)); }
 			}
 			return result;
 	    }
