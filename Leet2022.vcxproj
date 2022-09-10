@@ -252,6 +252,7 @@
     <ClCompile Include="FirstUniqueCharacterinaString.cpp" />
     <ClCompile Include="FizzBuzz.cpp" />
     <ClCompile Include="FlattenNestedListIterator.cpp" />
+    <ClCompile Include="FlattenTwoDVector.cpp" />
     <ClCompile Include="FloodFill.cpp" />
     <ClCompile Include="FourSum.cpp" />
     <ClCompile Include="FractiontoRecurringDecimal.cpp" />
@@ -268,6 +269,8 @@
     <ClCompile Include="ImplementstrStr.cpp" />
     <ClCompile Include="ImplementTrie.cpp" />
     <ClCompile Include="ImplementTrieII.cpp" />
+    <ClCompile Include="InorderSuccessorinBST.cpp" />
+    <ClCompile Include="InorderSuccessorinBSTII.cpp" />
     <ClCompile Include="InsertDeleteGetRandomO.cpp" />
     <ClCompile Include="IntegertoEnglishWords.cpp" />
     <ClCompile Include="IntegertoRoman.cpp" />
@@ -364,6 +367,7 @@
     <ClCompile Include="NumberofOneBits.cpp" />
     <ClCompile Include="NumberofWaystoBuildSturdyBrickWall.cpp" />
     <ClCompile Include="OddEvenJump.cpp" />
+    <ClCompile Include="OddEvenLinkedList.cpp" />
     <ClCompile Include="OptimalAccountBalancing.cpp" />
     <ClCompile Include="PaintHouse.cpp" />
     <ClCompile Include="PaintHouseII.cpp" />

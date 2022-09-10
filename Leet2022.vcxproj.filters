@@ -1026,6 +1026,18 @@
     <ClCompile Include="ReorderedPowerofTwo.cpp">
       <Filter>Solution2022</Filter>
     </ClCompile>
+    <ClCompile Include="InorderSuccessorinBST.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="InorderSuccessorinBSTII.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="FlattenTwoDVector.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="OddEvenLinkedList.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Solution2022.h">

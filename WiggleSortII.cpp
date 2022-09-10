@@ -25,9 +25,27 @@ namespace Solution2022
 {
 	namespace WiggleSortII
 	{
-	    void wiggleSort(vector<int>& nums) {
-	        
-	    }
+		void wiggleSort(vector<int>& nums) {
+			vector<int> sorted = nums;
+			sort(sorted.begin(), sorted.end());
+
+			int len = nums.size();
+			int i1 = 0;
+			// if lenght is odd, then we need smaller section to be one more than larger section
+			// if length is even, then we need the smaller section to be the same as larger section. 
+			int i2 = (len - 1) / 2 + 1;
+
+			for (int i = len - 1; i >= 0; i--) { // fill from the back to ensure equal number are not placed together. 
+				if (i % 2 == 0) {
+					nums[i] = sorted[i1];
+					i1++;
+				}
+				else {
+					nums[i] = sorted[i2];
+					i2++;
+				}
+			}
+		}
 
 		void Main() {
 			string test = "tst test test";

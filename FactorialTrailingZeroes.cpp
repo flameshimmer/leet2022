@@ -28,8 +28,18 @@ namespace Solution2022
 {
 	namespace FactorialTrailingZeroes
 	{
+		// 10 = 2*5, n! is not lack of 2, so result is bound by 5
+		// 5 appears every 5 numbers. 
+		// sometimes a number have many 5s as factor. Like 5^2, 5^3
+		// So the question is the sum of how many numbers have 5 + 
+		// how many number has 2 of 5 as factor + how many numbers 
+		// have 3 of 5 factors
 	    int trailingZeroes(int n) {
-	        
+			int count = 0;
+			for (long long i = 5; n / i > 0; i *= 5) {
+				count += n / i;
+			}
+			return count;
 	    }
 
 		void Main() {

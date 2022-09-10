@@ -33,7 +33,15 @@ namespace Solution2022
 	namespace IncreasingTripletSubsequence
 	{
 	    bool increasingTriplet(vector<int>& nums) {
-	        
+			int min1 = INT_MAX;
+			int min2 = INT_MAX;
+
+			for (int v : nums) {
+				if (v <= min1) { min1 = v; }
+				else if (v <= min2) { min2 = v; }
+				else { return true; }
+			}
+			return false;
 	    }
 
 		void Main() {

@@ -25,8 +25,16 @@ namespace Solution2022
 {
 	namespace WiggleSort
 	{
+		// swapping will not be a problem because the expectation is small, swapping it with smaller number will
+		// still satisfy the requirement. Similarly with the bigger number. 
 	    void wiggleSort(vector<int>& nums) {
-	        
+			int len = nums.size();
+
+			for (int i = 1; i < len; i++) {
+				if (i % 2 == 1 && nums[i] < nums[i - 1] || i % 2 == 0 && nums[i] > nums[i - 1]) {
+					swap(nums[i], nums[i - 1]);
+				}
+			}
 	    }
 
 		void Main() {
