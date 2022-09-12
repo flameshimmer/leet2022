@@ -44,9 +44,32 @@ namespace Solution2022
 {
 	namespace IPO
 	{
-	    int findMaximizedCapital(int k, int w, vector<int>& profits, vector<int>& capital) {
-	        
-	    }
+		int findMaximizedCapital(int k, int w, vector<int>& profits, vector<int>& capital) {
+			int len = profits.size();
+			vector<pair<int, int>> projects;
+			for (int i = 0; i < len; i++) {
+				projects.push_back({ profits[i], capital[i] });
+			}
+
+			auto comp = [](pair<int, int>& a, pair<int, int>& b) {return a.second < b.second; };
+			sort(projects.begin(), projects.end(), comp);
+
+			priority_queue<int> pq;
+			int i = 0;
+			while (k) {
+				k--;
+				while (i < len && projects[i].second <= w) {
+					pq.push(projects[i].first);
+					i++;
+				}
+
+				if (!pq.empty()) {
+					w += pq.top();
+					pq.pop();
+				}
+			}
+			return w;
+		}
 
 		void Main() {
 			string test = "tst test test";

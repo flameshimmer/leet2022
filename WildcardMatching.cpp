@@ -32,9 +32,24 @@ namespace Solution2022
 {
 	namespace WildcardMatching
 	{
-	    bool isMatch(string s, string p) {
-	        
-	    }
+		bool isMatch(string s, string p) {
+			int lens = s.size();
+			int lenp = p.size();
+
+			vector<vector<bool>> M(lens + 1, vector<bool>(lenp + 1, false));
+			M[0][0] = true;
+			for (int i = 1; i < lenp + 1 && p[i - 1] == '*'; i++) {
+				M[0][i] = M[0][i - 1];
+			}
+
+			for (int i = 1; i < lens + 1; i++) {
+				for (int j = 1; j < lenp + 1; j++) {
+					if (s[i - 1] == p[j - 1] || p[j - 1] == '?') { M[i][j] = M[i - 1][j - 1]; }
+					else if (p[j - 1] == '*') { M[i][j] = M[i-1][j] || M[i][j-1]; }
+				}
+			}
+			return M[lens][lenp];
+		}
 
 		void Main() {
 			string test = "tst test test";

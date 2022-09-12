@@ -33,9 +33,18 @@ namespace Solution2022
 {
 	namespace KokoEatingBananas
 	{
-	    int minEatingSpeed(vector<int>& piles, int h) {
-	        
-	    }
+		int minEatingSpeed(vector<int>& piles, int h) {
+			int start = 1;
+			int end = *max_element(piles.begin(), piles.end());
+			while (start < end) {
+				int mid = start + (end - start) / 2;
+				int totalHours = 0;
+				for (int p : piles) { totalHours += ceil((double)p / (double)mid); }
+				if (totalHours > h) { start = mid + 1; }
+				else { end = mid; }
+			}
+			return start;
+		}
 
 		void Main() {
 			string test = "tst test test";

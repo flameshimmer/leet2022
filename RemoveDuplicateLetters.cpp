@@ -25,9 +25,26 @@ namespace Solution2022
 {
 	namespace RemoveDuplicateLetters
 	{
-	    string removeDuplicateLetters(string s) {
-	        
-	    }
+		string removeDuplicateLetters(string s) {
+			vector<int> count(26, 0); // count after current position
+			for (char c : s) { count[c - 'a']++; }
+
+			vector<bool> used(26, false);
+			string result;
+
+			for (char c : s) {
+				count[c - 'a']--;
+				if (used[c - 'a']) { continue; }
+
+				while (!result.empty() && result.back() > c && count[result.back() - 'a'] > 0) {
+					used[result.back() - 'a'] = false; // Note: this will have to happen before result pop_back!!!
+					result.pop_back();
+				}
+				result += c;
+				used[c - 'a'] = true;
+			}
+			return result;
+		}
 
 		void Main() {
 			string test = "tst test test";

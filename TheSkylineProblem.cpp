@@ -46,9 +46,48 @@ namespace Solution2022
 {
 	namespace TheSkylineProblem
 	{
-	    vector<vector<int>> getSkyline(vector<vector<int>>& buildings) {
-	        
-	    }
+		int maxHeight(multiset<int>& heights) {
+			if (heights.empty()) { return 0; }
+			return *heights.rbegin();
+		}
+
+		vector<vector<int>> getSkyline(vector<vector<int>>& buildings) {
+			typedef pair<int, int> Event;
+			vector<Event> events;
+			multiset<int> heights;
+
+			for (vector<int>& b : buildings) {
+				events.push_back({ b[0], b[2] });
+				events.push_back({ b[1], -b[2] });
+			}
+
+			auto comp = [](Event& a, Event& b) {
+				if (a.first == b.first) { return a.second > b.second; }
+				return a.first < b.first;
+			};
+
+			sort(events.begin(), events.end(), comp);
+
+			vector<vector<int>> results;
+			for (Event& e : events) {
+				int x = e.first;
+				bool entering = e.second > 0;
+				int h = abs(e.second);
+
+				if (entering) {
+					if (h > maxHeight(heights)) {
+						results.push_back({x, h});
+					}
+					heights.insert(h);
+				} else {
+					heights.erase(heights.equal_range(h).first);
+					if (h > maxHeight(heights)) {
+						results.push_back({ x, maxHeight(heights) });
+					}
+				}
+			}
+			return results;
+		}
 
 		void Main() {
 			string test = "tst test test";

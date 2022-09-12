@@ -1,14 +1,28 @@
-		string getRange(int start, int end) {
-			return (start == end) ? to_string(start) : to_string(start) + "->" + to_string(end);
+		int findNextStateByUsingStr(int state, string& target, string& str) {
+			int n = target.size();
+			for (auto c : str) {
+				for (int k = 0; k < n; k++) {
+					if (((state >> k) & 1) == 0 && target[k] == c) {
+						state = state + (1 << k);
+						break;
+					}
+				}
+			}
+			return state;
 		}
 
-	    vector<string> findMissingRanges(vector<int>& nums, int lower, int upper) {
-			vector<string> result;
-			nums.insert(nums.begin(), lower - 1);
-			nums.push_back(upper + 1);
+		int minStickers(vector<string>& stickers, string target) {
+			int n = target.size();
+			int totalStateCount = 1 << n;
+			vector<int> dp(totalStateCount, INT_MAX);
+			dp[0] = 0;
 
-			for (int i = 1; i < nums.size(); i++) {
-				if (nums[i] - nums[i - 1] >= 2) { result.push_back(getRange(nums[i - 1] + 1, nums[i] - 1)); }
+			for (int state = 0; state < totalStateCount; state++) {
+				if (dp[state] == INT_MAX) { continue; }
+				for (string& str : stickers) {
+					int newState = findNextStateByUsingStr(state, target, str);
+					dp[newState] = min(dp[newState], dp[state] + 1);
+				}
 			}
-			return result;
-	    }
+			return dp[totalStateCount - 1] == INT_MAX ? -1 : dp[totalStateCount - 1];
+		}

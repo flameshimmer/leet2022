@@ -42,9 +42,36 @@ namespace Solution2022
 {
 	namespace StickerstoSpellWord
 	{
-	    int minStickers(vector<string>& stickers, string target) {
-	        
-	    }
+		int findNewState(int state, string& sticker, string& target) {
+			int n = target.size();
+
+			for (char c : sticker) {
+				for (int i = 0; i < n; i++) {
+					if (((state >> i) & 1) == 0 && target[i] == c) {
+						state += (1 << i);
+						break;
+					}
+				}
+			}
+			return state;
+		}
+
+		int minStickers(vector<string>& stickers, string target) {
+			int n = target.size();
+			int totalStateCount = 1 << n;
+
+			vector<int> dp(totalStateCount, INT_MAX);
+			dp[0] = 0;
+
+			for (int state = 0; state < totalStateCount; state++) {
+				if (dp[state] == INT_MAX) { continue; }
+				for (string& sticker : stickers) {
+					int newState = findNewState(state, sticker, target);
+					dp[newState] = min(dp[newState], dp[state] + 1);
+				}
+			}
+			return dp[totalStateCount - 1] == INT_MAX ? -1 : dp[totalStateCount - 1];
+		}
 
 		void Main() {
 			string test = "tst test test";

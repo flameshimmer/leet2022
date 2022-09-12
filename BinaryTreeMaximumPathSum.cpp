@@ -29,29 +29,27 @@ namespace Solution2022
 {
 	namespace BinaryTreeMaximumPathSum
 	{
-	/**
-	 * Definition for a binary tree node.
-	 * struct TreeNode {
-	 *     int val;
-	 *     TreeNode *left;
-	 *     TreeNode *right;
-	 *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
-	 *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
-	 *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
-	 * };
-	 */
-
+		/**
+		 * Definition for a binary tree node.
+		 * struct TreeNode {
+		 *     int val;
+		 *     TreeNode *left;
+		 *     TreeNode *right;
+		 *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+		 *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+		 *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+		 * };
+		 */
 		int maxToRoot(TreeNode* node, int& result) {
 			if (!node) { return 0; }
-			int l = maxToRoot(node->left, result);
-			int r = maxToRoot(node->right, result);
-			result = l + r + node->val;
-			result = max(result, max(l, r));
-			return result;
+			int left = max(0, maxToRoot(node->left, result));
+			int right = max(0, maxToRoot(node->right, result));
+			result = max(result, left + right + node->val);
+			return node->val + max(left, right);
 		}
 
-		
-	    int maxPathSum(TreeNode* root) {
+
+		int maxPathSum(TreeNode* root) {
 			int result = INT_MIN;
 			maxToRoot(root, result);
 			return result;

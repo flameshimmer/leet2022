@@ -37,20 +37,32 @@ namespace Solution2022
 {
 	namespace RangeSumQueryTwoDImmutable
 	{
-	class NumMatrix {
-	    NumMatrix(vector<vector<int>>& matrix) {
-	        
-	    }
-	    
-	    int sumRegion(int row1, int col1, int row2, int col2) {
-	        
-	    }
-	​
-	/**
-	 * Your NumMatrix object will be instantiated and called as such:
-	 * NumMatrix* obj = new NumMatrix(matrix);
-	 * int param_1 = obj->sumRegion(row1,col1,row2,col2);
-	 */
+		class NumMatrix {
+		private:
+			vector<vector<int>> m;
+			int a(int i, int j) {
+				return (i >= 0 && j >= 0) ? m[i][j] : 0;
+			}
+		public:
+			NumMatrix(vector<vector<int>>& matrix) {
+				m = matrix;
+				for (int i = 0; i < m.size(); i++) {
+					for (int j = 0; j < m[0].size(); j++) {
+						m[i][j] += a(i - 1, j) + a(i, j - 1) - a(i - 1, j - 1);
+					}
+				}
+			}
+
+			int sumRegion(int row1, int col1, int row2, int col2) {
+				return a(row2, col2) - a(row1 - 1, col2) - a(row2, col1 - 1) + a(row1 - 1, col1 - 1);
+			}
+		};
+
+		/**
+		 * Your NumMatrix object will be instantiated and called as such:
+		 * NumMatrix* obj = new NumMatrix(matrix);
+		 * int param_1 = obj->sumRegion(row1,col1,row2,col2);
+		 */
 
 		void Main() {
 			string test = "tst test test";

@@ -53,11 +53,13 @@ namespace Solution2022
 						continue;
 					}
 
+					// if we want to match X*
 					if (i - 1 >= 0 && j - 2 >= 0 && p[j-1] == '*' && matches(s, p, i - 1, j - 2) && M[i - 1][j]) {
 						M[i][j] = true;
 						continue;
 					}
 
+					// if we don't want to matching X*
 					if (j - 2 >= 0 && p[j - 1] == '*' && M[i][j - 2]) {
 						M[i][j] = true;
 						continue;
