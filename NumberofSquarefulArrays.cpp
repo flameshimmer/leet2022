@@ -25,9 +25,38 @@ namespace Solution2022
 {
 	namespace NumberofSquarefulArrays
 	{
-	    int numSquarefulPerms(vector<int>& nums) {
-	        
-	    }
+		void helper(int v, int level, int len, unordered_map<int, int>& count, unordered_map<int, unordered_set<int>>& candidates, int& result) {
+			if (level == len) { result++; return; }
+			count[v]--;
+			for (int c : candidates[v]) {
+				if (count[c] > 0) {
+					helper(c, level + 1, len, count, candidates, result);
+				}
+			}
+			count[v]++;
+		}
+
+		int numSquarefulPerms(vector<int>& nums) {
+			int len = nums.size();
+			unordered_map<int, int> count;
+			for (int v : nums) { count[v]++; }
+
+			unordered_map<int, unordered_set<int>> candidates;
+			for (auto& p1 : count) {
+				for (auto& p2 : count) { // the count[c] > 0 check will ensure the usage will fit into the resource. So don't worry about p1 == p2 case here. 
+					int x = p1.first;
+					int y = p2.first;
+					int s = sqrt(x + y);
+					if (s * s == x + y) { candidates[x].insert(y); }
+				}
+			}
+
+			int result = 0;
+			for (auto& p : count) {
+				helper(p.first, 1, len, count, candidates, result); // Note: the start level is 1 instead of 0!!!!
+			}
+			return result;
+		}
 
 		void Main() {
 			string test = "tst test test";

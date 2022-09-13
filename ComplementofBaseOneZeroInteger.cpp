@@ -36,9 +36,14 @@ namespace Solution2022
 {
 	namespace ComplementofBaseOneZeroInteger
 	{
-	    int bitwiseComplement(int n) {
-	        
-	    }
+		// side node: negative number's two's complement is to invert, then +1
+		int bitwiseComplement(int n) {
+			int mask = 1;
+			while (mask < n) {
+				mask = (mask << 1 | 1);
+			}
+			return n ^ mask;
+		}
 
 		void Main() {
 			string test = "tst test test";

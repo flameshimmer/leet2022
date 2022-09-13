@@ -26,13 +26,27 @@ namespace Solution2022
 {
 	namespace DailyTemperatures
 	{
-	    vector<int> dailyTemperatures(vector<int>& temperatures) {
-	        
+	    vector<int> dailyTemperatures(vector<int>& t) {			
+			int len = t.size();
+			if (len == 0) { return {}; }
+
+			vector<int> result(len, 0);
+			stack<int> s;
+
+			for (int i = 0; i < len; i++) {
+				while (!s.empty() && t[i] > t[s.top()]) {
+					int top = s.top();
+					s.pop();
+					result[top] = i - top;
+				}
+				s.push(i);
+			}
+			return result;
 	    }
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			vector<int> test = { 73,74,75,71,69,72,76,73 };
+			print(dailyTemperatures(test));
 		}
 	}
 }

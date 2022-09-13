@@ -169,6 +169,7 @@
     <ClCompile Include="BestTimetoBuyandSellStockIV.cpp" />
     <ClCompile Include="BestTimetoBuyandSellStockwithTransactionFee.cpp" />
     <ClCompile Include="BinarySearch.cpp" />
+    <ClCompile Include="BinarySearchTreeIterator.cpp" />
     <ClCompile Include="BinaryTreeInorderTraversal.cpp" />
     <ClCompile Include="BinaryTreeLevelOrderTraversalII.cpp" />
     <ClCompile Include="BinaryTreePreorderTraversal.cpp" />
@@ -212,6 +213,7 @@
     <ClCompile Include="CourseScheduleIII.cpp" />
     <ClCompile Include="CourseScheduleIV.cpp" />
     <ClCompile Include="CustomSortString.cpp" />
+    <ClCompile Include="DailyTemperatures.cpp" />
     <ClCompile Include="DecodeString.cpp" />
     <ClCompile Include="DecodeWays.cpp" />
     <ClCompile Include="DegreeofanArray.cpp" />
@@ -233,6 +235,7 @@
     <ClCompile Include="ExamRoom.cpp" />
     <ClCompile Include="ExcelSheetColumnNumber.cpp" />
     <ClCompile Include="ExclusiveTimeofFunctions.cpp" />
+    <ClCompile Include="FactorialTrailingZeroes.cpp" />
     <ClCompile Include="FibonacciNumber.cpp" />
     <ClCompile Include="FillingBookcaseShelves.cpp" />
     <ClCompile Include="FindAndReplaceinString.cpp" />
@@ -255,6 +258,7 @@
     <ClCompile Include="FlattenTwoDVector.cpp" />
     <ClCompile Include="FloodFill.cpp" />
     <ClCompile Include="FourSum.cpp" />
+    <ClCompile Include="FourSumII.cpp" />
     <ClCompile Include="FractiontoRecurringDecimal.cpp" />
     <ClCompile Include="FurthestBuildingYouCanReach.cpp" />
     <ClCompile Include="GameofLife.cpp" />
@@ -269,6 +273,7 @@
     <ClCompile Include="ImplementstrStr.cpp" />
     <ClCompile Include="ImplementTrie.cpp" />
     <ClCompile Include="ImplementTrieII.cpp" />
+    <ClCompile Include="IncreasingTripletSubsequence.cpp" />
     <ClCompile Include="InorderSuccessorinBST.cpp" />
     <ClCompile Include="InorderSuccessorinBSTII.cpp" />
     <ClCompile Include="InsertDeleteGetRandomO.cpp" />
@@ -277,6 +282,7 @@
     <ClCompile Include="IntersectionofTwoArrays.cpp" />
     <ClCompile Include="IntersectionofTwoArraysII.cpp" />
     <ClCompile Include="IntersectionofTwoLinkedLists.cpp" />
+    <ClCompile Include="IPO.cpp" />
     <ClCompile Include="JumpGame.cpp" />
     <ClCompile Include="JumpGameII.cpp" />
     <ClCompile Include="JumpGameIII.cpp" />
@@ -321,6 +327,7 @@
     <ClCompile Include="MaximumNumberofPointswithCost.cpp" />
     <ClCompile Include="MaximumNumberofVisiblePoints.cpp" />
     <ClCompile Include="MaximumPointsYouCanObtainfromCards.cpp" />
+    <ClCompile Include="MaximumProductofThreeNumbers.cpp" />
     <ClCompile Include="MaximumScoreofaNodeSequence.cpp" />
     <ClCompile Include="MaximumSizeSubarraySumEqualsk.cpp" />
     <ClCompile Include="MaximumSplitofPositiveEvenIntegers.cpp" />
@@ -360,6 +367,7 @@
     <ClCompile Include="NextGreaterElementIII.cpp" />
     <ClCompile Include="NextPalindromeUsingSameDigits.cpp" />
     <ClCompile Include="NextPermutation.cpp" />
+    <ClCompile Include="NonoverlappingIntervals.cpp" />
     <ClCompile Include="NthDigit.cpp" />
     <ClCompile Include="NumberofIslands.cpp" />
     <ClCompile Include="NumberofMatchingSubsequences.cpp" />
@@ -391,6 +399,10 @@
     <ClCompile Include="RaceCar.cpp" />
     <ClCompile Include="RandomPickwithWeight.cpp" />
     <ClCompile Include="RangeSumofBST.cpp" />
+    <ClCompile Include="RangeSumQueryImmutable.cpp" />
+    <ClCompile Include="RangeSumQueryMutable.cpp" />
+    <ClCompile Include="RangeSumQueryTwoDImmutable.cpp" />
+    <ClCompile Include="RangeSumQueryTwoDMutable.cpp" />
     <ClCompile Include="RearrangeSpacesBetweenWords.cpp" />
     <ClCompile Include="ReconstructOriginalDigitsfromEnglish.cpp" />
     <ClCompile Include="ReducingDishes.cpp" />
@@ -399,6 +411,7 @@
     <ClCompile Include="RemoveAllAdjacentDuplicatesinStringII.cpp" />
     <ClCompile Include="RemoveAllOnesWithRowandColumnFlips.cpp" />
     <ClCompile Include="RemoveCoveredIntervals.cpp" />
+    <ClCompile Include="RemoveDuplicateLetters.cpp" />
     <ClCompile Include="RemoveDuplicatesfromSortedArray.cpp" />
     <ClCompile Include="RemoveDuplicatesfromSortedArrayII.cpp" />
     <ClCompile Include="RemoveNthNodeFromEndofList.cpp" />
@@ -444,6 +457,7 @@
     <ClCompile Include="SquaresofaSortedArray.cpp" />
     <ClCompile Include="stdafx.cpp" />
     <ClCompile Include="StepByStepDirectionsFromaBinaryTreeNodetoAnother.cpp" />
+    <ClCompile Include="StickerstoSpellWord.cpp" />
     <ClCompile Include="StringCompression.cpp" />
     <ClCompile Include="StringtoInteger.cpp" />
     <ClCompile Include="StudentAttendanceRecordI.cpp" />
@@ -460,6 +474,7 @@
     <ClCompile Include="Test.cpp" />
     <ClCompile Include="TextJustification.cpp" />
     <ClCompile Include="TheNumberofWeakCharactersintheGame.cpp" />
+    <ClCompile Include="TheSkylineProblem.cpp" />
     <ClCompile Include="ThreeSum.cpp" />
     <ClCompile Include="ThreeSumClosest.cpp" />
     <ClCompile Include="ThreeSumWithMultiplicity.cpp" />
@@ -485,6 +500,7 @@
     <ClCompile Include="ValidWordAbbreviation.cpp" />
     <ClCompile Include="VerifyinganAlienDictionary.cpp" />
     <ClCompile Include="VideoStitching.cpp" />
+    <ClCompile Include="WildcardMatching.cpp" />
     <ClCompile Include="WordBreakII.cpp" />
     <ClCompile Include="WordLadder.cpp" />
     <ClCompile Include="WordLadderII.cpp" />

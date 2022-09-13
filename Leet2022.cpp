@@ -24,7 +24,10 @@ int _tmain(int argc, _TCHAR* argv[])
 	//====Problem Starts====
 	//9/13/2022
 	//Solution2022::DailyTemperatures::Main();
-
+	//Solution2022::PeekingIterator::Main();
+	//Solution2022::KInversePairsArray::Main();
+	//Solution2022::ComplementofBaseOneZeroInteger::Main();
+	//Solution2022::NumberofSquarefulArrays::Main();
 
 	//9/12/2022
 	//Solution2022::StickerstoSpellWord::Main();
@@ -1087,7 +1090,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::PlusOneLinkedList::Main();
 	//Solution2022::LicenseKeyFormatting::Main();
 	//Solution2022::NonnegativeIntegerswithoutConsecutiveOnes::Main();
-	//Solution2022::NumberofSquarefulArrays::Main();
 	//Solution2022::UncrossedLines::Main();
 	//Solution2022::FlowerPlantingWithNoAdjacent::Main();
 	//Solution2022::PrimeArrangements::Main();
@@ -1910,7 +1912,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::RandomPickIndex::Main();
 	//Solution2022::CherryPickupII::Main();
 	//Solution2022::ReverseLinkedListII::Main();
-	//Solution2022::ComplementofBaseOneZeroInteger::Main();
 	//Solution2022::PartitionArrayIntoTwoArraystoMinimizeSumDifference::Main();
 	//Solution2022::FrogJump::Main();
 	//Solution2022::MaxChunksToMakeSortedII::Main();
@@ -1924,7 +1925,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::UniqueBinarySearchTrees::Main();
 	//Solution2022::MaximumTwinSumofaLinkedList::Main();
 	//Solution2022::FlattenaMultilevelDoublyLinkedList::Main();
-	//Solution2022::KInversePairsArray::Main();
 	//Solution2022::CriticalConnectionsinaNetwork::Main();
 	//Solution2022::MinimumNumberofOperationstoMakeStringSorted::Main();
 	//Solution2022::KthLargestElementinaStream::Main();
@@ -2061,7 +2061,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::MinimumCosttoConnectSticks::Main();
 	//Solution2022::DiagonalTraverseII::Main();
 	//Solution2022::BinaryTreeUpsideDown::Main();
-	//Solution2022::PeekingIterator::Main();
 	//Solution2022::ReverseWordsinaStringIII::Main();
 	//Solution2022::MinimumTimetoMakeRopeColorful::Main();
 	//Solution2022::CountArrayPairsDivisiblebyK::Main();
