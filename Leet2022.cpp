@@ -20,8 +20,17 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::PalindromePartitioningIII::Main();
 	//Solution2022::PalindromePartitioningIV::Main();
 
+	//Solution2022::NumberofDigitOne::Main();
 
 	//====Problem Starts====
+	//9/14/2022
+	//Solution2022::DeleteOperationforTwoStrings::Main();
+	//Solution2022::LongestCommonSubsequence::Main();
+	//Solution2022::SubstringwithConcatenationofAllWords::Main();
+	//Solution2022::SparseMatrixMultiplication::Main();
+	//Solution2022::BinaryTreesWithFactors::Main();
+
+
 	//9/13/2022
 	//Solution2022::DailyTemperatures::Main();
 	//Solution2022::PeekingIterator::Main();
@@ -948,7 +957,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::LongestPalindrome::Main();
 	//Solution2022::DistinctSubsequences::Main();
 	//Solution2022::KthSmallestinLexicographicalOrder::Main();
-	//Solution2022::DeleteOperationforTwoStrings::Main();
 	//Solution2022::StrangePrinterII::Main();
 	//Solution2022::MinimumSpaceWastedFromPackaging::Main();
 	//Solution2022::AddtoArrayFormofInteger::Main();
@@ -1077,7 +1085,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::CountIntegersWithEvenDigitSum::Main();
 	//Solution2022::DesignanATMMachine::Main();
 	//Solution2022::SlowestKey::Main();
-	//Solution2022::BinaryTreesWithFactors::Main();
 	//Solution2022::DinnerPlateStacks::Main();
 	//Solution2022::TheTimeWhentheNetworkBecomesIdle::Main();
 	//Solution2022::ValidArrangementofPairs::Main();
@@ -1609,7 +1616,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::CandyCrush::Main();
 	//Solution2022::FindAllAnagramsinaString::Main();
 	//Solution2022::RemoveInvalidParentheses::Main();
-	//Solution2022::SparseMatrixMultiplication::Main();
 	//Solution2022::PeopleWhoseListofFavoriteCompaniesIsNotaSubsetofAnotherList::Main();
 	//Solution2022::MaximumNumberofDartsInsideofaCircularDartboard::Main();
 	//Solution2022::MaxDotProductofTwoSubsequences::Main();
@@ -1942,7 +1948,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::WebCrawler::Main();
 	//Solution2022::SumRoottoLeafNumbers::Main();
 	//Solution2022::PartitionEqualSubsetSum::Main();
-	//Solution2022::SubstringwithConcatenationofAllWords::Main();
 	//Solution2022::StoneGameIV::Main();
 	//Solution2022::DesignHashSet::Main();
 	//Solution2022::WordPattern::Main();
@@ -1994,7 +1999,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::MostProfitAssigningWork::Main();
 	//Solution2022::SlidingPuzzle::Main();
 	//Solution2022::MinimumNumberofSwapstoMaketheStringBalanced::Main();
-	//Solution2022::NumberofDigitOne::Main();
 	//Solution2022::WaterandJugProblem::Main();
 	//Solution2022::StrobogrammaticNumber::Main();
 	//Solution2022::CountDifferentPalindromicSubsequences::Main();
@@ -2171,7 +2175,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::MinimumInsertionstoBalanceaParenthesesString::Main();
 	//Solution2022::ConverttoBaseTwo::Main();
 	//Solution2022::FriendsOfAppropriateAges::Main();
-	//Solution2022::LongestCommonSubsequence::Main();
 	//Solution2022::CamelcaseMatching::Main();
 	//Solution2022::ValidMountainArray::Main();
 	//Solution2022::RectangleAreaII::Main();

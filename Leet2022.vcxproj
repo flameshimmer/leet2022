@@ -189,6 +189,7 @@
     <ClCompile Include="ClosestNodetoPathinTree.cpp" />
     <ClCompile Include="CoinChange.cpp" />
     <ClCompile Include="Combinations.cpp" />
+    <ClCompile Include="ComplementofBaseOneZeroInteger.cpp" />
     <ClCompile Include="ConfusingNumber.cpp" />
     <ClCompile Include="ConstructBinaryTreefromInorderandPostorderTraversal.cpp" />
     <ClCompile Include="ConstructBinaryTreefromPreorderandInorderTraversal.cpp" />
@@ -293,6 +294,7 @@
     <ClCompile Include="JumpGameVII.cpp" />
     <ClCompile Include="KClosestPointstoOrigin.cpp" />
     <ClCompile Include="KdiffPairsinanArray.cpp" />
+    <ClCompile Include="KInversePairsArray.cpp" />
     <ClCompile Include="KthLargestElementinanArray.cpp" />
     <ClCompile Include="KthMissingPositiveNumber.cpp" />
     <ClCompile Include="KthSmallestElementinaSortedMatrix.cpp" />
@@ -373,6 +375,7 @@
     <ClCompile Include="NumberofMatchingSubsequences.cpp" />
     <ClCompile Include="NumberofMusicPlaylists.cpp" />
     <ClCompile Include="NumberofOneBits.cpp" />
+    <ClCompile Include="NumberofSquarefulArrays.cpp" />
     <ClCompile Include="NumberofWaystoBuildSturdyBrickWall.cpp" />
     <ClCompile Include="OddEvenJump.cpp" />
     <ClCompile Include="OddEvenLinkedList.cpp" />

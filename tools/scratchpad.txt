@@ -1,28 +1,17 @@
-		int findNextStateByUsingStr(int state, string& target, string& str) {
-			int n = target.size();
-			for (auto c : str) {
-				for (int k = 0; k < n; k++) {
-					if (((state >> k) & 1) == 0 && target[k] == c) {
-						state = state + (1 << k);
-						break;
+	    int numFactoredBinaryTrees(vector<int>& A) {
+			long long result = 0;
+			long long MOD = pow(10, 9) + 7;
+			sort(A.begin(), A.end());
+			unordered_map<int, long long> dp;
+
+			for (int i = 0; i < A.size(); i++) {
+				dp[A[i]] = 1;
+				for (int j = 0; j < i; j++) {
+					if (A[i] % A[j] == 0) {
+						dp[A[i]] = (dp[A[i]] + dp[A[j]] * dp[(A[i] / A[j])]) % MOD;
 					}
 				}
+				result = (result + dp[A[i]]) % MOD;
 			}
-			return state;
-		}
-
-		int minStickers(vector<string>& stickers, string target) {
-			int n = target.size();
-			int totalStateCount = 1 << n;
-			vector<int> dp(totalStateCount, INT_MAX);
-			dp[0] = 0;
-
-			for (int state = 0; state < totalStateCount; state++) {
-				if (dp[state] == INT_MAX) { continue; }
-				for (string& str : stickers) {
-					int newState = findNextStateByUsingStr(state, target, str);
-					dp[newState] = min(dp[newState], dp[state] + 1);
-				}
-			}
-			return dp[totalStateCount - 1] == INT_MAX ? -1 : dp[totalStateCount - 1];
-		}
+			return result;
+	    }

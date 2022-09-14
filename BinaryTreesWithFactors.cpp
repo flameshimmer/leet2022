@@ -29,8 +29,22 @@ namespace Solution2022
 {
 	namespace BinaryTreesWithFactors
 	{
-	    int numFactoredBinaryTrees(vector<int>& arr) {
-	        
+	    int numFactoredBinaryTrees(vector<int>& A) {
+			long long result = 0;
+			long long MOD = pow(10, 9) + 7;
+			sort(A.begin(), A.end());
+
+			unordered_map<int, long long> dp;
+			for (int i = 0; i < A.size(); i++) {
+				dp[A[i]] = 1; // NOTE: don't forget to init this to 1!!!
+				for (int j = 0; j < i; j++) {
+					if (A[i] % A[j] == 0) {
+						dp[A[i]] = (dp[A[i]] + dp[A[j]] * dp[A[i] / A[j]]) % MOD;
+					}
+				}
+				result = (result + dp[A[i]]) % MOD;
+			}
+			return result;
 	    }
 
 		void Main() {
