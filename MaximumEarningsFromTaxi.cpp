@@ -45,9 +45,63 @@ namespace Solution2022
 {
 	namespace MaximumEarningsFromTaxi
 	{
-	    long long maxTaxiEarnings(int n, vector<vector<int>>& rides) {
-	        
-	    }
+		namespace DP {
+			long long maxTaxiEarnings(int n, vector<vector<int>>& rides) {
+				vector<long long> dp(n + 1);
+				unordered_map<int, vector<pair<int, int>>> map;
+				for (vector<int>& r : rides) {
+					map[r[1]].push_back({ r[0], r[1] - r[0] + r[2] });
+				}
+
+				for (int i = 1; i <= n; i++) {
+					dp[i] = dp[i - 1];
+					for (auto [start, gain] : map[i]) {
+						dp[i] = max(dp[i], dp[start] + gain);
+					}
+				}
+				return dp[n];
+			}
+		}
+
+		namespace DPOptimized {
+			long long maxTaxiEarnings(int n, vector<vector<int>>& rides) {
+				int m = rides.size();
+				rides.push_back({ 0, 0, 0 });
+
+				vector<long long> dp(m + 1);
+				sort(rides.begin(), rides.end(), [](vector<int>& a, vector<int>& b) {return a[1] < b[1]; });
+
+				vector<int> times;
+				for (auto& r : rides) { times.push_back(r[1]); }
+
+				for (int i = 1; i <= m; i++) {
+					dp[i] = dp[i - 1];
+					int start = rides[i][0];
+					auto it = upper_bound(times.begin(), times.end(), start);
+					if (it != times.begin()) {
+						int j = prev(it) - times.begin();
+						int gain = rides[i][1] - rides[i][0] + rides[i][2];
+						dp[i] = max(dp[i], dp[j] + gain);
+					}
+				}
+				return dp[m];
+			}
+		}
+
+		namespace AnotherDP {
+			long long maxTaxiEarnings(int n, vector<vector<int>>& A) {
+				sort(A.begin(), A.end());
+				vector<long long> dp(n + 1);
+				int j = 0;
+				for (int i = 1; i <= n; ++i) {
+					dp[i] = max(dp[i], dp[i - 1]);
+					while (j < A.size() && A[j][0] == i)
+						dp[A[j++][1]] = max(dp[A[j][1]], dp[i] + A[j][1] - A[j][0] + A[j][2]);
+				}
+				return dp[n];
+			}		
+		}
+
 
 		void Main() {
 			string test = "tst test test";

@@ -21,9 +21,27 @@ namespace Solution2022
 {
 	namespace MaximumXORofTwoNumbersinanArray
 	{
-	    int findMaximumXOR(vector<int>& nums) {
-	        
-	    }
+		// https://www.youtube.com/watch?v=ZHtZfkAcPKc
+		int findMaximumXOR(vector<int>& nums) {
+			int mask = 0;
+			int result = 0;
+			unordered_set<int> set;
+
+			for (int i = 31; i >= 0; i--) {
+				mask |= (1 << i);
+				int temp = result | (1 << i);
+				for (int v : nums) {
+					int maskedV = v & mask;
+					if (set.find(temp ^ maskedV) != set.end()) {
+						result = temp;
+						break;
+					}
+					set.insert(maskedV);
+				}
+				set.clear();
+			}
+			return result;
+		}
 
 		void Main() {
 			string test = "tst test test";
