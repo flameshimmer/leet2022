@@ -31,7 +31,8 @@ namespace Solution2022
 	namespace ConcatenationofArray
 	{
 	    vector<int> getConcatenation(vector<int>& nums) {
-	        
+			nums.insert(nums.end(), nums.begin(), nums.end());
+			return nums;
 	    }
 
 		void Main() {

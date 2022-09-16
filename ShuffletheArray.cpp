@@ -28,9 +28,30 @@ namespace Solution2022
 {
 	namespace ShuffletheArray
 	{
-	    vector<int> shuffle(vector<int>& nums, int n) {
-	        
-	    }
+		namespace InplaceShuffle {
+			vector<int> shuffle(vector<int>& nums, int n) {
+				for (int i = 0; i < n; i++) {
+					nums[i] = nums[i + n] * 10000 + nums[i];
+				}
+
+				for (int i = n - 1; i >= 0; i--) {
+					nums[2 * i + 1] = nums[i] / 10000;
+					nums[2 * i] = nums[i] % 10000;
+				}
+				return nums;
+			}
+		}
+
+		namespace UnlikelyWhatsAsked {
+			vector<int> shuffle(vector<int>& nums, int n) {
+				vector<int> result;
+				for (int i = 0; i < n; i++) {
+					result.push_back(nums[i]);
+					result.push_back(nums[n + i]);
+				}
+				return result;
+			}
+		}
 
 		void Main() {
 			string test = "tst test test";

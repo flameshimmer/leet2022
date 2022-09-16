@@ -43,9 +43,28 @@ namespace Solution2022
 {
 	namespace SplitArrayintoConsecutiveSubsequences
 	{
-	    bool isPossible(vector<int>& nums) {
-	        
-	    }
+		bool isPossible(vector<int>& A) {
+			unordered_map<int, int> count;
+			for (int v : A) { count[v]++; }
+
+			unordered_map<int, int> endWith;
+
+			for (int v : A) {
+				if (count[v] == 0) { continue; }
+				count[v]--;
+				if (endWith[v - 1] > 0) {
+					endWith[v - 1]--;
+					endWith[v]++;
+				}
+				else if (count[v + 1] > 0 && count[v + 2] > 0) {
+					count[v + 1]--;
+					count[v + 2]--;
+					endWith[v + 2]++;
+				}
+				else { return false; }			
+			}
+			return true;
+		}
 
 		void Main() {
 			string test = "tst test test";

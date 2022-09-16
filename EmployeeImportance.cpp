@@ -39,17 +39,59 @@ namespace Solution2022
 {
 	namespace EmployeeImportance
 	{
-	/*
-	// Definition for Employee.
-	class Employee {
-	    int id;
-	    int importance;
-	    vector<int> subordinates;
-	*/
-	​
-	    int getImportance(vector<Employee*> employees, int id) {
-	        
-	    }
+		class Employee {
+		public:
+			int id;
+			int importance;
+			vector<int> subordinates;
+		};
+
+
+		namespace DFS {
+			void helper(int id, unordered_map<int, Employee*>& map, int& result) {
+				Employee* e = map[id];
+				result += e->importance;
+				for (int subId : e->subordinates) {
+					helper(subId, map, result);
+				}
+			}
+
+			int getImportance(vector<Employee*> employees, int id) {
+				unordered_map<int, Employee*> map; // id, employee;
+				for (Employee* e : employees) {
+					map[e->id] = e;
+				}
+				int result = 0;
+				helper(id, map, result);
+				return result;
+			}
+		}
+
+
+		namespace BFS {
+
+			int getImportance(vector<Employee*> employees, int id) {
+				unordered_map<int, Employee*> map; // id, employee;
+				for (Employee* e : employees) {
+					map[e->id] = e;
+				}
+
+				queue<int> q;
+				q.push(id);
+				int result = 0;
+
+				while (!q.empty()) {
+					int top = q.front();
+					q.pop();
+					result += map[top]->importance;
+
+					for (int subId : map[top]->subordinates) {
+						q.push(subId);
+					}
+				}
+				return result;
+			}
+		}
 
 		void Main() {
 			string test = "tst test test";

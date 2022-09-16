@@ -36,9 +36,49 @@ namespace Solution2022
 {
 	namespace GroupthePeopleGiventheGroupSizeTheyBelongTo
 	{
-	    vector<vector<int>> groupThePeople(vector<int>& groupSizes) {
-	        
-	    }
+		namespace Map {
+
+			vector<vector<int>> groupThePeople(vector<int>& groupSizes) {
+				vector<vector<int>> result;
+				int len = groupSizes.size();
+				if (len == 0) { return result; }
+
+				unordered_map<int, vector<int>> map;
+				for (int i = 0; i < len; i++) {
+					int v = groupSizes[i];
+					map[v].push_back(i);
+					if (map[v].size() == v) {
+						result.push_back(map[v]);
+						map[v] = {};
+					}
+				}
+				return result;
+			}
+
+		}
+
+		namespace MultiMap {
+			vector<vector<int>> groupThePeople(vector<int>& groupSizes) {
+				vector<vector<int>> result;
+				int len = groupSizes.size();
+				if (len == 0) { return result; }
+
+				multimap<int, vector<int>> map;
+				for (int i = 0; i < groupSizes.size(); i++) {
+					int v = groupSizes[i];
+					if (map.find(v) == map.end() || prev(map.equal_range(v).second)->second.size() >= v) {
+						map.insert({ v, {i} });
+					}
+					else {
+						prev(map.equal_range(v).second)->second.push_back(i);
+					}
+				}
+				for (auto& [k, v] : map) {
+					result.push_back(v);
+				}
+				return result;
+			}
+		}
 
 		void Main() {
 			string test = "tst test test";
