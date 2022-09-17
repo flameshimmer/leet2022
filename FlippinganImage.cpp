@@ -31,9 +31,13 @@ namespace Solution2022
 {
 	namespace FlippinganImage
 	{
-	    vector<vector<int>> flipAndInvertImage(vector<vector<int>>& image) {
-	        
-	    }
+		vector<vector<int>> flipAndInvertImage(vector<vector<int>>& image) {
+			for (vector<int>& r : image) {
+				reverse(r.begin(), r.end());
+				for (int& v : r) { v ^= 1; } // Note this shoudl be int& instead of int! Because we need the value to be modified. 
+			}
+			return image;
+		}
 
 		void Main() {
 			string test = "tst test test";

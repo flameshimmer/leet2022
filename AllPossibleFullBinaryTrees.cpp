@@ -33,8 +33,44 @@ namespace Solution2022
 	 *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 	 * };
 	 */
+		TreeNode* clone(TreeNode* node) {
+			TreeNode* newNode = new TreeNode(0);
+			newNode->left = node->left ? clone(node->left) : nullptr;
+			newNode->right = node->right ? clone(node->right) : nullptr;
+			return newNode;
+		}
+
+		vector<TreeNode*> helper(int n, unordered_map<int, vector<TreeNode*>>& map) {
+			vector<TreeNode*> result;
+
+			if (n < 1 || n % 2 == 0) {return result;}
+			if (map.find(n) != map.end()) { return map[n]; }
+			if (n == 1) {
+				result.push_back(new TreeNode(0));
+				map[1] = result;
+				return result;
+			}
+
+			for (int i = 1; i < n; i += 2) {
+				vector<TreeNode*> l = helper(i, map);
+				vector<TreeNode*> r = helper(n-1-i, map);
+
+				for (int j = 0; j < l.size(); j++) {
+					for (int k = 0; k < r.size(); k++) {
+						TreeNode* node = new TreeNode(0);
+						node->left = clone(l[j]);
+						node->right = clone(r[k]);
+						result.push_back(node);
+					}
+				}
+			}
+			map[n] = result;
+			return result;
+		}
+
 	    vector<TreeNode*> allPossibleFBT(int n) {
-	        
+			unordered_map<int, vector<TreeNode*>> map;
+			return helper(n, map);
 	    }
 
 		void Main() {

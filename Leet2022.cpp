@@ -20,14 +20,16 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::PalindromePartitioningIII::Main();
 	//Solution2022::PalindromePartitioningIV::Main();
 
+	//Solution2022::NumberofDigitOne::Main();
+	//Solution2022::MinimumNumberofRefuelingStops::Main();
 
 	//====Problem Starts====
 	//9/17/2022
 	//Solution2022::ReverseVowelsofaString::Main();
 	//Solution2022::AllPossibleFullBinaryTrees::Main();
 	//Solution2022::SpiralMatrixII::Main();
-	//Solution2022::NumberofDigitOne::Main();
-	//Solution2022::MinimumNumberofRefuelingStops::Main();
+	//Solution2022::KidsWiththeGreatestNumberofCandies::Main();
+	//Solution2022::FlippinganImage::Main();
 
 	//9/16/2022
 	//Solution2022::SplitArrayintoConsecutiveSubsequences::Main();
@@ -2274,7 +2276,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::MinimumNumberofOperationstoMakeArrayContinuous::Main();
 	//Solution2022::PalindromePermutationII::Main();
 	//Solution2022::MinimumAdjacentSwapsforKConsecutiveOnes::Main();
-	//Solution2022::KidsWiththeGreatestNumberofCandies::Main();
 	//Solution2022::RevealCardsInIncreasingOrder::Main();
 	//Solution2022::ParallelCoursesIII::Main();
 	//Solution2022::MonotonicArray::Main();
@@ -2318,7 +2319,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::RankTransformofanArray::Main();
 	//Solution2022::MaxSumofRectangleNoLargerThanK::Main();
 	//Solution2022::RandomPickwithBlacklist::Main();
-	//Solution2022::FlippinganImage::Main();
 	//Solution2022::CountItemsMatchingaRule::Main();
 	//Solution2022::NumberofSubmatricesThatSumtoTarget::Main();
 	//Solution2022::SequentiallyOrdinalRankTracker::Main();

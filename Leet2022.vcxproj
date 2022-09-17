@@ -156,6 +156,7 @@
     <ClCompile Include="AddTwoNumbers.cpp" />
     <ClCompile Include="AlertUsingSameKeyCardThreeorMoreTimesinaOneHourPeriod.cpp" />
     <ClCompile Include="AlienDictionary.cpp" />
+    <ClCompile Include="AllPossibleFullBinaryTrees.cpp" />
     <ClCompile Include="AmountofNewAreaPaintedEachDay.cpp" />
     <ClCompile Include="AnalyzeUserWebsiteVisitPattern.cpp" />
     <ClCompile Include="AsteroidCollision.cpp" />
@@ -174,10 +175,12 @@
     <ClCompile Include="BinaryTreeLevelOrderTraversalII.cpp" />
     <ClCompile Include="BinaryTreePreorderTraversal.cpp" />
     <ClCompile Include="BinaryTreeRightSideView.cpp" />
+    <ClCompile Include="BinaryTreesWithFactors.cpp" />
     <ClCompile Include="BinaryTreeVerticalOrderTraversal.cpp" />
     <ClCompile Include="BoatstoSavePeople.cpp" />
     <ClCompile Include="BombEnemy.cpp" />
     <ClCompile Include="BrokenCalculator.cpp" />
+    <ClCompile Include="BuildArrayfromPermutation.cpp" />
     <ClCompile Include="BuildingsWithanOceanView.cpp" />
     <ClCompile Include="BusRoutes.cpp" />
     <ClCompile Include="Candy.cpp" />
@@ -190,6 +193,7 @@
     <ClCompile Include="CoinChange.cpp" />
     <ClCompile Include="Combinations.cpp" />
     <ClCompile Include="ComplementofBaseOneZeroInteger.cpp" />
+    <ClCompile Include="ConcatenationofArray.cpp" />
     <ClCompile Include="ConfusingNumber.cpp" />
     <ClCompile Include="ConstructBinaryTreefromInorderandPostorderTraversal.cpp" />
     <ClCompile Include="ConstructBinaryTreefromPreorderandInorderTraversal.cpp" />
@@ -197,6 +201,7 @@
     <ClCompile Include="ConstructQuadTree.cpp" />
     <ClCompile Include="ContainerWithMostWater.cpp" />
     <ClCompile Include="ContainsDuplicate.cpp" />
+    <ClCompile Include="ContainsDuplicateIII.cpp" />
     <ClCompile Include="ContinuousSubarraySum.cpp" />
     <ClCompile Include="ConvertBinarySearchTreetoSortedDoublyLinkedList.cpp" />
     <ClCompile Include="ConvertSortedArraytoBinarySearchTree.cpp" />
@@ -220,6 +225,7 @@
     <ClCompile Include="DegreeofanArray.cpp" />
     <ClCompile Include="DeleteDuplicateFoldersinSystem.cpp" />
     <ClCompile Include="DeleteNodeinaLinkedList.cpp" />
+    <ClCompile Include="DeleteOperationforTwoStrings.cpp" />
     <ClCompile Include="DesignanOrderedStream.cpp" />
     <ClCompile Include="DesignFileSystem.cpp" />
     <ClCompile Include="DesignHashMap.cpp" />
@@ -231,6 +237,7 @@
     <ClCompile Include="DivideTwoIntegers.cpp" />
     <ClCompile Include="DotProductofTwoSparseVectors.cpp" />
     <ClCompile Include="EmployeeFreeTime.cpp" />
+    <ClCompile Include="EmployeeImportance.cpp" />
     <ClCompile Include="EvaluateDivision.cpp" />
     <ClCompile Include="EvaluateReversePolishNotation.cpp" />
     <ClCompile Include="ExamRoom.cpp" />
@@ -266,6 +273,7 @@
     <ClCompile Include="GenerateParentheses.cpp" />
     <ClCompile Include="GroupAnagrams.cpp" />
     <ClCompile Include="GroupShiftedStrings.cpp" />
+    <ClCompile Include="GroupthePeopleGiventheGroupSizeTheyBelongTo.cpp" />
     <ClCompile Include="HappyNumber.cpp" />
     <ClCompile Include="Helpers.cpp" />
     <ClCompile Include="HighFive.cpp" />
@@ -280,6 +288,7 @@
     <ClCompile Include="InsertDeleteGetRandomO.cpp" />
     <ClCompile Include="IntegertoEnglishWords.cpp" />
     <ClCompile Include="IntegertoRoman.cpp" />
+    <ClCompile Include="InterleavingString.cpp" />
     <ClCompile Include="IntersectionofTwoArrays.cpp" />
     <ClCompile Include="IntersectionofTwoArraysII.cpp" />
     <ClCompile Include="IntersectionofTwoLinkedLists.cpp" />
@@ -294,10 +303,12 @@
     <ClCompile Include="JumpGameVII.cpp" />
     <ClCompile Include="KClosestPointstoOrigin.cpp" />
     <ClCompile Include="KdiffPairsinanArray.cpp" />
+    <ClCompile Include="KidsWiththeGreatestNumberofCandies.cpp" />
     <ClCompile Include="KInversePairsArray.cpp" />
     <ClCompile Include="KthLargestElementinanArray.cpp" />
     <ClCompile Include="KthMissingPositiveNumber.cpp" />
     <ClCompile Include="KthSmallestElementinaSortedMatrix.cpp" />
+    <ClCompile Include="KthSymbolinGrammar.cpp" />
     <ClCompile Include="LargestNumber.cpp" />
     <ClCompile Include="Leet2022.cpp" />
     <ClCompile Include="LeftmostColumnwithatLeastaOne.cpp" />
@@ -307,6 +318,7 @@
     <ClCompile Include="LinkedListCycleII.cpp" />
     <ClCompile Include="ListNode.cpp" />
     <ClCompile Include="LongestCommonPrefix.cpp" />
+    <ClCompile Include="LongestCommonSubsequence.cpp" />
     <ClCompile Include="LongestContinuousSubarrayWithAbsoluteDiffLessThanorEqualtoLimit.cpp" />
     <ClCompile Include="LongestDuplicateSubstring.cpp" />
     <ClCompile Include="LongestHappyString.cpp" />
@@ -324,6 +336,7 @@
     <ClCompile Include="MaxAreaofIsland.cpp" />
     <ClCompile Include="MaximumDepthofBinaryTree.cpp" />
     <ClCompile Include="MaximumDepthofNaryTree.cpp" />
+    <ClCompile Include="MaximumEarningsFromTaxi.cpp" />
     <ClCompile Include="MaximumFrequencyStack.cpp" />
     <ClCompile Include="MaximumNumberofAcceptedInvitations.cpp" />
     <ClCompile Include="MaximumNumberofPointswithCost.cpp" />
@@ -335,6 +348,7 @@
     <ClCompile Include="MaximumSplitofPositiveEvenIntegers.cpp" />
     <ClCompile Include="MaximumSubarray.cpp" />
     <ClCompile Include="MaximumUnitsonaTruck.cpp" />
+    <ClCompile Include="MaximumXORofTwoNumbersinanArray.cpp" />
     <ClCompile Include="MaxPointsonaLine.cpp" />
     <ClCompile Include="MaxStack.cpp" />
     <ClCompile Include="MeetingRooms.cpp" />
@@ -371,6 +385,7 @@
     <ClCompile Include="NextPermutation.cpp" />
     <ClCompile Include="NonoverlappingIntervals.cpp" />
     <ClCompile Include="NthDigit.cpp" />
+    <ClCompile Include="NumberofDigitOne.cpp" />
     <ClCompile Include="NumberofIslands.cpp" />
     <ClCompile Include="NumberofMatchingSubsequences.cpp" />
     <ClCompile Include="NumberofMusicPlaylists.cpp" />
@@ -409,6 +424,7 @@
     <ClCompile Include="RearrangeSpacesBetweenWords.cpp" />
     <ClCompile Include="ReconstructOriginalDigitsfromEnglish.cpp" />
     <ClCompile Include="ReducingDishes.cpp" />
+    <ClCompile Include="RedundantConnection.cpp" />
     <ClCompile Include="ReformatDate.cpp" />
     <ClCompile Include="RemoveAllAdjacentDuplicatesInString.cpp" />
     <ClCompile Include="RemoveAllAdjacentDuplicatesinStringII.cpp" />
@@ -425,6 +441,7 @@
     <ClCompile Include="ReverseInteger.cpp" />
     <ClCompile Include="ReverseLinkedList.cpp" />
     <ClCompile Include="ReverseString.cpp" />
+    <ClCompile Include="ReverseVowelsofaString.cpp" />
     <ClCompile Include="ReverseWordsinaStringIII.cpp" />
     <ClCompile Include="RobotBoundedInCircle.cpp" />
     <ClCompile Include="RobotRoomCleaner.cpp" />
@@ -446,6 +463,7 @@
     <ClCompile Include="ShortestWordDistanceII.cpp" />
     <ClCompile Include="ShortestWordDistanceIII.cpp" />
     <ClCompile Include="ShuffleanArray.cpp" />
+    <ClCompile Include="ShuffletheArray.cpp" />
     <ClCompile Include="SignoftheProductofanArray.cpp" />
     <ClCompile Include="SimilarStringGroups.cpp" />
     <ClCompile Include="SimplifyPath.cpp" />
@@ -455,7 +473,9 @@
     <ClCompile Include="SmallestStringWithAGivenNumericValue.cpp" />
     <ClCompile Include="SnapshotArray.cpp" />
     <ClCompile Include="SortColors.cpp" />
+    <ClCompile Include="SparseMatrixMultiplication.cpp" />
     <ClCompile Include="SpiralMatrix.cpp" />
+    <ClCompile Include="SplitArrayintoConsecutiveSubsequences.cpp" />
     <ClCompile Include="Sqrt.cpp" />
     <ClCompile Include="SquaresofaSortedArray.cpp" />
     <ClCompile Include="stdafx.cpp" />
@@ -467,6 +487,7 @@
     <ClCompile Include="StudentAttendanceRecordII.cpp" />
     <ClCompile Include="SubarraySumEqualsK.cpp" />
     <ClCompile Include="SubdomainVisitCount.cpp" />
+    <ClCompile Include="SubstringwithConcatenationofAllWords.cpp" />
     <ClCompile Include="SumofSubarrayMinimums.cpp" />
     <ClCompile Include="SumofSubarrayRanges.cpp" />
     <ClCompile Include="SumofTwoIntegers.cpp" />

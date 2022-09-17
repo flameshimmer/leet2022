@@ -20,9 +20,45 @@ namespace Solution2022
 {
 	namespace ReverseVowelsofaString
 	{
-	    string reverseVowels(string s) {
-	        
-	    }
+		namespace useStdLib {
+			string reverseVowels(string s) {
+				int len = s.size();
+				int start = 0;
+				int end = len - 1;
+				while (start < end) {
+					start = s.find_first_of("aeiouAEIOU", start);
+					end = s.find_last_of("aeiouAEIOU", end);
+					if (start < end) {
+						swap(s[start], s[end]);
+						start++;
+						end--;
+					}
+				}
+				return s;
+			}
+		}
+				
+		namespace UseWhileLoop {
+			bool isVowls(char c) {
+				return c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u' || c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U';
+			}
+
+			string reverseVowels(string s) {
+				int len = s.size();
+				if (len < 2) { return s; }
+
+				int start = 0;
+				int end = len - 1;
+				while (start < end) {
+					while (start < end && !isVowls(s[start])) { start++; }
+					while (start < end && !isVowls(s[end])) { end--; }
+					swap(s[start], s[end]);
+					start++;
+					end--;
+				}
+				return s;
+			}
+		}
 
 		void Main() {
 			string test = "tst test test";

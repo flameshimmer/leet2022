@@ -42,13 +42,18 @@ namespace Solution2022
 {
 	namespace KidsWiththeGreatestNumberofCandies
 	{
-	    vector<bool> kidsWithCandies(vector<int>& candies, int extraCandies) {
-	        
-	    }
+		vector<bool> kidsWithCandies(vector<int>& candies, int extraCandies) {
+			vector<bool> result;
+			int maxCandy = *max_element(candies.begin(), candies.end());
+			for (int v : candies) {
+				result.push_back((v + extraCandies >= maxCandy));
+			}
+			return result;
+		}
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			vector<int> test = { 2,3,5,1,3 };
+			kidsWithCandies(test, 3);
 		}
 	}
 }

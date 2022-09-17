@@ -20,7 +20,7 @@ namespace Solution2022
 	namespace NumberofDigitOne
 	{
 	    int countDigitOne(int n) {
-	        
+			return 0;
 	    }
 
 		void Main() {
