@@ -33,9 +33,37 @@ namespace Solution2022
 {
 	namespace FindTargetIndicesAfterSortingArray
 	{
-	    vector<int> targetIndices(vector<int>& nums, int target) {
-	        
-	    }
+
+		namespace ON {
+			// count the number of num that is smaller and equal
+			vector<int> targetIndices(vector<int>& nums, int target) {
+				int smallerCount = 0;
+				int count = 0;
+
+				for (int v : nums) {
+					count += v == target;
+					smallerCount += v < target;
+				}
+
+				vector<int> result;
+				for (int i = smallerCount; i < smallerCount + count; i++) { result.push_back(i); }
+				return result;
+			}
+		}
+
+		namespace ONLogN {
+			vector<int> targetIndices(vector<int>& nums, int target) {
+				vector<int> result;
+				int len = nums.size();
+				if (len == 0) { return result; }
+				sort(nums.begin(), nums.end());
+				auto it = lower_bound(nums.begin(), nums.end(), target);
+				if (it == nums.end()) { return result; }
+
+				while (it != nums.end() && *it == target) { result.push_back(it - nums.begin()); it++; }
+				return result;
+			}
+		}
 
 		void Main() {
 			string test = "tst test test";

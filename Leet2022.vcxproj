@@ -251,6 +251,7 @@
     <ClCompile Include="FindFirstandLastPositionofElementinSortedArray.cpp" />
     <ClCompile Include="FindingMKAverage.cpp" />
     <ClCompile Include="FindingThreeDigitEvenNumbers.cpp" />
+    <ClCompile Include="FindLuckyIntegerinanArray.cpp" />
     <ClCompile Include="FindMedianfromDataStream.cpp" />
     <ClCompile Include="FindNUniqueIntegersSumuptoZero.cpp" />
     <ClCompile Include="FindPeakElement.cpp" />
@@ -264,6 +265,7 @@
     <ClCompile Include="FizzBuzz.cpp" />
     <ClCompile Include="FlattenNestedListIterator.cpp" />
     <ClCompile Include="FlattenTwoDVector.cpp" />
+    <ClCompile Include="FlippinganImage.cpp" />
     <ClCompile Include="FloodFill.cpp" />
     <ClCompile Include="FourSum.cpp" />
     <ClCompile Include="FourSumII.cpp" />
@@ -394,6 +396,7 @@
     <ClCompile Include="NumberofWaystoBuildSturdyBrickWall.cpp" />
     <ClCompile Include="OddEvenJump.cpp" />
     <ClCompile Include="OddEvenLinkedList.cpp" />
+    <ClCompile Include="OneThreeTwoPattern.cpp" />
     <ClCompile Include="OptimalAccountBalancing.cpp" />
     <ClCompile Include="PaintHouse.cpp" />
     <ClCompile Include="PaintHouseII.cpp" />

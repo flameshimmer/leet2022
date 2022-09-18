@@ -19,13 +19,30 @@ namespace Solution2022
 {
 	namespace NumberofDigitOne
 	{
-	    int countDigitOne(int n) {
-			return 0;
-	    }
+		// https://www.youtube.com/watch?v=QlMyXlhI3Ic
+		int countDigitOne(int n) {
+			string s = to_string(n);
+			int len = s.size();
+			int count = 0;
+
+			for (int i = 1; i <= len; i++) {
+				long a = n / pow(10, i);
+				count += a * pow(10, i - 1);
+
+				int digit = s[len - i] - '0';
+				if (digit > 1) {
+					count += pow(10, i - 1);
+				}
+				else if (digit == 1) {
+					count += n % (int)pow(10, i - 1) + 1;
+				}
+			}
+			return count;
+		}
 
 		void Main() {
 			string test = "tst test test";
-			print(test);
+			print(countDigitOne(0));
 		}
 	}
 }

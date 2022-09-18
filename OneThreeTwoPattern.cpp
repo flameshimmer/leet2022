@@ -31,9 +31,20 @@ namespace Solution2022
 {
 	namespace OneThreeTwoPattern
 	{
-	    bool find132pattern(vector<int>& nums) {
-	        
-	    }
+		bool find132pattern(vector<int>& nums) {
+			int s2 = INT_MIN;
+			stack<int> s;
+			for (int i = nums.size() - 1; i >= 0; i--) {
+				if (nums[i] < s2) { return true; }
+
+				while (!s.empty() && nums[i] > s.top()) { // Note: this is > instead of >=, since we want the logic only invoked in 3..2 situation. 
+					s2 = s.top();
+					s.pop();
+				}
+				s.push(nums[i]);
+			}
+			return false;
+		}
 
 		void Main() {
 			string test = "tst test test";

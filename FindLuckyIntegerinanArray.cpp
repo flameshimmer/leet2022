@@ -29,9 +29,28 @@ namespace Solution2022
 {
 	namespace FindLuckyIntegerinanArray
 	{
-	    int findLucky(vector<int>& arr) {
-	        
-	    }
+		int findLucky(vector<int>& arr) {
+			unordered_map<int, int> map;
+			for (int v : arr) { map[v]++; }
+
+			int result = -1;
+			for (auto [k, v] : map) {
+				if (k == v) { result = max(result, v); }
+			}
+			return result;
+		}
+
+		namespace fasterUsingKnownConstraints {
+			int findLucky(vector<int>& arr) {
+				vector<int> map(501, 0);
+				for (int v : arr) { map[v]++; }
+
+				for (int i = 500; i >= 1; i--) {
+					if (map[i] == i) { return i; }
+				}
+				return -1;
+			}
+		}
 
 		void Main() {
 			string test = "tst test test";

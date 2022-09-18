@@ -20,10 +20,16 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::PalindromePartitioningIII::Main();
 	//Solution2022::PalindromePartitioningIV::Main();
 
+	//Solution2022::InsertDeleteGetRandomODuplicatesallowed::Main();
+	
+	//====Problem Starts====
+	//9/18/2022
+	//Solution2022::FindLuckyIntegerinanArray::Main();
+	//Solution2022::OneThreeTwoPattern::Main();
 	//Solution2022::NumberofDigitOne::Main();
+	//Solution2022::FindTargetIndicesAfterSortingArray::Main();
 	//Solution2022::MinimumNumberofRefuelingStops::Main();
 
-	//====Problem Starts====
 	//9/17/2022
 	//Solution2022::ReverseVowelsofaString::Main();
 	//Solution2022::AllPossibleFullBinaryTrees::Main();
@@ -805,7 +811,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::TwoFurthestHousesWithDifferentColors::Main();
 	//Solution2022::MaximumStudentsTakingExam::Main();
 	//Solution2022::NumberofLaserBeamsinaBank::Main();
-	//Solution2022::FindTargetIndicesAfterSortingArray::Main();
 	//Solution2022::SumofLeftLeaves::Main();
 	//Solution2022::InsertintoaBinarySearchTree::Main();
 	//Solution2022::TwoSumIVInputisaBST::Main();
@@ -1061,7 +1066,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::LexicographicallySmallestStringAfterApplyingOperations::Main();
 	//Solution2022::FindandReplacePattern::Main();
 	//Solution2022::MinimumNumberofKeypresses::Main();
-	//Solution2022::FindLuckyIntegerinanArray::Main();
 	//Solution2022::NumberofDifferentIntegersinaString::Main();
 	//Solution2022::FindFirstPalindromicStringintheArray::Main();
 	//Solution2022::MinimumSuffixFlips::Main();
@@ -1627,7 +1631,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::DeleteandEarn::Main();
 	//Solution2022::CheckifanOriginalStringExistsGivenTwoEncodedStrings::Main();
 	//Solution2022::ChangeMinimumCharacterstoSatisfyOneofThreeConditions::Main();
-	//Solution2022::OneThreeTwoPattern::Main();
 	//Solution2022::HouseRobber::Main();
 	//Solution2022::Permutations::Main();
 	//Solution2022::RussianDollEnvelopes::Main();
@@ -1926,7 +1929,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::SingleElementinaSortedArray::Main
 	//Solution2022::NumbersAtMostNGivenDigitSet::Main();
 	//Solution2022::MissingElementinSortedArray::Main
-	//Solution2022::InsertDeleteGetRandomODuplicatesallowed::Main();
 	//Solution2022::PowerofTwo::Main();
 	//Solution2022::DesignLogStorageSystem::Main();
 	//Solution2022::PopulatingNextRightPointersinEachNodeII::Main();

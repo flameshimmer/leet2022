@@ -1158,6 +1158,15 @@
     <ClCompile Include="KidsWiththeGreatestNumberofCandies.cpp">
       <Filter>Solution2022</Filter>
     </ClCompile>
+    <ClCompile Include="FlippinganImage.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="FindLuckyIntegerinanArray.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="OneThreeTwoPattern.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Solution2022.h">
