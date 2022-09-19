@@ -39,8 +39,51 @@ namespace Solution2022
 {
 	namespace ValidateIPAddress
 	{
+		bool isValidIPv4(string& ip) {
+			if (count(ip.begin(), ip.end(), '.') != 3) { return false; }
+			istringstream ss(ip);
+			string num;
+			int count = 0;
+			while (getline(ss, num, '.')) {
+				count++;
+				int len = num.size();
+				if (len == 0 || len > 3) { return false; }
+				if (len > 1 && num[0] == '0') { return false; }
+				int val = 0;
+				for (char c : num) {
+					if (!isdigit(c)) { return false; }
+					val = val * 10 + (c - '0');
+					if (val > 255) { return false; }
+				}				
+			}
+			if (count != 4) { return false; } // this check is for when there is no char between two '.', Eg: 1.2.3..
+			return true;
+		}
+
+		bool isValidIPv6(string& ip) {
+			if (count(ip.begin(), ip.end(), ':') != 7) { return false; }
+			istringstream ss(ip);
+			string num;
+			int count = 0;
+			string validChars = "0123456789abcdefABCDEF";
+			while (getline(ss, num, ':')) {
+				count++;
+				int len = num.size();
+				if (len == 0 || len > 4) { return false; }
+				for (char c : num) {
+					if (!isalnum(c) || validChars.find(c) == string::npos) { return false; }
+				}			
+			}
+			if (count != 8) { return false; }
+			return true;
+		}
+
+
+
 	    string validIPAddress(string queryIP) {
-	        
+			if (isValidIPv4(queryIP)) { return "IPv4"; }
+			if (isValidIPv6(queryIP)) { return "IPv6"; }
+			return "Neither";
 	    }
 
 		void Main() {

@@ -185,6 +185,7 @@
     <ClCompile Include="BusRoutes.cpp" />
     <ClCompile Include="Candy.cpp" />
     <ClCompile Include="CarPooling.cpp" />
+    <ClCompile Include="CheckCompletenessofaBinaryTree.cpp" />
     <ClCompile Include="CheckIfaStringContainsAllBinaryCodesofSizeK.cpp" />
     <ClCompile Include="CheckifWordCanBePlacedInCrossword.cpp" />
     <ClCompile Include="CheckingExistenceofEdgeLengthLimitedPaths.cpp" />
@@ -368,6 +369,7 @@
     <ClCompile Include="MinimumAreaRectangleII.cpp" />
     <ClCompile Include="MinimumCosttoSetCookingTime.cpp" />
     <ClCompile Include="MinimumNumberofOperationstoConvertTime.cpp" />
+    <ClCompile Include="MinimumNumberofRemovalstoMakeMountainArray.cpp" />
     <ClCompile Include="MinimumOperationstoReduceXtoZero.cpp" />
     <ClCompile Include="MinimumRemovetoMakeValidParentheses.cpp" />
     <ClCompile Include="MinimumTimeDifference.cpp" />

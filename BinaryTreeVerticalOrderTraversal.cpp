@@ -45,7 +45,7 @@ namespace Solution2022
 			if (!root) { return result; }
 
 			queue<pair<TreeNode*, int>> q;
-			q.push({ root, root->val });
+			q.push({ root, 0 }); // if root node is at column 0;
 			map<int, vector<int>> map;
 
 			while (!q.empty()) {

@@ -30,13 +30,43 @@ namespace Solution2022
 {
 	namespace MinimumNumberofRemovalstoMakeMountainArray
 	{
-	    int minimumMountainRemovals(vector<int>& nums) {
-	        
-	    }
+		int minimumMountainRemovals(vector<int>& nums) {
+			int len = nums.size();
+			if (len < 2) { return 0; }
+
+			vector<int> A(len, 0);
+			vector<int> tmp;
+			for (int i = 0; i < len; i++) {
+				int v = nums[i];
+				auto it = lower_bound(tmp.begin(), tmp.end(), v);
+				A[i] = it - tmp.begin();
+				if (it == tmp.end()) { tmp.push_back(v); }
+				else { *it = v; }
+			}
+
+
+			vector<int> B(len, 0);
+			tmp.clear();
+			for (int i = len - 1; i >= 0; i--) {
+				int v = nums[i];
+				auto it = lower_bound(tmp.begin(), tmp.end(), v);
+				B[i] = it - tmp.begin();
+				if (it == tmp.end()) { tmp.push_back(v); }
+				else { *it = v; }
+			}
+
+			int result = len;
+			for (int i = 0; i < len; i++) {
+				if (A[i] && B[i]) {
+					result = min(result, len - (A[i] + B[i] + 1));
+				}
+			}
+			return result;
+		}
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			vector<int> test = { 1, 3, 1 };
+			print(minimumMountainRemovals(test));
 		}
 	}
 }

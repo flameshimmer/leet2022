@@ -51,20 +51,49 @@ namespace Solution2022
 {
 	namespace VerticalOrderTraversalofaBinaryTree
 	{
-	/**
-	 * Definition for a binary tree node.
-	 * struct TreeNode {
-	 *     int val;
-	 *     TreeNode *left;
-	 *     TreeNode *right;
-	 *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
-	 *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
-	 *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
-	 * };
-	 */
-	    vector<vector<int>> verticalTraversal(TreeNode* root) {
-	        
-	    }
+		/**
+		 * Definition for a binary tree node.
+		 * struct TreeNode {
+		 *     int val;
+		 *     TreeNode *left;
+		 *     TreeNode *right;
+		 *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+		 *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+		 *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+		 * };
+		 */
+
+		 // The diff here with " Binary Tree Vertical Order Traversal" is this problem requires the output
+		 // follows the priority of row first, if row is the same then use the value to break the tie. 
+		 // The only diff in solution is to also take the level of the nodes into consideration. 
+		vector<vector<int>> verticalTraversal(TreeNode* root) {
+			vector<vector<int>> result;
+			if (!root) { return result; }
+
+			queue<pair<TreeNode*, pair<int, int>>> q;
+			q.push({ root, {0, 0} }); // node, vertical index, level index
+			map<int, vector<pair<int, int>>> map; // vertical index, <level index, value>
+			while (!q.empty()) {
+				auto [node, pos] = q.front();
+				q.pop();
+				int col = pos.first;
+				int row = pos.second;
+				map[col].push_back({ pos.second, node->val });
+
+				if (node->left) { q.push({ node->left, {col - 1, row + 1} }); }
+				if (node->right) { q.push({ node->right, {col + 1, row + 1} }); }
+			}
+
+			for (auto [col, nodes] : map) {
+				sort(nodes.begin(), nodes.end());
+				vector<int> tmp;
+				for (pair<int, int>& n : nodes) {
+					tmp.push_back(n.second);
+				}
+				result.push_back(tmp);
+			}
+			return result;
+		}
 
 		void Main() {
 			string test = "tst test test";

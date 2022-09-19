@@ -23,20 +23,47 @@ namespace Solution2022
 {
 	namespace InvertBinaryTree
 	{
-	/**
-	 * Definition for a binary tree node.
-	 * struct TreeNode {
-	 *     int val;
-	 *     TreeNode *left;
-	 *     TreeNode *right;
-	 *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
-	 *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
-	 *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
-	 * };
-	 */
-	    TreeNode* invertTree(TreeNode* root) {
-	        
-	    }
+		/**
+		 * Definition for a binary tree node.
+		 * struct TreeNode {
+		 *     int val;
+		 *     TreeNode *left;
+		 *     TreeNode *right;
+		 *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+		 *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+		 *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+		 * };
+		 */
+
+		namespace Recursive {
+			TreeNode* invertTree(TreeNode* root) {
+				if (!root) { return root; }
+				TreeNode* l = invertTree(root->left);
+				TreeNode* r = invertTree(root->right);
+				root->left = r;
+				root->right = l;
+				return root;
+			}
+		}
+
+		namespace Iterative {
+			TreeNode* invertTree(TreeNode* root) {
+				if (!root) { return root; } // NOTE: need this line since queue is not expecting null node!!!
+
+				queue<TreeNode*> q;
+				q.push(root);
+
+				while (!q.empty()) {
+					TreeNode* top = q.front();
+					q.pop();
+
+					swap(top->left, top->right);
+					if (top->left) { q.push(top->left); }
+					if (top->right) { q.push(top->right); }
+				}
+				return root;
+			}
+		}
 
 		void Main() {
 			string test = "tst test test";

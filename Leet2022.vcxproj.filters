@@ -1167,6 +1167,12 @@
     <ClCompile Include="OneThreeTwoPattern.cpp">
       <Filter>Solution2022</Filter>
     </ClCompile>
+    <ClCompile Include="CheckCompletenessofaBinaryTree.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="MinimumNumberofRemovalstoMakeMountainArray.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Solution2022.h">

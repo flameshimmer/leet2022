@@ -26,20 +26,52 @@ namespace Solution2022
 {
 	namespace CheckCompletenessofaBinaryTree
 	{
-	/**
-	 * Definition for a binary tree node.
-	 * struct TreeNode {
-	 *     int val;
-	 *     TreeNode *left;
-	 *     TreeNode *right;
-	 *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
-	 *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
-	 *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
-	 * };
-	 */
-	    bool isCompleteTree(TreeNode* root) {
-	        
-	    }
+		/**
+		 * Definition for a binary tree node.
+		 * struct TreeNode {
+		 *     int val;
+		 *     TreeNode *left;
+		 *     TreeNode *right;
+		 *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+		 *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+		 *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+		 * };
+		 */
+
+		namespace LevelOrderTraversal {
+			bool isCompleteTree(TreeNode* root) {
+				queue<TreeNode*> q;
+				q.push(root);
+				bool seenNull = false;
+
+				while (!q.empty()) {
+					TreeNode* top = q.front();
+					q.pop();
+					if (top == nullptr) { seenNull = true; }
+					else {
+						if (seenNull) { return false; } // when level order traversal, once seen null, all following can only be null
+						q.push(top->left);
+						q.push(top->right);
+					}
+				}
+				return true;
+			}
+		}
+
+		namespace BFS {
+			bool isCompleteTree(TreeNode* root) {
+				vector<TreeNode*> bfs;
+				bfs.push_back(root);
+				int i = 0;
+				while (bfs[i]) {
+					bfs.push_back(bfs[i]->left);
+					bfs.push_back(bfs[i]->right);
+					i++; // NOTE: don't forget to forward the i!!!
+				}
+				while (i < bfs.size() && !bfs[i]) { i++; } // once run into nullptr, we expect the rest should be nullptr;
+				return i == bfs.size();
+			}
+		}
 
 		void Main() {
 			string test = "tst test test";
