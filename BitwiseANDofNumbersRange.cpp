@@ -23,9 +23,17 @@ namespace Solution2022
 {
 	namespace BitwiseANDofNumbersRange
 	{
-	    int rangeBitwiseAnd(int left, int right) {
-	        
-	    }
+		// https://www.youtube.com/watch?v=CY1tnj53L_k
+		int rangeBitwiseAnd(int left, int right) {
+			int count = 0;
+			while (left != right) {
+				// as long as the left is not equal to right, the last digit of left and right must include both 1 and 0
+				left >>= 1;
+				right >>= 1;
+				count++;
+			}
+			return left << count;
+		}
 
 		void Main() {
 			string test = "tst test test";

@@ -61,25 +61,76 @@ namespace Solution2022
 {
 	namespace LFUCache
 	{
-	class LFUCache {
-	    LFUCache(int capacity) {
-	        
-	    }
-	    
-	    int get(int key) {
-	        
-	    }
-	    
-	    void put(int key, int value) {
-	        
-	    }
-	​
-	/**
-	 * Your LFUCache object will be instantiated and called as such:
-	 * LFUCache* obj = new LFUCache(capacity);
-	 * int param_1 = obj->get(key);
-	 * obj->put(key,value);
-	 */
+		class LFUCache {
+		private:
+			int cap;
+			int size;
+			int minFreq;
+			unordered_map<int, pair<int, int>> map;
+			unordered_map<int, list<int>> fm;
+			unordered_map<int, list<int>::iterator> itMap;
+
+			void update(int key) {
+				int oldFreq = map[key].second;
+				auto it = itMap[key];
+				fm[oldFreq].erase(it);
+				int newFreq = oldFreq + 1;
+				fm[newFreq].push_back(key);
+
+				map[key].second = newFreq;
+
+				itMap[key] = prev(fm[newFreq].end());
+
+				while (fm[minFreq].empty()) { minFreq++; }
+			}
+
+
+		public:
+			LFUCache(int capacity) {
+				cap = capacity;
+				size = 0;
+				minFreq = 0;
+			}
+
+			int get(int key) {
+				if (map.find(key) == map.end()) { return -1; }
+				update(key);
+				return map[key].first;
+			}
+
+			void put(int key, int value) {
+				if (cap <= 0) { return; }
+
+				if (map.find(key) != map.end()) {
+					map[key].first = value;
+					update(key);
+					return;
+				}
+
+				if (size == cap) {
+					int keyToRemove = fm[minFreq].front();
+					fm[minFreq].pop_front();
+					map.erase(keyToRemove);
+					itMap.erase(keyToRemove);
+				}
+				else {
+					size++;
+				}
+
+				map[key] = { value, 1 };
+				minFreq = 1; // NOTE: Don't forget to reset minFreq!!!
+				fm[1].push_back(key);
+				itMap[key] = prev(fm[1].end());
+			}
+		};
+
+
+		/**
+		 * Your LFUCache object will be instantiated and called as such:
+		 * LFUCache* obj = new LFUCache(capacity);
+		 * int param_1 = obj->get(key);
+		 * obj->put(key,value);
+		 */
 
 		void Main() {
 			string test = "tst test test";

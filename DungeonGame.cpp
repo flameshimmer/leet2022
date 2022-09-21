@@ -38,9 +38,21 @@ namespace Solution2022
 {
 	namespace DungeonGame
 	{
-	    int calculateMinimumHP(vector<vector<int>>& dungeon) {
-	        
-	    }
+		int calculateMinimumHP(vector<vector<int>>& dungeon) {
+			int rowCount = dungeon.size();
+			int colCount = dungeon[0].size();
+
+			vector<vector<int>> dp(rowCount + 1, vector<int>(colCount + 1, INT_MAX));
+			dp[rowCount][colCount - 1] = 1;
+			dp[rowCount - 1][colCount] = 1;
+
+			for (int i = rowCount - 1; i >= 0; i--) {
+				for (int j = colCount - 1; j >= 0; j--) {
+					dp[i][j] = max(1, min(dp[i + 1][j], dp[i][j + 1]) - dungeon[i][j]);
+				}
+			}
+			return dp[0][0];
+		}
 
 		void Main() {
 			string test = "tst test test";
