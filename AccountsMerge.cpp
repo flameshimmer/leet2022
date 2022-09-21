@@ -42,9 +42,58 @@ namespace Solution2022
 {
 	namespace AccountsMerge
 	{
-	    vector<vector<string>> accountsMerge(vector<vector<string>>& accounts) {
-	        
-	    }
+		class UnionFind {
+		private:
+			vector<int> parent;
+		public:
+			UnionFind(int n) { parent.resize(n, -1); }
+
+			int find(int x) {
+				while (parent[x] != -1) {
+					x = parent[x];
+				}
+				return x;
+			}
+			void join(int x, int y) {
+				int px = find(x);
+				int py = find(y);
+				if (px != py) {
+					parent[px] = py;
+				}
+			}
+		};
+
+		vector<vector<string>> accountsMerge(vector<vector<string>>& accounts) {
+			int len = accounts.size();
+			UnionFind uf(len);
+
+			unordered_map<string, int> map; // email->id
+			for (int i = 0; i < accounts.size(); i++) {
+				vector<string>& a = accounts[i];
+				for (int j = 1; j < a.size(); j++) {
+					string& email = a[j];
+					if (map.find(email) != map.end()) {
+						uf.join(map[email], i);
+					}
+					else {
+						map[email] = uf.find(i);
+					}
+				}
+			}
+
+			unordered_map<int, vector<string>> map2;
+			for (auto& [email, id] : map) {
+				map2[uf.find(id)].push_back(email);
+			}
+
+			vector<vector<string>> result;
+			for (auto& [id, emails] : map2) {
+				sort(emails.begin(), emails.end());
+				emails.insert(emails.begin(), accounts[id][0]);
+				result.push_back(emails);
+			}
+			return result;
+		}
 
 		void Main() {
 			string test = "tst test test";

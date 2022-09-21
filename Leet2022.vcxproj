@@ -274,6 +274,7 @@
     <ClCompile Include="FurthestBuildingYouCanReach.cpp" />
     <ClCompile Include="GameofLife.cpp" />
     <ClCompile Include="GenerateParentheses.cpp" />
+    <ClCompile Include="GrayCode.cpp" />
     <ClCompile Include="GroupAnagrams.cpp" />
     <ClCompile Include="GroupShiftedStrings.cpp" />
     <ClCompile Include="GroupthePeopleGiventheGroupSizeTheyBelongTo.cpp" />
@@ -295,6 +296,7 @@
     <ClCompile Include="IntersectionofTwoArrays.cpp" />
     <ClCompile Include="IntersectionofTwoArraysII.cpp" />
     <ClCompile Include="IntersectionofTwoLinkedLists.cpp" />
+    <ClCompile Include="InvertBinaryTree.cpp" />
     <ClCompile Include="IPO.cpp" />
     <ClCompile Include="JumpGame.cpp" />
     <ClCompile Include="JumpGameII.cpp" />
@@ -407,6 +409,7 @@
     <ClCompile Include="PalindromeLinkedList.cpp" />
     <ClCompile Include="PalindromeNumber.cpp" />
     <ClCompile Include="PalindromePartitioning.cpp" />
+    <ClCompile Include="PartitionList.cpp" />
     <ClCompile Include="PascalsTriangle.cpp" />
     <ClCompile Include="PascalsTriangleII.cpp" />
     <ClCompile Include="PathWithMinimumEffort.cpp" />

@@ -61,30 +61,54 @@ namespace Solution2022
 {
 	namespace InsertDeleteGetRandomODuplicatesallowed
 	{
-	class RandomizedCollection {
-	    RandomizedCollection() {
-	        
-	    }
-	    
-	    bool insert(int val) {
-	        
-	    }
-	    
-	    bool remove(int val) {
-	        
-	    }
-	    
-	    int getRandom() {
-	        
-	    }
-	​
-	/**
-	 * Your RandomizedCollection object will be instantiated and called as such:
-	 * RandomizedCollection* obj = new RandomizedCollection();
-	 * bool param_1 = obj->insert(val);
-	 * bool param_2 = obj->remove(val);
-	 * int param_3 = obj->getRandom();
-	 */
+		class RandomizedCollection {
+		private:
+			unordered_multimap<int, int> map;
+			vector<int> nums;
+		public:
+			RandomizedCollection() {
+
+			}
+
+			bool insert(int val) {
+				bool result = (map.count(val) == 0);
+				nums.push_back(val);
+				map.insert({ val, nums.size() - 1 });
+				return result;
+			}
+
+			bool remove(int val) {
+				if (map.count(val) == 0) { return false; }
+
+				int len = nums.size();
+				int lastVal = nums[len - 1];
+				auto it = map.find(val);
+				int index = it->second;
+
+				if (index != len - 1) {
+					swap(nums[index], nums[len - 1]);
+					auto range = map.equal_range(lastVal);
+					for (auto b = range.first; b != range.second; b++) {
+						if (b->second == len - 1) { b->second = index; break; }
+					}
+				}
+				nums.pop_back();
+				map.erase(it);
+				return true;
+			}
+
+			int getRandom() {
+				return nums[rand() % nums.size()];
+			}
+		};
+
+		/**
+		 * Your RandomizedCollection object will be instantiated and called as such:
+		 * RandomizedCollection* obj = new RandomizedCollection();
+		 * bool param_1 = obj->insert(val);
+		 * bool param_2 = obj->remove(val);
+		 * int param_3 = obj->getRandom();
+		 */
 
 		void Main() {
 			string test = "tst test test";

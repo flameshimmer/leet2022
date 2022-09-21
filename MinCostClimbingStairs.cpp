@@ -34,7 +34,16 @@ namespace Solution2022
 	namespace MinCostClimbingStairs
 	{
 	    int minCostClimbingStairs(vector<int>& cost) {
-	        
+			int len = cost.size();
+			if (len == 0) { return 0; }
+
+			vector<int> dp(len, INT_MAX);
+			dp[0] = cost[0];
+			dp[1] = cost[1];
+			for (int i = 2; i < len; i++) {
+				dp[i] = cost[i] + min(dp[i - 1], dp[i - 2]);
+			}
+			return min(dp[len - 1], dp[len - 2]);
 	    }
 
 		void Main() {

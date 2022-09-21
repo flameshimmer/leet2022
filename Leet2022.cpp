@@ -20,9 +20,17 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::PalindromePartitioningIII::Main();
 	//Solution2022::PalindromePartitioningIV::Main();
 
-	//Solution2022::InsertDeleteGetRandomODuplicatesallowed::Main();
-	
+	//Solution2022::SplitArrayLargestSum::Main();
+
 	//====Problem Starts====
+	//9/20/2022
+	//Solution2022::GrayCode::Main();
+	//Solution2022::PartitionList::Main();
+	//Solution2022::AccountsMerge::Main();
+	//Solution2022::InsertDeleteGetRandomODuplicatesallowed::Main();
+	//Solution2022::MinCostClimbingStairs::Main();
+
+	
 	//9/19/2022
 	//Solution2022::CheckCompletenessofaBinaryTree::Main();
 	//Solution2022::ValidateIPAddress::Main();
@@ -827,7 +835,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::MinimumFlipstoMakeaORbEqualtoc::Main();
 	//Solution2022::MinimumCosttoMakeatLeastOneValidPathinaGrid::Main();
 	//Solution2022::CountSubstringsThatDifferbyOneCharacter::Main();
-	//Solution2022::GrayCode::Main();
 	//Solution2022::ReorderRoutestoMakeAllPathsLeadtotheCityZero::Main();
 	//Solution2022::NumberofWaystoSelectBuildings::Main();
 	//Solution2022::StampingtheGrid::Main();
@@ -1619,10 +1626,8 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::ValidNumber::Main();
 	//Solution2022::DiagonalTraverse::Main();
 	//Solution2022::ContiguousArray::Main
-	//Solution2022::SplitArrayLargestSum::Main();
 	//Solution2022::ConsecutiveNumbersSum::Main();
 	//Solution2022::AngleBetweenHandsofaClock::Main();
-	//Solution2022::AccountsMerge::Main();
 	//Solution2022::NQueens::Main();
 	//Solution2022::FibonacciNumber::Main();
 	//Solution2022::ReachingPoints::Main();
@@ -2109,7 +2114,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::RemoveAllOccurrencesofaSubstring::Main();
 	//Solution2022::LongestMountaininArray::Main();
 	//Solution2022::DeepestLeavesSum::Main();
-	//Solution2022::MinCostClimbingStairs::Main();
 	//Solution2022::DesignParkingSystem::Main();
 	//Solution2022::SortIntegersbyTheNumberofOneBits::Main();
 	//Solution2022::BraceExpansionII::Main();
@@ -2235,7 +2239,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::ImplementQueueusingStacks::Main();
 	//Solution2022::ConvertBinaryNumberinaLinkedListtoInteger::Main();
 	//Solution2022::NondecreasingArray::Main();
-	//Solution2022::PartitionList::Main();
 	//Solution2022::SumofAllOddLengthSubarrays::Main();
 	//Solution2022::CombinationSumIV::Main();
 	//Solution2022::LargestDivisibleSubset::Main();

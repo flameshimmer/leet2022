@@ -1173,6 +1173,15 @@
     <ClCompile Include="MinimumNumberofRemovalstoMakeMountainArray.cpp">
       <Filter>Solution2022</Filter>
     </ClCompile>
+    <ClCompile Include="InvertBinaryTree.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="GrayCode.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="PartitionList.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Solution2022.h">

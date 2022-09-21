@@ -23,23 +23,47 @@ namespace Solution2022
 {
 	namespace PartitionList
 	{
-	/**
-	 * Definition for singly-linked list.
-	 * struct ListNode {
-	 *     int val;
-	 *     ListNode *next;
-	 *     ListNode() : val(0), next(nullptr) {}
-	 *     ListNode(int x) : val(x), next(nullptr) {}
-	 *     ListNode(int x, ListNode *next) : val(x), next(next) {}
-	 * };
-	 */
-	    ListNode* partition(ListNode* head, int x) {
-	        
-	    }
+		/**
+		 * Definition for singly-linked list.
+		 * struct ListNode {
+		 *     int val;
+		 *     ListNode *next;
+		 *     ListNode() : val(0), next(nullptr) {}
+		 *     ListNode(int x) : val(x), next(nullptr) {}
+		 *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+		 * };
+		 */
+		ListNode* partition(ListNode* head, int x) {
+			if (!head || !head->next) { return head; }
+
+			ListNode* head1 = nullptr;
+			ListNode* tail1 = nullptr;
+			ListNode* head2 = nullptr;
+			ListNode* tail2 = nullptr;
+
+			ListNode* cur = head;
+			while (cur) {
+				if (cur->val < x) {
+					if (!head1) { head1 = cur; }
+					else { tail1->next = cur; }
+					tail1 = cur;
+				}
+				else {
+					if (!head2) { head2 = cur; }
+					else { tail2->next = cur; }
+					tail2 = cur;
+				}
+				cur = cur->next;
+			}
+
+			if (head1) { tail1->next = head2; } // NOTE: be careful of how to return the list!!!
+			if (tail2) { tail2->next = nullptr; }
+			return head1 ? head1 : head2;
+		}
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			ListNode* test = createList({ 1,4,3,2,5,2 });
+			print(partition(test, 3));
 		}
 	}
 }

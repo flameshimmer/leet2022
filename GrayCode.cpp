@@ -38,13 +38,21 @@ namespace Solution2022
 {
 	namespace GrayCode
 	{
-	    vector<int> grayCode(int n) {
-	        
-	    }
+		vector<int> grayCode(int n) {
+			vector<int> result;
+			result.push_back(0);
+
+			for (int j = 0; j < n; j++) {
+				int mask = 1 << j;
+				for (int j = result.size() - 1; j >= 0; j--) {
+					result.push_back(result[j] | mask);
+				}
+			}
+			return result;
+		}
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			print(grayCode(2));
 		}
 	}
 }
