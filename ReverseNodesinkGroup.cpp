@@ -28,19 +28,63 @@ namespace Solution2022
 {
 	namespace ReverseNodesinkGroup
 	{
-	/**
-	 * Definition for singly-linked list.
-	 * struct ListNode {
-	 *     int val;
-	 *     ListNode *next;
-	 *     ListNode() : val(0), next(nullptr) {}
-	 *     ListNode(int x) : val(x), next(nullptr) {}
-	 *     ListNode(int x, ListNode *next) : val(x), next(next) {}
-	 * };
-	 */
-	    ListNode* reverseKGroup(ListNode* head, int k) {
-	        
-	    }
+		/**
+		 * Definition for singly-linked list.
+		 * struct ListNode {
+		 *     int val;
+		 *     ListNode *next;
+		 *     ListNode() : val(0), next(nullptr) {}
+		 *     ListNode(int x) : val(x), next(nullptr) {}
+		 *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+		 * };
+		 */
+
+		ListNode* reverseLinkedList(ListNode* head) {
+			if (!head || !head->next) { return head; }
+			ListNode* cur = head;
+			ListNode* next = head->next;
+			ListNode* nN = nullptr;
+
+			cur->next = nullptr;
+			while (next) {
+				nN = next->next;
+				next->next = cur;
+				cur = next;
+				next = nN;
+			}
+			return cur;
+		}
+
+		ListNode* reverseKGroup(ListNode* head, int k) {
+			if (!head || !head->next || k == 1) { return head; }
+
+			ListNode* resultHead = nullptr;
+			ListNode* resultTail = nullptr;
+			ListNode* start = head;
+			ListNode* end = head;
+			ListNode* next;
+
+			while (end) {
+				int i = 0;
+				while (end && i < k - 1) { end = end->next; i++; }
+
+				if (end) {
+					next = end->next;
+					end->next = nullptr;
+					reverseLinkedList(start);
+
+					if (!resultHead) { resultHead = end; }
+					else { resultTail->next = end; }
+					resultTail = start;
+
+					start = next;
+					end = next;
+				}
+			}
+			if (!resultTail) { return head; }
+			resultTail->next = start;
+			return resultHead;
+		}
 
 		void Main() {
 			string test = "tst test test";

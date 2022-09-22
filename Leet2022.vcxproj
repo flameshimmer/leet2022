@@ -237,6 +237,7 @@
     <ClCompile Include="DiameterofBinaryTree.cpp" />
     <ClCompile Include="DivideTwoIntegers.cpp" />
     <ClCompile Include="DotProductofTwoSparseVectors.cpp" />
+    <ClCompile Include="DungeonGame.cpp" />
     <ClCompile Include="EmployeeFreeTime.cpp" />
     <ClCompile Include="EmployeeImportance.cpp" />
     <ClCompile Include="EvaluateDivision.cpp" />
@@ -271,6 +272,7 @@
     <ClCompile Include="FourSum.cpp" />
     <ClCompile Include="FourSumII.cpp" />
     <ClCompile Include="FractiontoRecurringDecimal.cpp" />
+    <ClCompile Include="FruitIntoBaskets.cpp" />
     <ClCompile Include="FurthestBuildingYouCanReach.cpp" />
     <ClCompile Include="GameofLife.cpp" />
     <ClCompile Include="GenerateParentheses.cpp" />
@@ -290,6 +292,7 @@
     <ClCompile Include="InorderSuccessorinBST.cpp" />
     <ClCompile Include="InorderSuccessorinBSTII.cpp" />
     <ClCompile Include="InsertDeleteGetRandomO.cpp" />
+    <ClCompile Include="InsertDeleteGetRandomODuplicatesallowed.cpp" />
     <ClCompile Include="IntegertoEnglishWords.cpp" />
     <ClCompile Include="IntegertoRoman.cpp" />
     <ClCompile Include="InterleavingString.cpp" />
@@ -364,6 +367,7 @@
     <ClCompile Include="MergeTwoBinaryTrees.cpp" />
     <ClCompile Include="MergeTwoSortedLists.cpp" />
     <ClCompile Include="MiddleoftheLinkedList.cpp" />
+    <ClCompile Include="MinCostClimbingStairs.cpp" />
     <ClCompile Include="Minesweeper.cpp" />
     <ClCompile Include="MinimizeDeviationinArray.cpp" />
     <ClCompile Include="MinimumAddtoMakeParenthesesValid.cpp" />
@@ -448,6 +452,7 @@
     <ClCompile Include="ReverseBits.cpp" />
     <ClCompile Include="ReverseInteger.cpp" />
     <ClCompile Include="ReverseLinkedList.cpp" />
+    <ClCompile Include="ReverseNodesinkGroup.cpp" />
     <ClCompile Include="ReverseString.cpp" />
     <ClCompile Include="ReverseVowelsofaString.cpp" />
     <ClCompile Include="ReverseWordsinaStringIII.cpp" />
@@ -494,6 +499,7 @@
     <ClCompile Include="StudentAttendanceRecordI.cpp" />
     <ClCompile Include="StudentAttendanceRecordII.cpp" />
     <ClCompile Include="SubarraySumEqualsK.cpp" />
+    <ClCompile Include="SubarrayswithKDifferentIntegers.cpp" />
     <ClCompile Include="SubdomainVisitCount.cpp" />
     <ClCompile Include="SubstringwithConcatenationofAllWords.cpp" />
     <ClCompile Include="SumofSubarrayMinimums.cpp" />

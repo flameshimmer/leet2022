@@ -1182,6 +1182,24 @@
     <ClCompile Include="PartitionList.cpp">
       <Filter>Solution2022</Filter>
     </ClCompile>
+    <ClCompile Include="InsertDeleteGetRandomODuplicatesallowed.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="MinCostClimbingStairs.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="DungeonGame.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="SubarrayswithKDifferentIntegers.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="ReverseNodesinkGroup.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="FruitIntoBaskets.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Solution2022.h">

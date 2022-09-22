@@ -40,10 +40,56 @@ namespace Solution2022
 {
 	namespace IsGraphBipartiteQuestionMark
 	{
-	    bool isBipartite(vector<vector<int>>& graph) {
-	        
-	    }
+		bool helper(vector<vector<int>>& graph, int i, vector<int>& color, int curColor) {
+			if (color[i]) { return color[i] == curColor; }
 
+			color[i] = curColor;
+			for (int child : graph[i]) {
+				if (!helper(graph, child, color, -curColor)) { return false; }
+			}
+			return true;
+		}
+
+
+		bool isBipartite(vector<vector<int>>& graph) {
+			int len = graph.size();
+			if (len < 2) { return true; }
+
+			vector<int> color(len, 0);
+			for (int i = 0; i < len; i++) {
+				if (!color[i] && !helper(graph, i, color, 1)) { return false; }
+			}
+			return true;
+		}
+
+
+		namespace BFS {
+			bool isBipartite(vector<vector<int>>& graph) {
+				int len = graph.size();
+				if (len < 2) { return true; }
+
+				vector<int> color(len, 0);
+
+				for (int i = 0; i < len; i++) {
+					if (color[i]) { continue; }
+					color[i] = 1;
+					queue<int> q;
+					q.push(i);
+					while (!q.empty()) {
+						int cur = q.front();
+						q.pop();
+						for (int n : graph[cur]) {
+							if (color[n] == color[cur]) { return false; }
+							if (!color[n]) {
+								q.push(n);
+								color[n] = -color[cur];
+							}
+						}
+					}
+				}
+				return true;
+			}
+		}
 		void Main() {
 			string test = "tst test test";
 			print(test);
