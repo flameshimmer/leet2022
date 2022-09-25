@@ -40,7 +40,7 @@ namespace Solution2022
 	 * };
 	 */
 	    bool checkTree(TreeNode* root) {
-	        
+			return root->val == root->left->val + root->right->val;
 	    }
 
 		void Main() {

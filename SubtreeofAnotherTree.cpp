@@ -26,20 +26,28 @@ namespace Solution2022
 {
 	namespace SubtreeofAnotherTree
 	{
-	/**
-	 * Definition for a binary tree node.
-	 * struct TreeNode {
-	 *     int val;
-	 *     TreeNode *left;
-	 *     TreeNode *right;
-	 *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
-	 *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
-	 *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
-	 * };
-	 */
-	    bool isSubtree(TreeNode* root, TreeNode* subRoot) {
-	        
-	    }
+		/**
+		 * Definition for a binary tree node.
+		 * struct TreeNode {
+		 *     int val;
+		 *     TreeNode *left;
+		 *     TreeNode *right;
+		 *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+		 *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+		 *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+		 * };
+		 */
+		bool isSameTree(TreeNode* a, TreeNode* b) {
+			if (!a && !b) { return true; }
+			else if (!a || !b) { return false; }
+			return a->val == b->val && isSameTree(a->left, b->left) && isSameTree(a->right, b->right);
+		}
+
+		bool isSubtree(TreeNode* root, TreeNode* subRoot) {
+			if (!root) { return false; }
+
+			return isSameTree(root, subRoot) || isSubtree(root->left, subRoot) || isSubtree(root->right, subRoot); // NOTE: only the first is isSameTree! The remaining 2 are isSubTree!!!
+		}
 
 		void Main() {
 			string test = "tst test test";

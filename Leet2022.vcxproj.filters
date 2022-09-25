@@ -1233,6 +1233,15 @@
     <ClCompile Include="ReverseStringII.cpp">
       <Filter>Solution2022</Filter>
     </ClCompile>
+    <ClCompile Include="RemoveDuplicatesfromSortedList.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="CountDifferentPalindromicSubsequences.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="FindAllNumbersDisappearedinanArray.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Solution2022.h">

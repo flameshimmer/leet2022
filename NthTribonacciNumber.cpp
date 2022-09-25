@@ -24,9 +24,13 @@ namespace Solution2022
 {
 	namespace NthTribonacciNumber
 	{
-	    int tribonacci(int n) {
-	        
-	    }
+		int tribonacci(int n) {
+			vector<int> num = { 0, 1, 1 };
+			for (int i = 3; i <= n; i++) {
+				num[i % 3] = num[0] + num[1] + num[2];
+			}
+			return num[n % 3];
+		}
 
 		void Main() {
 			string test = "tst test test";

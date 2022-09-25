@@ -211,6 +211,7 @@
     <ClCompile Include="CopyListwithRandomPointer.cpp" />
     <ClCompile Include="CountandSay.cpp" />
     <ClCompile Include="CountBinarySubstrings.cpp" />
+    <ClCompile Include="CountDifferentPalindromicSubsequences.cpp" />
     <ClCompile Include="CountOddNumbersinanIntervalRange.cpp" />
     <ClCompile Include="CountofSmallerNumbersAfterSelf.cpp" />
     <ClCompile Include="CountPrimes.cpp" />
@@ -249,6 +250,7 @@
     <ClCompile Include="FactorialTrailingZeroes.cpp" />
     <ClCompile Include="FibonacciNumber.cpp" />
     <ClCompile Include="FillingBookcaseShelves.cpp" />
+    <ClCompile Include="FindAllNumbersDisappearedinanArray.cpp" />
     <ClCompile Include="FindAndReplaceinString.cpp" />
     <ClCompile Include="FindDuplicateSubtrees.cpp" />
     <ClCompile Include="FindFirstandLastPositionofElementinSortedArray.cpp" />
@@ -449,6 +451,7 @@
     <ClCompile Include="RemoveDuplicateLetters.cpp" />
     <ClCompile Include="RemoveDuplicatesfromSortedArray.cpp" />
     <ClCompile Include="RemoveDuplicatesfromSortedArrayII.cpp" />
+    <ClCompile Include="RemoveDuplicatesfromSortedList.cpp" />
     <ClCompile Include="RemoveInvalidParentheses.cpp" />
     <ClCompile Include="RemoveNthNodeFromEndofList.cpp" />
     <ClCompile Include="RemovePalindromicSubsequences.cpp" />

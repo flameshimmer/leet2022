@@ -21,6 +21,28 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::PalindromePartitioningIV::Main();
 
 	//====Problem Starts====
+	//9/26/2022
+	//Solution2022::MinimumScoreTriangulationofPolygon::Main();
+	//Solution2022::FindandReplacePattern::Main();
+	//Solution2022::ThreeSumSmaller::Main();
+	//Solution2022::MinimumNumberofMovestoMakePalindrome::Main();
+	//Solution2022::MinimumCosttoCutaStick::Main();
+	//Solution2022::SingleElementinaSortedArray::Main();
+	//Solution2022::BurstBalloons::Main();
+
+	//9/25/2022
+	//Solution2022::CountDifferentPalindromicSubsequences::Main();
+	//Solution2022::RootEqualsSumofChildren::Main();
+	//Solution2022::NthTribonacciNumber::Main();
+	//Solution2022::FindAllNumbersDisappearedinanArray::Main();
+	//Solution2022::RotateString::Main();
+	//Solution2022::AssignCookies::Main();
+	//Solution2022::GuessNumberHigherorLower::Main();
+	//Solution2022::FindtheTownJudge::Main();
+	//Solution2022::SubtreeofAnotherTree::Main();
+	//Solution2022::RemoveLinkedListElements::Main();
+	//Solution2022::ValidPerfectSquare::Main();
+
 	//9/24/2022
 	//Solution2022::PeakIndexinaMountainArray::Main();
 	//Solution2022::TaskScheduler::Main();
@@ -811,10 +833,8 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::StoneGameII::Main();
 	//Solution2022::MinimumJumpstoReachHome::Main();
 	//Solution2022::NumberofWaystoSeparateNumbers::Main();
-	//Solution2022::AssignCookies::Main();
 	//Solution2022::CountNegativeNumbersinaSortedMatrix::Main();
 	//Solution2022::SuperPow::Main();
-	//Solution2022::MinimumCosttoCutaStick::Main();
 	//Solution2022::MaximumSideLengthofaSquarewithSumLessthanorEqualtoThreshold::Main();
 	//Solution2022::MinimumNumberofFlipstoMaketheBinaryStringAlternating::Main();
 	//Solution2022::RemoveSubFoldersfromtheFilesystem::Main();
@@ -826,12 +846,10 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::SplitLinkedListinParts::Main();
 	//Solution2022::RelativeRanks::Main();
 	//Solution2022::UniqueMorseCodeWords::Main();
-	//Solution2022::ValidPerfectSquare::Main();
 	//Solution2022::MinimumInsertionStepstoMakeaStringPalindrome::Main();
 	//Solution2022::DivideArrayinSetsofKConsecutiveNumbers::Main();
 	//Solution2022::MinimumWindowSubsequence::Main();
 	//Solution2022::LinkedListComponents::Main();
-	//Solution2022::SubtreeofAnotherTree::Main();
 	//Solution2022::ZumaGame::Main();
 	//Solution2022::ReverseSubarrayToMaximizeArrayValue::Main();
 	//Solution2022::SplitaStringinBalancedStrings::Main();
@@ -906,7 +924,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::SearchinaBinarySearchTree::Main();
 	//Solution2022::PizzaWithThreenSlices::Main();
 	//Solution2022::LowestCommonAncestorofDeepestLeaves::Main();
-	//Solution2022::GuessNumberHigherorLower::Main();
 	//Solution2022::CountUnivalueSubtrees::Main();
 	//Solution2022::WordSquares::Main();
 	//Solution2022::ShortestCommonSupersequence::Main();
@@ -955,7 +972,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::FlipBinaryTreeToMatchPreorderTraversal::Main();
 	//Solution2022::MaximumofAbsoluteValueExpression::Main();
 	//Solution2022::NumberofStudentsUnabletoEatLunch::Main();
-	//Solution2022::RemoveLinkedListElements::Main();
 	//Solution2022::WhereWilltheBallFall::Main();
 	//Solution2022::ShortestSubarraytobeRemovedtoMakeArraySorted::Main();
 	//Solution2022::LastStoneWeightII::Main();
@@ -1019,7 +1035,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::FindBottomLeftTreeValue::Main();
 	//Solution2022::LuckyNumbersinaMatrix::Main();
 	//Solution2022::BricksFallingWhenHit::Main();
-	//Solution2022::NthTribonacciNumber::Main();
 	//Solution2022::FindMinimuminRotatedSortedArrayII::Main();
 	//Solution2022::LongestPalindrome::Main();
 	//Solution2022::DistinctSubsequences::Main();
@@ -1105,7 +1120,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::ThreeConsecutiveOdds::Main();
 	//Solution2022::MinimumNumberofDaystoDisconnectIsland::Main();
 	//Solution2022::LexicographicallySmallestStringAfterApplyingOperations::Main();
-	//Solution2022::FindandReplacePattern::Main();
 	//Solution2022::MinimumNumberofKeypresses::Main();
 	//Solution2022::NumberofDifferentIntegersinaString::Main();
 	//Solution2022::FindFirstPalindromicStringintheArray::Main();
@@ -1173,7 +1187,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::TeemoAttacking::Main();
 	//Solution2022::MaximumProductofTwoElementsinanArray::Main();
 	//Solution2022::RotateFunction::Main();
-	//Solution2022::MinimumScoreTriangulationofPolygon::Main();
 	//Solution2022::DesignFrontMiddleBackQueue::Main();
 	//Solution2022::FindtheKthLargestIntegerintheArray::Main();
 	//Solution2022::CountOperationstoObtainZero::Main();
@@ -1370,7 +1383,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::MaximumDistanceBetweenaPairofValues::Main();
 	//Solution2022::MaximumXORforEachQuery::Main();
 	//Solution2022::CellsinaRangeonanExcelSheet::Main();
-	//Solution2022::RootEqualsSumofChildren::Main();
 	//Solution2022::EliminateMaximumNumberofMonsters::Main();
 	//Solution2022::CheckifNumbersAreAscendinginaSentence::Main();
 	//Solution2022::SentenceSimilarityII::Main();
@@ -1642,7 +1654,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::RearrangeWordsinaSentence::Main();
 	//Solution2022::MaximumSwap::Main();
 	//Solution2022::MaximizeDistancetoClosestPerson::Main();
-	//Solution2022::BurstBalloons::Main();
 	//Solution2022::AllOoneDataStructure::Main();
 	//Solution2022::ScoreofParentheses::Main();
 	//Solution2022::TwoCityScheduling::Main();
@@ -1953,7 +1964,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::SortArrayByParity::Main();
 	//Solution2022::PacificAtlanticWaterFlow::Main();
 	//Solution2022::FindtheWinneroftheCircularGame::Main();
-	//Solution2022::SingleElementinaSortedArray::Main
 	//Solution2022::NumbersAtMostNGivenDigitSet::Main();
 	//Solution2022::MissingElementinSortedArray::Main
 	//Solution2022::PowerofTwo::Main();
@@ -2042,7 +2052,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::MinimumNumberofSwapstoMaketheStringBalanced::Main();
 	//Solution2022::WaterandJugProblem::Main();
 	//Solution2022::StrobogrammaticNumber::Main();
-	//Solution2022::CountDifferentPalindromicSubsequences::Main();
 	//Solution2022::TwoSumIIInputArrayIsSorted::Main();
 	//Solution2022::MiddleoftheLinkedList::Main();
 	//Solution2022::IncreasingOrderSearchTree::Main();
@@ -2052,7 +2061,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::FindtheShortestSuperstring::Main();
 	//Solution2022::ClosestBinarySearchTreeValue::Main();
 	//Solution2022::SuperEggDrop::Main();
-	//Solution2022::FindtheTownJudge::Main();
 	//Solution2022::DesignAddandSearchWordsDataStructure::Main();
 	//Solution2022::FindCommonCharacters::Main();
 	//Solution2022::MaximumGoodPeopleBasedonStatements::Main();
@@ -2097,7 +2105,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::MaximumLengthofaConcatenatedStringwithUniqueCharacters::Main();
 	//Solution2022::FlattenBinaryTreetoLinkedList::Main();
 	//Solution2022::AddingTwoNegabinaryNumbers::Main();
-	//Solution2022::FindAllNumbersDisappearedinanArray::Main();
 	//Solution2022::ZeroOneMatrix::Main();
 	//Solution2022::MinimumNumberofOperationstoMoveAllBallstoEachBox::Main();
 	//Solution2022::MinimumCosttoConnectSticks::Main();
@@ -2180,7 +2187,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::DetectCapital::Main();
 	//Solution2022::LongestArithmeticSubsequenceofGivenDifference::Main();
 	//Solution2022::PathSumII::Main();
-	//Solution2022::ThreeSumSmaller::Main();
 	//Solution2022::SpiralMatrixIII::Main();
 	//Solution2022::CheckIfArrayPairsAreDivisiblebyk::Main();
 	//Solution2022::ConstructKPalindromeStrings::Main();
@@ -2226,7 +2232,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::PermutationSequence::Main();
 	//Solution2022::MaximumDifferenceBetweenIncreasingElements::Main();
 	//Solution2022::NumberofDaysBetweenTwoDates::Main();
-	//Solution2022::MinimumNumberofMovestoMakePalindrome::Main();
 	//Solution2022::NumberofStepstoReduceaNumberinBinaryRepresentationtoOne::Main();
 	//Solution2022::LowestCommonAncestorofaBinarySearchTree::Main();
 	//Solution2022::NumberofProvinces::Main();
@@ -2252,7 +2257,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::LargestDivisibleSubset::Main();
 	//Solution2022::RemoveBoxes::Main();
 	//Solution2022::MaximumLengthofPairChain::Main();
-	//Solution2022::RotateString::Main();
 	//Solution2022::Heaters::Main();
 	//Solution2022::IteratorforCombination::Main();
 	//Solution2022::NumberofShipsinaRectangle::Main();

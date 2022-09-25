@@ -36,9 +36,20 @@ namespace Solution2022
 {
 	namespace FindtheTownJudge
 	{
-	    int findJudge(int n, vector<vector<int>>& trust) {
-	        
-	    }
+		int findJudge(int n, vector<vector<int>>& trust) {
+			vector<int> indegree(n + 1, 0);
+			vector<int> outdegree(n + 1, 0);
+
+			for (vector<int>& t : trust) {
+				indegree[t[1]] ++;
+				outdegree[t[0]] --;
+			}
+
+			for (int i = 1; i < n + 1; i++) {
+				if (outdegree[i] == 0 && indegree[i] == n - 1) { return i; }
+			}
+			return -1;
+		}
 
 		void Main() {
 			string test = "tst test test";

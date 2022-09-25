@@ -23,9 +23,12 @@ namespace Solution2022
 {
 	namespace RotateString
 	{
-	    bool rotateString(string s, string goal) {
-	        
-	    }
+		bool rotateString(string s, string goal) {
+			if (s.size() != goal.size()) { return false; }
+
+			string s2 = s + s;
+			return s2.find(goal) != string::npos;
+		}
 
 		void Main() {
 			string test = "tst test test";
