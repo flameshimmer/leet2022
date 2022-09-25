@@ -32,9 +32,25 @@ namespace Solution2022
 {
 	namespace TopKFrequentWords
 	{
-	    vector<string> topKFrequent(vector<string>& words, int k) {
-	        
-	    }
+		vector<string> topKFrequent(vector<string>& words, int k) {
+			unordered_map<string, int> map;
+			for (string& w : words) { map[w]++; }
+
+			auto comp = [](pair<string, int>& p1, pair<string, int>& p2) {
+				if (p1.second == p2.second) { return p1.first < p2.first; }
+				else { return p1.second > p2.second; }
+			};
+
+			priority_queue<pair<string, int>, vector<pair<string, int>>, decltype(comp)> pq(comp);
+			for (auto& p : map) { pq.push(p); if (pq.size() > k) { pq.pop(); } }
+
+			vector<string> result;
+			while (!pq.empty()) {
+				result.insert(result.begin(), pq.top().first);
+				pq.pop();
+			}
+			return result;
+		}
 
 		void Main() {
 			string test = "tst test test";

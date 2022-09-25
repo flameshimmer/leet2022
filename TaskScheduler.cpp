@@ -45,9 +45,44 @@ namespace Solution2022
 {
 	namespace TaskScheduler
 	{
-	    int leastInterval(vector<char>& tasks, int n) {
-	        
-	    }
+		//https://www.youtube.com/watch?v=YCD_iYxyXoo
+		int leastInterval(vector<char>& tasks, int n) {
+			vector<int> count(26, 0);
+			for (const char task : tasks) {
+				count[task - 'A']++;
+			}
+
+			int maxCount = *max_element(count.begin(), count.end());
+			int result = (maxCount - 1) * (n + 1);
+			for (int v : count) {
+				if (v == maxCount) { result++; }
+			}
+			return max(result, (int)tasks.size());
+		}
+
+
+		namespace Another {
+			int leastInterval(vector<char>& tasks, int n) {
+				vector<int> count(26);
+				for (char c : tasks) {
+					count[c - 'A']++;
+				}
+				sort(count.begin(), count.end());
+				int result = 0;
+
+				while (count[25]) {
+					int i = 0;
+					while (i <= n) {
+						if (count[25] == 0) { break; }
+						if (25 - i >= 0 && count[25 - i] > 0) { count[25 - i]--; }
+						result++;
+						i++;
+					}
+					sort(count.begin(), count.end());
+				}
+				return result;
+			}
+		}
 
 		void Main() {
 			string test = "tst test test";

@@ -34,9 +34,21 @@ namespace Solution2022
 {
 	namespace PeakIndexinaMountainArray
 	{
-	    int peakIndexInMountainArray(vector<int>& arr) {
-	        
-	    }
+		int peakIndexInMountainArray(vector<int>& A) {
+			int len = A.size();
+			int start = 1; // start and end can not be 0 and len-1, since we guarantee the existence of the mountain
+			int end = len - 2;
+			while (start < end) {
+				int mid = start + (end - start) / 2;
+				if (A[mid] > A[mid + 1]) { // don't have to check mid + 1 is out of bound, since mid will always left biased, and start < end ensures the array has more than 1 element
+					end = mid;
+				}
+				else {
+					start = mid + 1;
+				}
+			}
+			return start;
+		}
 
 		void Main() {
 			string test = "tst test test";

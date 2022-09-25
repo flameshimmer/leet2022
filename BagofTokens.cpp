@@ -46,9 +46,30 @@ namespace Solution2022
 {
 	namespace BagofTokens
 	{
-	    int bagOfTokensScore(vector<int>& tokens, int power) {
-	        
-	    }
+		int bagOfTokensScore(vector<int>& tokens, int power) {
+			sort(tokens.begin(), tokens.end());
+
+			int start = 0;
+			int end = tokens.size() - 1;
+			int points = 0;
+			int result = 0;
+
+			while (start <= end) { // NOTE: this is start <= end, not start < end!!!
+				if (power >= tokens[start]) {
+					power -= tokens[start];
+					points++;
+					result = max(result, points);
+					start++;
+				}
+				else if (points > 0) {
+					power += tokens[end];
+					points--;
+					end--;
+				}
+				else { break; }
+			}
+			return result;
+		}
 
 		void Main() {
 			string test = "tst test test";

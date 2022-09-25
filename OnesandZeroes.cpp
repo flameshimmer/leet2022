@@ -30,13 +30,54 @@ namespace Solution2022
 {
 	namespace OnesandZeroes
 	{
-	    int findMaxForm(vector<string>& strs, int m, int n) {
-	        
-	    }
+		namespace LoopFromBegin {
+			int findMaxForm(vector<string>& strs, int m, int n) {
+				vector<vector<int>> dp = vector(m + 1, vector<int>(n + 1, 0));
+				for (string& s : strs) {
+
+					int zeroCount = 0;
+					int oneCount = 0;
+					for (char c : s) {
+						if (c == '0') { zeroCount++; }
+						else { oneCount++; }
+					}
+
+					auto tmp = dp;
+					for (int i = zeroCount; i <= m; i++) {
+						for (int j = oneCount; j <= n; j++) {
+							dp[i][j] = max(tmp[i][j], tmp[i - zeroCount][j - oneCount] + 1);
+						}
+					}
+				}
+				return dp[m][n];
+			}
+		}
+
+		namespace LoopFromEnd {
+			int findMaxForm(vector<string>& strs, int m, int n) {
+				vector<vector<int>> dp = vector(m + 1, vector<int>(n + 1, 0));
+				for (string& s : strs) {
+					int oneCount = 0;
+					int zeroCount = 0;
+					for (char c : s) {
+						if (c == '1') { oneCount++; }
+						else { zeroCount++; }
+					}
+
+					for (int i = m; i >= zeroCount; i--) {
+						for (int j = n; j >= oneCount; j--) {
+							dp[i][j] = max(dp[i][j], dp[i - zeroCount][j - oneCount] + 1);
+						}
+					}
+				}
+				return dp[m][n];
+			}
+		}
+
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			vector<string> test = { "10", "0001", "111001", "1", "0" };
+			print(findMaxForm(test, 5, 3));
 		}
 	}
 }

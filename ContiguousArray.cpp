@@ -24,9 +24,22 @@ namespace Solution2022
 {
 	namespace ContiguousArray
 	{
-	    int findMaxLength(vector<int>& nums) {
-	        
-	    }
+		int findMaxLength(vector<int>& nums) {
+			int len = nums.size();
+			if (len == 0) { return 0; }
+
+			unordered_map<int, int> map;
+			int sum = 0;
+			int result = 0;
+
+			for (int i = 0; i < len; i++) {
+				sum += (nums[i] == 0) ? -1 : 1;
+				if (sum == 0) { result = i + 1; }
+				else if (map.find(sum) != map.end()) { result = max(result, i - (map[sum] + 1) + 1); }
+				else { map[sum] = i; }
+			}
+			return result;
+		}
 
 		void Main() {
 			string test = "tst test test";

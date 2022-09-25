@@ -20,20 +20,47 @@ namespace Solution2022
 {
 	namespace UniqueBinarySearchTreesII
 	{
-	/**
-	 * Definition for a binary tree node.
-	 * struct TreeNode {
-	 *     int val;
-	 *     TreeNode *left;
-	 *     TreeNode *right;
-	 *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
-	 *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
-	 *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
-	 * };
-	 */
-	    vector<TreeNode*> generateTrees(int n) {
-	        
-	    }
+		/**
+		 * Definition for a binary tree node.
+		 * struct TreeNode {
+		 *     int val;
+		 *     TreeNode *left;
+		 *     TreeNode *right;
+		 *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+		 *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+		 *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+		 * };
+		 */
+		TreeNode* deepCopyTree(TreeNode* root) {
+			if (!root) { return nullptr; }
+			TreeNode* newRoot = new TreeNode(root->val);
+			newRoot->left = deepCopyTree(root->left);
+			newRoot->right = deepCopyTree(root->right);
+			return newRoot;
+		}
+
+		vector<TreeNode*> helper(int start, int end) {
+			if (start > end) { return { nullptr }; }
+
+			vector<TreeNode*> result;
+			for (int i = start; i <= end; i++) {
+				vector<TreeNode*> left = helper(start, i - 1);
+				vector<TreeNode*> right = helper(i + 1, end);
+				for (TreeNode* l : left) {
+					for (TreeNode* r : right) {
+						TreeNode* root = new TreeNode(i);
+						root->left = deepCopyTree(l);
+						root->right = deepCopyTree(r);
+						result.push_back(root);
+					}
+				}
+			}
+			return result;
+		}
+
+		vector<TreeNode*> generateTrees(int n) {
+			return helper(1, n);
+		}
 
 		void Main() {
 			string test = "tst test test";

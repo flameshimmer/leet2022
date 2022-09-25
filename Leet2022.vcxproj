@@ -160,6 +160,7 @@
     <ClCompile Include="AmountofNewAreaPaintedEachDay.cpp" />
     <ClCompile Include="AnalyzeUserWebsiteVisitPattern.cpp" />
     <ClCompile Include="AsteroidCollision.cpp" />
+    <ClCompile Include="BagofTokens.cpp" />
     <ClCompile Include="BasicCalculator.cpp" />
     <ClCompile Include="BasicCalculatorIII.cpp" />
     <ClCompile Include="BattleshipsinaBoard.cpp" />
@@ -301,6 +302,7 @@
     <ClCompile Include="IntersectionofTwoLinkedLists.cpp" />
     <ClCompile Include="InvertBinaryTree.cpp" />
     <ClCompile Include="IPO.cpp" />
+    <ClCompile Include="IsGraphBipartiteQuestionMark.cpp" />
     <ClCompile Include="JumpGame.cpp" />
     <ClCompile Include="JumpGameII.cpp" />
     <ClCompile Include="JumpGameIII.cpp" />
@@ -404,6 +406,7 @@
     <ClCompile Include="NumberofWaystoBuildSturdyBrickWall.cpp" />
     <ClCompile Include="OddEvenJump.cpp" />
     <ClCompile Include="OddEvenLinkedList.cpp" />
+    <ClCompile Include="OnesandZeroes.cpp" />
     <ClCompile Include="OneThreeTwoPattern.cpp" />
     <ClCompile Include="OptimalAccountBalancing.cpp" />
     <ClCompile Include="PaintHouse.cpp" />
@@ -413,6 +416,7 @@
     <ClCompile Include="PalindromeLinkedList.cpp" />
     <ClCompile Include="PalindromeNumber.cpp" />
     <ClCompile Include="PalindromePartitioning.cpp" />
+    <ClCompile Include="PalindromicSubstrings.cpp" />
     <ClCompile Include="PartitionList.cpp" />
     <ClCompile Include="PascalsTriangle.cpp" />
     <ClCompile Include="PascalsTriangleII.cpp" />
@@ -445,10 +449,12 @@
     <ClCompile Include="RemoveDuplicateLetters.cpp" />
     <ClCompile Include="RemoveDuplicatesfromSortedArray.cpp" />
     <ClCompile Include="RemoveDuplicatesfromSortedArrayII.cpp" />
+    <ClCompile Include="RemoveInvalidParentheses.cpp" />
     <ClCompile Include="RemoveNthNodeFromEndofList.cpp" />
     <ClCompile Include="RemovePalindromicSubsequences.cpp" />
     <ClCompile Include="ReorderDatainLogFiles.cpp" />
     <ClCompile Include="ReorderedPowerofTwo.cpp" />
+    <ClCompile Include="RestoreIPAddresses.cpp" />
     <ClCompile Include="ReverseBits.cpp" />
     <ClCompile Include="ReverseInteger.cpp" />
     <ClCompile Include="ReverseLinkedList.cpp" />
@@ -526,6 +532,7 @@
     <ClCompile Include="Triangle.cpp" />
     <ClCompile Include="TwoSum.cpp" />
     <ClCompile Include="TwoSumIIInputArrayIsSorted.cpp" />
+    <ClCompile Include="UniqueBinarySearchTreesII.cpp" />
     <ClCompile Include="UniqueNumberofOccurrences.cpp" />
     <ClCompile Include="UniquePaths.cpp" />
     <ClCompile Include="UTFEightValidation.cpp" />

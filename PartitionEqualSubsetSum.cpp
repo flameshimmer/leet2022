@@ -23,9 +23,20 @@ namespace Solution2022
 {
 	namespace PartitionEqualSubsetSum
 	{
-	    bool canPartition(vector<int>& nums) {
-	        
-	    }
+		bool canPartition(vector<int>& nums) {
+			int sum = accumulate(nums.begin(), nums.end(), 0);
+			if (sum % 2 == 1) { return false; }
+			sum /= 2;
+
+			vector<bool> dp(sum + 1, false);
+			dp[0] = true;
+			for (int v : nums) {
+				for (int i = sum; i >= v; i--) {
+					dp[i] = dp[i] || dp[i - v];
+				}
+			}
+			return dp[sum];
+		}
 
 		void Main() {
 			string test = "tst test test";

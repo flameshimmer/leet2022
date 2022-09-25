@@ -1200,6 +1200,27 @@
     <ClCompile Include="FruitIntoBaskets.cpp">
       <Filter>Solution2022</Filter>
     </ClCompile>
+    <ClCompile Include="PalindromicSubstrings.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="IsGraphBipartiteQuestionMark.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoveInvalidParentheses.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="BagofTokens.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="UniqueBinarySearchTreesII.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="RestoreIPAddresses.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="OnesandZeroes.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Solution2022.h">
