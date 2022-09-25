@@ -25,12 +25,21 @@ namespace Solution2022
 	namespace ReverseStringII
 	{
 	    string reverseStr(string s, int k) {
-	        
+			int len = s.size();
+			int start = 0;
+			int end = start + k;
+			while (end < len) {
+				reverse(s.begin() + start, s.begin() + end);
+				start = end + k;
+				end = start + k;
+			}
+			reverse(s.begin() + start, s.end());
+			return s;
 	    }
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			string test = "abcdefg";
+			print(reverseStr(test, 2));
 		}
 	}
 }

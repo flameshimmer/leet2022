@@ -44,9 +44,34 @@ namespace Solution2022
 {
 	namespace FindPivotIndex
 	{
-	    int pivotIndex(vector<int>& nums) {
-	        
-	    }
+
+		int pivotIndex(vector<int>& nums) {
+			int total = accumulate(nums.begin(), nums.end(), 0);
+			int curSum = 0;
+			for (int i = 0; i < nums.size(); i++) {
+				if (curSum * 2 == total - nums[i]) { return i; }
+				curSum += nums[i];
+			}
+			return -1;
+		}
+
+		namespace SubArraySum {
+			int pivotIndex(vector<int>& nums) {
+				int len = nums.size();
+				vector<int> sum;
+
+				int curSum = 0;
+				for (int v : nums) {
+					curSum += v;
+					sum.push_back(curSum);
+				}
+
+				for (int i = 0; i < len; i++) {
+					if (sum[i] - nums[i] == sum[len - 1] - sum[i]) { return i; }
+				}
+				return -1;
+			}
+		}
 
 		void Main() {
 			string test = "tst test test";

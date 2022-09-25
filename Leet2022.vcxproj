@@ -460,6 +460,7 @@
     <ClCompile Include="ReverseLinkedList.cpp" />
     <ClCompile Include="ReverseNodesinkGroup.cpp" />
     <ClCompile Include="ReverseString.cpp" />
+    <ClCompile Include="ReverseStringII.cpp" />
     <ClCompile Include="ReverseVowelsofaString.cpp" />
     <ClCompile Include="ReverseWordsinaStringIII.cpp" />
     <ClCompile Include="RobotBoundedInCircle.cpp" />
@@ -468,6 +469,7 @@
     <ClCompile Include="RotateArray.cpp" />
     <ClCompile Include="RotateImage.cpp" />
     <ClCompile Include="RottingOranges.cpp" />
+    <ClCompile Include="SameTree.cpp" />
     <ClCompile Include="SearchaTwoDMatrixII.cpp" />
     <ClCompile Include="SearchinRotatedSortedArray.cpp" />
     <ClCompile Include="SearchInsertPosition.cpp" />
@@ -515,6 +517,7 @@
     <ClCompile Include="SwapAdjacentinLRString.cpp" />
     <ClCompile Include="SwiminRisingWater.cpp" />
     <ClCompile Include="SymmetricTree.cpp" />
+    <ClCompile Include="TaskScheduler.cpp" />
     <ClCompile Include="Test.cpp" />
     <ClCompile Include="TextJustification.cpp" />
     <ClCompile Include="TheNumberofWeakCharactersintheGame.cpp" />
@@ -525,6 +528,7 @@
     <ClCompile Include="TilingaRectanglewiththeFewestSquares.cpp" />
     <ClCompile Include="TimeNeededtoInformAllEmployees.cpp" />
     <ClCompile Include="TopKFrequentElements.cpp" />
+    <ClCompile Include="TopKFrequentWords.cpp" />
     <ClCompile Include="TotalAppealofAString.cpp" />
     <ClCompile Include="TransposeMatrix.cpp" />
     <ClCompile Include="TrappingRainWater.cpp" />

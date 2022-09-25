@@ -27,6 +27,10 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::PartitionEqualSubsetSum::Main();
 	//Solution2022::ContiguousArray::Main();
 	//Solution2022::TopKFrequentWords::Main();
+	//Solution2022::FindPivotIndex::Main();
+	//Solution2022::SameTree::Main();
+	//Solution2022::ReverseStringII::Main();
+	//Solution2022::RemoveDuplicatesfromSortedList::Main();
 
 	//9/23/2022
 	//Solution2022::RemoveInvalidParentheses::Main();
@@ -1885,7 +1889,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::FindAllDuplicatesinanArray::Main();
 	//Solution2022::MultiplyStrings::Main();
 	//Solution2022::TwoFourGame::Main();
-	//Solution2022::FindPivotIndex::Main();
 	//Solution2022::FlipStringtoMonotoneIncreasing::Main();
 	//Solution2022::SingleNumber::Main();
 	//Solution2022::RankTeamsbyVotes::Main();
@@ -2132,7 +2135,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::MaximumGap::Main();
 	//Solution2022::VerbalArithmeticPuzzle::Main();
 	//Solution2022::SubsequenceofSizeKWiththeLargestEvenSum::Main();
-	//Solution2022::RemoveDuplicatesfromSortedList::Main();
 	//Solution2022::DesignTwitter::Main();
 	//Solution2022::OnlineStockSpan::Main();
 	//Solution2022::FindMinimuminRotatedSortedArray::Main();
@@ -2183,7 +2185,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::CheckIfArrayPairsAreDivisiblebyk::Main();
 	//Solution2022::ConstructKPalindromeStrings::Main();
 	//Solution2022::RabbitsinForest::Main();
-	//Solution2022::SameTree::Main();
 	//Solution2022::MinimumDifferenceinSumsAfterRemovalofElements::Main();
 	//Solution2022::TheKWeakestRowsinaMatrix::Main();
 	//Solution2022::KillProcess::Main();
@@ -2322,7 +2323,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::UniqueSubstringsWithEqualDigitFrequency::Main();
 	//Solution2022::SubtracttheProductandSumofDigitsofanInteger::Main();
 	//Solution2022::FindtheMostCompetitiveSubsequence::Main();
-	//Solution2022::ReverseStringII::Main();
 	//Solution2022::VerifyPreorderSequenceinBinarySearchTree::Main();
 	//Solution2022::DataStreamasDisjointIntervals::Main();
 	//Solution2022::BinarySearchTreetoGreaterSumTree::Main();

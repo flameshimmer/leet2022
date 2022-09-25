@@ -1221,6 +1221,18 @@
     <ClCompile Include="OnesandZeroes.cpp">
       <Filter>Solution2022</Filter>
     </ClCompile>
+    <ClCompile Include="TaskScheduler.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="TopKFrequentWords.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="SameTree.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="ReverseStringII.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Solution2022.h">

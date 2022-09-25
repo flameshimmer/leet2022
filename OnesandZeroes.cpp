@@ -77,7 +77,7 @@ namespace Solution2022
 
 		void Main() {
 			vector<string> test = { "10", "0001", "111001", "1", "0" };
-			print(findMaxForm(test, 5, 3));
+			//print(findMaxForm(test, 5, 3));
 		}
 	}
 }
