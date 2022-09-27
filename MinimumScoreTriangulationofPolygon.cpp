@@ -39,13 +39,44 @@ namespace Solution2022
 {
 	namespace MinimumScoreTriangulationofPolygon
 	{
-	    int minScoreTriangulation(vector<int>& values) {
-	        
-	    }
+		namespace Recursion {
+			int helper(vector<int>& A, int i, int j, vector<vector<int>>& M) {
+				if (M[i][j] != 0) { return M[i][j]; }
+
+				int result = 0;
+				for (int k = i + 1; k < j; k++) {
+					int curV = helper(A, i, k, M) + A[i] * A[j] * A[k] + helper(A, k, j, M);
+					result = min(result == 0 ? INT_MAX : result, curV);
+				}
+				M[i][j] = result;
+				return result;
+			}
+
+			int minScoreTriangulation(vector<int>& A) {
+				vector<vector<int>> M(50, vector<int>(50, 0));
+				return helper(A, 0, A.size() - 1, M);
+			}
+		}
+
+		namespace DP {
+			int minScoreTriangulation(vector<int>& A) {
+				int len = A.size();
+				vector<vector<int>> dp(len, vector<int>(len, 0));
+
+				for (int i = len - 1; i >= 0; i--) { // 0...i ... k ... j... len-1
+					for (int j = i + 1; j < len; j++) {
+						for (int k = i + 1; k < j; k++) {
+							dp[i][j] = min((dp[i][j] == 0 ? INT_MAX : dp[i][j]), dp[i][k] + A[i] * A[j] * A[k] + dp[k][j]);
+						}
+					}
+				}
+				return dp[0][len - 1];
+			}
+		}
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			vector<int> test = { 1, 2, 3 };
+			print(DP::minScoreTriangulation(test));
 		}
 	}
 }

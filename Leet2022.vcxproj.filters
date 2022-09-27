@@ -1242,6 +1242,30 @@
     <ClCompile Include="FindAllNumbersDisappearedinanArray.cpp">
       <Filter>Solution2022</Filter>
     </ClCompile>
+    <ClCompile Include="ValidPerfectSquare.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="MinimumScoreTriangulationofPolygon.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="FindandReplacePattern.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreeSumSmaller.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="MinimumCosttoCutaStick.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleElementinaSortedArray.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="MaximumScorefromPerformingMultiplicationOperations.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="MakeArrayZeroBySubtractingEqualAmounts.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Solution2022.h">

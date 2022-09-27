@@ -1,68 +1,16 @@
-class LFUCache {
-public:
-    LFUCache(int _capacity) {
-        cap=_capacity;
-        size=0;
-        minFreq=0;
-    }
-    
-    int get(int key) {
-        if(keysInfo.count(key)==0){
-            return -1;
-        }
-        update(key);
-        return keysInfo[key].first;
-    }
-    
-    void put(int key, int value) {
-        if(cap<=0)
-            return;
-        
-        if(keysInfo.count(key)==1){      //If key is already present 
-            //update value
-            keysInfo[key].first=value;
-            update(key);
-        }
-        else{
-            if(size==cap){
-                int key_to_remove=fm[minFreq].front();
-                /*
-                Remove from all three maps
-                */
-                fm[minFreq].pop_front();
-                keysInfo.erase(key_to_remove);
-                itMap.erase(key_to_remove);
-            }
-            else
-                size++;
-            
-            keysInfo[key]={value,1};
-            minFreq=1;
-            fm[1].push_back(key);
-            itMap[key]=(--fm[1].end());
-        }   
-    }
-    
-private :
-    int cap;
-    int size;
-    int minFreq;
-    
-    unordered_map<int,list<int> > fm;
-    unordered_map<int,pair<int,int> > keysInfo;    //(key to {value,freq});
-    unordered_map<int, list<int>::iterator> itMap; //key to its iterator in fm list
-    
-    
-    void update(int key){
-        int oldFreq=keysInfo[key].second;
-        auto it=itMap[key];
-        keysInfo[key].second++;
-        fm[oldFreq].erase(it);
-        oldFreq++;
-        fm[oldFreq].push_back(key);
-        itMap[key]=(--fm[oldFreq].end());
-        
-        if(fm[minFreq].empty())
-            minFreq++;
-    }
-};
+		int helper(int i, int n, int j, int m, vector<int>& nums, vector<int>& multipliers, vector<vector<int>>& M) {
+			if (i + (nums.size() - n) == m) { return 0; } // taken start count + taken end count is equal to m, then we are good
+			if (M[i][j] != INT_MIN) { return M[i][j]; }
+
+			int ifTakeLeft = helper(i + 1, n, j + 1, m, nums, multipliers, M) + nums[i] * multipliers[j];
+			int ifTakeRight = helper(i, n - 1, j + 1, m, nums, multipliers, M) + nums[n - 1] * multipliers[j];
+			M[i][j] = max(ifTakeLeft, ifTakeRight);
+			return M[i][j];
+		}
+
+		int maximumScore(vector<int>& nums, vector<int>& multipliers) {
+			int n = nums.size();
+			int m = multipliers.size();
+			vector<vector<int>> M(m + 1, vector<int>(m + 1, INT_MIN));
+			return helper(0, n, 0, m, nums, multipliers, M);
+		}

@@ -41,13 +41,29 @@ namespace Solution2022
 {
 	namespace MaximumScorefromPerformingMultiplicationOperations
 	{
-	    int maximumScore(vector<int>& nums, vector<int>& multipliers) {
-	        
-	    }
+		// begin index, end index, len, nums, multiplier begin index, multiplie len, multipliers, memory table
+		int helper(int i, int k, int n, vector<int>& nums, int j, int m, vector<int>& multipliers, vector<vector<int>>& M) {
+			if (i + (n - 1 - k) == m) { return 0; }
+			if (M[i][j] != INT_MIN) { return M[i][j]; }
+
+			int left = helper(i + 1, k, n, nums, j + 1, m, multipliers, M) + nums[i] * multipliers[j];
+			int right = helper(i, k - 1, n, nums, j + 1, m, multipliers, M) + nums[k] * multipliers[j];
+			M[i][j] = max(left, right);
+			return M[i][j];
+		}
+
+
+		int maximumScore(vector<int>& nums, vector<int>& multipliers) {
+			int n = nums.size();
+			int m = multipliers.size();
+			vector<vector<int>> M(m + 1, vector<int>(m + 1, INT_MIN));
+			return helper(0, n - 1, n, nums, 0, m, multipliers, M);
+		}
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			vector<int> test1 = { 1, 2, 3 };
+			vector<int> test2 = { 3, 2, 1 };
+			print(maximumScore(test1, test2));
 		}
 	}
 }

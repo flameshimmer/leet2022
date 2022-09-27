@@ -252,6 +252,7 @@
     <ClCompile Include="FillingBookcaseShelves.cpp" />
     <ClCompile Include="FindAllNumbersDisappearedinanArray.cpp" />
     <ClCompile Include="FindAndReplaceinString.cpp" />
+    <ClCompile Include="FindandReplacePattern.cpp" />
     <ClCompile Include="FindDuplicateSubtrees.cpp" />
     <ClCompile Include="FindFirstandLastPositionofElementinSortedArray.cpp" />
     <ClCompile Include="FindingMKAverage.cpp" />
@@ -345,6 +346,7 @@
     <ClCompile Include="LowestCommonAncestorofaBinaryTree.cpp" />
     <ClCompile Include="LowestCommonAncestorofaBinaryTreeIII.cpp" />
     <ClCompile Include="LRUCache.cpp" />
+    <ClCompile Include="MakeArrayZeroBySubtractingEqualAmounts.cpp" />
     <ClCompile Include="MaxAreaofIsland.cpp" />
     <ClCompile Include="MaximumDepthofBinaryTree.cpp" />
     <ClCompile Include="MaximumDepthofNaryTree.cpp" />
@@ -355,6 +357,7 @@
     <ClCompile Include="MaximumNumberofVisiblePoints.cpp" />
     <ClCompile Include="MaximumPointsYouCanObtainfromCards.cpp" />
     <ClCompile Include="MaximumProductofThreeNumbers.cpp" />
+    <ClCompile Include="MaximumScorefromPerformingMultiplicationOperations.cpp" />
     <ClCompile Include="MaximumScoreofaNodeSequence.cpp" />
     <ClCompile Include="MaximumSizeSubarraySumEqualsk.cpp" />
     <ClCompile Include="MaximumSplitofPositiveEvenIntegers.cpp" />
@@ -377,11 +380,13 @@
     <ClCompile Include="MinimumAddtoMakeParenthesesValid.cpp" />
     <ClCompile Include="MinimumAreaRectangle.cpp" />
     <ClCompile Include="MinimumAreaRectangleII.cpp" />
+    <ClCompile Include="MinimumCosttoCutaStick.cpp" />
     <ClCompile Include="MinimumCosttoSetCookingTime.cpp" />
     <ClCompile Include="MinimumNumberofOperationstoConvertTime.cpp" />
     <ClCompile Include="MinimumNumberofRemovalstoMakeMountainArray.cpp" />
     <ClCompile Include="MinimumOperationstoReduceXtoZero.cpp" />
     <ClCompile Include="MinimumRemovetoMakeValidParentheses.cpp" />
+    <ClCompile Include="MinimumScoreTriangulationofPolygon.cpp" />
     <ClCompile Include="MinimumTimeDifference.cpp" />
     <ClCompile Include="MinimumWindowSubstring.cpp" />
     <ClCompile Include="MissingNumber.cpp" />
@@ -491,6 +496,7 @@
     <ClCompile Include="SignoftheProductofanArray.cpp" />
     <ClCompile Include="SimilarStringGroups.cpp" />
     <ClCompile Include="SimplifyPath.cpp" />
+    <ClCompile Include="SingleElementinaSortedArray.cpp" />
     <ClCompile Include="SingleNumber.cpp" />
     <ClCompile Include="SlidingWindowMaximum.cpp" />
     <ClCompile Include="SmallestRotationwithHighestScore.cpp" />
@@ -527,6 +533,7 @@
     <ClCompile Include="TheSkylineProblem.cpp" />
     <ClCompile Include="ThreeSum.cpp" />
     <ClCompile Include="ThreeSumClosest.cpp" />
+    <ClCompile Include="ThreeSumSmaller.cpp" />
     <ClCompile Include="ThreeSumWithMultiplicity.cpp" />
     <ClCompile Include="TilingaRectanglewiththeFewestSquares.cpp" />
     <ClCompile Include="TimeNeededtoInformAllEmployees.cpp" />
@@ -547,6 +554,7 @@
     <ClCompile Include="ValidPalindrome.cpp" />
     <ClCompile Include="ValidPalindromeII.cpp" />
     <ClCompile Include="ValidParentheses.cpp" />
+    <ClCompile Include="ValidPerfectSquare.cpp" />
     <ClCompile Include="ValidSquare.cpp" />
     <ClCompile Include="ValidSudoku.cpp" />
     <ClCompile Include="ValidWordAbbreviation.cpp" />

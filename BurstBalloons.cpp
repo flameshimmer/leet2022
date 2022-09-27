@@ -29,9 +29,25 @@ namespace Solution2022
 {
 	namespace BurstBalloons
 	{
-	    int maxCoins(vector<int>& nums) {
-	        
-	    }
+		int helper(vector<int>& nums, int i, int j, vector<vector<int>>& m) {
+			if (i > j) { return 0; }
+			if (m[i][j] != -1) { return m[i][j]; }
+
+			int result = 0;
+			for (int k = i; k <= j; k++) {
+				int prev = i - 1 >= 0 ? nums[i - 1] : 1;
+				int next = j + 1 < nums.size() ? nums[j + 1] : 1;
+				result = max(result, prev * nums[k] * next + helper(nums, i, k - 1, m) + helper(nums, k + 1, j, m));
+			}
+			m[i][j] = result;
+			return result;
+		}
+
+		int maxCoins(vector<int>& nums) {
+			int len = nums.size();
+			vector<vector<int>> m(len, vector<int>(len, -1));
+			return helper(nums, 0, len - 1, m);
+		}
 
 		void Main() {
 			string test = "tst test test";
