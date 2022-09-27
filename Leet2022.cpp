@@ -21,12 +21,20 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::PalindromePartitioningIV::Main();
 
 	//====Problem Starts====
+	//9/28/2022
+	//Solution2022::RecoverBinarySearchTree::Main();
+	//Solution2022::ReverseWordsinaString::Main();
+	//Solution2022::DeleteNodeinaBST::Main();
+	//Solution2022::MaximalSquare::Main();
+	//Solution2022::MinimumSizeSubarraySum::Main();
+	
 	//9/27/2022
 	//Solution2022::SortanArray::Main();
 	//Solution2022::ReversePairs::Main();
 	//Solution2022::SingleNumberII::Main();
-	//Solution2022::DistinctSubsequences::Main();
 	//Solution2022::CountCompleteTreeNodes::Main();
+	//Solution2022::DistinctSubsequences::Main();
+	//Solution2022::FindAllDuplicatesinanArray::Main();
 
 	//9/26/2022
 	//Solution2022::MinimumScoreTriangulationofPolygon::Main();
@@ -1879,7 +1887,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::MaximumProfitFromTradingStocks::Main();
 	//Solution2022::TasksCountintheWeekend::Main
 	//Solution2022::MaxConsecutiveOnesIII::Main();
-	//Solution2022::MaximalSquare::Main();
 	//Solution2022::CapacityToShipPackagesWithinDDays::Main();
 	//Solution2022::PalindromePairs::Main();
 	//Solution2022::ReverseString::Main();
@@ -1900,10 +1907,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::MinimumKnightMoves::Main();
 	//Solution2022::MoveZeroes::Main();
 	//Solution2022::CuttingRibbons::Main();
-	//Solution2022::RecoverBinarySearchTree::Main();
-	//Solution2022::ReverseWordsinaString::Main();
 	//Solution2022::DesignBrowserHistory::Main();
-	//Solution2022::FindAllDuplicatesinanArray::Main();
 	//Solution2022::MultiplyStrings::Main();
 	//Solution2022::TwoFourGame::Main();
 	//Solution2022::FlipStringtoMonotoneIncreasing::Main();
@@ -2070,7 +2074,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::MaximumGoodPeopleBasedonStatements::Main();
 	//Solution2022::IsomorphicStrings::Main();
 	//Solution2022::PaintingaGridWithThreeDifferentColors::Main();
-	//Solution2022::DeleteNodeinaBST::Main();
 	//Solution2022::AddTwoNumbersII::Main();
 	//Solution2022::NumberofSubarrayswithBoundedMaximum::Main();
 	//Solution2022::ValidPalindromeIII::Main();
@@ -2097,7 +2100,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::MaximumNumberofOccurrencesofaSubstring::Main();
 	//Solution2022::CountNumberofTeams::Main();
 	//Solution2022::RemoveDuplicatesfromSortedListII::Main();
-	//Solution2022::MinimumSizeSubarraySum::Main();
 	//Solution2022::FindinMountainArray::Main();
 	//Solution2022::NumberComplement::Main();
 	//Solution2022::ExcelSheetColumnTitle::Main();

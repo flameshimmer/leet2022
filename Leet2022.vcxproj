@@ -211,6 +211,7 @@
     <ClCompile Include="CopyListwithRandomPointer.cpp" />
     <ClCompile Include="CountandSay.cpp" />
     <ClCompile Include="CountBinarySubstrings.cpp" />
+    <ClCompile Include="CountCompleteTreeNodes.cpp" />
     <ClCompile Include="CountDifferentPalindromicSubsequences.cpp" />
     <ClCompile Include="CountOddNumbersinanIntervalRange.cpp" />
     <ClCompile Include="CountofSmallerNumbersAfterSelf.cpp" />
@@ -250,6 +251,7 @@
     <ClCompile Include="FactorialTrailingZeroes.cpp" />
     <ClCompile Include="FibonacciNumber.cpp" />
     <ClCompile Include="FillingBookcaseShelves.cpp" />
+    <ClCompile Include="FindAllDuplicatesinanArray.cpp" />
     <ClCompile Include="FindAllNumbersDisappearedinanArray.cpp" />
     <ClCompile Include="FindAndReplaceinString.cpp" />
     <ClCompile Include="FindandReplacePattern.cpp" />
@@ -502,6 +504,7 @@
     <ClCompile Include="SmallestRotationwithHighestScore.cpp" />
     <ClCompile Include="SmallestStringWithAGivenNumericValue.cpp" />
     <ClCompile Include="SnapshotArray.cpp" />
+    <ClCompile Include="SortanArray.cpp" />
     <ClCompile Include="SortColors.cpp" />
     <ClCompile Include="SparseMatrixMultiplication.cpp" />
     <ClCompile Include="SpiralMatrix.cpp" />

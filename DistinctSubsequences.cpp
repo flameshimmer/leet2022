@@ -37,9 +37,25 @@ namespace Solution2022
 {
 	namespace DistinctSubsequences
 	{
-	    int numDistinct(string s, string t) {
-	        
-	    }
+		//https://www.youtube.com/watch?v=-Q6XfyMiYUc
+		int numDistinct(string s, string t) {
+			int lens = s.size();
+			int lent = t.size();
+			if (lens < lent) { return 0; }
+			if (lens == lent) { return s == t; }
+
+			vector<vector<double>> dp(lens + 1, vector<double>(lent + 1, 0));
+
+			for (int i = 0; i <= lens; i++) { dp[i][0] = 1; }
+
+			for (int i = 1; i <= lens; i++) {
+				for (int j = 1; j <= lent; j++) {
+					if (s[i - 1] == t[j - 1]) { dp[i][j] += dp[i - 1][j - 1]; }
+					dp[i][j] += dp[i - 1][j];
+				}
+			}
+			return dp[lens][lent];
+		}
 
 		void Main() {
 			string test = "tst test test";

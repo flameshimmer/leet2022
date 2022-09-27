@@ -30,20 +30,31 @@ namespace Solution2022
 {
 	namespace CountCompleteTreeNodes
 	{
-	/**
-	 * Definition for a binary tree node.
-	 * struct TreeNode {
-	 *     int val;
-	 *     TreeNode *left;
-	 *     TreeNode *right;
-	 *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
-	 *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
-	 *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
-	 * };
-	 */
-	    int countNodes(TreeNode* root) {
-	        
-	    }
+		/**
+		 * Definition for a binary tree node.
+		 * struct TreeNode {
+		 *     int val;
+		 *     TreeNode *left;
+		 *     TreeNode *right;
+		 *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+		 *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+		 *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+		 * };
+		 */
+		int countNodes(TreeNode* root) {
+			if (!root) { return 0; }
+
+			int leftHeight = 0;
+			TreeNode* l = root;
+			while (l) { l = l->left; leftHeight++; }
+
+			int rightHeight = 0;
+			TreeNode* r = root;
+			while (r) { r = r->right; rightHeight++; }
+
+			if (leftHeight == rightHeight) { return pow(2, leftHeight) - 1; }
+			return 1 + countNodes(root->left) + countNodes(root->right);
+		}
 
 		void Main() {
 			string test = "tst test test";

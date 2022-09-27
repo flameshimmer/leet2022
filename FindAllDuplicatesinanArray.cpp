@@ -29,13 +29,21 @@ namespace Solution2022
 {
 	namespace FindAllDuplicatesinanArray
 	{
-	    vector<int> findDuplicates(vector<int>& nums) {
-	        
-	    }
+		vector<int> findDuplicates(vector<int>& nums) {
+			int len = nums.size();
+
+			vector<int> result;
+			for (int i = 0; i < len; i++) {
+				int v = abs(nums[i]);
+				if (nums[v - 1] < 0) { result.push_back(v); }
+				else { nums[v - 1] *= -1; }
+			}
+			return result;
+		}
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			vector<int> test = { 4,3,2,7,8,2,3,1 };
+			print(findDuplicates(test));
 		}
 	}
 }

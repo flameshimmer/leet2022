@@ -21,9 +21,35 @@ namespace Solution2022
 {
 	namespace ReversePairs
 	{
-	    int reversePairs(vector<int>& nums) {
-	        
-	    }
+		void merge(vector<int>& A, int start, int mid, int end, int& count) {
+			int i = start;
+			int j = mid + 1;
+			while (i <= mid && j <= end) {
+				if ((long long)A[i] > (long long)2 * A[j]) {
+					count += mid - i + 1;
+					j++;
+				}
+				else {
+					i++;
+				}
+			}
+			sort(A.begin() + start, A.begin() + end + 1);
+		}
+
+		void mergeSort(vector<int>& nums, int start, int end, int& count) {
+			if (start >= end) { return; }
+			int mid = start + (end - start) / 2;
+			mergeSort(nums, start, mid, count);
+			mergeSort(nums, mid + 1, end, count);
+			merge(nums, start, mid, end, count);
+		}
+
+		int reversePairs(vector<int>& nums) {
+			int len = nums.size();
+			int count = 0;
+			mergeSort(nums, 0, len - 1, count);
+			return count;
+		}
 
 		void Main() {
 			string test = "tst test test";

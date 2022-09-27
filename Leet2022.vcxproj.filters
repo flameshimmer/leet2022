@@ -1266,6 +1266,15 @@
     <ClCompile Include="MakeArrayZeroBySubtractingEqualAmounts.cpp">
       <Filter>Solution2022</Filter>
     </ClCompile>
+    <ClCompile Include="SortanArray.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="CountCompleteTreeNodes.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="FindAllDuplicatesinanArray.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Solution2022.h">

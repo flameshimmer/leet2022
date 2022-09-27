@@ -24,9 +24,20 @@ namespace Solution2022
 {
 	namespace SingleNumberII
 	{
-	    int singleNumber(vector<int>& nums) {
-	        
-	    }
+		int singleNumber(vector<int>& nums) {
+			if (nums.size() == 1) { return nums[0]; }
+
+			int result = 0;
+			for (int i = 0; i < 32; i++) {
+				int count = 0;
+				for (int v : nums) {
+					count += (v >> i) & 1;
+				}
+				count %= 3;
+				result = result | (count << i);
+			}
+			return result;
+		}
 
 		void Main() {
 			string test = "tst test test";
