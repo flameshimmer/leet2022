@@ -1275,6 +1275,9 @@
     <ClCompile Include="FindAllDuplicatesinanArray.cpp">
       <Filter>Solution2022</Filter>
     </ClCompile>
+    <ClCompile Include="MinimumSizeSubarraySum.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Solution2022.h">

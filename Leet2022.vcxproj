@@ -389,6 +389,7 @@
     <ClCompile Include="MinimumOperationstoReduceXtoZero.cpp" />
     <ClCompile Include="MinimumRemovetoMakeValidParentheses.cpp" />
     <ClCompile Include="MinimumScoreTriangulationofPolygon.cpp" />
+    <ClCompile Include="MinimumSizeSubarraySum.cpp" />
     <ClCompile Include="MinimumTimeDifference.cpp" />
     <ClCompile Include="MinimumWindowSubstring.cpp" />
     <ClCompile Include="MissingNumber.cpp" />

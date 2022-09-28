@@ -28,20 +28,48 @@ namespace Solution2022
 {
 	namespace RecoverBinarySearchTree
 	{
-	/**
-	 * Definition for a binary tree node.
-	 * struct TreeNode {
-	 *     int val;
-	 *     TreeNode *left;
-	 *     TreeNode *right;
-	 *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
-	 *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
-	 *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
-	 * };
-	 */
-	    void recoverTree(TreeNode* root) {
-	        
-	    }
+		/**
+		 * Definition for a binary tree node.
+		 * struct TreeNode {
+		 *     int val;
+		 *     TreeNode *left;
+		 *     TreeNode *right;
+		 *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+		 *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+		 *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+		 * };
+		 */
+
+		 // Inorder traversal, find the two times where the decrease happens, record the first element 
+		 // of the first time decrease and second element of the second time decrease. Swap them. 
+		void helper(TreeNode* node, TreeNode*& first, TreeNode*& second, TreeNode*& prev) {
+			if (!node) { return; }
+
+			helper(node->left, first, second, prev);
+
+			if (!first && prev->val > node->val) {
+				first = prev;
+			}
+
+			if (first && prev->val > node->val) {
+				second = node;
+			}
+			prev = node;
+
+			helper(node->right, first, second, prev);
+		}
+
+		void recoverTree(TreeNode* root) {
+			if (!root) { return; }
+
+			TreeNode* first = nullptr;
+			TreeNode* second = nullptr;
+			TreeNode* prev = new TreeNode(INT_MIN);
+
+			helper(root, first, second, prev);
+
+			swap(first->val, second->val);
+		}
 
 		void Main() {
 			string test = "tst test test";

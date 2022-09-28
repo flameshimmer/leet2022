@@ -32,13 +32,25 @@ namespace Solution2022
 {
 	namespace MinimumSizeSubarraySum
 	{
-	    int minSubArrayLen(int target, vector<int>& nums) {
-	        
-	    }
+		int minSubArrayLen(int target, vector<int>& nums) {
+			int len = nums.size();
+			int sum = 0;
+			int start = 0;
+			int result = INT_MAX;
+			for (int end = 0; end < len; end++) {
+				sum += nums[end];
+				while (start <= end && sum >= target) {
+					result = min(result, end - start + 1);
+					sum -= nums[start];
+					start++;
+				}
+			}
+			return result == INT_MAX ? 0 : result;
+		}
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			vector<int> test = { 2,3,1,2,4,3 };
+			print(minSubArrayLen(7, test));
 		}
 	}
 }

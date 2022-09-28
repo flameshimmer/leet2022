@@ -1,16 +1,17 @@
-		int helper(int i, int n, int j, int m, vector<int>& nums, vector<int>& multipliers, vector<vector<int>>& M) {
-			if (i + (nums.size() - n) == m) { return 0; } // taken start count + taken end count is equal to m, then we are good
-			if (M[i][j] != INT_MIN) { return M[i][j]; }
+	    int minSubArrayLen(int target, vector<int>& nums) {
+			int len = nums.size();
+			if (len == 0) { return 0; }
 
-			int ifTakeLeft = helper(i + 1, n, j + 1, m, nums, multipliers, M) + nums[i] * multipliers[j];
-			int ifTakeRight = helper(i, n - 1, j + 1, m, nums, multipliers, M) + nums[n - 1] * multipliers[j];
-			M[i][j] = max(ifTakeLeft, ifTakeRight);
-			return M[i][j];
-		}
-
-		int maximumScore(vector<int>& nums, vector<int>& multipliers) {
-			int n = nums.size();
-			int m = multipliers.size();
-			vector<vector<int>> M(m + 1, vector<int>(m + 1, INT_MIN));
-			return helper(0, n, 0, m, nums, multipliers, M);
-		}
+			int result = INT_MAX;
+			int start = 0;
+			int sum = 0;
+			for (int end = 0; end < len; end++) {
+				sum += nums[end];
+				while (start <= end && sum >= target) {
+					result = min(result, end - start + 1);
+					sum -= nums[start];
+					start++;
+				}
+			}
+			return result == INT_MAX ? 0 : result;
+	    }

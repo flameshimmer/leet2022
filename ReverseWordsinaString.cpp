@@ -37,9 +37,31 @@ namespace Solution2022
 {
 	namespace ReverseWordsinaString
 	{
-	    string reverseWords(string s) {
-	        
-	    }
+
+		string reverseWords(string s) {
+			int len = s.size();
+			int start = 0;
+			int end = 0;
+			int wordCount = 0;
+
+			while (end < len) {
+				while (end < len && s[end] == ' ') { end++; }
+				if (end == len) { break; }
+				if (wordCount > 0) { s[start] = ' '; start++; }
+
+				int tmp = start;
+				while (end < len && s[end] != ' ') {
+					s[start] = s[end];
+					start++;
+					end++;
+				}
+				wordCount++;
+				reverse(s.begin() + tmp, s.begin() + start);
+			}
+			s.resize(start);
+			reverse(s.begin(), s.end());
+			return s;
+		}
 
 		void Main() {
 			string test = "tst test test";
