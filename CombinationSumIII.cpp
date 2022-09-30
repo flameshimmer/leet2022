@@ -39,9 +39,26 @@ namespace Solution2022
 {
 	namespace CombinationSumIII
 	{
-	    vector<vector<int>> combinationSum3(int k, int n) {
-	        
-	    }
+		void comboHelper(int start, int maxLen, int target, int sum, vector<int>& result, vector<vector<int>>& results) {
+			int curLen = result.size();
+			if (curLen == maxLen && sum == target) { results.push_back(result); }
+			if (curLen >= maxLen || sum > target) { return; }
+
+			for (int i = start; i <= 9; i++) {
+				result.push_back(i);
+				comboHelper(i + 1, maxLen, target, sum + i, result, results);
+				result.pop_back();
+			}
+		}
+
+		vector<vector<int>> combinationSum3(int k, int n) {
+			vector<vector<int>> results;
+			vector<int> result;
+			int sum = 0;
+
+			comboHelper(1, k, n, sum, result, results);
+			return results;
+		}
 
 		void Main() {
 			string test = "tst test test";

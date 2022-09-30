@@ -191,6 +191,7 @@
     <ClCompile Include="CheckifWordCanBePlacedInCrossword.cpp" />
     <ClCompile Include="CheckingExistenceofEdgeLengthLimitedPaths.cpp" />
     <ClCompile Include="ClimbingStairs.cpp" />
+    <ClCompile Include="CloneGraph.cpp" />
     <ClCompile Include="ClosestNodetoPathinTree.cpp" />
     <ClCompile Include="CoinChange.cpp" />
     <ClCompile Include="Combinations.cpp" />
@@ -241,6 +242,7 @@
     <ClCompile Include="DivideTwoIntegers.cpp" />
     <ClCompile Include="DotProductofTwoSparseVectors.cpp" />
     <ClCompile Include="DungeonGame.cpp" />
+    <ClCompile Include="EditDistance.cpp" />
     <ClCompile Include="EmployeeFreeTime.cpp" />
     <ClCompile Include="EmployeeImportance.cpp" />
     <ClCompile Include="EvaluateDivision.cpp" />
@@ -261,6 +263,8 @@
     <ClCompile Include="FindingThreeDigitEvenNumbers.cpp" />
     <ClCompile Include="FindLuckyIntegerinanArray.cpp" />
     <ClCompile Include="FindMedianfromDataStream.cpp" />
+    <ClCompile Include="FindMinimuminRotatedSortedArray.cpp" />
+    <ClCompile Include="FindMinimuminRotatedSortedArrayII.cpp" />
     <ClCompile Include="FindNUniqueIntegersSumuptoZero.cpp" />
     <ClCompile Include="FindPeakElement.cpp" />
     <ClCompile Include="FindServersThatHandledMostNumberofRequests.cpp" />
@@ -271,6 +275,7 @@
     <ClCompile Include="FirstMissingPositive.cpp" />
     <ClCompile Include="FirstUniqueCharacterinaString.cpp" />
     <ClCompile Include="FizzBuzz.cpp" />
+    <ClCompile Include="FlattenBinaryTreetoLinkedList.cpp" />
     <ClCompile Include="FlattenNestedListIterator.cpp" />
     <ClCompile Include="FlattenTwoDVector.cpp" />
     <ClCompile Include="FlippinganImage.cpp" />
@@ -299,6 +304,7 @@
     <ClCompile Include="InorderSuccessorinBSTII.cpp" />
     <ClCompile Include="InsertDeleteGetRandomO.cpp" />
     <ClCompile Include="InsertDeleteGetRandomODuplicatesallowed.cpp" />
+    <ClCompile Include="InsertInterval.cpp" />
     <ClCompile Include="IntegertoEnglishWords.cpp" />
     <ClCompile Include="IntegertoRoman.cpp" />
     <ClCompile Include="InterleavingString.cpp" />
@@ -406,6 +412,7 @@
     <ClCompile Include="NextPalindromeUsingSameDigits.cpp" />
     <ClCompile Include="NextPermutation.cpp" />
     <ClCompile Include="NonoverlappingIntervals.cpp" />
+    <ClCompile Include="NQueens.cpp" />
     <ClCompile Include="NthDigit.cpp" />
     <ClCompile Include="NumberofDigitOne.cpp" />
     <ClCompile Include="NumberofIslands.cpp" />
@@ -419,6 +426,7 @@
     <ClCompile Include="OnesandZeroes.cpp" />
     <ClCompile Include="OneThreeTwoPattern.cpp" />
     <ClCompile Include="OptimalAccountBalancing.cpp" />
+    <ClCompile Include="PacificAtlanticWaterFlow.cpp" />
     <ClCompile Include="PaintHouse.cpp" />
     <ClCompile Include="PaintHouseII.cpp" />
     <ClCompile Include="PaintHouseIII.cpp" />
@@ -465,10 +473,12 @@
     <ClCompile Include="RemovePalindromicSubsequences.cpp" />
     <ClCompile Include="ReorderDatainLogFiles.cpp" />
     <ClCompile Include="ReorderedPowerofTwo.cpp" />
+    <ClCompile Include="ReorderList.cpp" />
     <ClCompile Include="RestoreIPAddresses.cpp" />
     <ClCompile Include="ReverseBits.cpp" />
     <ClCompile Include="ReverseInteger.cpp" />
     <ClCompile Include="ReverseLinkedList.cpp" />
+    <ClCompile Include="ReverseLinkedListII.cpp" />
     <ClCompile Include="ReverseNodesinkGroup.cpp" />
     <ClCompile Include="ReverseString.cpp" />
     <ClCompile Include="ReverseStringII.cpp" />
@@ -528,6 +538,7 @@
     <ClCompile Include="SumofTwoIntegers.cpp" />
     <ClCompile Include="SurroundedRegions.cpp" />
     <ClCompile Include="SwapAdjacentinLRString.cpp" />
+    <ClCompile Include="SwapNodesinPairs.cpp" />
     <ClCompile Include="SwiminRisingWater.cpp" />
     <ClCompile Include="SymmetricTree.cpp" />
     <ClCompile Include="TaskScheduler.cpp" />

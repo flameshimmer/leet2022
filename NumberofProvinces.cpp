@@ -31,9 +31,82 @@ namespace Solution2022
 {
 	namespace NumberofProvinces
 	{
-	    int findCircleNum(vector<vector<int>>& isConnected) {
-	        
-	    }
+
+		namespace DFS {
+
+			void helper(int i, int len, vector<vector<int>>& isConnected, vector<bool>& visited) {
+				visited[i] = true;
+
+				for (int j = 0; j < len; j++) {
+					if (i == j) { continue; }
+					if (!visited[j] && isConnected[i][j]) {
+						helper(j, len, isConnected, visited);
+					}
+				}
+			}
+
+			int findCircleNum(vector<vector<int>>& isConnected) {
+				int len = isConnected.size();
+				if (len == 0) { return 0; }
+
+				vector<bool> visited(len, false);
+				int result = 0;
+
+				for (int i = 0; i < len; i++) {
+					if (!visited[i]) {
+						result++;
+						helper(i, len, isConnected, visited);
+					}
+				}
+				return result;
+			}
+		}
+
+
+		namespace UnionFind {
+
+			class UnionFind {
+			private:
+				vector<int> parent;
+			public:
+				UnionFind(int sz) {
+					parent.resize(sz, -1);
+				}
+
+				int find(int x) {
+					while (parent[x] != -1) {
+						x = parent[x];
+					}
+					return x;
+				}
+
+				void join(int x, int y) {
+					int px = find(x);
+					int py = find(y);
+					if (px != py) {
+						parent[py] = px;
+					}
+				}
+			};
+
+			int findCircleNum(vector<vector<int>>& isConnected) {
+				int len = isConnected.size();
+
+				UnionFind uf(len);
+				int result = len;
+				for (int i = 0; i < len; i++) {
+					for (int j = 0; j < len; j++) {
+						if (isConnected[i][j]) {
+							if (uf.find(i) != uf.find(j)) {
+								result--;
+								uf.join(i, j);
+							}
+						}
+					}
+				}
+				return result;
+			}
+		}
 
 		void Main() {
 			string test = "tst test test";

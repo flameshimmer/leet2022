@@ -25,19 +25,50 @@ namespace Solution2022
 {
 	namespace SwapNodesinPairs
 	{
-	/**
-	 * Definition for singly-linked list.
-	 * struct ListNode {
-	 *     int val;
-	 *     ListNode *next;
-	 *     ListNode() : val(0), next(nullptr) {}
-	 *     ListNode(int x) : val(x), next(nullptr) {}
-	 *     ListNode(int x, ListNode *next) : val(x), next(next) {}
-	 * };
-	 */
-	    ListNode* swapPairs(ListNode* head) {
-	        
-	    }
+		/**
+		 * Definition for singly-linked list.
+		 * struct ListNode {
+		 *     int val;
+		 *     ListNode *next;
+		 *     ListNode() : val(0), next(nullptr) {}
+		 *     ListNode(int x) : val(x), next(nullptr) {}
+		 *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+		 * };
+		 */
+		namespace Recursive {
+			ListNode* swapPairs(ListNode* head) {
+				if (!head || !head->next) { return head; }
+				ListNode* next = head->next;
+				head->next = swapPairs(next->next);
+				next->next = head;
+				return next;
+			}
+		}
+
+		namespace Iterative {
+			ListNode* swapPairs(ListNode* head) {
+				if (!head || !head->next) { return head; }
+
+				ListNode* result = head->next;
+				ListNode* cur = head;
+				ListNode* next = cur->next;
+				ListNode* nN = nullptr;
+				ListNode* prev = nullptr;
+
+				while (next) {
+					nN = next->next;
+					next->next = cur;
+					cur->next = nN;
+
+					if (prev) { prev->next = next; }
+					prev = cur;
+
+					cur = nN;
+					next = cur ? cur->next : nullptr;
+				}
+				return result;
+			}
+		}
 
 		void Main() {
 			string test = "tst test test";

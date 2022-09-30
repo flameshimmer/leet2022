@@ -38,9 +38,27 @@ namespace Solution2022
 {
 	namespace CombinationSum
 	{
-	    vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
-	        
-	    }
+		void helper(int start, int len, vector<int>& candidates, int sum, int target, vector<int>& result, vector<vector<int>>& results) {
+			if (sum == target) { results.push_back(result); }
+			if (sum >= target) { return; }
+
+			for (int i = start; i < len; i++) {
+				result.push_back(candidates[i]);
+				helper(i, len, candidates, sum + candidates[i], target, result, results);
+				result.pop_back();
+			}
+		}
+
+		vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
+			int len = candidates.size();
+			vector<vector<int>> results;
+			vector<int> result;
+			if (len == 0) { return results; }
+
+			int sum = 0;
+			helper(0, len, candidates, sum, target, result, results);
+			return results;
+		}
 
 		void Main() {
 			string test = "tst test test";

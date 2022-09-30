@@ -27,9 +27,26 @@ namespace Solution2022
 {
 	namespace LongestRepeatingCharacterReplacement
 	{
-	    int characterReplacement(string s, int k) {
-	        
-	    }
+		int characterReplacement(string s, int k) {
+			int result = 0;
+
+			vector<int> count(26, 0);
+			int start = 0;
+			int maxFreq = 0;
+			for (int end = 0; end < s.size(); end++) {
+				int index = s[end] - 'A';
+				count[index] ++;
+				maxFreq = max(maxFreq, count[index]);
+
+				if (end - start + 1 - maxFreq > k) {
+					count[s[start] - 'A']--;
+					start++;
+					maxFreq = *max_element(count.begin(), count.end());
+				}
+				result = max(result, end - start + 1);
+			}
+			return result;
+		}
 
 		void Main() {
 			string test = "tst test test";

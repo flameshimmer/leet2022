@@ -38,9 +38,24 @@ namespace Solution2022
 {
 	namespace CombinationSumIV
 	{
-	    int combinationSum4(vector<int>& nums, int target) {
-	        
-	    }
+
+		int helper(vector<int>& nums, int target, vector<int>& m) {
+			if (m[target] != -1) { return m[target]; }
+
+			m[target] = 0;
+			for (int v : nums) {
+				if (target - v >= 0) { // NOTE: need to ensure this step! other wise will cause array with negative index!!!
+					m[target] += helper(nums, target - v, m);
+				}
+			}
+			return m[target];
+		}
+
+		int combinationSum4(vector<int>& nums, int target) {
+			vector<int> m(target + 1, -1);
+			m[0] = 1;
+			return helper(nums, target, m);
+		}
 
 		void Main() {
 			string test = "tst test test";

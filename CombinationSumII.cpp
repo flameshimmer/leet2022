@@ -35,9 +35,27 @@ namespace Solution2022
 {
 	namespace CombinationSumII
 	{
-	    vector<vector<int>> combinationSum2(vector<int>& candidates, int target) {
-	        
-	    }
+		void comboHelper(vector<int>& can, int start, int len, int sum, int target, vector<int>& result, vector<vector<int>>& results) {
+			if (sum == target) { results.push_back(result); }
+			if (sum >= target) { return; }
+
+			for (int i = start; i < len; i++) {
+				result.push_back(can[i]);
+				comboHelper(can, i + 1, len, sum + can[i], target, result, results);
+				result.pop_back();
+				while (i + 1 < len && can[i] == can[i + 1]) { i++; }
+			}
+		}
+
+		vector<vector<int>> combinationSum2(vector<int>& candidates, int target) {
+			sort(candidates.begin(), candidates.end());
+			vector<vector<int>> results;
+			vector<int> result;
+			int len = candidates.size();
+			int sum = 0;
+			comboHelper(candidates, 0, len, sum, target, result, results);
+			return results;
+		}
 
 		void Main() {
 			string test = "tst test test";

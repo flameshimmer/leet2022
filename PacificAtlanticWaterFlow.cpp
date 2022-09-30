@@ -33,13 +33,45 @@ namespace Solution2022
 {
 	namespace PacificAtlanticWaterFlow
 	{
-	    vector<vector<int>> pacificAtlantic(vector<vector<int>>& heights) {
-	        
-	    }
+		void helper(int i, int j, int rowCount, int colCount, vector<vector<int>>& heights, vector<vector<bool>>& map) { // NOTE: over here the map serves two purpose, 1 for result, the other for visited map. 
+			if (i < 0 || i >= rowCount || j < 0 || j >= colCount) { return; }
+			map[i][j] = true;
+
+			if (i - 1 >= 0 && !map[i - 1][j] && heights[i - 1][j] >= heights[i][j]) { helper(i - 1, j, rowCount, colCount, heights, map); }
+			if (i + 1 < rowCount && !map[i + 1][j] && heights[i + 1][j] >= heights[i][j]) { helper(i + 1, j, rowCount, colCount, heights, map); }
+			if (j - 1 >= 0 && !map[i][j - 1] && heights[i][j - 1] >= heights[i][j]) { helper(i, j - 1, rowCount, colCount, heights, map); }
+			if (j + 1 < colCount && !map[i][j + 1] && heights[i][j + 1] >= heights[i][j]) { helper(i, j + 1, rowCount, colCount, heights, map); }
+		}
+
+		vector<vector<int>> pacificAtlantic(vector<vector<int>>& heights) {
+			int rowCount = heights.size();
+			int colCount = heights[0].size();
+
+			vector<vector<bool>> pacific(rowCount, vector<bool>(colCount, false));
+			vector<vector<bool>> atlantic(rowCount, vector<bool>(colCount, false));
+			vector<vector<int>> result;
+
+			for (int i = 0; i < rowCount; i++) {
+				helper(i, 0, rowCount, colCount, heights, pacific);
+				helper(i, colCount - 1, rowCount, colCount, heights, atlantic);
+			}
+
+			for (int j = 0; j < colCount; j++) {
+				helper(0, j, rowCount, colCount, heights, pacific);
+				helper(rowCount - 1, j, rowCount, colCount, heights, atlantic);
+			}
+
+			for (int i = 0; i < rowCount; i++) {
+				for (int j = 0; j < colCount; j++) {
+					if (pacific[i][j] && atlantic[i][j]) { result.push_back({ i, j }); }
+				}
+			}
+			return result;
+		}
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			vector<vector<int>> test = { {1,2,2,3,5},{3,2,3,4,4},{2,4,5,3,1},{6,7,1,4,5},{5,1,1,2,4} };
+			print(pacificAtlantic(test));
 		}
 	}
 }

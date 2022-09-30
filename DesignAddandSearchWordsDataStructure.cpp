@@ -37,25 +37,62 @@ namespace Solution2022
 {
 	namespace DesignAddandSearchWordsDataStructure
 	{
-	class WordDictionary {
-	    WordDictionary() {
-	        
-	    }
-	    
-	    void addWord(string word) {
-	        
-	    }
-	    
-	    bool search(string word) {
-	        
-	    }
-	​
-	/**
-	 * Your WordDictionary object will be instantiated and called as such:
-	 * WordDictionary* obj = new WordDictionary();
-	 * obj->addWord(word);
-	 * bool param_2 = obj->search(word);
-	 */
+		class WordDictionary {
+		private:
+			class Node {
+			public:
+				vector<Node*> children;
+				bool isEnd;
+				Node() {
+					isEnd = false;
+					children.resize(26, nullptr);
+				}
+			};
+
+			Node* root;
+
+		public:
+			WordDictionary() {
+				root = new Node();
+			}
+
+			void addWord(string word) {
+				Node* cur = root;
+				for (char c : word) {
+					if (!cur->children[c - 'a']) {
+						cur->children[c - 'a'] = new Node();
+					}
+					cur = cur->children[c - 'a'];
+				}
+				cur->isEnd = true;
+			}
+
+			bool helper(string& s, int start, Node* node) {
+				if (start == s.size()) { return node->isEnd; }
+				if (s[start] != '.') {
+					return node->children[s[start] - 'a'] && helper(s, start + 1, node->children[s[start] - 'a']);
+				}
+				else {
+					for (int i = 0; i < 26; i++) {
+						if (node->children[i]) {
+							if (helper(s, start + 1, node->children[i])) { return true; }
+						}
+					}
+				}
+				return false;
+			}
+
+			bool search(string word) {
+				return helper(word, 0, root);
+			}
+		};
+
+		/**
+		 * Your WordDictionary object will be instantiated and called as such:
+		 * WordDictionary* obj = new WordDictionary();
+		 * obj->addWord(word);
+		 * bool param_2 = obj->search(word);
+		 */
 
 		void Main() {
 			string test = "tst test test";

@@ -30,20 +30,51 @@ namespace Solution2022
 {
 	namespace FlattenBinaryTreetoLinkedList
 	{
-	/**
-	 * Definition for a binary tree node.
-	 * struct TreeNode {
-	 *     int val;
-	 *     TreeNode *left;
-	 *     TreeNode *right;
-	 *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
-	 *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
-	 *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
-	 * };
-	 */
-	    void flatten(TreeNode* root) {
-	        
-	    }
+		/**
+		 * Definition for a binary tree node.
+		 * struct TreeNode {
+		 *     int val;
+		 *     TreeNode *left;
+		 *     TreeNode *right;
+		 *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+		 *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+		 *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+		 * };
+		 */
+		namespace Iterative {
+
+			void helper(TreeNode* node, TreeNode*& prev) {
+				if (!node) { return; }
+				helper(node->right, prev);
+				helper(node->left, prev);
+				node->left = nullptr;
+				node->right = prev;
+				prev = node;
+			}
+
+			void flatten(TreeNode* root) {
+				TreeNode* prev = nullptr;
+				helper(root, prev);
+			}
+		}
+
+		namespace Recursive {
+			void flatten(TreeNode* root) {
+				if (!root) { return; }
+				while (root) {
+					if (root->left && root->right) {
+						TreeNode* l = root->left;
+						while (l->right) { l = l->right; }
+						l->right = root->right;
+					}
+					if (root->left) {
+						root->right = root->left;
+						root->left = nullptr;
+					}
+					root = root->right;
+				}
+			}
+		}
 
 		void Main() {
 			string test = "tst test test";

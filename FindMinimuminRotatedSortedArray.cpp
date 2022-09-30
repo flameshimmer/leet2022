@@ -37,13 +37,43 @@ namespace Solution2022
 {
 	namespace FindMinimuminRotatedSortedArray
 	{
-	    int findMin(vector<int>& nums) {
-	        
-	    }
+
+		int findMin(vector<int>& nums) {
+			int len = nums.size();
+			int start = 0;
+			int end = len - 1;
+			while (start < end) {
+				int mid = start + (end - start) / 2;
+				if (nums[mid] > nums[end]) { start = mid + 1; }
+				else { end = mid; }
+			}
+			return nums[start];
+		}
+
+
+		namespace BinarySearchAnother {
+			int findMin(vector<int>& nums) {
+				int len = nums.size();
+				int start = 0;
+				int end = len - 1;
+
+				while (start <= end) {
+					int mid = start + (end - start) / 2;
+					int prev = mid - 1 >= 0 ? nums[mid - 1] : INT_MAX;
+					int next = mid + 1 < len ? nums[mid + 1] : INT_MAX;
+					if (nums[mid] < prev && nums[mid] < next) { return nums[mid]; }
+					else if (nums[start] < nums[end]) { return nums[start]; }
+					else if (nums[start] > nums[mid]) { end = mid - 1; }
+					else { start = mid + 1; }
+				}
+				return nums[start];
+			}
+		}
+
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			vector<int> test = { 4,5,6,7,0,1,2 };
+			print(findMin(test));
 		}
 	}
 }

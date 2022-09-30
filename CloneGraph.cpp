@@ -52,28 +52,72 @@ namespace Solution2022
 {
 	namespace CloneGraph
 	{
-	/*
-	// Definition for a Node.
-	class Node {
-	    int val;
-	    vector<Node*> neighbors;
-	    Node() {
-	        val = 0;
-	        neighbors = vector<Node*>();
-	    }
-	    Node(int _val) {
-	        val = _val;
-	        neighbors = vector<Node*>();
-	    }
-	    Node(int _val, vector<Node*> _neighbors) {
-	        val = _val;
-	        neighbors = _neighbors;
-	    }
-	*/
-	​
-	    Node* cloneGraph(Node* node) {
-	        
-	    }
+		// Definition for a Node.
+		class Node {
+		public:
+			int val;
+			vector<Node*> neighbors;
+			Node() {
+				val = 0;
+				neighbors = vector<Node*>();
+			}
+			Node(int _val) {
+				val = _val;
+				neighbors = vector<Node*>();
+			}
+			Node(int _val, vector<Node*> _neighbors) {
+				val = _val;
+				neighbors = _neighbors;
+			}
+		};
+
+
+		namespace DFS {
+			Node* helper(Node* node, unordered_map<Node*, Node*>& map) {
+				if (!node) { return nullptr; }
+
+				if (map.find(node) == map.end()) {
+					map[node] = new Node(node->val);
+					for (Node* child : node->neighbors) {
+						map[node]->neighbors.push_back(helper(child, map));
+					}
+				}
+				return map[node];
+			}
+
+			Node* cloneGraph(Node* node) {
+				if (!node) { return nullptr; }
+				unordered_map<Node*, Node*> map;
+				return helper(node, map);
+			}
+		}
+
+		namespace BFS {
+			Node* cloneGraph(Node* node) {
+				if (!node) { return nullptr; }
+
+				queue<Node*> q;
+				q.push(node);
+				unordered_map<Node*, Node*> map;
+				map[node] = new Node(node->val);
+
+				while (!q.empty()) {
+					Node* top = q.front();
+					q.pop();
+
+					for (Node* child : top->neighbors) {
+						if (map.find(child) == map.end()) {
+							map[child] = new Node(child->val);
+							q.push(child);
+						}
+						map[top]->neighbors.push_back(map[child]);
+					}
+				}
+				return map[node];
+			}
+
+		}
+
 
 		void Main() {
 			string test = "tst test test";

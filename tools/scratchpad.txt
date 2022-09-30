@@ -1,17 +1,1 @@
-	    int minSubArrayLen(int target, vector<int>& nums) {
-			int len = nums.size();
-			if (len == 0) { return 0; }
-
-			int result = INT_MAX;
-			int start = 0;
-			int sum = 0;
-			for (int end = 0; end < len; end++) {
-				sum += nums[end];
-				while (start <= end && sum >= target) {
-					result = min(result, end - start + 1);
-					sum -= nums[start];
-					start++;
-				}
-			}
-			return result == INT_MAX ? 0 : result;
-	    }
+vector<vector<int>> test = {{1,2,2,3,5},{3,2,3,4,4},{2,4,5,3,1},{6,7,1,4,5},{5,1,1,2,4}};
