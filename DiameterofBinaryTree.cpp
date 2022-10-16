@@ -40,7 +40,7 @@ namespace Solution2022
 			
 			int leftHeight = helper(node->left, diameter);
 			int rightHeight = helper(node->right, diameter);
-			diameter = max(diameter, leftHeight + rightHeight);
+			diameter = max(diameter, leftHeight + rightHeight); // NOTE: this is not leftHeight + rightHeight + 1, because diameter is the edge count (not node count), diameter = node count - 1
 			return 1 + max(leftHeight, rightHeight);
 		}
 

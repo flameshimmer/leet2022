@@ -42,7 +42,7 @@ print "\n\n\nCompleted!\n\n";
 	    my $loc = rindex $prefix, ' ';
 	 
 	    if ($loc == -1) {
-	        die "We found a word which is longer than $max\n";
+	        die "We found a word which is longer than $max: $text\n";
 	    }
 	    my $str = substr $text, 0, $loc, '';
 	   	$result = $result . "\n". $str;

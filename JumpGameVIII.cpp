@@ -40,6 +40,7 @@ namespace Solution2022
 {
 	namespace JumpGameVIII
 	{
+		//every step has at most 2 choices: first larger or first smaller
 	    long long minCost(vector<int>& nums, vector<int>& costs) {
 			int len = nums.size();
 			vector<int> l(1, 0);

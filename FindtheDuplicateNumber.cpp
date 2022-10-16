@@ -30,25 +30,48 @@ namespace Solution2022
 {
 	namespace FindtheDuplicateNumber
 	{
-	    int findDuplicate(vector<int>& nums) {
-			int len = nums.size();
-			if (len < 2) { return -1; }
+		namespace CircleInLinkedList {
+			/*index is from node, value is to node.
+			When two index with the same value, then this creates a loop in the linked list*/
+			int findDuplicate(vector<int>& nums) {
+				int len = nums.size();
+				if (len < 2) { return -1; }
 
-			int slow = nums[0];
-			int fast = nums[nums[0]];
-			while (slow != fast) {
-				slow = nums[slow];
-				fast = nums[nums[fast]];
+				int slow = nums[0];
+				int fast = nums[nums[0]];
+				while (slow != fast) {
+					slow = nums[slow];
+					fast = nums[nums[fast]];
+				}
+
+				fast = 0;
+				while (slow != fast) {
+					slow = nums[slow];
+					fast = nums[fast];
+				}
+				return fast;
 			}
+		}
 
-			fast = 0;
-			while (slow != fast) {
-				slow = nums[slow];
-				fast = nums[fast];
+		namespace NegativeMarking {
+			int findDuplicate(vector<int>& nums) {
+				int duplicate = -1;
+				for (int i = 0; i < nums.size(); i++) {
+					int cur = abs(nums[i]);
+					if (nums[cur] < 0) {
+						duplicate = cur;
+						break;
+					}
+					nums[cur] *= -1;
+				}
+
+				// Restore numbers
+				for (auto& num : nums)
+					num = abs(num);
+
+				return duplicate;
 			}
-			return fast;
-	    }
-
+		}
 		void Main() {
 			string test = "tst test test";
 			print(test);

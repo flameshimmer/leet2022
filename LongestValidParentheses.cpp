@@ -33,7 +33,7 @@ namespace Solution2022
 
 				stack<pair<char, int>> s;
 				int result = 0;
-				str = ")" + str;
+				str = ")" + str; // why adding this line? Because without this line, "result = max(result, i - s.top().second);" will run into s is empty while calling s.top
 
 				for (int i = 0; i < len + 1; i++) {
 					char c = str[i];
@@ -76,8 +76,8 @@ namespace Solution2022
 						else {
 							counter = 0;
 							curLen = 0;
-						}					
-					}					
+						}
+					}
 				}
 
 				curLen = 0;
@@ -96,15 +96,16 @@ namespace Solution2022
 							if (counter == 0) {
 								result = max(result, curLen);
 							}
-						} else {
+						}
+						else {
 							counter = 0;
 							curLen = 0;
-						}					
-					}				
+						}
+					}
 				}
 
 				return result;
-			}		
+			}
 		}
 
 		void Main() {

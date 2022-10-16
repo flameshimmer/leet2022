@@ -24,7 +24,9 @@ namespace Solution2022
 	{
 		typedef uint64_t ULL;
 		unordered_map<int, int>len2start;
-
+		
+		// use set to remember previously appeared substr. 
+		// since the string operation is expensive, manually calculate a hash number as unique key for any string. 
 		bool found(string& s, int len) {
 			unordered_set<ULL> set;
 			ULL base = 31;
@@ -50,6 +52,8 @@ namespace Solution2022
 			return false;
 		}
 
+		// since we are looking for the longest len, we can use binary search to find what this longest len is. 
+		// found function will return whether there is a substr with a certain len that repeated at least twice
 		string longestDupSubstring(string s) {
 			int left = 1;
 			int right = s.size() - 1;

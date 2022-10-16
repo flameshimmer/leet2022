@@ -31,6 +31,19 @@ namespace Solution2022
 	namespace KthMissingPositiveNumber
 	{
 		namespace OLogN {
+
+			int findKthPositiveAnother(vector<int>& A, int k) {
+				int l = 0, r = A.size(), m;
+				while (l < r) {
+					m = (l + r) / 2;
+					if (A[m] - 1 - m < k)
+						l = m + 1;
+					else
+						r = m;
+				}
+				return l + k;
+			}
+
 			int findKthPositive(vector<int>& arr, int k) {
 				int len = arr.size();
 				int start = 0;
@@ -46,10 +59,11 @@ namespace Solution2022
 				}
 
 				//return arr[end] + k - (arr[end] - end - 1);
+				//This is arr[end] + (k - (missed number before end))
 				return k + end + 1;
-			}		
+			}
 		}
-				
+
 		namespace ON {
 			int findKthPositive(vector<int>& arr, int k) {
 				int last = 0;

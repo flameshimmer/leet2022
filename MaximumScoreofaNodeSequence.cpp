@@ -46,7 +46,9 @@ namespace Solution2022
 {
 	namespace MaximumScoreofaNodeSequence
 	{
+		//https://www.youtube.com/watch?v=7eVhDmozOTE
 		int maximumScore(vector<int>& scores, vector<vector<int>>& edges) {
+			// For each node, maintain a set of top 3 largest score neibours. 
 			vector<set<pair<int, int>>> top3(scores.size(), set<pair<int, int>>()); //nodeIndex, {score, neighbore index} of top 3 largest
 			for (vector<int>& e : edges) {
 				int end0 = e[0];
@@ -60,6 +62,9 @@ namespace Solution2022
 				if (set0.size() > 3) { set0.erase(set0.begin()); }
 				if (set1.size() > 3) { set1.erase(set1.begin()); }
 			}
+			// Since the problem only wants to know the 4 node sum, we can iterate any connected two nodes A and B.
+			// Once we confirmed A connects to B,  A<--->B, then just look at A's largetest neighbour i and B's largest neighbour j, 
+			// while ensurinb i and B are not the same, and j and A are not the same, and A and B are not the same. 
 			int result = -1;
 			for (vector<int>& e : edges) {
 				int end0 = e[0];

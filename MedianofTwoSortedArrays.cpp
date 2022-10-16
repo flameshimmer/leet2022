@@ -27,6 +27,7 @@ namespace Solution2022
 {
 	namespace MedianofTwoSortedArrays
 	{
+		// https://www.youtube.com/watch?v=KB9IcSCDQ9k&t=836s
 		double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
 			int len1 = nums1.size();
 			int len2 = nums2.size();

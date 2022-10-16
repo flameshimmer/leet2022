@@ -195,6 +195,9 @@
     <ClCompile Include="ClosestNodetoPathinTree.cpp" />
     <ClCompile Include="CoinChange.cpp" />
     <ClCompile Include="Combinations.cpp" />
+    <ClCompile Include="CombinationSumII.cpp" />
+    <ClCompile Include="CombinationSumIII.cpp" />
+    <ClCompile Include="CombinationSumIV.cpp" />
     <ClCompile Include="ComplementofBaseOneZeroInteger.cpp" />
     <ClCompile Include="ConcatenationofArray.cpp" />
     <ClCompile Include="ConfusingNumber.cpp" />
@@ -346,6 +349,7 @@
     <ClCompile Include="LongestIncreasingPathinaMatrix.cpp" />
     <ClCompile Include="LongestLineofConsecutiveOneinMatrix.cpp" />
     <ClCompile Include="LongestPalindromicSubstring.cpp" />
+    <ClCompile Include="LongestRepeatingCharacterReplacement.cpp" />
     <ClCompile Include="LongestStringChain.cpp" />
     <ClCompile Include="LongestSubstringwithAtLeastKRepeatingCharacters.cpp" />
     <ClCompile Include="LongestSubstringwithAtMostKDistinctCharacters.cpp" />

@@ -68,6 +68,39 @@
 
 namespace Solution2022
 {
+
+	//Build Tree: Build a folder tree based on the paths. The process is similar to
+	//the Trie building process.
+
+	//Dedupe: Use post-order traversal to visit all the nodes. If we've seen the
+	//subfolder structure before, mark the node as deleted.
+
+	//Generate Paths: DFS to generate the output. We skip the nodes that have been
+	//deleted.
+
+	//Update 1: To ensure we visit the subfolders in the same order, changed
+	//Node::next to unordered_map to map. 
+	//(Testcase:  [["a"],["a","a"],["a","b"],["a","b","a"],["b"],["b","a"],["b","a","a"],["b","b"]])
+
+	//Update 2: To ensure the subfolder structure string only map to a unique tree
+	//structure, changed the encoding to use parenthesis instead, e.g. 
+	//(root(firstChild)(secondChild)...). (Testcase: [["r","x"],["r","x",
+	//"b"],["r","x","b","a"],["r", "y"],["r","y", "a"],["r","y", "b"],["r"]].)
+
+	//Complexity Analysis
+	//Assume N is the number of folders, W is the maximum length of folder name, D is
+	//the deepest folder depth, and C is the maximum number of direct child folders.
+	//Build Tree: We need to add all the N folders, each of which takes O(DWlogC)
+	//time. So overall it takes O(NDWlogC) time, and O(NW) space.
+	//Dedupe: We traverse the N folders in post-order. The maximum length of
+	//subfolder structure string is roughly O(NW), so each node visit need O(NW) time
+	//to check if it's a duplicate. The overall time complexity is O(N^2 * W) and the
+	//space complexity is O(N^2 * W).
+	//Generate Paths: In the worst case we traverse the N nodes again. Each visit
+	//takes O(W) time to update the current path and O(DW) time to update the answer.
+	//So overall the time complexity is O(NDW) and space complexity is O(DW) for the
+
+	//temporary path.
 	namespace DeleteDuplicateFoldersinSystem
 	{
 		struct Node {
@@ -85,7 +118,7 @@ namespace Solution2022
 			}
 		}
 
-		
+
 		string dedup(Node* node, unordered_map<string, Node*>& seen) {
 			string result;
 			for (auto& [name, child] : node->children) {
@@ -113,7 +146,7 @@ namespace Solution2022
 			result.pop_back();
 		}
 
-	    vector<vector<string>> deleteDuplicateFolder(vector<vector<string>>& paths) {
+		vector<vector<string>> deleteDuplicateFolder(vector<vector<string>>& paths) {
 			Node root;
 			for (vector<string>& p : paths) {
 				addPath(&root, p);
@@ -128,7 +161,7 @@ namespace Solution2022
 				getPath(child, result, results);
 			}
 			return results;
-	    }
+		}
 
 		void Main() {
 			string test = "tst test test";

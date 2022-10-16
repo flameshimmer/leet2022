@@ -1,4 +1,4 @@
-#include "stdafx.h"
+﻿#include "stdafx.h"
 
 //Given two integers num1 and num2, return the sum of the two integers.
 // 
@@ -21,9 +21,28 @@ namespace Solution2022
 {
 	namespace AddTwoIntegers
 	{
-	    int sum(int num1, int num2) {
+		namespace BitManipulation {
+			int sum(int x, int y) {
+				if (y == 0)
+					return x;
+				else if (x < 0 && y < 0) {
+					int sumVal = ~x ^ ~y;
+					int carry = (~x & ~y) << 1;
+					//负数的表现是反码加1
+					return ~sum(sum(sumVal, carry), 1);
+				}
+				else {
+					int sumVal = x ^ y;
+					int carry = (x & y) << 1;
+					return sum(sumVal, carry);
+				}
+
+			}
+		}
+
+		int sum(int num1, int num2) {
 			return num1 + num2;
-	    }
+		}
 
 		void Main() {
 			string test = "tst test test";

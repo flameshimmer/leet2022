@@ -40,24 +40,24 @@ namespace Solution2022
 {
 	namespace FillingBookcaseShelves
 	{
+		// https://www.youtube.com/watch?v=a7TLEVdqg0Q
+		// 0 ... i-1, i ... j
 		int minHeightShelves(vector<vector<int>>& books, int shelfWidth) {
 			int len = books.size();
-			vector<int> dp(len + 1, INT_MAX);
-			dp[0] = 0;
+			vector<int> dp(len, INT_MAX / 2);
 
-			for (int i = 0; i < len; i++) {
-				dp[i + 1] = dp[i] + books[i][1];
+			for (int j = 0; j < len; j++) {
+				int w = 0;
+				int h = 0;
+				for (int i = j; i >= 0; i--) {
+					w += books[i][0];
+					if (w > shelfWidth) { break; }
 
-				int levelWidthSum = 0;
-				int levelMaxHeight = 0;
-				for (int j = i; j >= 0; j--) {
-					levelWidthSum += books[j][0];
-					if (levelWidthSum > shelfWidth) { break; }
-					levelMaxHeight = max(levelMaxHeight, books[j][1]);
-					dp[i + 1] = min(dp[i + 1], dp[j] + levelMaxHeight);
+					h = max(h, books[i][1]);
+					dp[j] = min(dp[j], (i - 1 < 0 ? 0 : dp[i - 1]) + h);
 				}
 			}
-			return dp[len];
+			return dp[len - 1];
 		}
 
 		void Main() {
