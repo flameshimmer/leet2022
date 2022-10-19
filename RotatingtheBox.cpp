@@ -50,27 +50,40 @@ namespace Solution2022
 {
 	namespace RotatingtheBox
 	{
-	    vector<vector<char>> rotateTheBox(vector<vector<char>>& box) {
+		// https://www.youtube.com/watch?v=fGVXiDr-djI&t=571s
+		vector<vector<char>> rotateTheBox(vector<vector<char>>& box)
+		{
 			int rowCount = box.size();
 			int colCount = box[0].size();
-			vector<vector<char>> result(colCount, vector<char>(rowCount, '.'));
-			
-			for (int i = 0; i < rowCount; i++) {
-				int w = colCount - 1;
-				for (int j = colCount - 1; j >= 0; j--) {
-					if (box[i][j] == '.') { continue; }
-					else if (box[i][j] == '#') {
-						result[w][rowCount - 1 - i] = '#';
-						w--;
+
+			auto result = vector<vector<char>>(colCount, vector<char>(rowCount, '.'));
+
+			for (int i = 0; i < rowCount; i++)
+			{
+				for (int j = 0; j < colCount; j++)
+				{
+					int count = 0;
+					int k = j;
+					while (k < colCount && box[i][k] != '*')
+					{
+						if (box[i][k] == '#')
+							count++;
+						k++;
 					}
-					else {
-						result[j][rowCount - 1 - i] = '*';
-						w = j - 1;
-					}
+
+					int col = rowCount - 1 - i;
+					if (k != colCount)
+						result[k][col] = '*';
+
+					for (int s = 0; s < count; s++)
+						result[k - 1 - s][col] = '#';
+
+					j = k;
 				}
 			}
+
 			return result;
-	    }
+		}
 
 		void Main() {
 			string test = "tst test test";

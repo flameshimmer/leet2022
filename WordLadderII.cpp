@@ -42,6 +42,78 @@ namespace Solution2022
 {
 	namespace WordLadderII
 	{
+		namespace UseBFS {
+			class Solution {
+			private:
+				void constructPath(string& beginWord, string& curWord, vector<string>& result, vector<vector<string>>& results, unordered_map<string, int>& levelMap) {
+					if (curWord == beginWord) {
+						reverse(result.begin(), result.end());
+						results.push_back(result);
+						reverse(result.begin(), result.end());
+						return;
+					}
+					int level = levelMap[curWord];
+
+					for (int i = 0; i < curWord.size(); i++) {
+						char backup = curWord[i];
+						for (char c = 'a'; c <= 'z'; c++) {
+							curWord[i] = c;
+							if (levelMap.find(curWord) != levelMap.end() && levelMap[curWord] == level - 1) {
+								result.push_back(curWord);
+								constructPath(beginWord, curWord, result, results, levelMap);
+								result.pop_back();
+							}
+						}
+						curWord[i] = backup;
+					}
+				}
+			public:
+				vector<vector<string>> findLadders(string beginWord, string endWord,
+					vector<string>& wordList)
+				{
+					unordered_set<string> set(wordList.begin(), wordList.end());
+					set.erase(beginWord);
+
+					queue<string> q;
+					q.push({ beginWord });
+
+					unordered_map<string, int> levelMap;
+					levelMap[beginWord] = 1;
+
+
+					while (!q.empty()) {
+						string top = q.front();
+						int level = levelMap[top];
+						q.pop();
+
+						if (top == endWord) break;
+
+						for (int i = 0; i < beginWord.size(); i++) {
+							char backup = top[i];
+							for (char c = 'a'; c <= 'z'; c++) {
+								top[i] = c;
+								if (set.find(top) != set.end()) {
+									q.push(top);
+									set.erase(top);
+									levelMap[top] = level + 1;
+								}
+							}
+							top[i] = backup;
+						}
+					}
+
+					vector<vector<string>> results;
+					if (levelMap.find(endWord) != levelMap.end()) {
+						vector<string> result;
+						result.push_back(endWord);
+						constructPath(beginWord, endWord, result, results, levelMap);
+					}
+					return results;
+				}
+			};		
+		}
+
+
 
 		vector<string> getDistanceOne(string s, unordered_set<string>& dict)
 		{
@@ -156,53 +228,6 @@ namespace Solution2022
 				temp.clear();
 			}
 			return results;
-		}
-
-		namespace UsedToWorkButMLENow {
-			vector<vector<string>> findLadders(string beginWord, string endWord, vector<string>& wordlist) {
-				vector<vector<string>> result;
-				queue<vector<string>> q;
-				unordered_set<string> dict(wordlist.begin(), wordlist.end());
-				q.push({ beginWord });
-				int level = 1;
-				int minDist = INT_MAX;
-
-				unordered_set<string> visited;
-
-				while (!q.empty()) {
-					vector<string> top = q.front();
-					q.pop();
-
-					if (top.size() > level) {
-						for (string w : visited) { dict.erase(w); }
-						visited.clear();
-						if (top.size() > minDist) { break; }
-						else { level = top.size(); }
-					}
-
-					string last = top.back();
-					for (int i = 0; i < last.size(); i++) {
-						string newWord = last;
-						for (char c = 'a'; c <= 'z'; c++) {
-							newWord[i] = c;
-							if (dict.find(newWord) != dict.end()) {
-								vector<string> newPath = top;
-								newPath.push_back(newWord);
-								visited.insert(newWord);
-
-								if (newWord == endWord) {
-									minDist = level;
-									result.push_back(newPath);
-								}
-								else {
-									q.push(newPath);
-								}
-							}
-						}
-					}
-				}
-				return result;
-			}
 		}
 
 		void Main() {
