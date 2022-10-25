@@ -76,6 +76,7 @@ namespace Solution2022
 				int rowCount1 = mat1.size();
 				int colCount2 = mat2[0].size();
 				vector<vector<int>> result(rowCount1, vector<int>(colCount2, 0));
+				//	对于结果矩阵位置i， j的格子，里面的结果是矩阵1第i行与矩阵2第j列的乘积和
 				for (int i = 0; i <= rowCount1; i++) {
 					for (int j = 0; j <= colCount2; j++) {
 						if (m1.count(i) && m2.count(j)) {

@@ -29,63 +29,106 @@
 
 namespace Solution2022
 {
-	//https://www.youtube.com/watch?v=lXRe__YD8JY
+	// https://www.youtube.com/watch?v=lXRe__YD8JY
 	namespace BestTimetoBuyandSellStockIV
 	{
-		int len;
-
-		vector<int> helper(vector<int>& prices, int fee)
-		{
-			vector<int>sell(len + 1, 0);
-			vector<int>buy(len + 1, 0);
-			sell[0] = 0;
-			buy[0] = INT_MIN / 2;
-			int sellCount = 0;
-			int buyCount = 0;
-
-			for (int i = 1; i <= len; i++)
-			{
-				if (buy[i - 1] + prices[i] > sell[i - 1])
-				{
-					sell[i] = buy[i - 1] + prices[i];
-					sellCount = buyCount + 1;
-				}
-				else
-				{
-					sell[i] = sell[i - 1];
-				}
-
-				if (sell[i - 1] - prices[i] - fee > buy[i - 1])
-				{
-					buy[i] = sell[i - 1] - prices[i] - fee;
-					buyCount = sellCount;
-				}
-				else
-				{
-					buy[i] = buy[i - 1];
-				}
-			}
-			return { sell[len], sellCount };
-		}
 
 		int maxProfit(int k, vector<int>& prices)
 		{
-			len = prices.size();
-			prices.insert(prices.begin(), 0);
-			int left = 0;
-			int right = *max_element(prices.begin(), prices.end());
+			int n = prices.size();
 
-			while (left < right)
+			if (k >= n / 2)
 			{
-				int fee = left + (right - left) / 2;
-				if (helper(prices, fee)[1] > k)
-					left = fee + 1;
-				else
-					right = fee;
+				int result = 0;
+				for (int i = 1; i < prices.size(); i++)
+					if (prices[i] > prices[i - 1])
+						result += prices[i] - prices[i - 1];
+				return result;
 			}
-			return helper(prices, left)[0] + left * k;
+
+			vector<int>hold(k + 1, INT_MIN / 2);
+			vector<int>sold(k + 1, INT_MIN / 2);
+
+			hold[0] = 0;
+			sold[0] = 0;
+
+			for (int i = 0; i < n; i++)
+			{
+				auto hold_old = hold;
+				auto sold_old = sold;
+
+				for (int j = 1; j <= k; j++)
+				{
+					hold[j] = max(sold_old[j - 1] - prices[i], hold_old[j]);
+					sold[j] = max(hold_old[j] + prices[i], sold_old[j]);
+				}
+
+			}
+
+			int result = INT_MIN;
+			for (int j = 0; j <= k; j++)
+				result = max(result, sold[j]);
+			return result;
 		}
 
+
+
+
+		namespace BinarySearchWithFee {
+			int len;
+
+			vector<int> helper(vector<int>& prices, int fee)
+			{
+				vector<int>sell(len + 1, 0);
+				vector<int>buy(len + 1, 0);
+				sell[0] = 0;
+				buy[0] = INT_MIN / 2;
+				int sellCount = 0;
+				int buyCount = 0;
+
+				for (int i = 1; i <= len; i++)
+				{
+					if (buy[i - 1] + prices[i] > sell[i - 1])
+					{
+						sell[i] = buy[i - 1] + prices[i];
+						sellCount = buyCount + 1;
+					}
+					else
+					{
+						sell[i] = sell[i - 1];
+					}
+
+					if (sell[i - 1] - prices[i] - fee > buy[i - 1])
+					{
+						buy[i] = sell[i - 1] - prices[i] - fee;
+						buyCount = sellCount;
+					}
+					else
+					{
+						buy[i] = buy[i - 1];
+					}
+				}
+				return { sell[len], sellCount };
+			}
+
+			int maxProfit(int k, vector<int>& prices)
+			{
+				len = prices.size();
+				prices.insert(prices.begin(), 0);
+				int left = 0;
+				int right = *max_element(prices.begin(), prices.end());
+
+				while (left < right)
+				{
+					int fee = left + (right - left) / 2;
+					if (helper(prices, fee)[1] > k)
+						left = fee + 1;
+					else
+						right = fee;
+				}
+				return helper(prices, left)[0] + left * k;
+			}
+		}
 		void Main() {
 			string test = "tst test test";
 			print(test);

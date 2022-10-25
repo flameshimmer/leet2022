@@ -21,6 +21,14 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::PalindromePartitioningIV::Main();
 
 	//====Problem Starts====
+	//10/23/2022
+	//Solution2022::BalancedBinaryTree::Main();
+	//Solution2022::SumofTotalStrengthofWizards::Main();
+
+	//10/22/2022
+	//Solution2022::MinimumIncrementtoMakeArrayUnique::Main();
+	//Solution2022::NumberofConnectedComponentsinanUndirectedGraph::Main();
+
 	//9/30/2022
 	//Solution2022::NQueens::Main();
 	//Solution2022::PacificAtlanticWaterFlow::Main();
@@ -1022,7 +1030,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::MinimumFallingPathSum::Main();
 	//Solution2022::ImplementRandOneZero::Main();
 	//Solution2022::CountGoodNodesinBinaryTree::Main();
-	//Solution2022::BalancedBinaryTree::Main();
 	//Solution2022::BinaryTreeLongestConsecutiveSequence::Main();
 	//Solution2022::SumofSquareNumbers::Main();
 	//Solution2022::CampusBikes::Main();
@@ -1067,7 +1074,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::FinalValueofVariableAfterPerformingOperations::Main();
 	//Solution2022::CountSubIslands::Main();
 	//Solution2022::NumberofStudentsDoingHomeworkataGivenTime::Main();
-	//Solution2022::MinimumIncrementtoMakeArrayUnique::Main();
 	//Solution2022::AirplaneSeatAssignmentProbability::Main();
 	//Solution2022::FindBottomLeftTreeValue::Main();
 	//Solution2022::LuckyNumbersinaMatrix::Main();
@@ -2163,8 +2169,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::AllPathsFromSourcetoTarget::Main();
 	//Solution2022::Combinations::Main();
 	//Solution2022::PathSumIII::Main();
-	//Solution2022::LineReflection::Main
-	//Solution2022::SumofTotalStrengthofWizards::Main();
+	//Solution2022::LineReflection::Main();
 	//Solution2022::SumofRootToLeafBinaryNumbers::Main();
 	//Solution2022::NumberofTimesBinaryStringIsPrefixAligned::Main();
 	//Solution2022::FindtheDifference::Main();
@@ -2207,7 +2212,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::KillProcess::Main();
 	//Solution2022::ShiftingLetters::Main();
 	//Solution2022::GreatestCommonDivisorofStrings::Main();
-	//Solution2022::NumberofConnectedComponentsinanUndirectedGraph::Main();
 	//Solution2022::ConvertaNumbertoHexadecimal::Main();
 	//Solution2022::ImplementStackusingQueues::Main();
 	//Solution2022::DivisorGame::Main();

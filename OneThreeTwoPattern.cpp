@@ -31,6 +31,8 @@ namespace Solution2022
 {
 	namespace OneThreeTwoPattern
 	{
+		// https://www.youtube.com/watch?v=Jz60RhiggN0
+
 		bool find132pattern(vector<int>& nums) {
 			int s2 = INT_MIN;
 			stack<int> s;

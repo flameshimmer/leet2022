@@ -1,69 +1,26 @@
-class Solution {
-private: 
-    void dfs(string& beginWord, string& curWord, vector<string> &result, vector<vector<string>>& results, unordered_map<string, int>& levelMap) {
-        if(curWord == beginWord) {
-            reverse(result.begin(), result.end()); 
-            results.push_back(result); 
-            reverse(result.begin(), result.end()); 
-            return; 
-        }
-         int level = levelMap[curWord]; 
 
-         for(int i = 0; i< curWord.size();i++) {
-            char backup = curWord[i]; 
-            for(char c = 'a'; c <= 'z'; c++) {
-                curWord[i] = c; 
-                if(levelMap.find(curWord) != levelMap.end() 
-                  && levelMap[curWord] + 1 == level) {
-                    result.push_back(curWord); 
-                    dfs(beginWord, curWord, result, results, levelMap); 
-                    result.pop_back(); 
-                }
-            }
-             curWord[i] = backup; 
-         }
-    }
-public:
-    vector<vector<string>> findLadders(string beginWord, string endWord, 
-                                       vector<string> &wordList)
-    {
-        unordered_set<string> set(wordList.begin(), wordList.end()); 
-        set.erase(beginWord); 
-
-        queue<string> q;
-        q.push({beginWord});
-     
-        unordered_map<string, int> levelMap;
-        levelMap[beginWord] = 1; 
-
-
-        while(!q.empty()) {
-            string top = q.front(); 
-            int level = levelMap[top]; 
-            q.pop(); 
-
-            if(top == endWord) break; 
-            
-            for(int i = 0; i < beginWord.size();i++) {
-                char backup = top[i]; 
-                for(char c = 'a'; c <= 'z'; c++) {
-                    top[i] = c;
-                    if(set.find(top) != set.end()) {
-                        q.push(top); 
-                        set.erase(top); 
-                        levelMap[top] = level + 1;
-                    }
-                }
-                top[i] = backup; 
-            }
-        }
-
-        vector<vector<string>> results;
-        if(levelMap.find(endWord) != levelMap.end()) {
-            vector<string> result; 
-            result.push_back(endWord); 
-            dfs(beginWord, endWord, result, results, levelMap); 
-        }
-        return results; 
-    }
-};
+////Intuition
+////Assume we pick A[i] as the peak of the mountain, then we are looking for the
+////longest increasing subsequence to the left of A[i], and the longest
+//decreasing
+////subsequence to the right of A[i].
+////We can reuse the O(NlogN) time binary search solution to 300. Longest
+////Increasing Subsequence (Medium).
+////For the binary search solution to problem 300, please checkout my
+//explanation.
+////Algorithm
+////Let a[i] be the length of the longest increasing subsequence in A[0..(i-1)]
+////that can has A[i] appended to it, and b[i] be the length of the longest
+////decreasing subsequence in A[(i+1)..(N-1)] that can has A[i] prepended to it.
+////We can scan from left to right to set the a[i] values, and scan from right to
+////left to set the b[i] values.
+////For 1 <= i <= N - 2, the longest mountain size is a[i] + b[i] + 1.
+////So the answer is the minimum N - (a[i] + b[i] + 1).
+////
+////
+//Note that we need to skip cases where either a[i] or b[i] is zero because
+//it's
+////invalid.
+////Test cases that should be added:
+////[1,2,1,2,3,4] and [4,3,2,1,2,1]. Correct answer is 3.
+////[1,2,1,1,2,3,4,5] and [5,4,3,2,1,1,2,1]. Correct answer is 5.

@@ -26,9 +26,29 @@ namespace Solution2022
 {
 	namespace NumberofConnectedComponentsinanUndirectedGraph
 	{
-	    int countComponents(int n, vector<vector<int>>& edges) {
-	        
-	    }
+		int find(int x, vector<int>& parent) {
+			while (parent[x] != x) {
+				x = parent[x];
+			}
+			return parent[x];
+		}
+
+		int countComponents(int n, vector<vector<int>>& edges) {
+			if (n < 2) { return n; }
+			vector<int> parent(n);
+			iota(parent.begin(), parent.end(), 0);
+			int result = n;
+
+			for (vector<int>& e : edges) {
+				int px = find(e[0], parent);
+				int py = find(e[1], parent);
+				if (px != py) {
+					parent[px] = py;
+					result--;
+				}
+			}
+			return result;
+		}
 
 		void Main() {
 			string test = "tst test test";
