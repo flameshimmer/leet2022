@@ -34,8 +34,19 @@ namespace Solution2022
 	 *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 	 * };
 	 */
+
+		void helper(TreeNode* node, int curLevel, int& result) {
+			if (!node) { return; }
+			if (!node->left && !node->right) { result = min(result, curLevel); }
+			helper(node->left, curLevel + 1, result);
+			helper(node->right, curLevel + 1, result);
+		}
+
 	    int minDepth(TreeNode* root) {
-	        
+			if (!root) { return 0; }
+			int result = INT_MAX;
+			helper(root, 1, result);
+			return result;
 	    }
 
 		void Main() {

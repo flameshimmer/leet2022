@@ -30,7 +30,16 @@ namespace Solution2022
 	namespace LengthofLastWord
 	{
 	    int lengthOfLastWord(string s) {
-	        
+			int len = s.size();
+			if (len == 0) { return 0; }
+
+			int end = len - 1;
+			while (end >= 0 && s[end] == ' ') { end--; }
+			if (end < 0) { return 0; }
+
+			int start = end - 1;
+			while (start >= 0 && s[start] != ' ') { start--; }
+			return end - start;
 	    }
 
 		void Main() {

@@ -33,9 +33,36 @@ namespace Solution2022
 {
 	namespace PathSumIV
 	{
-	    int pathSum(vector<int>& nums) {
-	        
-	    }
+		void helper(int node, int curSum, unordered_map<int, int>& map, int& result) {
+			if (map.find(node) == map.end()) { return; }
+
+			int curLevel = node / 10;
+			int curPos = node % 10;
+			int leftChild = (curLevel + 1) * 10 + curPos * 2 - 1;
+			int rightChild = (curLevel + 1) * 10 + curPos * 2;
+			bool hasLeftChild = map.find(leftChild) != map.end();
+			bool hasRightChild = map.find(rightChild) != map.end();
+
+			curSum += map[node];
+			if (!hasLeftChild && !hasRightChild) {
+				result += curSum;
+				return;
+			}
+
+			if (hasLeftChild) { helper(leftChild, curSum, map, result); }
+			if (hasRightChild) { helper(rightChild, curSum, map, result); }
+		}
+
+		int pathSum(vector<int>& nums) {
+			unordered_map<int, int> map;
+			for (int v : nums) {
+				map[v / 10] = v % 10;
+			}
+
+			int result = 0;
+			helper(11, 0, map, result);
+			return result;
+		}
 
 		void Main() {
 			string test = "tst test test";

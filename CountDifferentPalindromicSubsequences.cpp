@@ -31,7 +31,7 @@ namespace Solution2022
 {
 	namespace CountDifferentPalindromicSubsequences
 	{
-		//https://www.youtube.com/watch?v=UjiFFYU3EKM
+		// https://www.youtube.com/watch?v=UjiFFYU3EKM
 
 		namespace Recursion {
 			vector<int> m;

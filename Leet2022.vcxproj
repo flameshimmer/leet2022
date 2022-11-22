@@ -161,6 +161,7 @@
     <ClCompile Include="AnalyzeUserWebsiteVisitPattern.cpp" />
     <ClCompile Include="AsteroidCollision.cpp" />
     <ClCompile Include="BagofTokens.cpp" />
+    <ClCompile Include="BalancedBinaryTree.cpp" />
     <ClCompile Include="BasicCalculator.cpp" />
     <ClCompile Include="BasicCalculatorIII.cpp" />
     <ClCompile Include="BattleshipsinaBoard.cpp" />
@@ -336,6 +337,7 @@
     <ClCompile Include="LargestNumber.cpp" />
     <ClCompile Include="Leet2022.cpp" />
     <ClCompile Include="LeftmostColumnwithatLeastaOne.cpp" />
+    <ClCompile Include="LengthofLastWord.cpp" />
     <ClCompile Include="LetterCasePermutation.cpp" />
     <ClCompile Include="LetterCombinationsofaPhoneNumber.cpp" />
     <ClCompile Include="LexicographicallySmallestEquivalentString.cpp" />
@@ -394,6 +396,8 @@
     <ClCompile Include="MinimumAreaRectangleII.cpp" />
     <ClCompile Include="MinimumCosttoCutaStick.cpp" />
     <ClCompile Include="MinimumCosttoSetCookingTime.cpp" />
+    <ClCompile Include="MinimumDepthofBinaryTree.cpp" />
+    <ClCompile Include="MinimumIncrementtoMakeArrayUnique.cpp" />
     <ClCompile Include="MinimumNumberofOperationstoConvertTime.cpp" />
     <ClCompile Include="MinimumNumberofRemovalstoMakeMountainArray.cpp" />
     <ClCompile Include="MinimumOperationstoReduceXtoZero.cpp" />
@@ -401,6 +405,7 @@
     <ClCompile Include="MinimumScoreTriangulationofPolygon.cpp" />
     <ClCompile Include="MinimumSizeSubarraySum.cpp" />
     <ClCompile Include="MinimumTimeDifference.cpp" />
+    <ClCompile Include="MinimumValuetoGetPositiveStepbyStepSum.cpp" />
     <ClCompile Include="MinimumWindowSubstring.cpp" />
     <ClCompile Include="MissingNumber.cpp" />
     <ClCompile Include="MoveZeroes.cpp" />
@@ -442,6 +447,10 @@
     <ClCompile Include="PartitionList.cpp" />
     <ClCompile Include="PascalsTriangle.cpp" />
     <ClCompile Include="PascalsTriangleII.cpp" />
+    <ClCompile Include="PathSum.cpp" />
+    <ClCompile Include="PathSumII.cpp" />
+    <ClCompile Include="PathSumIII.cpp" />
+    <ClCompile Include="PathSumIV.cpp" />
     <ClCompile Include="PathWithMinimumEffort.cpp" />
     <ClCompile Include="PerfectSquares.cpp" />
     <ClCompile Include="PermutationinString.cpp" />
@@ -478,6 +487,7 @@
     <ClCompile Include="ReorderDatainLogFiles.cpp" />
     <ClCompile Include="ReorderedPowerofTwo.cpp" />
     <ClCompile Include="ReorderList.cpp" />
+    <ClCompile Include="RepeatedSubstringPattern.cpp" />
     <ClCompile Include="RestoreIPAddresses.cpp" />
     <ClCompile Include="ReverseBits.cpp" />
     <ClCompile Include="ReverseInteger.cpp" />
@@ -537,8 +547,11 @@
     <ClCompile Include="SubarrayswithKDifferentIntegers.cpp" />
     <ClCompile Include="SubdomainVisitCount.cpp" />
     <ClCompile Include="SubstringwithConcatenationofAllWords.cpp" />
+    <ClCompile Include="SummaryRanges.cpp" />
+    <ClCompile Include="SumofAllOddLengthSubarrays.cpp" />
     <ClCompile Include="SumofSubarrayMinimums.cpp" />
     <ClCompile Include="SumofSubarrayRanges.cpp" />
+    <ClCompile Include="SumofTotalStrengthofWizards.cpp" />
     <ClCompile Include="SumofTwoIntegers.cpp" />
     <ClCompile Include="SurroundedRegions.cpp" />
     <ClCompile Include="SwapAdjacentinLRString.cpp" />
@@ -565,6 +578,7 @@
     <ClCompile Include="Triangle.cpp" />
     <ClCompile Include="TwoSum.cpp" />
     <ClCompile Include="TwoSumIIInputArrayIsSorted.cpp" />
+    <ClCompile Include="TwoSumIVInputisaBST.cpp" />
     <ClCompile Include="UniqueBinarySearchTreesII.cpp" />
     <ClCompile Include="UniqueNumberofOccurrences.cpp" />
     <ClCompile Include="UniquePaths.cpp" />

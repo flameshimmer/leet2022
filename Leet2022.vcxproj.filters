@@ -723,12 +723,6 @@
     <ClCompile Include="FindingThreeDigitEvenNumbers.cpp">
       <Filter>Solution2022</Filter>
     </ClCompile>
-    <ClCompile Include="UTFEightValidation.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="WordSubsets.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="LongestDuplicateSubstring.cpp">
       <Filter>Solution2022</Filter>
     </ClCompile>
@@ -887,27 +881,6 @@
     </ClCompile>
     <ClCompile Include="CourseScheduleIII.cpp">
       <Filter>Solution2022</Filter>
-    </ClCompile>
-    <ClCompile Include="BinaryTreeRightSideView.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Candy.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ContinuousSubarraySum.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="CourseScheduleIV.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GroupShiftedStrings.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="MinimumWindowSubstring.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="PlusOne.cpp">
-      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="UniquePaths.cpp">
       <Filter>Solution2022</Filter>
@@ -1085,15 +1058,6 @@
     </ClCompile>
     <ClCompile Include="DailyTemperatures.cpp">
       <Filter>Solution2022</Filter>
-    </ClCompile>
-    <ClCompile Include="ComplementofBaseOneZeroInteger.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="KInversePairsArray.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="NumberofSquarefulArrays.cpp">
-      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="DeleteOperationforTwoStrings.cpp">
       <Filter>Solution2022</Filter>
@@ -1309,6 +1273,96 @@
       <Filter>Solution2022</Filter>
     </ClCompile>
     <ClCompile Include="ReorderList.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="WordSubsets.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="SumofTotalStrengthofWizards.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="UTFEightValidation.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="PlusOne.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="NumberofSquarefulArrays.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="MinimumWindowSubstring.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="MinimumIncrementtoMakeArrayUnique.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="LongestRepeatingCharacterReplacement.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="KInversePairsArray.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="BalancedBinaryTree.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryTreeRightSideView.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="Candy.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="CombinationSumII.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="CombinationSumIII.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="CombinationSumIV.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="ComplementofBaseOneZeroInteger.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="ContinuousSubarraySum.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="CourseScheduleIV.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="GroupShiftedStrings.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="LengthofLastWord.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="MinimumDepthofBinaryTree.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="PathSum.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="PathSumII.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="PathSumIII.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="PathSumIV.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="TwoSumIVInputisaBST.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="SummaryRanges.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="MinimumValuetoGetPositiveStepbyStepSum.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="SumofAllOddLengthSubarrays.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="RepeatedSubstringPattern.cpp">
       <Filter>Solution2022</Filter>
     </ClCompile>
   </ItemGroup>

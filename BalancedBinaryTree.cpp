@@ -59,4 +59,3 @@ namespace Solution2022
 		print(test);
 	}
 }
-}

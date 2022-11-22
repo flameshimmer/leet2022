@@ -42,7 +42,12 @@ namespace Solution2022
 	namespace SumofAllOddLengthSubarrays
 	{
 	    int sumOddLengthSubarrays(vector<int>& arr) {
-	        
+			int result = 0;
+			int len = arr.size();
+			for (int i = 0; i < len; i++) {
+				result += ((i + 1) * (len - i)+ 1) / 2 * arr[i];
+			}
+			return result;
 	    }
 
 		void Main() {

@@ -38,9 +38,26 @@ namespace Solution2022
 {
 	namespace SummaryRanges
 	{
-	    vector<string> summaryRanges(vector<int>& nums) {
-	        
-	    }
+		vector<string> summaryRanges(vector<int>& nums) {
+			int len = nums.size();
+			if (len == 0) { return {}; }
+
+			vector<string> result;
+			int start = 0;
+			int end = 0;
+			while (end < len) {
+				while (end + 1 < len && nums[end] == nums[end + 1] - 1) { end++; }
+				if (start == end) {
+					result.push_back(to_string(nums[start]));
+				}
+				else {
+					result.push_back(to_string(nums[start]) + "->" + to_string(nums[end]));
+				}
+				end++;
+				start = end;
+			}
+			return result;
+		}
 
 		void Main() {
 			string test = "tst test test";

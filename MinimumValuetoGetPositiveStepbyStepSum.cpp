@@ -39,7 +39,13 @@ namespace Solution2022
 	namespace MinimumValuetoGetPositiveStepbyStepSum
 	{
 	    int minStartValue(vector<int>& nums) {
-	        
+			int sum = 0;
+			int minSum = INT_MAX;
+			for (int v : nums) {
+				sum += v;
+				minSum = min(minSum, sum);
+			}
+			return minSum >= 1 ? 1 : 1 - minSum;
 	    }
 
 		void Main() {
