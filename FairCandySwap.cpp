@@ -36,9 +36,18 @@ namespace Solution2022
 {
 	namespace FairCandySwap
 	{
-	    vector<int> fairCandySwap(vector<int>& aliceSizes, vector<int>& bobSizes) {
-	        
-	    }
+		vector<int> fairCandySwap(vector<int>& A, vector<int>& B) {
+			int aSum = accumulate(A.begin(), A.end(), 0);
+			int bSum = accumulate(B.begin(), B.end(), 0);
+			int sum = (aSum + bSum) / 2;
+			int aDiff = sum - aSum;
+			unordered_set<int> set(B.begin(), B.end());
+
+			for (int v : A) {
+				if (set.find(v + aDiff) != set.end()) { return { v, v + aDiff }; }
+			}
+			return {};
+		}
 
 		void Main() {
 			string test = "tst test test";

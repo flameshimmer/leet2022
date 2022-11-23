@@ -24,13 +24,29 @@ namespace Solution2022
 {
 	namespace MultiplyStrings
 	{
-	    string multiply(string num1, string num2) {
-	        
-	    }
+
+		string multiply(string num1, string num2) {
+			int len1 = num1.size();
+			int len2 = num2.size();
+			string result(len1 + len2, '0');
+
+			for (int i = len1 - 1; i >= 0; i--) {
+				int carry = 0;
+				for (int j = len2 - 1; j >= 0; j--) {
+					int sum = (num1[i] - '0') * (num2[j] - '0') + carry + (result[i + j + 1] - '0');
+					carry = sum / 10;
+					result[i + j + 1] = sum % 10 + '0';
+				}
+				if (carry > 0) { result[i] += carry; }
+			}
+
+			size_t pos = result.find_first_not_of('0');
+			if (pos != string::npos) { return result.substr(pos); }
+			return "0";
+		}
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			print(multiply("2", "3"));
 		}
 	}
 }

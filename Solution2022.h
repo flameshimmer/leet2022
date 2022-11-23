@@ -1,6 +1,7 @@
 namespace Solution2022
 {
 	namespace Test { void Main(); }
+	namespace ValidPhoneNumbers { void Main(); }
 	namespace MakeArrayZeroBySubtractingEqualAmounts { void Main(); }
 	namespace MaximumErasureValue { void Main(); }
 	namespace TwoSum { void Main(); }

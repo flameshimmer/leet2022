@@ -34,9 +34,16 @@ namespace Solution2022
 {
 	namespace BreakaPalindrome
 	{
-	    string breakPalindrome(string palindrome) {
-	        
-	    }
+		string breakPalindrome(string s) {
+			int len = s.size();
+			if (len < 2) { return ""; }
+
+			for (int i = 0; i < len / 2; i++) {
+				if (s[i] != 'a') { s[i] = 'a'; return s; }
+			}
+			s[len - 1] = 'b';
+			return s;
+		}
 
 		void Main() {
 			string test = "tst test test";

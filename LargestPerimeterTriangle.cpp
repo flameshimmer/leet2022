@@ -21,9 +21,16 @@ namespace Solution2022
 {
 	namespace LargestPerimeterTriangle
 	{
-	    int largestPerimeter(vector<int>& nums) {
-	        
-	    }
+		int largestPerimeter(vector<int>& nums) {
+			int len = nums.size();
+			if (len < 3) { return 0; }
+			sort(nums.begin(), nums.end());
+
+			for (int i = len - 3; i >= 0; i--) {
+				if (nums[i] + nums[i + 1] > nums[i + 2]) { return nums[i] + nums[i + 1] + nums[i + 2]; }
+			}
+			return 0;
+		}
 
 		void Main() {
 			string test = "tst test test";

@@ -36,9 +36,39 @@ namespace Solution2022
 {
 	namespace ToeplitzMatrix
 	{
-	    bool isToeplitzMatrix(vector<vector<int>>& matrix) {
-	        
-	    }
+		namespace Hashmap {
+			bool isToeplitzMatrix(vector<vector<int>>& matrix) {
+				int rowCount = matrix.size();
+				if (rowCount == 0) { return true; }
+				int colCount = matrix[0].size();
+				if (colCount == 0) { return true; }
+
+				unordered_map<int, int> map;
+				for (int i = 0; i < rowCount; i++) {
+					for (int j = 0; j < colCount; j++) {
+						if (map.find(i - j) != map.end() && map[i - j] != matrix[i][j]) { return false; }
+						map[i - j] = matrix[i][j];
+					}
+				}
+				return true;
+			}
+		}
+
+		namespace Calculation {
+			bool isToeplitzMatrix(vector<vector<int>>& matrix) {
+				int rowCount = matrix.size();
+				if (rowCount == 0) { return true; }
+				int colCount = matrix[0].size();
+				if (colCount == 0) { return true; }
+
+				for (int i = 0; i < rowCount - 1; i++) {
+					for (int j = 0; j < colCount - 1; j++) {
+						if (matrix[i][j] != matrix[i + 1][j + 1]) { return false; }
+					}
+				}
+				return true;
+			}
+		}
 
 		void Main() {
 			string test = "tst test test";

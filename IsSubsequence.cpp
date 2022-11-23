@@ -29,9 +29,20 @@ namespace Solution2022
 {
 	namespace IsSubsequence
 	{
-	    bool isSubsequence(string s, string t) {
-	        
-	    }
+		bool isSubsequence(string s, string t) {
+			int lens = s.size();
+			int lent = t.size();
+			if (lens == 0) { return true; }
+			if (lens > lent) { return false; }
+
+			int i = 0;
+			int j = 0;
+			while (i < lens && j < lent) {
+				if (s[i] == t[j]) { i++; }
+				j++;
+			}
+			return i == lens;
+		}
 
 		void Main() {
 			string test = "tst test test";

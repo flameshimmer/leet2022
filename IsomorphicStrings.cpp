@@ -29,13 +29,27 @@ namespace Solution2022
 {
 	namespace IsomorphicStrings
 	{
-	    bool isIsomorphic(string s, string t) {
-	        
-	    }
+		bool isIsomorphic(string s, string t) {
+			int lens = s.size();
+			int lent = t.size();
+			if (lens != lent) { return false; }
+			if (lens == 0) { return true; }
+
+			unordered_map<char, char> map;
+			unordered_set<char> set;
+			for (int i = 0; i < lens; i++) {
+				char c1 = s[i];
+				char c2 = t[i];
+				if (map.find(c1) != map.end() && map[c1] != c2) { return false; }
+				if (map.find(c1) == map.end() && set.find(c2) != set.end()) { return false; }
+				map[c1] = c2;
+				set.insert(c2);
+			}
+			return true;
+		}
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			print(isIsomorphic("foo", "bar"));
 		}
 	}
 }

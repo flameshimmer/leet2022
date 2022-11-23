@@ -31,13 +31,33 @@ namespace Solution2022
 {
 	namespace MaximumPopulationYear
 	{
-	    int maximumPopulation(vector<vector<int>>& logs) {
-	        
-	    }
+		int maximumPopulation(vector<vector<int>>& logs) {
+			int len = logs.size();
+			if (len == 0) { return 0; }
+
+			map<int, int> map;
+			for (vector<int>& l : logs) {
+				map[l[0]]++;
+				map[l[1]]--;
+			}
+
+			int maxP = 0;
+			int result = 0;
+			int curP = 0;
+			for (auto [year, delta] : map) {
+				curP += delta;
+				if (curP > maxP) {
+					maxP = curP;
+					result = year;
+				}
+			}
+			return result;
+		}
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			//vector<vector<int>> test = { {1993,1999},{2000,2010} };
+			vector<vector<int>> test = { {1950,1961},{1960,1971},{1970,1981} };
+			print(maximumPopulation(test));
 		}
 	}
 }

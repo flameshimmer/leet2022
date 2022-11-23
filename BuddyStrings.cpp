@@ -33,9 +33,28 @@ namespace Solution2022
 {
 	namespace BuddyStrings
 	{
-	    bool buddyStrings(string s, string goal) {
-	        
-	    }
+		bool buddyStrings(string s, string t) {
+			int lens = s.size();
+			int lent = t.size();
+			if (lens != lent) { return false; }
+			if (lens < 2) { return false; }
+			if (s == t) {
+				unordered_set<char> set(s.begin(), s.end());
+				return set.size() < s.size();
+			}
+
+			int i = -1;
+			for (int k = 0; k < lens; k++) {
+				if (s[k] != t[k]) {
+					if (i < 0) { i = k; }
+					else {
+						swap(s[i], s[k]);
+						return s == t;
+					}
+				}
+			}
+			return false;
+		}
 
 		void Main() {
 			string test = "tst test test";

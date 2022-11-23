@@ -36,9 +36,20 @@ namespace Solution2022
 {
 	namespace CountingBits
 	{
-	    vector<int> countBits(int n) {
-	        
-	    }
+		int helper(int n) {
+			int result = 0;
+			while (n) {
+				result++;
+				n &= n - 1;
+			}
+			return result;
+		}
+
+		vector<int> countBits(int n) {
+			vector<int> result;
+			for (int i = 0; i <= n; i++) { result.push_back(helper(i)); }
+			return result;
+		}
 
 		void Main() {
 			string test = "tst test test";

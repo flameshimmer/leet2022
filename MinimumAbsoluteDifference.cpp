@@ -31,9 +31,20 @@ namespace Solution2022
 {
 	namespace MinimumAbsoluteDifference
 	{
-	    vector<vector<int>> minimumAbsDifference(vector<int>& arr) {
-	        
-	    }
+		vector<vector<int>> minimumAbsDifference(vector<int>& arr) {
+			int len = arr.size();
+			vector<vector<int>> results;
+			if (len == 0) { return results; }
+
+			sort(arr.begin(), arr.end());
+			int minDiff = INT_MAX;
+			for (int i = 1; i < len; i++) { minDiff = min(minDiff, arr[i] - arr[i - 1]); }
+
+			for (int i = 1; i < len; i++) {
+				if (arr[i] - arr[i - 1] == minDiff) { results.push_back({ arr[i - 1], arr[i] }); }
+			}
+			return results;
+		}
 
 		void Main() {
 			string test = "tst test test";

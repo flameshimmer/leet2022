@@ -21,9 +21,24 @@ namespace Solution2022
 {
 	namespace MaximumLengthofRepeatedSubarray
 	{
-	    int findLength(vector<int>& nums1, vector<int>& nums2) {
-	        
-	    }
+
+		int findLength(vector<int>& a, vector<int>& b) {
+			int lena = a.size();
+			int lenb = b.size();
+			if (lena == 0 || lenb == 0) { return 0; }
+
+			int result = 0;
+			vector<vector<int>> dp(lena + 1, vector<int>(lenb + 1, 0));
+			for (int i = 1; i < lena + 1; i++) { // NOTE: i and j should start with 1 instead of 0!!!
+				for (int j = 1; j < lenb + 1; j++) {
+					if (a[i - 1] == b[j - 1]) {
+						dp[i][j] = dp[i - 1][j - 1] + 1;
+						result = max(result, dp[i][j]);
+					}
+				}
+			}
+			return result;
+		}
 
 		void Main() {
 			string test = "tst test test";

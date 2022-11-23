@@ -30,9 +30,30 @@ namespace Solution2022
 {
 	namespace SortIntegersbyTheNumberofOneBits
 	{
-	    vector<int> sortByBits(vector<int>& arr) {
-	        
-	    }
+		// CountBits can be replaced by builtin function __builtin_popcount(x)
+		int countBits(int x) {
+			int result = 0;
+			while (x) {
+				result++;
+				x &= (x - 1);
+			}
+			return result;
+		}
+
+		vector<int> sortByBits(vector<int>& arr) {
+			int len = arr.size();
+			if (len < 2) { return arr; }
+
+			auto comp = [&](int a, int b) {
+				int bitA = countBits(a);
+				int bitB = countBits(b);
+				if (bitA == bitB) { return a < b; }
+				else { return bitA < bitB; }
+			};
+
+			sort(arr.begin(), arr.end(), comp);
+			return arr;
+		}
 
 		void Main() {
 			string test = "tst test test";

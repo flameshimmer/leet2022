@@ -25,7 +25,19 @@ namespace Solution2022
 	namespace SubarraySumsDivisiblebyK
 	{
 	    int subarraysDivByK(vector<int>& nums, int k) {
-	        
+			unordered_map<int, int> map;
+			map[0] = 1;
+
+			int result = 0;
+			int sum = 0;
+			for (int v : nums) {
+				sum += v;
+				int remain = sum % k;
+				if (remain < 0) { remain += k; }
+				result += map[remain];
+				map[remain]++;
+			}
+			return result;
 	    }
 
 		void Main() {

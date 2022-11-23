@@ -30,9 +30,22 @@ namespace Solution2022
 {
 	namespace SortArraybyIncreasingFrequency
 	{
-	    vector<int> frequencySort(vector<int>& nums) {
-	        
-	    }
+		vector<int> frequencySort(vector<int>& nums) {
+			int len = nums.size();
+			if (len < 2) { return nums; }
+
+			unordered_map<int, int> map;
+			for (int v : nums) { map[v] ++; }
+
+			auto comp = [&map](int a, int b) {
+				if (map[a] == map[b]) { return a > b; }
+				return map[a] < map[b];
+			};
+
+			sort(nums.begin(), nums.end(), comp);
+
+			return nums;
+		}
 
 		void Main() {
 			string test = "tst test test";

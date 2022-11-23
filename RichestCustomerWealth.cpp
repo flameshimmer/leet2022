@@ -38,9 +38,13 @@ namespace Solution2022
 {
 	namespace RichestCustomerWealth
 	{
-	    int maximumWealth(vector<vector<int>>& accounts) {
-	        
-	    }
+		int maximumWealth(vector<vector<int>>& accounts) {
+			int result = INT_MIN;
+			for (vector<int>& a : accounts) {
+				result = max(result, accumulate(a.begin(), a.end(), 0));
+			}
+			return result;
+		}
 
 		void Main() {
 			string test = "tst test test";
