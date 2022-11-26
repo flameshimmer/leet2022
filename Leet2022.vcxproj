@@ -306,6 +306,7 @@
     <ClCompile Include="HighFive.cpp" />
     <ClCompile Include="HIndex.cpp" />
     <ClCompile Include="HouseRobber.cpp" />
+    <ClCompile Include="ImageOverlap.cpp" />
     <ClCompile Include="ImplementstrStr.cpp" />
     <ClCompile Include="ImplementTrie.cpp" />
     <ClCompile Include="ImplementTrieII.cpp" />
@@ -323,6 +324,7 @@
     <ClCompile Include="IntersectionofTwoLinkedLists.cpp" />
     <ClCompile Include="InvertBinaryTree.cpp" />
     <ClCompile Include="IPO.cpp" />
+    <ClCompile Include="IPtoCIDR.cpp" />
     <ClCompile Include="IsGraphBipartiteQuestionMark.cpp" />
     <ClCompile Include="IsomorphicStrings.cpp" />
     <ClCompile Include="IsSubsequence.cpp" />
@@ -370,11 +372,14 @@
     <ClCompile Include="LowestCommonAncestorofaBinaryTreeIII.cpp" />
     <ClCompile Include="LRUCache.cpp" />
     <ClCompile Include="MakeArrayZeroBySubtractingEqualAmounts.cpp" />
+    <ClCompile Include="MatchstickstoSquare.cpp" />
     <ClCompile Include="MaxAreaofIsland.cpp" />
+    <ClCompile Include="MaximumAreaofaPieceofCakeAfterHorizontalandVerticalCuts.cpp" />
     <ClCompile Include="MaximumDepthofBinaryTree.cpp" />
     <ClCompile Include="MaximumDepthofNaryTree.cpp" />
     <ClCompile Include="MaximumEarningsFromTaxi.cpp" />
     <ClCompile Include="MaximumFrequencyStack.cpp" />
+    <ClCompile Include="MaximumLengthofRepeatedSubarray.cpp" />
     <ClCompile Include="MaximumNumberofAcceptedInvitations.cpp" />
     <ClCompile Include="MaximumNumberofPointswithCost.cpp" />
     <ClCompile Include="MaximumNumberofVisiblePoints.cpp" />
@@ -404,11 +409,14 @@
     <ClCompile Include="MinimizeDeviationinArray.cpp" />
     <ClCompile Include="MinimumAbsoluteDifference.cpp" />
     <ClCompile Include="MinimumAddtoMakeParenthesesValid.cpp" />
+    <ClCompile Include="MinimumAdjacentSwapstoMakeAValidArray.cpp" />
     <ClCompile Include="MinimumAreaRectangle.cpp" />
     <ClCompile Include="MinimumAreaRectangleII.cpp" />
     <ClCompile Include="MinimumCosttoCutaStick.cpp" />
     <ClCompile Include="MinimumCosttoSetCookingTime.cpp" />
+    <ClCompile Include="MinimumDeletionstoMakeCharacterFrequenciesUnique.cpp" />
     <ClCompile Include="MinimumDepthofBinaryTree.cpp" />
+    <ClCompile Include="MinimumHealthtoBeatGame.cpp" />
     <ClCompile Include="MinimumIncrementtoMakeArrayUnique.cpp" />
     <ClCompile Include="MinimumNumberofOperationstoConvertTime.cpp" />
     <ClCompile Include="MinimumNumberofRemovalstoMakeMountainArray.cpp" />
@@ -438,6 +446,7 @@
     <ClCompile Include="NQueens.cpp" />
     <ClCompile Include="NthDigit.cpp" />
     <ClCompile Include="NumberofDaysBetweenTwoDates.cpp" />
+    <ClCompile Include="NumberofDiceRollsWithTargetSum.cpp" />
     <ClCompile Include="NumberofDigitOne.cpp" />
     <ClCompile Include="NumberofIslands.cpp" />
     <ClCompile Include="NumberofMatchingSubsequences.cpp" />
@@ -445,6 +454,7 @@
     <ClCompile Include="NumberofOneBits.cpp" />
     <ClCompile Include="NumberofSquarefulArrays.cpp" />
     <ClCompile Include="NumberofWaystoBuildSturdyBrickWall.cpp" />
+    <ClCompile Include="NumbersWithSameConsecutiveDifferences.cpp" />
     <ClCompile Include="OddEvenJump.cpp" />
     <ClCompile Include="OddEvenLinkedList.cpp" />
     <ClCompile Include="OnesandZeroes.cpp" />
@@ -460,6 +470,7 @@
     <ClCompile Include="PalindromePartitioning.cpp" />
     <ClCompile Include="PalindromicSubstrings.cpp" />
     <ClCompile Include="PartitionList.cpp" />
+    <ClCompile Include="PartitiontoKEqualSumSubsets.cpp" />
     <ClCompile Include="PascalsTriangle.cpp" />
     <ClCompile Include="PascalsTriangleII.cpp" />
     <ClCompile Include="PathSum.cpp" />

@@ -37,13 +37,53 @@ namespace Solution2022
 {
 	namespace MinimumDeletionstoMakeCharacterFrequenciesUnique
 	{
-	    int minDeletions(string s) {
-	        
-	    }
+		int minDeletions(string s) {
+			vector<int> freq(26, 0);
+			for (char c : s) { freq[c - 'a']++; }
+
+			sort(freq.begin(), freq.end());
+			int result = 0;
+			for (int i = 24; i >= 0; i--) {
+				if (freq[i] == 0) { break; }
+				if (freq[i] >= freq[i + 1]) {
+					int oldF = freq[i];
+					freq[i] = max(0, freq[i + 1] - 1);
+					result += oldF - freq[i];
+				}
+			}
+			return result;
+		}
+
+		namespace MyMethod {
+			int minDeletions(string s) {
+				unordered_map<char, int> map;
+				for (char c : s) { map[c] ++; }
+
+				unordered_map<int, vector<char>> freq;
+				for (auto [c, f] : map) { freq[f].push_back(c); }
+
+				int result = 0;
+				for (auto& [f, vc] : freq) {
+					if (vc.size() == 1) { continue; }
+					for (int i = 1; i < vc.size(); i++) {
+						int t = f;
+						while (t > 0 && freq.find(t) != freq.end()) { t--; result++; }
+						if (t > 0) { freq[t] = { vc[i] }; }
+					}
+				}
+				return result;
+
+			}
+		}
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+
+			vector<int> test1 = { 1, 2 };
+			for (int v : test1) {
+				print(v);
+				test1.push_back(v + 3);
+			}
+			print(test1);
 		}
 	}
 }

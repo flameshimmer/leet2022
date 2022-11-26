@@ -37,9 +37,29 @@ namespace Solution2022
 {
 	namespace ImageOverlap
 	{
-	    int largestOverlap(vector<vector<int>>& img1, vector<vector<int>>& img2) {
-	        
-	    }
+		int largestOverlap(vector<vector<int>>& img1, vector<vector<int>>& img2) {
+			vector<pair<int, int>> g1;
+			vector<pair<int, int>> g2;
+			int len = img1.size();
+
+			for (int i = 0; i < len; i++) {
+				for (int j = 0; j < len; j++) {
+					if (img1[i][j]) { g1.push_back({ i, j }); }
+					if (img2[i][j]) { g2.push_back({ i, j }); }
+				}
+			}
+
+			map<pair<int, int>, int> map;
+			int result = 0;
+			for (auto [x1, y1] : g1) {
+				for (auto [x2, y2] : g2) {
+					pair<int, int> key = { x1 - x2, y1 - y2 };
+					map[key]++;
+					result = max(result, map[key]);
+				}
+			}
+			return result;
+		}
 
 		void Main() {
 			string test = "tst test test";

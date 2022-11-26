@@ -42,13 +42,25 @@ namespace Solution2022
 {
 	namespace MaximumAreaofaPieceofCakeAfterHorizontalandVerticalCuts
 	{
-	    int maxArea(int h, int w, vector<int>& horizontalCuts, vector<int>& verticalCuts) {
-	        
-	    }
+		int helper(int h, vector<int>& hc) {
+			sort(hc.begin(), hc.end());
+			hc.insert(hc.begin(), 0);
+			hc.push_back(h);
+			int result = 0;
+			for (int i = 1; i < hc.size(); i++) {
+				result = max(result, hc[i] - hc[i - 1]);
+			}
+			return result;
+		}
+
+		int maxArea(int h, int w, vector<int>& hc, vector<int>& vc) {
+			int mod = 1e9 + 7;
+			long long hm = helper(h, hc);
+			long long vm = helper(w, vc);
+			return (int)((hm % mod * vm % mod) % mod);
+		}
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
 		}
 	}
 }

@@ -55,9 +55,15 @@ namespace Solution2022
 {
 	namespace MinimumHealthtoBeatGame
 	{
-	    long long minimumHealth(vector<int>& damage, int armor) {
-	        
-	    }
+		long long minimumHealth(vector<int>& d, int armor) {
+			int maxD = 0;
+			long long totalD = 0;
+			for (int v : d) {
+				maxD = max(maxD, v);
+				totalD += v;
+			}
+			return totalD + 1 - min(armor, maxD);
+		}
 
 		void Main() {
 			string test = "tst test test";

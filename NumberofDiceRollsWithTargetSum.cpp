@@ -31,13 +31,30 @@ namespace Solution2022
 {
 	namespace NumberofDiceRollsWithTargetSum
 	{
-	    int numRollsToTarget(int n, int k, int target) {
-	        
-	    }
+		const int mod = 1e9 + 7;
+		int helper(int n, int k, int t, vector<vector<int>>& dp) {
+			if (n == 0 && t == 0) { dp[n][t] = 1; return 1; }
+			if (n * t == 0) { dp[n][t] = 0; return 0; }
+			if (dp[n][t] != -1) { return dp[n][t]; }
+
+			dp[n][t] = 0;
+			for (int i = 1; i <= k; i++) {
+				if (t - i < 0) { continue; }
+				dp[n][t] = (dp[n][t] + helper(n - 1, k, t - i, dp) % mod) % mod;
+			}
+			return dp[n][t];
+		}
+
+
+		int numRollsToTarget(int n, int k, int target) {
+			vector<vector<int>> dp(n + 1, vector<int>(target + 1, -1));
+			return helper(n, k, target, dp);
+		}
 
 		void Main() {
 			string test = "tst test test";
 			print(test);
 		}
+
 	}
 }

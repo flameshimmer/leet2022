@@ -21,13 +21,24 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::PalindromePartitioningIV::Main();
 
 	//====Problem Starts====
+	//11/25/2022
+	//Solution2022::IPtoCIDR::Main();	
+	//Solution2022::NumberofDiceRollsWithTargetSum::Main();
+	//Solution2022::MinimumHealthtoBeatGame::Main();
+	//Solution2022::ImageOverlap::Main();
+	//Solution2022::MaximumAreaofaPieceofCakeAfterHorizontalandVerticalCuts::Main();
+	//Solution2022::NumbersWithSameConsecutiveDifferences::Main();
+	//Solution2022::MinimumDeletionstoMakeCharacterFrequenciesUnique::Main();
+	//Solution2022::PartitiontoKEqualSumSubsets::Main();
+	//Solution2022::MatchstickstoSquare::Main();
+	//Solution2022::MinimumAdjacentSwapstoMakeAValidArray::Main();
+
 	//11/23/2022
 	//Solution2022::SortArraybyIncreasingFrequency::Main();
 	//Solution2022::IsSubsequence::Main();
 	//Solution2022::MaximumPopulationYear::Main();
 	//Solution2022::BuddyStrings::Main();
 	//Solution2022::MinimumAbsoluteDifference::Main();	
-
 	//Solution2022::BreakaPalindrome::Main();
 	//Solution2022::SubarraySumsDivisiblebyK::Main();
 	//Solution2022::MirrorReflection::Main();
@@ -832,7 +843,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::RankTransformofaMatrix::Main();
 	//Solution2022::MaximumProfitinJobScheduling::Main();
 	//Solution2022::MergeTwoSortedLists::Main();
-	//Solution2022::MinimumHealthtoBeatGame::Main();
 	//Solution2022::BinaryTreePaths::Main();
 	//Solution2022::MinimumOneBitOperationstoMakeIntegersZero::Main();
 	//Solution2022::MinimumNumberofFrogsCroaking::Main();
@@ -886,7 +896,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::SmallestSubtreewithalltheDeepestNodes::Main();
 	//Solution2022::CountGoodMeals::Main();
 	//Solution2022::LetterCasePermutation::Main();
-	//Solution2022::MatchstickstoSquare::Main();
 	//Solution2022::CampusBikesII::Main();
 	//Solution2022::LargestOneBorderedSquare::Main();
 	//Solution2022::NumberofUniqueGoodSubsequences::Main();
@@ -946,8 +955,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::GrumpyBookstoreOwner::Main();
 	//Solution2022::DetectCyclesinTwoDGrid::Main();
 	//Solution2022::CarFleetII::Main();
-	//Solution2022::NumberofLongestIncreasingSubsequence::Main();
-	//Solution2022::NumberofDiceRollsWithTargetSum::Main();
+	//Solution2022::NumberofLongestIncreasingSubsequence::Main();;
 	//Solution2022::RotatedDigits::Main();
 	//Solution2022::LongestZigZagPathinaBinaryTree::Main();
 	//Solution2022::DefanginganIPAddress::Main();
@@ -1427,7 +1435,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::IntersectionofMultipleArrays::Main();
 	//Solution2022::NumberofWaystoArriveatDestination::Main();
 	//Solution2022::CheckIfWordIsValidAfterSubstitutions::Main();
-	//Solution2022::ImageOverlap::Main();
 	//Solution2022::EvaluatetheBracketPairsofaString::Main();
 	//Solution2022::MaximumAscendingSubarraySum::Main();
 	//Solution2022::IncreasingSubsequences::Main();
@@ -2011,7 +2018,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::MinimumNumberofArrowstoBurstBalloons::Main();
 	//Solution2022::MaximumNumberofEventsThatCanBeAttended::Main();
 	//Solution2022::SmallestRangeCoveringElementsfromKLists::Main();
-	//Solution2022::MinimumDeletionstoMakeCharacterFrequenciesUnique::Main();
 	//Solution2022::CheapestFlightsWithinKStops::Main();
 	//Solution2022::SearchInsertPosition::Main();
 	//Solution2022::PopulatingNextRightPointersinEachNode::Main();
@@ -2043,7 +2049,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::OpentheLock::Main();
 	//Solution2022::CountVowelsPermutation::Main();
 	//Solution2022::HouseRobberIII::Main();
-	//Solution2022::IPtoCIDR::Main();
 	//Solution2022::MeetingScheduler::Main();
 	//Solution2022::MaximalRectangle::Main();
 	//Solution2022::NumberofOneBits::Main();
@@ -2084,7 +2089,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::ReachaNumber::Main();
 	//Solution2022::SortTransformedArray::Main();
 	//Solution2022::StrobogrammaticNumberII::Main();
-	//Solution2022::MaximumAreaofaPieceofCakeAfterHorizontalandVerticalCuts::Main();
 	//Solution2022::TargetSum::Main();
 	//Solution2022::ShortestPathtoGetFood::Main();
 	//Solution2022::SwappingNodesinaLinkedList::Main();
@@ -2116,7 +2120,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::BestMeetingPoint::Main();
 	//Solution2022::RotateList::Main();
 	//Solution2022::PatchingArray::Main();
-	//Solution2022::PartitiontoKEqualSumSubsets::Main();
 	//Solution2022::PermutationsII::Main();
 	//Solution2022::NumberofStepstoReduceaNumbertoZero::Main();
 	//Solution2022::SmallestStringWithSwaps::Main();
@@ -2298,7 +2301,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//Solution2022::CountNicePairsinanArray::Main();
 	//Solution2022::CreateTargetArrayintheGivenOrder::Main();
 	//Solution2022::NewTwoOneGame::Main();
-	//Solution2022::NumbersWithSameConsecutiveDifferences::Main();
 	//Solution2022::SwapForLongestRepeatedCharacterSubstring::Main();
 	//Solution2022::NumberofDistinctSubstringsinaString::Main();
 	//Solution2022::TheNumberofGoodSubsets::Main();

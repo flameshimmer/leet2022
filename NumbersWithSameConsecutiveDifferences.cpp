@@ -26,13 +26,31 @@ namespace Solution2022
 {
 	namespace NumbersWithSameConsecutiveDifferences
 	{
-	    vector<int> numsSameConsecDiff(int n, int k) {
-	        
-	    }
+		void helper(int level, int n, int k, int result, vector<int>& results) {
+			if (level == n) { results.push_back(result); return; }
+
+
+			vector<int> candidates;
+			if (level == 0) { candidates = { 1, 2, 3, 4, 5, 6, 7, 8, 9 }; }
+			else {
+				if (result % 10 + k <= 9) { candidates.push_back((result % 10 + k)); }
+				if (k != 0 && result % 10 - k >= 0) { candidates.push_back((result % 10 - k)); } // NOTE: k == 0, might cause duplicate. So need to check k!=0 here!!!
+			}
+
+			for (int c : candidates) {
+				helper(level + 1, n, k, result * 10 + c, results);
+			}
+		}
+
+
+		vector<int> numsSameConsecDiff(int n, int k) {
+			vector<int> results;
+			helper(0, n, k, 0, results);
+			return results;
+		}
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			print(numsSameConsecDiff(3, 7));
 		}
 	}
 }

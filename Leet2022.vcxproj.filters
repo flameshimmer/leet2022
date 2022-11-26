@@ -1428,6 +1428,39 @@
     <ClCompile Include="MultiplyStrings.cpp">
       <Filter>Solution2022</Filter>
     </ClCompile>
+    <ClCompile Include="MaximumLengthofRepeatedSubarray.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="IPtoCIDR.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="NumberofDiceRollsWithTargetSum.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="MinimumHealthtoBeatGame.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageOverlap.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="MaximumAreaofaPieceofCakeAfterHorizontalandVerticalCuts.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="NumbersWithSameConsecutiveDifferences.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="MinimumDeletionstoMakeCharacterFrequenciesUnique.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="MatchstickstoSquare.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="PartitiontoKEqualSumSubsets.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="MinimumAdjacentSwapstoMakeAValidArray.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Solution2022.h">
