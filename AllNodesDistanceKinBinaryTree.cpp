@@ -27,18 +27,49 @@ namespace Solution2022
 {
 	namespace AllNodesDistanceKinBinaryTree
 	{
-	/**
-	 * Definition for a binary tree node.
-	 * struct TreeNode {
-	 *     int val;
-	 *     TreeNode *left;
-	 *     TreeNode *right;
-	 *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
-	 * };
-	 */
-	    vector<int> distanceK(TreeNode* root, TreeNode* target, int k) {
-	        
-	    }
+		/**
+		 * Definition for a binary tree node.
+		 * struct TreeNode {
+		 *     int val;
+		 *     TreeNode *left;
+		 *     TreeNode *right;
+		 *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+		 * };
+		 */
+		void findParent(TreeNode* node, unordered_map<TreeNode*, TreeNode*>& parent) {
+			if (node->left) {
+				parent[node->left] = node;
+				findParent(node->left, parent);
+			}
+
+			if (node->right) {
+				parent[node->right] = node;
+				findParent(node->right, parent);
+			}
+		}
+
+		void helper(TreeNode* node, unordered_map<TreeNode*, TreeNode*>& parent, unordered_set<TreeNode*>& visited, int k, vector<int>& result) {
+			if (!node || visited.find(node) != visited.end()) { return; }
+			if (k == 0) { result.push_back(node->val); return; }
+			visited.insert(node);
+
+			helper(parent[node], parent, visited, k - 1, result);
+			helper(node->left, parent, visited, k - 1, result);
+			helper(node->right, parent, visited, k - 1, result);
+		}
+
+
+		vector<int> distanceK(TreeNode* root, TreeNode* target, int k) {
+			if (!root || !target) { return {}; }
+
+			unordered_map<TreeNode*, TreeNode*> parent;
+			findParent(root, parent);
+
+			unordered_set<TreeNode*> visited;
+			vector<int> result;
+			helper(target, parent, visited, k, result);
+			return result;
+		}
 
 		void Main() {
 			string test = "tst test test";

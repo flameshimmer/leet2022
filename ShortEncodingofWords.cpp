@@ -35,9 +35,44 @@ namespace Solution2022
 {
 	namespace ShortEncodingofWords
 	{
-	    int minimumLengthEncoding(vector<string>& words) {
-	        
-	    }
+		int minimumLengthEncoding(vector<string>& words) {
+			auto comp = [](string& a, string& b) {return a.size() > b.size(); };
+			sort(words.begin(), words.end(), comp);
+
+			unordered_map<string, int> map;
+			for (string& w : words) { map[w]++; }
+
+			int result = 0;
+
+			for (string& w : words) {
+				int len = w.size();
+				if (map[w] > 0) { result += len + 1; }
+
+				for (int i = len - 1; i >= 0; i--) {
+					string suffix = w.substr(i);
+					map[suffix] = 0;
+				}
+			}
+			return result;
+		}
+
+		namespace Another {
+			int minimumLengthEncoding(vector<string>& words) {
+				unordered_set<string> set(words.begin(), words.end());
+
+				for (string& w : words) {
+					for (int i = w.size() - 1; i > 0; i--) {
+						set.erase(w.substr(i));
+					}
+				}
+
+				int result = 0;
+				for (const string& w : set) { result += w.size() + 1; }
+				return result;
+			}
+
+		}
+
 
 		void Main() {
 			string test = "tst test test";

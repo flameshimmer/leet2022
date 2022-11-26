@@ -31,9 +31,25 @@ namespace Solution2022
 {
 	namespace BeautifulArrangement
 	{
-	    int countArrangement(int n) {
-	        
-	    }
+		void helper(int level, int n, vector<bool>& visited, int& result) {
+			if (level > n) { result++; return; }
+
+			for (int i = 1; i <= n; i++) {
+				if (visited[i] || (level % i != 0 && i % level != 0)) { continue; }
+				visited[i] = true;
+				helper(level + 1, n, visited, result);
+				visited[i] = false;
+			}
+		}
+
+		int countArrangement(int n) {
+			if (n == 1) { return 1; }
+
+			vector<bool> visited(n + 1, false);
+			int result = 0;
+			helper(1, n, visited, result);
+			return result;
+		}
 
 		void Main() {
 			string test = "tst test test";

@@ -204,6 +204,7 @@
     <ClCompile Include="CombinationSumIV.cpp" />
     <ClCompile Include="ComplementofBaseOneZeroInteger.cpp" />
     <ClCompile Include="ConcatenationofArray.cpp" />
+    <ClCompile Include="ConcatenationofConsecutiveBinaryNumbers.cpp" />
     <ClCompile Include="ConfusingNumber.cpp" />
     <ClCompile Include="ConstructBinaryTreefromInorderandPostorderTraversal.cpp" />
     <ClCompile Include="ConstructBinaryTreefromPreorderandInorderTraversal.cpp" />
@@ -418,6 +419,7 @@
     <ClCompile Include="MinimumDepthofBinaryTree.cpp" />
     <ClCompile Include="MinimumHealthtoBeatGame.cpp" />
     <ClCompile Include="MinimumIncrementtoMakeArrayUnique.cpp" />
+    <ClCompile Include="MinimumKnightMoves.cpp" />
     <ClCompile Include="MinimumNumberofOperationstoConvertTime.cpp" />
     <ClCompile Include="MinimumNumberofRemovalstoMakeMountainArray.cpp" />
     <ClCompile Include="MinimumOperationstoReduceXtoZero.cpp" />
@@ -494,6 +496,7 @@
     <ClCompile Include="RangeSumQueryMutable.cpp" />
     <ClCompile Include="RangeSumQueryTwoDImmutable.cpp" />
     <ClCompile Include="RangeSumQueryTwoDMutable.cpp" />
+    <ClCompile Include="RankTeamsbyVotes.cpp" />
     <ClCompile Include="RearrangeSpacesBetweenWords.cpp" />
     <ClCompile Include="ReconstructOriginalDigitsfromEnglish.cpp" />
     <ClCompile Include="ReducingDishes.cpp" />
@@ -513,6 +516,7 @@
     <ClCompile Include="ReorderDatainLogFiles.cpp" />
     <ClCompile Include="ReorderedPowerofTwo.cpp" />
     <ClCompile Include="ReorderList.cpp" />
+    <ClCompile Include="ReorganizeString.cpp" />
     <ClCompile Include="RepeatedSubstringPattern.cpp" />
     <ClCompile Include="RestoreIPAddresses.cpp" />
     <ClCompile Include="ReverseBits.cpp" />

@@ -26,13 +26,45 @@ namespace Solution2022
 {
 	namespace MinimumKnightMoves
 	{
-	    int minKnightMoves(int x, int y) {
-	        
-	    }
+		int minKnightMoves(int x, int y) {
+			if (x == 0 && y == 0) { return 0; }
+			x = abs(x);
+			y = abs(y);
+			if (x < y) { swap(x, y); }
+
+			vector<pair<int, int>> dirs = { {1, 2}, {1, -2}, {-1, 2}, {-1, -2}, {2, 1}, {2, -1}, {-2, 1}, {-2, -1} };
+			queue<pair<int, int>> q;
+			q.push({ 0, 0 });
+			unordered_set<int> visited;
+			visited.insert({ 0 });
+
+			int level = 0;
+			while (!q.empty()) {
+				int sz = q.size();
+				while (sz) {
+					sz--;
+					auto [curX, curY] = q.front();
+					q.pop();
+
+					if (curX == x && curY == y) { return level; }
+
+					for (auto [a, b] : dirs) {
+						int r = curX + a;
+						int c = curY + b;
+						if (r < c) { swap(r, c); }
+						int key = r * 1024 + c;
+						if (visited.find(key) != visited.end()) { continue; }
+						q.push({ r, c });
+						visited.insert(key);
+					}
+				}
+				level++;
+			}
+			return -1;
+		}
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			print(minKnightMoves(2, 112));
 		}
 	}
 }

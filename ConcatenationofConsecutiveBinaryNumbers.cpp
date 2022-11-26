@@ -31,13 +31,19 @@ namespace Solution2022
 {
 	namespace ConcatenationofConsecutiveBinaryNumbers
 	{
-	    int concatenatedBinary(int n) {
-	        
-	    }
+		int concatenatedBinary(int n) {
+			long long result = 0;
+			int mod = 1e9 + 7;
+
+			for (int i = 1; i <= n; i++) {
+				int len = log2(i) + 1;
+				result = ((result << len) % mod + i) % mod;
+			}
+			return result;
+		}
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			print(concatenatedBinary(3));
 		}
 	}
 }

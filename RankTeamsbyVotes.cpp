@@ -47,13 +47,28 @@ namespace Solution2022
 {
 	namespace RankTeamsbyVotes
 	{
-	    string rankTeams(vector<string>& votes) {
-	        
-	    }
+		string rankTeams(vector<string>& votes) {
+			vector<vector<int>> count(26, vector<int>(27, 0));
+			for (char c : votes[0]) {
+				count[c - 'A'][26] = c;
+			}
+
+			for (string& v : votes) {
+				for (int i = 0; i < v.size(); i++) {
+					count[v[i] - 'A'][i]--;
+				}
+			}
+			sort(count.begin(), count.end());
+			string result;
+			for (int i = 0; i < votes[0].size(); i++) {
+				result += count[i][26];
+			}
+			return result;
+		}
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			vector<string> test = { "ABC","ACB","ABC","ACB","ACB" };
+			print(rankTeams(test));
 		}
 	}
 }

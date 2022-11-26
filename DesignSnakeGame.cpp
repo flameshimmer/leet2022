@@ -52,24 +52,45 @@ namespace Solution2022
 {
 	namespace DesignSnakeGame
 	{
-	class SnakeGame {
-	    SnakeGame(int width, int height, vector<vector<int>>& food) {
-	        
-	    }
-	    
-	    int move(string direction) {
-	        
-	    }
-	​
-	/**
-	 * Your SnakeGame object will be instantiated and called as such:
-	 * SnakeGame* obj = new SnakeGame(width, height, food);
-	 * int param_1 = obj->move(direction);
-	 */
+		class SnakeGame {
+		public:
+			int rowCount;
+			int colCount;
+			int foodIndex;
+			vector<vector<int>> food;
+			deque<pair<int, int>> body;
+			SnakeGame(int width, int height, vector<vector<int>>& food) {
+				rowCount = height;
+				colCount = width;
+				foodIndex = 0;
+				this->food = food;
+				body.push_back({ 0, 0 });
+			}
 
-		void Main() {
-			string test = "tst test test";
-			print(test);
-		}
+			int move(string direction) {
+				int r = body.front().first;
+				int c = body.front().second;
+				if (direction == "U") { r--; }
+				else if (direction == "D") { r++; }
+				else if (direction == "L") { c--; }
+				else if (direction == "R") { c++; }
+
+				if (r < 0 || r >= rowCount || c < 0 || c >= colCount) { return -1; }
+				pair<int, int> tmp = { r, c };
+				if (find(body.begin(), body.end(), tmp) != body.end() && tmp != body.back()) { return -1; }
+
+				body.push_front(tmp);
+				if (foodIndex < food.size() && food[foodIndex][0] == r && food[foodIndex][1] == c) { foodIndex++; }
+				else { body.pop_back(); }
+
+				return foodIndex;
+			}
+		};
+
+
+		/**
+		 * Your SnakeGame object will be instantiated and called as such:
+		 * SnakeGame* obj = new SnakeGame(width, height, food);
+		 * int param_1 = obj->move(direction);
+		 */
 	}
-}

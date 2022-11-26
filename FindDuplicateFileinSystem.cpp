@@ -52,9 +52,34 @@ namespace Solution2022
 {
 	namespace FindDuplicateFileinSystem
 	{
-	    vector<vector<string>> findDuplicate(vector<string>& paths) {
-	        
-	    }
+		vector<vector<string>> findDuplicate(vector<string>& paths) {
+			vector<vector<string>> results;
+			int len = paths.size();
+			if (len == 0) { return results; }
+
+			unordered_map<string, vector<string>> map;
+			for (string& path : paths) {
+				int pos = path.find(' ');
+				string p1 = path.substr(0, pos);
+				string p2 = path.substr(pos + 1);
+
+				istringstream ss(p2);
+				string cur;
+				while (getline(ss, cur, ' ')) {
+					int posP = cur.find('(');
+					string filename = cur.substr(0, posP);
+					string content = cur.substr(posP + 1);
+					content.pop_back();
+					map[content].push_back(p1 + "/" + filename);
+				}
+			}
+			for (auto& [k, v] : map) {
+				if (v.size() > 1) {
+					results.push_back(v);
+				}
+			}
+			return results;
+		}
 
 		void Main() {
 			string test = "tst test test";
