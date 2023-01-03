@@ -94,3 +94,5 @@ namespace Solution2022
 		 * int param_1 = obj->move(direction);
 		 */
 	}
+
+}

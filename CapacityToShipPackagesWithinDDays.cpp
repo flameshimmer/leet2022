@@ -51,9 +51,41 @@ namespace Solution2022
 {
 	namespace CapacityToShipPackagesWithinDDays
 	{
-	    int shipWithinDays(vector<int>& weights, int days) {
-	        
-	    }
+		bool canShip(vector<int>& weights, int load, int days) {
+			int d = 1; // NOTE: d should start from 1!!!
+			int cur = 0;
+			for (int w : weights) {
+				if (cur + w > load) {
+					d++;
+					cur = 0;
+				}
+				cur += w;
+			}
+			return d <= days;
+		}
+
+		int shipWithinDays(vector<int>& weights, int days) {
+			int len = weights.size();
+			if (len == 0 || days == 0) { return 0; }
+
+			int l = 0;
+			int r = 0;
+			for (int v : weights) {
+				l = max(l, v);
+				r += v;
+			}
+
+			while (l < r) {
+				int m = l + (r - l) / 2;
+				if (canShip(weights, m, days)) {
+					r = m;
+				}
+				else {
+					l = m + 1;
+				}
+			}
+			return l;
+		}
 
 		void Main() {
 			string test = "tst test test";

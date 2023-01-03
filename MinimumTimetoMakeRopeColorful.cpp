@@ -41,9 +41,16 @@ namespace Solution2022
 {
 	namespace MinimumTimetoMakeRopeColorful
 	{
-	    int minCost(string colors, vector<int>& neededTime) {
-	        
-	    }
+		int minCost(string s, vector<int>& cost) {
+			int result = 0;
+			int maxCost = 0;
+			for (int i = 0; i < cost.size(); i++) {
+				if (i == 0 || s[i] != s[i - 1]) { maxCost = 0; }
+				result += min(maxCost, cost[i]);
+				maxCost = max(maxCost, cost[i]);
+			}
+			return result;
+		}
 
 		void Main() {
 			string test = "tst test test";

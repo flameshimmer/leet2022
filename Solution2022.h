@@ -2,6 +2,7 @@ namespace Solution2022
 {
 	namespace Test { void Main(); }
 
+	namespace MaximumNumberOfBooksYouCanTake { void Main(); }
 	namespace MinimumAdjacentSwapstoMakeAValidArray { void Main(); }
 	namespace ValidPhoneNumbers { void Main(); }
 	namespace MakeArrayZeroBySubtractingEqualAmounts { void Main(); }

@@ -39,9 +39,44 @@ namespace Solution2022
 {
 	namespace NumberofWaysofCuttingaPizza
 	{
-	    int ways(vector<string>& pizza, int k) {
-	        
-	    }
+
+		int ways(vector<string>& pizza, int k) {
+			int kMod = 1e9 + 7;
+			int rowCount = pizza.size();
+			int colCount = pizza[0].size();
+
+			vector<vector<int>> A(rowCount + 1, vector<int>(colCount + 1));
+			for (int i = 0; i < rowCount; i++) {
+				for (int j = 0; j < colCount; j++) {
+					A[i + 1][j + 1] = A[i][j + 1] + A[i + 1][j] + (pizza[i][j] == 'A') - A[i][j];
+				}
+			}
+
+			auto hasApple = [&](int x1, int y1, int x2, int y2) {
+				return A[y2 + 1][x2 + 1] - A[y2 + 1][x1] - A[y1][x2 + 1] + A[y1][x1] > 0;
+			};
+			
+			
+			vector<vector<vector<int>>> M(rowCount, vector<vector<int>>(colCount, vector<int>(k, -1)));
+
+			function<int(int, int, int)> helper = [&](int row, int col, int k) -> int {
+				if (k == 0) { return hasApple(col, row, colCount - 1, rowCount - 1); }
+				if (M[row][col][k] != -1) { return M[row][col][k]; }
+
+				int result = 0;
+				for (int i = row; i < rowCount - 1; i++) {
+					result = (result + hasApple(col, row, colCount -1, i) * helper(i+1, col, k-1)) % kMod;
+				}
+
+				for (int j = col; j < colCount - 1; j++) {
+					result = (result + hasApple(col, row, j, rowCount - 1) * helper(row, j + 1, k-1)) % kMod;
+				}
+				M[row][col][k] = result;
+				return result;
+			};
+			return M[0][0][k - 1];
+		}
+
 
 		void Main() {
 			string test = "tst test test";

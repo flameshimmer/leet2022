@@ -27,20 +27,35 @@ namespace Solution2022
 {
 	namespace SplitBST
 	{
-	/**
-	 * Definition for a binary tree node.
-	 * struct TreeNode {
-	 *     int val;
-	 *     TreeNode *left;
-	 *     TreeNode *right;
-	 *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
-	 *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
-	 *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
-	 * };
-	 */
-	    vector<TreeNode*> splitBST(TreeNode* root, int target) {
-	        
-	    }
+		/**
+		 * Definition for a binary tree node.
+		 * struct TreeNode {
+		 *     int val;
+		 *     TreeNode *left;
+		 *     TreeNode *right;
+		 *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+		 *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+		 *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+		 * };
+		 */
+		vector<TreeNode*> splitBST(TreeNode* root, int target) {
+			vector<TreeNode*> result(2, nullptr);
+			if (!root) { return result; }
+
+			if (root->val > target) {
+				result[1] = root;
+				vector<TreeNode*> leftResult = splitBST(root->left, target);
+				root->left = leftResult[1];
+				result[0] = leftResult[0];
+			}
+			else {
+				result[0] = root;
+				vector<TreeNode*> rightResult = splitBST(root->right, target);
+				root->right = rightResult[0];
+				result[1] = rightResult[1];
+			}
+			return result;
+		}
 
 		void Main() {
 			string test = "tst test test";

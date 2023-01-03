@@ -26,9 +26,33 @@ namespace Solution2022
 {
 	namespace NumberofDistinctIslands
 	{
-	    int numDistinctIslands(vector<vector<int>>& grid) {
-	        
-	    }
+		void helper(int i, int j, int r, int c, int rowCount, int colCount, string& key, vector<vector<int>>& grid) {
+			if (r < 0 || r >= rowCount || c < 0 || c >= colCount || grid[r][c] == 0) { return; }
+			grid[r][c] = 0;
+			key += to_string(r - i) + to_string(c - j);
+			helper(i, j, r + 1, c, rowCount, colCount, key, grid);
+			helper(i, j, r - 1, c, rowCount, colCount, key, grid);
+			helper(i, j, r, c + 1, rowCount, colCount, key, grid);
+			helper(i, j, r, c - 1, rowCount, colCount, key, grid);
+		}
+
+
+		int numDistinctIslands(vector<vector<int>>& grid) {
+			int rowCount = grid.size();
+			int colCount = grid[0].size();
+
+			unordered_set<string> set;
+			for (int i = 0; i < rowCount; i++) {
+				for (int j = 0; j < colCount; j++) {
+					if (grid[i][j]) {
+						string key;
+						helper(i, j, i, j, rowCount, colCount, key, grid);
+						set.insert(key);
+					}
+				}
+			}
+			return set.size();
+		}
 
 		void Main() {
 			string test = "tst test test";

@@ -23,7 +23,23 @@ namespace Solution2022
 	namespace MaximumSwap
 	{
 	    int maximumSwap(int num) {
-	        
+			string s = to_string(num);
+			int len = s.size();
+			vector<int> bucket(10, -1);
+
+			for (int i = 0; i < len; i++) {
+				bucket[s[i] - '0'] = i;
+			}
+
+			for (int i = 0; i < len; i++) {
+				for (int j = 9; j > s[i] - '0'; j--) {
+					if (bucket[j] > i) {
+						swap(s[i], s[bucket[j]]);
+						return stoi(s);
+					}
+				}
+			}
+			return num;
 	    }
 
 		void Main() {

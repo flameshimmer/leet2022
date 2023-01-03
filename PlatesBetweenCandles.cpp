@@ -41,13 +41,67 @@ namespace Solution2022
 {
 	namespace PlatesBetweenCandles
 	{
-	    vector<int> platesBetweenCandles(string s, vector<vector<int>>& queries) {
-	        
-	    }
+
+		vector<int> platesBetweenCandles(string s, vector<vector<int>>& qs) {
+			int len = qs.size();
+			if (len == 0) { return {}; }
+
+			unordered_map<int, int> map;
+			vector<int> candleIndex;
+			int platCount = 0;
+			bool seenCandle = false;
+			for (int i = 0; i < s.size(); i++) {
+				char c = s[i];
+				if (c == '*') { platCount++; }
+				else if (c == '|') {
+					candleIndex.push_back(i);
+					if (!seenCandle) { platCount = 0; seenCandle = true; }
+					else {
+						map[i] = platCount;
+					}
+				}				
+			}
+
+			vector<int> result;
+			for (vector<int>& q : qs) {
+				int start = q[0];
+				int end = q[1];
+				
+				auto i = lower_bound(candleIndex.begin(), candleIndex.end(), start);
+				auto j = lower_bound(candleIndex.begin(), candleIndex.end(), end);
+				if (i == candleIndex.end() || i == j) { result.push_back(0); continue; }
+				if (j == candleIndex.end() || *j != end) { j = prev(j); }
+				if (j >= i) { result.push_back(map[*j] - map[*i]); }
+			}
+			return result;
+		}
+
+
+		namespace ON2 {
+			vector<int> platesBetweenCandles(string s, vector<vector<int>>& qs) {
+				int len = qs.size();
+				if (len == 0) { return {}; }
+
+				vector<int> result;
+				for (vector<int>& q : qs) {
+					int start = q[0];
+					int end = q[1];
+					string temp = s.substr(start, end - start + 1);
+					int b1 = temp.find_first_of('|');
+					int b2 = temp.find_last_of('|');
+					if (b1 == -1 || b1 == b2) { result.push_back(0); continue; }
+					int count = 0;
+					for (int i = b1; i <= b2; i++) { if (temp[i] == '*') { count++; } }
+					result.push_back(count);
+				}
+				return result;
+			}
+		}
+		
 
 		void Main() {
-			string test = "tst test test";
-			print(test);
+			vector<vector<int>> test = { {1,17},{4,5},{14,17},{5,11},{15,16} };
+			print(platesBetweenCandles("***|**|*****|**||**|*", test));
 		}
 	}
 }

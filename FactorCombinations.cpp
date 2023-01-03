@@ -27,8 +27,24 @@ namespace Solution2022
 {
 	namespace FactorCombinations
 	{
+		void helper(int n, int v, vector<int>& result, vector<vector<int>>& results) {
+			for (int i = v; i <= sqrt(n); i++) {
+				if (n % i == 0) {
+					vector<int> copy = result;
+					copy.push_back(i);
+					helper(n / i, i, copy, results);
+					copy.push_back(n / i);
+					results.push_back(copy);
+				}
+			}
+		}
+
+
 	    vector<vector<int>> getFactors(int n) {
-	        
+			vector<vector<int>> results;
+			vector<int> result;
+			helper(n, 2, result, results);
+			return results;
 	    }
 
 		void Main() {

@@ -50,9 +50,51 @@ namespace Solution2022
 {
 	namespace CheapestFlightsWithinKStops
 	{
-	    int findCheapestPrice(int n, vector<vector<int>>& flights, int src, int dst, int k) {
-	        
-	    }
+
+		namespace Dijkstra {
+			int findCheapestPrice(int n, vector<vector<int>>& flights, int src, int dst, int k) {
+				vector<vector<pair<int, int>>>adj(n);
+				for (vector<int>& f : flights) { adj[f[0]].push_back({ f[1], f[2] }); }
+
+				vector<int> stops(n, INT_MAX);
+				stops[src] = 0;
+
+				typedef tuple<int, int, int> ti;
+				priority_queue<ti, vector<ti>, greater<ti>> pq;
+				pq.push({ 0, src, 0 });
+
+				while (!pq.empty()) {
+					auto [cost, u, stop] = pq.top();
+					pq.pop();
+
+					if (stop > k + 1 || stop > stops[u]) { continue; }
+					stops[u] = stop;
+
+					if (u == dst) { return cost; }
+
+					for (auto [v, c] : adj[u]) {
+						pq.push({ cost + c, v, stop + 1 });
+					}
+				}
+				return -1;
+			}
+		}
+
+		namespace BellmanFord {
+			int findCheapestPrice(int n, vector<vector<int>>& flights, int src, int dst, int k) {
+				vector<long long> c(n, INT_MAX);
+				c[src] = 0;
+
+				for (int i = 0; i <= k; i++) {
+					vector<long long> C(c);
+					for (auto& f : flights) {
+						C[f[1]] = min(C[f[1]], c[f[0]] + f[2]);
+					}
+					c = C;
+				}
+				return c[dst] == INT_MAX ? -1 : c[dst];
+			}
+		}
 
 		void Main() {
 			string test = "tst test test";

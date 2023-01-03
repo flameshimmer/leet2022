@@ -1473,6 +1473,24 @@
     <ClCompile Include="RankTeamsbyVotes.cpp">
       <Filter>Solution2022</Filter>
     </ClCompile>
+    <ClCompile Include="AllNodesDistanceKinBinaryTree.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="ShortEncodingofWords.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="BeautifulArrangement.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="DesignSnakeGame.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="MaximumNumberOfBooksYouCanTake.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
+    <ClCompile Include="PlatesBetweenCandles.cpp">
+      <Filter>Solution2022</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Solution2022.h">

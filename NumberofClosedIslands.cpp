@@ -35,9 +35,38 @@ namespace Solution2022
 {
 	namespace NumberofClosedIslands
 	{
-	    int closedIsland(vector<vector<int>>& grid) {
-	        
-	    }
+		void helper(int i, int j, int rowCount, int colCount, vector<vector<int>>& grid) {
+			if (i < 0 || i >= rowCount || j < 0 || j >= colCount || grid[i][j] == 1) { return; }
+			grid[i][j] = 1;
+			helper(i - 1, j, rowCount, colCount, grid);
+			helper(i + 1, j, rowCount, colCount, grid);
+			helper(i, j - 1, rowCount, colCount, grid);
+			helper(i, j + 1, rowCount, colCount, grid);
+		}
+
+		int closedIsland(vector<vector<int>>& grid) {
+			int rowCount = grid.size();
+			int colCount = grid[0].size();
+
+			for (int i = 0; i < rowCount; i++) {
+				for (int j = 0; j < colCount; j++) {
+					if (grid[i][j] == 0 && (i == 0 || j == 0 || i == rowCount - 1 || j == colCount - 1)) {
+						helper(i, j, rowCount, colCount, grid);
+					}
+				}
+			}
+
+			int result = 0;
+			for (int i = 0; i < rowCount; i++) {
+				for (int j = 0; j < colCount; j++) {
+					if (grid[i][j] == 0) {
+						result++;
+						helper(i, j, rowCount, colCount, grid);
+					}
+				}
+			}
+			return result;
+		}
 
 		void Main() {
 			string test = "tst test test";

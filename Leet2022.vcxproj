@@ -156,6 +156,7 @@
     <ClCompile Include="AddTwoNumbers.cpp" />
     <ClCompile Include="AlertUsingSameKeyCardThreeorMoreTimesinaOneHourPeriod.cpp" />
     <ClCompile Include="AlienDictionary.cpp" />
+    <ClCompile Include="AllNodesDistanceKinBinaryTree.cpp" />
     <ClCompile Include="AllPossibleFullBinaryTrees.cpp" />
     <ClCompile Include="AmountofNewAreaPaintedEachDay.cpp" />
     <ClCompile Include="AnalyzeUserWebsiteVisitPattern.cpp" />
@@ -165,6 +166,7 @@
     <ClCompile Include="BasicCalculator.cpp" />
     <ClCompile Include="BasicCalculatorIII.cpp" />
     <ClCompile Include="BattleshipsinaBoard.cpp" />
+    <ClCompile Include="BeautifulArrangement.cpp" />
     <ClCompile Include="BestPositionforaServiceCentre.cpp" />
     <ClCompile Include="BestTimetoBuyandSellStock.cpp" />
     <ClCompile Include="BestTimetoBuyandSellStockII.cpp" />
@@ -246,6 +248,7 @@
     <ClCompile Include="DesignHitCounter.cpp" />
     <ClCompile Include="DesignInMemoryFileSystem.cpp" />
     <ClCompile Include="DesignSearchAutocompleteSystem.cpp" />
+    <ClCompile Include="DesignSnakeGame.cpp" />
     <ClCompile Include="DetectSquares.cpp" />
     <ClCompile Include="DiameterofBinaryTree.cpp" />
     <ClCompile Include="DivideTwoIntegers.cpp" />
@@ -382,6 +385,7 @@
     <ClCompile Include="MaximumFrequencyStack.cpp" />
     <ClCompile Include="MaximumLengthofRepeatedSubarray.cpp" />
     <ClCompile Include="MaximumNumberofAcceptedInvitations.cpp" />
+    <ClCompile Include="MaximumNumberOfBooksYouCanTake.cpp" />
     <ClCompile Include="MaximumNumberofPointswithCost.cpp" />
     <ClCompile Include="MaximumNumberofVisiblePoints.cpp" />
     <ClCompile Include="MaximumPointsYouCanObtainfromCards.cpp" />
@@ -483,6 +487,7 @@
     <ClCompile Include="PerfectSquares.cpp" />
     <ClCompile Include="PermutationinString.cpp" />
     <ClCompile Include="Permutations.cpp" />
+    <ClCompile Include="PlatesBetweenCandles.cpp" />
     <ClCompile Include="PlusOne.cpp" />
     <ClCompile Include="PopulatingNextRightPointersinEachNode.cpp" />
     <ClCompile Include="Pow.cpp" />
@@ -542,6 +547,7 @@
     <ClCompile Include="SerializeandDeserializeBinaryTree.cpp" />
     <ClCompile Include="SerializeandDeserializeBST.cpp" />
     <ClCompile Include="SetMatrixZeroes.cpp" />
+    <ClCompile Include="ShortEncodingofWords.cpp" />
     <ClCompile Include="ShortestDistancefromAllBuildings.cpp" />
     <ClCompile Include="ShortestPathinaGridwithObstaclesElimination.cpp" />
     <ClCompile Include="ShortestPathinBinaryMatrix.cpp" />

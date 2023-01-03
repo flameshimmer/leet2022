@@ -26,9 +26,11 @@ namespace Solution2022
 {
 	namespace MaximumNumberofBalloons
 	{
-	    int maxNumberOfBalloons(string text) {
-	        
-	    }
+		int maxNumberOfBalloons(string text) {
+			unordered_map<char, int> map;
+			for (char c : text) { map[c] ++; }
+			return min(map['b'], min(map['a'], min(map['l'] / 2, min(map['o'] / 2, map['n']))));
+		}
 
 		void Main() {
 			string test = "tst test test";

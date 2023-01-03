@@ -40,6 +40,7 @@ namespace Solution2022
 {
 	namespace MinimizeDeviationinArray
 	{
+		// https://www.youtube.com/watch?v=l_o4fp6BHYY
 	    int minimumDeviation(vector<int>& nums) {
 			priority_queue<int> evens;
 			int minV = INT_MAX;

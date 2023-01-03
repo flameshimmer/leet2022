@@ -21,20 +21,37 @@ namespace Solution2022
 {
 	namespace ClosestBinarySearchTreeValue
 	{
-	/**
-	 * Definition for a binary tree node.
-	 * struct TreeNode {
-	 *     int val;
-	 *     TreeNode *left;
-	 *     TreeNode *right;
-	 *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
-	 *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
-	 *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
-	 * };
-	 */
-	    int closestValue(TreeNode* root, double target) {
-	        
-	    }
+		/**
+		 * Definition for a binary tree node.
+		 * struct TreeNode {
+		 *     int val;
+		 *     TreeNode *left;
+		 *     TreeNode *right;
+		 *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+		 *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+		 *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+		 * };
+		 */
+
+		void helper(TreeNode* node, double target, double& minDist, int& result) {
+			if (!node) { return; }
+			double curDist = abs(node->val - target);
+			if (curDist < minDist) {
+				minDist = curDist;
+				result = node->val;
+			}
+			if (target < node->val) { helper(node->left, target, minDist, result); }
+			else if (target > node->val) { helper(node->right, target, minDist, result); }
+		}
+
+		int closestValue(TreeNode* root, double target) {
+			if (!root) { return -1; }
+
+			double minDist = DBL_MAX;
+			int result = -1;
+			helper(root, target, minDist, result);
+			return result;
+		}
 
 		void Main() {
 			string test = "tst test test";

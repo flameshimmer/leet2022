@@ -34,8 +34,21 @@ namespace Solution2022
 {
 	namespace MeetingScheduler
 	{
-	    vector<int> minAvailableDuration(vector<vector<int>>& slots1, vector<vector<int>>& slots2, int duration) {
-	        
+	    vector<int> minAvailableDuration(vector<vector<int>>& s1, vector<vector<int>>& s2, int duration) {
+			sort(s1.begin(), s1.end());
+			sort(s2.begin(), s2.end());
+			int i = 0; 
+			int j = 0;
+			while (i < s1.size() && j < s2.size()) {
+				int maxStartTime = max(s1[i][0], s2[j][0]);
+				int minEndTime = min(s1[i][1], s2[j][1]);
+				if (maxStartTime+duration <= minEndTime) {
+					return { maxStartTime, maxStartTime + duration };
+				}
+				if (s1[i][0] < s2[j][0]) { i++; }
+				else { j++; }
+			}
+			return {};
 	    }
 
 		void Main() {

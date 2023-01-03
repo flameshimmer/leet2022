@@ -42,7 +42,19 @@ namespace Solution2022
 	namespace MaximalNetworkRank
 	{
 	    int maximalNetworkRank(int n, vector<vector<int>>& roads) {
-	        
+			vector<unordered_set<int>> g(n);
+			for (vector<int>& r : roads) {
+				g[r[0]].insert(r[1]);
+				g[r[1]].insert(r[0]);
+			}
+
+			int result = 0;
+			for (int i = 0; i < n; i++) {
+				for (int j = i+1; j < n; j++) {
+					result = max(result, (int)g[i].size() + (int)g[j].size() - (g[i].find(j) != g[i].end()));
+				}
+			}
+			return result;
 	    }
 
 		void Main() {

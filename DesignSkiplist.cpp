@@ -53,30 +53,82 @@ namespace Solution2022
 {
 	namespace DesignSkiplist
 	{
-	class Skiplist {
-	    Skiplist() {
-	        
-	    }
-	    
-	    bool search(int target) {
-	        
-	    }
-	    
-	    void add(int num) {
-	        
-	    }
-	    
-	    bool erase(int num) {
-	        
-	    }
-	​
-	/**
-	 * Your Skiplist object will be instantiated and called as such:
-	 * Skiplist* obj = new Skiplist();
-	 * bool param_1 = obj->search(target);
-	 * obj->add(num);
-	 * bool param_3 = obj->erase(num);
-	 */
+
+		class Node {
+		public:
+			int val;
+			Node* next;
+			Node* down;
+			Node(int v = -1, Node * next = nullptr, Node * down = nullptr) :val(v), next(next), down(down) {}
+		};
+
+
+		class Skiplist {
+		private:
+			int level;
+			Node* dummyHead;
+		public:
+			Skiplist() {
+				dummyHead = new Node(-1, nullptr, nullptr);
+				level = 0;
+			}
+
+			bool search(int target) {
+				Node* node = dummyHead;
+				while (node) {
+					while (node->next && node->next->val < target) { node = node->next; }
+					if (node->next && node->next->val == target) { return true; }
+					node = node->down;
+				}
+				return false;
+			}
+
+			void add(int num) {
+				int randomLevel = 1;
+				while (randomLevel <= level && (rand() & 1)) { randomLevel++; }
+
+				if (randomLevel > level) {
+					level = randomLevel;
+					dummyHead = new Node(-1, nullptr, dummyHead);
+				}
+
+				Node* node = dummyHead;
+				Node* last = nullptr;
+				for (int l = level; l >= 1; l--) {
+					while (node->next && node->next->val < num) { node = node->next; }
+					if (l <= randomLevel) {
+						node->next = new Node(num, node->next, nullptr);
+						if (last) { last->down = node->next; }
+						last = node->next;
+					}
+					node = node->down; // The existence of dummyHead ensures the node won't be nullptr
+				}
+			}
+
+			bool erase(int num) {
+				Node* node = dummyHead;
+				bool found = false;
+				while (node) {
+					while (node->next && node->next->val < num) { node = node->next; }
+					if (node->next && node->next->val == num) {
+						Node* tmp = node->next;
+						node->next = node->next->next;
+						delete tmp;
+						found = true;
+					}
+					node = node->down;
+				}
+				return found;
+			}
+		};
+
+		/**
+		 * Your Skiplist object will be instantiated and called as such:
+		 * Skiplist* obj = new Skiplist();
+		 * bool param_1 = obj->search(target);
+		 * obj->add(num);
+		 * bool param_3 = obj->erase(num);
+		 */
 
 		void Main() {
 			string test = "tst test test";
