@@ -28,9 +28,34 @@ namespace Solution2022
 {
 	namespace WallsandGates
 	{
-	    void wallsAndGates(vector<vector<int>>& rooms) {
-	        
-	    }
+		void wallsAndGates(vector<vector<int>>& rooms) {
+			int rowCount = rooms.size();
+			int colCount = rooms[0].size();
+
+			queue<pair<int, int>> q;
+			vector<pair<int, int>> dirs = { {1, 0}, {0, 1}, {-1, 0}, {0, -1} };
+
+			for (int i = 0; i < rowCount; i++) {
+				for (int j = 0; j < colCount; j++) {
+					if (rooms[i][j] == 0) {
+						q.push({ i, j });
+					}
+				}
+			}
+
+			while (!q.empty()) {
+				auto [x, y] = q.front();
+				q.pop();
+
+				for (auto [a, b] : dirs) {
+					int xx = x + a;
+					int yy = y + b;
+					if (xx < 0 || xx >= rowCount || yy < 0 || yy >= colCount || rooms[xx][yy] == -1 || rooms[xx][yy] <= rooms[x][y] + 1) { continue; }
+					rooms[xx][yy] = rooms[x][y] + 1;
+					q.push({ xx, yy });
+				}
+			}
+		}
 
 		void Main() {
 			string test = "tst test test";

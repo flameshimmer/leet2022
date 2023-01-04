@@ -29,7 +29,25 @@ namespace Solution2022
 	namespace CountNumberofNiceSubarrays
 	{
 	    int numberOfSubarrays(vector<int>& nums, int k) {
-	        
+			int result = 0;
+			int start = 0;
+			int count = 0;
+			int len = nums.size();
+
+			for (int end = 0; end < len; end++) {
+				if (nums[end] & 1) {
+					k--;
+					count = 0;
+				}
+
+				while (k == 0) {
+					k += nums[start] & 1;
+					start++;
+					count++;
+				}
+				result += count;
+			}
+			return result;
 	    }
 
 		void Main() {

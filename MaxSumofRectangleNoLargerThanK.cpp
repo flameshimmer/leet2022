@@ -28,9 +28,37 @@ namespace Solution2022
 {
 	namespace MaxSumofRectangleNoLargerThanK
 	{
-	    int maxSumSubmatrix(vector<vector<int>>& matrix, int k) {
-	        
-	    }
+		int helper(vector<int>& row, int k) {
+			set<int> set({ 0 });
+			int sum = 0;
+			int result = INT_MIN;
+			for (int i = 0; i < row.size(); i++) {
+				sum += row[i];
+				auto it = set.lower_bound(sum - k);
+				if (it != set.end()) {
+					result = max(result, sum - *it);
+				}
+				set.insert(sum);
+			}
+			return result;
+		}
+
+		int maxSumSubmatrix(vector<vector<int>>& m, int k) {
+			int rowCount = m.size();
+			int colCount = m[0].size();
+			int result = INT_MIN;
+
+			for (int i = 0; i < rowCount; i++) {
+				vector<int> row(colCount, 0);
+				for (int j = i; j < rowCount; j++) {
+					for (int k = 0; k < colCount; k++) {
+						row[k] += m[j][k];
+					}
+					result = max(result, helper(row, k));
+				}
+			}
+			return result;
+		}
 
 		void Main() {
 			string test = "tst test test";

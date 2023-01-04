@@ -73,35 +73,52 @@ namespace Solution2022
 {
 	namespace DesignaTextEditor
 	{
-	class TextEditor {
-	    TextEditor() {
-	        
-	    }
-	    
-	    void addText(string text) {
-	        
-	    }
-	    
-	    int deleteText(int k) {
-	        
-	    }
-	    
-	    string cursorLeft(int k) {
-	        
-	    }
-	    
-	    string cursorRight(int k) {
-	        
-	    }
-	​
-	/**
-	 * Your TextEditor object will be instantiated and called as such:
-	 * TextEditor* obj = new TextEditor();
-	 * obj->addText(text);
-	 * int param_2 = obj->deleteText(k);
-	 * string param_3 = obj->cursorLeft(k);
-	 * string param_4 = obj->cursorRight(k);
-	 */
+		class TextEditor {
+		private:
+			string before;
+			string after;
+		public:
+			TextEditor() {
+
+			}
+
+			void addText(string text) {
+				before += text;
+			}
+
+			int deleteText(int k) {
+				k = min(k, (int)before.size());
+				before.resize((int)before.size() - k);
+				return k;
+			}
+
+			string cursorLeft(int k) {
+				while (k > 0 && !before.empty()) {
+					after.push_back(before.back());
+					before.pop_back();
+					k--;
+				}
+				return before.substr(before.size() - min(10, (int)before.size()));
+			}
+
+			string cursorRight(int k) {
+				while (k > 0 && !after.empty()) {
+					before.push_back(after.back());
+					after.pop_back();
+					k--;
+				}
+				return before.substr(before.size() - min(10, (int)before.size()));
+			}
+		};
+
+		/**
+		 * Your TextEditor object will be instantiated and called as such:
+		 * TextEditor* obj = new TextEditor();
+		 * obj->addText(text);
+		 * int param_2 = obj->deleteText(k);
+		 * string param_3 = obj->cursorLeft(k);
+		 * string param_4 = obj->cursorRight(k);
+		 */
 
 		void Main() {
 			string test = "tst test test";
